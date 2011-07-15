@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://my.netscape.com/rdf/simple/0.9/">
+
+<channel>
+<title>Shacknews</title>
+<link>http://www.shacknews.com/</link>
+<description>Shacknews - Game and Hardware news</description>
+</channel>
+<item>
+<title>Will Wright Honored (Again)</title>
+<link>http://www.shacknews.com/onearticle.x/42242</link>
+</item>
+<item>
+<title>New Catalyst Release</title>
+<link>http://www.shacknews.com/onearticle.x/42241</link>
+</item>
+<item>
+<title>Supreme Commander Trailer</title>
+<link>http://www.shacknews.com/onearticle.x/42240</link>
+</item>
+<item>
+<title>Half-Life 2: Episode One GOLD GOLD</title>
+<link>http://www.shacknews.com/onearticle.x/42239</link>
+</item>
+<item>
+<title>Ghost Recon: Advanced Warfighter MP Update Plans</title>
+<link>http://www.shacknews.com/onearticle.x/42238</link>
+</item>
+<item>
+<title>Dark Messiah of Might &amp; Magic Beta Signup</title>
+<link>http://www.shacknews.com/onearticle.x/42237</link>
+</item>
+<item>
+<title>Ghost Recon: Advanced Warfighter Patch</title>
+<link>http://www.shacknews.com/onearticle.x/42236</link>
+</item>
+<item>
+<title>Battlefield 2: Armored Fury Q&amp;A</title>
+<link>http://www.shacknews.com/onearticle.x/42234</link>
+</item>
+<item>
+<title>E3 Impressions</title>
+<link>http://www.shacknews.com/onearticle.x/42233</link>
+</item>
+<item>
+<title>Game Reviews</title>
+<link>http://www.shacknews.com/onearticle.x/42232</link>
+</item>
+<item>
+<title>Hardware Reviews</title>
+<link>http://www.shacknews.com/onearticle.x/42231</link>
+</item>
+<item>
+<title>Late Night Consoling</title>
+<link>http://www.shacknews.com/onearticle.x/42230</link>
+</item>
+<item>
+<title>IEMA Updates PC Packaging, Merges with VSDA</title>
+<link>http://www.shacknews.com/onearticle.x/42229</link>
+</item>
+<item>
+<title>New Age of Empires 3 Patch</title>
+<link>http://www.shacknews.com/onearticle.x/42228</link>
+</item>
+<item>
+<title>Ken Rolston Q&amp;A</title>
+<link>http://www.shacknews.com/onearticle.x/42227</link>
+</item>
+
+</rdf:RDF>

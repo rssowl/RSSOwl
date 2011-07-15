@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://wirelessbusiness.blogs.com/weblog/">
+<title>Wireless Business Applications</title>
+<link>http://wirelessbusiness.blogs.com/weblog/</link>
+<description>New Rules, New Tools</description>
+<dc:language>en-US</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-15T21:10:38-04:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.typepad.com/" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2006/05/wireless_data_d.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/12/peter_drucker_p.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/12/inexpensive_wir.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/12/ideas_for_wirel.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/10/wireless_and_hu.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/10/bonars_rule_of_.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/10/how_could_a_mob.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/10/tiny_keyboards_.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/10/five_reasons_fo.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/10/wireless_device.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/09/how_to_phrase_e.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/09/why_wireless_an.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/07/the_tyranny_of_.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/07/wireless_email_.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/07/mobile_internet.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/06/great_roi_at_cs.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/06/how_analyze_a_u.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/06/user_interface_.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/06/form_factor_fal.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/06/survival_of_the.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/06/who_buys_wirele.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/05/customizable_wi.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/05/pda_shipment_da.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/04/little_points_o_1.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/04/wireless_email_.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2005/02/choosing_betwee.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/keep_mobile_app.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/there_will_be_a.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/selling_wireles.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/device_stupidit.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/mike_masnick_at.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/2009_the_year_o.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/focus_on_who_is.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/return_on_inves.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/05/why_every_wirel.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/04/what_real_wirel.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/04/forbes_magazine.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/04/what_is_needed_.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/04/russell_beattie.html" />
+<rdf:li rdf:resource="http://wirelessbusiness.blogs.com/weblog/2004/04/battle_cry_50_i.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2006/05/wireless_data_d.html">
+<title>Wireless data does not necessarily mean wireless email</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2006/05/wireless_data_d.html</link>
+<description>Many in the wireless industry confound wireless data and wireless email. While wireless email is currently the most visible wireless data application, this will not be so in the future. RIM has just announced a version of their BlackBerry Enterprise Server that does not support email, only wireless data applications. As Richard Martin in UnStrung describes it: As companies look for ways to roll out more enterprise applications to mobile workers, many assume that any new apps will run on a device primarily intended for mobile email, such as a BlackBerry or a Treo. Now, BlackBerry maker Research In Motion Ltd. (RIM) (Nasdaq: RIMM - message board; Toronto: RIM) says it will deconstruct that equation with the release this fall of a new version of its BlackBerry Enterprise Server that will enable companies to provide mobile applications to BlackBerry devices that don&apos;t necessarily have a corporate email account. (See RIM&apos;s...</description>
+<content:encoded><![CDATA[<p>Many in the wireless industry confound wireless data and wireless email. While wireless email is currently the most visible wireless data application, this will not be so in the future. RIM has just announced <a href="http://www.rim.net/news/press/2006/pr-15_05_2006-01.shtml">a version of their BlackBerry Enterprise Server that does not support email</a>, only wireless data applications.</p>
+
+<p>As Richard Martin in <a href="http://www.unstrung.com/">UnStrung</a> <a href="http://www.unstrung.com/document.asp?doc_id=94925&amp;WT.svl=news2_2">describes it:</a></p><blockquote>
+
+<p><em>As companies look for ways to roll out more enterprise
+applications to mobile workers, many assume that any new apps will run
+on a device primarily intended for mobile email, such as a BlackBerry
+or a Treo.
+</em></p>
+
+<p><em>
+Now, BlackBerry maker <a href="http://www.unstrung.com/complink_redirect.asp?vl_id=4644" target="new">Research In Motion Ltd. (RIM)</a>&nbsp; (Nasdaq: <a href="http://www.unstrung.com/quote.asp?symbol=RIMM&amp;req_mode=quote">RIMM</a> -&nbsp; <a href="http://www.unstrung.com/boards/thread_view.asp?thread_topic=18&amp;thread_key=RIMM&amp;thread_title=RIMM">message board</a>;
+Toronto: RIM) says it will deconstruct that equation with the release
+this fall of a new version of its BlackBerry Enterprise Server that
+will enable companies to provide mobile applications to BlackBerry
+devices that don't necessarily have a corporate email account. (See <a href="http://www.unstrung.com/document.asp?doc_id=91234" target="new">RIM's Unified Theory</a>.)</em>
+</p></blockquote>
+
+<p>WIreless email is important to mobile <em>knowledge workers</em>. It is highly horizontal and adaptive, well suited to workers whose tasks and concerns are constantly changing. Wireless email is neutral and adaptable. 
+
+</p>
+
+<p>For many mobile workers, however, you do not want neutral and adaptable communication. These workers -- doing repair, inspection, crew supervision, delivery, and so on -- do the same kind of tasks over and and over. For their communication you want something structured and managed. You want to make sure, for example, that every field of the form is filled out and filled out correctly. The whole value proposition is based on reducing the cost of business transaction data collection.</p>
+
+<p>For these workers wireless email is a very poor approach:</p>
+
+<ul><li>There is lots of extra typing and noise words -- composing an email instead of just checking a box that says &quot;work complete&quot;</li>
+
+<li>Email does not ensure that all fields are supplied and filled out correctly, </li>
+
+<li>A human in the office is required to parse the message and enter the proper data into office software.</li></ul>
+
+<p>Many wireless-enabled mobile workers, perhaps most, will not be wireless email users. It is good that RIM is recognizing to see this.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2006-05-15T21:10:38-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/12/peter_drucker_p.html">
+<title>Peter Drucker - &quot;Productivity of knowledge work and dignity of service work are the two great priorities&quot;</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/12/peter_drucker_p.html</link>
+<description>Every 200 or 300 years, there is a very short period when the world suddenly changes - the way it does in a kaleidoscope. This is one of those periods when the old solutions no longer work. One can clearly see new priorities.Knowledge has become the central resource. [But] the productivity of knowledge workers is incredibly low. Does anybody here believe that the teacher of 1991 is more productive than the teacher of 1900? The productivity of service workers is even lower.... Over three-fourths of our workforce are service and knowledge workers. By the end of the century, 90 per cent of total workers will be knowledge and service workers. Productivity of knowledge work and dignity of service work are the two great priorities.from New Priorities, by Peter Drucker, featured in In Context a publication of the Whole Context InstitutePeter Drucker, who died at age 95 last month, taught us...</description>
+<content:encoded><![CDATA[<blockquote><p><em>Every 200 or 300 years, there is a very short period when the world suddenly
+changes - the way it does in a kaleidoscope. This is one of those periods
+when the old solutions no longer work. One can clearly see new priorities.<br /><br />Knowledge has become the central resource. [But] the productivity of
+knowledge workers is incredibly low. Does anybody here believe that the
+teacher of 1991 is more productive than the teacher of 1900? The productivity
+of service workers is even lower.... Over three-fourths of our workforce
+are service and knowledge workers. By the end of the century, 90 per cent
+of total workers will be knowledge and service workers. Productivity of
+knowledge work and dignity of service work are the two great priorities.<br /><span style="font-size: 0.6em;">from </span></em><span style="font-size: 0.6em;"><a href="http://www.context.org/ICLIB/IC32/Drucker.htm">New Priorities</a><em><a href="http://www.context.org/ICLIB/IC32/Drucker.htm">, by Peter Drucker</a>, featured in </em>In Context<em> a publication of the Whole Context Institute</em></span></p></blockquote><p>Peter Drucker, who died at age 95 last month, taught us that work and business are human endeavors demanding the utmost of us as human beings. <a href="http://www.lib.uwo.ca/business/dru.html">His deep and original thinking</a> (<a href="http://www.inc.com/criticalnews/articles/200511/drucker.html">here too</a>) will be deeply missed.</p>
+]]></content:encoded>
+
+
+<dc:subject>High Tech Ventures</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-12-26T16:24:03-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/12/inexpensive_wir.html">
+<title>Inexpensive wireless devices are essential for broad based deployments</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/12/inexpensive_wir.html</link>
+<description>They saw some of the prices of the Symbols and the Intermecs of the world, and they started choking James Potter, VP of client services at EnfoTrust, discussing Home Depot&apos;s wireless deploymentsAn excellent article describing a complex wireless deployment at Home Depot. Home Depot needed a way to manage the activities of diverse sales representatives who manage merchandizing within their stores:The world&apos;s largest home improvement retailer used to be a victim of its own merchandisers—not under siege exactly, but certainly out of control. Home Depot U.S.A. Inc. sells thousands of products from hundreds of manufacturers in more than 1,900 stores across the country. The problem was that by 2001, there were 342 service organizations responsible for placing their wares into Home Depot stores. They were not held accountable for their merchandising techniques or whether they interfered with one another. An absolute requirement for Home Depot and the software developer: devices...</description>
+<content:encoded><![CDATA[<blockquote><p><em>&quot;They saw some of the prices of the Symbols and the Intermecs of the world, and they started choking&quot;</em> <br /><span style="font-size: 0.6em;">James Potter, VP of client services at EnfoTrust, discussing Home Depot's wireless deployments</span></p></blockquote><p>An excellent article describing a <a href="http://www.eweek.com/article2/0,1895,1887081,00.asp">complex wireless deployment at Home Depot.</a> Home Depot needed a way to manage the activities of diverse sales representatives who manage merchandizing within their stores:</p><blockquote><p><em>The world's largest home improvement retailer used to be a victim of
+its own merchandisers—not under siege exactly, but certainly out of
+control.</em></p>
+
+<p><em>Home
+Depot U.S.A. Inc. sells thousands of products from hundreds of
+manufacturers in more than 1,900 stores across the country. The problem
+was that by 2001, there were 342 service organizations responsible for
+placing their wares into Home Depot stores. They were not held
+accountable for their merchandising techniques or whether they
+interfered with one another.</em></p></blockquote>
+<p>An absolute requirement for Home Depot and the software developer: devices that were affordable for 3rd party partner organizations doing the actual mobile work.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-12-26T15:48:53-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/12/ideas_for_wirel.html">
+<title>Ideas for Wireless Carriers</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/12/ideas_for_wirel.html</link>
+<description>(guest blogged by Jim Chard) An enormous opportunity awaits any wireless carrier who has the vision to see it. Wireless data currently comprises a relatively small portion of carrier revenues but could be so much more. The wireless data market has not been pursued with the aggressiveness that the opportunity demands. Rather than focus on this business market, far greater effort and investment has been devoted to voice, email, consumer, and teen age markets such as ring tones. Most importantly a wireless data sale does not have to be deeply discounted to beat out a competitor because wireless data delivers a return on investment. This makes the wireless data sale much more profitable and “sticky” for the carrier. Furthermore, a data sale to a business customer can be far easier than voice because the “prospect” is generally already a customer. The prospect already has accounts and devices. He does not...</description>
+<content:encoded><![CDATA[<p>(guest blogged by <a href="http://www.jumpstartwireless.com/about/mgmtteam.htm#jc">Jim Chard</a>)
+
+
+
+</p>
+
+<p class="MsoNormal">An enormous opportunity awaits any wireless carrier who has
+the vision to see it. Wireless data
+currently comprises a relatively small portion of carrier revenues but could be
+so much more. The wireless data market has not been pursued with the
+aggressiveness that the opportunity demands. Rather than focus on this business market, far greater effort and
+investment has been devoted to voice, email, consumer, and teen age markets
+such as ring tones.</p>
+
+
+
+<p class="MsoNormal">Most importantly a wireless data sale does not have to be
+deeply discounted to beat out a competitor because wireless data delivers a
+return on investment. This makes the wireless data sale much more profitable
+and “sticky” for the carrier.</p>
+
+
+
+<p class="MsoNormal">Furthermore, a data sale to a business customer can be far
+easier than voice because the “prospect” is generally already a customer. The prospect already has accounts and
+devices. He does not have to be snatched
+away from a competitor. A bidding war
+does not have to be part of the closing process. And the sales staff has a good reason to be
+calling on the existing customer because they have something new and important
+to offer.</p>
+
+
+
+
+
+
+
+<p>There are over 35 million mobile workers in the <st1:place w:st="on"><st1:country-region w:st="on"></st1:country-region></st1:place>United State alone. This number is growing and
+doesn’t even include “dispersed” workers in warehouses, stay-out-home workers
+that need to stay in touch, and market niches such as consumer surveys or
+clinical trials. All or most would
+benefit from wireless applications which are far more efficient and time saving
+than voice or email. But wireless
+carriers are focusing almost exclusively on voice and consumer (and to a lesser
+extent email).
+
+
+
+</p>
+
+<p class="MsoNormal">The carriers have not built the infrastructure necessary to
+reach and develop the wireless data market. For example, there are relatively few data sales engineers. Such professionals are necessary to craft wireless
+solutions for customers. Sales incentive plans are almost exclusively directed
+to voice and device activations. Data sales are treated as the poor step child
+of the organization. Most carriers do
+not have industry verticals or focus that enable the sales and support staff to
+deliver wireless applications that meet domain specific requirements.</p>
+
+
+
+<p class="MsoNormal">Currently, sales incentive plans at wireless carriers work
+against data sales. These plans focus
+exclusively on voice, devices, and activations. There is a monthly quota imperative that works against data sales which
+tend to have a longer sales cycle and do not consist of simply activating
+accounts. However, the sales staff, if properly trained and supported for
+wireless sales, can sell a service that does not have to be deeply discounted
+to beat out a competitor. Properly
+incented sales staff can demonstrate to the prospect how wireless data
+generates hundreds of thousands of dollars in savings and pays for itself in 3
+to 5 months. This “solutions sale” or
+“enterprise sale” demands more of the sales staff but positions the wireless
+carrier to build customer loyalty, reduce customer churn, and dramatically
+increase revenue per user. By selling added value not lowest price, the sales
+staff can enhance the relationship with the customer while at the same time
+boosting margin for the carrier.</p>
+
+
+
+<p class="MsoNormal">To complete the picture of an aggressive wireless sales
+effort for carriers, it is critical to build a strong Independent Software
+Vendor (ISV) alliance program. ISVs are
+the catalysts that make the wireless sales program percolate. Without wireless applications, wireless
+carriers are just transporting bits of data, not answering to customer needs. In a truly aggressive program, a carrier
+would recruit ISVs, offer them incentives and co-marketing dollars, introduce
+them to potential customers, and help educate them on certain verticals and
+market niches. Something as simple as
+providing the organization chart for data sales engineers, marketing heads, and
+indirect channels to ISVs would provide a substantial boost to wireless data
+sales.</p>
+
+
+
+<p class="MsoNormal">While such an aggressive wireless data sales and marketing
+program could represent a significant investment on the part of the carrier; capturing
+this huge market could lead to a significant return to the carrier both in
+increased revenue per user and reduced churn.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-12-26T15:27:03-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/10/wireless_and_hu.html">
+<title>Wireless and Hurricane Wilma</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/10/wireless_and_hu.html</link>
+<description>My company JumpStart Wireless, located in South Florida, has been dealing with the destruction of Hurricane Wilma. We&apos;ve survived nicely with our co-located servers, our ASP office software, and offsite programmers. Unfortunately, many of our business colleagues have 100s of staff idle because their wired communication infrastructure is completely down. They now want to know how fast we can implement a wireless application. Don&apos;t wait for a disaster - now is the time to replace your wired communciation infrastructure with wireless. Here are the results from this week in Florida:Most reliable communciation services: wireless email and applications. Definitely some delays, but smooth, mostly seamless operation, even during the peak of the storm. Much less reliable: wireless voice. We commonly do not reach people, calls placed move to voicemail without ever ringing the handset, and calls need to be placed 5-10 times to actually get an outside line. Totally unreliable: wired...</description>
+<content:encoded><![CDATA[<p><a href="http://wirelessbusiness.blogs.com/photos/uncategorized/hurricane_wilma_telecom_destruction_fpl_1.jpg"><img width="225" height="149" border="0" alt="Hurricane_wilma_telecom_destruction_fpl_1" title="Hurricane_wilma_telecom_destruction_fpl_1" src="http://wirelessbusiness.blogs.com/weblog/images/hurricane_wilma_telecom_destruction_fpl_1.jpg" style="margin: 0px 5px 5px 0px; float: left;" /></a>My company <a href="http://www.jumpstartwireless.com/">JumpStart Wireless</a>, located in South Florida, has been dealing with the destruction of Hurricane Wilma. We've survived nicely with our co-located servers, our ASP office software, and offsite programmers. </p>
+
+<p>Unfortunately, many of our business colleagues <em>have 100s of staff idle because their wired
+communication infrastructure is completely down. They <strong>now</strong> want to know how fast we can
+implement a wireless application. </em></p>
+
+<p>Don't wait for a disaster - now is the time to replace your wired communciation infrastructure with wireless. </p>
+
+<p>Here are the results from this week in Florida:<br /><strong><br />Most reliable communciation services: wireless email and applications.</strong> Definitely some delays, but smooth, mostly seamless operation, even during the peak of the storm. </p>
+
+<p><strong>Much less reliable: wireless voice.</strong> We commonly do not reach people, calls placed move to voicemail without ever ringing the handset, and calls need to be placed 5-10 times to actually get an outside line.</p>
+
+<p><strong>Totally unreliable: wired lines.</strong></p>]]></content:encoded>
+
+
+<dc:subject>Wireless Practical Advice</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-10-28T08:55:31-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/10/bonars_rule_of_.html">
+<title>Bonar&apos;s Rule of Wireless Business Software</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/10/bonars_rule_of_.html</link>
+<description>The first day of wireless business software usage by real users will teach you more than a year of careful study and...</description>
+<content:encoded><![CDATA[<p>The first day of wireless business software usage by real users will teach you more than a year of careful study and analysis.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Practical Advice</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-10-17T23:00:10-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/10/how_could_a_mob.html">
+<title>How could a wireless phone replace a desktop computer? Usability issues are key!</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/10/how_could_a_mob.html</link>
+<description>Today&apos;s typical mobile phone or wireless handheld is far more powerful than early personal computers. Could a mobile phone or wireless handheld be an effective primary computing platform for average folks? Philip Greenspun lays out a detailed proposal for how this might be done. He proposes an appliance that would act as docking station for the wireless handheld. The appliance would provide a large keyboard, large screen, broadband connectivity, large amounts of storage, and basic applications: web browsing, email, digital photo and music organization, and so on. Greenspun&apos;s appliance project is terrific. I&apos;d love to see that it not only has the right hardware and connectivity, but begins to address some of the big picture usability problems that have plagued personal computing. He points to usability problems with PC file systems (I elaborate on that issue below). But there is much more to get right if the appliance is to...</description>
+<content:encoded><![CDATA[<p>Today's typical mobile phone or wireless handheld is far more powerful than early personal computers. Could a mobile phone or wireless handheld be an effective primary computing platform for average folks? <a href="http://philip.greenspun.com/">Philip Greenspun</a> lays out a <a href="http://philip.greenspun.com/business/mobile-phone-as-home-computer">detailed proposal for how this might be done</a>. He proposes an appliance that would act as docking station for the wireless handheld. The appliance would provide a large keyboard, large screen, broadband connectivity, large amounts of storage, and basic applications: web browsing, email, digital photo and music organization, and so on. </p>
+
+<p>Greenspun's appliance project is terrific. I'd love to see that it not
+only has the right hardware and connectivity, but begins to address
+some of the big picture usability problems that have plagued personal
+computing. He points to usability problems with PC file systems (I elaborate on that issue below). But there is much more to get right if the appliance is to be more than just&nbsp; a PC plus a cell phone dock. </p>
+
+<p>Here are my thoughts on what is needed to make the proposed wireless handheld docking appliance really work for non-sophisticated users.</p>
+
+<p><strong>User Objects Move Between Wildly Different Platforms</strong></p>
+
+<p>How do the user's objects of interest --&nbsp; documents, people, projects, music, photos, call history entries, email messages, tasks, reminders -- seamlessly migrate to/from the handheld as needed. Updates entered when the handheld device is in the field should automatically move to the appliance while updates that arrive to the appliance by broadband need to selectively move to the handheld device.</p>
+
+<p><strong>Two Kinds of Applications For the Same Objects</strong><br /> </p>
+
+<p>The applications that operate on user objects -- like browsers, editors, search tools, organization tools -- will need to have two completely different user interfaces -- one for the handheld device and one for the appliance. Appliance applications are designed around a full sized screen and a full keyboard. This is the user interface where the bulk of the typing and organization will happen. The handheld device user interface needs to deal with the small screen, <a href="http://wirelessbusiness.blogs.com/weblog/2005/10/tiny_keyboards_.html">unloved tiny keyboards</a> (or only a numeric keypad) and other limitations of handheld devices. Handheld applications demand <a href="http://wirelessbusiness.blogs.com/weblog/2004/04/portable_device.html">on-the-go usage</a><a href="http://wirelessbusiness.blogs.com/weblog/2004/04/portable_device.html"> without &quot;browsing&quot;</a> and <a href="http://wirelessbusiness.blogs.com/weblog/2005/10/wireless_device.html">single hand operation</a>. Arguably, there will need to be two completely different applications
+sharing the same data objects synchronized between the handheld and the appliance data stores.</p>
+
+<p><strong>Synchronization of Objects Between Platforms</strong><br /> </p>
+
+<p>The handheld device docking appliance that replaces a PC needs to have brilliant synchronization, operating more seamlessly then current schemes like <a href="http://www.intellisync.com/">Intellsync</a> and <a href="http://www.openmobilealliance.org/tech/affiliates/syncml/syncmlindex.html">Sync-ML</a>. The synchronization should be push, rather than pull. This means that the synchronizations happens automatically whenever the handheld is docked (or connected via a wireless connection). The user should not need to initiate the synch manually. Furthermore, the synch should be fine grained, working on an object-by-object basis, not just as a batch. Generally, the synchronization should happen quietly under the covers and bother the user rarely if ever. There should be priority rules -- one kind of object gets synchronized agressively using any connection even if it is a slow or expensive wireless connection. Other kinds of objects only get synchronized when there is a cheap high-bandwidth connection. Perhaps <a href="http://blogs.law.harvard.edu/tech/rss">RSS</a> can provide a good basis for the synchronization (some good background on RSS <a href="http://www.xml.com/pub/a/2002/12/18/dive-into-xml.html">here</a>) as it allows for a finer grained approach than Sync-ML. Whatever the technology, we need to figure out how to make synchronization much less complicated and much more closely tied to human usage patterns.</p>
+
+<p><strong>Applications Move With Their Objects - Plug and Play Applications</strong></p>
+
+<p>A handheld docking appliance needs a standard for applications that allow them to move seamlessly to the device along with their critical content. An unfortunate approach, that even has a <a href="http://developers.sun.com/techtopics/mobility/midp/articles/ota/">standard defined</a>, requires handheld users to download, maintain, and install handheld applications in the same broken and unmanageable way that PC applications are downloaded, maintained and installed. Besides the inherent manageability problems, this misses the critical usage issue for handhelds: applications are very fine-grained and they have to operate while disconnected. </p>
+
+<p>For example, when I book an airline reservation, the application to
+book seats for that airline reservation should move from the network to the handheld with the
+reservation object. This is a fine grained application by itself, but
+it gets worse: each airline company will have their own seat selection
+application. When you consider the range of fine-grained hand-held and
+mobile applications, all of which have to work while sometimes
+disconnected, it is obvious that the traditional install model is
+broken. Here are the kinds of applications you want to run on your
+handheld: airline reservation applications from each carrier, a
+movie-ticket application (from each theater chain), prescription drug
+application for ordering refills, an application to notify my friends
+that I am going to a certain concert or movie this weekend, a way to
+manage the weekly tasks lists for each of my employees.</p>
+
+<p>Just like the web, handhelds want to get their applications on an &quot;as needed&quot; basis. There are relatively few &quot;generic&quot; applications (like a word processor) in the handheld world. Applications are small, tailored, and focused on particular tasks at hand. Consider how unworkable the web would be if you needed to &quot;install&quot; a page any time you wanted to do something that requires an operation. That is crucially flawed, but that is what is widely proposed as a standard for wireless applications. Instead, applications want to be plug and play. As you use a handheld you want relevant applications to be available as needed without an install step.<br /> </p>
+
+<p>Why not just use the kind of thin client browsing that works fine on the desktop web? That is fine for when you are at the appliance. But on a handheld you ARE NOT always connected. Despite &quot;can you hear me now&quot; TV commercials, our typical commercial user goes in and out of coverage 5-10 times per day. Your screen is small and browsing does not work. Some way to manage &quot;store and forward&quot; or &quot;plug and play&quot; applications is required. On the web applications live on the server (via PHP, JSP, ASP, etc.) or travel to the desktop as light-weight bits of program that enhance a pure browser experience (e.g Javascript or Flash). On a handheld you are not always connected. Plug and play applications need to keep operating even when disconnected.</p>
+
+<p>My company, JumpStart Wireless, provides the kinds of plug and play applications described in this section, but in a commercial setting for mobile workers doing repair, delivery, inspection, etc. Our technology would work in the broad context described here (<a href="mailto:jeff.bonar@jumpstartwireless.com">anyone interested in funding a move of this technology into a broad consumer world?</a>). Other approaches would work as well. The key here, however, is the need for plug and play, disconnectable applications.</p>
+
+<p><strong>Working Out Smooth Object Movement -- What Do You Want to Carry With You?</strong><br /> </p>
+
+<p>Working out how to have object movement from the handheld to/from the application is another key issue. How do I set things up to keep the right objects in the right place without a lot of manual manipulation. For example, how do I choose the limited number of songs I can carry with my phone today?&nbsp; How do I ensure that an email from <strong><em>james</em></strong>.smith@bigco.com is properly connected to the address book entry for <strong><em>Jim</em></strong> Smith? If I have an appointment today with Mary Jones, could I arrange to have the phone automatically get copies of all recent emails to and from Mary? </p>
+
+<p><strong>Getting the &quot;File&quot; (really Object) System Right</strong><br />
+</p>
+
+<p>Greenspun talks about how PC file systems are far too complex and counterintunitive. Why, for example, when I update a document do I need to &quot;save&quot; those updates before I &quot;exit&quot; the word processing program. Updates to your phone address book are automatically saved without any explicit save. Why should your other computer objects be different? Furthermore, using that address book entry happens in context, for example, addressing an email or dialing a phone number, without needing to search through the hierarchical folders holding the raw address book data. Again, I would like my computing objects to place themselves in useful places that can easily be found by automatically maintained indices?<br /> </p>
+
+<p>It is a huge failure of the PC industry that, after all these years, we are still living with file systems that force users to understand lots of low level details about how hard disks and operating systems work. </p>
+
+<p>Beyond the confusion of the file system, crucial information is stored in isolated silos that are hard to coordinate and manage. Your address book is arguably your most important data. Why isn't it trivial to keep your address book for your mobile phone coordinated with copy on your desktop computing device? Why can't EVERY program treat that as your only address book, instead of every program keeping its own copy. Microsoft Outlook, to cite a particularly nasty example, keeps three different address books.</p>
+
+<p><strong>File System: Concrete Proposal</strong><br /> </p>
+
+
+
+<p>Here is my concrete proposal for what should be done to a file system. Every object - every photo, address book entry, email, phone call record, etc, should be filed in at least 3 places:</p>
+
+<ol><li>Everything should be filed based on when it was created/received. A calendar-like viewer should allow you to retrieve things by when they were created/received.</li>
+
+<li>Everything should be filed based on the people involved. For example, filing based on To,From, and CC for emails and filing based on the Artist for music. An address book viewer should allow you to retrieve not only address and phone, but also recent documents and emails.</li>
+
+<li>Everything should be filed based on interest/project tags (gardening, family reunion,&nbsp; promotion, etc.). Objects can be stored based on many different tags so you can find it multiple ways.</li></ol>
+
+<p><strong>Summary</strong></p>
+
+<p>I love Greenspun's proposal. It is exactly the right project for an obvious direction that convergence of telecom and computing is taking. Usability, however, is far more important than just getting the hardware right. </p>
+
+<p>&nbsp;</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-10-01T23:51:16-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/10/tiny_keyboards_.html">
+<title>Tiny Keyboards Biggest Obstacle for Handheld Users</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/10/tiny_keyboards_.html</link>
+<description>The Roper Center for Public Opinion Research says that:... most consumers would be willing to utilize more data-oriented mobile services if the keyboards on their handheld devices weren&apos;t so impossibly cramped. The study found that adoption of wireless activities such as text messaging, picture messaging, Web surfing, phone personalization and gaming remain bogged down by frustration with digit-challenging handheld...</description>
+<content:encoded><![CDATA[<p><a href="http://news.yahoo.com/s/zd/20050927/tc_zd/161147">The Roper Center for Public Opinion Research</a> says that:</p><blockquote><p><em>... most consumers would be willing to utilize more data-oriented mobile
+services if the keyboards on their handheld devices weren't so
+impossibly cramped. The study found that adoption of wireless
+activities such as text messaging, picture messaging, Web surfing,
+phone personalization and gaming remain bogged down by frustration with
+digit-challenging handheld interfaces.</em></p></blockquote>]]></content:encoded>
+
+
+<dc:subject>Wireless User Interface</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-10-01T22:12:49-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/10/five_reasons_fo.html">
+<title>Five reasons for Palm&apos;s slide</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/10/five_reasons_fo.html</link>
+<description>Michael Singer has a nice article summarizing the difficulties of Palm. This is an analysis of the difficulties that led to Palm announcing a Microsoft Windows Mobile version of the Treo.Palm&apos;s decision to use Windows Mobile software also highlights some of the missed opportunities and key moments in Palm&apos;s history that could have allowed the company to remain not only dominant but autonomous in the smart-phone marketplace instead of seeking the help of Microsoft.So what...</description>
+<content:encoded><![CDATA[<p>Michael Singer has a <a href="http://news.zdnet.com/2100-1040_22-5884040.html">nice article summarizing the difficulties of Palm</a>. This is an analysis of the difficulties that led to <a href="http://news.zdnet.com/2100-1040_22-5882674.html?tag=zdfd.newsfeed">Palm announcing a Microsoft Windows Mobile version of the Treo</a>.</p><blockquote><p><em>Palm's <a title="PalmOne ponders Microsoft, Linux options -- Thursday, Nov 4, 2004" href="http://news.zdnet.com/2100-1040_22-5438347.html?tag=nl">decision to use Windows Mobile software</a>
+also highlights some of the missed opportunities and key moments in
+Palm's history that could have allowed the company to remain not only
+dominant but autonomous in the smart-phone marketplace instead of
+seeking the help of Microsoft.<br /><br />So what happened?<br /><br /></em></p></blockquote>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-10-01T21:53:30-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/10/wireless_device.html">
+<title>Wireless devices need to be one-handed</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/10/wireless_device.html</link>
+<description>Andrew Seybold&apos;s Commentary takes of the subject of Smartphone usability. Two critical points for him: One-handed operation I am at an airport, changing planes and have to walk from one gate to another. I am pulling my carry-on luggage and briefcase with one hand so I only have one hand free during this walk. I can easily use a standard clamshell or candy bar phone to place and receive phone calls with a single hand. I can also use my BlackBerry to make calls, look at my inbox and click on and read messages. I can even send a quick email reply using one hand, which is the optimum situation. Being able to place phone calls and read email as I walk is a must for me.Push email -- your email comes to you without having to explicitly request it each time Seybold often is very white-collar oriented, but I...</description>
+<content:encoded><![CDATA[<p><a href="http://www.outlook4mobility.com/main.htm">Andrew Seybold's</a> Commentary takes of the subject of <a href="http://www.outlook4mobility.com/commentary2005/sept2805.htm">Smartphone usability</a>. Two critical points for him:</p>
+
+<ul><li>One-handed operation <br /> </li></ul><blockquote><blockquote><p><em><span style="font-size: 0.8em;">I am at an airport, changing planes and have to walk from one gate to another. I am pulling my carry-on luggage and briefcase with one hand so I only have one hand free during this walk. </span><br /><br /><span style="font-size: 0.8em;">I can easily use a standard clamshell or candy bar phone to place and receive phone calls with a single hand. I can also use my BlackBerry to make calls, look at my inbox and click on and read messages. I can even send a quick email reply using one hand, which is the optimum situation. Being able to place phone calls and read email as I walk is a must for me.</span></em></p></blockquote></blockquote><ul><li>Push email -- your email comes to you without having to explicitly request it each time</li></ul>
+
+<p>Seybold often is very white-collar oriented, but I think his comments in this article are applicable to any mobile user or application. One more dead-on quote:</p><blockquote><blockquote><p><em><span style="font-size: 0.8em;">And don't put a notebook computer into the form factor of a handheld. <strong>Give me the features, functions and capabilities that will permit me to leave my notebook home more often.</strong></span></em></p></blockquote></blockquote><p>Exactly right.</p>
+
+<p></p>]]></content:encoded>
+
+
+<dc:subject>Wireless User Interface</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-10-01T21:13:13-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/09/how_to_phrase_e.html">
+<title>How NOT To Phrase Error Messages</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/09/how_to_phrase_e.html</link>
+<description>We learned a lesson this week. We have product that display&apos;s the following error message: Cannot connect to service provider90% of the time this is due to poor wireless coverage to the device. Occasionally, particularly when just getting started, a customer will get this message because they have not set up the customer&apos;s server link correctly. When we came up with this message wording, we congradulated ourselves on the technical precision in covering all the possibilities in just a few words. We were taken to task by a customer this week because the staff in the field had no idea what this message meant or what to do. We&apos;d heard this before, but this customer didn&apos;t want to hear our expanation, they wanted it changed so the user knew what to do. I patiently explained that this usually means the user is in an area of bad coverage, and they...</description>
+<content:encoded><![CDATA[<p>We learned a lesson this week. We have product that display's the following error message: </p><blockquote><p><em><strong>Cannot connect to service provider</strong></em></p></blockquote><p>90% of the time this is due to poor wireless coverage to the device. Occasionally, particularly when just getting started, a customer will get this message because they have not set up the customer's server link correctly. When we came up with this message wording, we congradulated ourselves on the technical precision in covering all the possibilities in just a few words.</p>
+
+<p>We were taken to task by a customer this week because the staff in the field had no idea what this message meant or what to do. We'd heard this before, but this customer didn't want to hear our expanation, they wanted it <em>changed</em> so the user knew what to do. I patiently explained that this usually means the user is in an area of bad coverage, and they should try again later. The customer said, &quot;Well if that's what it means, just say so -- tell the user whats wrong and what to do.&quot; </p>
+
+<p>Great advice. Here is the new message:<strong></strong></p><blockquote><p><em><strong>Weak coverage, try again later</strong></em></p></blockquote><p> </p>]]></content:encoded>
+
+
+<dc:subject>Wireless User Interface</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-09-17T18:07:00-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/09/why_wireless_an.html">
+<title>Why Wireless and Handheld Software Companies Fail</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/09/why_wireless_an.html</link>
+<description>The failed and the “living dead” wireless software companies have suffered from one or more of the following characteristics: 1. Systems integrators rather than product companies The integrator model for wireless software does not scale gracefully. Many wireless software companies created reusable code libraries but they didn’t productize their software for broad applicability across multiple applications or multiple verticals. The companies were dependent upon expensive hand programming to produce one-off applications for each customer. One-off products lead to one-off revenue models rather than recurring revenues which pay dividends year after year. 2. One big customer vs. go-to-market strategy and sales infrastructure Point 2 is really a corollary to point 1 above. Some wireless software companies were initially successful because one of the founders had a special relationship to one or more major early adopter customers but didn’t have a marketing strategy --- or product --- to build a sales pipeline...</description>
+<content:encoded><![CDATA[<p class="MsoNormal">The failed and the “living dead” wireless software companies
+have suffered from one or more of the following characteristics:</p>
+
+
+
+<p class="MsoNormal"><strong>1. Systems integrators rather than product
+companies<o:p></o:p></strong></p>
+
+<p class="MsoNormal">The integrator model for wireless software does not scale
+gracefully. Many wireless software companies created reusable code libraries
+but they didn’t productize their software for broad applicability across
+multiple applications or multiple verticals. The companies were dependent upon expensive hand programming to produce
+one-off applications for each customer. One-off products lead to one-off revenue models rather than recurring
+revenues which pay dividends year after year. </p><o:p></o:p><p><strong>2. One big customer vs. go-to-market strategy and
+sales infrastructure <o:p></o:p></strong>
+
+</p>
+
+<p class="MsoNormal">Point 2 is really a corollary to point 1 above. Some wireless software companies were
+initially successful because one of the founders had a special relationship to
+one or more major early adopter customers but didn’t have a marketing strategy
+--- or product --- to build a sales pipeline or business development program. The bear hug from the initial client
+prevented them from becoming a full-fledged company. Companies geared to one or two large,
+well-heeled, early adopter customers seldom scale to mainstream enterprises,
+let alone SMB. </p>
+
+<p><strong>3. Trying to apply a windowing/desktop user interface to mobile applications<o:p></o:p></strong>
+
+</p>
+
+
+
+<p class="MsoNormal">The market is littered with unsuccessful attempts to build mobile versions of desktop applications. These applications were hard
+to use because they tried to do windowing on tiny screens and were aimed at desktop users rather than mobile users. These windowing applications were designed for users &quot;browsing&quot; to find relevant data and screens. This does not meet the day-to-day needs of workers in
+the field who are looking for a more linear process. On small screens, with mobile devices, field staff want to be led through a process. Desktop windows, menus, buttons, and tabs just confuse what should be simple processes. The applications also assumed constant connectivity and did not easily
+tie to mass market devices and enterprise software. Generally, these windowing applications proved unwieldy to
+use in the field and difficult to maintain. </p>
+
+<p class="MsoNormal"><strong>4. Applications based on “Palm end-of-day synch”
+model<o:p></o:p></strong></p>
+
+<p class="MsoNormal">Many failed wireless companies provided software that
+was batch oriented and only synched at the end of the day. These earlier
+versions of wireless applications were not real-time, always on
+applications. Successful handheld
+software replicates central databases and synchronizes with remote, dispersed
+databases throughout the day. With &quot;sync at end-of-day&quot; wireless applications, the customers’ management personnel had no way
+of tracking progress (such as job status) in the field nor the ability to assign
+additional work throughout the day to increase productivity. The centralized databases could not update customers’
+information, produce invoices, or request permits until the end-of-day synch
+was completed.</p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p><strong>5. Screen scraping approach<o:p></o:p></strong></p>
+
+<p class="MsoNormal">Many wireless companies simply replicated all or part of a web
+browser-based application – taking a web page specification and automatically
+creating a wireless application. This
+“thin client” approach creates long lag times and extra keying. Furthermore it requires browsing rather than
+process orientation, constant connectivity, and inefficient forms designs in
+field operations. These limitations slowed down operations and over complicated
+training and deployment. Many of these
+applications simply went unused by field personnel after initial attempts to
+master the software. In other cases, the requirement of constant connectivity
+proved fatal.</p>
+
+<p><strong>6. Overly optimistic business
+process re-engineering (BPR) vs. ROI focus<o:p></o:p></strong>
+
+</p>
+
+<p class="MsoNormal">Implementing wireless applications offers significant and
+multi-faceted opportunities for companies to modify their business models.
+Companies can shift more responsibility to dispersed locations, provide
+real-time information that can be re-purposed for marketing and CRM
+initiatives, and reallocate field staff on the fly for more flexible and
+responsive operations. While all the above is true, the vast majority of new
+technology acquisition in the last few years has been ROI driven, rather than
+BPR driven. Successful sales over the last few years, in our experience, are all about ROI. Wireless companies that built a business strategy based on BPR have not be successful.</p>
+
+<p class="MsoNormal"><o:p></o:p><strong>7. Failure to
+produce productivity enhancements in the field<o:p></o:p></strong></p>
+
+<p class="MsoNormal">Many wireless applications simply mobilized work in the field without providing real ROI value, partially because of the problems enumerated
+above. In fact, early wireless
+applications imposed a burden and slowed down processing in the field rather
+than reducing time and introducing cost savings.</p>
+
+<p class="MsoNormal"><strong>8. Point Solutions - What you see is ALL you get<o:p></o:p></strong></p>
+
+<p class="MsoNormal">Wireless applications are often designed for only one specific business
+model within a vertical market. These products are
+not built to be customizable or to adapt to the unique ways a company may
+conduct its business. They also do not
+allow the customer to embody <em>their</em> business unique model. Nor do they accommodate functions that could
+enrich and integrate the wireless product with features like payroll or inventory.</p>
+
+
+
+
+
+<p class="MsoNormal"><strong>9. Maturation of the technology<o:p></o:p></strong></p>
+
+<p class="MsoNormal">Many of the early wireless companies did not have the
+benefit of handheld devices with speedy processors, full-blown development
+environments, or significant data store (up to and exceeding 32
+megabytes). Bandwidth and performance of wireless networks has improved by an order of magnitute from 5
+years ago. Wireless
+service, while still not perfect, is nearly omnipresent for the urban and suburban parts of the US. Finally, device
+and data plan prices are much more affordable today than they were for the earlier
+generation of wireless data companies.</p>
+
+<p class="MsoNormal"><strong>10. Hand Crafted Solutions Tied to Particular Hardware and Software</strong></p>
+
+
+
+<p class="MsoNormal"><o:p></o:p>Many initial wireless applications were built on
+specialized hand held devices that were expensive, software that was totally hand crafted,
+based on technology that did not have a long-term development path, and packaged
+in an unwieldy form factor.&nbsp; Companies
+committed to particular types of devices or technologies (e.g., Motorola Paging, Symbol Technology or
+Intermec) saw their market shrink as their platform of choice obsolesced.&nbsp; Winners must be able to flexibly use a wide range of light weight, mass produced,
+low cost devices available from a variety of vendors on a variety of networks.</p>
+
+<p class="MsoNormal"><strong>11. Benefits From Peripherals</strong><br /> </p>
+
+<p class="MsoNormal">Early wireless companies did not have benefit of
+the wide variety of peripherals that are available today including credit card
+swipe, signature capture, bar code reading, and printing. The emergence of BlueTooth technology has
+also enhanced the potential ROI and simplified connectivity to handheld devices. Complete solutions are much easier to create.</p>
+
+<p class="MsoNormal"><strong>12. Too early, maturation of the market<o:p></o:p></strong></p>
+
+<p class="MsoNormal">In many ways the knowledge and sophistication of prospects
+has grown rapidly and equaled or exceeded the functionality of wireless
+applications. Even 12 months ago, many
+prospects were uninformed regarding wireless applications or thought that
+handhelds could only do email. Earlier wireless companies had to struggle with
+a conceptual sale that was frequently not cost justifiable. </p>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-09-17T17:46:06-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/07/the_tyranny_of_.html">
+<title>The Tyranny of Rechargers Everywhere</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/07/the_tyranny_of_.html</link>
+<description>Anyone in the wireless software busienss knows this scene - rechargers everywhere as captured by Russell Beattie. I am planning a trip to Europe and will be taking along 4 chargers, just for my hand held devices! And this is not even a business trip. Isn&apos;t there an easier...</description>
+<content:encoded><![CDATA[<p>Anyone in the wireless software busienss knows this scene - <a href="http://www.russellbeattie.com/notebook/images/recharging.jpg">rechargers everywhere</a> as captured by <a href="http://www.russellbeattie.com/notebook/">Russell Beattie</a>. I am planning a trip to Europe and will be taking along 4 chargers, just for my hand held devices! And this is not even a business trip. Isn't there an easier way?</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-07-18T22:32:25-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/07/wireless_email_.html">
+<title>Wireless Email - In the News</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/07/wireless_email_.html</link>
+<description>There are several recent articles about the developing wireless email market. Yahoo News says that Good Tech has bought JP Mobile and the Thur 7 July 2005 Wall Street Journal has a front page section B article (syndicated here) about developing consumer, rather than business, use of wireless email. From the Yahoo News article:Pablo Perez-Fernandez, an analyst with ThinkEquity Partners in San Francisco, said Research in Motion controls about 80% of the market for enterprise wireless email software. Good Technology has a roughly 9% market share, with the remainder split up among smaller players including Visto Corp.Seven Networks Inc., both of Redwood City, Calif. Visto and Seven also cater to a growing consumer customer base.The Wall Street Journal leads with a story about Susan Chevalier, a homemaker and mother of three kids, who wanted a wireless email device from the first time she saw a friend use a BlackBerry for...</description>
+<content:encoded><![CDATA[<p>There are several recent articles about the developing wireless email market. <a href="http://news.yahoo.com/">Yahoo News</a> says that <a href="http://news.yahoo.com/s/thedeal/20050708/bs_deal_thedeal/goodtechbuysjpmobile;_ylt=AmeFhG2a4gCTsZTbPb8iBtL67rEF;_ylu=X3oDMTBiMW04NW9mBHNlYwMlJVRPUCUl">Good Tech has bought JP Mobile</a> and the Thur 7 July 2005 Wall Street Journal has a front page section B article (syndicated <a href="http://post-gazette.com/pg/05188/534335.stm">here</a>) about developing <em>consumer</em>, rather than <em>business</em>, use of wireless email. </p>
+
+<p>From the Yahoo News article:</p><blockquote><p><em>Pablo Perez-Fernandez, an analyst with <strong>ThinkEquity Partners</strong> in
+San Francisco, said Research in Motion controls about 80% of the market
+for enterprise wireless email software. Good Technology has a roughly
+9% market share, with the remainder split up among smaller players
+including <strong>Visto Corp.</strong><strong>Seven Networks Inc.</strong>, both of Redwood City, Calif. Visto and Seven also cater to a growing consumer customer base.</em></p></blockquote><p>The Wall Street Journal leads with a story about Susan Chevalier, a homemaker and mother of three kids, who wanted a wireless email device
+from the first time she saw a friend use a BlackBerry for his legal
+work two years ago. She now uses a Treo 600 from Sprint and:</p><blockquote><p><em>&quot;In just a minute or two, while I'm waiting for the kids, I can send
+off a note to my husband, check in with my PTA committee, or book
+doctors' appointments&quot; </em></p></blockquote><p>My prediction: wireless email will ultimately be a giveaway with consumer and business wireless data plans. I just don't see it adding enough value to sell broadly to average folks. The average business mobile worker (not senior executives, but average white collar business workers) and average consumers just don't get enough &quot;return on investment&quot; for wireless email. I just don't think Susan is all that typical.</p>]]></content:encoded>
+
+
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-07-10T19:16:28-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/07/mobile_internet.html">
+<title>Mobile Internet: Minimal Growth Because the Approach is Wrong</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/07/mobile_internet.html</link>
+<description>Stephen Baker writes about the Mobile Internet: a story of stagnation. The article quotes statistics from M:Metrics, Inc. of Seattle. The number of Americans using a mobile browser for news and other information appears to be falling. Here are the numbers quoted by Baker (unfortunately there is no link for the raw data): January -- 22,052,550 0 February-- 22,628,052 2.6% March -- 21,533,717 -4.8% April -- 22,109,802 2.7% May -- 21,641,574 -2.1% Here are my comments to his post:If you think about it, mobile browsing is an obvious non-starter. Being mobile is absolutely the wrong situtation for browsing or any kind of navigating. On a mobile device you want just a few choices presented at any given time. You want your task handed to you in a well-defined order -- much like an MS Windows wizard. You want to be led through the task with just a few choices presented...</description>
+<content:encoded><![CDATA[<p>Stephen Baker writes about the <a href="http://blogs.businessweek.com/the_thread/blogspotting/archives/2005/07/mobile_internet.html">Mobile Internet: a story of stagnation</a>. The article quotes statistics from <a href="http://www.mmetrics.com/about/overview.aspx">M:Metrics, Inc</a>. of Seattle. The number of Americans using a mobile browser for news and other information appears to be <em>falling</em>.</p>
+
+<p>Here are the numbers quoted by Baker&nbsp; (unfortunately there is no link for the raw data):</p>
+
+<p>January	--&nbsp; &nbsp; 22,052,550	0<br />
+February--&nbsp; &nbsp; 22,628,052	2.6%<br />
+March	--&nbsp; &nbsp; 21,533,717	-4.8%<br />
+April	--&nbsp; &nbsp; 22,109,802	2.7%<br />
+May	--&nbsp; &nbsp; 21,641,574	-2.1%</p>
+
+<p>Here are my comments to his post:</p><blockquote><p><em>If you think about it, mobile &quot;browsing&quot; is an obvious non-starter.
+Being mobile is absolutely the wrong situtation for &quot;browsing&quot; or any
+kind of navigating. On a mobile device you want just a few choices
+presented at any given time. You want your task handed to you in a
+well-defined order -- much like an MS Windows wizard. You want to be
+led through the task with just a few choices presented in context.
+There is more on this topic <a href="http://wirelessbusiness.blogs.com/weblog/2004/04/portable_device.html">here</a>.<br /><br />The &quot;wireless internet&quot; will take off when there are applications and
+user interface models designed for small devices used by people on the
+go. Attempts to copy Microsoft Windows desktops and desktop Internet
+are doomed to failure because they are the wrong model force-fit from a
+previous generation of computing.
+<br /><br />In the early 1990s IBM invested heavily in PC software that created
+visual interfaces by &quot;screen-scraping&quot; existing mainframe software --
+they even mandated this as the PROPER way to build distributed
+applications. The success of Microsoft Windows and the Internet showed
+how short sighted this approach was. The mobile industry's current
+focus on miniature web screens and miniature desktops with application
+icons is similarly short sighted.</em></p></blockquote>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-07-10T18:36:45-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/06/great_roi_at_cs.html">
+<title>Great ROI at CSX Intermodal</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/06/great_roi_at_cs.html</link>
+<description>Nice summary of the ROI payoff for wireless data at CSX Intermodal:To get the most value out of wireless connectivity, organizations need solutions that deliver wireless voice and data in a single form factor.andAfter researching several wireless data solutions, CSX Intermodal came up with the criteria it needed to make its plan work. We still needed two-way, real-time communication between the drivers and dispatch center, says Dugan. And, it wasn&apos;t realistic for us to expect drivers to purchase cell phones and calling plans, plus wireless data devices and wireless data plans. We needed a single form factor that could accommodate wireless voice and data from a wireless carrier network. Ideally, the solution of choice would need to be able to work with multiple wireless carriers so drivers would be able to choose the carriers and plans they preferred. Also, it had to be simple to use. Many of CSX Intermodal&apos;s...</description>
+<content:encoded><![CDATA[<p>Nice summary of the <a href="http://www.integratedsolutionsmag.com/Articles/2005_06/050601.htm">ROI payoff for wireless data at CSX Intermodal</a>:</p><blockquote><p><em>To get the most value out of wireless connectivity, organizations need
+solutions that deliver wireless voice and data in a single form factor.</em></p></blockquote><p>and</p><blockquote><p><em>After researching several wireless data solutions, CSX Intermodal
+came up with the criteria it needed to make its plan work. &quot;We still
+needed two-way, real-time communication between the drivers and
+dispatch center,&quot; says Dugan. &quot;And, it wasn't realistic for us to
+expect drivers to purchase cell phones and calling plans, plus wireless
+data devices and wireless data plans. We needed a single form factor
+that could accommodate wireless voice and data from a wireless carrier
+network.&quot; </em>
+</p>
+
+<p><em>Ideally, the solution of choice would need to be able to work with
+multiple wireless carriers so drivers would be able to choose the
+carriers and plans they preferred. Also, it had to be simple to use.
+Many of CSX Intermodal's owner-operators don't have a lot of computer
+skills; therefore, presenting them with complex handheld devices (that
+the drivers would have to buy) wouldn't work. The final criteria for
+the solution were that it had to accommodate spotty wireless coverage
+areas, and it had to be inexpensive.</em></p></blockquote><blockquote><p><em></em></p></blockquote>]]></content:encoded>
+
+
+<dc:subject>Wireless Deployments</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-06-26T22:01:21-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/06/how_analyze_a_u.html">
+<title>How to analyze a handheld user interface - project management as an example</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/06/how_analyze_a_u.html</link>
+<description>An earlier post described a terrific discussion at Edward Tufte&apos;s web site about building effective project management user interfaces. I have had recent experience with handheld interfaces to project management systems and want to add some thoughts about that. The critical place to look is at who will be using the handheld interface to the project management system and why they are using it from the field. As soon as you ask these questions, the discussion is shifted. Desktop project management systems are used by project managers, trained in the complexities of gantt charts, resource leveling, float dates, critical path analysis, budget planning, etc. etc. These are experts looking for a powerful tool with lots of options and complex visual displays. They want to browse around among many interlinked projects and tasks, selecting the views and operations consistent with their job of managing all the many disparate pieces. Why get...</description>
+<content:encoded><![CDATA[<p>An <a href="http://wirelessbusiness.blogs.com/weblog/2005/06/user_interface_.html">earlier post</a> described a terrific discussion at Edward Tufte's web site about building effective project management user interfaces. I have had recent experience with <em>handheld</em> interfaces to project management systems and want to add some thoughts about that.</p>
+
+<p>The critical place to look is at <strong><em>who</em></strong> will be using the handheld interface to the project management system and <strong><em>why</em></strong> they are using it from the field. As soon as you ask these questions, the discussion is shifted. Desktop project management systems are used by project managers, trained in the complexities of gantt charts, resource leveling, float dates, critical path analysis, budget planning, etc. etc. These are experts looking for a powerful tool with lots of options and complex visual displays. They want to browse around among many interlinked projects and tasks, selecting the views and operations consistent with their job of managing all the many disparate pieces.</p>
+
+<p>Why get field managers involved in project management at all? They have their daily &quot;to-do&quot; list and are not involved with big picture project management and resource planning. Instead, they are the critical link that provides data from the field to <em>reconcile the plan with what actually happened</em>. Project management tools can only deliver value when they are closely linked with real data about what is really happening.</p>
+
+<p>We now have the <a href="http://wirelessbusiness.blogs.com/weblog/2004/04/portable_device.html">focus we need to develop an effective handheld user interface</a>. Present a &quot;to-do&quot; list with the current plan and easy ways to provide the &quot;what really happened&quot; information needed back at the office by the project manager. This is probably done with pop-up responses associated with each todo list task -- &quot;completed&quot;, &quot;requires 1 more day&quot;, &quot;delayed due to weather&quot;. There is no need for gantt charts, resources leveling, visual displays, etc.</p>
+
+<p>The lesson: handheld user interfaces should focus on the task at hand for the field staff member. The desktop user interface for the back end software to which the handheld application is tied typically tells you very little about what the handheld interface should look like. Instead, look at the tasks of the person who will be using the handheld.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless User Interface</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-06-26T20:27:23-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/06/user_interface_.html">
+<title>User interface design - Edward Tufte - deep discussion of project management</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/06/user_interface_.html</link>
+<description>I have been meaning to write an entry about wireless project management. As background, I found a very rich and thoughtful discussion about project management interfaces at Edward Tufte&apos;s website. For those who don&apos;t know, Tufte is one of the deep thinkers of our age on effective use of visual displays and information design. He is opinionated, a purist and deeply original...</description>
+<content:encoded><![CDATA[<p>I have been meaning to write an entry about wireless project management. As background, I found a very <a href="https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=000076&amp;topic_id=1&amp;topic=">rich and thoughtful discussion about project management interfaces</a> at <a href="https://www.edwardtufte.com/tufte/index">Edward Tufte's</a> website. For those who don't know, Tufte is one of the deep thinkers of our age on effective use of visual displays and information design. He is opinionated, a purist and deeply original thinker.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless User Interface</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-06-25T12:44:29-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/06/form_factor_fal.html">
+<title>Form factor fallacies</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/06/form_factor_fal.html</link>
+<description>another Jim Chard guest entry With little fanfare or recognition, handheld devices are replacing laptops and tablet PCs. The advantages are both obvious and subtle. Handhelds are always on; they don’t require time-consuming boot-up time. They are more cost effective. A company can buy 5 to 10 times as many handhelds as PCs for the same amount of money. Replacement for rugged use in the field becomes an expense item, not a capital item. It is certainly more convenient to keep your computing resource in your breast pocket or hanging from your belt than back in the truck or hotel room, or worse, dangling painfully from your shoulder. Even more importantly, the PDA form factor is more appropriate for use in the field than a laptop or tablet. As long as bandwidth provides speedy updating and local data storage accommodates megabytes of data, the wireless handheld makes the laptop appear...</description>
+<content:encoded><![CDATA[<p class="MsoNormal">&nbsp; &nbsp; <em>another <a href="http://www.jumpstartwireless.com/about/mgmtteam.htm#jc">Jim Chard</a> guest entry</em></p>
+
+<p class="MsoNormal">With little fanfare or recognition, handheld devices are replacing laptops and tablet PCs. The advantages are both obvious and subtle. Handhelds are always on; they don’t require
+time-consuming boot-up time. They are
+more cost effective. A company can buy 5
+to 10 times as many handhelds as PCs for the same amount of money. Replacement for rugged use in the field
+becomes an expense item, not a capital item. It is certainly more convenient to keep your computing resource in your
+breast pocket or hanging from your belt than back in the truck or hotel room,
+or worse, dangling painfully from your shoulder.</p>
+
+
+
+
+
+<p class="MsoNormal">Even more importantly, the PDA form factor is more
+appropriate for use in the field than a laptop or tablet. As long as bandwidth provides speedy updating
+and local data storage accommodates megabytes of data, the wireless handheld
+makes the laptop appear as an antiquated relic out in the field. The process of booting up and logging on vs
+the always available handheld literally saves thousands of dollars of wasted
+time in a large field force. And the
+ability to work with one hand rather than two hands on a keyboard (or using a
+stylus) means that field staff can multi process and update databases without pausing
+during their work. Capturing data and
+updating databases becomes part of the work process rather than a clunky
+intrusion at the end of the day.<o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Nor is the small screen a limitation as handhelds develop
+the power to zoom in and out, display thousands of colors and navigate around a
+large drawing or x-rays. It wasn’t so
+long ago that we felt that we needed an E Size drawing to understand a blue
+print or a 14” x 17” film to understand an x-ray. Today we examine these images on a small
+computer screen with perfect comprehension; tomorrow we will view them on an
+even smaller handheld screen with equal comprehension. Not only x-rays and blueprints but maps,
+complex forms and detailed PowerPoint presentations can be rendered with
+perfect clarity and comprehension on the small screen, albeit in a different
+representation from that of a 19 inch flat panel monitor.</p>
+
+
+
+<p class="MsoNormal">Transaction processing in the field (work orders,
+inspections and quality assurance, inventory receiving, etc) all require
+multiple pages and parts in a paper-based world. Wireless handhelds use displays tailored to
+the individual user (and easily customized), branching logic to emulate step-wise
+business processes, pick lists to minimize text entry, and feature-rich
+submenus to manipulate large databases or graphics. With careful analysis and design, a
+multi-page 8 ½ x 11 form can be reduced to a series of screens which allow a
+user to scroll and click the thumb wheel to readily scan and update&nbsp; information. And all of this functionality and ease of use can be accomplished with a
+device that can easily be slipped into a shirt pocket.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-06-25T12:31:40-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/06/survival_of_the.html">
+<title>Handhelds will displace laptops</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/06/survival_of_the.html</link>
+<description>(another Jim Chard entry) Wireless applications began as pale imitations of their client server cousins with slower response times, limited data and dearth of user friendly features. As networks have become faster and more pervasive, devices more powerful, and developers more sophisticated about mobile applications, the software available to workers on the move has improved radically in its utility and productivity. As a consequence the barrier is continually being raised for software developers wishing to compete in the wireless data market. Just like Netscape and Internet Explorer kept raising the bar every 6 months when Internet browsers first emerged, wireless enterprise developers are competing to enrich functionality in wireless handhelds at an asymptotic rate. Initial mobile applications were characterized by the need to synch devices physically at the end of the day. Or by lack of local data base capabilities resident on the handheld device. Or by data stores that...</description>
+<content:encoded><![CDATA[<p class="MsoNormal">(another <a href="http://www.jumpstartwireless.com/about/mgmtteam.htm#jc">Jim Chard</a> entry)</p>
+
+<p class="MsoNormal">Wireless applications began as pale imitations of their
+client server cousins with slower response times, limited data and dearth of
+user friendly features. As networks have become faster and more pervasive,
+devices more powerful, and developers more sophisticated about mobile
+applications, the software available to workers on the move has improved radically
+in its utility and productivity. As a
+consequence the barrier is continually being raised for software developers
+wishing to compete in the wireless data market. Just like Netscape and Internet
+Explorer kept raising the bar every 6 months when Internet browsers first
+emerged, wireless enterprise developers are competing to enrich functionality
+in wireless handhelds at an asymptotic rate.</p>
+
+
+
+<p class="MsoNormal">Initial mobile applications were characterized by the need
+to synch devices physically at the end of the day. Or by lack of local data
+base capabilities resident on the handheld device. Or by data stores that were not replicated
+with server databases throughout the day. Therefore changes in inventory, project status, pricing, crew
+deployment, etc. were not reflected appropriately in either central or remote
+mobile databases. Management was still
+in an “out-of-sight, out-of-mind environment where activities could not be
+monitored throughout the day without reverting to voice, calling on the phone
+and asking “how ya doing?”</p>
+
+
+
+<p class="MsoNormal">With the rollout of 3G networks and the introduction of
+handhelds with many megabytes of memory, the paradigm literally changes. Now mobile users are just as hooked into corporate
+networks as their desk-bound brethren. Their data is as fresh and accurate and their response time is nearly
+comparable. Data in the field is no
+longer untimely or out-of-date; it is just as accurate as data available at the
+desk top. The resulting enhancements to business
+management are reflected throughout the organization:</p>
+
+
+
+<ul type="disc" style="margin-top: 0in;"><li class="MsoNormal">inventory
+- management and stock reordering</li>
+
+<li class="MsoNormal">employee - routing and tasking</li>
+
+<li class="MsoNormal">accurate - time accounting </li>
+
+<li class="MsoNormal">customer - billing and cash mobilization </li></ul>
+
+
+
+<p class="MsoNormal">All these consequences, generated by wireless applications, will
+continue to squeeze inefficiencies out of operations. And these benefits are delivered over a
+device that is always on, fits comfortably in a breast pocket, is reasonably
+rugged and is priced at an affordable price point. Through a sort Darwinian principle of
+“survival of the fittest”, wireless handhelds will displace both laptops ­­<u>and</u>
+paper in corporate field operations and other mobile environments. Mobile workers will have no real need for a
+bulky, fragile and heavy device when a handheld can do the job better.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-06-25T12:07:07-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/06/who_buys_wirele.html">
+<title>Who buys wireless software – BOTH users AND the information technology (IT) department?</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/06/who_buys_wirele.html</link>
+<description>We have recently had deals get complicated by a delicate dance between the operational managers, the people who manage the mobile workers, and the information technology (IT) department managers. Here is what operational managers care about: It must solves their unique problem exactly they way they want. It must be easy to use and easy to train (“this must not be too complicated for my folks?”) It must not require lots of reworking of process and procedures What does the IT department care about: Does it cleanly integrate with my backend software infrastructure, current and planned? Does it open up any security hole Is the operational department going to be constantly calling the help desk with problems? Will the approach solve many problems in the company, necessitating only one infrastructure and training investment? Will there be a performance or maintenance impact on my mission critical systems? These are not so...</description>
+<content:encoded><![CDATA[
+
+<p class="MsoNormal">We have recently had deals get complicated by a delicate
+dance between the operational managers, the people who manage the mobile
+workers, and the information technology (IT) department managers. </p>
+
+
+
+<p class="MsoNormal">Here is what operational managers care about:</p>
+
+
+
+<ul><li><span dir="ltr">It must solves their unique problem
+exactly they way they want.</span></li>
+
+<li><span style="font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;</span><span dir="ltr">It must be easy to use and easy to train
+(“this must not be too complicated for my folks?”)</span></li>
+
+<li><span dir="ltr">It must not require lots of reworking of
+process and procedures</span></li></ul>
+
+
+
+
+
+
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p>What does the IT department care about:</p>
+
+
+
+<ul><li><span dir="ltr">Does it cleanly integrate with my backend
+software infrastructure, current and planned?</span></li>
+
+<li><span dir="ltr">Does it open up any security hole</span></li>
+
+<li><span dir="ltr">Is the operational department going to be
+constantly calling the help desk with problems?</span></li>
+
+<li><span style="font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;</span><span dir="ltr">Will the approach solve many problems in
+the company, necessitating only one infrastructure and training investment?</span></li>
+
+<li><span style="font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;</span><span dir="ltr">Will there be a performance or
+maintenance impact on my mission critical systems?</span></li></ul>
+
+
+
+
+
+
+
+
+
+
+
+<p class="MsoNormal">These are not so much <em>contradictory</em> concerns, but <em>different</em>
+concerns. At many companies the two groups work together to select a solution.
+At some companies it is a battle, viewed as an “either/or” proposition. At some
+places the user group feels like it needs to sneak in a skunkworks project. At
+some places the IT groups watch like hawks to make sure no “unauthorized”
+devices are attached to the corporate infrastructure.</p>
+
+
+
+<p class="MsoNormal">We try to work with both sides from the beginning. An
+enterprise sale needs to sell both. Sometimes you need to be the peacemaker that
+gets everyone talking with each other. This is more work up front, but more
+likely to produce success long term.</p>
+]]></content:encoded>
+
+
+<dc:subject>Wireless Deployments</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-06-25T12:01:16-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/05/customizable_wi.html">
+<title>Why wireless applications are by necessity customizable</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/05/customizable_wi.html</link>
+<description>a guest entry from Jim ChardCustomizable applications mean that applications are not only dynamic, changing with the company’s business needs, but that the cost of maintaining and enhancing the applications is driven down because customizing is accomplished office admin staff rather than expensive programmers and systems integrators. Each corporate customer is unique and, recognizing its uniqueness, will refuse to adopt a shrink wrapped, one-size-fits-all solution. Even in homogeneous sectors like banking, standard procedures are conducted in very different ways. In order to convince field managers to change their current practices and give up paper, companies and wireless software vendors will need to tailor wireless solutions to the unique, specific needs of field operations. Wireless is the most recent cycle of personalized computing power. Each evolutionary cycle of computer development from mainframe to mini to client server to handheld has manifested a closer and more personal relationship between device and user....</description>
+<content:encoded><![CDATA[<blockquote><p class="MsoNormal"><em>a guest entry from <a href="http://www.jumpstartwireless.com/about/mgmtteam.htm#jc">Jim Chard</a></em></p></blockquote><p class="MsoNormal">Customizable applications mean that applications are not
+only dynamic, changing with the company’s business needs, but that the cost of
+maintaining and enhancing the applications is driven down because customizing
+is accomplished office admin staff rather than expensive programmers and
+systems integrators.</p>
+
+
+
+<p class="MsoNormal">Each corporate customer is unique and, recognizing its
+uniqueness, will refuse to adopt a shrink wrapped, one-size-fits-all
+solution. Even in homogeneous sectors
+like banking, standard procedures are conducted in very different ways. In order to convince field managers to change
+their current practices and give up paper, companies and wireless software
+vendors will need to tailor wireless solutions to the unique, specific needs of
+field operations.</p>
+
+
+
+<p class="MsoNormal">Wireless is the most recent cycle of personalized computing
+power. Each evolutionary cycle of
+computer development from mainframe to mini to client server to handheld has
+manifested a closer and more personal relationship between device and user. An increasingly personal relationship demands
+continual change and customization of the application and the interface
+presented to the user.</p>
+
+
+
+<p class="MsoNormal">Wireless applications allow companies to become real time
+processing entities. Real time in turn
+allows companies to rapidly evolve to meet changing competitive, economic, and
+global changes. The rapidly mutating
+corporation, changing to meet these demands, will of necessity need to alter
+its business processes on a highly accelerated scale. No place will this be more true than among
+mobile workers in the field. Their
+wireless applications and tools will need to change and adapt just as their
+corporation is changing. Static
+applications will rapidly obsolesce. Only if the applications are customizable, changeable, and malleable
+will field operations be able to keep pace with the changes in their companies.</p>
+
+
+
+<p class="MsoNormal">As the price of devices and over-the-air transport are
+driven down, the Total Cost of Ownership (TCO) will also be reduced
+accordingly. In a scenario where devices
+cost $50-150 and monthly data plans hover around $20/month, it is improbable
+that software will be priced any differently. In order for software to be priced appropriately and at the same time
+flexible enough to meet changing corporate conditions, wireless software needs
+to be customizable by its very nature. A
+forms-based approach which can be changed on the fly without programming would
+appear to be a necessity in such an environment.</p>
+<p class="MsoNormal">&nbsp;</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Practical Advice</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-05-21T23:33:28-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/05/pda_shipment_da.html">
+<title>PDA Shipment Data from Gartner - What market are they analyzing?</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/05/pda_shipment_da.html</link>
+<description>Lots of interesting data from Gartner&apos;s summary of first quarter 2005 PDA Shipments. But they seem to be making some arbitrary distinction between PDAs and Smartphones that is not all that relevant to purchasers. Here are highlights of the study: RIM (BlackBerry) is now number 1 in hardware shipments with 711K in Q1, representing 20.8% of all shipments and 75.6% growth in the last 12 months. Palm is number 2 with 18% of all shipments and -26.3% growth (that is, shrinkage) in the last year. Looked at from an OS point of view, Windows CE is the clear winner 1,573K shipments, 46% market share and 43% annual growth. RIMOS is in second place with 711K shipments, 20.8% market share, and 75.6% growth. 55% of all PDAs shipped had wireless LAN (WiFi 802.11) or Wireless WAN (cellular) capabilities. Wireless e-mail is driving this. Users are increasingly favoring full QWERTY keyboards and...</description>
+<content:encoded><![CDATA[<p>Lots of interesting&nbsp; data from <a href="http://www.gartner.com/press_releases/asset_126216_11.html">Gartner's summary of first quarter 2005 PDA Shipments</a>. But they seem to be making some arbitrary distinction between PDAs and Smartphones that is not all that relevant to purchasers.</p>
+
+<p>Here are highlights of the study:</p>
+
+<ul><li>RIM (BlackBerry) is now number 1 in hardware shipments with 711K in Q1, representing 20.8% of all shipments and 75.6% growth in the last 12 months. Palm is number 2 with 18% of all shipments and -26.3% growth (that is, shrinkage) in the last year.</li></ul>
+
+<ul><li>Looked at from an OS point of view, Windows CE is the clear winner 1,573K shipments, 46% market share and 43% annual growth. RIMOS is in second place with 711K shipments, 20.8% market share, and 75.6% growth.</li></ul>
+
+<ul><li>55% of all PDAs shipped had wireless LAN (WiFi 802.11) or Wireless WAN (cellular) capabilities.&nbsp; Wireless e-mail is driving this.</li></ul>
+
+<ul><li>Users are increasingly favoring full QWERTY keyboards and larger displays.</li></ul>
+
+<p>There is one big problem with interpreting this data. Popular &quot;hybrid&quot; devices like <a href="http://www.blackberry.com/blackberry7100/models.shtml">BlackBerry 7100</a> and<a href="http://www.palmone.com/us/products/smartphones/treo650/"> Palm Treo 650</a> are NOT considered PDAs by Gartner, but instead <em>smartphones</em>. (There is no free summary Gartner research on smartphones that I can find, and no Gartner definition of &quot;smartphone&quot; that I can find.)</p>
+
+<p>Gartner's distinction between PDA and smartphone is artificial and not related to real customer decisions The Palm Treo 650 -- <em>excluded from this study</em> -- is directly comparable to the mainstream BlackBerry devices (different numbers for different carriers, but all quite similar, see <a href="http://www.blackberry.com/compare/?CPID=ILC-nahcompare">72xx, 75xx, and 77xx models</a>) which make up almost all of the 711K units shipped by RIM and <em>included in this study</em>. Both BlackBerry and Treo have big color screens, QWERTY keyboards, full PIM features (address book, calendar, and contacts), and wireless email. The BlackBerry 7100 series compromises between a normal phone keyboard and QWERTY and has a more &quot;phone-ish&quot; size and shape. To me, it also should clearly be compared.</p>
+
+<p>When I talk with customers looking for higher end devices, they compare BlackBerry, Treo, and various Windows CE phones in a standard PDA form factor (like the <a href="http://h10010.www1.hp.com/wwpc/us/en/sm/WF05a/215348-64929-215381-314903-f60-430120.html">IPAQ 6315</a>). If they want someting more like a normal phone but still including some PIM or application features, they look at a different class of devices with normal 12 key phone keyboards and normal phone shape. This is what I would call smartphones. </p>]]></content:encoded>
+
+
+<dc:subject>Wireless Industry </dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-05-07T13:47:42-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/04/little_points_o_1.html">
+<title>Little points of failure, supplanting bigger points of failure: Handhelds replacing laptops</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/04/little_points_o_1.html</link>
+<description>Chad Dickerson, the CTO of InfoWorld, has written Little Points of Failure, a great column about the need for IT to embrace the management of mobile devices. He notes how such devices are becoming full-featured and mission-critical, and the time has come for IT departments to fully support them. He misses an important point however, mobile devices will be a management challenge for IT departments, but they will, in many cases, replace the much larger management challenge of managing laptops. From Dickerson&apos;s article: Mobile devices are growing increasingly full-featured and mission-critical for end-users, but many IT departments have no strategy for supporting them. I suspect that if your IT operation is at all like ours at InfoWorld, support for handheld devices still falls mostly on the end-user, which was certainly true in my case....On the near horizon, the continued mass adoption of phone PDAs such as the Treo and BlackBerry...</description>
+<content:encoded><![CDATA[<p><a href="http://www.infoworld.com/columnists/chad.html">Chad Dickerson</a>, the CTO of InfoWorld, has written <em><a href="http://www.infoworld.com/article/05/04/19/17OPconnection_1.html">Little Points of Failure</a></em>, a great column about the need for IT to embrace the management of mobile devices. He notes how such devices are becoming full-featured and mission-critical, and the time has come for IT departments to fully support them. He misses an important point however, mobile devices will be a management challenge for IT departments, but they will, in many cases, <em><strong>replace the much larger management challenge of managing laptops.</strong></em></p>
+
+<p><a href="http://www.infoworld.com/article/05/04/19/17OPconnection_1.html">From Dickerson's article:</a> </p><blockquote><p><em><span class="artText">Mobile devices are growing increasingly
+full-featured and mission-critical for end-users, but many IT
+departments have no strategy for supporting them. I suspect that if
+your IT operation is at all like ours at InfoWorld, support for
+handheld devices still falls mostly on the end-user, which was
+certainly true in my case.<br />...</span></em><br /><em><span class="artText">On the near horizon, the continued mass adoption of phone PDAs such as the Treo and BlackBerry combined with the <a href="http://www.infoworld.com/article/05/03/04/10FEmobile_1.html" class="regularArticleU">real beginnings of 3G network rollout</a> suggests that, for certain mobile functions, handhelds really will provide rich application capabilities in a high-bandwidth environment, <strong>supplanting the laptop for key functions</strong>.<span style="font-size: 0.6em;"> [my emphasis]</span></span></em> <br />...<br /><span class="artText"><em>IT’s wait-and-see period for handhelds is over. It’s clearly time to elevate
+the handheld (phone and all) from tangential annoyance to first-class IT citizen.</em></span></p>
+
+</blockquote><p>IT should not just elevate the handheld to first class citizen -- they should embrace handhelds as a cost-effective, much easier alternative to laptops. This is a great win for businesses with large numbers of mobile staff that carry a laptop solely to access particular custom business applications -- salespeople, nurses, field service personnel, inspectors, and crew supervisors. Laptops are a huge IT nightmare, handheld's will be much less so.</p>
+
+<p>Why are laptops a huge nightmare to support in the field? First of all, they are every bit as complicated and prone to failure as desktop PCs. Particularly with MS-Windows, there are thousands of minor and not-so minor confusing features/failures/glitches/viruses/spyware that can stop an unsophisticated user cold. Add to this a device that is easily stolen, easily dropped, used around food, works for only a few hours on a single battery charge (at best) and regularly needs to go through a 2-3 minute reboot sequence.&nbsp; And -- tell the truth now -- how many of you that are regular laptop users have every really figured out how correctly use &quot;hibernate&quot;, &quot;suspend&quot;, &quot;screen/hard disk suspend&quot;, and so on without regularly crashing the computer? </p>
+
+<p>It has always struck me as incredibly wasteful for a service technician to carry a laptop solely for reading and completing work orders. Similarly sales staff using a laptop just to manage leads and enter orders. The truth is, based on discussions with our customers, many of these laptops are actually left in the car or at home! Laptop updates that are supposed to be done real-time, at the job site, are actually done at the end of the day or on the weekend. What a waste.<br /> </p>
+
+<p>The statistics I've seen show a dismal record for laptops in the field. Even leaving aside extreme examples like the <a href="http://www.varbusiness.com/sections/news/breakingnews.jhtml;jsessionid=LJ40KSTNCUDLQQSNDBCCKH0CJUMEKJVN?articleId=18841284&amp;_requestid=200663">90% failure rate for standard laptops used by US personnel in Iraq</a>, analysts report <a href="http://www.integratedsolutionsmag.com/Articles/2004_02/040212.htm">20% to 30% failure rates for laptops</a>, with 10% unusable at any given time for a typical mobile workforce. There are just <a href="http://www.forbes.com/personaltech/2005/02/04/cx_ah_0204tentech.html">way to many ways they can fail</a>.<br /> </p>
+
+<p>Dickerson's phrase &quot;supplanting the laptop for key functions&quot; is the key. From the point of Dickerson, CTO of a business where many of the users are technology writers and gurus, a laptop will not be supplanted and is a necessary evil. For a more typical business with mobile workers doing a few simple tasks, mobile devices should be a welcome relief from the complexity of laptops.&nbsp; &nbsp;<br /><em></em></p>]]></content:encoded>
+
+
+<dc:subject>Wireless Deployments</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-04-30T11:28:28-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/04/wireless_email_.html">
+<title>Wireless Email, that battle is over</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/04/wireless_email_.html</link>
+<description>The April 25th Wall Street Journal has an excellent cover article by Mark Heinzl on the history of Research in Motion (RIM) and the emerging market battle where Nokia, Motorola, Microsoft, and PalmOne are attempting to challenge RIM&apos;s dominance in wireless email. (Sorry, no public links available). Here is a quote: More than 42,000 organizations have a BlackBerry e-mail server and 2.5 million people keep the gadget within arm&apos;s reach. The Los Angeles Police Department issues BlackBerries to some of its officers. Former Vice President Al Gore has one, as does Oprah Winfrey.RIM commands a $12.4 billion market valuation. It has made tycoons of Co-Chief Executive Officers Mike Lazaridis and Jim Balsillie, who found success after years of sometimes quixotic effort.Awakened by RIM&apos;s achievement, tech giants and hungry upstarts are responding with an arsenal of gear aimed at cracking the BlackBerry&apos;s stronghold. Consumer-electronics companies such as Nokia Corp., Motorola Inc....</description>
+<content:encoded><![CDATA[<p>The April 25th Wall Street Journal&nbsp; has an excellent cover article by <a href="http://www.penguin.ca/nf/Author/AuthorPage/0,,0_1000036107,00.html">Mark Heinzl</a> on the history of <a href="http://www.rim.com">Research in Motion (RIM)</a> and the emerging market battle where Nokia, Motorola, Microsoft, and PalmOne are attempting to challenge RIM's dominance in wireless email. (Sorry, no public links available). Here is a quote:</p><blockquote>
+
+ 
+<div class="times"><em>More than 42,000 organizations have a BlackBerry e-mail server and 2.5 million 
+people keep the gadget within arm's reach. The Los Angeles Police Department 
+issues BlackBerries to some of its officers. Former Vice President Al Gore has 
+one, as does Oprah Winfrey.<br /><br />RIM commands a $12.4 billion market valuation. It has made 
+tycoons of Co-Chief Executive Officers Mike Lazaridis and Jim Balsillie, who 
+found success after years of sometimes quixotic effort.<br /><br /></em><em>Awakened by RIM's achievement, tech giants and hungry upstarts are responding with an arsenal of gear aimed at cracking the BlackBerry's 
+stronghold. Consumer-electronics companies such as <strong>Nokia</strong> Corp., 
+<strong>Motorola</strong> Inc. and Samsung </em><em>Electronics Co. are rolling out competing 
+e-mail devices. Meanwhile, rivals are providing network software designed to 
+intercept or block the revenue RIM generates from handling wireless e-mail 
+traffic.<br /><br /></em></div>
+<div class="times"><em>RIM now faces a classic technology-industry problem: Young 
+companies that launch popular products aren't always the long-term winners.<br /><a href="http://wirelessbusiness.blogs.com/.shared/image.html?/photos/uncategorized/lazaridis_mike_wsj.gif" onclick="window.open(this.href, '_blank', 'width=136,height=231,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><br /></a></em></div></blockquote><p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p>I think the article missed the point and missed the important emerging market battle. Here is the letter I sent to the editor:</p><blockquote><p><em>To the Editor:</em></p></blockquote><blockquote><p><em>In response to the excellent overview of the wireless email marketplace (April 25 article by Mark Heinzl) and Research in Motion and its BlackBerry products, I'd like to suggest that your coverage addresses a war that is over. Wireless email is a must-have for any serious contender in the wireless data market. Microsoft, Nokia, PalmOne and the others still need to quickly duplicate RIM's features and ease-of-use if they are to be taken seriously.&nbsp; In the next five years tens of millions of mobile workers will conduct routine daily business transactions via hand-held devices. The next wave of wireless market growth will be driven by companies who move beyond email to support line-of-business applications -- using handheld devices to replace paper and laptops.</em></p>
+
+<p><em>The return on investment from wireless email is weak. Businesses with mobile workers -- delivery drivers, repair technicians, inspectors, insurance adjusters, healthcare workers, sales people, and so on -- are aggressively looking for ways to improve productivity and customer service while reducing the enormous overhead of paper forms and voice calls transmitting routine business data. Unlike wireless email, more timely data and more efficient mobile business transactions show immediate payback. Return on investment for wireless business applications can easily exceed $500 per month per mobile worker. Based on their announcements at last weeks annual &quot;Wireless Enterprise Symposium&quot;, RIM is focused on this emerging growth driver. Are Microsoft, Nokia, and PalmOne?&nbsp; </em></p>
+
+<p><em>Beyond the device manufacturers and device software, the wireless carriers like Nextel, Verzion Wireless. Sprint, T-Mobile, and Cingular have much to say about what applications are delivered to business users. Nextel, for example, has developed a sophisticated software support infrastructure including location tracking features. Similarly, Verizon Wireless has focused on selling BlackBerrys for sophisticated business applications. Because RIM has aggressively courted a broad group of carriers with compatible and affordable devices, they are in a position to provide a unified software development experience to software vendors and therefore a rich library of business software applications. Right now, no one else provides the optimal combination of affordable and flexible device, standardized software platform, and support across many carriers. The challenge for the carriers is to differenciate and become &quot;intelligent pipes&quot; effectively moving front-line business data between their customer's mobile workers and enterprise software systems.</em></p>
+
+<p><em>Will the preferred hand-held devices five years from now be descendants of today's BlackBerry or someone else's mobile software and platform? Which wireless carriers will provide value add to delivering business data to mobile workers? What are the crucial software and hardware features that deliver on the promise of mobile business data? These are the battlefields to watch. I lead a company that provides wireless software for many different device manufacturers and carriers. In the overall wireless ecosystem, we see wireless business applications having a far larger impact on mainstream business customers than wireless email.</em></p>
+
+<div class="times"></div>
+
+<div class="times"></div>
+
+<div class="times">&nbsp;</div></blockquote><blockquote><div class="times">&nbsp;</div></blockquote>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-04-26T21:00:08-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2005/02/choosing_betwee.html">
+<title>Choosing between the Radio Shack TRS 80 (BlackBerry) and Commadore PET (Treo)</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2005/02/choosing_betwee.html</link>
+<description>I recently was called by a friend who asked me whether I thought he should buy a BlackBerry or a Treo for his next phone. I laughed and reminded him how utterly early we are in the market for mobile devices. Which was better, I asked, the Radio Shack TRS 80 or the Commadore PET? The real answer to his question is that no matter which device he buys, both will be hopelessly obsolete in 1 year and laughably inadequate in 3 years. Consider the details of the Radio Shack TRS 80 and Commadore PET, both early PCs that were very popular in their time. Those machines had tiny 8 bit processors (vs. current 32 bit), 64k of memory (vs. current 256,000K) and 250K of cassette tape storage (vs. 640,000K CD-RW). We need to realize where we are with respect to these devices. Times are very early....</description>
+<content:encoded><![CDATA[<p>I recently was called by a friend who asked me whether I thought he should buy a <a href="http://www.blackberry.com/">BlackBerry</a> or a <a href="http://web.palmone.com/">Treo</a> for his next phone. I laughed and reminded him how utterly early we are in the market for mobile devices. Which was better, I asked, the Radio Shack TRS 80 or the Commadore PET? The real answer to his question is that no matter which device he buys, both will be hopelessly obsolete in 1 year and laughably inadequate in 3 years. Consider the details of the Radio Shack TRS 80 and Commadore PET, both early PCs that were very popular in their time. Those machines had tiny 8 bit processors (vs. current 32 bit), 64k of memory (vs. current 256,000K) and 250K of cassette tape storage (vs. 640,000K CD-RW). </p>
+
+<p>We need to realize where we are with respect to these devices. Times are <em><strong>very</strong></em> early.<br /> </p>]]></content:encoded>
+
+
+<dc:subject>Wireless Practical Advice</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2005-02-21T16:35:56-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/keep_mobile_app.html">
+<title>Keep Mobile Applications Simple</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/keep_mobile_app.html</link>
+<description>Mobile applications need to be simple, small, and straightforward. As I have said before, browsing and fancy graphical user interfaces are clumsy and confusing on small devices. Here is Bob Brewin, writing about ComputerWorld&apos;s recent Mobile &amp; Wireless World conference: When enterprises develop mobile and wireless applications for internal or customer use, keeping the applications simple and small is usually the best route to take, according to speakers at Computerworld&apos;s Mobile &amp; Wireless World conference this week. Although mobile devices can mimic most of the capabilities of a desktop computer, such as handling attachments and rich-text documents, Ralph Nichols, service program manager at Pitney Bowes Inc. in Stamford, Conn., said plain text is usually a better choice for sending data. He developed a purely text-based system for the company&apos;s 3,500 field service technicians, making it both easy to use and easy to understand, yet integrated with the company&apos;s Field Service...</description>
+<content:encoded><![CDATA[<p>Mobile applications need to be simple, small, and straightforward. As I have said before, <a href="http://wirelessbusiness.blogs.com/weblog/2004/04/portable_device.html">browsing and fancy graphical user interfaces are clumsy and confusing on small devices</a>. Here is Bob Brewin, <a href="http://www.computerworld.com/mobiletopics/mobile/story/0,10801,93482,00.html">writing about ComputerWorld's recent Mobile & Wireless World conference</a>:<br />
+<em><blockquote><br />
+When enterprises develop mobile and wireless applications for internal or customer use, keeping the applications simple and small is usually the best route to take, according to speakers at <a href="http://www.computerworld.com">Computerworld's </a> <a href="http://www.computerworld.com/mobiletopics/mobile/resourcepage/0,5242,,00.html#features">Mobile & Wireless World</a> conference this week. </p>
+
+<p>Although mobile devices can mimic most of the capabilities of a desktop computer, such as handling attachments and rich-text documents, Ralph Nichols, service program manager at Pitney Bowes Inc. in Stamford, Conn., said plain text is usually a better choice for sending data. He developed a purely text-based system for the company's 3,500 field service technicians, making it both easy to use and easy to understand, yet integrated with the company's Field Service Management system from Siebel Systems Inc. in San Mateo, Calif.<br />
+</blockquote></em></p>]]></content:encoded>
+
+
+<dc:subject>Wireless Practical Advice</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-29T13:17:05-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/there_will_be_a.html">
+<title>The Wireless Killer Application - Mobile Business Forms</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/there_will_be_a.html</link>
+<description>Bryan Morgan in the Wireless Development Blog gets it right again -- there will be a wireless &quot;killer application&quot;. The tech media gave quite a bit of coverage to a recent IDC report that went so far as to state that there will be no killer app for mobile. The IDC analyst responsible for the report correctly states that a hodgepodge of technologies and innovations - such as “ring tones, gaming, video, and music” - will contribute to improved data traffic and, consequently, increased mobile data revenues for carriers. I, for one, will go on record as saying this is patently incorrect. Why? Name me a single platform, class of application, or market niche over the past 30 years that has not had its own “killer app”. (By the way, by killer app, I mean an app that resulted in a sudden increase in users, revenues, and visibility for the...</description>
+<content:encoded><![CDATA[<p>Bryan Morgan in the <a href="http://wirelessdev.weblogsinc.com/">Wireless Development Blog</a> gets it right again -- <a href="http://wirelessdev.weblogsinc.com/entry/4452571824746671">there will be a wireless "killer application". </a><br />
+<em><blockquote><br />
+The tech media gave quite a bit of coverage to a <a href="http://www.theregister.co.uk/2004/05/20/mobile_killer_apps_idc/">recent IDC report </a>that went so far as to state that there will be no killer app for mobile.  The IDC analyst responsible for the report correctly states that a hodgepodge of technologies and innovations - such as “ring tones, gaming, video, and music” - will contribute to improved data traffic and, consequently, increased mobile data revenues for carriers.  </p>
+
+<p>I, for one, will go on record as saying this is patently incorrect.  Why?  Name me a single platform, class of application, or market niche over the past 30 years that has not had its own “killer app”.  (By the way, by killer app, I mean an app that resulted in a sudden increase in users, revenues, and visibility for the target market.)  I’ll throw out a few examples not so much as to say this is a definitive, or even correct, list but to show instead that the killer app is both inevitable and completely unpredictable.<br />
+<blockquote><br />
+- Internet - Mosaic </p>
+
+<p>- Client/Server computing - Oracle DBMS </p>
+
+<p>- Platform-independent computing - Java </p>
+
+<p>- Rapid Application Development - Visual Basic </p>
+
+<p>- Operating Systems - Microsoft Windows 3.1 <br />
+ <br />
+- Spreadsheet - Visicalc </p>
+
+<p>- Wireless Data - Never will be one.  Nope, not ever.  Riiiiight. <br />
+</blockquote><br />
+</blockquote></em><br />
+(I edited his list down from his original post.)</p>
+
+<p>I agree completely with Bryan. I'll even tell you where to find the killer app. </p>
+
+<p>The key thing that the analysts are missing is that the killer app will be (at least initially) driven by  <em>business</em> users, not gamers and not tech-savvy consumers. Look at what business users get excited about:<br />
+<blockquote><br />
+- wireless delivery orders<br />
+- wireless work orders<br />
+- wireless payroll<br />
+- wireless sales order entry<br />
+</blockquote><br />
+They are all business forms!  Come up with a cost-effective way to deliver customized business forms and you have the wireless killer app.</p>
+
+<p></p>
+
+<p><br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-22T13:36:29-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/selling_wireles.html">
+<title>Selling Wireless Data to Customers - Moving from Early Adopters to Early Majority</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/selling_wireles.html</link>
+<description>Wireless software needs to move beyond the initial group of customers -- moving beyond what Geoffrey Moore calls the &quot;Early Adopters&quot; -- to the much broader &quot;Early Majority&quot; -- the more skeptical group who wants someting more proven and safe. My company has recently been focused on closing sales to this Early Majority group. This is the crucial phase between when a prospective customer says &quot;Yes, I&apos;m interested and see the value&quot; and when they actually sign the contract and write a check. My intuition was to not raise issues if the customer doesn&apos;t. Why make trouble? If it ain&apos;t broke, don&apos;t fix it! We have discovered, however, that invariably what is broke is the concern the customer has not raised directly. In many cases the customer is not even sure what they are worried about. We can&apos;t address the concern until they talk about it. When they talk about...</description>
+<content:encoded><![CDATA[<p>Wireless software needs to move beyond the initial group of customers -- moving beyond what <a href="http://www.tcg-advisors.com/who/moore.htm">Geoffrey Moore </a>calls the <a href="http://www.saleslinks.com/majoraccounts03.html">"Early Adopters" -- to the much broader "Early Majority"</a> -- the more skeptical group who wants someting more proven and safe. </p>
+
+<p>My company has recently been focused on <em>closing</em> sales to this Early Majority group. This is the crucial phase between when a prospective customer says "Yes, I'm interested and see the value" and when they actually sign the contract and write a check. <br />
+My intuition was to <strong>not</strong> raise issues if the customer doesn't. Why make trouble? If it ain't broke, don't fix it! </p>
+
+<p>We have discovered, however, that invariably what is broke is the concern the customer <strong>has not</strong> raised directly. In many cases the customer is not even sure what they are worried about. We can't address the concern until they talk about it. When they talk about it, we have a chance to resolve it.</p>
+
+<p>The key to closing is surfacing and addressing the concerns of the prospect. In some cases, the prospect doesn't even know what their concerns are -- they're just not quite ready to sign.  Our strategy: raise each and every concern we can think of with the customer. Get them talking. Give us a chance to listen to the issue and address it. Our list of concerns are somewhat tied to the peculiarities of wireless software, but they are easily translated to any other market where technology is being purchased to change a business process.</p>
+
+<p>Here are the concerns we make sure to bring up with the customer:</p>
+
+<p>1. Are they worried about training their people and whether their employees can handle the new technology?</p>
+
+<p>2. Are they worried about how well our system will work with their existing software?</p>
+
+<p>3. Are they worried about having enough time and personnel to get our system deployed?</p>
+
+<p>4. Are they worried about problems related to losing the paper records that our wireless system will eliminate?</p>
+
+<p>5. Are they worried about losing control of their business? </p>
+
+<p>6. Are they worried about losing business or existing customers?</p>
+
+<p>7. New computer systems always bring a certain amount of startup pain -- will that pain be worth the trouble?</p>
+
+<p>8. Can I trust the ROI analysis? Will this really produce the payback I'm expecting?</p>
+
+<p>9. Has the competition been reviewed, perhaps their is something better out there?</p>
+
+<p>10. Are all executives signed off and bought in?</p>
+
+<p>11. Are all the key operational people -- the ones who can torpedo the project if they don't support it -- bought in?</p>
+
+<p>12. Is everything lined up with the wireless carrier? </p>
+
+<p>13. What is their worse fear about the changes that our system will introduce?</p>]]></content:encoded>
+
+
+<dc:subject>High Tech Ventures</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-09T23:24:41-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/device_stupidit.html">
+<title>Device stupidity - lets make sure businesses CAN&apos;T use it</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/device_stupidit.html</link>
+<description>Lets pay tribute to device stupidity. Product managers making decisions that arbitrarily doom a device for use by businesses: - Nokia Series 40 - Very nice series of programmable phones with many different form factors. Great, highly standardized, Java programmability. Stupidity: Original devices had the system hardwired to allow no bigger than 64K programs! Thats right -- if you want to run one or two large programs instead of four small ones, you are not allowed. The product managers think it better that you have many different toy programs rather than allow one piece of software you really want. Generally, this dooms the very popular platform to the world of games. - Many Motorola iDEN phones - There is no way to turn off T9 mode (the mode that automatically trys to guess words based on single letter key strokes from a phone pad, rather than having to triple type)...</description>
+<content:encoded><![CDATA[<p>Lets pay tribute to device stupidity. Product managers making decisions that arbitrarily doom a device for use by businesses:</p>
+
+<blockquote>
+- Nokia Series 40 - Very nice series of programmable phones with many different form factors. Great, highly standardized, Java programmability. Stupidity: Original devices had the system hardwired to allow no bigger than 64K programs! Thats right -- if you want to run one or two large programs instead of four small ones, you are not allowed. The product managers think it better that you have many different toy programs rather than allow one piece of software you really want. Generally, this dooms the very popular platform to the world of games.
+
+<p>- Many Motorola iDEN phones - There is no way to turn off T9 mode (the mode that automatically trys to guess words based on single letter key strokes from a phone pad, rather than having to triple type) from a program. So users entering a password must manually change the mode for their text entry fields.</p>
+
+<p>- The Nokia 6230, one of the newest series 40 devices (<a href="http://www.enterprisej2me.com/blog/java/?postid=46">positive review </a>and <a href="http://www.gadgetguy.de/archives/000794.php">negative review</a>) has a nice series 40 camera phone that mysteriously TURNS OFF java access to the camera. This is part of the corporate decision to ENSURE that this phone is never used for business critical applications.</p>
+
+<p>- Siemens ruggedised M65 - Great programmable device, ruggedized even -- should be a great fit for blue collar business users. What is it packaged with? 4 games and a Tamagochi-style Photopet. What are they thinking? Most of my business customers do not want to give their employees phones with games. Why not support a business packaging for this phone?<br />
+</blockquote></p>
+
+<p>I'm all in favor of personalizing phone models and creating stylish phones that narrowly target particular market segments. Nonetheless, why make a particular model intentionally dumb? Why build in limitations unrelated to technical limits? <br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-07T20:15:01-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/mike_masnick_at.html">
+<title>Why Nextel  Has $71 Average Revenue Per Month (ARPU) Per Subscriber</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/mike_masnick_at.html</link>
+<description>Mike Masnick at Techdirt Wireless notes that the widely anticipated Push To Talk (PTT) wars never materialized. Of particular interest to me, he also notes that: Carriers may be realizing that, while useful in some cases, PTT alone was not the only reason for Nextel&apos;s enviously high ARPUs (average revenue per user). Allow me to share some specifics on why Nextel has such high ARPU ($71 vs industry standard of $50): - Focus on business users rather than consumers -- less fickle, more focused on value rather than price. - Billing plans that help businesses. Nextel is the only carrier I know of that allows a business to pay for a wireless phone data and PTT service on its bill, while simultaneously allowing the employee to have their own personal bill for a normal wireless voice plan. - Strong focus on wireless data applications that add business value rather than...</description>
+<content:encoded><![CDATA[<p>Mike Masnick at <a href="http://www.techdirt.com/news/wireless/">Techdirt Wireless </a>notes that <a href="http://www.techdirt.com/news/wireless/article/3912">the widely anticipated Push To Talk (PTT) wars never materialized</a>. Of particular interest to me, he also notes that: </p>
+
+<p><em><blockquote>Carriers may be realizing that, while useful in some cases, PTT alone was not the only reason for Nextel's enviously high ARPUs (average revenue per user).</blockquote></em></p>
+
+<p>Allow me to share some specifics on why Nextel has such high ARPU (<a href="http://wirelessbusiness.blogs.com/weblog/2004/04/forbes_magazine.html">$71 vs industry standard of $50</a>):</p>
+
+<p>- Focus on business users rather than consumers -- less fickle, more focused on value rather than price.</p>
+
+<p>- Billing plans that help businesses. Nextel is the only carrier I know of that allows a business to pay for a wireless phone data and PTT service on its bill, while simultaneously allowing the employee to have their own personal bill for a normal wireless voice plan.</p>
+
+<p>- Strong focus on wireless data applications that add business value rather than provide entertainment.</p>
+
+<p>- Credible wireless data phones (J2ME) for under $150.</p>
+
+<p>- Wireless data plans that provide adequate service for under $10 per month.</p>
+
+<p>- Vertical focused marketing that helps sell to business within particular verticals.</p>
+
+<p>In summary, Nextel focuses on customers that are happy to pay for value.</p>
+
+<p></p>
+
+<p></p>
+
+<p><br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-04T21:00:48-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/2009_the_year_o.html">
+<title>2009 - The Year of 3G</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/2009_the_year_o.html</link>
+<description>From Mike Masnick at TechDirt Wireless: For each of the past three years, someone has come out with a prediction that the current year would be &quot;The Year of 3G&quot; when third generation mobile phones and services would really gain user acceptance. Every year that&apos;s proven to be a very bad prediction. ... So, now, it turns out that it&apos;s not 2004, but maybe it&apos;s 2009 that will be the real year of 3G. At least that&apos;s what the latest predictions from Analysys Research seem to suggest. (full TechDirt Wireless article here). As I said in an earlier post: Just as bad is drooling over an alphabet soup of hot new 3G, 4G and xG wireless technologies that may or may not be rolled out in “the next 18 months” in “major markets” and may or not be supported by new handsets and may or may not make high speed...</description>
+<content:encoded><![CDATA[<p>From Mike Masnick at <a href="http://www.techdirt.com/news/wireless/">TechDirt Wireless</a>: </p>
+
+<p><em><blockquote>For each of the past three years, someone has come out with a prediction that the current year would be "The Year of 3G" when third generation mobile phones and services would really gain user acceptance. Every year that's proven to be a very bad prediction.  ... So, now, it turns out that it's not 2004, but maybe it's 2009 that will be the real year of 3G. At least that's what <a href="http://www.theregister.co.uk/2004/05/03/3g_mass_market/">the latest predictions from Analysys Research </a>seem to suggest. (<a href="http://www.techdirt.com/news/wireless/article/3907">full TechDirt Wireless article here</a>).</blockquote></em></p>
+
+<p>As I said in an <a href="http://wirelessbusiness.blogs.com/weblog/2004/05/focus_on_who_is.html">earlier post</a>:  </p>
+
+<p><em><blockquote>Just as bad is drooling over an alphabet soup of hot new 3G, 4G and xG wireless technologies that may or may not be rolled out in “the next 18 months” in “major markets” and may or not be supported by new handsets and may or may not make high speed wireless internet access cheap and easy everywhere. These technologies are going to usher in a golden age of watching wireless 3D interactive movies while commuting to work – and of course – this the killer application that everyone is waiting for.</p>
+
+<p>Excuse my sarcasm, but any business model built on such services rolling out any time soon is doomed to failure. </blockquote></em></p>
+
+<p>A healthy wireless software industry demands focus on sevices where there are real networks, real devices, and, most critically, real users ready to pay.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-04T20:21:26-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/focus_on_who_is.html">
+<title>$500 Swiss Army Phones vs. Who Is Actually Buying Wireless Software Now</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/focus_on_who_is.html</link>
+<description>The wireless industry trade press is full of panting and drooling over hot new devices and technologies, with very little attention on who is paying the bills. Just look at any wireless industry trade magazine, the mass market business press, and the hardware reviews in most of the wireless and technology blogs – in fact there are whole blogs devoted just to cool gadgets and technology. Just as bad is drooling over an alphabet soup of hot new 3G, 4G and xG wireless technologies that may or may not be rolled out in “the next 18 months” in “major markets” and may or not be supported by new handsets and may or may not make high speed wireless internet access cheap and easy everywhere. These technologies are going to usher in a golden age of watching wireless 3D interactive movies while commuting to work – and of course – this...</description>
+<content:encoded><![CDATA[<p>The wireless industry trade press is full of panting and drooling over hot new devices and technologies, with very little attention on who is paying the bills. </p>
+
+<p>Just look at any wireless industry trade magazine, the mass market business press, and the hardware reviews in most of the wireless and technology blogs – in fact <a href="http://www.prweek.com/news/news_story_free.cfm?ID=207616&site=3">there are whole blogs devoted just to cool gadgets and technology</a>.</p>
+
+<p>Just as bad is drooling over an alphabet soup of hot new 3G, 4G and xG wireless technologies that may or may not be rolled out in “the next 18 months” in “major markets” and may or not be supported by new handsets and may or may not make high speed wireless internet access cheap and easy everywhere. These technologies are going to usher in a golden age of watching wireless 3D interactive movies while commuting to work – and of course – this the killer application that everyone is waiting for.</p>
+
+<p>Excuse my sarcasm, but <a href="http://wireless.newsfactor.com/story.xhtml?story_id=18373">any business model built on such services rolling out any time soon is doomed to failure.</a> </p>
+
+<p>We need to get real about what wireless software customers are really buying.</p>
+
+<p>The reviews of new wireless devices are detailed analyses of how the device does or does not fit the profile of the reviewer's personal lifestyle. Since these reviews are written by highly sophisticated, highly mobile, highly computer literate folks, we have produced an enormous focus on high-end Swiss army devices -- not just a phone, but also a personal information management, camera, email, gaming, and music device.</p>
+
+<p>I'm as excited about these devices as the next geek. But am I typical of businesses that buy mobile devices? Absolutely not.</p>
+
+<p>My company's typical end user (someone <a href="http://www.jumpstartwireless.com">using wireless software for the construction, field service, and transportation industries</a>) is not a regular computer user. They want a device that looks like a normal phone and is not intimidating. <a href="http://www.frost.com/prod/servlet/people-analysts-profile.pag?mode=open&sid=4058952">Brent Iadorala </a>at Frost and Sullivan, says that blue collar and field sales people<a href="http://www.frost.com/prod/servlet/summits-details-summary.pag?mode=open&eventid=2865437"> are the largest group actually <em>buying </em>wireless software</a>.</p>
+
+<p>This typical customer is looking for the cheapest possible device that will get the job done.  Instead of a $500 or more Swiss Army phones, they are delighted to buy $150 mobile phones that look like normal mobile phones. They want their devices to provide voice access and the business software and NOTHING ELSE. No games, no distractions, and in many cases, no email. </p>
+
+<p>As far as exciting new wireless protocols, don’t waste your energy or capital until customers can buy widely available access for a reasonable price. Current wireless data speeds are more than fast enough for typical field service, inspection, construction, and sales force automation tasks. </p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-02T12:09:21-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/return_on_inves.html">
+<title>Return on Investment is Everything</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/return_on_inves.html</link>
+<description>In selling wireless software to businesses, return on investment (ROI) is everything. There may be boom times when businesses buy because something is &quot;cool,&quot; or because &quot;everyone else is.&quot; In these times they buy only if there is an overwhelmingly compelling return on investment case tailored to their exact business. Part of the reason wireless applications must be customized to every business, is that you cannot build a strong ROI case without understanding exactly how it fits into their business. I was reminded about these points by an article at the line56 website which highlights results from a study of ROI Selling done by the Kotler Marketing Group. The article highlights the difficulty of doing good ROI work. Productivity is often difficult to measure: From the enterprise point of view, the study found that the benefits at the heart of a business case for a given software application turn out...</description>
+<content:encoded><![CDATA[<p>In selling wireless software to businesses, return on investment (ROI) is everything. There may be boom times when businesses buy because something is "cool," or because "everyone else is."  In these times they buy only if there is an overwhelmingly compelling return on investment case tailored to their exact business. Part of the reason <a href="http://wirelessbusiness.blogs.com/weblog/2004/05/why_every_wirel.html">wireless applications must be customized to every business</a>, is that you cannot build a strong ROI case without understanding exactly how it fits into their business.</p>
+
+<p>I was reminded about these points by an article at the <a href="http://www.line56.com/articles/default.asp?ArticleID=5585">line56 website</a> which highlights results from a study of ROI Selling done by the <a href="http://www.kotlermarketing.com/">Kotler Marketing Group</a>.</p>
+
+<p>The article highlights the difficulty of doing good ROI work. Productivity is often difficult to measure:<br />
+<em><blockquote>From the enterprise point of view, the study found that the benefits at the heart of a business case for a given software application turn out to be frustratingly difficult to quantify. Enterprise IT buyers in the study were asked to consider a recent experience where they had to develop a business case. They were then asked which benefits they considered most important to that business case, versus which benefits they found most difficult to capture and quantify. In many cases respondents listed the same benefits in response to both questions.</blockquote></em></p>
+
+<p>There is good news here, wireless business software is often easy to justify. Unlike infrastructure investments like remote storage and data warehouses, wireless applications are focused right where the service delivery happens. In my experience productivity gains are easy to measure. </p>
+
+<p>More on target for wireless software, the article also emphasizes that vendors need to do good background work to help their customers tailor ROI cases for the management that approves the expenditure. </p>
+
+<p><em><blockquote>Customers found vendors to be especially helpful as a starting point in developing a business case for a new application. Vendor supplied ROI collateral "can be helpful in providing hints and guidance on how to structure, and make claims about, improvements and benefits," said one respondent. Customers also look to vendors for ideas about which benefits to include in their business case. "They expand your thinking, educate you, and help fill in the gaps for decision making." </p>
+
+<p>However, enterprise customers had many criticisms of the help that vendors are currently providing. One theme among respondents quoted in the study was that vendor materials were too generic, and lacked relevance to their business situation. </blockquote></em></p>
+
+<p>Like many enterprise software companies, my company JumpStart provides a <a href="http://www.jumpstartwireless.com/roi">generic "teaser" ROI spreadsheet</a> on our web site. Real selling, however, must be accompanied by a much more detailed ROI analysis, done in conjunction with the customer, and tailored to their exact business needs.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-02T11:23:44-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/05/why_every_wirel.html">
+<title>Why Every Wireless Business Application Is Custom and What This Means for Wireless Software Vendors</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/05/why_every_wirel.html</link>
+<description>Wireless Business Software uniquely demands high levels of customization. This sets it apart from desktop and even web software. Every business is different, and there is no more important difference than how their revenue producing service is delivered. The wireless software is the crucial mediating factor between the customer and the employee delivering the service in the field. In everybusiness dependent on mobile employees -- e.g. delivery, field service, inspection, construction crews, field sales, etc. -- there is no more critical activity than the actual delivery of the service that generates revenue. The consequence of this is that every business wants to fine tune this activity to their unique needs and business model. Although you can step back and squint and clearly see the similarities from one Air Conditioner repair company to the next, the actual businesses do not step back and squint, they are sharply focused on their specific,...</description>
+<content:encoded><![CDATA[<p>Wireless Business Software uniquely demands high levels of customization. This sets it apart from desktop and even web software.</p>
+
+<p>Every business is different, and there is no more important difference than how their revenue producing service is delivered. The wireless software is the crucial mediating factor between the customer and the employee delivering the service in the field. In <em>every</em>business dependent on mobile employees -- e.g. delivery, field service, inspection, construction crews, field sales, etc. -- there is no more critical activity than the actual delivery of the service that generates revenue. The consequence of this is that every business wants to fine tune this activity to their unique needs and business model. </p>
+
+<p>Although you can step back and squint and clearly see the similarities from one Air Conditioner repair company to the next, the actual businesses do not step back and squint, they are sharply focused on their specific, immediate needs. In my experience these businesses view their unique processes as mission critical.</p>
+
+<p>Furthermore, mobile devices are demanding from a user interface point of view. <a href="http://wirelessbusiness.blogs.com/weblog/2004/04/portable_device.html">They are used by people in a rush who are not interested in browsing around to complete a task.</a> A web interface can scatter many related links around a web page, assuming there is plenty of room to lay out different usage variations across the page. For example, a "Request Customer Support Page" can easily include different links for registered customers, new customers, customers who already have a Trouble Ticket, customers providing feedback on services already rendered and customers who want to search an online knowledge-base of problems. On a small mobile device you do not have the luxury of scattering “related” links. Task lists and available choices must be limited and focused or the user will never find what he or she needs.</p>
+
+<p>Enterprise software (ERP, CRM, accounting, etc.) has a similar quality of demanding custom versions of an application for every business. These vendors -- for example SAP, Peoplesoft, and Oracle -- solve their problems by embedding core function into complex software libraries with associated custom programming tools. This is why services costs can commonly exceed licensing costs for these products by 3 to 5 times. </p>
+
+<p>Most wireless software companies have a similar approach. They license their "frameworks" (a modern name for software libraries) designed to be utilized by their custom programming teams. IBM, Microsoft, Aether, Seven, 7/24, Everypath and most other large wireless players will sell you frameworks and custom integration teams that can use them.</p>
+
+<p>I do not think this approach is adequate to the size of the wireless business software opportunity. The industry needs to evolve approaches analogous to the following ideas from the personal computer world:</p>
+
+<p>- Spreadsheets allow for the creation of arbitrarily complex financial models with highly specialized user interfaces. What is the spreadsheet of wireless? That is, we need a relatively generic product that is easy enough and tailorable enough that any manager can use it to solve a wide range of common business problems.</p>
+
+<p>- Small business software products like Intuit QuickBooks -- the leading accounting package for small business with close to 3 million customers -- and Best Software's Act -- a leading CRM package aimed at small and medium businesses -- allow for highly degrees of tailoring without computer expertise. Both products have an interesting quality of allowing traditional accounting and database rules to be broken in order to make the products easier to use. You can always shift around accounts and data fields, you never have to "close" a period, you don't need to manage all data items consistently, and so on. Again, where are the wireless business products that relax traditional programming and accounting rules to make things easier to use?<br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-05-02T11:05:29-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/04/what_real_wirel.html">
+<title>What REAL wireless customers want</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/04/what_real_wirel.html</link>
+<description>Want to know what real wireless customers want? Interested in people doing big wireless deployments right now? The current issue of ConstructTech interviews 5 CIOs of big construction companies. These guys are asking for real specific applications and are prepared to pay real fees (see my post on $50 average revenue per month) for these applications. These guys are who wireless developers, carriers, and device manufacturers should be listening to: Jonathan Smoke at Beazer Homes says &quot;Spend some time in the field walking in the shoes of your business customers&quot;. He cites the biggest challenges to effective usage of systems in the field are provisioning and support. Thad Lutgens of L.P.R. Construction Co. talks about &quot;eliminating the stigma that says all technology is complex and convoluted.&quot; He says: &quot;Reducing the user&apos;s fear and frustration is one giant objective that a CIO must meet ... you are dealing with &apos;hands-on&apos; people...</description>
+<content:encoded><![CDATA[<p>Want to know what real wireless customers want? Interested in people doing big wireless deployments right now?</p>
+
+<p>The current issue of <a href="http://www.constructtech.com">ConstructTech </a>interviews <a href="http://www.constructech.com/print/article.asp?ARTICLE_ID=544">5 CIOs of big construction companies</a>. These guys are asking for real specific applications and are prepared to pay real fees (see my post on <a href="http://wirelessbusiness.blogs.com/weblog/2004/04/battle_cry_50_i.html">$50 average revenue per month</a>) for these applications. These guys are who wireless developers, carriers, and device manufacturers should be listening to:</p>
+
+<blockquote>Jonathan Smoke at Beazer Homes says "Spend some time in the field walking in the shoes of your business customers". He cites the biggest challenges to effective usage of systems in the field are provisioning and support.
+
+<p>Thad Lutgens of L.P.R. Construction Co. talks about "eliminating the stigma that says all technology is complex and convoluted." He says: "Reducing the user's fear and frustration is one giant objective that a CIO must meet ... you are dealing with 'hands-on' people who like to see processes through every step."</p>
+
+<p>Chris Stockley of Skanska USA worries mobile coverage, usability, and durability when considering mobile devices.</p>
+
+<p>Robert Koeblitz from DR Horton reminds us that wireless applications must work disconnected. He reminds us that "not all 'good' ideas work well in the field. For example, the idea of allowing progress on a house schedule to automatically notify subcontractors and materials vendors to be onsite at certain times is immensely appealing. In practice, it can be extraordinarily difficult to implement and control."</p>
+
+<p>Tom Garrett from Brasfield & Gorrie is using camera phones to document job site problems.</blockquote></p>
+
+<p></p>
+
+<p><br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-04-22T00:42:41-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/04/forbes_magazine.html">
+<title>Nextel - Sleeping Giant of Wireless Data</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/04/forbes_magazine.html</link>
+<description>Forbes Magazine has published a nice overview to Nextel. Thanks to Jim Coyer for his pointer to this article. Long dismissed as a &quot;blue-collar&quot; only carrier, Nextel is the sleeper candidate among the carriers to win big with wireless data. Instead of focusing on consumer entertainment at $3 average revenue per month (ARPU), they have focused on wireless business data applications at $50 ARPU. They have quietly put together a winning combination of: - focus on business customers and the required customer support, - simple straightforward business application support, - sensible pricing, - decent developer support, - uniform and coherent wireless data device strategy, focused on Java, - suite of add on features and accessories important to businesses: keyboards, data cables, printers, bar-code scanners, GPS, etc. - inexpensive data-enabled handsets, - billing plans that make sense for a business (For example, Nextel allows customers to purchase a mobile phone with...</description>
+<content:encoded><![CDATA[<p>Forbes Magazine has published a nice <a href="http://www.forbes.com/businesstech/2004/02/03/cx_al_0203nxtl.html">overview to Nextel</a>. Thanks to <a href="http://www.coyer.com/blog/">Jim Coyer </a>for his pointer to this article.</p>
+
+<p>Long dismissed as a "blue-collar" only carrier, Nextel is the sleeper candidate among the carriers to win big with wireless data. Instead of focusing on consumer entertainment at $3 average revenue per month (ARPU), they have focused on wireless business data applications at $50 ARPU. They have quietly put together a winning combination of:</p>
+
+<p>- focus on business customers and the required customer support,</p>
+
+<p>- simple straightforward business application support, </p>
+
+<p>- sensible pricing,</p>
+
+<p>- decent developer support, </p>
+
+<p>- uniform and coherent wireless data device strategy, focused on Java,</p>
+
+<p>- suite of add on features and accessories important to businesses: keyboards, data cables, printers, bar-code scanners, GPS, etc.</p>
+
+<p>- inexpensive data-enabled handsets, </p>
+
+<p>- billing plans that make sense for a business (For example, Nextel allows customers to purchase a mobile phone with local service and data plan ONLY for their employees. If the employees want to add a more complete voice plan for their personal use, they can opt to add that service and will recieve their own separate bill.)</p>
+
+<p>Because of this Nextel reaps the obvious rewards: </p>
+
+<p>- high subscriber ARPU: $71 vs industry standard of $50,  and</p>
+
+<p>- low churn: 1. 3% vs. AT&Ts 3.3%</p>
+
+<p>I long for the rest of the wireless carriers to take seriously the opportunity of wireless data technology for businesses.</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-04-12T10:32:50-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/04/what_is_needed_.html">
+<title>What is Needed to Ignite Mobile Commerce?</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/04/what_is_needed_.html</link>
+<description>The mobile world still has not broadly adopted a technology that will play the equivalent role that HTTP and Web Browsers did in igniting the Internet. Even though the Internet existed for years before it exploded into mass usage, even though there were standards like Gopher, Usenet, FTP, WAIS – the combination of HTTP Servers and Web Browsers put all the pieces together that ignited the chain reaction that yielded the modern Internet. Yes, there is WAP, yes there are mobile Web Browsers that try to be smart about effectively presenting full size web pages on a small device – but these approaches do not respond to the key issues facing broad practical deployment of mobile applications. Here are the key issues that must be solved by a standard if it is to allow broad deployment of mobile applications: 1. Disconnected Operation – Applications must continue to work as the...</description>
+<content:encoded><![CDATA[<p>The mobile world still has not broadly adopted a technology that will play the equivalent role that HTTP and Web Browsers did in igniting the Internet. Even though the Internet existed for years before it exploded into mass usage, even though there were standards like Gopher, Usenet, FTP, WAIS – the combination of HTTP Servers and Web Browsers put all the pieces together that ignited the chain reaction that yielded the modern Internet. </p>
+
+<p>Yes, there is WAP, yes there are mobile Web Browsers that try to be smart about effectively presenting full size web pages on a small device – but <strong><em>these approaches do not respond to the key issues facing broad practical deployment of mobile applications</em></strong>.</p>
+
+<p>Here are the key issues that must be solved by a standard if it is to allow broad deployment of mobile applications:</p>
+
+<p>1. <strong>Disconnected Operation </strong>– Applications must continue to work as the user goes in and out of coverage. Encountering gaps in wireless coverage – in buildings, in suburbs, behind mountains – is a fundamental characteristic of business users and business applications. Coverage may be truly ubiquitous sometime in the next 5-10 years, but not next year. Broadly supported thin-client approaches like WAP and mobile browsers just plain fail if you are out of coverage. While seductive in leveraging the model and enormous content base of the desktop Web, these approaches fail to go mainstream because they can’t respond to this fundamental characteristic of the wireless world. It is not surprising that the only broad use of WAP and mini-Web Browsers – delivering news and entertainment – are applications where there is no cost to losing a transaction. If a disconnection occurs, the user just tries again. The core technologies are <a href="http://www.google.com/search?hl=en&lr=&ie=ISO-8859-1&q=define%3A%22store+and+forward%22">store and forward </a>and <a href="http://www.google.com/search?hl=en&lr=&ie=ISO-8859-1&q=define%3Apublish+and+subscribe">publish-subscribe</a>, not <a href="http://www.google.com/search?q=define:Thin+Client">thin client</a>.</p>
+
+<p>2. <strong>Forms-Based, Transactional Applications </strong>– Wireless business software in inherently transaction oriented. Examples like making purchases, querying status, updating status, filing a report, and similar operations all involve taking existing real-time data from and existing server, working with that data in the field, and then making updates to that data from the field. Now, most mobile workers do such transactions with paper forms. Someone at the office prints out the form, hands it to the mobile worker, the mobile worker does the work in the field, filling out the form, brings it back, and finally someone at the office enters the new data. Mobile commerce standards must address how to mobilize this work flow. Publishing news articles, ring-tones, and games is the easy part. Collecting real-time results from inspection reports tailored to the customer's site or taking a customer order and immediately committing inventory is more typical of business applications.</p>
+
+<p>3. <strong>Easy-To-Build </strong>– Posting a forms-based transactional wireless application on the wireless internet needs to be as easy as posting a static content filled web page.</p>
+
+<p>4. <strong>Automatically Manageable From the Sponsor's Site</strong>– Access to, deployment to, and management of a mobile application and its users needs to be manageable from the application sponsor’s server and built into every application automatically. This goes hand-in-hand with easy-to-build: these access, deployment, and management features need to be a part of the “easy-to-build” feature set.</p>
+
+<p>5. <strong>Works With a Wide Range of Devices</strong>– There are currently many <em>programming</em> approaches to supporting multiple devices, but nothing as simple to use, deploy, and manage as HTML. I believe that a programming approach is only useful if it is widely supported and essentially free. J2ME comes closest. Microsoft has the right idea with the .Net Compact Framework, but of course is only going to support devices that licence from them.</p>
+
+<p>My company, <a href="http://www.jumpstartwireless.com">JumpStart Wireless</a>, has a <a href="http://www.jumpstartwireless.com/downloads/jumpstartwireless_enterprise_whitepaper_04_03.pdf"> complete solution to these issues</a>. Currently we use it to drive mCommerce for to a wide variety of businesses in the Construction, Field Service, and Transportation segments. This solution is not a broadly adopted standard, so we are only in a position to benefit our own customers. Other solutions than ours are certainly possible. The real key, however, is the industry adopt SOME standards that address these requirements.</p>
+
+<p>(JumpStart is interested in putting key parts of our technology into the public domain, but don’t see that as practical without a larger player as a sponsor. <a href="mailto:jeff.bonar@jumpstartwireless.com">Write me if you are interested in joining in such an effort.</a>)<br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-04-11T09:23:42-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/04/russell_beattie.html">
+<title>Making wireless business applications easier to build</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/04/russell_beattie.html</link>
+<description>Russell Beattie comments on the importance of wireless application development tools designed for everyday corporate developers. Microsoft gets this, but Nokia, Motorola, Sun and most other big wireless players don&apos;t. At my company, JumpStart Wireless, anyone who can create a spreadsheet can also create wireless applications. This spreadsheet approach to wireless applications works with any application that can be captured as a set of business forms. Once a form is described, the application is automatically generated using artificial intelligence technology. (an overview here, email me for more technical details). The form description is created by working with a customer&apos;s existing paper forms and studying how those paper forms are actually used. I&apos;m sure there are other simplified approaches as well. Instead of launching yet another Java framework standardization effort, the wireless software community should be actively seeking easy-to-use alternatives to Visual Basic and the .Net Compact Framework. The tools to...</description>
+<content:encoded><![CDATA[<p><a href="http://www.russellbeattie.com/notebook/">Russell Beattie</a> comments on the <a href="http://www.russellbeattie.com/notebook/1007340.html">importance of wireless application development tools designed for everyday corporate developers</a>. Microsoft gets this, but Nokia, Motorola, Sun and most other big wireless players don't. </p>
+
+<p>At my company, <a href="http://www.jumpstartwireless.com">JumpStart Wireless</a>,  anyone who can create a spreadsheet can also create wireless applications. This spreadsheet approach to wireless applications works with any application that can be captured as a set of business forms. Once a form is described, the application is automatically generated using artificial intelligence technology. (<a href="http://www.jumpstartwireless.com/downloads/jumpstartwireless_enterprise_whitepaper_04_03.pdf">an overview here</a>, <a href="mailto:jeff.bonar@jumpstartwireless.com">email me </a>for more technical details). The form description is created by working with a customer's existing paper forms and studying how those paper forms are actually used.</p>
+
+<p>I'm sure there are other simplified approaches as well. Instead of launching yet another Java framework standardization effort, the wireless software community should be actively seeking easy-to-use alternatives to Visual Basic and the .Net Compact Framework.</p>
+
+<p>The tools to be developed must be <strong>much </strong>easier to use than C++ and the current complex Java programming environments. Russell makes the point that when <blockquote><em>a slick marketing driven company like Microsoft comes in with a click-click-click demo of how easy it is to create mobile apps with their .Net toolsets, CTOs are going to sign on the bottom line.</em></blockquote> He is absolutely right.</p>
+
+<p>No matter how many GUI tools you pack around it, and how many frameworks you design, C++, is just too complicated for most programmers and certainly not suited to typical corporate applications. </p>
+
+<p>Microsoft, with their initiatives around Visual Basic and .Net Compact Framework, has the right idea. Visual Basic and the approaches around it have been well designed for simple "one-off" applications. Even though that approach does not scale well and mostly does not produce reusable code, it is <strong>enormously </strong>easy to teach and use.</p>
+
+<p><br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Deployments</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-04-06T08:55:28-04:00</dc:date>
+</item>
+<item rdf:about="http://wirelessbusiness.blogs.com/weblog/2004/04/battle_cry_50_i.html">
+<title>Battle Cry: $50 increase in Average Revenue per Month (ARPU)</title>
+<link>http://wirelessbusiness.blogs.com/weblog/2004/04/battle_cry_50_i.html</link>
+<description>Why is wireless business software important? Wireless business software is the only way on the horizon that carriers can add $50 per month in average revenue per user (ARPU). Note that this $50 ARPU is probably roughly split between the software provider and the carrier. The key goal, and battle cry, for wireless software providers should be building applications that are worth $50 per month to a large group of subscribers. With these numbers there is a compelling business model for both the carrier and the software developer. The question is: what applications allow for this kind of ARPU? There are millions of business users with a strong case for paying an extra $50 per month per user. These users are the field staff of businesses doing repetitive forms-based tasks like repair, sales order taking, inspection, delivery, and so on. Why are these folks a no-brainer for $50 per month?...</description>
+<content:encoded><![CDATA[<p>Why is wireless business software important? Wireless business software is the <strong>only </strong>way on the horizon that carriers can add $50 per month in average revenue per user (ARPU). Note that this $50 ARPU is probably roughly split between the software provider and the carrier.</p>
+
+<p>The key goal, and battle cry, for wireless software providers should be building applications that are worth $50 per month to a large group of subscribers. With these numbers there is a compelling business model for both the carrier and the software developer.  The question is: what applications allow for this kind of ARPU?</p>
+
+<p>There <em>are</em> millions of business users with a strong case for paying an extra $50 per month per user. These users are the field staff of businesses doing repetitive forms-based tasks like repair, sales order taking, inspection, delivery, and so on. Why are these folks a no-brainer for $50 per month? Because the right wireless applications can typically produce $1000 or more per month in value. According to various analysts there will be between 30 and 50 million such mobile workers. Nextel estimates that there are 28 million service industry potential users (US only) today. Frost and Sullivan (a wireless industry analyst) in a Nov 2003 report by <a href="http://www.ebroadcast.frost.com/prod/servlet/people-analysts-profile.pag?mode=open&sid=4058952">Brent Iadarola </a>estimates that the addressable US market for these wireless data applications will grow from 37 million users in 2002 to 55 million in 2006.  Within this market, they estimate adoption of wireless data will grow from 2 million in 2002 to 22 million in 2006, a 145% annual growth rate. Yankee and IDC project similar market sizes and growth rates.</p>
+
+<p>This is the group that kicks off wireless business software.</p>
+
+<p>Even though there is much focus on other segments, I'm skeptical:<br />
+<blockquote><br />
+-  Games and ring tones will never be worth more than a few dollars per month for the vast majority of wireless subscribers. With the volumes possible (100s of millions of consumers) maybe successful high growth startups can happen with this very low revenue per sale, but it looks to me like only specialized "hit-oriented" small companies can succeed with these products.</p>
+
+<p>-  Wireless email and calendaring, the most widely discussed business applications, are worth $50 per month to only a very small segment of high end managers. </p>
+
+<p>-  Wireless connectivity for laptops -- again only a small segment is willing to pay $50 or more per month for such access. Besides, wirelessly connecting a laptop only appeals to mobile workers willing and able to carry a laptop around with them all day. This is a very limited group compared to the people willing and able to carry a smart phone in their work.<br />
+</blockquote></p>
+
+<p><br />
+</p>]]></content:encoded>
+
+
+<dc:subject>Wireless Software Industry</dc:subject>
+
+<dc:creator>Jeff Bonar</dc:creator>
+<dc:date>2004-04-04T13:28:11-04:00</dc:date>
+</item>
+
+
+</rdf:RDF>

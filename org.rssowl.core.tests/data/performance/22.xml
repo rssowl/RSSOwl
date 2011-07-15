@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE rss PUBLIC 
+  "-//Netscape Communications//DTD RSS 0.91//EN" 
+  "http://my.netscape.com/publish/formats/rss-0.91.dtd"
+>
+
+<rss version="0.91">
+  <channel>
+    <title>XML.com</title>
+    <description>
+	XML.com features a rich mix of information and services for the XML community.
+    </description>
+    <language>en-us</language>
+    <link>http://www.xml.com/</link> 
+    <copyright>Copyright 2004, O'Reilly Media, Inc.</copyright>
+    <managingEditor>edd@xml.com (Edd Dumbill)</managingEditor>
+    <webMaster>peter@xml.com (Peter Wiggin)</webMaster>
+	<image>
+		<link>http://www.xml.com/</link>
+		<url>http://www.xml.com/universal/images/xml_tiny.gif</url>
+		<title>XML.com</title>
+	</image>
+
+    <item>
+      <title>Dynamic News Stories</title>
+      <link>http://www.xml.com/pub/a/2006/05/17/dynamic-news-stories.html</link>
+      <description>Adrian Holovaty, one of a new generation of geek-journalists and a main developer of Django, offers some suggestions for XML elements that could be used to make news stories more dynamic and more machine-readable.</description>
+    </item>
+    <item>
+      <title>ExplorerCanvas: Interactive Web Apps</title>
+      <link>http://www.xml.com/pub/a/2006/05/10/explorercanvas-interactive-web-apps.html</link>
+      <description>Dave Hoover returns with an update about &lt;code&gt;canvas&lt;/code&gt;-powered web apps, adding interactivity to the method he described in his Supertrain article.</description>
+    </item>
+    <item>
+      <title>An AJAX Caching Strategy</title>
+      <link>http://www.xml.com/pub/a/2006/05/03/an-ajax-caching-strategy-prototype.html</link>
+      <description>Bruce Perry returns with another AJAX hack; this time he shows us how to use HTTP caching to support an AJAX-enabled web client. </description>
+    </item>
+    <item>
+      <title>Microformats in Context</title>
+      <link>http://www.xml.com/pub/a/2006/04/26/microformats-grddl-rdfa-nvdl.html</link>
+      <description>Uche Ogbuji takes a careful look at microformats and concludes that while, in practice, they suffer from serious non-trivial problems, the basic idea offers an interesting basis upon which to build interesting data formats, particularly in conjunction with complementary technologies.</description>
+    </item>
+    <item>
+      <title>Putting REST on Rails</title>
+      <link>http://www.xml.com/pub/a/2006/04/19/rest-on-rails.html</link>
+      <description>Rails is as hot as any web technology, and REST is heating up again. Dan Kubb demonstrates his Rails plugin for building RESTful web apps and services.</description>
+    </item>
+    <item>
+      <title>Query Census Data with RDF</title>
+      <link>http://www.xml.com/pub/a/2006/04/12/query-census-data-rdf-python-rdflib.html</link>
+      <description>In his second Hacking Congress column, Joshua Tauberer shows us how to query open data from the U.S. Census Bureau using RDF and Python's RDFLib.</description>
+    </item>
+    <item>
+      <title>Prototype: Easing AJAX's Pain</title>
+      <link>http://www.xml.com/pub/a/2006/04/05/prototype-javascript-ajax.html</link>
+      <description>Bruce Perry introduces us to Prototype, a JavaScript library that makes AJAX development faster and easier.</description>
+    </item>
+    <item>
+      <title>httplib2: HTTP Persistence and Authentication</title>
+      <link>http://www.xml.com/pub/a/2006/03/29/httplib2-http-persistence-and-authentication.html</link>
+      <description>In this latest Restful Web column, Joe Gregorio explains HTTP persistent connections, pipelining, and the sad state of HTTP authentication.</description>
+    </item>
+    <item>
+      <title>RSS Feeds for FTP Servers</title>
+      <link>http://www.xml.com/pub/a/2006/03/22/rss-feeds-for-ftp-servers.html</link>
+      <description>Mark Woodman returns with another interesting RSS application: he describes a PHP library for creating RSS feeds for FTP sites. Old-school FTP meets new-school RSS!</description>
+    </item>
+    <item>
+      <title>The Next Web?</title>
+      <link>http://www.xml.com/pub/a/2006/03/15/next-web-xhtml2-ajax.html</link>
+      <description>Simon St. Laurent steps up to ask which of the competing visions for the next stage of the Web's development have borne fruit, including the latest contender: Web 2.0 and AJAX.</description>
+    </item>
+    <item>
+      <title>The Emerging Art of Agile Publishing</title>
+      <link>http://www.xml.com/pub/a/2006/03/08/agile-publishing.html</link>
+      <description>Michael Fitzgerald returns us to a core XML mission: publishing. The technical questions are mostly well rehearsed, but what about the process questions? Is your publishing process as agile as it could be? Michael gives us some insights into agile publishing.</description>
+    </item>
+    <item>
+      <title>Seattle Movie Finder: An AJAX- and REST-Powered Virtual Earth Mashup</title>
+      <link>http://www.xml.com/pub/a/2006/03/01/seattle-movie-finder-AJAX-REST-virtual-earth-mashup.html</link>
+      <description>Dare Obasanjo shows us how to use Microsoft's Virtual Earth service in an AJAX-powered mashup that locates movies and theaters in Seattle.</description>
+    </item>
+    <item>
+      <title>ROME in a Day: Parse and Publish Feeds in Java</title>
+      <link>http://www.xml.com/pub/a/2006/02/22/rome-parse-publish-rss-atom-feeds-java.html</link>
+      <description>Mark Woodman returns with an introduction to ROME, a Java library for handling syndication feed formats RSS and Atom.</description>
+    </item>
+    <item>
+      <title>Hacking the XML in Your TiVo</title>
+      <link>http://www.xml.com/pub/a/2006/02/15/hacking-the-xml-in-your-tivo.html</link>
+      <description>Bob DuCharme's latest article shows us how to query a networked TiVo for XML using a REST interface over HTTP. Bob then shows us how to use Atom to syndicate our TV habits and integrate them with our weblogs via the "TiVoRoll."</description>
+    </item>
+    <item>
+      <title>GovTrack.us, Public Data, and the Semantic Web</title>
+      <link>http://www.xml.com/pub/a/2006/02/08/govtrack-us-public-data-semantic-web.html</link>
+      <description>Joshua Tauberer takes over XML.com's Hacking Congress column to explain how he's using RDF and the Semantic Web to build a site that organizes U.S. federal government data.</description>
+    </item>
+
+</channel>
+</rss>

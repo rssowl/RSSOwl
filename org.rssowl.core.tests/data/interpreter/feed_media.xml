@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+	<channel>
+        <title>Nostalgia Critic</title>
+        <link>http://www.thatguywiththeglasses.com</link>
+        <description>The Nostalgia Critic tears into some beloved and not so beloved childhood memories.</description>
+        <itunes:summary>The Nostalgia Critic tears into some beloved and not so beloved childhood memories.</itunes:summary>
+        <geo:lat>41.879535</geo:lat>
+        <geo:long>-87.624333</geo:long>
+        <language>en</language>
+        <generator>http://blip.tv</generator>
+        <lastBuildDate>Fri, 10 Jun 2011 03:30:31 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Jun 2011 03:30:31 +0000</pubDate>
+        <item>
+          <guid isPermaLink="false">FE574B96-9311-11E0-A857-F3587300464D</guid>
+          <link>http://blip.tv/file/5243041</link>
+          <title>Herc NY BMB</title>
+          <comments>http://blip.tv/file/5243041</comments>
+          <category>Default Category</category>
+          <pubDate>Fri, 10 Jun 2011 03:30:31 +0000</pubDate>
+          <itunes:keywords></itunes:keywords>
+          <itunes:image>http://a.images.blip.tv/NostalgiaCritic-HercNYBMB521.jpg</itunes:image>
+          <media:keywords></media:keywords>
+          <media:group>
+            <media:content blip:acodec="mp3" blip:role="Source" blip:vcodec="ffflv" expression="full" fileSize="162018262" height="480" isDefault="true" type="video/x-flv" url="http://blip.tv/file/get/NostalgiaCritic-HercNYBMB104.FLV" width="852">
+              <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+              <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+              <mediaad:content duration="15" exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+              <mediaad:content duration="15" exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+              <mediaad:content duration="15" exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+              <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+              <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+            </media:content>
+          </media:group>
+          <media:player url="http://blip.tv/file/5243041"><![CDATA[<embed src="http://blip.tv/play/gbk7gsGKeQI" type="application/x-shockwave-flash" width="480" height="392" wmode="transparent" allowscriptaccess="always" allowfullscreen="true" ></embed>]]></media:player>
+          <media:title>Herc NY BMB</media:title>
+          <media:thumbnail url="http://a.images.blip.tv/NostalgiaCritic-HercNYBMB521.jpg"/>
+        </item>
+        <item>
+          <guid isPermaLink="false">E8620AA2-9171-11E0-8958-9709F5D3AA4C</guid>
+          <link>http://blip.tv/file/5235179</link>
+          <title>Bimbos BC - Crossover</title>
+          <comments>http://blip.tv/file/5235179</comments>
+          <category>Default Category</category>
+          <pubDate>Wed, 08 Jun 2011 01:52:03 +0000</pubDate>
+          <enclosure length="434020795" type="video/ms-wmv" url="http://blip.tv/file/get/NostalgiaCritic-BimbosBCCrossover552.wmv"/>
+          <itunes:keywords></itunes:keywords>
+          <itunes:image>http://a.images.blip.tv/NostalgiaCritic-BimbosBCCrossover361.jpg</itunes:image>
+          <media:keywords></media:keywords>
+          <media:group>
+            <media:content blip:acodec="ffwmav2" blip:role="Source" blip:vcodec="ffwmv3" expression="full" fileSize="434020795" height="540" isDefault="true" type="video/ms-wmv" url="http://blip.tv/file/get/NostalgiaCritic-BimbosBCCrossover552.wmv" width="960">
+              <mediaad:content exc="0" position="preroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+              <mediaad:content exc="0" position="preroll" pro="1.0" provider="scanscoutbranded" was_blend="1" wgt="1.0"/>
+              <mediaad:content duration="15" exc="0" position="overlay" pro="1.0" provider="freewheel" start="5" was_blend="1" wgt="1.0"/>
+              <mediaad:content duration="15" exc="0" position="overlay" pro="1.0" provider="scanscout" start="5" was_blend="1" wgt="1.0"/>
+              <mediaad:content duration="15" exc="0" position="overlay" pro="1.0" provider="scanscoutbranded" start="5" was_blend="1" wgt="1.0"/>
+              <mediaad:content exc="0" position="postroll" pro="1.0" provider="freewheel" was_blend="1" wgt="1.0"/>
+              <mediaad:content exc="0" position="postroll" pro="1.0" provider="podaddies" was_blend="1" wgt="1.0"/>
+            </media:content>
+            <media:content blip:acodec="ffaac" blip:role="Blip SD" blip:vcodec="ffh264" expression="full" fileSize="217916291" height="360" isDefault="false" type="video/x-m4v" url="http://blip.tv/file/get/NostalgiaCritic-BimbosBCCrossover785.m4v" width="640"></media:content>
+          </media:group>
+          <media:player url="http://blip.tv/file/5235179"><![CDATA[<embed src="http://blip.tv/play/gbk7gsDNTwI" type="application/x-shockwave-flash" width="480" height="392" wmode="transparent" allowscriptaccess="always" allowfullscreen="true" ></embed>]]></media:player>
+          <media:title>Bimbos BC - Crossover</media:title>
+          <media:thumbnail url="http://a.images.blip.tv/NostalgiaCritic-BimbosBCCrossover361.jpg"/>
+          <geo:lat>41.879535</geo:lat>
+          <geo:long>-87.624333</geo:long>
+        </item>
+    </channel>
+</rss>

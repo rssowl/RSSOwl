@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+<CHANNEL 
+  	BASE="cdf_base"
+  	LASTMOD="2005-26-12T20:00:00Z" custom="custom_formatAttribute">
+	
+	<custom>item_leveld</custom>
+	<TITLE custom="custom_titleAttribute">cdf_title</TITLE>
+    <ABSTRACT>cdf_abstract</ABSTRACT>
+    <ITEM HREF="/cdf_entry1.href" LASTMOD="2005-26-12T20:00:00Z" custom="custom_itemAttribute">
+    	<custom>sub_item_leveld</custom>
+		<TITLE custom="custom_titleAttribute">cdf_entry1.title</TITLE>
+		<ABSTRACT>cdf_entry1.abstract</ABSTRACT>
+    </ITEM>
+</CHANNEL>

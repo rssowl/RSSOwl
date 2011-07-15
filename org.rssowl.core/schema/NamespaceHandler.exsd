@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.rssowl.core.interpreter" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="org.rssowl.core.interpreter" id="NamespaceHandler" name="Namespace Handler"/>
+      </appinfo>
+      <documentation>
+         &lt;p&gt;
+The namespace handler is responsible for handling elements and attributes that use a certain namespace. Use this extension point if you added new elements to an existing format using your own namespace or to let RSSOwl handle certain established namespaces that enrich the existing feed formats.
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="namespaceHandler" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="namespaceHandler">
+      <annotation>
+         <appinfo>
+            <meta.element labelAttribute="namespaceURI"/>
+         </appinfo>
+      </annotation>
+      <complexType>
+         <attribute name="namespaceURI" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The unique URI of the namespace this handler is responsible for.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A class that implements &lt;samp&gt;org.rssowl.core.interpreter.INamespaceHandler&lt;/samp&gt;.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn="org.rssowl.core.interpreter.INamespaceHandler"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="since"/>
+      </appinfo>
+      <documentation>
+         2.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         &lt;p&gt;
+The following is an example of the extension point that registers a namespace
+handler for the dublin core namespace commonly used in RSS feeds: 
+&lt;pre&gt;&lt;extension point=&quot;org.rssowl.core.NamespaceHandler&quot;&gt;
+   &lt;namespaceHandler
+      class=&quot;org.rssowl.core.internal.interpreter.DublinCoreNamespaceHandler&quot;
+      namespaceURI=&quot;http://purl.org/dc/elements/1.1/&quot;/&gt;
+&lt;/extension&gt;&lt;/pre&gt;
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appinfo>
+         <meta.section type="copyright"/>
+      </appinfo>
+      <documentation>
+         Copyright notice (c) 2005-2011 RSSOwl Development Team.                            
+All rights reserved´. This program and the accompanying 
+materials are made available under the terms of the Eclipse 
+Public License v1.0 which accompanies this distribution, and 
+is available at: &lt;a href=&quot;http://www.rssowl.org/legal/epl-v10.html&quot;&gt;http://www.rssowl.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

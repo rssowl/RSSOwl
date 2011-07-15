@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss version="2.0"><channel>
+	<title>BBC News | Technology | World Edition</title>
+	<link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/default.stm</link>
+	<description>Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives. Also entertainment, business, science, technology and health news.</description>
+	<language>en-gb</language>
+	<lastBuildDate>Thu, 18 May 2006 16:46:40 GMT</lastBuildDate>
+	<copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse</copyright>
+	<docs>http://www.bbc.co.uk/syndication/</docs>
+	<ttl>15</ttl>
+		
+		<image>
+			<title>BBC News</title>
+			<url>http://news.bbc.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+			<link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/default.stm</link>
+		</image>
+		
+			
+				
+				
+					<item>
+        <title>Wireless boost for British cities</title>
+        <description>A dozen UK cities are getting wireless internet zones as part of a project by telecoms giant BT.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4993038.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4993038.stm</guid>
+		<pubDate>Thu, 18 May 2006 09:45:56 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Ofcom rethinks ban on iPod gadget</title>
+        <description>Ofcom is working on an EU-wide standard for a banned device which transmits songs from iPods.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/politics/4993528.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/uk_politics/4993528.stm</guid>
+		<pubDate>Thu, 18 May 2006 14:43:54 GMT</pubDate>
+		<category>UK Politics</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>War vets feature in US army game</title>
+        <description>The US Army is putting soldiers who fought in Iraq into its game in a bid to put a human face on its operations.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4991306.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4991306.stm</guid>
+		<pubDate>Thu, 18 May 2006 07:57:58 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>'Big brother' informs baby talk</title>
+        <description>A newborn baby is being filmed for the next three years to understand how he learns to talk.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/science/nature/4987880.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/sci/tech/4987880.stm</guid>
+		<pubDate>Wed, 17 May 2006 23:55:56 GMT</pubDate>
+		<category>Science/Nature</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Broadband boost helps BT results</title>
+        <description>BT reports a 6% rise in annual revenues, with a strong rise in broadband incomes offsetting a drop in its fixed-line unit.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/4992482.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/business/4992482.stm</guid>
+		<pubDate>Thu, 18 May 2006 08:24:13 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Web attacks end anti-spam effort</title>
+        <description>Net attacks by spammers have forced an Israeli firm to abandon its campaign to curb the growth of junk mail.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4990622.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4990622.stm</guid>
+		<pubDate>Wed, 17 May 2006 15:06:42 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Satellite radio in recordings row</title>
+        <description>US satellite broadcaster XM is being sued over a gadget that lets people record what they are listening to.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4989498.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4989498.stm</guid>
+		<pubDate>Wed, 17 May 2006 10:34:37 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Gamers to help create web record</title>
+        <description>Games fans are being asked to contribute to an online encyclopaedia to complete a history of videogames.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4986688.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4986688.stm</guid>
+		<pubDate>Tue, 16 May 2006 18:36:10 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Apple moves all laptops to Intel</title>
+        <description>Apple has moved closer to completing its shift to Intel chips with the launch of new consumer Macbook models.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4989434.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4989434.stm</guid>
+		<pubDate>Wed, 17 May 2006 10:01:05 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Central Park to be wireless hub</title>
+        <description>New York announces plans to offer free wireless internet connections in Central Park from this summer.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/americas/4988792.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/world/americas/4988792.stm</guid>
+		<pubDate>Wed, 17 May 2006 08:49:09 GMT</pubDate>
+		<category>Americas</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>MTV targets music downloads</title>
+        <description>MTV, the TV firm credited with popularising music videos, is entering the digital download market.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/4984966.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/business/4984966.stm</guid>
+		<pubDate>Tue, 16 May 2006 06:53:37 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Apple rival 'tries to ban iPods'</title>
+        <description>Digital music player business Creative is trying to ban the sale and advertising of iPods in the US in a patent row.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/4985410.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/business/4985410.stm</guid>
+		<pubDate>Tue, 16 May 2006 09:46:16 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Yahoo homepage gets make-over</title>
+        <description>Search giant Yahoo is revamping its home page to introduce customisation tools for visitors.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4773557.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4773557.stm</guid>
+		<pubDate>Tue, 16 May 2006 10:12:03 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Gadget firms tackled on usability</title>
+        <description>Technology companies are being encouraged to think more about how to make gadgets easy to use.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4772139.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4772139.stm</guid>
+		<pubDate>Mon, 15 May 2006 10:42:44 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>£5m bid to power future gadgets</title>
+        <description>Five universities unite in an attempt to design a new generation of tiny electronic circuits for computers and other devices.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/scotland/4768323.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/scotland/4768323.stm</guid>
+		<pubDate>Sun, 14 May 2006 06:28:46 GMT</pubDate>
+		<category>Scotland</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Telewest offers HDTV World Cup</title>
+        <description>Telewest customers can watch the World Cup in high-definition, after the firm agrees deals with ITV and the BBC.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/4772555.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/entertainment/4772555.stm</guid>
+		<pubDate>Tue, 16 May 2006 15:13:10 GMT</pubDate>
+		<category>Entertainment</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>PlayStation 3 rethinks card games</title>
+        <description>Sony is re-imagining the way we play card games with one title for the forthcoming PlayStation 3.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4768829.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4768829.stm</guid>
+		<pubDate>Mon, 15 May 2006 07:24:42 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Halo 3 tops Xbox Live downloads</title>
+        <description>Catch up with the latest news from the world of video gaming.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/2207229.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/2207229.stm</guid>
+		<pubDate>Thu, 18 May 2006 10:32:03 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Top spin tennis courts success</title>
+        <description>Top Spin 2 for the Xbox 360 does a competent job of bringing the game to life in your hands.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4955138.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4955138.stm</guid>
+		<pubDate>Fri, 28 Apr 2006 15:55:01 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+
+	
+	
+	
+</channel>
+</rss>
+

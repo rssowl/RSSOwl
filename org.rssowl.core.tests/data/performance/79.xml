@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+>
+
+<channel rdf:about="http://www.bioinformatics.ca/">
+<title>Bioinformatics.ca Bio Weblog</title>
+<link>http://www.bioinformatics.ca</link>
+<description>The portal to bioinformatics activities in Canada</description>
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://bioinformatics.ca/weblogs/log.php?wid=145"/>
+<rdf:li rdf:resource="http://bioinformatics.ca/weblogs/log.php?wid=144"/>
+<rdf:li rdf:resource="http://bioinformatics.ca/weblogs/log.php?wid=143"/>
+<rdf:li rdf:resource="http://bioinformatics.ca/weblogs/log.php?wid=142"/>
+<rdf:li rdf:resource="http://bioinformatics.ca/weblogs/log.php?wid=141"/>
+</rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="http://bioinformatics.ca/weblogs/log.php?wid=145">
+
+<title>OSCAR 4.0 Released</title>
+
+<link>http://bioinformatics.ca/weblogs/log.php?wid=145</link>
+
+</item>
+<item rdf:about="http://bioinformatics.ca/weblogs/log.php?wid=144">
+
+<title>New Symbolic Language For Biology</title>
+
+<link>http://bioinformatics.ca/weblogs/log.php?wid=144</link>
+
+</item>
+<item rdf:about="http://bioinformatics.ca/weblogs/log.php?wid=143">
+
+<title>Canada's Blueprint Initiative Goes Global in Asia and Europe</title>
+
+<link>http://bioinformatics.ca/weblogs/log.php?wid=143</link>
+
+</item>
+<item rdf:about="http://bioinformatics.ca/weblogs/log.php?wid=142">
+
+<title>ENSEMBL special</title>
+
+<link>http://bioinformatics.ca/weblogs/log.php?wid=142</link>
+
+</item>
+<item rdf:about="http://bioinformatics.ca/weblogs/log.php?wid=141">
+
+<title>Chinook awarded the 2004 BCNet  Best Overall Application Award</title>
+
+<link>http://bioinformatics.ca/weblogs/log.php?wid=141</link>
+
+</item>
+</rdf:RDF>

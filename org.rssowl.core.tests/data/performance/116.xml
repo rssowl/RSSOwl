@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:jf="http://www.jivesoftware.com/xmlns/jiveforums/rss">
+
+
+
+<channel>
+
+    <title>Javalobby Front Page</title>
+	
+    <link>http://www.javalobby.org</link>
+    
+    <description>Top Java developer news and issue discussions from Javalobby.org.
+</description>
+	
+    <language>en</language>
+    <generator>Jive Forums Expert Edition 4.2.1 (www.jivesoftware.com)</generator>
+    <pubDate>Wed, 24 May 2006 17:35:39 -0400</pubDate>
+    <copyright>Copyright 1997-2005 Javalobby, Inc.</copyright>
+    <ttl>60</ttl>
+    <image>
+        <title>Javalobby</title>
+	    <url>
+            http://www.javalobby.org/images/std/jl-plain-150x30.gif
+        </url>
+        <link>http://www.javalobby.org/</link>
+    </image>
+    <webMaster>webmaster@javalobby.org</webMaster>
+
+    <item>
+        <title>Large Memory Java Applications</title>
+        <link>http://www.javalobby.org/java/forums/t72726.html</link>
+
+        
+        
+        <description><![CDATA[I'm looking for techniques for large memory Java applications, possibly using disk/swap for solutions.
+]]>
+			</description>
+        <pubDate>Wed, 24 May 2006 07:52:58 -0400</pubDate>
+        <author>Owen</author>
+        <guid>http://www.javalobby.org/java/forums/t72726.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>Know of any photorealstic 100% java 3d renderers?</title>
+        <link>http://www.javalobby.org/java/forums/t72482.html</link>
+
+        
+        
+        <description><![CDATA[I can't seem to find many 3d renderers for Java, and
+was wondering if others out there had spotted any good ones.
+]]>
+			</description>
+        <pubDate>Wed, 24 May 2006 07:45:13 -0400</pubDate>
+        <author>Dino Fancellu</author>
+        <guid>http://www.javalobby.org/java/forums/t72482.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>Survey: How concerned are you that open source Java will fragment?</title>
+        <link>http://www.javalobby.org/java/forums/t72663.html</link>
+
+        
+        
+        <description><![CDATA[After the initial applause at JavaOne over Sun's announcement that Java would eventually be open sourced, there is now concern among many users that it will fragment. How concerned are you?
+]]>
+			</description>
+        <pubDate>Tue, 23 May 2006 01:33:54 -0400</pubDate>
+        <author>Michael Urban</author>
+        <guid>http://www.javalobby.org/java/forums/t72663.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>Whatever happened to shared VM support?</title>
+        <link>http://www.javalobby.org/java/forums/t72620.html</link>
+
+        
+        
+        <description><![CDATA[After years of waiting we still don't have a shared VM able to run several Java applications at once. Is there any hope?
+]]>
+			</description>
+        <pubDate>Mon, 22 May 2006 10:42:39 -0400</pubDate>
+        <author>OrangeBook</author>
+        <guid>http://www.javalobby.org/java/forums/t72620.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>444 photos from JavaOne and NetBeans Day 2006</title>
+        <link>http://www.javalobby.org/java/forums/t72616.html</link>
+
+        
+        
+        <description><![CDATA[While I was at NetBeans Day and JavaOne last week I took several hundred photos and wrote over a dozen articles. All this is online now for your reading and viewing pleasure.
+]]>
+			</description>
+        <pubDate>Mon, 22 May 2006 09:32:41 -0400</pubDate>
+        <author>Ed Burnette</author>
+        <guid>http://www.javalobby.org/java/forums/t72616.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>SOA Confused: How to document SOA services?</title>
+        <link>http://www.javalobby.org/java/forums/t72587.html</link>
+
+        
+        
+        <description><![CDATA[Services are the rage, but how should we document these services for developers? Javadocs don't really do the trick. What format works best for SOA documentation and examples?
+]]>
+			</description>
+        <pubDate>Sun, 21 May 2006 16:40:09 -0400</pubDate>
+        <author>Rick Ross</author>
+        <guid>http://www.javalobby.org/java/forums/t72587.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>Project Harmony gets AWT/Swing Contrib from Intel</title>
+        <link>http://www.javalobby.org/java/forums/t72569.html</link>
+
+        
+        
+        <description><![CDATA[This may be a bit late but at JavaONE this year JEdit was shown running on the AWT/Swing contribution that Intel gave to Project Harmony.
+]]>
+			</description>
+        <pubDate>Sun, 21 May 2006 03:30:12 -0400</pubDate>
+        <author>Riyad Kalla</author>
+        <guid>http://www.javalobby.org/java/forums/t72569.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>JavaOne Gossip: NetBeans Pulls a Prank on Eclipse</title>
+        <link>http://www.javalobby.org/java/forums/t72541.html</link>
+
+        
+        
+        <description><![CDATA[Humor makes life fun. Life just got a lot funnier. For some I guess. netBeans - Eclipse 1-0. Post your suggestions on how Eclipse should get even.
+]]>
+			</description>
+        <pubDate>Sat, 20 May 2006 07:01:23 -0400</pubDate>
+        <author>Mikael Grev</author>
+        <guid>http://www.javalobby.org/java/forums/t72541.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>JavaOne: The evolution of JSF: Ajax done right!</title>
+        <link>http://www.javalobby.org/java/forums/t72537.html</link>
+
+        
+        
+        <description><![CDATA[If you went to any of the JSF/Ajax talks at JavaOne before Friday, it seems you learned the anti-patterns. 
+
+Don't leave JavaOne early next year. All of the good stuff is on the last day.
+]]>
+			</description>
+        <pubDate>Fri, 19 May 2006 23:07:53 -0400</pubDate>
+        <author>Rick Hightower (ArcMind Inc.)</author>
+        <guid>http://www.javalobby.org/java/forums/t72537.html</guid>
+        
+
+    </item>
+
+
+    <item>
+        <title>Danese Cooper: What Sun Doesn't Want You To Know About Java and Open Source</title>
+        <link>http://www.javalobby.org/java/forums/t72505.html</link>
+
+        
+        
+        <description><![CDATA[Danese Cooper, former open source diva of Sun, says "What they really mean is 'How can we placate the FOSS community without giving up control?' which is the age-old question for Sun."
+]]>
+			</description>
+        <pubDate>Fri, 19 May 2006 10:42:51 -0400</pubDate>
+        <author>Rick Ross</author>
+        <guid>http://www.javalobby.org/java/forums/t72505.html</guid>
+        
+
+    </item>
+
+
+
+</channel>
+</rss>

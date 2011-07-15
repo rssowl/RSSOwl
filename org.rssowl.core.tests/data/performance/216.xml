@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<!-- name="generator" content="blosxom/2.0" -->
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+
+<rss version="0.91">
+  <channel>
+    <title>OSI News Weblog   </title>
+    <link>http://opensource.org/weblog/index.rss</link>
+    <description>OSI (opensource.org) News Weblog</description>
+    <language>en</language>
+
+  <item>
+    <title>OSI Public Meeting - OSCON 2005</title>
+    <link>http://opensource.org/weblog/index.rss/2005/07/27#oscon05meeting</link>
+    <description>
+OSI is going to be holding a public meeting at O'Reilly's OSCON the
+first week of August.  It's to be held on Thursday evening at 7:30PM
+in room D135 of the conference hotel.  More information on OSCON at
+&lt;a href=&quot;http://conferences.oreilly.com/oscon/&quot;&gt;http://conferences.oreilly.com/oscon/&lt;/a&gt;</description>
+  </item>
+  <item>
+    <title>Open Source Initiative (OSI) Announces New Interim President, OSI To Elect Additional Board Members, Address Contemporary Licensing Issues</title>
+    <link>http://opensource.org/weblog/index.rss/2005/07/27#tiemann-pres</link>
+    <description>
+The Open Source Initiative (OSI), a non-profit corporation responsible for the management and promotion of the Open Source Definition (OSD), today announced the appointment of Michael Tiemann as interim president, taking over the position from Russell Nelson. After adding additional members, OSI's newly expanded board will select a full-term president and focus its immediate efforts on working with the community to evaluate the OSD licensing process.
+
+&lt;p&gt;&lt;a href=&quot;/pressreleases/tiemann-pres.php&quot;&gt;Complete PR&lt;/a&gt;</description>
+  </item>
+  <item>
+    <title>OSI Statement on License Proliferation</title>
+    <link>http://opensource.org/weblog/index.rss/2005/04/08#licenseproliferation</link>
+    <description>
+The OSI has issued a &lt;a href=&quot;http://opensource.org/docs/policy/licenseproliferation.php&quot;&gt;statement on license proliferation&lt;/a&gt;.
+&lt;p&gt;&lt;i&gt;&quot;OSI's approach on the development and distribution problems involved building as many different bridges as possible between developers and the corporate world. In doing this, we accepted a proliferation of new licenses. This is a problem in that although physical bridges between communities don't interfere with each other, licenses do. Interference between different open-source licenses is now perceived as a sufficiently serious problem that OSI has become as a victim of its own earlier success.&quot;&lt;/i&gt;</description>
+  </item>
+  <item>
+    <title>OPEN SOURCE INITIATIVE (OSI) ANNOUNCES EXPANDED PROGRAMS, COUNSEL, AND BOARD</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/31#expansion</link>
+    <description>
+The OSI (Open Source Initiative) has announced an intention to expand the scope of its activities, new counsel, and new board members. Most notably that OSI co-founder Eric S. Raymond will be stepping aside.
+
+&lt;p&gt;&lt;a href=&quot;http://opensource.org/pressreleases/expansion.php&quot;&gt;Complete PR&lt;/a&gt;</description>
+  </item>
+  <item>
+    <title>Five Newly Approved Licenses</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/31#Apache-CUA-Lucent-Fair-EUDataGrid</link>
+    <description>
+The OSI board has approved five new &lt;a href=&quot;http://opensource.org/licenses/index.php&quot;&gt;licenses&lt;/a&gt; for &lt;a href=&quot;http://opensource.org/docs/certification_mark.php#approval&quot;&gt;certification&lt;/a&gt;.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.org/licenses/apache2.0.php&quot;&gt;Apache License, Version 2.0&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.org/licenses/cuaoffice.php&quot;&gt;CUA Office Public License Version 1.0&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.org/licenses/eudatagrid.php&quot;&gt;EU DataGrid Software License&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.org/licenses/fair.php&quot;&gt;Fair License&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;http://opensource.org/licenses/lucent1.02.php&quot;&gt;Lucent Public License Version 1.02&lt;/a&gt;
+&lt;/ul&gt; -Steve</description>
+  </item>
+  <item>
+    <title>UK Advertising Standards Body Tells MS to &quot;Get the Facts&quot;</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#getthefacts</link>
+    <description>
+Microsoft's &quot;Get the Facts&quot; advertising campaign has been &lt;a href=&quot;http://news.com.com/Ad+watchdog+warns+Microsoft+to+%27Get+the+Facts%27/2100-1016_3-5323672.html?tag=nefd.hed&quot;&gt;given a black eye&lt;/a&gt; by a United Kingdom advertising standards body.  The body says the ads are 'misleading'.  That's kind considering the so called 'tests' that back up their claim were found to run on completely mismatched hardware.
+&lt;p&gt;&lt;blockquote&gt;&quot;Microsoft said the machines were as comparable as possible--a Linux image on IBM's z900 mainframe CPUs and a Windows Server 2003 image running on two 900MHz Xeon CPUs--and wasn't hardware specific.
+&lt;p&gt;
+The ASA, nevertheless, thought consumers might not see it that way and that the &quot;Windows vs. Linux&quot; stance might lead people into thinking running Microsoft's OS--not the &quot;competing file serving set-ups&quot;--was cheaper than one based on Linux.
+&lt;p&gt;
+The group has asked Microsoft to amend its ads and urged the company to in the future be advised on its campaigns by the Committee of Advertising Practices' Copy Advice Team. &lt;/blockquote&gt;</description>
+  </item>
+  <item>
+    <title>The Governator Needs Open Source to Run California</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#GovArnoldOS</link>
+    <description>
+A report charged by Gov. Ar-nald. of California is &lt;a href=&quot;http://news.com.com/California+considers+open-source+shift/2100-7344_3-5327581.html?part=rss&amp;tag=5327581&amp;subj=news.7344.20&quot;&gt;recommending the implementation of open source software where feasible&lt;/a&gt; in order to make the state government work more efficiently. 
+
+&lt;blockquote&gt;&quot;The report doesn't project cost-savings for such a move but describes open-source products as more flexible and secure than the proprietary code that dominates government systems today. State agencies 'should take an inventory of software purchases and software renewals...and implement open-source alternatives where feasible', according to the report.&quot;&lt;/blockquote&gt;
+
+&lt;em&gt;via &lt;a href=&quot;http://osdir.com/Article1519.phtml&quot;&gt;OSDir.com&lt;/a&gt;&lt;/em&gt;</description>
+  </item>
+  <item>
+    <title>OSI News Weblog Launch</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#newsblog</link>
+    <description>
+I thought that the opensource.org site would be a little better off with &lt;strike&gt;a return to usenet&lt;/strike&gt; a weblog and rss feed.  So, here is one.
+&lt;p&gt;-Steve</description>
+  </item>
+  <item>
+    <title>BayStar Has Now Confirmed MS Ties.</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#BayStarconfirmsTies</link>
+    <description>
+&quot;&lt;a href=&quot;http://news.osdir.com/article477.html&quot;&gt;Yes&lt;/a&gt;, Microsoft did introduce BayStar to SCO.&quot;</description>
+  </item>
+  <item>
+    <title>Computer Associates Denies Having Bought SCO License.</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#CAdeniesbuyingSCOLic</link>
+    <description>
+Computer Associates has &lt;a href=&quot;http://news.osdir.com/article467.html&quot;&gt;denied having bought a Linux license from SCO&lt;/a&gt; stating, &quot;To represent us as having supported the SCO thing is totally wrong.&quot;
+
+&lt;blockquote&gt;Computer Associates Inc. on Thursday blasted The SCO Group Inc. for harassing Linux users and misrepresenting the terms of a software licensing arrangement between the two companies that protected CA from a potential SCO lawsuit.
+
+&lt;p&gt;SCO Chief Financial Officer Bob Bench on Wednesday confirmed that CA was one of four publicly named companies to sign up for SCO's Intellectual Property (IP) License for Linux -- a $699 license that SCO says that Linux users must purchase in order to avoid violating SCO's copyrights.
+&lt;p&gt;
+On Thursday, however, a CA executive said that his company had purchased no such license, but had instead acquired a large number of licenses for SCO's UnixWare operating system as part of a $40 million breach of contract lawsuit settlement in August 2003 with SCO investor The Canopy Group Inc. &lt;/blockquote&gt;</description>
+  </item>
+  <item>
+    <title>Business Week Confirms MS Orchestrated Hedge Fund Investment in SCO</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#businessweekSCO-MSconnection</link>
+    <description>
+Business Week has &lt;a href=&quot;http://news.osdir.com/article476.html&quot;&gt;confirmed&lt;/a&gt; that Microsoft orchestrated BayStar Captital's investment in SCO.</description>
+  </item>
+  <item>
+    <title>Weather.com Moves to Open Source.</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#weatherdotcom</link>
+    <description>
+&lt;blockquote&gt; Four years ago, Weather.com, the online counterpart of The Weather Channel Interactive Inc.'s 24-hour TV channel, relied entirely on proprietary commercial software to serve up millions of Web pages of maps, forecasts and hour-by-hour weather data every day.
+&lt;p&gt;
+Today, the Atlanta-based Web site serves more than 50 million pages on stormy days, but it runs almost entirely on open-source software and commodity hardware. And since the move to the new architecture, it has slashed IT costs by one-third and increased Web site processing capacity by 30%. &lt;/blockquote&gt;
+
+</description>
+  </item>
+  <item>
+    <title>License Update</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#Jun2-04</link>
+    <description>
+The OSI has added the &lt;a href=&quot;http://opensource.org/licenses/eclipse-1.0.php&quot;&gt;Eclipse Public License&lt;/a&gt;, &lt;a href=&quot;http://opensource.org/licenses/nasa1.3.php&quot;&gt;NASA Open Source Agreement&lt;/a&gt;, and updates to the &lt;a href=&quot;http://opensource.org/licenses/afl-2.1.php&quot;&gt;Academic Free License&lt;/a&gt; &amp; &lt;a href=&quot;http://opensource.org/licenses/osl-2.1.php&quot;&gt;Open Software License&lt;/a&gt;</description>
+  </item>
+  <item>
+    <title>Apple is Depending on Open Source for Security</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#AppleTigerOSSecurity</link>
+    <description>
+Apple has stated that they are depending on Open Source to spare OS X the security woes plagued by Microsoft.
+&lt;p&gt;
+&lt;blockquote&gt;The operating system update, due to debut in the first half of 2005, is based on the Unix platform, and Apple executives reckon the open-source nature of the product means it's inherently more secure than certain proprietary offerings.
+&lt;p&gt;
+Bertrand Serlet, senior vice president of software at Apple, said Wednesday that having a greater number of people keeping an eye on source code leads to better software security. &quot;A lot of security problems derive from the core,&quot; he said. With open-source code, &quot;thousands of people look at the critical portions of source code and...check those portions are right. It's a major advantage to have open-source code.&quot;&lt;/blockquote&gt;
+
+(&lt;a href=&quot;http://news.com.com/2100-1016_3-5341689.html?tag=prntfr&quot;&gt;C|net&lt;/a&gt; &lt;i&gt;via &lt;a href=&quot;http://osdir.com/Article1544.phtml&quot;&gt;OSDir&lt;/a&gt;&lt;/i&gt;) </description>
+  </item>
+  <item>
+    <title>BayStar Capital Want Shares Cashed Due to Breach</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#baystarwantsmoneyback</link>
+    <description>
+In short, BayStar, who financed this SCO mess, &lt;a href=&quot;http://osdir.com/Article303.phtml&quot;&gt;wants their money back&lt;/a&gt;.</description>
+  </item>
+  <item>
+    <title>New &quot;open source&quot; button graphic</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#button</link>
+    <description>
+&lt;img src=&quot;http://opensource.org/trademarks/open_source_button.png&quot; align=&quot;left&quot;&gt;Ferdinand Zebua has designed a nice 'open source' button graphic for all you open source supporters out there.
+
+&lt;p&gt;Please link this graphic to the &lt;a href=&quot;http://www.opensource.org/docs/definition.php&quot;&gt;Open Source Definition&lt;/a&gt;. </description>
+  </item>
+  <item>
+    <title>Halloween X: Follow The Money -UPDATE-</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#halloweenxupdate</link>
+    <description>
+&lt;b&gt;UPDATE:&lt;/b&gt; SCO has admitted that the leaked email/memo &lt;a href=&quot;http://news.osdir.com/article463.html&quot;&gt;is real&lt;/a&gt;.
+&lt;p&gt;&lt;a href=&quot;http://www.opensource.org/halloween/halloween10.html&quot;&gt;Leaked email&lt;/a&gt; from SCO suggests Microsoft is funding SCO to the tune of $100M.</description>
+  </item>
+  <item>
+    <title>Q2 2004 Winners Announced.</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#Q2-2004</link>
+    <description>
+The OSI has &lt;a href=&quot;http://opensource.org/osa/awards.php&quot;&gt;awarded prizes&lt;/a&gt; for the Open Source Awards for the second quarter of 2004 to Tom Lord of &lt;a href=&quot;http://www.gnu.org/software/gnu-arch/&quot;&gt;GNU Arch&lt;/a&gt;, Martin Pool of &lt;a href=&quot;http://distcc.samba.org/&quot;&gt;distcc&lt;/a&gt;, and &lt;a href=&quot;http://gimp.org&quot;&gt;The Gimp&lt;/a&gt;. </description>
+  </item>
+  <item>
+    <title>MS &amp; SCO May be under SEC investigation.</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#SCO-MS-SEC</link>
+    <description>
+&lt;a href=&quot;http://news.osdir.com/article469.html&quot;&gt;Microsoft and SCO may be under the SEC's microscope&lt;/a&gt;</description>
+  </item>
+  <item>
+    <title>CIO Magazine: The Myths of Open Source</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#cioarticle</link>
+    <description>
+CIO Magazine is featuring an excellent article debunking ill perceived myths about open source in the business world.  Check it out &lt;a href=&quot;http://www.cio.com/archive/030104/open.html&quot;&gt;here&lt;/a&gt;.</description>
+  </item>
+  <item>
+    <title>Author of Linux Patent Study Says Ballmer Got It Wrong</title>
+    <link>http://opensource.org/weblog/index.rss/2005/01/16#BallmerWrongPatentStudy</link>
+    <description>
+&lt;blockquote&gt; 	
+When Microsoft CEO Steve Ballmer said he wasn't really saying that Linux violates more than 200 software patents, Microsoft followed up by saying Ballmer was only citing findings from a controversial study done this summer by OSRM (Open Source Risk Management), a risk-mitigation consultancy.
+&lt;p&gt;
+The study claimed that Linux has been found to potentially violate 283 software patents. The author of that report, however, doesn't see things the way Ballmer does at all.
+&lt;p&gt;
+&quot;Microsoft is up to its usual FUD [fear, uncertainty and doubt],&quot; said Dan Ravicher, author of the study Microsoft cites, who is an attorney and executive director of PUBPAT (the Public Patent Foundation).
+&lt;p&gt;
+&quot;Open source faces no more, if not less, legal risk than proprietary software. The market needs to understand that the study Microsoft is citing actually proves the opposite of what they claim it does.&quot; &lt;/blockquote&gt;
+
+&lt;br /&gt;&lt;a href=&quot;http://www.eweek.com/article2/0,1759,1729908,00.asp&quot;&gt;eWeek&lt;/a&gt;</description>
+  </item>
+  </channel>
+</rss>

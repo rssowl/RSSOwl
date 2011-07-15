@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+            "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+
+<rss version="0.91">
+
+<channel>
+<title>WebDeveloper.com</title>
+<link>http://www.webdeveloper.com</link>
+<description>Where Web Developers and Designers Learn how to Build Web Sites.</description>
+<language>en-us</language>
+<pubDate>2004-05-18T16:15</pubDate>
+<lastBuildDate>2004-05-18T16:15</lastBuildDate>
+
+<item>
+<title>Database Replication in MySQL</title>
+<link>http://databasejournal.com/features/mysql/article.php/3355201</link>
+<description>MySQL does not claim to be enterprise-ready for nothing, and Yahoo and other high-volume users of MySQL certainly do not run on one database server. There are a number of techniques to handle high volumes, one of which is introduced in this article - MySQL replication.</description>
+</item>
+
+<item>
+<title>Checking SQL Server&#39;s Heart Beat</title>
+<link>http://www.databasejournal.com/features/mssql/article.php/3347241</link>
+<description>Small shops do not always have the budget for the necessary tools required to monitor the services running on a Windows based server, yet it is imperative that these services be monitored. MAK examines alternative methods for checking all SQL Server services from one location and how to check the heart beat of SQL Server instances every few minutes.</description>
+</item>
+
+<item>
+<title>Unweaving a Tangled Web With HTMLParser and Lucene</title>
+<link>http://javaboutique.internet.com/tutorials/HTMLParser/</link>
+<description>Ever wanted to write a Java program that crawls the Web, reads HTML-pages, retrieves the links, and gets the new pages with more links? Well, this month Keld Hansen shows you how.</description>
+</item>
+
+<item>
+<title>Strategies for Integrating J2EE-Based Applications into a Portal Server Environment</title>
+<link>http://www.developer.com/java/ent/article.php/3346861</link>
+<description>Understand the issues of migrating an application from an application server architecture to a portal-centric architecture.</description>
+</item>
+
+<item>
+<title>MS Access for the Business Environment: Extend Access with Pass-Through Queries</title>
+<link>http://databasejournal.com/features/msaccess/article.php/3347631</link>
+<description>Go directly to the back-end database to optimize query processing. Bill Pearson leads a hands-on introduction to implementing Pass-Through queries to MSSQL Server 2000 from an MS Access client.</description>
+</item>
+
+<item>
+<title>Scripting Clinic: Curl Up With Python</title>
+<link>http://networking.earthweb.com/netsysm/article.php/3348091</link>
+<description>This full-blown interpreted programming language lets you write large, complex programs without having to mess with compiling and linking.</description>
+</item>
+
+<item>
+<title>Acrobat 6 and PDF Solutions: Creating the PDF You Want. Pt. 2</title>
+<link>http://www.webreference.com/graphics/acrobat6/2/index.html</link>
+<description>Today, you&#39;ll learn about improving Distiller&#39;s efficiency with watched folders, how to prevent the corruption of PDFs across the Internet, creating PDFs from within non-Acrobat applications, alternative PDF creation methods, exporting PDFs and more. By Sybex.</description>
+</item>
+
+<item>
+<title>JavaScript: VB String Functions</title>
+<link>http://webdeveloper.earthweb.com/webjs/jsutility/item.php/450991</link>
+<description>Javascript has been expanded to include VB functions. Use standard VB string functions in JavaScript: Trim, Chr, LTrim, RTrim, UCase, LCase, Instr, StrReverse and more.</description>
+</item>
+
+<item>
+<title>Improving the Content Rater</title>
+<link>http://aspnet.4guysfromrolla.com/articles/043004-1.aspx</link>
+<description>In an earlier article of mine, Creating a Content Rater, I showed how to create a content rater User Control. I implemented this content rate on my blog, ScottOnWriting.NET, about two weeks ago and have since had a number of readers rate various blog entries and leave comments. This article discusses these two enhancements: showing the highest rated entries, and an report page that lists all ratings and their comments.</description>
+</item>
+
+<item>
+<title>SQL MAIL and SQL Agent Mail using POP3 and SMTP</title>
+<link>http://www.databasejournal.com/features/mssql/article.php/3345091</link>
+<description>How many times have you had problems sending SQL MAIL or SQL Agent Mail from SQL Server because the Exchange server was taken down or not working? This article discusses how to setup SQL Server to use POP3 and SMTP services to support SQL Mail and SQL Agent mail.</description>
+</item>
+
+</channel>
+</rss>

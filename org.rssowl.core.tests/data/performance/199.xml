@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+	<channel>
+		<title>The Chris Pirillo Show</title>
+		<link>http://www.thechrispirilloshow.com/</link>
+		<description>The Chris Pirillo Show offers a live audio show and on-demand archives featuring caller questions, interviews with people who matter, killer software and Web site discoveries, productivity tips and tricks, and everything your technology lifestyle demands. Leave a question on our voicemail help line: 1-(877)-414-5856 to get your questions answered on the show.</description>
+		<language>en-us</language>
+		<image>
+		<url>http://media.thechrispirilloshow.com/images/cps_albumart_rss.jpg</url> 
+		<title>The Chris Pirillo Show</title> 
+		<link>http://www.thechrispirilloshow.com/</link>
+		<width>144</width>
+		<height>144</height> 
+		</image>
+		<pubDate>Tue, 23 May 2006 17:37:00 -0800</pubDate>
+		<generator>http://www.movabletype.org/?v=3.2</generator>
+		<category>Technology Trends</category>
+		<lastBuildDate>Tue, 23 May 2006 17:37:00 -0800</lastBuildDate>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<copyright>&#169; 1996-2006, Lockergnome LLC. ISSN: 1095-3965.</copyright>
+		<managingEditor>podcast@pirillo.com (Jake Ludington)</managingEditor>
+		<webMaster>podcast@pirillo.com (Jake Ludington)</webMaster>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nd-nc/1.0/</creativeCommons:license>
+		<rating>(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline EN v2.0" l gen true for "http://lockergnome.com/" r (nz 1 vz 1 lc 1 oz 1 ca 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://lockergnome.com/" r (n 0 s 0 v 0 l 1))</rating>
+		<ttl>60</ttl>
+
+		<itunes:author>The Chris Pirillo Show</itunes:author> 
+  		<itunes:subtitle>Technology Trends</itunes:subtitle> 
+  		<itunes:summary>The Chris Pirillo Show offers a live audio show and on-demand archives featuring caller questions, interviews with people who matter, killer software and Web site discoveries, productivity tips and tricks, and everything your technology lifestyle demands. Leave a question on our voicemail help line: 1-(877)-414-5856 to get your questions answered on the show.</itunes:summary> 
+  		<itunes:owner>
+  		<itunes:email>podcast@pirillo.com</itunes:email> 
+  		</itunes:owner> 
+  		<itunes:category text="Technology">
+  		<itunes:category text="News" /> 
+  		</itunes:category> 
+  		<itunes:image href="http://media.thechrispirilloshow.com/images/cps_albumart.jpg" /> 
+		<itunes:explicit>no</itunes:explicit>
+
+
+          <blogChannel:mySubscriptions>http://www.lockergnome.com/rss/lockergnome.opml</blogChannel:mySubscriptions>
+
+
+
+				<item>
+			<title>Jim Allchin on Windows Vista Beta 2</title>
+			<description>With Beta 2 of Windows Vista announced at WinHEC today, we&amp;#8217;re finally in the home stretch for the next operating system from Microsoft. Chris has been looking at the on-site Beta 2 builds with his astutely critical eye and finding a few things he likes (as well as a number of existing concerns). Jim Allchin was on hand to field questions about Windows Vista. We snagged a few minutes with Jim to talk about what the world can expect to see between Beta 2 and RTM, what kind of Windows user Jim considers when combing through the operating system, a few of the features he insisted on seeing in the next revision, and whether he thinks Chris should run Windows Vista Beta 2 on his production system.Hear Jim Allchin in MP3 Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>Weekly Broadcast</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Tue, 23 May 2006 17:37:00 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060523_jim_allchin_on_windows_vista_beta_2.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060523_jim_allchin_on_windows_vista_beta_2.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/cps_20060522_jimallchin.mp3" length="4549062" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>With Beta 2 of Windows Vista announced at WinHEC today, we're finally in the home stretch for the next operating system from Microsoft. Chris has</itunes:subtitle>
+		<itunes:summary>With Beta 2 of Windows Vista announced at WinHEC today, we're finally in the home stretch for the next operating system from Microsoft. Chris has been looking at the on-site Beta 2 builds with his astutely critical eye and finding...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Greg Linden on Findory</title>
+			<description>With so much information online, it&amp;#8217;s hard to know what to read. The tendency is to stick with the familiar or just blot everything out in frustration. Greg Linden of Findory figured this out and decided to make a better news reading experience. Instead of relying on your own limited time to determine what you might want to read, Findory helps find things you might be interested in reading based on your reading patterns. Essentially, you sign up for an account, read the stuff your interested and over time, Findory will get better at suggesting additional things you might also want to read. Awhile back Chris sat down with Greg to talk about Findory, how it works and how it could change the way you get your information.Hear Greg Linden in MP3 FormatHear Greg Linden in Windows Media Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>Weekly Broadcast</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Tue, 23 May 2006 05:46:04 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060523_greg_linden_on_findory.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060523_greg_linden_on_findory.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/cps_20060322_findory.mp3" length="10270283" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>With so much information online, it's hard to know what to read. The tendency is to stick with the familiar or just blot everything out</itunes:subtitle>
+		<itunes:summary>With so much information online, it's hard to know what to read. The tendency is to stick with the familiar or just blot everything out in frustration. Greg Linden of Findory figured this out and decided to make a better...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Tyler Welch on Microsoft MVPs and Gateway PCs</title>
+			<description>Every now and then Chris and Jake mention being part of the Microsoft MVP Program. As much griping about things like Outlook and interface bugaboos in Windows Vista as the show sometimes contains, you might think this stands for &amp;#8220;most vocal protestor&amp;#8221; or something equal derogatory. The official name is really Most Valuable Professional, which more appropriately translates to Most Passionate Users or the people who are nominated by people at Microsoft and other MVPs as being actively involved in the Windows community at large. Here Chris talks with Tyler Welch about the MVP Program at Microsoft, what it is, how it works and how someone becomes an MVP. Later on, they dive into Tyler&amp;#8217;s past role at Gateway, talking about Chris&amp;#8217;s recent computer purchase and how Gateway measures up to the competition.Hear Tyler Welch in MP3 FormatHear Tyler Welch in Windows Media Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>Weekly Broadcast</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Mon, 22 May 2006 05:52:41 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060522_tyler_welch_on_microsoft_mvps_and_gateway_pcs.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060522_tyler_welch_on_microsoft_mvps_and_gateway_pcs.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/cps_20060504_tylerwelch.mp3" length="18706813" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Every now and then Chris and Jake mention being part of the Microsoft MVP Program. As much griping about things like Outlook and interface bugaboos</itunes:subtitle>
+		<itunes:summary>Every now and then Chris and Jake mention being part of the Microsoft MVP Program. As much griping about things like Outlook and interface bugaboos in Windows Vista as the show sometimes contains, you might think this stands for "most...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Paul Steed on Atari E3 Announcements</title>
+			<description><![CDATA[The Chris Pirillo Show E3 schedule didn&#8217;t let us hit the Atari booth while we were in Los Angeles, but we followed up with this phone interview after the show. Chris talked with Paul Steed, Atari&#8217;s Creative Director, about all 10 of the game titles coming from Atari over the next year, including PSP titles like a remake of Battlezone and the brand new D&amp;D Tactics, as well as Xbox 360 titles like Alone in the Dark and Test Drive Unlimited. One interesting piece in this interview is the background on the sequel to Neverwinter Nights and how it&#8217;s spinning the typical gameplay of PC RPG games. The woman in the interview is Alissa Bell of Atari PR who steps in with several helpful bits of info.Hear Paul Steed in MP3 FormatHear Paul Steed in Windows Media Format]]></description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>Weekly Broadcast</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Sun, 21 May 2006 16:35:09 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060521_paul_steed_on_atari_e3_announcements.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060521_paul_steed_on_atari_e3_announcements.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/cps_20060518_atari.mp3" length="13377395" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>The Chris Pirillo Show E3 schedule didn't let us hit the Atari booth while we were in Los Angeles, but we followed up with this</itunes:subtitle>
+		<itunes:summary>The Chris Pirillo Show E3 schedule didn't let us hit the Atari booth while we were in Los Angeles, but we followed up with this phone interview after the show. Chris talked with Paul Steed, Atari's Creative Director, about all...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Ben Edelman on the Spyware Money Trail</title>
+			<description>Spyware remains a serious concern for anyone who uses Windows. If there weren&amp;#8217;t big money in loading your computer with junk, most of the spyware problem would simply disappear. Ben Edelman has been following the spyware money trail for some time now. Publishing investigations into where spyware appears in legitimate advertising and how spyware uses advertising networks to make money for creators of spyware. Recently Ben is exposing companies who are piggybacking on the big pay-per-click networks like Google and Yahoo in what could be construed as fraudulent business practices. Recently Chris spoke with Ben about the spyware money trail and how spyware companies are actively engaging in fraudulent pay-per-click advertising schemes and why the companies who pay them seemingly don&amp;#8217;t care where the clicks come from.Hear Ben Edelman in MP3 FormatHear Ben Edelman in Windows Media Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>Weekly Broadcast</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Sun, 21 May 2006 13:51:19 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060521_ben_edelman_on_the_spyware_money_trail.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060521_ben_edelman_on_the_spyware_money_trail.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/cps_20060518_benedelman.mp3" length="9459041" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Spyware remains a serious concern for anyone who uses Windows. If there weren't big money in loading your computer with junk, most of the spyware</itunes:subtitle>
+		<itunes:summary>Spyware remains a serious concern for anyone who uses Windows. If there weren't big money in loading your computer with junk, most of the spyware problem would simply disappear. Ben Edelman has been following the spyware money trail for some...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Ask Leo - Blue Security: Singing the blues about spam.</title>
+			<description>A bad problem, a bad solution, and
+a bad outcome for all.Listen to the show: MP3</description>
+               <author>podcast@pirillo.com (Leo A. Notenboom)</author>
+			<category>Weekly Broadcast</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Thu, 18 May 2006 14:00:00 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060518_ask_leo_blue_security_singing_the_blues_about_spam.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060518_ask_leo_blue_security_singing_the_blues_about_spam.phtml</guid>
+			<enclosure url="http://ask-leo.com/podcasts/alcps20060518.mp3" length="2881976" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>A bad problem, a bad solution, and a bad outcome for all. Listen to the show: MP3</itunes:subtitle>
+		<itunes:summary>A bad problem, a bad solution, and a bad outcome for all. Listen to the show: MP3...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Weekly: Get Answers to Your Spyware Problems</title>
+			<description>Spyware remains a serious concern for anyone who uses Windows. If there weren&amp;#8217;t big money in loading your computer with junk, most of the spyware problem would simply disappear. Tonight on The Chris Pirillo Show, we talk with Ben Edelman, Spyware expert and attorney, about how spyware companies are actively engaging in fraudulent pay-per-click advertising schemes and why the companies who pay them don&amp;#8217;t care where the clicks come from.Also on tonight&amp;#8217;s show, Jeff Cutler of Answers.com talks with us about some new developments in the service, how the company has quickly grown into one of the most popular help sites on the Internet, and the new release of their 1-Click Answers desktop application.</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>Upcoming</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Thu, 18 May 2006 09:29:29 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060518_weekly_get_answers_to_your_spyware_problems.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060518_weekly_get_answers_to_your_spyware_problems.phtml</guid>
+			
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Spyware remains a serious concern for anyone who uses Windows. If there weren't big money in loading your computer with junk, most of the spyware</itunes:subtitle>
+		<itunes:summary>Spyware remains a serious concern for anyone who uses Windows. If there weren't big money in loading your computer with junk, most of the spyware problem would simply disappear. Tonight on The Chris Pirillo Show, we talk with Ben Edelman,...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Ashley Cheng of Bethesda on Oblivion</title>
+			<description>Oblivion is currently one of the hottest titles in the Xbox 360 line up; not to mention its popularity as a PC title. While offering horse armor for sale in the Xbox Live Marketplace caused a small uproar online, overall, Bethesda Softworks (makers of Oblivion) are paving the way for the future of endlessly extendable console gaming. Part of their genius is frequent offerings of downloadable upgrades to the game via the Xbox Live Marketplace. At E3 2006, Chris talked with Ashley Cheng, Senior Producer for Bethesda, about Oblivion&amp;#8217;s success. In the interview Ashley talks about the future of game upgrades and reveals a few tidbits about some of the upcoming downloadable quests for Oblivion fans.Hear Ashley Cheng in MP3 FormatHear Ashley Cheng in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Thu, 18 May 2006 00:55:32 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060518_ashley_cheng_of_bethesda_on_oblivion.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060518_ashley_cheng_of_bethesda_on_oblivion.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_oblivion.mp3" length="5297823" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Oblivion is currently one of the hottest titles in the Xbox 360 line up; not to mention its popularity as a PC title. While offering</itunes:subtitle>
+		<itunes:summary>Oblivion is currently one of the hottest titles in the Xbox 360 line up; not to mention its popularity as a PC title. While offering horse armor for sale in the Xbox Live Marketplace caused a small uproar online, overall,...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Logitech Upgrades Your Steering Wheel and Mouse</title>
+			<description>Logitech announced a killer steering wheel setup at E3, complete with three foot pedals and stick shift feeling about as close to real car components as you can get. For PC gamers, the Logitech G5 wired mouse with adjustable weighting and G7 wireless mouse, which uses some portion of the 2.4GHz spectrum, both make a new mouse look like an important interface upgrade. Chris talked with Logitech behind the scenes about these new human interface devices and about what we might be expecting from Logitech in the near future regarding a wireless steering wheel to compete with Microsoft&amp;#8217;s E3 announcement.Hear Logitech in MP3 FormatHear Logitech in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Wed, 17 May 2006 14:30:18 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060517_logitech_upgrades_your_steering_wheel_and_mouse.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060517_logitech_upgrades_your_steering_wheel_and_mouse.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_logitech.mp3" length="3150556" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Logitech announced a killer steering wheel setup at E3, complete with three foot pedals and stick shift feeling about as close to real car components</itunes:subtitle>
+		<itunes:summary>Logitech announced a killer steering wheel setup at E3, complete with three foot pedals and stick shift feeling about as close to real car components as you can get. For PC gamers, the Logitech G5 wired mouse with adjustable weighting...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Gary Conti of Mad Doc Software on Star Trek Legacy</title>
+			<description>The Star Trek universe has seen a few great games over the years, but the graphics never quite live up to the special effects on television. Bethesda Softworks in partnership with Mad Doc Software (who previously created the wildly popular Star Trek Armada games) is finally righting this wrong with what looks to be the most visually appealing Star Trek game ever created. Star Trek: Legacy is still in production with a ship date expected later this year, but the playable demos at E3 looked hot. Covering the entire history of the Enterprise class ships chronologically, starting with the Enterprise seen in the recent series of the same name. Legacy is visually stunning and will even make hard core Trekkies rethink their disdain for Enterprise. Ships look as real as anything we&amp;#8217;ve seen. You play Admiral to a whole armada of ships, but can control ships at the Captain level if you choose. At E3, Chris spoke with Gary Conti of Mad Doc about the game, where it sits in progress and what we can expect from the finished product. Hear Gary Conti in MP3 FormatHear Gary Conti in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Tue, 16 May 2006 18:52:38 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060516_gary_conti_of_mad_doc_software_on_star_trek_legacy.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060516_gary_conti_of_mad_doc_software_on_star_trek_legacy.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_startreklegacy.mp3" length="3611573" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>The Star Trek universe has seen a few great games over the years, but the graphics never quite live up to the special effects on</itunes:subtitle>
+		<itunes:summary>The Star Trek universe has seen a few great games over the years, but the graphics never quite live up to the special effects on television. Bethesda Softworks in partnership with Mad Doc Software (who previously created the wildly popular...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Crave Entertainment, Big Idea, and LarryBoy and the Bad Apple</title>
+			<description>If you take the Fractured Fairytales from Rocky and Bullwinkle and toss them in a salad with The Bible and a dash of classic English literature, you might get something like VeggieTales. Most parents with kids under the age of ten can&amp;#8217;t avoid knowing Larry the Cucumber and Bob the Tomato. Crave Entertainment was on hand at E3 showing off what&amp;#8217;s sure to be a wildly popular VeggieTales spinoff, LarryBoy and The Bad Apple. The game is set to hit both PS2 consoles and Game Boy Advance handheld gaming systems this summer. While Jake was busy getting his picture taken with LarryBoy, Chris spoke to two Crave producers, Kathy Buklin and Stacey Ganem, about LarryBoy and other Crave titles like NRA Gunclub and World Championship Poker.Hear Kathy Buklin and Stacey Ganem in MP3 FormatHear Kathy Buklin and Stacey Ganem in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Tue, 16 May 2006 05:52:39 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060516_crave_entertainment_big_idea_and_larryboy_and_the_bad_apple.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060516_crave_entertainment_big_idea_and_larryboy_and_the_bad_apple.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_crave.mp3" length="2638143" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>If you take the Fractured Fairytales from Rocky and Bullwinkle and toss them in a salad with The Bible and a dash of classic English</itunes:subtitle>
+		<itunes:summary>If you take the Fractured Fairytales from Rocky and Bullwinkle and toss them in a salad with The Bible and a dash of classic English literature, you might get something like VeggieTales. Most parents with kids under the age of...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Desperate Housewives Game from Buena Vista</title>
+			<description>Wandering around the E3 show floor one new game stuck out like a sore thumb - Desperate Housewives. It&amp;#8217;s not like we&amp;#8217;re fans of the ladies of Wisteria Lane and we certainly wouldn&amp;#8217;t admit it here, but the idea of a game based on the most popular nighttime soap since Dallas seems a little on likely. On closer inspection, the game feels a bit like a SIMS title, with you playing a new arrival on the block who can&amp;#8217;t remember her past. You need to get to know the other women on the block to uncover the story. Game play steps through a season of episodes, with your actions controlling the grand finale, which is actually more entertaining than this description might suggest. Chris chatted with Heather Rosie at the Buena Vista booth to get the scoop on the Desperate Housewives game, which might be a guilty pleasure on par with the show.Hear Heather Rosie in MP3 FormatHear Heather Rosie in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Mon, 15 May 2006 23:29:44 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060515_desperate_housewives_game_from_buena_vista.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060515_desperate_housewives_game_from_buena_vista.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_desperatehousewives.mp3" length="3039593" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Wandering around the E3 show floor one new game stuck out like a sore thumb - Desperate Housewives. It's not like we're fans of the</itunes:subtitle>
+		<itunes:summary>Wandering around the E3 show floor one new game stuck out like a sore thumb - Desperate Housewives. It's not like we're fans of the ladies of Wisteria Lane and we certainly wouldn't admit it here, but the idea of...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Brian Mullen on Amp'd Mobile</title>
+			<description>Cell phone plans traditionally boil down to how many talk time minutes you get and how long you&amp;#8217;re locked into a specific contract. You might add data for an additional fee or choose a text messaging package, but you&amp;#8217;re essentially buying access to voice communication. Amp&amp;#8217;d Mobile, an upstart mobile carrier based in Los Angeles, CA is taking a different approach. Recognizing all the money being spent on ringtones, downloadable content, and entertainment as a opportunity, Amp&amp;#8217;d is positioning themselves as the carrier capable of delivering an optimal mobile entertainment provider that just happens to have a solid voice network too. Starting in the $100 range, Amp&amp;#8217;d plans provide unlimited talk time, with massive data plans for an extra $15-20 dollars, although you can get an Amp&amp;#8217;d 500 minute plan for as low as $30. Buying in at the high  end of the price range get access to 30 video channels, push-to-talk, text messaging, photo messaging, and unlimited talk time, with data transfer pushing through the EVDO network where available. At E3, Chris talked with Brian Mullen about Amp&amp;#8217;d, what makes their service different and how you get to customize your phone experience out-of-the-box.Hear Brian Mullen in MP3 FormatHear Brian Mullen in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Mon, 15 May 2006 14:25:39 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060515_brian_mullen_on_ampd_mobile.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060515_brian_mullen_on_ampd_mobile.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_ampd.mp3" length="5561123" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Cell phone plans traditionally boil down to how many talk time minutes you get and how long you're locked into a specific contract. You might</itunes:subtitle>
+		<itunes:summary>Cell phone plans traditionally boil down to how many talk time minutes you get and how long you're locked into a specific contract. You might add data for an additional fee or choose a text messaging package, but you're essentially...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Todd Manning of Prima Games on Gaming Strategy</title>
+			<description>Most games are straightforward enough you can dive right in play without too much instruction. Often it&amp;#8217;s the subtle details that get left out. Hidden rooms; secret compartments; the dungeon the developers don&amp;#8217;t show on the map. That&amp;#8217;s where Prima Games comes in. The company makes gaming strategy guides for virtually any title worthy of a gaming guide. You probably won&amp;#8217;t see a guide for something like Xbox Live Arcade titles like Zuma, but you almost can&amp;#8217;t survive without a guide for Oblivion, which is an endless series of twists, turns and undocumented locations. At E3, Prima Games was on hand showcasing some of their most popular titles, getting game developers and guide authors to autograph free copies for the fans lucky enough to get in line. Chris spoke with Todd Manning of Prima about the strategy guides, what goes into making a guide, and how to get a career in the gaming industry.Hear Todd Manning in MP3 FormatHear Todd Manning in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Sun, 14 May 2006 12:23:11 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060514_todd_manning_of_prima_games_on_gaming_strategy.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060514_todd_manning_of_prima_games_on_gaming_strategy.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_prima.mp3" length="4856887" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle>Most games are straightforward enough you can dive right in play without too much instruction. Often it's the subtle details that get left out. Hidden</itunes:subtitle>
+		<itunes:summary>Most games are straightforward enough you can dive right in play without too much instruction. Often it's the subtle details that get left out. Hidden rooms; secret compartments; the dungeon the developers don't show on the map. That's where Prima...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+				<item>
+			<title>Nik Davidson on Lord of the Rings Online</title>
+			<description> When Peter Jackson made the Lord of the Rings books into movies he came about as close as possible to the spirit of the Tolkien writings, while taking a few liberties with the actually stories. Games based on the Peter Jackson movies followed this same spirit while following The Fellowship through the perils of Middle Earth on the way to destroying the ring, without expanding into the Tolkien universe. Turbine games, creators of Asheron&amp;#8217;s Call and Dungeons and Dragons Online, is taking a different approach with Lord of the Rings Online. With the Shadows of Angmar storyline, the story is set somewhere between the time Frodo leaves the Shire and when The Fellowship convenes in Rivendell. Rather than controlling one of the nine main characters, you play a character with the ability to influence the direction of events, assisting the nine in their journey while having your own story. All the characters missing from the movies are here, including Tom Bombadill. Chris talked with Nik Davidson of Turbine about Lord of the Rings Online, how it fits into the Tolkien universe and how people can join the beta before the games official release.Hear Nik Davidson in MP3 FormatHear Nik Davidson in WMA Format</description>
+               <author>podcast@pirillo.com (Jake Ludington)</author>
+			<category>E3</category>
+			<comments>http://wiki.lockergnome.com</comments>
+			<pubDate>Sun, 14 May 2006 10:30:42 -0800</pubDate>
+			<link>http://www.thechrispirilloshow.com/help/20060514_nik_davidson_on_lord_of_the_rings_online.phtml</link>
+			<guid>http://www.thechrispirilloshow.com/help/20060514_nik_davidson_on_lord_of_the_rings_online.phtml</guid>
+			<enclosure url="http://media.thechrispirilloshow.com/mp3/e3/cps_2006e3_lotr.mp3" length="3558700" type="audio/mpeg" />
+		
+		<itunes:author>The Chris Pirillo Show</itunes:author>
+  		<itunes:subtitle> When Peter Jackson made the Lord of the Rings books into movies he came about as close as possible to the spirit of the</itunes:subtitle>
+		<itunes:summary> When Peter Jackson made the Lord of the Rings books into movies he came about as close as possible to the spirit of the Tolkien writings, while taking a few liberties with the actually stories. Games based on the...</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>Chris Pirillo, Technolgy Trends, Ponzi, Jake Ludington, computers, Lockergnome, Gnomedex</itunes:keywords>
+		
+		</item>
+		
+
+	</channel>
+</rss>

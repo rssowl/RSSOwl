@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+            "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+
+<rss version="0.91">
+
+<channel>
+<title>WebReference News</title>
+<link>http://www.webreference.com</link>
+<description>Daily news, views, and how-tos on all aspects of web design and development. Features free web-based tools, open source scripts, and in-depth tutorials on DHTML, HTML, JavaScript, 3D, Graphics, XML, and Design for webmasters.</description>
+<language>en-us</language>
+<copyright>Copyright (c) 2005 Jupitermedia Corp. All rights reserved</copyright>
+<pubDate>2006-03-13T19:55</pubDate>
+<lastBuildDate>2006-03-13T19:55</lastBuildDate>
+<managingEditor>sclark@jupitermedia.com (Scott Clark)</managingEditor>
+<webMaster>sclark@jupitermedia.com (Scott Clark)</webMaster>
+
+<image>
+<title>WebReference.com</title>
+<url>http://webreference.com/art/wr.gif</url>
+<link>http://www.WebReference.com</link>
+</image>
+
+<item>
+<title>How to Use the HTTP Protocol</title>
+<link>http://www.webreference.com/programming/protocol/index.html</link>
+<description>Various protocols are used for communication over the Web, perhaps the most important being HTTP, which is also fundamental to Ajax applications. This week you&#39;ll learn about the HTTP protocol and how it&#39;s used to request and receive information. By Sams Publishing. 0522</description>
+</item>
+
+<item>
+<title>How to Fix Web Pages with Active Content</title>
+<link>http://www.webreference.com/programming/ie/</link>
+<description>As a result of a recent lawsuit, Microsoft has changed the way that Internet Explorer deals with Active Content. This can be fixed by using JavaScript but it creates extra work. Fortunately, there&#39;s another solution, IEWebFix. By Ronald Northrip. 0519</description>
+</item>
+
+<item>
+<title>Delicious Recipes for Your Web Site</title>
+<link>http://www.webreference.com/reviews/cookbook/</link>
+<description>This cookbook offers a wide range of solutions to real-life problems that come up regularly when creating and growing a Web site. If you&#39;ve been wanting to learn how to build Web sites that people will visit, bookmark and revisit, read this review. By Lee Underwood. 0515</description>
+</item>
+
+<item>
+<title>Book Review: Head Rush Ajax</title>
+<link>http://www.webreference.com/reviews/head_rush/</link>
+<description>Following on the heels of Monday&#39;s excerpt is a review of &quot;Head Rush Ajax.&quot; The reviewer said, &quot;I would rate this book as excellent, although it may take you a little while to get used to it.&quot; To learn more, read on.... By Lee Underwood. 0512</description>
+</item>
+
+<item>
+<title>Web Design with Ajax</title>
+<link>http://www.webreference.com/programming/hra/</link>
+<description>If you&#39;re tired of clunky Web Interfaces, check out Ajax. Ajax - asynchronous JavaScript and XML is the key to building rich Internet applications that are more interactive, responsive and easy to use. Here, you&#39;ll learn about the newest thing to hit the Web. By O&#39;Reilly Media Inc. 0508</description>
+</item>
+
+<item>
+<title>Introduction to Perl&#39;s Taint Mode</title>
+<link>http://www.webreference.com/programming/perl/taint/</link>
+<description>When writing scripts that others will run, it&#39;s essential to design your scripts defensively. Fortunately, Perl provides a built-in mechanism (called Taint Mode) to help you become more aware of potential security problems in your scripts. By Dan Ragle. 0505</description>
+</item>
+
+<item>
+<title>How to Use Advanced Windows Forms</title>
+<link>http://www.webreference.com/programming/winforms/index.html</link>
+<description>In computer programming, a style is a way of doing something, whether it&#39;s how a control is docked or anchored to a form or how a Windows interface is laid out. This week you&#39;ll learn about a specific application interface style known as the explorer interface. By Manning Publications. 0501</description>
+</item>
+
+<item>
+<title>Object Oriented Javascript - Part 2</title>
+<link>http://www.webreference.com/programming/javascript/gr/column19/index.html</link>
+<description>In the previous article you learned how JavaScript classes could be written to inherit the methods and properties of another class. In this article you&#39;ll learn about some extensions that will allow developers to extend intrinsic JavaScript classes such as String, Date and Array. By Guyon Roche. 0428</description>
+</item>
+
+<item>
+<title>MySQL Data Methods</title>
+<link>http://www.webreference.com/programming/mysql_data/</link>
+<description>Virtually everything in MySQL involves data in some way or another because the purpose of a database management system is, by definition, to manage data. Here you&#39;ll learn about data types, values, categories and more. By Sams Publishing. 0424</description>
+</item>
+
+<item>
+<title>Design Patterns in JavaScript, Part 1</title>
+<link>http://www.webreference.com/programming/javascript/ncz/column5/</link>
+<description>Design patterns are programming solutions to a specific problem that has been documented so that the developer doesn&#39;t need to solve the same problem again. This week, we begin a series of articles that will explore implementing several popular design patterns in JavaScript. By Nicholas C. Zakas. 0421</description>
+</item>
+
+<item>
+<title>How to Design for Different Browsers</title>
+<link>http://www.webreference.com/programming/wdn/</link>
+<description>Most web authors agree that the biggest challenge (and headache) in Web design is dealing with a multitude of browsers and their varying support of Web standards. This week you&#39;ll learn about ways of dealing with browser differences. By O&#39;Reilly Media Inc. 0417</description>
+</item>
+
+<item>
+<title>How to Drag and Drop in JavaScript</title>
+<link>http://www.webreference.com/programming/javascript/mk/column2/index.html</link>
+<description>JavaScript excels at Modifying the DOM of a Web page, but we usually only do simple things with it, such as creating image rollovers, making tabs, etc. This week you&#39;re going to learn how to create items on your page that you can drag and drop. By Mark Kahn. 0414</description>
+</item>
+
+<item>
+<title>Masking with Channels in Photoshop</title>
+<link>http://www.webreference.com/graphics/channels/index.html</link>
+<description>Masking is one of the most important aspects of working with Photoshop and often the most difficult. These week you&#39;ll learn how to create effective masks for tree branches and fur, how to make the most of blending modes and more. By O&#39;Reilly Media, Inc. 0410</description>
+</item>
+
+<item>
+<title>Inside WebTools Pro</title>
+<link>http://www.webreference.com/reviews/webtools/</link>
+<description>As Web pages continually grow in complexity, Web developers need to check the many aspects of the Web pages they create. One method of doing so is with addons or plugins for the browser, such WebTools Pro, designed for use with Internet Explorer. By Lee Underwood. 0407</description>
+</item>
+
+<item>
+<title>The Benefits of Building a Web Site</title>
+<link>http://www.webreference.com/graphics/studio8/</link>
+<description>If you&#39;re thinking about building a Web site from scratch, you need a combination of creativity, a good eye, a well-thought-out plan and a purpose. This week you&#39;ll learn what goes into building a great site. By Wiley. 0403</description>
+</item>
+
+<textinput>
+<title>Search</title>
+<description>Search WebReference.com</description>
+<name>query</name>
+<link>http://www.webreference.com/cgi-bin/search.cgi</link>
+</textinput>
+
+</channel>
+</rss>

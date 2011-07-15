@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+
+    <channel rdf:about="http://www.n24.de/">
+        <title>N24 - Wir kommen zur Sache.</title>
+        <link>http://www.n24.de/home</link>
+        <description>N24 - Aktueller Nachrichtenüberblick</description>
+        <dc:language>de</dc:language>
+        <dc:publisher>http://www.n24.de</dc:publisher>
+        <dc:creator>n24-anfragen@n24.de</dc:creator>
+        <items>
+            <rdf:Seq>
+                            <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052418505163702" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052419172600002" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052415021963522" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052415533663581" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052419512600002" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052422072600002" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052412014063395" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052410332800002" />
+                                    <rdf:li rdf:resource="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052410034563304" />
+                        </rdf:Seq>
+        </items>
+    </channel>
+
+                <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052418505163702">
+        <title>Studie: Iran könnte schon 2008 Atombombe bauen</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?a2006052418505163702</link>
+        <description>Jahresbericht des IISS in London veröffentlicht</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Studie: Iran könnte schon 2008 Atombombe bauen</dc:subject>
+        <dc:date>2006-05-24T18:50:51+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052419172600002">
+        <title>Neue Beweise: Potsdamer Tatverdächtiger wieder in U-Haft</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?n2006052419172600002</link>
+        <description>Einer der Tatverdächtigen von Potsdam sitzt wieder in Untersuchungshaft. Es gebe aufgrund neuer Beweise den dringenden Verdacht auf gefährliche Körperverletzung, teilte die Bundesanwaltschaft mit.</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Neue Beweise: Potsdamer Tatverdächtiger wieder in U-Haft</dc:subject>
+        <dc:date>2006-05-24T19:17:26+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052415021963522">
+        <title>Flughafen Istanbul entgeht Flammeninferno</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?a2006052415021963522</link>
+        <description>Feuerwehr brachte tausende Menschen in Sicherheit</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Flughafen Istanbul entgeht Flammeninferno</dc:subject>
+        <dc:date>2006-05-24T15:02:19+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052415533663581">
+        <title>Titel, Tore und Moneten: Schiebt die WM die Wirtschaft an?</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?a2006052415533663581</link>
+        <description>Institute skeptisch</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Titel, Tore und Moneten: Schiebt die WM die Wirtschaft an?</dc:subject>
+        <dc:date>2006-05-24T15:53:36+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052419512600002">
+        <title>Öffentlicher Bericht zu Spitzelaffäre am Freitag</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?n2006052419512600002</link>
+        <description>Der Bericht über die BND-Spitzelaffäre soll an diesem Freitag veröffentlicht werden. Auch die Art und Weise, wie das geschehen soll, hat das Parlamentarischen Kontrollgremium festgelegt.</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Öffentlicher Bericht zu Spitzelaffäre am Freitag</dc:subject>
+        <dc:date>2006-05-24T19:51:26+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052422072600002">
+        <title>Hohe Haftstrafe für &quot;Dignidad&quot;-Gründer</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?n2006052422072600002</link>
+        <description>Der Gründer der berüchtigten &quot;Colonia Dignidad&quot; muss für 20 Jahre hinter Gitter. Ein Gericht in Chile wirft Paul Schäfer mehrfachen Kindesmissbrauch vor.</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Hohe Haftstrafe für &quot;Dignidad&quot;-Gründer</dc:subject>
+        <dc:date>2006-05-24T22:07:26+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052412014063395">
+        <title>Bärige Tage in Garmisch</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?a2006052412014063395</link>
+        <description>Meister Petz längst wieder in Tirol?</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Bärige Tage in Garmisch</dc:subject>
+        <dc:date>2006-05-24T12:01:40+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/n2006052410332800002">
+        <title>40 Millionen von eDonkey-Nutzern gefordert</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?n2006052410332800002</link>
+        <description>Nach der Tauschbörsen- Razzia werden die betroffenen Nutzer mit absurden Schadensersatz- Klagen überzogen. Dabei hat die Musikindustrie gar keine stichhaltigen Beweise, meint ein Anwalt.</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>40 Millionen von eDonkey-Nutzern gefordert</dc:subject>
+        <dc:date>2006-05-24T10:33:28+02:00</dc:date>
+    </item>
+                        <item rdf:about="http://www.n24.de/cgi-bin/redir.cgi/rss?/home/index.php/a2006052410034563304">
+        <title>Karibik-Flair in Rotenburg ohne &quot;h&quot;</title>
+        <link>http://www.n24.de/cgi-bin/redir.cgi/rss?/home/?a2006052410034563304</link>
+        <description>N24-Reporter berichtet</description>
+        <dc:publisher>N24.de (http://www.n24.de)</dc:publisher>
+        <dc:creator>N24.de (mailto:n24-anfragen@n24.de)</dc:creator>
+        <dc:rights>(c) 2005 SevenOne Intermedia GmbH. Alle Rechte vorbehalten.</dc:rights>
+        <dc:subject>Karibik-Flair in Rotenburg ohne &quot;h&quot;</dc:subject>
+        <dc:date>2006-05-24T10:03:45+02:00</dc:date>
+    </item>
+            
+
+</rdf:RDF>

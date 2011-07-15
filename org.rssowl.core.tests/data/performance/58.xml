@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+"http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+  <channel>
+    <title>Latest Random JavaScript Tips</title>
+    <link>http://www.webreference.com/js/tips/</link>
+    <description>Doc JavaScript's Tip of the Day Archive</description>
+    <language>en-us</language>
+    <copyright> Copyright (c) 2006 Jupitermedia Corporation.  All rights reserved.</copyright>
+    <managingEditor>sclark@jupitermedia.com (Scott Clark)</managingEditor>
+    <webMaster>nsegal@jupitermedia.com (Nathan Segal)</webMaster>
+  
+    <item>
+      <title>Suppressing Errors</title>
+      <link>http://www.webreference.com/js/tips/000216.html</link>
+      <description>Do you want to avoid having JavaScript errors displayed? Learn how to use onerror to suppress them.</description>
+    </item>
+  
+    <item>
+      <title>Supporting the document Object</title>
+      <link>http://www.webreference.com/js/tips/010713.html</link>
+      <description>Is the document object a regular node on the DOM tree? Well, it depends on the browser. Internet Explorer 6 supports it to the fullest.</description>
+    </item>
+  
+    <item>
+      <title>Which Frame was Clicked?</title>
+      <link>http://www.webreference.com/js/tips/000207.html</link>
+      <description>How do you detect which frame has been clicked? Here's one way to do it.</description>
+    </item>
+  
+    <item>
+      <title>Rotating Text Banners</title>
+      <link>http://www.webreference.com/js/tips/000130.html</link>
+      <description>Do you know how to update existing text? Learn how to create rotating banners.</description>
+    </item>
+  
+    <item>
+      <title>Writing the Hello World's ASP.NET Page</title>
+      <link>http://www.webreference.com/js/tips/020812.html</link>
+      <description>Do you know how to write the Hello World's ASP.NET page? Learn how to establish the relation with the Code Behind JScript .NET file.</description>
+    </item>
+  
+    <item>
+      <title>IBuySpy's OrdersDB Component</title>
+      <link>http://www.webreference.com/js/tips/021006.html</link>
+      <description>Do you know how many classes there are in IBuySpy's OrdersDB.js? Learn about this JScript .NET component's classes, methods, and properties.</description>
+    </item>
+  
+    <item>
+      <title>Understanding Abstract Classes</title>
+      <link>http://www.webreference.com/js/tips/020610.html</link>
+      <description>Can you tell an interface from an abstract class? Learn about the differences and similarities between them.</description>
+    </item>
+  
+    <item>
+      <title>Absolute Elements</title>
+      <link>http://www.webreference.com/js/tips/011012.html</link>
+      <description>Do you know the difference between "static" and "absolute" positioning? Learn how to define absolute elements.</description>
+    </item>
+  
+    <item>
+      <title>Opening Applications from JavaScript</title>
+      <link>http://www.webreference.com/js/tips/000226.html</link>
+      <description>Do you know how to open a Word document from JavaScript? Learn how to use the ActiveXObject.</description>
+    </item>
+  
+    <item>
+      <title>WML's Events</title>
+      <link>http://www.webreference.com/js/tips/000609.html</link>
+      <description>Do you know how to use WML's event handlers? Learn how to implement a help card with WMLScript.</description>
+    </item>
+  
+    <item>
+      <title>The SqlParameter Class</title>
+      <link>http://www.webreference.com/js/tips/021015.html</link>
+      <description>Do you know how to send and retrieve parameters to and from a stored procedure? Learn about the role and responsibilities of the SqlParameter class.</description>
+    </item>
+  
+    <item>
+      <title>Introducing ASP.NET</title>
+      <link>http://www.webreference.com/js/tips/020717.html</link>
+      <description>Do you know what ASP.NET is? Learn what it is used for and what the similarities to HTML are.</description>
+    </item>
+  
+    <item>
+      <title>Creating Error Messages</title>
+      <link>http://www.webreference.com/js/tips/001018.html</link>
+      <description>Remember how difficult (and boring) it was to clean up error messages? Learn how to avoid the mess entirely in JavaScript.</description>
+    </item>
+  
+    <item>
+      <title>DOM vs. DOMDocument</title>
+      <link>http://www.webreference.com/js/tips/020117.html</link>
+      <description>Do you know what the relationship between the DOM and the DOMDocument is? Learn how the DOMDocument extends the DOM by 21 properties, 10 methods, and 3 events.</description>
+    </item>
+  
+    <item>
+      <title>Creating New Attributes</title>
+      <link>http://www.webreference.com/js/tips/001223.html</link>
+      <description>Do you know if it's possible to create attributes on the fly? Yes and no. Yes on Netscape 6, no on Internet Explorer.</description>
+    </item>
+  </channel>
+</rss>

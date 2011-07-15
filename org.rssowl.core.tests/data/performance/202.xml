@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rss version="0.91">
+	<channel>
+		<title>TechBookReport </title>
+		<link>http://www.techbookreport.com</link>
+		<description>The latest 10 book reviews from TechBookReport</description>
+		<lastBuildDate>Wed, 24 May 2006 22:06:15 +0100</lastBuildDate>		<language>en-uk</language>
+		<item>
+			<title>Prefactoring reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0242.html</link>
+			<description>TechBookReport reviews Prefactoring by Ken Pugh</description>
+		</item>
+		<item>
+			<title>Freakonomics reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0241.html</link>
+			<description>TechBookReport reviews Freakonomics by Steven D. Levitt and Stephen J. Dubner</description>
+		</item>
+		<item>
+			<title>Learning SQL reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0240.html</link>
+			<description>TechBookReport reviews Learning SQL by Alan Beaulieu</description>
+		</item>
+		<item>
+			<title>Software Estimation reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0239.html</link>
+			<description>TechBookReport reviews Software Estimation by Steve McConnell</description>
+		</item>
+		<item>
+			<title>Understanding and Using Advanced Statistics reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0238.html</link>
+			<description>TechBookReport reviews Understanding and Using Advanced Statistics by Foster, Barkus and Yavorksy</description>
+		</item>
+		<item>
+			<title>Thinking In Java (4e) reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0237.html</link>
+			<description>TechBookReport reviews Thinking In Java (4e) by Bruce Eckel</description>
+		</item>
+		<item>
+			<title>Python Essential Reference reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0236.html</link>
+			<description>TechBookReport reviews Python Essential Reference by David Beazley</description>
+		</item>
+		<item>
+			<title>Analyzing Business Data With Excel reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0235.html</link>
+			<description>TechBookReport reviews Analyzing Business Data With Excel by Gerald Knight</description>
+		</item>
+		<item>
+			<title>Practical Development Environments reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0234.html</link>
+			<description>TechBookReport reviews Practical Development Environments by Matthew Doar</description>
+		</item>
+		<item>
+			<title>Learn To Program reviewed at TechBookReport</title>
+			<link>http://www.techbookreport.com/tbr0233.html</link>
+			<description>TechBookReport reviews Learn To Program by Chris Pine</description>
+		</item>
+	</channel>
+</rss>

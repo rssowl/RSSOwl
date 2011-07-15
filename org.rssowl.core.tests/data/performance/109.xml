@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>James Gosling: on the Java Road</title>
+  <link>http://blogs.sun.com/roller/page/jag</link>
+  <description>James Gosling&#39;s Weblog</description>
+  <language>en-us</language>
+  <copyright>Copyright 2005</copyright>
+  <lastBuildDate>Fri, 14 Oct 2005 19:55:12 -0700</lastBuildDate>
+  <generator>Roller Weblogger 1.3 (20050824125848:ag92114)</generator>
+      <item>
+    <title>Fault Containment: an unsung hero</title>
+        <description>                             &lt;img align=&quot;right&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/AppCrash.gif&quot;&gt;
+    As I suffered through the &lt;i&gt;n&lt;/i&gt;&lt;sup&gt;th&lt;/sup&gt; application crash of the 
+    day, I couldn&#39;t help thinking of my favorite underappreciated Java 
+    feature: fault containment. Between &lt;b&gt;try{}catch&lt;/b&gt; and the tight memory 
+    model, failures tend to happen close to where the error is, and they can 
+    be caught with a very good chance that there has been no corruption of 
+    neighbouring data structures. So if you&#39;re using some sort of editor and 
+    one of the commands has a bug in it, if it&#39;s written in Java you usually 
+    get a little pop-up box that says something like &quot;error in command&quot;, and 
+    you can carry on working. In C apps, one bad pointer and you&#39;re blown out 
+    of the water, with all of your editing lost. This is particularly bad in 
+    systems that use plugins where the amount of QA is variable. A lot of what 
+    motivated the tight memory model was me having wasted too much of my life 
+    tracking down weird exotic memory smashes, and vowing to never have to 
+    waste time on stuff like that again.
+  &lt;div class=&quot;BlogEdDate&quot;&gt; (Fri Oct 14 19:37:15 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=fault_containment_an_unsung_hero</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=fault_containment_an_unsung_hero</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=fault_containment_an_unsung_hero</comments>
+        <pubDate>Fri, 14 Oct 2005 19:55:12 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Java Urban Performance Legends</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_10_09_14-07-58-075_n3.small.png&quot;&gt;
+    There&#39;s a great thread on Slashdot titled &lt;a href=&quot;http://it.slashdot.org/article.pl?sid=05/10/09/1259246&amp;tid=108&amp;tid=8&quot; shape=&quot;rect&quot;&gt;Java 
+    Urban Performance Legends&lt;/a&gt;. It&#39;s mostly thrashing out urban performance 
+    legends in garbage collection, but you can find them all over the place. 
+    Modern Java VMs really are quite fast, often beating C and C++ in all 
+    sorts of benchmarks. Another common urban performance legend is that &quot;Java 
+    must be slow because there&#39;s no way to turn off subscript checking&quot;: this 
+    one is completely false because all modern JVMs have optimizers that do a 
+    great job of eliminating subscript checking.
+
+    &lt;p align=&quot;left&quot;&gt;
+      There was a funny incident at a recent developer event where some folks 
+      had a booth where they where demo-ing a high end industrial strength C 
+      compiler and had a benchmark that they had transliterated into Java. 
+      They were comparing their compiler to GCC and Java. GCC was running at 
+      about 2/3 the performance of this high end compiler; the Java version 
+      was running at about 2/3 the performance of the GCC version. Folks were 
+      gathered around the booth and someone noticed that the script they were 
+      using to run the Java version didn&#39;t have optimisation turned on. A few 
+      seconds with vi to add the &quot;-server&quot; switch and Java&#39;s performance 
+      jumped up to match the fancy C compiler. This got the pro-GCC crowd all 
+      excited, so a bunch of them started fiddling with its command line 
+      switches. They got a bit of improvement, but not much (the original 
+      selection had been pretty good).
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      The one place where Java does have a legitimate remaining performance 
+      issue is startup time. But these days it&#39;s down small enough to where 
+      anything that runs more than a few seconds has a hard time noticing it. 
+      Most startup time in modern Java apps goes to the app itself, not the VM.
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Sun Oct 09 14:02:59 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=java_urban_performance_legends</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=java_urban_performance_legends</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=java_urban_performance_legends</comments>
+        <pubDate>Sun, 9 Oct 2005 14:25:41 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title></title>
+        <description>                             &lt;div class=&quot;BlogEdDate&quot;&gt; (Sun Oct 09 14:02:57 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=div_class_blogeddate_sun_oct</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=div_class_blogeddate_sun_oct</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=div_class_blogeddate_sun_oct</comments>
+        <pubDate>Sun, 9 Oct 2005 14:25:21 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Only solve the problems you need to solve</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_10_04_20-54-21-852_n3.small.png&quot;&gt;
+    Back when I was a grad student I was spinning out of control trying to 
+    come up with a thesis topic. My &lt;a href=&quot;http://www.computerhistory.org/events/index.php?spkid=2&amp;ssid=1090276799&quot; shape=&quot;rect&quot;&gt;advisor&lt;/a&gt; 
+    took me out to lunch one day and asked me a simple question: &quot;What is a 
+    PhD thesis?&quot; I yattered on for a while and he listened patiently. 
+    Eventually he said &quot;No: It&#39;s just a stack of 100 pages with 4 signatures 
+    on top&quot;. I was falling into a common grad student trap of feeling that I 
+    needed to do something grandiose and solve all of the worlds problems. He 
+    was into &quot;keep it simple&quot;. So I did, and I came up with a pretty 
+    straightforward thesis proposal. The odd thing was that when I finally 
+    finished my thesis, I realized that I had only delt with one sentence out 
+    of the simplified proposal.
+
+    &lt;p align=&quot;left&quot;&gt;
+      I got a lot of email about my previous post, a lot of it centered on 
+      JINI, RMI and CORBA. Not too many months ago, during the hypon flux 
+      storm [by analogy with &lt;a href=&quot;http://catb.org/~esr/jargon/html/B/bogon-flux.html&quot; shape=&quot;rect&quot;&gt;bogon 
+      flux&lt;/a&gt;] surrounding SOA and Web Services it was worth one&#39;s life to 
+      mention that folks had been successfully implementing SOAs for years. 
+      That has calmed down significantly. &lt;a href=&quot;http://www.jini.org/&quot; shape=&quot;rect&quot;&gt;JINI&lt;/a&gt; 
+      is particularly interesting since it goes significantly beyond what&#39;s 
+      possible with today&#39;s SOA - but it only works in a Java-only universe. 
+      The folks who developed RMI/JINI had previously worked on CORBA. A big 
+      chunk of the complexity of CORBA comes from trying to solve the 
+      cross-language problem. They discovered that if you don&#39;t try to solve 
+      that problem, some very cool things emerge. The poster child for 
+      building SOAs on JINI is &lt;a href=&quot;http://www.jini.org/solutions/Jini_Orbitz_Profile_Final.pdf&quot; shape=&quot;rect&quot;&gt;Orbitz&lt;/a&gt;. 
+      There are some interesting discussions &lt;a href=&quot;http://www.jroller.com/page/csterwa?entry=jim_waldo_s_talk_on&quot; shape=&quot;rect&quot;&gt;here&lt;/a&gt; 
+      and &lt;a href=&quot;http://www.jini.org/events/0505NYSIG/index.htm&quot; shape=&quot;rect&quot;&gt;here&lt;/a&gt;.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      In response to the comment about OO and granularity: they really are 
+      orthogonal axes. OO methodologies work well regardless of granularity. 
+      But granularity is related to the question of whether or not an 
+      operation can sensibly involve a network transit: it only works well 
+      when granularity is high. This is a direct corollary of the &lt;a href=&quot;http://today.java.net/jag/Fallacies.html&quot; shape=&quot;rect&quot;&gt;Eight 
+      Fallicies of Distributed Computing&lt;/a&gt;.
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Tue Oct 04 10:11:11 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=only_solve_the_problems_you</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=only_solve_the_problems_you</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=only_solve_the_problems_you</comments>
+        <pubDate>Tue, 4 Oct 2005 21:05:35 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>SOA: Buzzworld Whiplash or Real Meat?</title>
+        <description>                             For some odd reason, long lost in the fuzzy recesses of my memory, I 
+    agreed to give a talk last week at Oracle OpenWorld on SOA. It&#39;s a topic 
+    that I&#39;m not an expert on. There are lots of people around who know far 
+    more about it than I do. A lot of my unease about giving the talk was that 
+    I was very confused about what SOA is, and that ended up being what I 
+    spent most of my hour onstage talking about.
+
+    &lt;p align=&quot;left&quot;&gt;
+      There are a lot of corporations, analysts, consultants, experts, 
+      &quot;experts&quot; and pundits saying a lot of things about SOA, without a lot of 
+      consistancy about the meaning of the term. When you expand the acronym 
+      to &quot;Service Oriented Architecture&quot; you get a pretty good, but broad, 
+      picture. The &lt;a href=&quot;http://en.wikipedia.org/wiki/Service-oriented_architecture&quot; shape=&quot;rect&quot;&gt;Wikipedia 
+      definition&lt;/a&gt; is one of the better ones out there. In most 
+      descriptions, SOA has become a broad cellectiom of techniques that go 
+      far beyond just architecting systems as services. The topic feels a lot 
+      like that quote from &lt;a href=&quot;http://en.wikiquote.org/wiki/Lewis_Carroll&quot; shape=&quot;rect&quot;&gt;Through 
+      the Looking Glass&lt;/a&gt;:
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot; style=&quot;margin-left: 0.5i&quot;&gt;
+      
+
+&lt;i&gt;&#39;When I use a word,&#39; Humpty Dumpty said in rather a scornful tone, 
+      &#39;it means just what I choose it to mean--neither more nor less.&#39;&lt;br clear=&quot;none&quot;&gt;&#39;The 
+      question is,&#39; said Alice, &#39;whether you CAN make words mean so many 
+      different things.&#39;&lt;br clear=&quot;none&quot;&gt;&#39;The question is,&#39; said Humpty 
+      Dumpty, &#39;which is to be master... that&#39;s all.&#39;&lt;/i&gt;
+    
+
+&lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;img align=&quot;right&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/SOAdisjoint.png&quot;&gt;
+      There is a collection articles that insist that SOA is not OOP (or 
+      OOP-ITL [Object Oriented Programming In The Large]). They draw weird 
+      distinctions that mostly demonstrate how little they understand of OOP. 
+      A common misunderstanding is the belief that everything that can be done 
+      to an object must be a method on the object - for example that &quot;play&quot; 
+      must be a method on a &quot;MusicCD&quot; object, tying the service to the object. 
+      In this example, the right way to have done it is to represent the CD 
+      player as an object distinct from the CD itself, which would be played 
+      with a statement like &quot;player.play(cd)&quot;. OOP is a modeling tool, how you 
+      choose to model a situation is a matter of taste, the situation at hand, 
+      and engineering judgement.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;img align=&quot;right&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/SOAsame.png&quot;&gt;
+      Then there&#39;s the camp that defines SOA as just being the same as OOP. I 
+      rather like this because it meshes well with the phrase &quot;Service 
+      Oriented Architecture&quot;, which is the way that I tend to think of most 
+      good OOP designs. Using the previous example, rather than having verbs 
+      like &quot;play&quot; be methods on the CD object it&#39;s usually better to try to 
+      restrict methods to things that are intrinsic to the object. One could 
+      argue in this world that perhaps SOA could be thought of as a subset of 
+      OOP, since there are many other architectures that can be modeled within 
+      OOP.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      One of the concepts here that is often not made clear in these 
+      discussions is the distinction between a &lt;b&gt;serv&lt;u&gt;er&lt;/u&gt;&lt;/b&gt; and a &lt;b&gt;serv&lt;u&gt;ice&lt;/u&gt;&lt;/b&gt;. 
+      A server is an implementation artifact: usually a machine. A service is 
+      an abstract concept that may be implemented by some number of servers 
+      (perhaps zero, perhaps many). The mapping between services and servers 
+      should be dynamic, depending on factors like load and quality of service 
+      - implemeted in things like the N1 Service Provisioning System.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;img align=&quot;right&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/SOAsuper.png&quot;&gt;
+      The last bit of confusion for me is that in most discussions, SOA is 
+      about more than just architecting around services. The &quot;S&quot; in SOA should 
+      expand to &quot;Scale&quot;, since so much of what is talked about is how to 
+      archtect these systems for large scales. &lt;a href=&quot;http://en.wikipedia.org/wiki/Stateless_server&quot; shape=&quot;rect&quot;&gt;Statelessness&lt;/a&gt; 
+      and &lt;a href=&quot;http://en.wikipedia.org/wiki/Idempotent_%28software%29&quot; shape=&quot;rect&quot;&gt;idempotence&lt;/a&gt; 
+      are techniques that have been around for years (both appear, for 
+      example, in the design of NFS from 20 years ago) are usually considered 
+      key components of SOA architectures.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      In the end, there&#39;s a big bag of techniques that you may or may not want 
+      to use. Whether the collection you need fits someone&#39;s definition of SOA 
+      shouldn&#39;t matter - do what&#39;s appropriate. Statelessness and idempotence 
+      are tough and only really valuable at high levels of scale. Proper OO 
+      structuring is always a good idea.
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Mon Sep 26 10:58:42 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=soa_buzzworld_whiplash_or_real</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=soa_buzzworld_whiplash_or_real</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=soa_buzzworld_whiplash_or_real</comments>
+        <pubDate>Fri, 30 Sep 2005 12:14:02 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>JavaChina</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_09_14_03-44-21-438_n1.small.png&quot;&gt;
+    We&#39;ve been holding a big Java event in China for the past couple of days, 
+    following NetBeans day on Monday.  JavaChina is roughly similar to 
+    JavaOne.  We had about 8000 addendees who&#39;ve been through two days of 
+    intense training sessions.  I&#39;ve been doing so much talking to so many 
+    groups that my throat needs a retread.  Really cool.  There&#39;s a great 
+    developer community here in China. The low point was when I started my 
+    main talk in a 4000 seat room stuffed to the rafters, the slides that came 
+    up on the screen were totally wrong: they were the ones for a talk I gave 
+    last week in St Petersburg.  The big photo of a Russian Orthodox cathedral 
+    on the first slide was a big surprise.  10 minutes of vamping later, the 
+    stage crew finally got it sorted out [Thanks Bob!].  *blush*
+  &lt;div class=&quot;BlogEdDate&quot;&gt; (Wed Sep 14 03:44:11 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=javachina</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=javachina</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=javachina</comments>
+        <pubDate>Wed, 14 Sep 2005 04:00:34 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Netbeans in Beijing</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_09_12_07-33-20-797_n1.small.png&quot;&gt;
+    We just finished a special one-day event in Beijing focused on &lt;a href=&quot;http://www.netbeans.org/&quot; shape=&quot;rect&quot;&gt;Netbeans&lt;/a&gt;, 
+    part of the &lt;a href=&quot;http://www.netbeans.org/community/articles/worldtour/index.html&quot; shape=&quot;rect&quot;&gt;world 
+    tour&lt;/a&gt;. We had a series of in-depth talks on a broad range of issues in 
+    Netbeans. The fellow who was supposed to be the moderator and first 
+    speaker had flight troubles (thunderstorms at Narita) that delayed him by 
+    a day so I ended up doing double duty: his parts and mine. It was a very 
+    good crowd.
+
+    &lt;p align=&quot;left&quot;&gt;
+      I also did a 2 hour chat session with developers all over China that was 
+      run by &lt;a href=&quot;http://csdn.net/&quot; shape=&quot;rect&quot;&gt;CSDN&lt;/a&gt;.
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Sat Sep 10 03:11:36 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=netbeans_in_beijing</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=netbeans_in_beijing</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=netbeans_in_beijing</comments>
+        <pubDate>Mon, 12 Sep 2005 07:45:41 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Back at work again</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_09_09_22-08-23-848_n1.small.jpeg&quot;&gt;
+    Having taken a chunk of time off in August to hang out with family 
+    (including one very active 90-year-old aunt&#39;s birthday party) I&#39;m back at 
+    work. This week I&#39;ve been visiting customers and participating in 
+    developer events. I spent Monday in Zurich visiting developers. The rest 
+    of the week I&#39;ve spent in St Petersburg (not Florida). We did a big 
+    developer event on Thursday and ended up with hugely more folks attending 
+    than we had expected. We had people sitting in the aisles in the theatre.
+
+    &lt;p align=&quot;left&quot;&gt;
+      Besides having cornered the world market in over-the-top &lt;a href=&quot;http://www.hermitagemuseum.org/html_En/index.html&quot; shape=&quot;rect&quot;&gt;palaces&lt;/a&gt;, 
+      St Petersburg has a large population of talented software developers. 
+      Sun has an engineering center here where we do a lot of work on JavaSE 
+      and JavaME and C/C++/Fortran(!) optimizing compilers.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      Next week: &lt;a href=&quot;http://www.javachina.cn/IndexE.jsp&quot; shape=&quot;rect&quot;&gt;JavaChina&lt;/a&gt;
+    
+
+&lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Fri Sep 09 21:33:25 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>Java</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=back_at_work_again</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=back_at_work_again</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=back_at_work_again</comments>
+        <pubDate>Fri, 9 Sep 2005 21:57:14 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title></title>
+        <description>                             &lt;div class=&quot;BlogEdDate&quot;&gt; (Fri Sep 09 21:33:23 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=div_class_blogeddate_fri_sep</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=div_class_blogeddate_fri_sep</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=div_class_blogeddate_fri_sep</comments>
+        <pubDate>Fri, 9 Sep 2005 21:57:04 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Transcendental Two [updated]</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_08_01_09-12-14-835_n1.small.png&quot;&gt;
+    There&#39;s a piece of historical baggage in the definition of &lt;i&gt;sin/cos&lt;/i&gt; 
+    that is much older than just &quot;whatever the 8087 chip happened to do&quot;: why 
+    are the &lt;i&gt;sin&lt;/i&gt; and &lt;i&gt;cos&lt;/i&gt; functions defined based on parameters 
+    that are periodic in a transcendental number? Having the period be 2*&lt;i&gt;pi&lt;/i&gt; 
+    is based on decades (centuries!) of mathematical standard practice. This 
+    whole problem with &lt;i&gt;sin&lt;/i&gt; and &lt;i&gt;cos&lt;/i&gt; would go away if only the 
+    period had a nice clean representation in floating point. For example, 
+    either degrees or turns (1 turn == 360 degrees) would be great. In 
+    particular, if the parameter to &lt;i&gt;sin/cos&lt;/i&gt; were turns then argument 
+    reduction would be easy: just throw away the integer bits. Then you could 
+    do a table lookup based on extracting mantissa bits.
+
+    &lt;p align=&quot;left&quot;&gt;
+      What is especially ironic is that if you grep through piles of source 
+      code you&#39;ll find a huge number of calls that look roughly like &lt;i&gt;sin(angle*(2*Math.PI/360))&lt;/i&gt;. 
+      This has a necessarily slightly inaccurate value of &lt;i&gt;pi&lt;/i&gt;, which is 
+      likely to be exactly the same value as the one in the 8087&#39;s &lt;i&gt;sin/cos&lt;/i&gt; 
+      implementation - the two errors come pretty close to canceling since the 
+      argument is divided by the value of &lt;i&gt;pi&lt;/i&gt; used in the implementation 
+      of &lt;i&gt;sin/cos&lt;/i&gt;.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;i&gt;Update: &lt;/i&gt;Yes, I understand that there are lots of deep, important 
+      mathematical reasons that &lt;i&gt;sin&lt;/i&gt; &amp;amp;&amp;nbsp;&lt;i&gt;cos&lt;/i&gt; are defined 
+      in terms of 2*&lt;i&gt;pi&lt;/i&gt;.  The point I was trying to make is that if you 
+      peel open the covers of an implementation of &lt;i&gt;sin/cos&lt;/i&gt;, 2*&lt;i&gt;pi&lt;/i&gt; 
+      is a very difficult period to cope with.  At the same time, if you look 
+      at software that uses &lt;i&gt;sin/cos&lt;/i&gt;, you&#39;ll find that a huge fraction 
+      of them use something other than 2*&lt;i&gt;pi&lt;/i&gt; (degrees are real common), 
+      and convert when invoking &lt;i&gt;sin/cos&lt;/i&gt;.
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Mon Aug 01 09:11:44 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=transcendental_two</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=transcendental_two</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=transcendental_two</comments>
+        <pubDate>Mon, 1 Aug 2005 09:38:50 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Transcendental Meditation</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_07_27_10-42-09-387_n1.small.png&quot;&gt;
+    I got into a conversation with some folks who&#39;ve been moving a large 
+    sophisticated image processing application to Java. They&#39;ve been getting 
+    great performance numbers, much to the surprise of the C crowd in their 
+    shop.
+
+    &lt;p align=&quot;left&quot;&gt;
+      With one exception: code that invokes sin() and cos() heavily is 
+      somewhat slower. They asked me why this was happening. I had a pretty 
+      good idea, but I checked with Joe Darcy, our local Floating Point God, 
+      and he had this to say:
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;i&gt;For many years, the JDK on x86 platforms has used the hardware 
+      fsin/fcos x87 instructions in the range [-&lt;/i&gt;pi&lt;i&gt;/4, &lt;/i&gt;pi&lt;i&gt;/4], a 
+      range which encompasses about half of all representable floating-point 
+      values. Therefore, in that range the performance of the JDK&#39;s 
+      transcendental functions should be nearly the same as the performance of 
+      the transcendental functions in C, C++, etc. that are using those same 
+      fsin/fcos instructions. Benchmarks which focus on testing the trig 
+      performance of large values, such as almabench, present a skewed 
+      portrait of Java&#39;s trigonometric performance. The next question is why 
+      don&#39;t we just use fsin/fcos over the entire floating-point range? The 
+      simple answer is that fsin/fcos can deliver answers that are arbitrarily 
+      wrong for the most straightforward way of measuring error in the result. &lt;/i&gt;
+    
+
+&lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;i&gt;Every finite real number, no matter how large, has a well-defined 
+      value for sin/cos. Ideally, the floating-point result returned for 
+      sin/cos would be the representable floating-point number closest to the 
+      mathematically defined result for the floating-point input. A 
+      floating-point library having this property is called correctly rounded, 
+      which is equivalent to saying the library has an error bound less than 
+      or equal to 1/2 an ulp (unit in the last place). For sin/cos, writing a 
+      correctly rounding implementation that runs at a reasonable speed is 
+      still something of a research problem so in practice platforms often use 
+      a library with a 1 ulp error bound instead, which means either of the 
+      floating-point numbers adjacent to the true result can be returned. This 
+      is the implementation criteria the Java Math library has to meet. The 
+      implementation challenge is that sin/cos are implemented using argument 
+      reduction whereby any input is mapped into a corresponding input in the 
+      [-&lt;/i&gt;pi&lt;i&gt;/4, &lt;/i&gt;pi&lt;i&gt;/4] range. Since the period of sin/cos is &lt;/i&gt;pi&lt;i&gt; 
+      and &lt;/i&gt;pi&lt;i&gt; is transcendental, this amounts to having to compute a 
+      remainder from the division by a transcendental number, which is 
+      non-obvious. A few years after the x87 was designed, people figured out 
+      how to do this division as if by an exact value of &lt;/i&gt;pi&lt;i&gt;. Instead 
+      the x87 fsin/fcos use a particular approximation to &lt;/i&gt;pi&lt;i&gt;, which 
+      effectively means the period of the function is changed, which can lead 
+      to large errors outside [-&lt;/i&gt;pi&lt;i&gt;/4, &lt;/i&gt;pi&lt;i&gt;/4]. For example the 
+      value of sine for the floating-point number Math.PI is around &lt;/i&gt;
+    
+
+&lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot; style=&quot;margin-left: 30.0&quot;&gt;
+      
+
+&lt;i&gt;1.2246467991473532E-16 &lt;/i&gt;
+    
+
+&lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;i&gt;while the computed value from fsin is &lt;/i&gt;
+    
+
+&lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot; style=&quot;margin-left: 30.0&quot;&gt;
+      
+
+&lt;i&gt;1.2246&lt;font color=&quot;#cc0000&quot;&gt;063538223773E-16&lt;/font&gt; &lt;/i&gt;
+    
+
+&lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      
+
+&lt;i&gt;In other words, instead of getting the full 15-17 digit accuracy of 
+      double, the returned result is only correct to about 5 decimal digits. 
+      In terms of ulps, the error is about 1.64e11 ulps, over *ten billion* 
+      ulps. With some effort, I&#39;m confident I could find results with the 
+      wrong sign, etc. There is a rationale which can justify this behavior; 
+      however, it was much more compelling before the argument reduction 
+      problem was solved. &lt;/i&gt;
+    
+
+&lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      This error has tragically become un-fixable because of the compatibility 
+      requirements from one generation to the next. The fix for this problem 
+      was figured out quite a long time ago. In the excellent paper &lt;i&gt;&lt;a href=&quot;http://doi.ieeecomputersociety.org/10.1109/ARITH.1995.465368&quot; shape=&quot;rect&quot;&gt;The 
+      K5 transcendental functions&lt;/a&gt;&lt;/i&gt; by T. Lynch, A. Ahmed, M. Schulte, 
+      T. Callaway, and R. Tisdale a technique is described for doing argument 
+      reduction as if you had an infinitely precise value for pi. As far as I 
+      know, the K5 is the only x86 family CPU that did sin/cos accurately. AMD 
+      went back to being bit-for-bit compatibile with the old x87 behavior, 
+      assumably because too many applications broke. Oddly enough, this is 
+      fixed in Itanium.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      What we do in the JVM on x86 is moderately obvious: we range check the 
+      argument, and if it&#39;s outside the range [-&lt;i&gt;pi&lt;/i&gt;/4, &lt;i&gt;pi&lt;/i&gt;/4]we do 
+      the precise range reduction by hand, and then call fsin.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      So Java is accurate, but slower. I&#39;ve never been a fan of &quot;fast, but 
+      wrong&quot; when &quot;wrong&quot; is roughly random(). Benchmarks rarely test 
+      accuracy. &quot;double sin(double theta) { return 0; }&quot; would be a great 
+      benchmark-compatible implementation of sin(). For large values of theta, 
+      0 would be arguably more accurate since the absolute error is never 
+      greater than 1. fsin/fcos can have absolute errors as large as 2 
+      (correct answer=1; returned result=-1).
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      This is one of those area where no matter what we do, we&#39;re screwed.
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Wed Jul 27 10:41:59 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=transcendental_meditation</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=transcendental_meditation</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=transcendental_meditation</comments>
+        <pubDate>Wed, 27 Jul 2005 16:44:11 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Happily Subversive?</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_07_25_10-18-57-165_n1.small.png&quot;&gt;
+    I&#39;ve been spending the last few days helping figure out what we (Sun) 
+    should do about version control for all of our source files. We&#39;ve been 
+    using a system called TeamWare that we developed in-house years ago. It&#39;s 
+    the father-of-BitKeeper. It&#39;s solid as a rock and scales well, but no one 
+    has worked on it for years and it&#39;s beginning to show its age (in 
+    particular, it has no web-based distributed development: it&#39;s based around 
+    NFS).
+
+    &lt;p align=&quot;left&quot;&gt;
+      So I&#39;ve been going through the alternatives. &lt;a href=&quot;http://www.bitkeeper.com/&quot; shape=&quot;rect&quot;&gt;BitKeeper&lt;/a&gt; 
+      is &quot;problematic&quot; (mostly: incompatible with working with open source 
+      organizations). CVS has a huge raft of technical problems. We&#39;ve thought 
+      about open-sourcing TeamWare, but there would be a lot of engineering 
+      effort required to bring it into the modern world and run on many 
+      different platforms. &lt;a href=&quot;http://subversion.tigris.org&quot; shape=&quot;rect&quot;&gt;SubVersion&lt;/a&gt;+&lt;a href=&quot;http://svk.elixus.org/&quot; shape=&quot;rect&quot;&gt;svk&lt;/a&gt; 
+      is looking interesting, but it&#39;s hard to tell how well it works under 
+      fire at scale.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      I&#39;d love to hear from folks who have used SubVersion (with or without 
+      svk) for multi-million-line code bases with thousands of versions.
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Thu Jul 21 12:22:25 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=happily_subversive</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=happily_subversive</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=happily_subversive</comments>
+        <pubDate>Mon, 25 Jul 2005 10:36:56 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Moore&#39;s Law meets Pricing</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_07_15_09-04-28-620_n1.small.jpeg&quot;&gt;
+    There&#39;s a great &lt;a href=&quot;http://www.economist.com/research/articlesBySubject/displayStory.cfm?story_id=4173652&amp;subjectID=348909&amp;fsrc=nwl&amp;emailauth=%2527%25290%253A0I%252ECYS1%25264%250A&quot; shape=&quot;rect&quot;&gt;article 
+    in the Economist&lt;/a&gt; this month about the current mess that&#39;s happening in 
+    software pricing. &lt;a href=&quot;http://en.wikipedia.org/wiki/Moore&#39;s_law&quot; shape=&quot;rect&quot;&gt;Moore&#39;s 
+    law&lt;/a&gt;&#39;s predictions about the number of transistors on a chip look like 
+    they&#39;ll continue to hold for quite a while, but we&#39;re quickly losing the 
+    ability to translate that into clock rate. This is driving every chip 
+    manufacturer to create multicore systems. Probably the most extreme is 
+    Sun&#39;s &lt;a href=&quot;http://www.aceshardware.com/read.jsp?id=65000292&quot; shape=&quot;rect&quot;&gt;Niagra&lt;/a&gt;, 
+    with (effectively) 32 CPUs. Software vendors like Oracle havn&#39;t been 
+    cranking up their prices while Moore&#39;s law has been expressed in the clock 
+    rate, but now that it&#39;s being expressed in CPU cores, their pricing is set 
+    to track Moore&#39;s law (IT managers: panic now). It seems to me that this 
+    whole flap can be fixed by a bit of spin doctoring, weasel wording, 
+    marketing: there&#39;s no such thing as a multicore chip &amp;mdash; they&#39;re single CPUs 
+    that do a great job of supporting multithreading. (wink)
+  &lt;div class=&quot;BlogEdDate&quot;&gt; (Fri Jul 15 09:04:15 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=moore_s_law_meets_pricing</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=moore_s_law_meets_pricing</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=moore_s_law_meets_pricing</comments>
+        <pubDate>Fri, 15 Jul 2005 10:02:19 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>Leonardo thought of it first...</title>
+        <description>                             &lt;img align=&quot;right&quot; class=&quot;BlogEdSmallImg&quot; src=&quot;http://blogs.sun.com/roller/resources/jag/2005_07_12_16-45-50-283_n3.small.jpeg&quot;&gt;
+    I was reading through the enormous (and enormously wonderful) &lt;a href=&quot;http://www.amazon.com/exec/obidos/tg/detail/-/3822817341/104-2217062-6560759&quot; shape=&quot;rect&quot;&gt;Leonardo 
+    Da Vinci: The Complete Paintings and Drawings&lt;/a&gt; by Frank Zollar and 
+    Johannes Nathan. There is a large section on fascinating catapult-like 
+    devices that would make great ideas for the t-shirt hurling contest. In 
+    particular, the rotary device in this picture bears a certain resemblance 
+    to the gizmo that the Australians put together. There&#39;s nothing in the 
+    picture that looks like a credible release mechanism. It would be awfully 
+    hard to aim. I doubt that it was ever actually built. Maybe the 
+    Australians can go back in time and give Leonardo some solinoids?
+
+    &lt;p&gt;
+      There was also this interesting &lt;a href=&quot;http://blogs.sun.com/roller/resources/jag/LeonardoTrebuchet3.mov&quot; shape=&quot;rect&quot;&gt;variation 
+      on the trebuchet&lt;/a&gt;. Rather than having the counterweight mounted 
+      pendulum-like on the end of the arm, it is dangling from a wheel. The 
+      interesting effect this has is that the force accellerating the rotation 
+      of the arm does not diminish as the arm approaches vertical. Could be a 
+      fascinating tweak to explore. [ a note about the movie: I copied the 
+      drawing from &lt;i&gt;The Complete Paintings and Drawings&lt;/i&gt;, &lt;a href=&quot;http://www.adobe.com/products/photoshop/main.html&quot; shape=&quot;rect&quot;&gt;Photoshop&lt;/a&gt;ed 
+      it into layers, built a little model using &lt;a href=&quot;http://www.newtek.com/lightwave/&quot; shape=&quot;rect&quot;&gt;Lightwave&lt;/a&gt; 
+      ]
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Tue Jul 12 16:45:38 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>root</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=leonardo_thought_of_it_first</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=leonardo_thought_of_it_first</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=leonardo_thought_of_it_first</comments>
+        <pubDate>Tue, 12 Jul 2005 17:03:52 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+    <item>
+    <title>T Shirt Contest Trivia</title>
+        <description>                             &lt;img src=&quot;http://today.java.net/jag/TSHCLegend.gif&quot;&gt;&lt;p align=&quot;left&quot;&gt;
+      I made up some cheesy certificates to give to the winners of the TSHC 
+      contest. I was trying to come up with a catchy slogan to put at the top 
+      of the certificate, but everything I could think of was boring. But it 
+      occurred to me that boring stuff sounds cool if it&#39;s in Latin. But I 
+      don&#39;t know Latin, so I asked Guy Steele (who knows Latin) if he could 
+      come up with anything. Here&#39;s his reply:
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      Yeah, I studied Latin for six years. The principal difficulty is that 
+      the right word for &quot;hurler&quot; is &quot;jaculator&quot;, which is uncomfortably close 
+      to English &quot;ejaculator&quot; (which, of course, is etymologically no 
+      coincidence). Also, if your winner is a female, it ought to be 
+      &quot;jaculatrix&quot;, which is a legitimate Latin word for &quot;female hurler&quot; or 
+      &quot;spearwoman&quot;, but thanks to the one-time co-opting of Latin for sexual 
+      euphemism, I fear that &quot;jaculatrix&quot; will be misinterpreted by most 
+      moderns as some sort of transgendered dominatrix or something.
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      How about something like &quot;athleta tunicis fortissimus&quot;, which translates 
+      as &quot;strongest winner of a prize with tunics&quot;? (I figured &quot;tunic&quot; is 
+      about as close as we can hope to get to &quot;T-shirt&quot;.) The word &quot;athleta&quot; 
+      meant &quot;winner of a prize&quot;, which has evolved into the modern &quot;athlete&quot;. 
+      Or, for real flavor,
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;center&quot;&gt;
+      ATHLETA TVNICIS FORTISSIMVS
+    &lt;/p&gt;
+    
+
+&lt;p align=&quot;left&quot;&gt;
+      in nice, classic, chiseled Roman lettering. (By the way, &quot;athleta&quot;, a 
+      borrowing from Greek, is considered to be a masculine noun in Latin, 
+      despite the &quot;-a&quot; ending, so the &quot;-us&quot; ending on &quot;fortissimus&quot; really 
+      does match it properly. The &quot;-is&quot; on &quot;tunicis&quot; indicates the ablative 
+      case.)
+    &lt;/p&gt;
+  
+
+&lt;div class=&quot;BlogEdDate&quot;&gt; (Fri Jul 01 15:49:26 PDT 2005)&lt;/div&gt;
+         </description>
+    <category>Java</category>
+    <link>http://blogs.sun.com/roller/page/jag?entry=t_shirt_contest_trivia</link>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jag?entry=t_shirt_contest_trivia</guid>
+        <comments>http://blogs.sun.com/roller/page/jag?anchor=t_shirt_contest_trivia</comments>
+        <pubDate>Fri, 1 Jul 2005 16:20:38 -0700</pubDate>
+    <dc:creator>James Gosling</dc:creator>
+          </item>
+  </channel>
+</rss>

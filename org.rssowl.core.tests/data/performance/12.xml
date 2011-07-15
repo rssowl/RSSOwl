@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Computerworld Viruses News</title>
+    <link>http://www.computerworld.com</link>
+    <description>Computerworld.com&amp;apos;s award-winning Web site offers IT pros continually updated news stories, as well as features, analysis pieces, opinions and research/resource materials on important technology issues. With a heavy focus on technology users, the site serves as a resource for IT professionals looking to improve business operations -- and their own careers -- by successfully deploying and managing technology.</description>
+    <language>en-us</language>
+    <dc:language>en-us</dc:language>
+    <image>
+      <title>Computerworld.com</title>
+      <url>http://www.computerworld.com/rss/computerworld_logo_sm.gif</url>
+      <link>http://www.computerworld.com</link>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.computerworld.com/Computerworld/Security/Holes/News" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+      <title>Microsoft advises users to switch Word to 'safe mode'</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/Holes/News?m=277</link>
+      <description>Microsoft Corp. is advising users to switch Word to "safe mode" to help shield them against a recent Trojan program.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?a=fq4D0x"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?i=fq4D0x" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Security/Holes/News?g=277"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000732&amp;source=rss_topic85</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000732&amp;source=rss_topic85</feedburner:origLink></item>
+    <item>
+      <title>StopBadware.org adds to its hall of shame list</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/Holes/News?m=278</link>
+      <description>StopBadware.org, the organization dedicated to highlighting software that consumers might prefer to avoid, Wednesday added another round of software programs to its "Badware Watch List."
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?a=zbLliH"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?i=zbLliH" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Security/Holes/News?g=278"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000738&amp;source=rss_topic85</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000738&amp;source=rss_topic85</feedburner:origLink></item>
+    <item>
+      <title>Microsoft promises patch for Word flaw by June</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/Holes/News?m=275</link>
+      <description>The vulnerability affects Microsoft Word XP and Word 2003 and is linked to attacks on government agencies in the U.S. and European Union, as well as U.S. government defense contractors.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?a=p1ECX5"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?i=p1ECX5" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Security/Holes/News?g=275"/&gt;</description>
+      <pubDate>Tue, 23 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000688&amp;source=rss_topic85</guid>
+      <dc:date>2006-05-23T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000688&amp;source=rss_topic85</feedburner:origLink></item>
+    <item>
+      <title>Q&amp;A: Microsoft exec defends monthly patch cycle</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/Holes/News?m=276</link>
+      <description>Microsoft's security advisor and general manager of U.S. enterprise security, Bret Arsenault, said the company is keeping an eye on the Word vulnerability but has no plans to rush out a patch.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?a=THgUAE"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?i=THgUAE" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Security/Holes/News?g=276"/&gt;</description>
+      <pubDate>Tue, 23 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000719&amp;source=rss_topic85</guid>
+      <dc:date>2006-05-23T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000719&amp;source=rss_topic85</feedburner:origLink></item>
+    <item>
+      <title>Yahoo messaging worm installs bogus browser</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/Holes/News?m=273</link>
+      <description>Malware writers have created a new messaging worm that installs a new browser and plays screeching music.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?a=fQkgE3"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?i=fQkgE3" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Security/Holes/News?g=273"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000660&amp;source=rss_topic85</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000660&amp;source=rss_topic85</feedburner:origLink></item>
+    <item>
+      <title>Rootkits wreak havoc on Australian companies</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/Holes/News?m=274</link>
+      <description>One in five Australian enterprises have found a rootkit lurking on the corporate network, according to the 2006 Australian Computer Emergency Response Team Computer Crime Survey.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?a=rTdIQf"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?i=rTdIQf" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Security/Holes/News?g=274"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000683&amp;source=rss_topic85</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000683&amp;source=rss_topic85</feedburner:origLink></item>
+    <item>
+      <title>More Viruses News...</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/Holes/News?m=256</link>
+      <description>View more Viruses news and analysis from Computerworld.com.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?a=z4Y5RS"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Security/Holes/News?i=z4Y5RS" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Security/Holes/News?g=256"/&gt;</description>
+      <guid isPermaLink="false">http://www.computerworld.com/taxonomy/000/000/000//taxonomy_000000085_index.jsp</guid>
+    <feedburner:origLink>http://www.computerworld.com/taxonomy/000/000/000//taxonomy_000000085_index.jsp</feedburner:origLink></item>
+  </channel>
+</rss>

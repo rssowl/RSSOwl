@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.theshiftedlibrarian.com/">
+<title>The Shifted Librarian</title>
+<link>http://www.theshiftedlibrarian.com/</link>
+<description>Shifting Libraries at the speed of byte!</description>
+<dc:creator></dc:creator>
+<dc:date>2006-05-21T20:29:37-06:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.11" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/21/a_gaggle_of_schools.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/20/hows_that_ala_l2_course_going.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/11/and_if_the_state_librarian_is_doing_it.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/04/small_libraries_get_help_with_your_website.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/03/321_ala_library_20_course_launch.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/02/libraries_building_community_survey.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/02/60_sites_in_110_minutes.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/02/bookmobile_20.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050104_patron_day_group_discussion.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050103_patron_day_ed_vielmetti.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050102_patron_day_alane_wilson.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050101_patron_day_stephen_abram.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/04/20/a_green_letter_day.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/04/17/too_many_tabs.html" />
+<rdf:li rdf:resource="http://www.theshiftedlibrarian.com/archives/2006/04/17/another_20_job.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/21/a_gaggle_of_schools.html">
+<title>A Gaggle of Schools</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/21/a_gaggle_of_schools.html</link>
+<description><![CDATA[<p>A couple of weeks ago, I had the pleasure of giving a presentation for a ton o'media specialists in Michigan. The topic was using technology in media centers, specifically blogs, RSS, and wikis, with a little gaming thrown in. It was fun, and everyone seemed pumped afterwards to try something new.</p>
+
+<p>However, as always happens when I do these kinds of presentations, the best part was that I learned something great that I could bring back to MPOW (my place of work as <a href="http://freerangelibrarian.com/">Karen</a> says). When we talked about blogging, Ted Brindle from <a href="http://www.grps.k12.mi.us/">Grand Rapids Public Schools</a> spoke up about some great things he's doing with a site called <a href="http://gaggle.net/">Gaggle.net</a>. This site provides a safe blogging environment plus email for students, safe chat rooms, and secure message boards, almost like a closed MySpace for schools (<a href="http://gaggle.net/paid_gaggle.html#free">more here</a>). It has a tiered approach to access, letting you as administrator set up blogs fot students and restrict access on a blog-by-blog basis to either the district, the school, the class, the teacher (for those kids that don't turn in parental release forms), or not at all (open to the whole world).</p>
+
+<p>Even better, you can try out Gaggle for free (you can always upgrade and pay a fee if it's working really well for you). The free version gives you 2.5 MB of space per user, provides blogging and email for each student and teacher, and allows (email?) messages to remain live for 65 days. The one caveat is that free means your students will see ads, but Ted wisely uses these to teach the students about advertising on the web and how to recognize and evaluate it. Talk about making the most of a situation and using a free resource to its ultimate potential!</p>
+
+<p>So I'm going to show Gaggle to our youth services consultant to talk about how she could introduce it to our school libraries this fall. In addition, Ted is looking for other Gaggling schools to collaborate with on student blogs, so if you're on or get on the service, please <a href="brindlet@grps.k12.mi.us">email him</a> to discuss the potential for working together (he also requests that you put "interest in gaggle.net collaboration" in the subject line). Hopefully we can connect him with some of our own school librarians and get some interstate conversation going!</p>
+
+<p>Addendum: I wanted to add that Ted has really thought through a lot of the issues that schools face with getting students motivated to blog. He's got lots of great ideas, motivations, and policies, so he's a great resource. He's also given me permission to post a little more about how blogging has helped his students.</p>
+
+<blockquote>"On May 9, I only had one student that had posted to a blog. Now I have several more. Look at Uziel's post at <a href="http://www.gaggle.net/blog/uziel">http://www.gaggle.net/blog/uziel</a>.
+
+<p>Uziel is new to our country. He has learned to speak English in a short period of time. Reading books and participating in projects in our library have helped him progress. He has made so many improvements over the past several months. Technology can be such a powerful instrument for learning. I expect that he will refine these posts over the next several weeks....</p>
+
+<p>My students come from a very diverse background. They are urban youth, some but not all are bilingual, learning disabled, confident,  and gifted. Most of them are unsure of their writing, but they all enjoy reading. They are posting to a blog since it is required for our class, and they all need a word of encouragement.</p>
+
+<p>I'm trying to make this a safe experience so all comments made to their blogs are approved by me before they are posted. If a student blog does not work, he or she is either behind or their parents did not approve the blog for viewing to the public."</blockquote></p>
+
+<p>He also provided links to more of his students' blogs, with a couple of notes:</p>
+
+<p>** <a href="http://www.gaggle.net/blog/alimasi">http://www.gaggle.net/blog/alimasi</a><br />
+<a href="http://www.gaggle.net/blog/keanna">http://www.gaggle.net/blog/keanna</a><br />
+<a href="http://www.gaggle.net/blog/imari">http://www.gaggle.net/blog/imari</a><br />
+*** <a href="*** http://www.gaggle.net/blog/dominique">http://www.gaggle.net/blog/dominique</a><br />
+<a href="http://www.gaggle.net/blog/felicia">http://www.gaggle.net/blog/felicia</a><br />
+<a href="http://www.gaggle.net/blog/greg">http://www.gaggle.net/blog/greg</a><br />
+<a href="http://www.gaggle.net/blog/jeffrey">http://www.gaggle.net/blog/jeffrey</a><br />
+<a href="http://www.gaggle.net/blog/stacia">http://www.gaggle.net/blog/stacia</a><br />
+<a href="http://www.gaggle.net/blog/cassondra">http://www.gaggle.net/blog/cassondra</a><br />
+<a href="http://www.gaggle.net/blog/robert">http://www.gaggle.net/blog/robert</a><br />
+<a href="http://www.gaggle.net/blog/tomas">http://www.gaggle.net/blog/tomas</a><br />
+<a href="http://www.gaggle.net/blog/cjblog">http://www.gaggle.net/blog/cjblog</a><br />
+<a href="http://www.gaggle.net/blog/brittney">http://www.gaggle.net/blog/brittney</a><br />
+<a href="http://www.gaggle.net/blog/ericablog">http://www.gaggle.net/blog/ericablog</a><br />
+<a href="http://www.gaggle.net/blog/mariahblog">http://www.gaggle.net/blog/mariahblog</a><br />
+<a href="http://www.gaggle.net/blog/miesha">http://www.gaggle.net/blog/miesha</a><br />
+<a href="http://www.gaggle.net/blog/ryanblog">http://www.gaggle.net/blog/ryanblog</a></p>
+
+<p>** very creative, likes to write<br />
+*** writes well, has a great vocabulary</p>
+
+<p>Like I said - Ted is a great resource!</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-21T20:29:37-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/20/hows_that_ala_l2_course_going.html">
+<title>How&apos;s that ALA L2 Course Going?</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/20/hows_that_ala_l2_course_going.html</link>
+<description><![CDATA[<p>A couple of weeks ago, <a href="http://ala.org/">ALA</a>, <a href="http://ottergroup.com/">the Otter Group</a>, <a href="http://tametheweb.com/">Michael Stephens</a>, and I launched the <em>ALA Library 2.0 Boot Camp</em> online for 50 participants to explore how Web 2.0 tools could help ALA and its members. Some stuff has happened this week that I need to respond to here. I'm in a unique position to do this, as I have never had a real relationship with my national organization, I don't have anything to sell, I have disparaged ALA in the past, and I'm on the inside of the course so I have more background for what is going on than anyone else.</p>
+
+<p>First, a disclaimer. No one has asked me to write this post, no has suggested what I should say, and no one has seen the content ahead of time. What I say here (and this is why it's on my blog and not the main <a href="http://library2.0.alablog.org/blog">ALA L2 one</a>) is strictly my own opinion and perspective.</p>
+
+<p>Second, what others have said so far:</p>
+
+<ul>
+<li> <a href="http://openstacks.net/os/archives/000961.html">ALA's Version of Podcasting</a> [<a href="http://openstacks.net/os/">Open Stacks</a>]
+<li> <a href="http://freerangelibrarian.com/2006/05/l2_instruction_in_an_l1_enviro.php">L2 Instruction in an L1 Environment</a> [<a href="http://freerangelibrarian.com/">Free Range Librarian</a>]</li>
+<li> <a href="http://www.librarycrunch.com/2006/05/the_free_range_librarian_says.html">The Free Range Librarian Says It Best</a> [<a href="http://www.librarycrunch.com/">Library Crunch</a>]</li>
+<li> <a href="http://wanderingeyre.com/2006/05/17/too-many-chefs-in-the-kitchen/">Too Many Chefs in the Kitchen</a> [<a href="http://wanderingeyre.com/">A Wandering Eyre</a>]</li>
+<li> <a href="http://www.librarycrunch.com/2006/05/library_20_via_a_10_delivery_c.html">Library 2.0 Via a 1.0 Delivery Company</a> ]<a href="http://www.librarycrunch.com/">Library Crunch</a>]</li>
+<li> <a href="http://freerangelibrarian.com/2006/05/alas_boot_camp.php">ALA's Boot Camp</a> [<a href="http://freerangelibrarian.com/">Free Range Librarian</a>] (extra points to Karen for inadvertently doing a blog post for which the title in the URL became "Alas Bootcamp!")</li>
+<li> <a href="http://library2.0.alablog.org/blog/_archives/2006/5/18/1966527.html">Addressing the Critics</a> [<a href="http://library2.0.alablog.org/blog/">ALA L2 Boot Camp Blog</a>]</li>
+<li> <a href="http://wanderingeyre.com/2006/05/18/what-i-really-said/">What I Really Said</a> [<a href="http://wanderingeyre.com/">A Wandering Eyre</a>]
+<li> <a href="http://briangray.alablog.org/blog/_archives/2006/5/18/1967474.html">ALA Library 2.0 - My Perspective</a> [<a href="http://briangray.alablog.org/blog/">Are You 2.0 Yet?</a>]</li>
+<li> <a href="http://peterbromberg.alablog.org/blog/_archives/2006/5/21/1974312.html">El Tuo's L20 Manifesto: Thoughts on Using L20 to Enhance Membership in ALA</a> [<a href="http://peterbromberg.alablog.org/blog">El Tuo in Town</a>] (<em><strong>* a fantastic list - make sure you read this!</strong></em>) </li>
+</ul>
+
+<p>Third, I want to point everyone to a <a href="http://library2.0.alablog.org/blog/_WebPages/2006TeamProjects.html">description of the team projects</a> for the course and <a href="http://maryghikas.alablog.org/blog/_archives/2006/5/18/1967979.html">Mary Ghikas' post explaining the concept for what she hoped would happen</a> as additional resources to round out the debate. I'm sure I'm missing other things, but this is a good start. (Actually, I have a lot of posts from the participants themselves that I want to link to, but then this post would not be the relatively short and direct summary I hope it ends up being.)</p>
+
+<p>Fourth, I agree with a lot of the criticisms detailed in the above posts from my fellow bloggers. I dislike a lot of things about the Blogware software, and I don't understand why we can't fix things like the fixed-width stylesheets, podcasting enclosures, and commenting (can we allow anonymous commenting with captchas?). Having said that, I don't think there is any one perfect blogging tool out there, especially one that I would have had time to set up for this course. I'm still trying to find the right aggregator for me, but BlogBridge's ease of use with dynamic OPML files is really impressive (more on this in a separate post). I'm also not a podcaster, so I can appreciate the ease-of-use of the podcasting backend Otter provided, even though in my own presentations I suggest a different method for libraries that want to get started at no cost to them. Frankly, it never occurred to me that the backend wouldn't include a fully-functional enclosure in the feed, but we've been able to work around that and then fix it.</p>
+
+<p>Which happened thanks to the bloggers. Personally, I appreciate every single one of their posts, criticisms, and suggestions. Everything they've written has improved the course, and I would not expect them to back off in any way just because Michael and I are involved in it. Kudos to them and please keep helping us improve the course further. In fact, we are <strong><em>really</em></strong> hoping you'll join the discussions when the project teams start opening up their drafts and proposals for outside comment.</p>
+
+<p>So given all of this, here is the view from where I sit. Kathleen Gilroy from the Otter Group approached me in October 2005 about being faculty for a course about Library 2.0 that she was pitching to ALA. I literally laughed in her face that ALA would never do such a thing. She said she was bringing the mountain to Mohammed and if she did it, would I agree to be faculty? I said sure, never believing for a moment that ALA would actually do it, meaning I promptly forgot about it and filed it away as "would have been interesting."</p>
+
+<p>Well, Kathleen did it, ALA agreed to do it, and then Michael agreed to embark on this little adventure with me. Color me surprised and knock me over with a feather.</p>
+
+<p>So even if the Otter Group had done nothing else, I would still give Kathleen full credit for moving that mountain. I don't think I could have done it. But Otter also offered a ready-made suite of tools that let ALA jumpstart the course much faster than it probably otherwise would have. Disagree with the tools all you want, but we'd probably still be forming the committee to discuss the project without them. At least this way we have something to react to and ALA gets a sense of what works and what doesn't. I'm not defending the choices, so much as explaining there was a rationale for using them to get started sooner rather than later. And believe me - no one is getting rich off of this. So I'd like to propose that the debate move forward to add to the list of software issues so that we come up with a set of criteria for the next time we run this course.</p>
+
+<p>In addition, though, Otter also provided very knowledgeable people to get the backend going and guide the process as it started. I don't know thing one about LiveMeeting or setting up podcasting for 50 people, but they did. They've been great about providing tech support, and Kathleen has helped facilitate a lot of the process. She hired Michael and me for our expertise, and while I would like a little more reliance on that expertise, I'm thrilled with the course itself so far and every day I see something great one of the participants has said, done, learned, or put together.</p>
+
+<p>In a world of constant change and perpetual beta, ALA took a leap of faith jump off the cliff to <strong>try something</strong>, even if it wasn't with the perfect mix of tools. I can't give them enough credit for this, and I want to end by saying how impressed I've been with the ALA staff involved with this project. Not just those folks administering it, but also the staff joining in as participants. ALA staff talking about blogging, comments, social tools, improving online learning, encouraging member participation, providing more feedback mechanisms for the membership, looking at how Web 2.0 tools might help a national advocacy movement, producing OPML lists of relevant professional feeds, reaching student members, and more? What the heck is going on here??</p>
+
+<p>Something good. And everyone is joining in - ALA, the participants, the bloggers, etc. It's actually a great case study (maybe for the next time we run this!), and I hope we can all continue to learn from it. I hope the discussion continues in that direction. I already count this course as a success based purely on the blog posts, comments, half-completed projects, and commitments of time and energy from the participants. I personally have learned a lot, and I have a new view of my professional association as one that is more willing than I'd thought to try something different.</p>
+
+<p>My colleague Kathryn Deiss gave me a great quote from John Cage: "I don't know why people are afraid of new ideas. I'm afraid of old ones," and Michael and I used it in the opening session because I think it's very relevant here. Here's to new ideas.</p>
+
+<p>Technorati tag: <a href="http://technorati.com/tag/alal2" rel=tag>ALAL2</a>, <a href="http://technorati.com/tag/ala%20bootcamp">ALA Bootcamp</a></p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-20T12:23:58-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/11/and_if_the_state_librarian_is_doing_it.html">
+<title>And if the State Librarian Is Doing It....</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/11/and_if_the_state_librarian_is_doing_it.html</link>
+<description><![CDATA[<p><a href="http://ksstatelibrarian.blogspot.com/2006/04/news-aggregators.html">News Aggregators</a></p>
+
+<blockquote>"Have you seen the quip on t-shirts and book bags, 'too many books, too little time'? Well a 2006 version of that is 'too many blogs, too little time!' After several attempts at self -education about news aggregators, I finally asked my valued friend and tech guru <a href="http://www.nekls.org/">Brenda Hough</a> for advice. She told me to go to <a href="http://bloglines.com/">Bloglines</a> or another aggregator, and just start messing around. So I did, and now I have a very efficient and useful way to get the information I want....
+
+<p>I encourage you to try out this time-saver; you'll wish you could get all your web information this way!" [<a href="http://ksstatelibrarian.blogspot.com/">Travels with the State Librarian</a>]</blockquote></p>
+
+<p>Kansas libraries, do YOU have an RSS feed? Libraries in general, do YOU have an RSS feed?</p>
+
+<p>It's great to see Christie Brandau, the <strong><em>State Librarian of Kansas</em></strong>, actively pursue playing with and learning how to use these new tools! She should put "State Librarian 2.0" on her business card! :p</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-11T17:22:13-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/04/small_libraries_get_help_with_your_website.html">
+<title>Small Libraries - Get Help with Your Website!</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/04/small_libraries_get_help_with_your_website.html</link>
+<description><![CDATA[<p>It's tough to think about leaving Illinois libraries because they're lucky enough to be supported by regional library systems that can provide services for which the libraries would otherwise have to pay or do without. I work at one such regional system, and we provide a lot of technology-related services and collaborative projects that would otherwise cost our members a lot of money (or when they do cost a lot of money, like our ListenIllinois group purchase of audio ebooks, it's THE best deal in the State on audio ebooks).</p>
+
+<p>Although I worry about what the future might hold for my libraries in terms of these services, I also recognize that libraries in most other states don't even have these resources to begin with. Glenn Peterson realized this, too, but he's done something about it. He has started a really great serviced called <a href="http://engagedpatrons.org/">Engaged Patrons</a> that provides low- or no-cost solutions for a calendar of events, blog hosting, RSS feeds, database scripting, and feedback forms for library websites. Be sure to read the <a href="http://engagedpatrons.org/FAQ.cfm">FAQ</a> for more details.</p>
+
+<p>I'm fascinated that Glenn calls the site "Engaged Patrons" because it feeds directly into what Stephen Abram and Alane Wilson talked about on Monday at "Patron Day." We often ask the wrong questions (making assumptions) and then aren't surprised when we get the answers we expected. The same theme emerged at OCLC's midwinter institute about library branding and marketing.</p>
+
+<p>In a similar way, Glenn has focused marketing of the site on the patrons whom these services will engage, not the libraries who so desperately need the help. Instead of calling the site "Supporting Libraries" and letting it be lost in the dull, vague connotations we all would have with that phrase, he called it "Engaging Patrons," because that's really the point of the services. </p>
+
+<p>It's an interesting lesson and a welcome service that I hope small (or really all) libraries hear about and take advantage of. Help spread the word, and then make sure you thank Glenn.</p>
+
+<p>Thanks, Glenn!</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-04T07:04:26-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/03/321_ala_library_20_course_launch.html">
+<title>3...2...1... ALA Library 2.0 Course Launch</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/03/321_ala_library_20_course_launch.html</link>
+<description><![CDATA[<p><a href="http://tametheweb.com/">Michael Stephens</a> and I <a href="http://www.flickr.com/photos/michaelsphotos/139805130/">are at Panera</a> finishing up some last-minute touches for today's opening session of the ALA Library 2.0 Course. This has been a fun and very eye-opening experience, and it's fascinating to watch ALA take these steps. I have a really good feeling about this, as well as high hopes for where we will come out on the other side in six weeks.</p>
+
+<p>Relevant links</p>
+
+<ul>
+<li> <a href="http://www.squidoo.com/library20/">Our Squidoo Library 2.0 Reading List</a> for the participants to read before the course started</li>
+<li> The <a href="http://www.blogbridge.com/rl/6174/Library+2.0+Participant+Reading+List.opml">OPML List of Participant Blogs</a> so you can read what they blog during the course (or <a href="http://library2.0.alablog.org/blog/_WebPages/ParticipantBlogLinks.html">read through them manually</a>)</li>
+<li> The <a href="http://www.blogbridge.com/rl/4225/ALAL2+Readings.opml">OPML List of L2-related Sites to Read during the course</a></li>
+<li> The <a href="http://www.blogbridge.com/rl/4225/ALAL2+Readings+Advanced+%28Optional%29.opml">OPML List of advanced (optional) L2-related Sites to Read during the course</a></li>
+<li> The <a href="http://podcasts.alablog.org/blog/">podcast home page</a> where you can listen or subscribe to the weekly podcasts</li>
+<li> See <a href="http://library2.0.alablog.org/blog/_WebPages/ParticipantsbyProject.html">the list of projects the participants will be working on</a> during the course</a></li>
+<li> And of course, <a href="http://library2.0.alablog.org/blog/">the main ALA L2 Course Blog</a></li>
+</ul>
+
+<p>Even though you might not be registered for the course, you can easily follow along using all of these links. Please feel free to interact with us and engage in <em>conversation</em>, as well as with the participants, in discussions. Think of it as "open space ALA" or even as a form of an ALA "<a href="http://en.wikipedia.org/wiki/Unconference">unconference</a>." :)</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-03T11:35:25-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/02/libraries_building_community_survey.html">
+<title>Libraries Building Community Survey</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/02/libraries_building_community_survey.html</link>
+<description><![CDATA[<p><a href="http://www.librarystuff.net/">Steven M. Cohen</a> and Chrystie Hill are <a href="http://www.librarystuff.net/2006/04/survey-says.html">writing a book about libraries building community</a>, and they'd really appreciate if you could help by filling out <a href="http://www.surveymonkey.com/s.asp?u=776481976200">their survey</a>.</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-02T22:04:29-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/02/60_sites_in_110_minutes.html">
+<title>60 Sites in 110 Minutes</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/02/60_sites_in_110_minutes.html</link>
+<description><![CDATA[<p><a href="http://tametheweb.com/">Michael Stephens</a> has already posted <a href="http://tametheweb.com/2006/04/social_software_for_the_texas.html">the presentation about social software and libraries we did at last week's Texas Library Association conference</a>, but you can also access the <a href="http://pbwiki.com/">PBwiki</a> I created to link all of the URLs for the <a href="http://60sitesfortla.pbwiki.com/">60 Sites in 60 Minutes</a> program that Susan Skyzinski and I did the day before.</p>
+
+<p>I went through most of the actual sites, but Susan spent the first half-hour talking about various methods librarians could use to do similar presentations for their own patrons. Remember, you can do something as simple as <em>10 Sites in 10 Minutes</em> or <em>30 Sites in 30 Minutes</em> or whatever. It's a fun idea to think about, especially if you can group the sites around a theme for the summer reading program, a programming event, or a current event.</p>
+
+<p>We encourage any librarians that try this out to add links to their presentations on the <a href="http://libsuccess.org/">Library Success Wiki</a> (which was one of our 60 sites, of course!), so I've created a <a href="http://www.libsuccess.org/index.php?title=Technology_Training_in_Libraries#60_Sites_in_60_Minutes_Programs">60 Sites in 60 Minutes section of the Library Success Wiki</a> just for this purpose. Share your success stories, tips, presentations, and whatever else there!</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-02T21:11:48-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/02/bookmobile_20.html">
+<title>Bookmobile 2.0</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/02/bookmobile_20.html</link>
+<description><![CDATA[<p>Not only does <a href="http://www.homerlibrary.org/">my home library</a> do gaming and have <a href="http://www.flickr.com/photos/homerlibrary/">a Flickr account</a>, but <a href="http://www.flickr.com/photos/homerlibrary/sets/72057594123417628/">their brand-spanking-new bookmobile</a> hit the streets this last week. It's pretty damn cool!</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-02T21:08:47-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050104_patron_day_group_discussion.html">
+<title>20060501-04 Patron Day: Group Discussion</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050104_patron_day_group_discussion.html</link>
+<description><![CDATA[<p>Branding various sections of your website differently (YA vs. adult), even with different URLs<br />
+Use your logo as a brand and put it on everything (create an emotional connection)<br />
+university had contests to have poster people for READ posters – during NLW, students put their name in to a drawing to be a READ poster! putting pictures on Flickr – athletes, student association presidents, in/famous alumni<br />
+Getting ALA involved with all libraries using the same brand in addition to a local one – a recognizable, universal brand<br />
+Pepsi can has an ad for fireworks at Navy Pier this summer – wouldn’t it be great to have a similar ad for summer reading for libraries<br />
+– Alane mentioned to talking Pat Martin here in Chicago; LitLamp.com</p>
+
+<p>how do you find and get activist users?<br />
+Stephen: piss them off<br />
+do something controversial<br />
+get on their radar<br />
+get out in your community and talk about yourself – what you have, what you can do for them, and what they would like to see done<br />
+it’s a dialogue<br />
+maybe the question is what’s missing from your community, not what do you want from your library; otherwise you find out what you already know<br />
+having scheduled and unscheduled events held in the library; collaborating with other organizations<br />
+“open space technology;” a self-organizing system for an unconference<br />
+go try it out, go where the users are, get your content out there – MySpace, Flickr, Wikipedia (two people in the room have Wikipedia entries for their libraries)<br />
+could have a blog where you encourage feedback – turn on comments!<br />
+what can you learn from what people hate about your system?<br />
+can gain trust through competence or through a track record of listening<br />
+if you solicit the feedback, you have to be prepared to act on it (or don’t ask for it)<br />
+incorporate users into decision-making committees and groups<br />
+creating an opportunity for the library to document community activities<br />
+don’t dumb down your computers – make them like they are at home; make them look like that, too<br />
+have events that aren’t traditionally associated with libraries (like gaming) – UIUC just had their first gaming night! trying to start a gaming archive – students and faculty are willing to contribute!<br />
+need to discuss within Illinois how we create a brand that is bigger than one campus (CARLI) – can ALA help with this? present a universal branding piece to CARLI<br />
+get out of your four walls and find the people that aren’t coming in to your library; don’t just survey the people that are using your services</p>
+
+<p>if we raise the bar for the haves, does it help or hurt the have-nots?</p>
+
+<p>you get the audience you market to</p>
+
+<p>how would the brand for an offline thing be different from the online version?</p>
+
+<p>can think of the website as a separate branch; users can act differently there and do different things there</p>
+
+<p>Alane: when people are on the web looking, they aren’t looking for you; they’re looking for an answer; don’t focus on the structure – focus on the answer<br />
+can bring them back in after you give them the answer<br />
+why isn’t the library listed on the local health info site?<br />
+Stephen: those libraries that have successful virtual sites have staffed it separately, not as an add-on to existing jobs</p>
+
+<p>Nike on the web is very different from Nike the store; Crate & Barrel is the same, though<br />
+Barnes & Noble site came up at the same time as Amazon, but wasn’t successful because just transferred physical to online and didn’t add anything</p>
+
+<p>comment from someone who likes American Libraries online better than the print version</p>
+
+<p>analogy of how newspapers used to look like print counterparts but have since changed – no longer look at all like print</p>
+
+<p>might want to be looking at local and community brands as our models rather than global, commercial presences<br />
+do you know what the most popular websites are in your community? why do they work or not work?<br />
+create local attachments and presence</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-01T19:47:55-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050103_patron_day_ed_vielmetti.html">
+<title>20060501-03 Patron Day: Ed Vielmetti</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050103_patron_day_ed_vielmetti.html</link>
+<description><![CDATA[<p>User: Edward Vielmetti</p>
+
+<p>a yearlong journey of being a patron at Ann Arbor District Library (Michigan)<br />
+got sucked into all of this about a year ago when he sent a message to the suggestion box at AADL (about RSS)<br />
+realized the staff was reading his blog, which changed his relationship with them<br />
+Eli asked Ed to be on the tech advisory board (which has met once, just before they launched the new catalog)</p>
+
+<p>noted that you as a patron can easily add a comment that shows up on the Library’s homepage; was the first hint that the staff was engaging with users<br />
+had a past embezzlement issue and were strapped for cash 10 years ago<br />
+the change became apparent when they rolled out the new catalog<br />
+Ed typically gets about 100 visitors a day to his blog; he started posting some stuff about the Library; some folks would start talking to Ed on his blog about the Library – Eli would then respond in the comments<br />
+the discussion continues online on the Library’s website, making it the center of its own community<br />
+staff can make changes now that they’re no longer on 10–year old code; they can try things out quickly because they’re no longer completely dependent on the vendor’s release cycle<br />
+this represented a shift with how Ed related to his Library<br />
+now he’s checking out way more books than he can read! made him realize he wants NetFlix for books – wants the next one ready, but only needs 5–6 out at a time; the novelty of new items would make him return books (AADL is thinking about this)</p>
+
+<p>Ed’s RSS experiments:<br />
+displayed his holds RSS feed on his blog in a Rube-Goldberg-like process<br />
+– lasted about a month; got comments from people doing reader’s advisory and socializing over them; for security reasons, the URL changed every time he made changes, so it wasn’t quite the right implementation; but it got people thinking that maybe the library is a place for people to share info about what they’re interested in reading, sharing, etc.<br />
+– almost never finds a book to read by searching in the catalog; the blank catalog box (search) isn’t as good a search box for any given query as Google – it’s not as rich a resource so almost never types query on library’s catalog first<br />
+– showed FireFox plugin to search the AADL catalog; it was written by a local high school student<br />
+– that’s the kind of innovation that got Ed excited to do things on his own because the Library now had a system he could play with</p>
+
+<p>started the Superpatron blog<br />
+– has about 300 subscribers now! peak day when linked from Google blog was about 800 hits that day</p>
+
+<p>before Library switched to new catalog, data was on library pages that were hard to deal with (as a programmer, as a user)<br />
+after, the Library became a data point on the network that you no longer have to start at; noted LibraryLookup as a first example; showed a GreaseMonkey script that puts library availability right on Amazon’s screen (including due date); esoteric, but really cool!<br />
+showed a title available on Amazon for 32cents – is he really going to ILL it??<br />
+it’s no longer an active search choice for Ed to find out if his Library has a particular item – it’s just there<br />
+can add the GreaseMonkey scripts on your own in-house computers, although that does open some security concerns<br />
+showed Book Burro plugin, too<br />
+Ed then did the same thing for Google Book Search (spent just an evening working on it)<br />
+– libraries don’t buy ads, so not all titles in GBS link to the library; Ed: “what a shame – you should buy some ads”<br />
+local users go to IMDB rather than the library’s catalog to look up DVDs, so Ed made a GreaseMonkey script to show AADL availability along with existing NetFlix, etc. links (just does a title search into the catalog)<br />
+it assumes an infrastructure and a set of knowledge you can’t assume your patrons have, but Ed and someone else who can build these things themselves that are then useful to other people, too<br />
+if you look at where innovation happens in libraries, and it’s exciting to see some of it happening not from library staff or vendors, but happening from patrons; key to that is having systems that appeal to the fractional percentages of your user population that knows how to write code & being able to find and connect with them on a human level; seed them with ideas about what could be done; this discovery process was looking things up, asking people, and finding code to reuse</p>
+
+<p>about “making sense,” not about turning himself into a professional coder who wrote six lines at a time for the library</p>
+
+<p>AADL has a “free space” that any person can rent for free up to 4 times a year as long as you don’t charge a fee, etc. (few constraints)<br />
+every Thursday, Ed has organized a lunch date to keep up with folks in town, and in December, it coincided with his birthday so he held it at the Library in the free space; didn’t tell the Library<br />
+one of the things he learned is that whenever you throw a party like that, you need to have chocolate – smuggled it in and even the librarians ate it (which Ed brought with him!)</p>
+
+<p>since then, having been invovled with this stuff, he discovered things the Library is doing and he doesn’t have to keep reinventing stuff<br />
+there isn’t one big library story (that tells the 50 great things your library is doing) because the stories go everywhere and in directions<br />
+automated software makes booking the rooms easy<br />
+have “Picture Ann Arbor” photos collection; didn’t get rights to reuse the pictures, which was a shame; library staff will scan in the pictures for you at the Library to add them to the collection; here’s the library collecting online (as opposed to paper being stuck in a vertical file somewhere)</p>
+
+<p>talked about AADL’s gaming tournaments; showing DVD clips as trailers at the movie theater<br />
+don’t force people to come into the library to find out about things<br />
+AADL staples flyers to poles downtown; the advertising is out on the street, too</p>
+
+<p>noted Josie Parker, the director, is talking directly to patrons via a blog; solicits lots of comments; gives a sense of “library director as civic leader;” lets the director become part of the community and reach the community that is online</p>
+
+<p>where things stand right now:<br />
+renewed a book this morning, but recently held “Library Camp” – took 5 months to plan and 1 meeting; held at AADL; had about 30 people attend daylong session; patrons AND academic and public librarians, plus some library school graduates who weren’t necessarily librarians; explained what an “unconference” is<br />
+didn’t have a plan, although they did do planning; the Library was great about doing it; was refreshing to talk about libraries in a library – could look around you and see what you were discussing<br />
+two groups – techies who read books a lot and use the computers way too much but were struggling with their digital collections; noted gulf between techies and non-techies (both for librarians and patrons)<br />
+talked about innovations for the OPAC and how much are our vendors standing in the way of our progress</p>
+
+<p>one of the things that challenges patrons so much is that they just don’t know what’s there or available; a lot of library services are opaque – it’s not clear where you find them, don’t know about them unless someone tells you about them; awareness is a huge issue<br />
+AADL advertises story time to local parents mailing list</p>
+
+<p>question: academic library that forces users to go different places to do different things (copying, etc.); how irritating is it when a library computer is deliberately broken<br />
+Ed: a friend of his said this is the only place I know of where the computer is less functional with the library catalog than it is at home!</p>
+
+<p>question: in a public library, have all age groups so have to control what happens where<br />
+Ed: was perplexed that libraries require kids to get signatures to use internet computers; his kids aren’t at a good age to answer this, and they do all of their computing at home</p>
+
+<p>question: each subsequent plugin raises the complexity for what patrons have to install – how can we package these and make it easier for patrons?<br />
+Ed: for any given system, you could package them all to make them easier to install; it’s complicated, but not hard – would have to find someone to help with this</p>
+
+<p>question: how tie this into more than just one browser?<br />
+Ed: browser development is moving towards more of this</p>
+
+<p>Ed: “either you’re more demanding of the vendor or you give up on them; Innovative has no user group for patrons”</p>
+
+<p>question: used to ask vendors how many field tested products on students? it was always on the librarians<br />
+Ed: AADL tested users who came into the Library, which is a subset, but is still useful</p>
+
+<p>question: trust is a two-way street; have to win librarians’ trust, too<br />
+Ed: say nice things about them</p>
+
+<p>Ed: I hear about these 6–month and year-long implementation cycles and it’s awful</p>
+
+<p>question: how is the public commenting on the website going?<br />
+Ed: showed Josie’s blog, 26 comments on the parking survey post</p>
+
+<p>Michael: I’m a big proponent of the Cluetrain Manifesto – human voices, and it’s happening on the library’s website!<br />
+Ed: yes, this didn’t exist before</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-01T19:37:20-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050102_patron_day_alane_wilson.html">
+<title>20060501-02 Patron Day: Alane Wilson</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050102_patron_day_alane_wilson.html</link>
+<description><![CDATA[<p>Who Are These People…?</p>
+
+<p>started with the Environmental Scan<br />
+won’t do another one anytime soon, because trends are long (they are just playing out)<br />
+librarian reactions = interesting, but it has nothing to do with my library and my users; didn’t see the trends applying to them<br />
+so as a result, they did the Perceptions study to look at trends in a quantitative way to give them data to support or not support the trends; weren’t sure what to expect</p>
+
+<p>Summary:</p>
+
+<p>– The Amazoogle user environment = for many, the first and last resort of research?; available at the point of need; comprehensive? (people think it’s comprehensive); where are library services?<br />
+people seemed to be living in this world; this was ubiquitous in a wired and wireless world<br />
+Open WorldCat was a direct result of the findings of the EScan</p>
+
+<p>questions:<br />
+does the future of libraries depend on the ability to mee the needs of users? but do we know who they are, what their needs are, how they differ from traditional needs/services, how do we respond to all of these changed needs?</p>
+
+<p>wanted to know: preferences in information seeking, use of libraries including electronic sources, libraries vs. search engines, the “library” brand: what does it mean, the library’s purpose and mission (this is the data, even if we don’t like the answers)</p>
+
+<p>surveyed in Canada, US, U.K., Singapore, India, Australia with Harris; it was done in English and on the web – two caveats; 3,348 total users surveyed<br />
+thought public librarians would discount the study because librarians see the digital divide and think those are the majority of users; but numbers online at the time of the survey show more than 60% of users in several countries are online; increasingly, there are fewer and fewer people who are NOT online</p>
+
+<p>customer surveys measure what you do and how well you do it compared to peoples’ expectations of your service</p>
+
+<p>96% of respondents have visited a public library<br />
+72% have a library card<br />
+90% of college students hold a library card<br />
+– they know libraries</p>
+
+<p>starting an information search graph: 84% start their typical search at a generic search engine (not named); library website = 1%; from a marketing point of view, how long have we been around versus search engines? in 10 years, search engines gobbled up that market; we no longer own that market, if we ever did; get over it!</p>
+
+<p>it’s always been this way! – showed Public Library Inquiry from 1947–1950 – 56% would consult a professional source, 18% in a book, 9% would ask a family member or friend, 8% a magazine, 1% the library!</p>
+
+<p>usage of electronic resources by total respondents: online news, IM, search engines, and email are all above 50%<br />
+talked about trends versus fads; IM is NOT a fad!!! 51% of all respondents are using IM; a fad is sometimes part of a trend; in the late 20s early 30s, women bobbed their hair – it was called a fad, but hindsight tells us it was a very important trend towards the beginning of a trend towards emancipation</p>
+
+<p>who has worthwhile information? “agree” or “completely agree” as a total percentage; “worthwhile” is a library word – we use it; we sell ourselves this way, but patrons don’t see that<br />
+Google – 93%<br />
+Ask Jeeves – 88%<br />
+Yahoo – 85%<br />
+MSN – 81%<br />
+Library websites – 78%</p>
+
+<p>what sources have you used<br />
+Google - 71%<br />
+Yahoo – 64%<br />
+Netscape – 25%<br />
+…<br />
+library website – 21% (why is ours so low when we’ve been around as long as the commercial search engines?)<br />
+ask a librarian – 5%</p>
+
+<p>awareness of services that no longer exist, and yet….</p>
+
+<p>finding new websites<br />
+friends – 61%<br />
+…<br />
+library website – 15%<br />
+librarians – 8%</p>
+
+<p>how do we move ourselves up from the bottom to that top? are we thinking of ourselves as part of our community? social networking tools, myspace, etc.</p>
+
+<p>1. familiarity and favorability: summary<br />
+“The Origin of Brands”<br />
+should have an online brand with a different name and a different strategy than your offline stuff; otherwise people don’t know what you are<br />
+suggests you can’t just push the physical building/organization on the web in the same way that it exists physically; if you look at most library websites, it mimics our internal organization<br />
+we brand ourselves by our institution; why don’t we do it like starbucks? why is there no univeral library brand?</p>
+
+<p>what do people think they are doing less of now that they are online?<br />
+read the newspaper – 26%<br />
+read books – 26%<br />
+listen to radio – 21%<br />
+TV – 39%<br />
+visit with friends, family in person – 14%</p>
+
+<p>how do you anticipate your personal usage of the library will change over the next 3–5 years?<br />
+62% – stay the same20% – increase<br />
+18% – decrease</p>
+
+<p>stay the same = apathy; a bad place to be</p>
+
+<p>reasons to use the library (at least annually):<br />
+borrow print book – 54%<br />
+use specific reference books – 51%<br />
+get assistance with research – 41%<br />
+read/borrow bestsellers – 39%<br />
+use PCs/internet – 39%<br />
+get copies of journals/articles – 34%<br />
+use online databases – 33%<br />
+do homework/study – 27%</p>
+
+<p>awareness of library offerings – % of folks who said they DID NOT KNOW if their library offered these services:<br />
+online librarian service – 63%<br />
+ebooks – 60%<br />
+electronic magazines/journals – 58%<br />
+online databases – 58%<br />
+audiobooks, digital/downloadable – 54%</p>
+
+<p>most college students mostly know about the library’s website, but think other resources have better information<br />
+why haven’t you used your library website? didn’t know it existed, said others have better information, can’t find it (big green bar says I came, I used it, I left and didn’t come back)</p>
+
+<p>use of library resources (library used most recently, used at any time ever):<br />
+online library catalog – 64%<br />
+library website – 62%<br />
+online reference materials – 52%<br />
+electronic magazines/journals – 47%</p>
+
+<p>a marketing opportunity! people don’t know what we have</p>
+
+<p>seeking assistance in using the library’s resources (new report just on college students subset about to be published; includes a separate chapter on 14–17 year-olds; college-attending, not just age) – did you ever seek help from the library and then what’s the first source you go to for help:<br />
+total respondents – 64%<br />
+college students – 54% said didn’t ever seek help from the library</p>
+
+<p>if 100 people responded to the survey, only 27 of them would have sought help from a librarian</p>
+
+<p>librarians vis-a-vis search engines:<br />
+76% who asked for assistance think librarian added value<br />
+43% thought the help was equivalent to what they got from a search engine</p>
+
+<p>showed Kathy Sierra’s slide about how users feel about your service – want love or hate; you’re screwed in the middle because it’s apathy; means you’re not differentiated from anything else; zone of mediocrity</p>
+
+<p>chart of libraries vs. search engines<br />
+libraries were trustworthy & accurate, but search engines were speedy, convenient, easy to use, cost-effective, and available<br />
+convenience will always trump accuracy<br />
+turns out speed isn’t quite as important as we thought it would be – convenience is (although speed is part of that)<br />
+** we have to find a way to make quality convenient!</p>
+
+<p>2. using the library: summary<br />
+every successful new brand was created by divergence of an existing category – divergence means to create a new category, have a new name and perform a single function. uses iPod as example of a divergence brand<br />
+means libraries need to be a new category, not just an old brand</p>
+
+<p>3. the “library” brand<br />
+a single library marketing itself doesn’t further the library brand as a whole</p>
+
+<p>What do Google, Gerber, and Eggo have in common? they’re all selling familiarity, trust and quality – those intangible traits summed up by the word “brand” – Fortune, October 2005</p>
+
+<p>the whole thing about brand is that you have one, whether you think you do or not<br />
+branded water as example – water is the same; we’ll pay more for water but we scream about gas prices; libraries as free??</p>
+
+<p>brand – a combination of differentiation and relevance:<br />
+diff – the degree to which it stands out<br />
+relevance – the degree to which consumers believe a brand meets their needs</p>
+
+<p>top of mind associations with the library:<br />
+books – 69% (and they really did mean books – not knowledge, learning, information, wisdom, etc.)<br />
+entertainment – 7%</p>
+
+<p>it’s a common view across geographic regions – most results came out the same across geography/culture<br />
+even in India, Singapore, U.K. – it’s books! (“the world is flat”); our brand is extremely strong across the world</p>
+
+<p>an element of brand is trust – is the info you get from library sources trustworthy?<br />
+most users said it’s about the same (mediocrity!)</p>
+
+<p>how do you judge if an electronic resources is trustworthy?<br />
+86% said “I just know”<br />
+59% said “on recommendations from a trusted source”</p>
+
+<p>who are trusted sources – experts (20%), other websites with similar information, print, coworker/colleague, teacher/professor, relative, library materials, librarian (2%!)<br />
+have to find a way to move ourselves up to “expert” – how do we become visible</p>
+
+<p>main purpose of library is information and then books (lots of verbiage about “books” in “information,” though)</p>
+
+<p>library’s role in the community:<br />
+85% = “is a place to learn” and this aligns with Stephen’s personas project</p>
+
+<p>branding expert at Cleveland expert had a roomful of librarians say what they do that is unique; took tens of ideas and crossed them off down to 5; “a place to learn” was one of the five things: “free” is also important in the context of a “safe” place, a community center</p>
+
+<p>library brand- summary:<br />
+“the right time to reposition a brand is when the market changes. you need a lot of patience to reposition a company or brad; it’s harder to change a brand in the mind than it is to put a new brand in the mind. also you need a link to the past; you can’t walk away from what you already are.”<br />
+– can’t just parachute the existing brand; can’t use the same services we’re already offering as a way to reposition ourselves</p>
+
+<p>asked for 2 positive, 2 negative associations with libraries:<br />
+products/offerings – 60% is good<br />
+customer & user service are negative<br />
+facilities & environment are negative (cold, dark, dusty, need table lamps, libraries in U.K. have no bathrooms, parking)</p>
+
+<p>respondents ages 14–17 clearly are not being made welcome; Stephen’s personas show this, too; they have very negative interactions with us and it’s doing major damage; they’re among the highest users of libraries, and yet if we ask if they value our services, they value us the least; there’s a big disconnect going on here; Stephen also saw a split between boys and girls, with boys feeling they are treated more negatively than girls</p>
+
+<p>older people responding said they love the library, they used to go all the time, can’t go there anymore because can’t leave the house (service gap)<br />
+10% of verbatim in the back of the report – 22,000 of them from the respondents!<br />
+– from the comments, nostalgia is part of our brand</p>
+
+<p>“I think the public libraries provide a very good service to the public but with using the computer it makes it easier for me to find information I would need from the internet….”</p>
+
+<p>“When I was younger, and computers were not available, he library was the best source of knowledge, and leisure reading.” – 68–year old in US</p>
+
+<p>the rise of the user class – “users and consumers will tell us where they want library services to go either passively, by disappearing from our libraries, or actively, because we’ve asked them.” – Alane <br />
+– this is where the whole focus on the user comes back and we have to involve them with the design of our services</p>
+
+<p>do we rejuvenate the brand or make a new one?<br />
+– user-centered planning based on their perceptions?<br />
+– differentiate between the “company” and the brand because users are building library things now</p>
+
+<p>what is the library brand and how are we relevant in peoples’ real lives? how do we participate as experts and friends?</p>
+
+<p>quoted Michelle Boule! “It does not belong to us” – February 17, 2006</p>
+
+<p>in a nutshell:<br />
+quotes Lorcan Dempsey – “users have had to build their workflow around the services the library provides” we need to reverse that and build our services around them!</p>
+
+<p>remember that you do not equal your users!</p>
+
+<p>question: google & starbucks have the budget, but libraries are all sizes; there’s no infrastructure for a universal brand<br />
+alane – Ocean Spray cranberry brand is a co-op; you might not have a big marketing budget at your library, but together, we have a lot more; collectively we can probably do something; there are differences between McDonald’s (rich, poor, etc.), but they still have a universal brand</p>
+
+<p>question: isn’t that what Open WorldCat does?<br />
+alane: maybe you don’t see the individual brand first thing, but that’s okay; it’s “library” generically<br />
+stephen: some of this is behind the “@ your library” campaign at ALA; and yet we still have to be independent</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-01T19:34:20-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050101_patron_day_stephen_abram.html">
+<title>20060501-01 Patron Day: Stephen Abram</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/05/01/2006050101_patron_day_stephen_abram.html</link>
+<description><![CDATA[<p>Public Library Personas</p>
+
+<p>we’re a bunch of “centrics,” but not user-centric</p>
+
+<p>The Virtuous Triangle<br />
+– usability tests = learned that we can make anybody push a button if we make it big enough; they only test what we want them to do (not necessarily the “right” thing)<br />
+– normative data = data from 3500 different libraries in 20 states, every single OPAC transaction; a map of every public library in the U.S.; every branch; a patron-selected book circulates 7 times more than a librarian-selected one (?); Grand Rapids spends $40,000 out of $800,000 buying every book patrons ask for – haven’t lost a funding request in 21 years; the last time we collaborated on knowing users from data was OCLC in the early 70s – we still aren’t at the Wal-Mart level<br />
+– personas = what are the psychographic underpinnings; people want to find and experience where they get entertained & progress their life – what they want to achieve, not search, get books, get articles, etc.</p>
+
+<p>need to do all of this in the library world and then the real world<br />
+who are the people most likely to support their local library – research shows it’s people that don’t have a library card – have to understand the research! we serve different groups for different reasons</p>
+
+<p>old model – library in center, surrounded by users, surrounded by groups<br />
+new model – user at the center with stuff on the outside; serve the symptom</p>
+
+<p>driving this is:<br />
+– crosswalks in commons; watch where the paths develop and then put them there after you’ve observed; (uses the term “information fluency” instead of “information literacy”); we force the users to our paths (that’s why the “information superhighway” metaphor is so horrible – “information ocean” instead); front end of where the next generation of users will be; have to see things before there is a curve; if only get 7% of the population, it won’t make it – has to hit the hump of the curve of adoption</p>
+
+<p>SchoolRooms project of InfoOhio – post-millennial research; every single lesson every day for every day for every curriculum for the entire State of Ohio; parent view, kids view (video game view); ties question levels to standardized tests</p>
+
+<p>what is context – trying to support context<br />
+your neighbors are different now – neighborhood, entertainment, research, learning, workplace (frameworks); group of skills and needs is dependent on where you are right now, different contexts; the five basic spaces people exist in as they come into the library (definitely not an information context); number one skill of a librarian is NOT delivering information – basic goal is to improve the quality of the question, which gives us more impact, and the question comes in a context (through good cataloging, folksonomies, talking to people, interfaces, etc.); 75%+ interactions are coming through clicks now, and the person improving the question isn’t there; can’t always make our judgments based on who we see coming in to our libraries because they aren’t the same users as home users</p>
+
+<p>for personas project, talked to 2500 students and recorded them as they talked about habits, etc.; used software to track eye movements for about 1000 of them; kids’ eyes move differently than adults’ eyes (F pattern instead of traditional A pattern adults use from newspapers; it’s how kids read in print, too; their reading levels are up, & half their reading is online); need to know this if you’re going to align your paths with your audience!</p>
+
+<p>new generation are 20 IQ points higher, & their brains work differently; older generations are right/left brain, whereas these kids are more balanced; significantly smarter generation, but they have no fact-based knowledge; they’re prepared for a world where content and solving things are different – the role of the information coach is totally there for them if we want to step up and help them; have to stop preparing ourselves for the past, though (all of this is for ages 15–25, the millennials)</p>
+
+<p>showed chart of millennial characteristics; information only becomes knowledge through a process called learning – 7 styles; need to come back to behavior – what do they want to achieve? then we can figure out how to position our services to come alive in that environment where learning becomes knowledge</p>
+
+<p>reading fluency is damaged for life if you can’t read by the end of grade four; we’re positioning ourselves for reading books, but what happens after grade there? everything after that is oriented towards experience and decoding life, but we’re still trying to influence as books; we don’t put up contextual things, especially localized</p>
+
+<p>when we build persona-oriented websites, we’re managing our aspect of the local information ecology; it’s an ecology, not a delivery information</p>
+
+<p>we are not aligned with the majority of people who are experience-based learning; doctors’ 4th style of learning is text-based, even though they’re really smart; you want a doctor/lawyer/engineer/etc. who is an experiential learner! all the kids are learning in groups now; they build the paths for themselves now</p>
+
+<p>85% of students worldwide have a Facebook account; a lot of hands went up when he asked how many people have been to MySpace (the #1 site on the internet; will account for 40% of all internet traffice by the end of June; more blogging happens on myspace than on all of the other sites combined, & will double by the end of the year); so what can libraries learn from it? described Second Life and the Alliance Library System’s Second Life Library project! “boolean starts to fail as the world gets big;” beyond a certain level of information, you just can’t search it</p>
+
+<p>personas project objectives: counted 10–15,000 stories from users (didn’t let the librarians in the room with users! they like us so they’ll lie to us; recorded them all, transcripted them, put them in a database, and the software found the patterns)<br />
+– personas are hypothetical representations of a natural grouping of users that drive decision-making for development projects; based on behaviors</p>
+
+<p>librarians aren’t aligning story hours with moms who drop kid for story hour but then go upstairs to do their own research and work to finish their education and learn more to make enough to help their children do better; have to tie our services together in ways we haven’t previously thought of before</p>
+
+<p>1. Henry persona<br />
+41–years old software designer; 1/3 of population of intranet users at Microsoft – he types in URLs directly, not using the start page of the portal (doesn’t care what is going on in the company); “frustrated” because can’t find all product info in one place (have to talk more about frustration than “satisfaction”)</p>
+
+<p>librarian search behaviors aren’t like user behaviors AT ALL, and yet that’s our filter; we are a scalable solution as the “information coach” for localized info and “how & why”; get the narrative pattern from the software; librarians have a high sense of delaying satisfaction, which is why we go through hoops and search so many resources to find an answer – everyone else just grabs the first result from google</p>
+
+<p>asked open-ended “describe…” questions; then grouped the stories under archetypes (57 of them; Canadian ones were very different than American ones)<br />
+showed themes & values – what do they care about (information isn’t in there, or books or databases – never showed up!); wanted community, learning, quality, efficienty, money/risk; that’s where we need to align; we keep selling the tools, not the feeling/experience/needs</p>
+
+<p>good citizenship archetypes – cozy, collaborate, community, intellectual opportunities, willing to chat, security, safe, strong community leader, networking, pulls community together<br />
+frustrations – annoying, indifference, disruption, no wireless, no tape player, physical pain<br />
+inquisitive user – into to new things, lots of preferences, universal access<br />
+disengaged seeker – can’t get book you need; fear of puppets (!)<br />
+ultimate tour guide – (library staff archetype) out-of-date IT, not enough computers<br />
+themes – number one is interaction! community and learning, etc.</p>
+
+<p>found 7 major anchors plus secondary anchors:<br />
+– Discovery Dan<br />
+– Haley High School<br />
+– Jennifer<br />
+– Mommy Marcie<br />
+– Rick Research<br />
+– Senior Sally<br />
+– Tasha Learner</p>
+
+<p>each persona has a day in the life at the library, information-seeking behavior, ultimate goal, frustrations; includes charts for their needs, features your website needs, and how they should be tied together</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-05-01T19:27:42-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/04/20/a_green_letter_day.html">
+<title>A Green Letter Day!</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/04/20/a_green_letter_day.html</link>
+<description><![CDATA[<p>I've been wishing and hoping for this day, and now it is finally here! Announcing <a href="http://blogs.ala.org/greenroo.php">The Green Kangaroo</a>, a new blog by Mary Ghikas, Senior Associate Executive Director at the <a href="http://ala.org/">American Library Association</a>.</p>
+
+<p><a href="http://blogs.ala.org/greenroo.php">Why a Green Kangaroo?</a><br />
+<blockquote>"My world has largely been one where 'transparency' refers to openness about budgets, processes, goals. It isn't that those things aren't important to this new view of transparency -- just that they're not sufficient. Listening to Michael and Jenny and Meredith and others, it becomes clear that transparency also means letting personal 'authenticity' show through. When you've spent a lot of hours 'ghosting' carefully correct letters or compiling factual 'no-personal-opinions-here' reports, that's hard. Still, it seems important -- and may be fun."</blockquote><br />
+I told Mary that for whatever reason, it seems like my generation just hasn't connected with ALA, that to us it is an amorphous beast with no real purpose. And at some point, we lost the <strong>people</strong> behind the organization, so I think Mary's blog and other efforts ALA is making will start to change our perceptions of the organization. That's going to be important if we're going to help keep it alive and growing in the future.</p>
+
+<p>Welcome to the biblioblogosphere, Mary - we're (I'm) really looking forward to reading what you have to say!</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-04-20T18:39:51-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/04/17/too_many_tabs.html">
+<title>Too Many Tabs</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/04/17/too_many_tabs.html</link>
+<description><![CDATA[<p>I have a bajillion and one tabs open in my browser, all things I wish I'd had time to blog about during the last few months. I have to start making room for new tabs I don't have time to blog about, so here's a link dump of just a few of the things I have wanted to write about but am giving up on strictly for lack of time. My apologies to the sources, so click on them and give them a look.</p>
+
+<ul>
+<li> <a href="http://www.libraryforlife.org/blogs/lifeline/?p=527">4 Things</a><br>
+"Recently, people have been circulating different kinds of '4 Things' lists on the Internet–4 books you have recently read, 4 places you’d like to visit, etc. Here is a version made just for our library!" [<a href="http://www.libraryforlife.org/blogs/lifeline">SJCPL Blog</a>, via <a href="http://blog.skagirlie.net/?p=38">skagirlie</a>]</li>
+<li> <a href="http://infoblog.infopeople.org/2006/04/assess_your_librarys_community.php">Assess Your Library's Community Standing</a><br>"Even if you don't want to read all 45 pages of this Urban Libraries Council study of some highly effective Chicago public libraries, you should at least take a look at the 'Engaged Libraries Toolbox' that shows how to assess your library's community standing and possible partners." [<a href="http://infoblog.infopeople.org/2006/04/assess_your_librarys_community.php">Infoblog</a>]</li>
+<li> <a href="http://www.technobiblio.com/archives/2006/02/lego_mindstorms_and_getting_the_kids.php">Lego Mindstorms and Getting the Kids</a><br>"BTW, this release of Mindstorms is supposed to be easier to use and get a successful design up and running in less than 20 minutes. I smell a perfect auxiliary to gaming nights - Battle of the Bots. Or for a summer reading program with hands-on activities in robot building. Even sweeter - let's circulate Mindstorm kits and point people to the online sites built by the other patrons for help, ideas, and challenges / solution (like a layout for a maze and the code to successfully navigate through it).
+
+<p>There are so many tie-ins with this activity, I am not even sure where you start. How about all the books on robotics, science fiction, possible movies, web sites - talk about a mish-mash of stuff that could be on a pathfinder, blog, or web site - maybe even a MySpace Mindstorms in the Library site?" [<a href="http://www.technobiblio.com/">Technobiblio</a>]</li><br />
+<li> <a href="http://www.travelinlibrarian.info/2006/04/library-20-for-dummies.html">Library 2.0 for Dummies</a> [<a href="http://www.travelinlibrarian.info/">Travelin' Librarian</a>]</li><br />
+<li> <a href="http://blogs.fletcher.tufts.edu/rss4lib/archives/public-blogs/clever_use_of_t.html">Clever Use of Tag Clouds</a><br>"The University of Western Ontario's office of Communications and Public Affairs offers a <A href="http://communications.uwo.ca/weblogs/directory.htm">directory of blogs</A> published by members of the UWO community. Not only is the directory a good idea, but they also provide a tag cloud that covers the content in all these different blogs. To see the cloud, look at the top of their <A href="http://communications.uwo.ca/weblogs/">main weblog page</A>." [<a href="http://blogs.fletcher.tufts.edu/rss4lib/">RSS4Lib</a>]</li><br />
+<li> <a href="http://altref.blogspot.com/2006/03/intuitive-revelations-ubiquitous.html">Intuitive Revelations: The Ubiquitous Reference Model</a><br>"Essentially, the paper describes a proactive approach toward interacting with college students. While the library world has just discovered blogs, these students have been keeping online journals for years. They use services like LiveJournal and Xanga, and even MySpace and Facebook to interact—often providing insight and commentary on their hectic lives. My interest was mining this data for educational opportunities. </p>
+
+<p>The Major Theme: We need to get out from behind the desk and help students when and where they need it." [<a href="http://altref.blogspot.com/">Alt Ref</a>] (I <em><strong>really</strong></em> love this one!)</li><br />
+<li> <a href="http://www.daveyp.com/blog/index.php/archives/85/">If You Build It, Will They Come?</a><br>"A couple of weeks ago I added logging to five of our OPAC tweaks to see if they were being used, and also which is the most popular.... So, here is the top five countdown...." [<a href="http://www.daveyp.com/blog/">Dave Pattern's Weblog</a>]</li><br />
+<li> <a href="http://www.sirc.org/articles/know_your_place.shtml">Know Your Place - Headmap manifesto and the spatialised internet revolution</a><br>"[These words] form part of a technological vision of the future, heralding an age in which our spatial experiences can be overlaid with a rich layer of information - images, text, sound - through GPS capable mobile WiFi devices and a lot of community spirit. This is the Headmap manifesto, an exploration of the technological, and more importantly the social, potential of an 'outside internet' - external, spatialised computing." [<a href="http://www.sirc.org/">Social Issues Research Centre</a>]</li><br />
+</ul><br />
+</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-04-17T01:54:31-06:00</dc:date>
+</item>
+<item rdf:about="http://www.theshiftedlibrarian.com/archives/2006/04/17/another_20_job.html">
+<title>Another 2.0 Job</title>
+<link>http://www.theshiftedlibrarian.com/archives/2006/04/17/another_20_job.html</link>
+<description><![CDATA[<p>Hans Roes, Director Information Resources and Multimedia at the International University Bremen, sent me the following Web 2.0 job opening (emphasis below is mine).</p>
+
+<p><a href="http://www.iu-bremen.de/about/jobs/09256/">Academic Technology Engineer</a></p>
+
+<blockquote>"The mission of the Information Resources and Multimedia department is to offer facilities and services in support of teaching, learning and research that meet the high ambitions of IUB. Under a new leadership, a new strategy has been developed that addresses innovations in both the real and the virtual environment. The recently built Campus Center will become the preferred place for students and faculty to meet, work and learn. Digital library and multimedia services will be developed that are closely integrated with learning, teaching and research processes.
+
+<p>Tasks<br />
+<ul><br />
+<li> Together with the systems librarian, innovate search and retrieve experiences for users.</li><br />
+<li> Setting up and maintaining the system for the IUB institutional repository.</li><br />
+<li> Integration of library and multimedia systems with other major campus systems, providing services closely linked to teaching, learning and research.</li><br />
+<li> Promote to and support students and faculty in the use of tools for collaborative work, e.g. blogs and wikis.</li><br />
+<li> Contribute to the development of the overall IUB website.</li><br />
+<li> Backup for the systems librarian.</li><br />
+</ul></p>
+
+<p>Background, training and skills<br />
+<ul><br />
+<li> Higher education in computer and / or information science.</li><br />
+<li> 3 – 4 years work experience in a complex and innovative environment.</li><br />
+<li> Versatile with UNIX and PC operating systems. Proven programming skills in several modern languages, like Perl, Python, Ruby.</li><br />
+<li> Expertise in web technology: LAMP, XML, CSS, template engines. </li><li> Basic knowledge of LDAP, portal technology, and identity management.</li><br />
+<li> Ability to work under pressure in an intercultural, demanding environment.</li><br />
+<li> Geek and team player, <em><strong>wild about web 2.0</strong></em>, willing to learn and share.</li><br />
+<li> Fluency in English, fluency in German an asset."</li><br />
+</ul></blockquote></p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jenny</dc:creator>
+<dc:date>2006-04-17T01:43:04-06:00</dc:date>
+</item>
+
+
+</rdf:RDF>

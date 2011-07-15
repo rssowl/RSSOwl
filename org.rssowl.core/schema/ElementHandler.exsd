@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.rssowl.core.interpreter" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="org.rssowl.core.interpreter" id="ElementHandler" name="Element Handler"/>
+      </appinfo>
+      <documentation>
+         &lt;p&gt;
+The element handler is responsible for handling a certain element in a XML document which is identified by its root element. Use this extension point if you want to override the interpretation of certain elements in existing format interpreters. Note that if you want to introduce new elements to an existing format, you should define your own namespace and use the namespace handler extension point.
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="elementHandler" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="elementHandler">
+      <annotation>
+         <appinfo>
+            <meta.element labelAttribute="elementName"/>
+         </appinfo>
+      </annotation>
+      <complexType>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A class that implements &lt;samp&gt;org.rssowl.core.interpreter.IElementHandler&lt;/samp&gt;.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn="org.rssowl.core.interpreter.IElementHandler"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="elementName" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The name of the element this handler is responsible for. This refers to the name of the element as it appears in the XML document.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="rootElement" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The root element of the XML document this handler should be responsible for. This is a required field to restrict the handler to certain, known XML documents.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="since"/>
+      </appinfo>
+      <documentation>
+         2.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         &lt;p&gt;
+The following is an example for using the extension point by supporting the myElement element that is part of the myRoot XML file:
+&lt;pre&gt;&lt;extension point=&quot;org.rssowl.core.ElementHandler&quot;&gt;
+      &lt;elementHandler
+            class=&quot;org.rssowl.core.MyElementHandler&quot;
+            elementName=&quot;myElement&quot;
+            rootElement=&quot;myRoot&quot;&gt;
+      &lt;/elementHandler&gt;
+&lt;/extension&gt;&lt;/pre&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appinfo>
+         <meta.section type="copyright"/>
+      </appinfo>
+      <documentation>
+         Copyright notice (c) 2005-2011 RSSOwl Development Team.                            
+All rights reserved´. This program and the accompanying 
+materials are made available under the terms of the Eclipse 
+Public License v1.0 which accompanies this distribution, and 
+is available at: &lt;a href=&quot;http://www.rssowl.org/legal/epl-v10.html&quot;&gt;http://www.rssowl.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

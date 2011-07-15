@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.thefoodsection.com/foodsection/">
+<title>The Food Section</title>
+<link>http://www.thefoodsection.com/foodsection/</link>
+<description>All the News That&apos;s Fit to Eat</description>
+<dc:language>en-US</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-24T08:00:00-04:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.typepad.com/?v=1.0" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/agenda_524_to_5.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/in_search_of_fl.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/agenda_517_to_5.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/salade_macdoine.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/introducing_ren.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/agenda_510_to_5.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/james_beard_awa.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/agenda_53_to_51.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/05/edible_brooklyn.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/04/agenda_426_to_5.html" />
+<rdf:li rdf:resource="http://www.thefoodsection.com/foodsection/2006/04/third_annual_ce.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/agenda_524_to_5.html">
+<title>Agenda: 5/24 to 5/30</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/agenda_524_to_5.html</link>
+<description>1. Ice Cream Tasting, Bobbie Meyzen, co-owner of Crème Crèmaillère Ice Cream, will lead an ice cream talk and blind tasting on Wednesday, May 24, 7:00 p.m. to 9:00 p.m., at the 92nd Street Y, Lexington Avenue at 92nd Street....</description>
+<content:encoded><![CDATA[<p><img height="80" src="http://www.thefoodsection.com/foodsection/agendabannerbcopy.jpg" width="350" border="0" /></p>
+
+<p>1. <a href="http://www.92y.org/shop/class_detail.asp?productid=LP3FW26"><strong>Ice Cream Tasting</strong></a>, Bobbie Meyzen, co-owner of Crème Crèmaillère Ice Cream, will lead an ice cream talk and blind tasting on Wednesday, May 24, 7:00 p.m. to 9:00 p.m., at the 92nd Street Y, Lexington Avenue at 92nd Street. $35/person (212.415.5500).</p>
+
+<p>2. <a href="http://www.bordersstores.com/events/event_detail.jsp?SEID=75377"><strong>The Reach of a Chef</strong></a>, author Michael Ruhlman will read from his new book, <em><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=thefoodsectio-20&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F067003763X%2Fsr%3D8-1%2Fqid%3D1148306370%2Fref%3Dpd_bbs_1%3F%255Fencoding%3DUTF8">The Reach of a Chef</a></em>, Wednesday, May 24, 7:00 p.m., at Borders at the Time Warner Center, 10 Columbus Circle (212.823.9775). </p>
+
+<p>3. <a href="http://artisanalcheese.com/prodinfo.asp?number=17BC"><strong>Craft Beer &amp; Artisanal Cheese</strong></a>, affineur Daphne Zepos, homebrewer Jon Lundbom, and brewmaster Tom Baker, Heavyweight Brewing Company, will lead a discussion and pairing of beer and cheese (including cheeses that have been washed with beer), on Thursday, May 25, 6:30 p.m. to 8:30 p.m., at the Artisanal Premium Cheese Center, 500 West 37th Street, 2nd Floor. $75/person (877.797.1200).</p>
+
+<p>4. <a href="http://www.broadwaypanhandler.com/broadway/dept.asp?s_id=0&amp;dept_id=603&amp;"><strong>Broadway Panhandler Moving Sale</strong></a>, in preparation for its move to its new 8th Street location, the kitchen supply superstore is holding a Memorial Day weekend sale of up to 75 percent off on assorted cookware and bakeware, Saturday, May 27, through Monday, May 29, 11:00 a.m. to 5:00 p.m., at Broadway Panhandler, 477 Broome Street (212.966.3434).</p>
+
+<p>5. <a href="http://schnackdog.blogspot.com/2006_05_01_schnackdog_archive.html#114722156892065666"><strong>Hot Dog Eating Contest</strong></a>, franfurter eaters will battle for gut-busting glory (and a $500 prize) at the Second Annual Schnack Stahl Meyer Hot Dog Eating Contest, Monday, May 29, 1:00 p.m., at Schnack Restaurant, 122 Union Street, Brooklyn (718.855.2879).</p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_524_to_5.html&amp;itemDate=2006-05-24%2008:00:00&amp;itemTitle=Agenda:%205/24%20to%205/30"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_524_to_5.html&amp;itemDate=2006-05-24%2008:00:00&amp;itemTitle=Agenda:%205/24%20to%205/30" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Agenda</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-05-24T08:00:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/in_search_of_fl.html">
+<title>In Search of Fluffy White </title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/in_search_of_fl.html</link>
+<description>I love frosting. Love frosting. Which—I know—in these days of cupcake mania, is pretty run of the mill. Every time I turn around there’s another new retro bakery peddling little cakes with a big dollop of pastel goo. But what...</description>
+<content:encoded><![CDATA[<p><img title="Frosting" alt="Frosting" src="http://www.thefoodsection.com/photos/uncategorized/frosting.jpg" border="0" /> </p>
+
+<p>I love frosting. <em>Love</em> frosting. Which—I know—in these days of cupcake mania, is pretty run of the mill. Every time I turn around there’s another new retro bakery peddling little cakes with a big dollop of pastel goo. But what I really love, specifically, is <em>cheap</em> frosting. I actually dislike real buttercream. I can’t stand the density of powdered sugar and butter icing (e.g. <a href="http://www.amazon.com/gp/product/0684859106/104-9106191-0938364?v=glance&amp;n=283155">Magnolia Bakery’s</a>), or the hardened-butter texture of a shiny—<em>slimy!</em> —buttercream frosting, the real kind made with sugar syrup and eggs (e.g. the <a href="http://www.cupcakecafe.com/">Cupcake Café’s</a>).</p>
+
+<p>I admit it: I prefer fake frosting. Canned ready-to-spread frosting. And since I’m telling it all, what I especially enjoy is <a href="http://www.bettycrocker.com/products/prod_frosting.asp?Advertisements=HPMayWhippedFrostingAd&amp;MSCSProfile=3C79F0C7EA3162B2F284847AD36A6DE6AF92E94E956D3FABC03AABDE3297FDFD6F2031F7773B27D16E65AE30C15404838CBE826560639AC34C762155A9DB83FCDCA3970E170D519BFCDF4BD12965D9D6A4BE9CED4C570BCFD064E156FF8E4B414664AF2E24F8E78007C6CD940A1C1A554FCFA5817607A2D97AD42622B5B99ABE">Betty Crocker’s Whipped Frosting</a> in that brilliant artificial flavor General Mills has dubbed &quot;Fluffy White.&quot; Who knew fluffy white had a taste? But it does, and it’s delicious.</p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/in_search_of_fl.html&amp;itemDate=2006-05-19%2008:35:00&amp;itemTitle=In%20Search%20of%20Fluffy%20White%20"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/in_search_of_fl.html&amp;itemDate=2006-05-19%2008:35:00&amp;itemTitle=In%20Search%20of%20Fluffy%20White%20" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Dining In</dc:subject>
+<dc:subject>Guest Editors</dc:subject>
+
+<dc:creator>Renée Kaplan</dc:creator>
+<dc:date>2006-05-19T08:35:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/agenda_517_to_5.html">
+<title>Agenda: 5/17 to 5/23</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/agenda_517_to_5.html</link>
+<description>1. Skip Lunch Fight Hunger, annual fundraising drive calls upon individuals and corporations to donate the equivalent of their lunch money on Wednesday, May 17, to help support City Harvest&apos;s Feed the Kids campaign. Donations may be made online or...</description>
+<content:encoded><![CDATA[<p><img height="80" src="http://www.thefoodsection.com/foodsection/agendabannerbcopy.jpg" width="350" border="0" /></p>
+
+<p>1.<strong> </strong><a href="http://cityharvest.org/money/skipform.html#"><strong>Skip Lunch Fight Hunger</strong></a>, annual fundraising drive calls upon individuals and corporations to donate the equivalent of their lunch money on Wednesday, May 17, to help support City Harvest's &quot;Feed the Kids&quot; campaign. Donations may be made <a href="http://cityharvest.org/money/skipform.html#">online</a> or at participating Starbucks. </p>
+
+<p>2.<strong> </strong><a href="http://www.latse.org/events/Cheese/cheese.html"><strong>Tibetan Yak Cheese Week</strong></a>, the Slow Food Foundation for Biodiversity and Trace Foundation will present a series of events to celebrate the cheese of of Tibet, made from yak's milk from high up on the Qinghai-Tibetan Plateau, Friday, May 19, to Friday, May 26. An opening reception, featuring a cheese tasting, will be held on Friday, May 19, 6:00 p.m. to 8:00 p.m., at the Latse Contemporary Tibetan Cultural Library, 132 Perry St., #2B (contact <a href="mailto:pvanzo@trace.org">pvanzo@trace.org</a> or 212.367.7380 for more information).</p>
+
+<p>3.<strong> </strong><a href="http://www.nyculinaryfestival.com/"><strong>New York Culinary Festival</strong></a>, three day food fest will feature cooking demonstrations, seminars, tastings of dishes from New York restaurants, manicures, and more, Friday, May 19, 6:00 p.m. to midnight, Saturday, May 20, 12:00 p.m. to 1:00 a.m., and Sunday, May 21, 12:00 p.m. to 9:00 p.m., at Pier 94, 54th St. at Twelfth Ave. $20/person admission plus $2 to $6/dish (800.555.MENU).</p>
+
+<p>4.<strong> </strong><a href="http://www.hellskitchennyc.com/html/9thavefest.htm"><strong>International Food Festival</strong></a>, annual street food festival takes over Ninth Avenue from 37th to 57th Streets, Saturday, May 20, and Sunday, May 21, 9:00 a.m. to 7 p.m.</p>
+
+<p>5. <a href="http://www.tasteoftribeca.org/"><strong>Taste of Tribeca</strong></a>, annual culinary festival, benefiting the arts and enrichment programs at Tribeca elementary schools P.S. 150 and P.S. 234, will feature tastings of dishes from 59 Tribeca restaurants, Saturday, May 20, 11:30 a.m. to 3:00 p.m. at Duane Street between Greenwich and Hudson Streets. $40 tasting card (purchased in advance) or $45 (day of the event) buys six tastes (purchase tickets <a href="http://www.tasteoftribeca.org/tickets.html">online </a>or at 866.468.7619).</p>
+
+<p>6.<strong> </strong><a href="http://pastryscooptest.commonmind.biz/conferencesAndEvents_conference0306_workshops.html"><strong>Pastry Conference</strong></a>, pastryscoop.com will hold its spring 2006 conference featuring a series of specialized workshops on the pastry arts, Sunday, May 21, 9:00 a.m. to 6:00 p.m., at The French Culinary Institute, 462 Broadway. $50/workshop, plus a $5 service fee per registrant (888.a.pastry). </p>
+
+<p>7.<strong> </strong><a href="http://bltfish.com/events/"><strong>Crab Festival</strong></a>, chefs will compete to make the best crabcakes, plus crab tastings, and more, to benefit City Harvest, Sunday, May 21, 2:00 p.m. to 5:00 p.m., at BLT Fish, 21 West 17th Street. $35/person (212.691.8888). </p>
+
+<p>8.<strong> </strong><a href="http://www.mercantilelibrary.org/calendar.html"><strong>Alimentum Reading</strong></a>, a wine reception and reading from the Summer issue of literary food journal <em>Alimentum</em> will take place on Monday, May 22, 6:30 p.m., at The Mercantile Library, 17 East 47th Street. Free (RSVP to 212.755.6710). </p>
+
+<p>9.<strong> </strong><a href="http://ndm.si.edu/EXHIBITIONS/feeding_desire/dujour.asp"><strong>Cooking for Kings</strong></a>, actor, food historian, and author Ian Kelly will discuss the life of chef Antonin Carême, who served Napoleon, the Tsar of Russia, and the King of England, on Monday, May 22, 6:30 p.m. at Cooper-Hewitt, National Design Museum, 2 East 91st Street. $60/person (fee includes a ticket to Kelly’s one-man show, Cooking for Kings, at the 59E59 Theaters) (212.849.8380).</p>
+
+<p>10. <a href="http://www.aiwf.org/site/calendar/event.html?calendarevent_id=1440&amp;date=2006-05-22&amp;"><strong>The Extra Virgin Dinner</strong></a>, the New York Chapter of the American Institute of Wine &amp; Food will present a four-course menu featuring extra virgin olive oils, Monday, May 22, 6:30 p.m. to 9:00 p.m., at Baldoria Restaurant, 249 West 49th Street. $85/person (718.229.6565).</p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_517_to_5.html&amp;itemDate=2006-05-17%2007:51:00&amp;itemTitle=Agenda:%205/17%20to%205/23"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_517_to_5.html&amp;itemDate=2006-05-17%2007:51:00&amp;itemTitle=Agenda:%205/17%20to%205/23" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Agenda</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-05-17T07:51:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/salade_macdoine.html">
+<title>Salade Macédoine</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/salade_macdoine.html</link>
+<description>I was invited to go to Macedonia recently, but I realized that I had only the vaguest idea of where Macedonia is actually located on a map. I suspected that it was one of the many little countries that spun...</description>
+<content:encoded><![CDATA[<p><img title="Of Mayo and Macedonia" alt="Macedonia2" src="http://www.thefoodsection.com/photos/uncategorized/macedonia2.jpg" border="0" /> </p>
+
+<p>I was invited to go to Macedonia recently, but I realized that I had only the vaguest idea of where Macedonia is actually located on a map. I suspected that it was one of the many little countries that spun off from the former Yugoslavia, and I did recall some distant association with Alexander the Great. But the only immediate association I could make to Macedonia was…salad. </p>
+
+<p>In Italian, a <em>macedonia</em> is a fruit salad, and in French, a <em>salade macédoine</em> is a vegetable salad. In fact, in France, it’s a classic institutional appetizer, served in the finest school cafeterias and consisting of cooked peas, carrots, green beans and turnips in a heavy mayonnaise dressing that looks like white sludge and, as I recall from my elementary school days in France, tastes just as good (here's a <a href="http://www.martinet.fr/fr/produits/fiche.phtml?f=13">commercial version</a>, minus the sludge). </p>
+
+<p>So where the hell <em>is</em> Macedonia? And how it is that chopped carrots and peas and pears and peaches can all somehow claim to be Macedonian? It turns out Macedonia is actually wedged way down in Southeastern Europe between Serbia, Albania and Greece, that the national diet tends massively toward barbecued meat, and that there wasn’t a single Macedonian salad on any of the menus in the many restaurants I sampled there. </p>
+
+<p>What I did find in Macedonia, however, is an unbelievable hodge-podge of ethnicities. The country that calls itself Macedonia today is actually populated by one quarter ethnic Albanians, two-thirds ethnic Macedonians, equal sprinklings of Serbs, Bulgarians and Roma, and a substantial serving of Turks. Add to that a seasoning of intense religious diversity—one-third Muslims, two-thirds Macedonian Orthodox, and a potent dash of Albanian Catholics—and suddenly you begin to understand why the term <em>macédoine</em> in diplomatic history is synonymous with “complicated mixture.” If, over its many centuries of ethnic conflict, Macedonia has come be known as the “tinderbox of the Balkans,” it’s because no amount of mayonnaise dressing could ever make the ethnic peas identify with the ethnic carrots, or make the green beans speak the turnips’ language. </p>
+
+<p>So a Macedonian salad, in the end, is just a mixed salad. A salad with a diversity of similar ingredients—fruits, veggies, warring ethnicities, whatever. And it also turns out that the sludgy mayonnaise dressing part of the <em>salade macédoine</em> is just some French lunch-lady’s idea that everything tastes better with mayonnaise. </p>
+
+<p>Below, a recipe for a seasonal macédoine of spring vegetables. Hold the mayo. </p>
+
+]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/salade_macdoine.html&amp;itemDate=2006-05-11%2012:00:00&amp;itemTitle=Salade%20Mac%c3%a9doine"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/salade_macdoine.html&amp;itemDate=2006-05-11%2012:00:00&amp;itemTitle=Salade%20Mac%c3%a9doine" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Dining In</dc:subject>
+<dc:subject>Guest Editors</dc:subject>
+
+<dc:creator>Renée Kaplan</dc:creator>
+<dc:date>2006-05-11T12:00:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/introducing_ren.html">
+<title>Introducing Renée Kaplan</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/introducing_ren.html</link>
+<description>I am pleased to welcome Renée Kaplan as a guest editor who will be contributing a series of guest posts to The Food Section. Ms. Kaplan is a writer and television producer in New York. Her first novel, Shaking Her...</description>
+<content:encoded><![CDATA[<p>I am pleased to welcome Renée Kaplan as a guest editor who will be contributing a series of guest posts to <em>The Food Section.</em></p>
+
+<p>Ms. Kaplan is a writer and television producer in New York. Her first novel, <em><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=thefoodsectio-20&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0425202402%2Fsr%3D1-1%2Fqid%3D1147274816%2Fref%3Dsr_1_1%3F%255Fencoding%3DUTF8">Shaking Her Assets</a></em> (Berkley Trade), came out in May 2005, and her most recent writing appears in the just-released anthology <em><a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=thefoodsectio-20&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F1933368241%2Fsr%3D1-1%2Fqid%3D1147274992%2Fref%3Dsr_1_1%3F%255Fencoding%3DUTF8">Half/Life: Jewish Tales from Interfaith Homes</a> </em>(Soft Skull Press). She is currently a news producer for CNN, previously produced for “60 Minutes II,” and before working in television journalism was a writer and editor for the <em>New York Observer</em>.</p>
+
+<p>Born in upstate New York, Ms. Kaplan grew up between Ithaca and Paris, France, which probably made her the only kid in midde school who knew more about Michelin stars than the teen ones. She says it wasn't good for her popularity, but it fostered a life-long passion for thinking, writing, and reading about food. In addition, as the daughter of an expert of French bread, she has been talking about the mouthfeel of crust and the alveolage of the crumb since her mother started her on solids.</p>
+
+<p>Look for her first post -- on a curious French salad -- to appear later today.</p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/introducing_ren.html&amp;itemDate=2006-05-11%2007:26:00&amp;itemTitle=Introducing%20Ren%c3%a9e%20Kaplan"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/introducing_ren.html&amp;itemDate=2006-05-11%2007:26:00&amp;itemTitle=Introducing%20Ren%c3%a9e%20Kaplan" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Announcements</dc:subject>
+<dc:subject>Guest Editors</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-05-11T07:26:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/agenda_510_to_5.html">
+<title>Agenda: 5/10 to 5/16</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/agenda_510_to_5.html</link>
+<description>1. Hot Dog Eating Heats, Schnack will present a series of qualifying heats for eaters to compete in its Second Annual Schnack Stahl Meyer Hot Dog Eating Contest to be held on May 29 at 1:00 p.m. The preliminaries will...</description>
+<content:encoded><![CDATA[<p><img height="80" src="http://www.thefoodsection.com/foodsection/agendabannerbcopy.jpg" width="350" border="0" /></p>
+
+<p>1.<strong> </strong><a href="http://schnackdog.blogspot.com/2006_05_01_schnackdog_archive.html#114722156892065666"><strong>Hot Dog Eating Heats</strong></a>, Schnack will present a series of &quot;qualifying heats&quot; for eaters to compete in its Second Annual Schnack Stahl Meyer Hot Dog Eating Contest to be held on May 29 at 1:00 p.m. The preliminaries will take place on Wednesday, May 10, 12:00 p.m., 6:00 p.m., and 9:00 p.m., Friday, May 12, 6:00 p.m. and 9:00 p.m., and Tuesday, May 16, 6:00 p.m. and 9:00 p.m., at Schnack Restaurant, 122 Union Street, Brooklyn (718.855.2879).</p>
+
+<p>2. <strong><a href="http://culinaryhistoriansny.org/events/index.shtml">History of the American Whiskey Rebellion</a></strong>, the Culinary Historians of New York will present a discussion by author William Hogeland on the American Whiskey Rebellion, a little known, but significant even in American colonial history, followed by a whiskey tasting, Wednesday, May 10, at the Greenwich House Music School, 46 Barrow Street (at 7th Avenue). $35/person (212.334.1061).</p>
+
+<p>3. <strong><a href="http://www.longislandbeerfestival.com/home.html">Long Island Beer Festival</a></strong>, beer tasting event will feature more than 50 craft beers paired with food from Long Island restaurants, benefiting the North Shore Animal League, Friday, May 12, 6:00 p.m. to 10:00 p.m., at the Huntington Hilton, 598 Broadhollow Road, Melville, New York. $45/person (800.783.BEER).</p>
+
+<p>4. <a href="http://www.mvhm.org/pages/events/events.htm"><strong>New York City: Steeped in History</strong></a>, the Mount Vernon Hotel Museum &amp; Garden will present a discussion of the history of tea in New York City and a tea tasting led by the St. Regis Hotel's tea sommelier, Elizabeth Knight, on Saturday, May 13th, 12:30 to 2:30 p.m., at the Mount Vernon Hotel Museum &amp; Garden, 421 East 61st Street. $18/person (212.838.6878).</p>
+
+<p>5. <a href="http://www.merchantshouse.com/a_calendar.htm"><strong>Annual Mother's Day Tea in the Garden</strong></a>, the Merchant's House Museum will present a traditional afternoon tea for Mother's Day, Sunday, May 14, with seatings at 1:30 p.m. and 3:00 p.m., at the Merchant's House Museum, 29 East Fourth Street. $50/couple, reservations and prepayment required (212.777.1089).</p>
+
+<p>6. <a href="http://www.museumoftheamericancocktail.org/Seminars/default.aspx#Seminar10"><strong>Kitchen Cocktails</strong></a>, the Museum of the American Cocktail will present a seminar by Anistatia Miller and Jared Brown, authors of <em>Shaken Not Stirred: A Celebration of the Martini,</em> on how to make your own syrups and infusions for cocktails using fresh fruits, spices, herbs, and vegetables, Monday, May 15, 6:30 p.m. to 8:00 p.m., at The Balance, 215 West 28 Street. $60/person in advance (<a href="http://www.museumoftheamericancocktail.org/Seminars/default.aspx#Seminar10">online registration</a> is available).</p>
+
+<p>7. <strong><a href="http://www.amnh.org/programs/programs.php?event_type_id=2,1,6&amp;date=2006-05-16">Adventures in the Global Kitchen</a></strong>, author Michael Pollan will discuss the &quot;cornification&quot; of America, with a tasting of food by chef Peter Hoffman, Tuesday, May 16, 7:00 p.m., at the American Museum of Natural History, Wallach Orientation Center, fourth floor, Central Park West at 79th Street. $15/person (212.769.5200).</p>
+
+<p>8. <strong><a href="http://www.localwineevents.com/New-York-City-Wine/event-85776.html">Cheez-a-palooza</a></strong>, Nolita House will present a tasting of nine spring artisanal cheeses from around the world, paired with wine and beer, Tuesday, May 16, 7:00 p.m. to 9:00 p.m., at Nolita House Restaurant &amp; Bar, 47 East Houston Street, between Mott &amp; Mulberry Streets. $55/person in advance, $65/person at the door (212.625.1712). </p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_510_to_5.html&amp;itemDate=2006-05-10%2007:04:00&amp;itemTitle=Agenda:%205/10%20to%205/16"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_510_to_5.html&amp;itemDate=2006-05-10%2007:04:00&amp;itemTitle=Agenda:%205/10%20to%205/16" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Agenda</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-05-10T07:04:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/james_beard_awa.html">
+<title>James Beard Award Winners</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/james_beard_awa.html</link>
+<description>On Monday night, The James Beard Foundation wrapped up its two-day awards ceremony recognizing excellence in journalism and the food industry. The awards ceremony for journalists took place on Sunday. Notably, the San Francisco Chronicle took the award for Best...</description>
+<content:encoded><![CDATA[<p><img title="The James Beard Awards" alt="Beardawards_2" src="http://www.thefoodsection.com/photos/uncategorized/beardawards_2.jpg" border="0" /> </p>
+
+<p>On Monday night, The James Beard Foundation wrapped up its two-day awards ceremony recognizing excellence in journalism and the food industry.</p>
+
+<p>The awards ceremony for journalists took place on Sunday. Notably, the <em>San Francisco Chronicle</em> took the award for Best Newspaper Food Section, and David Leite's <a href="http://www.leitesculinaria.com/">Leite's Culinaria</a> received the award for best Website for Food, a new category offered this year. For more details on the winners in all categories, head to <a href="http://poynter.org/forum/view_post.asp?id=11404">Romenesko</a> (via <a href="http://eater.curbed.com/archives/2006/05/beard_journalis.php">eater</a>). </p>
+
+<p>Cookbook authors, chefs, and restaurants were honored on Monday. <em>Hungry Planet: What the World Eats,</em> by Peter Menzel and Faith D'Aluisio, won Cookbook of the Year. Among the other <a href="http://www.jamesbeard.org/awards/awards.php?year=2006&amp;category=1">cookbook winners</a> were Suzanne Goin, who won for her <em>Sunday Suppers at Lucques</em> in the Cooking from a Professional Point of View category, Jill Norman, whose <em>The Cook's Book</em> won in the general category, and Mario Batali, who took the prize for International Cookbook for <em>Molto Italiano</em>.</p>
+
+<p>Among the <a href="http://www.jamesbeard.org/awards/awards.php?year=2006&amp;category=3">chefs and restaurants</a> honored were <span face="Arial">Gotham Bar &amp; Grill's Alfred Portale, who took home the award for Outstanding Chef, Danny Meyer, who won the Best New Restaurant award for The Modern, and Blue Hill's Dan Barber, who won for Best Chef: New York.</span></p>
+
+<p><span face="Arial">For more on the rest of the winners, sort through <a href="http://www.jamesbeard.org/awards/index.php">pages</a> of the James Beard Foundation website. Or, better yet, peruse food writer/blogger Ed Levine's <a href="http://www.edlevineeats.com/post/488">live-blogging</a> of the event -- from the thrill of victory (&quot;Best Chef NY - Dan Barber. I predicted this one. He is one of the most thoughtful and articulate chefs around.&quot;) to the agony of defeat (&quot;Writings About Food. Kitchen Sisters did not win this one either. There is no justice.&quot;).</span></p>
+
+<p><span face="Arial"><strong>Update:</strong> Fresh from the press release, a complete listing of all the winners, after the jump. </span></p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/james_beard_awa.html&amp;itemDate=2006-05-09%2007:33:00&amp;itemTitle=James%20Beard%20Award%20Winners"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/james_beard_awa.html&amp;itemDate=2006-05-09%2007:33:00&amp;itemTitle=James%20Beard%20Award%20Winners" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Media</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-05-09T07:33:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/agenda_53_to_51.html">
+<title>Agenda: 5/3 to 5/9</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/agenda_53_to_51.html</link>
+<description>The Food Section is slowly recovering from a a sophisticated distributed denial of service attack on Six Apart, the company which provides the blogging software and hosting service for this website. Due to the disruption, an abbreviated version of this...</description>
+<content:encoded><![CDATA[<p><img height="80" src="http://www.thefoodsection.com/foodsection/agendabannerbcopy.jpg" width="350" border="0" /></p>
+
+<p>The Food Section<em> is slowly recovering from a <a href="http://www.sixapart.com/typepad/news/2006/05/typepad_update_1.html">&quot;a sophisticated distributed denial of service attack&quot;</a> on Six Apart, the company which provides the blogging software and hosting service for this website. Due to the disruption, an abbreviated version of this week's agenda follows below:</em></p>
+
+<p><strong>Today</strong>, nutritionist Marion Nestle, PhD, MPH, will discuss her new book <a href="http://www.aiwf.org/newyork/chapter_calendar/event.html?calendarevent_id=1426&amp;date=2006-05-3&amp;"><em>What to Eat</em></a> at New York University. <strong>Tonight</strong>, nonprofit organization Just Food will present<strong> </strong><a href="http://www.justfood.org/events/justkidding_06.html">Just Kidding</a>, a benefit event for the nonprofit organization. On <strong>Saturday</strong>, the Institute for Culinary Education will hold a<strong> </strong><a href="http://www.iceculinary.com/recreational/desserts">Cupcake Workshop</a> for aspiring Magnolians. On <strong>Sunday</strong> and <strong>Monday</strong>, the James Beard Foundation<strong>&nbsp;</strong>will present its annual <a href="http://www.jamesbeard.org/awards/index.shtml">awards program</a> for journalism and excellence in the culinary industry. Throughout the week, celebrants of <strong>Cinco de Mayo</strong> may find special holiday drinks and menus at <a href="http://www.myriadrestaurantgroup.com/">Centrico</a> and <a href="http://zocalonyc.com/">Zocalo</a> restaurants.</p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_53_to_51.html&amp;itemDate=2006-05-03%2007:29:00&amp;itemTitle=Agenda:%205/3%20to%205/9"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/agenda_53_to_51.html&amp;itemDate=2006-05-03%2007:29:00&amp;itemTitle=Agenda:%205/3%20to%205/9" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Agenda</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-05-03T07:29:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/05/edible_brooklyn.html">
+<title>Edible Brooklyn</title>
+<link>http://www.thefoodsection.com/foodsection/2006/05/edible_brooklyn.html</link>
+<description>Edible Communities, the national network of regional food magazines, has launched a Brooklyn edition published by the folks behind Edible East End, another Edible Communities publication covering the Hamptons and the North Fork. Of the new magazine, editor Gabrielle Langholtz...</description>
+<content:encoded><![CDATA[<p><img title="Edible Brooklyn" height="260" alt="Edible Brooklyn" src="http://www.thefoodsection.com/foodsection/images/ediblebrooklyn.jpg" width="350" border="0" /></p>
+
+<p><a href="http://www.ediblecommunities.com/">Edible Communities</a>, the national network of regional food magazines, has launched a Brooklyn edition published by the folks behind <em><a href="http://www.edibleeastend.com/">Edible East End</a></em>, another Edible Communities publication covering the Hamptons and the North Fork.</p>
+
+<p>Of the new magazine, editor Gabrielle Langholtz writes: &quot;<a href="http://ediblebrooklyn.net/"><em>Edible Brooklyn</em></a> is much more than glam shots and restaurant reviews. This is a magazine with an opinion, one that advocates for sustaining agriculture, for relishing tradition, for seeking out taste experiences, and for pulling back the curtain on where Brooklyn's food comes from and how it got here.&quot;</p>
+
+<p>The <a href="http://ediblebrooklyn.net/pages/articles/spring2006/spring06toc.htm">premier issue</a> include stories on smoked fish in Greenpoint, DUMBO's Jacques Torres Chocolates, and Gomberg Seltzer Works, one of the borough's last remaining seltzer delivery operations. Naturally, They Might Be Giants makes an appearance (this <em>is</em> a Brooklyn mag, after all) in an article cataloguing the contents of &quot;The Brooklyn Fridge&quot; of band member John Flansburgh.</p>
+
+<p><em>Edible Brooklyn</em>, published quarterly, is distributed for free at Brooklyn shops and restaurants and is available by subscription for $28 annually.</p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/edible_brooklyn.html&amp;itemDate=2006-05-01%2007:33:00&amp;itemTitle=Edible%20Brooklyn"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/05/edible_brooklyn.html&amp;itemDate=2006-05-01%2007:33:00&amp;itemTitle=Edible%20Brooklyn" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Media</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-05-01T07:33:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/04/agenda_426_to_5.html">
+<title>Agenda: 4/26 to 5/2</title>
+<link>http://www.thefoodsection.com/foodsection/2006/04/agenda_426_to_5.html</link>
+<description>1. A Life Uncorked, wine writer Hugh Johnson will sign copies of his latest book, A Life Uncorked, Thursday, April 27, 5:00 p.m. at Astor Wines Spirits, 399 Lafayette Street (212.674.7500). 2. Taste of the Lower East Side, annual tasting...</description>
+<content:encoded><![CDATA[<p><img height="80" src="http://www.thefoodsection.com/foodsection/agendabannerbcopy.jpg" width="350" border="0" /></p>
+
+<p>1. <a href="http://www.astorwines.com/events.cfm"><strong>A Life Uncorked</strong></a>, wine writer Hugh Johnson will sign copies of his latest book, <em>A Life Uncorked</em>, Thursday, April 27, 5:00 p.m. at Astor Wines &amp; Spirits, 399 Lafayette Street (212.674.7500).</p>
+
+<p>2. <a href="http://www.grandstreet.org/taste/index.html"><strong>Taste of the Lower East Side</strong></a>, annual tasting event featuring food and drink from more than 35 Lower East Side restaurants, benefiting the Grand Street Settlement's youth programs, Thursday, April 27, 7:00 to 11:00 p.m., at The Puck Building, 295 Lafayette Street. $120/person, tickets sold at the door (212.674.1740).</p>
+
+<p>3.<strong>&nbsp;</strong><strong><a href="http://www.bbg.org/exp/cherries/sakura_2006.html">Sakura Matsuri</a></strong>, the Brooklyn Botanic Garden's annual cherry blossom festival will feature a number of workshops and demonstrations on Japanese food -- from tofu to green tea and sweets, Saturday, April 29, and Sunday, April 30, at the Brooklyn Botanic Garden, 1000 Washington Avenue. Free, with admission to the Garden (718.623.7200).</p>
+
+<p>4. <a href="http://slowfoodnyc.org/apples/"><strong>Pippin Party</strong></a>, Slow Food NYC will host a day trip to the Stone Barns Center for Food and Agriculture to celebrate the planting of Newtown Pippin apple trees, the only American heirloom apples native to New York City, Saturday, April 29, 2:00 p.m. to 4:30 p.m. $25/Slow Food members, $35/non-members (apples@slowfoodnyc.org). </p>
+
+<p>5. <a href="http://www.joetheartofcoffee.com/"><strong>jen@joe: A Collaboration of Art + Coffee</strong></a>, Joe the Art of Coffee will hold an opening reception for an exhibit of photographs from the jen bekman gallery, Sunday, April 30, 2:00 to 4:00 p.m., at Joe the Art of Coffee, 9 East 13th Street (212.924.7400). </p>
+
+<p class="subhead">6.<strong>&nbsp;</strong><a href="http://www.diningfordarfur.org/index.htm"><strong>Dining for Darfur</strong></a>, restaurants participating in this charity dine out event will donate five percent of their sales on Sunday, April 30, to support the International Rescue Committee’s humanitarian relief efforts in Darfur. </p>
+
+<p>7. <a href="http://www.njdiningguide.net/TasteofTheNation/"><strong>Taste of the Nation: New Jersey</strong></a>, Share Our Strength’s annual fundraising event, featuring dishes from more than 40 New Jersey restaurants, will take place on Monday, May 1, 6:00 p.m., at The Madison Hotel, One Convent Road, Morristown, New Jersey. $75/in advance, $85/at the door (973.772.4474). </p>
+
+<p>8. <a href="http://www.savoynyc.com/"><strong>Fifth Annual Calçotada</strong></a>, Savoy restaurant will celebrate the return of spring with its version of Northern Spain’s Calçotada, a traditional community-based festival, Tuesday, May 2, 6:00 p.m., at Savoy restaurant, 70 Prince Street. $75/person, plus tax and gratuity (212.219.8570). </p>
+
+<p>9. <a href="http://dishdujourmagazine.com/events.html"><strong>The Cuisine of Queens &amp; Beyond</strong></a>, annual festival featuring dishes from more than 45 restaurants, gourmet shops, bakeries, and wine and beer companies, Tuesday, May 2, 6:00 p.m. to 9:00 p.m., at the Astoria World Manor, 25-22 Astoria Boulevard, Astoria. (718.777.7918).</p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/04/agenda_426_to_5.html&amp;itemDate=2006-04-26%2007:25:00&amp;itemTitle=Agenda:%204/26%20to%205/2"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/04/agenda_426_to_5.html&amp;itemDate=2006-04-26%2007:25:00&amp;itemTitle=Agenda:%204/26%20to%205/2" /></a>
+]]>
+</content:encoded>
+
+<dc:subject>Agenda</dc:subject>
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-04-26T07:25:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.thefoodsection.com/foodsection/2006/04/third_annual_ce.html">
+<title>Third Annual Central Park Flower Show</title>
+<link>http://www.thefoodsection.com/foodsection/2006/04/third_annual_ce.html</link>
+<description>It&apos;s that time of year where I get up early and -- camera in hand -- take a meandering walk through Central Park on the way to work in an attempt to capture the riot of spring color. Luckily, I...</description>
+<content:encoded><![CDATA[<p><a onclick="window.open(this.href, '_blank', 'width=637,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false" href="http://www.thefoodsection.com/.shared/image.html?/photos/uncategorized/centralparkflowershow_1.jpg"><img title="Third Annual Central Park Flower Show" height="263" alt="Centralparkflowershow_1" src="http://www.thefoodsection.com/foodsection/images/centralparkflowershow.jpg" width="350" border="0" /></a> </p>
+
+<p>It's that time of year where I get up early and -- camera in hand -- take a meandering walk through Central Park on the way to work in an attempt to capture the riot of spring color. Luckily, I took these photos last Thursday morning, when the weather was still beautiful. Who knows how these flowering trees fared after this wet and windy weekend.</p>
+
+<p>To view a slideshow, click on the link below:</p>
+
+<p>»<a href="http://www.flickr.com/photos/thefoodsection/sets/72057594115279499/show/" target="_blank"><strong>Third Annual Central Park Flower Show</strong></a> (slideshow)</p>
+
+<p><u>Previously:</u><br /><a href="http://www.thefoodsection.com/foodsection/2005/04/second_annual_c.html">Second Annual Central Park Flower Show</a><br /><a href="http://www.thefoodsection.com/foodsection/2004/04/shopping_list_s.html">Spring's Bounty</a></p>]]>
+<![CDATA[
+<br /><a href="http://www.pheedo.com/click.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/04/third_annual_ce.html&amp;itemDate=2006-04-24%2007:13:00&amp;itemTitle=Third%20Annual%20Central%20Park%20Flower%20Show"><img border="0" src="http://www.pheedo.com/img.phdo?feedUrl=http%3A//www.thefoodsection.com/foodsection/index.rdf&amp;itemLink=http://www.thefoodsection.com/foodsection/2006/04/third_annual_ce.html&amp;itemDate=2006-04-24%2007:13:00&amp;itemTitle=Third%20Annual%20Central%20Park%20Flower%20Show" /></a>
+]]>
+</content:encoded>
+
+
+<dc:creator>Josh Friedland</dc:creator>
+<dc:date>2006-04-24T07:13:00-04:00</dc:date>
+</item>
+
+
+</rdf:RDF>

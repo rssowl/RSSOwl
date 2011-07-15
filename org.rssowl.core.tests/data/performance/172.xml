@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>SimpleBits</title>
+<link>http://www.simplebits.com/</link>
+<description>Hand-crafted web sites, pixels and text by Dan Cederholm.</description>
+<managingEditor>dan@simplebits.com</managingEditor>
+<language>en-us</language>
+<copyright>Copyright 1999-2005, SimpleBits</copyright>
+<lastBuildDate>Mon, 22 May 2006 21:46:31 -0500</lastBuildDate>
+<generator>http://www.movabletype.org/?v=3.15</generator>
+<webMaster>dan@simplebits.com</webMaster>
+
+<item>
+<title>SlideShowPro Director</title>
+<link>http://www.simplebits.com/notebook/2006/05/22/sspd.html</link>
+<description><![CDATA[Todd Dominey's new photo adminstration app for <abbr title="SlideShowPro">SSP</abbr>. Also loving the redesigned supporting site. <a href="http://slideshowpro.net/product_sspdir.php">Visit site</a>]]></description><guid isPermaLink="false">1029@http://www.simplebits.com/</guid>
+<pubDate>Mon, 22 May 2006 21:46:31 -0500</pubDate>
+</item>
+<item>
+<title>Introducing Cork&apos;d</title>
+<link>http://www.simplebits.com/notebook/2006/05/17/corkd.html</link>
+<description><![CDATA[<p>I like wine.  I've even touted it's ability to act as a <a href="http://www.simplebits.com/notebook/2005/01/19/wine.html" title="Wine as a Work Enhancer">design enhancer</a>.  The problem with wine (for me, and for many) is knowing what's <em>good</em>.  There are infinite choices out there.  It's overwhelming.  Oftentimes, I lean on the suggestions from friends -- people that probably know more about wine than I do.</p>
+
+<p>When I finally find a wine that I like, it's always impossible to remember it for the next trip to the store.  Some people keep a journal, writing down what they thought about the wine in a notebook.  But wouldn't it be great if you could do this online?  And wouldn't it be also great if we could share those lists with our friends through a simple, free interface?  And while we're at it, wouldn't it be the bomb.com if this same interface allowed you to review the wine, tag it, and set up lists for wines that you want to buy or that you own in your cellar?</p>
+
+<p><a href="http://corkd.com/"><img src="http://www.simplebits.com/img/corkd-logo-sm.gif" width="95" height="46" alt="Cork'd" class="thumb alt" /></a>Introducing <a href="http://corkd.com/">Cork'd</a>.  A brand-spanking new site devoted to reviewing and sharing wine created by <a href="http://hivelogic.com/">Dan Benjamin</a> and myself.  We've been working on this for quite some time.  Just the two of us.  Call us the <a href="http://www.tvacres.com/admascots_bartles.htm">Bartles &amp; Jaymes</a> of the wine web world (wait, no, don't do that).</p>
+
+<h3>What is Cork'd?</h3>
+
+<p><a href="http://corkd.com/"><img src="http://www.simplebits.com/img/corkd-screen-150.gif" width="150" height="121" alt="Cork'd screenshot" class="thumb" /></a>The basic gist of Cork'd is this: after painlessly creating a <strong>free</strong> account, you're able to keep track of wines you've tried in your <strong>Wine Jounal</strong>.  You can rate, review and tag wines (more on that below), and these "tasting notes" end up attatched as comments to each wine in our database.  You can also build a <strong>Shopping List</strong> of wines you'd like to buy (think of this like you would a <a href="http://netflix.com/">Netflix</a> queue), and a <strong>Wine Cellar</strong> for wines that you own.  Keeping track of what your friends are tasting is as easy as adding them as a <strong>Drinking Buddy</strong>.  You can also recommend wines to your buddies after you've rated and reviewed a bottle.</p>
+
+<p>We have a partnership set up through <a href="http://click.linksynergy.com/fs-bin/click?id=XeMW/JRwLV4&amp;offerid=47355.10000233&amp;type=3&amp;subid=0">wine.com</a>, where a selection of their bottles have seeded the Cork'd database with about 1200 wines (which will grow as members add their own bottles), each with a link to buy that wine right away.  But we can also see other cross-promotional opportunities by getting involved in the meat-space wine community.  There are endless ideas flowing about connecting with wineries and vineyards, other wine blogs and podcasts.  We're really looking forward to watching it all grow.</p>
+
+<h3>Tasting Tags</h3>
+
+<p>The idea of <em>tagging</em> a <em>wine</em> may sound absurd -- but when we started to realize the benefits, it became a must-have.  We call them <a href="http://corkd.com/tags/">tasting tags</a>, and by applying keywords like "oak, pepper, vanilla, berry" to a wine, we're then making it easy to find similar wines based on those flavors.  If you like oaky wines, for instance, then it should be easy to find them.</p>
+
+<h3>Why and How</h3>
+
+<p>What's funny about Cork'd when looking at it for the first time, is that it's pulling in many of the current technologies that have been brewing out there, and applies them to... <em>wine</em>.  And why not?  This is something Dan B. and I built quite simply <strong>because we wanted to use it</strong>.  We'd been trading favorite bottles, realizing there would be an incredible benefit to keep track of things through a web interface, building a community around it, and making it easy to subscribe to buddies and wine lists.  It had to be.</p>
+
+<p>It'll also be interesting to continue to talk about what we learned by building a web application with a team of 2.  Working with Dan B. is a natural fit, as our areas of expertise overlap only slightly (design/ui/development), and where they do overlap actually made things run all the smoother.  I was continually amazed by the way Dan approached building the app in <a href="http://rubyonrails.com/">Ruby on Rails</a>, the speed, the structure, the way he thinks about a problem for a while, then takes all of about 3 minutes to write the working code -- he's a developer who <em>designs</em> in code.  And I'm sure he'll have much to write about regarding the process, including his already-published <a href="http://hivelogic.com/articles/2006/05/17/corkd">thoughts on the launch over at Hivelogic</a> (far more thorough than mine).</p>
+
+<p>This was a giant learning experience for me in terms of dipping my toes in Rails, becoming more familiar with <a href="http://subversion.tigris.org/">Subversion</a> (more on this later), and in using these tools as a <em>collaborative</em> and <em>iterative</em> way of building a web application.  It's a gratifying way for a designer to work on a large project, chipping away at things in real time, using real data -- it's a bit like sculpting.  An <em>evolution</em>.</p>
+
+<h3>Go Forth and Uncork</h3>
+
+<p>I'm excited to share much more about the site over the coming weeks and months, and we'll be rolling out some additional features and tweaks. But until then, if you dig wine (or want to <em>start</em> digging wine), then head on over and, um ... <em>uncork</em> -- <a href="http://corkd.com/">Cork'd</a>.]]></description>
+<guid isPermaLink="false">1027@http://www.simplebits.com/</guid>
+<pubDate>Wed, 17 May 2006 09:59:35 -0500</pubDate>
+</item>
+<item>
+<title>Markup automation in TextMate</title>
+<link>http://www.simplebits.com/notebook/2006/05/11/textmate.html</link>
+<description><![CDATA[Quicktime screencast of some incredibly handy tag automation key commands.  As a long-time BBEdit user, I'm testing the waters. <a href="http://macromates.com/screencast/insert_html_tags.mov">Visit site</a>]]></description><guid isPermaLink="false">1028@http://www.simplebits.com/</guid>
+<pubDate>Thu, 11 May 2006 23:33:22 -0500</pubDate>
+</item>
+<item>
+<title>Boo Boo Walker t-shirt</title>
+<link>http://www.simplebits.com/notebook/2006/05/09/atat.html</link>
+<description><![CDATA[An AT-AT with a lampshade collar.  Printed on a t-shirt. <a href="http://preshrunk.info/2006/05/boo-boo-walker.php">Visit site</a>]]></description><guid isPermaLink="false">1026@http://www.simplebits.com/</guid>
+<pubDate>Tue, 09 May 2006 20:05:06 -0500</pubDate>
+</item>
+<item>
+<title>Bare Naked App</title>
+<link>http://www.simplebits.com/notebook/2006/05/09/amigo.html</link>
+<description><![CDATA[The Carsons are blogging the building of their next web app. <a href="http://www.barenakedapp.com/">Visit site</a>]]></description><guid isPermaLink="false">1025@http://www.simplebits.com/</guid>
+<pubDate>Tue, 09 May 2006 16:17:53 -0500</pubDate>
+</item>
+<item>
+<title>Eye tracking heat maps</title>
+<link>http://www.simplebits.com/notebook/2006/05/09/heatmaps.html</link>
+<description><![CDATA[Etre is rolling out heat maps that show where the eye focuses for 5 different case studies. <a href="http://www.etre.com/blog/2006/05/five_days_five_heatmaps/">Visit site</a>]]></description><guid isPermaLink="false">1024@http://www.simplebits.com/</guid>
+<pubDate>Tue, 09 May 2006 15:19:43 -0500</pubDate>
+</item>
+<item>
+<title>TinkerTool</title>
+<link>http://www.simplebits.com/notebook/2006/05/08/tinkertool.html</link>
+<description><![CDATA[OS X app that does a lot of preference customization, but worth the download alone for the speeding up of animated sheets (especially in Safari). Via <a href="http://hivelogic.com/">Dan B.</a> <a href="http://www.bresink.de/osx/TinkerTool.html">Visit site</a>]]></description><guid isPermaLink="false">1023@http://www.simplebits.com/</guid>
+<pubDate>Mon, 08 May 2006 16:11:28 -0500</pubDate>
+</item>
+<item>
+<title>Oddica</title>
+<link>http://www.simplebits.com/notebook/2006/05/07/oddica.html</link>
+<description><![CDATA[Looks to be a hip new t-shirt shop, opening later this month.  Great designs, and a generous royalty for artists. Via <a href="http://k10k.net/">k10k</a>. <a href="http://www.oddica.com/">Visit site</a>]]></description><guid isPermaLink="false">1022@http://www.simplebits.com/</guid>
+<pubDate>Sun, 07 May 2006 08:00:46 -0500</pubDate>
+</item>
+<item>
+<title>US Postal Stamps Desktops</title>
+<link>http://www.simplebits.com/notebook/2006/05/05/stamps.html</link>
+<description><![CDATA[Stamps are tiny.  These are big.  Some are a bit busy for a desktop, but old stamps are fascinating. <a href="http://www.crawlspacemedia.com/desktops.html">Visit site</a>]]></description><guid isPermaLink="false">1021@http://www.simplebits.com/</guid>
+<pubDate>Fri, 05 May 2006 10:15:43 -0500</pubDate>
+</item>
+<item>
+<title>Is Lost a Repeat?</title>
+<link>http://www.simplebits.com/notebook/2006/05/04/islostarepeat.html</link>
+<description><![CDATA[Incredibly focused and useful.  And with RSS feed, of course. Via <a href="http://weblog.muledesign.com/">Mule Design</a>. <a href="http://www.islostarepeat.com/">Visit site</a>]]></description><guid isPermaLink="false">1020@http://www.simplebits.com/</guid>
+<pubDate>Thu, 04 May 2006 21:21:07 -0500</pubDate>
+</item>
+<item>
+<title>The Only Song You&apos;ll Need to Learn on the Ukulele</title>
+<link>http://www.simplebits.com/notebook/2006/05/04/onesong.html</link>
+<description><![CDATA[<p>Esteemed readers that haven't left while I've found little to write about lately, may remember the time that I listed out the <a href="http://www.simplebits.com/notebook/2006/01/23/ukulele.html">Reasons I've Purchased a Ukulele</a>.  I can report that it's still the best $39.99 I've ever spent.  Little Jack goes into a hypnotic trance whenever I bust it out, and it's so light and portable, it's easy to juggle it with whatever else you're doing.</p>
+
+<p>But the main reason I return to this fascinating topic, is that I've found the <strong>one and only song</strong> you need to learn in order to sound like a soprano ukulele pro.  One song only:  <cite><a href="http://www.alligatorboogaloo.com/uke/tabs/030607.html">I'll Follow the Sun</a></cite> by the Beatles (perhaps you've heard of them).</p>
+
+<p>Once you learn C - C7, D7 - G7, and F - Fm transitions.  You can start mixing and matching these to instantly sound like a Hawaiian ragtime virtuoso.  Seriously!  Also, by learning this one song, you can play others, like <cite>Proud Mary</cite>, <cite>Ring of Fire</cite> or <cite>Puff the Magic Dragon</cite> (I know, I know... but Jack loves 'em).</p>
+
+<p>So that's it.  If you're a recent or future ukulele owner, learn this one song, and off you go into 4-string stardom.</p>
+
+<p><a href="http://odeo.com/channel/3930/view"><img src="http://odeo.com/img/badge-channel-black-big.gif" border="0" width="80" height="50" alt="My Odeo Podcast" class="thumb plain" /></a><strong class="alert">Update:</strong> I've recorded a little tune I like to call "<a href="http://odeo.com/audio/1144472/view">Jackulele</a>" over at Odeo.  My first podcast, and hopefully not my last.  The song uses all the chords from the aforementioned Beatles selection, with a few other experimentations.  It's a bit rough, but is always a crowd pleaser (to a crowd of one.  One that is 5 months old).</p>]]></description>
+<guid isPermaLink="false">1019@http://www.simplebits.com/</guid>
+<pubDate>Thu, 04 May 2006 17:28:56 -0500</pubDate>
+</item>
+<item>
+<title>Seonna Hong</title>
+<link>http://www.simplebits.com/notebook/2006/05/03/seonnahong.html</link>
+<description><![CDATA[Wonderful artwork.  <a href="http://www.timbiskup.com/index.html">Tim Biskup</a> is apparently her husband, equally talented.  They must fight about what hangs on their walls. <a href="http://www.seonnahong.com/">Visit site</a>]]></description><guid isPermaLink="false">1018@http://www.simplebits.com/</guid>
+<pubDate>Wed, 03 May 2006 22:37:36 -0500</pubDate>
+</item>
+<item>
+<title>Semplice Pixelfonts</title>
+<link>http://www.simplebits.com/notebook/2006/05/02/pixelfonts.html</link>
+<description><![CDATA[Free pixel fonts.  And very nice ones at that. Via <a href="http://www.whatdoiknow.org/">wdik</a>. <a href="http://pixelfonts.style-force.net/">Visit site</a>]]></description><guid isPermaLink="false">1017@http://www.simplebits.com/</guid>
+<pubDate>Tue, 02 May 2006 14:29:13 -0500</pubDate>
+</item>
+<item>
+<title>CSS Love Child</title>
+<link>http://www.simplebits.com/notebook/2006/05/02/lovechild.html</link>
+<description><![CDATA[Splice the body of one site, with the face of another.  If only there were more <code>class</code>/<code>id</code> naming conventions. <a href="http://themaninblue.com/writing/perspective/2006/04/24/">Visit site</a>]]></description><guid isPermaLink="false">1016@http://www.simplebits.com/</guid>
+<pubDate>Tue, 02 May 2006 11:23:04 -0500</pubDate>
+</item>
+<item>
+<title>Start Small</title>
+<link>http://www.simplebits.com/notebook/2006/04/29/mini.html</link>
+<description><![CDATA[A mini is all you need. <a href="http://flickr.com/photos/x180/88508138/">Visit site</a>]]></description><guid isPermaLink="false">1015@http://www.simplebits.com/</guid>
+<pubDate>Sat, 29 Apr 2006 09:30:43 -0500</pubDate>
+</item>
+
+</channel>
+</rss>

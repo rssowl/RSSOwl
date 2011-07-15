@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>Apple Support - Most Recent Mac OS X Articles</title>
+<link>http://www.apple.com/support/</link>
+<description>Apple Support - Most Recent Mac OS X Articles from Apple Computer, Inc.</description>
+<language>en-us</language>
+<copyright>Copyright 2005 Apple Computer, Inc.</copyright>
+<ttl>1440</ttl>
+<pubDate>Wed, 24 May 2006 12:18:03 -0500</pubDate>
+<category>Apple</category>
+<generator>In house</generator>
+<image>
+<title>red apple</title>
+<url>http://www.info.apple.com/images/red-ac-apple.gif</url>
+<link>http://www.apple.com/support/</link></image>
+<item>
+<title><![CDATA[About Security Update 2006-003]]></title>
+<description>Release date: Wed, 17 May 2006 14:10:10 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303737</link>
+<content:encoded><![CDATA[<P>This document describes Security Update 2006-003, which can be downloaded and installed via <a href="http://docs.info.apple.com/article.html?artnum=106704">Software Update</a> preferences, or from <a href="http://www.apple.com/support/downloads/">Apple Downloads</a>.</p><P>For the protection of our customers, Apple does not disclose, discuss, or confirm security issues until a full investigation has occurred and any necessary patches or releases are available. To learn more about Apple Product Security, see the <a href="http://www.apple.com/support/security/">Apple Product Security</a> website. </p> <P> For information about the Apple Product Security PGP Key, see "<a href="http://docs.info.apple.com/article.html?artnum=25314">How to use the Apple Product Security PGP Key</a>." </p> <P>Where possible, <a href="http://cve.mitre.org/cve/">CVE IDs</a> are used to reference the vulnerabilities for further ]]></content:encoded>
+<pubDate>Wed, 17 May 2006 14:10:10 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac Maintenance Quick Assist]]></title>
+<description>Release date: Mon, 15 May 2006 17:19:19 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303602</link>
+<content:encoded><![CDATA[<p><img src="http://www.info.apple.com/images/kbase/303602/303602_1.gif" width="68" height="65" alt="Mac Maintenance Quick Assist" border="0" class="imgleft">
+				The best way to keep your Mac (and you) happy is to update your system software periodically and perform some regular maintenance. As a Mac user, you won't have to do windows, but you will need to do some housekeeping! Think of this as your handy survival guide to computing happiness. Here are our Top Tips to getting your Mac organized and up to snuff.
+		  </p>
+
+				
+			<h4 class="topicheader"><a name="trouble"></a>Top Tips to Keep Your Mac in Top Form</h4> 
+				<p>
+					<span class="bulletheader">1) Keep Things Up to Date</span> 
+						<br>
+						Make it a point to check for ]]></content:encoded>
+<pubDate>Mon, 15 May 2006 17:19:19 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[iMovie HD 6: Clips in Trash after closing project with Mac OS X 10.3.9]]></title>
+<description>Release date: Mon, 15 May 2006 09:35:19 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303745</link>
+<content:encoded><![CDATA[
+<p>You may find that your changes were not saved after reopening a project you were working on earlier. Some of the clips you were working on may be found in the iMovie Trash. </p> 
+
+<p>This happens if you closed the document and then clicked Save when iMovie HD prompted you to save changes.</p>
+    <p>To avoid this issue, save your iMovie project (<strong>File &gt; Save Project</strong> or Command-S) before closing the iMovie window.</p>
+    <h4>Products affected</h4>
+    <ul>
+        <li>iMovie HD 6</li>
+       ]]></content:encoded>
+<pubDate>Mon, 15 May 2006 09:35:19 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS: Versions, builds included with Intel-based Macs ]]></title>
+<description>Release date: Fri, 12 May 2006 12:19:27 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303315</link>
+<content:encoded><![CDATA[ 
+<p>
+	Learn the version(s) of Mac OS X included with Intel-based Macs.
+</p>
+<p>
+	<b>Important</b>: You cannot normally use a Mac OS version <a href="http://docs.info.apple.com/article.html?artnum=25497">earlier than the one included with the computer</a>. 
+</p>
+<p>
+	If you have a PowerPC-based Mac, see <a href="http://docs.info.apple.com/article.html?artnum=25517">this article</a> instead.
+</p>
+<h4>Notes</h4> 
+<ol>
+	<li>
+		Some computers shipped with different Mac OS X versions at different times. When a computer was not bundled with a later version, a &quot;-&quot; appears in the &quot;Later Mac OS included&quot; column.
+	</li>
+	<li>
+		The build information is available in the <a href="http://docs.info.apple.com/article.html?artnum=106176">About This Mac</a> window.
+	</li>
+	<li>
+		Some computers may include a slightly later <I>build</i> version (but same numbered version) of Mac OS X on ]]></content:encoded>
+<pubDate>Fri, 12 May 2006 12:19:27 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Apple security updates]]></title>
+<description>Release date: Thu, 11 May 2006 15:20:25 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=61798</link>
+<content:encoded><![CDATA[<P>This document outlines security updates for Apple products.  For the protection of our customers, Apple does not disclose, discuss or confirm security issues until a full investigation has occurred and any necessary patches or releases are available. To learn more about Apple Product Security, see the Apple Computer <A HREF="http://www.info.apple.com/usen/security/index.html">Product Security Incident Response website</A>. <P> <B>Important</B>: This document describes updates and releases for January 25, 2005 <I>and later</I>, such as Security Update 2005-001.  For information about earlier security updates, see these documents:<ul><li><A HREF="http://www.info.apple.com/kbnum/n300667">Apple security updates (03-Oct-2003 to 11-Jan-2005)</A></li><li><A HREF="http://www.info.apple.com/kbnum/n25631">Apple security updates (August, 2003 and earlier)</A></li></ul><b>Obtaining Mac OS X</b><br><br>Information ]]></content:encoded>
+<pubDate>Thu, 11 May 2006 15:20:25 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X 10.4: Can't bind to a Directory Service with hyphen in computer name]]></title>
+<description>Release date: Wed, 10 May 2006 19:53:27 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303733</link>
+<content:encoded><![CDATA[
+
+<p>
+You may not be able to join, or bind to, a Directory Domain such as LDAP or Active Directory if your computer name contains a hyphen. 
+</p>
+
+<p>
+To allow binding, use a computer name that does not contain a hyphen. 
+</p>
+
+
+ ]]></content:encoded>
+<pubDate>Wed, 10 May 2006 19:53:27 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X 10.4: Pasting a phone number into a Fax dialog sheet with some applications]]></title>
+<description>Release date: Wed, 10 May 2006 13:54:13 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=302918</link>
+<content:encoded><![CDATA[
+<p>If you're trying to fax from an application in Mac OS X 10.4, but can't successfully paste a phone number into the To: field of the Fax dialog sheet, use this workaround: Control-click the To: field (or right-click with a multi button mouse), then choose Paste from the contextual pop-up menu. </p> 
+
+<BR><IMG SRC="http://www.info.apple.com/images/kbase/302918/302918_1.jpg"><BR>
+ 
+
+<p>This document will be updated as more information becomes available.</p>  ]]></content:encoded>
+<pubDate>Wed, 10 May 2006 13:54:13 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Final Cut Pro and Final Cut Express: File in use error when rendering]]></title>
+<description>Release date: Tue,  9 May 2006 13:56:46 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=302790</link>
+<content:encoded><![CDATA[<p><strong>Note</strong>: This can also affect Final Cut Express. The workaround remains the same. </p> 
+<p>Spotlight, introduced with Mac OS X 10.4 Tiger, allows you to quickly perform searches for your files, not only by their names, but also by content and context. To do this, Spotlight keeps track of all your files. Every time you add or change a file, Spotlight indexes details about that file's qualities so that you can search for it later. Spotlight does this indexing all the time, while you're using your computer.</p>    <p>Since Spotlight is part of Mac OS X, it's able ]]></content:encoded>
+<pubDate>Tue,  9 May 2006 13:56:46 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X: Low battery alert does not appear over full-screen application, keyboard becomes unresponsive]]></title>
+<description>Release date: Mon,  8 May 2006 13:13:31 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303650</link>
+<content:encoded><![CDATA[
+<p>
+If your battery gets low when using an application that fills the entire display on a portable Mac (that is, the Mac OS X menu bar is not visible), you will not see the low battery alert warning. This article applies to Mac OS X 10.2 or later on an iBook, PowerBook, or MacBook Pro computer.</p>
+
+<P>When this happens, your built-in keyboard and trackpad may become unresponsive.</p>
+
+<h4>Solution</h4>
+
+<P>Simply connect your computer to an AC outlet to recharge the battery. If your AC adapter is not handy, connect an external keyboard and mouse to your computer to see and dismiss the low battery ]]></content:encoded>
+<pubDate>Mon,  8 May 2006 13:13:31 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[QuickTime 7 Player: About A/V Controls]]></title>
+<description>Release date: Fri,  5 May 2006 17:27:46 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=301589</link>
+<content:encoded><![CDATA[<p>QuickTime 7 Player features a new window called A/V Controls that allows you to control aspects of the audio and video being played—from the <strong>Window</strong> menu, choose <strong>Show A/V Controls</strong>. With these controls, you can easily adjust the sound balance and volume, and make changes to the bass and treble response.</p>
+    <p>A handy slider lets you set playback speed from 1/2x to 3x the normal speed. And by using the new Jog Shuttle, you can adjust the speed at which you search through individual movie frames.</p>
+<p> If you are running QuickTime 7 on Mac OS X 10.3 ]]></content:encoded>
+<pubDate>Fri,  5 May 2006 17:27:46 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[iChat: Audio or video connection does not end when you go offline or log out of AIM, Jabber, or Bonjour]]></title>
+<description>Release date: Thu,  4 May 2006 15:37:49 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303624</link>
+<content:encoded><![CDATA[
+<p>After an audio or video conference in <a href="http://docs.info.apple.com/article.html?artnum=25748">iChat</a>, your audio or video continues to be sent to the person you were chatting with if you log out of iChat or set your iChat status to Offline. This can happen when chatting via voice or video with a buddy from your AIM, Bonjour, or Jabber buddy lists.</p>
+
+</p><B>Solution:</b> Close the chat window, or quit iChat, to stop transmitting audio or video to your buddy. </p> 
+
+<h4>Additional information</h4>
+
+<p>This happens because iChat establishes a direct peer-to-peer (or peers) network connection for audio or video chats. Once the direct connection is established, audio and/or ]]></content:encoded>
+<pubDate>Thu,  4 May 2006 15:37:49 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X: FileVault-protected Home shows less capacity than what's available on the hard disk]]></title>
+<description>Release date: Thu,  4 May 2006 15:03:16 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303617</link>
+<content:encoded><![CDATA[
+
+<p>If you <a href="http://docs.info.apple.com/article.html?path=Mac/10.4/en/mh1642.html">move</a> (or migrate) a <a href="http://docs.info.apple.com/article.html?path=Mac/10.4/en/mh1877.html">FileVault</a>-protected account (home directory) to a Mac that has more hard disk capacity, the space available within the protected account will be less than the actual space available on the hard disk. FileVault is a feature of Mac OS X 10.3 or later. </p> <p>To make more space available for the protected account, follow these steps:</p> <p><b>Tip</b>: <a href="http://docs.info.apple.com/article.html?artnum=106941">Back up</a> the contents of your Home before starting the process—if security is a concern, create an <a href="http://docs.info.apple.com/article.html?path=DiskUtility/10.5/en/duh1954.html">encrypted disk image</a> on your destination volume and copy files to it. You can choose <b>Home</b> ]]></content:encoded>
+<pubDate>Thu,  4 May 2006 15:03:16 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Using Disk Utility and fsck to resolve startup issues or perform disk maintenance]]></title>
+<description>Release date: Wed,  3 May 2006 12:28:21 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=106214</link>
+<content:encoded><![CDATA[
+
+<p>If your computer won't start up normally, you may need to use a disk repair utility to fix the issue. Mac OS X includes two utilities for this&mdash;Disk Utility and fsck. You can also use these even when your computer starts just fine but you want to check the disk for possible file system issues. For Mac OS X 10.4.3 or later, check out &quot;About live verification in Mac OS X 10.4.3 or later,&quot; below. </font></p>
+
+<P><b>Note</b>: If you're using Mac OS X 10.4 or later, you should use <a href="http://docs.info.apple.com/article.html?artnum=301170">Disk Utility</a> instead of fsck, whenever possible. 
+<P>In some situations, file ]]></content:encoded>
+<pubDate>Wed,  3 May 2006 12:28:21 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X Server 10.4: Third-party clients cannot see contents of NFS export]]></title>
+<description>Release date: Tue,  2 May 2006 22:30:32 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303696</link>
+<content:encoded><![CDATA[<p>
+HFS Plus file systems exported by Mac OS 10.4 and later use 64-bit values in the NFSv3 READDIR cookies. Some clients running non-Apple operating systems may only be able to handle 32-bit values in the NFSv3 64-bit READDIR cookies. These clients will not see the full contents of NFS shares exported by a Mac OS X 10.4 Server.
+</p>
+
+<p>
+To resolve the issue, use one of these two solutions:
+</p>
+
+<ul type="disc">
+<li>Export the NFS directory using the "-32bitclients" option. <b>Note:</b> This requires Mac OS X Server 10.4.3 or later.<br><br><b>-- Or --</b><br><br></li>
+<li>Have the client OS access the share using NFSv2 (which only has 32-bit READDIR ]]></content:encoded>
+<pubDate>Tue,  2 May 2006 22:30:32 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[iDVD: Keyboard Shortcuts fail to open from Help menu in Mac OS X 10.3.9]]></title>
+<description>Release date: Tue,  2 May 2006 10:31:37 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303702</link>
+<content:encoded><![CDATA[    <p>In iDVD you can access a list of keyboard shortcuts by choosing iDVD Shortcuts from the Help menu. If you are using iDVD 5 or 6 with Mac OS X 10.3.9, choosing this menu item will open a blank page.</p>
+    <p>To access the keyboard shortcuts, try one of the following workarounds:</p>
+    <h4>Search for keyboard shortcuts</h4>
+    <ol>
+        <li>Open iDVD.</li>
+        <li>From the Help menu, choose <strong>iDVD Help</strong>.</li>
+        <li>Type ]]></content:encoded>
+<pubDate>Tue,  2 May 2006 10:31:37 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X 10.4.6: Applications silently fail to open, or you see "error: can't fragload" ]]></title>
+<description>Release date: Tue,  2 May 2006 10:27:24 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303681</link>
+<content:encoded><![CDATA[
+<p>After installing the <a href="http://docs.info.apple.com/article.html?artnum=25799">smaller-sized delta</a> (or &quot;patch&quot;) version of the Mac OS X 10.4.6 Update on a PowerPC-based Mac, a few applications may:</p>
+<ul>
+	<li>Fail to open, without an alert message, <b>or</b></li>
+	<li>Display the alert message &quot;error: can't fragload&quot;, <b>or</b></li>
+	<li>&quot;err -2804&quot; messages appear in the Console log. </li>
+</ul>
+<p><b>Note</b>: If you want to see if you installed the smaller-sized delta version of the Mac OS X 10.4.6 Update, see <a href="http://docs.info.apple.com/article.html?artnum=25799">this article</a> and look for a MacOSXUpd10.4.6PPCPatch.pkg file in your Receipts folder. If you don't have this &quot;PPCPatch&quot; file, this article does not apply to you. Note that not all delta updates are ]]></content:encoded>
+<pubDate>Tue,  2 May 2006 10:27:24 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X Server 10.4.6: Changes in server hostname discovery]]></title>
+<description>Release date: Mon,  1 May 2006 13:26:11 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303697</link>
+<content:encoded><![CDATA[<p>
+Mac OS X Server 10.4.6 improves server hostname discovery and error reporting. This article summarizes the changes. 
+</p>
+
+<h4>Automatic hostname storage</h4>
+
+<p>
+The hostname will automatically be stored to System Configuration the first time it is detected via a DNS lookup.
+</p>
+
+<ul type="disc">
+<li>servermgrd will attempt to look up the hostname of the server in DNS based on its primary IP address, when the hostname has not been set. If it finds a name, it will store that name in System Configuration.</li>
+<li>This prevents the host booting with a ".local" name when the network is not up in time or there is boot timing issue due ]]></content:encoded>
+<pubDate>Mon,  1 May 2006 13:26:11 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X (German): Mail unexpectedly quits when customizing a new message]]></title>
+<description>Release date: Mon,  1 May 2006 12:50:47 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303604</link>
+<content:encoded><![CDATA[
+
+<p>Mail may unexpectedly quit in the German language version of Mac OS X if you create a new message, then choose Customize from the pop-up menu that appears next to &quot;Accounts&quot;. For example, you might want to use this menu to try to show the &quot;Blindkopie&quot; field or to set message priority. </p>
+
+<h4>Solution</h4> 
+
+<p>Instead of the pop-up menu, use the <b>View</b> menu to view fields such as &quot;Blindkopie&quot; and &quot;Antwort an&quot;. To set message priority, choose <b>Mark</b> from the <b>Message</b> menu.
+
+<p>This document will be updated as more information becomes available.</p>
+
+ ]]></content:encoded>
+<pubDate>Mon,  1 May 2006 12:50:47 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Mac OS X: Displaying menus and dialogs in different languages]]></title>
+<description>Release date: Thu, 27 Apr 2006 16:57:43 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=303588</link>
+<content:encoded><![CDATA[
+<p>The <a href="http://docs.info.apple.com/article.html?artnum=25809">Finder</a> and applications included with Mac OS X 10.1 or later can  display menus and dialog text in any of these fifteen languages:</p> <ul> <li>English</li> <li>Japanese</li> <li>French</li> <li>German</li> <li>Spanish</li> <li>Italian</li> <li>Dutch</li> <li>Swedish</li> <li>Norwegian</li> <li>Danish</li> <li>Finnish</li> <li>Portuguese</li> <li>Chinese (Simplified)</li> <li>Chinese (Traditional)</li> <li>Korean</li> </ul> <p>The <a href="http://docs.info.apple.com/article.html?path=Mac/10.4/en/mh163.html">order</a> of  languages used by an application is set in  <a href="http://docs.info.apple.com/article.html?path=Mac/10.4/en/mh1615.html">International</a> preferences.  If an application is not localized (translated) for the first language in the list, it will use the next available language in the list.</p> <p>You can add languages  to the International preferences list by clicking  ]]></content:encoded>
+<pubDate>Thu, 27 Apr 2006 16:57:43 -0500</pubDate>
+</item>
+<item>
+<title><![CDATA[Power Mac G5: DVD video freezes or stutters, audio cuts out with Digital Audio Output enabled]]></title>
+<description>Release date: Wed, 26 Apr 2006 11:21:06 -0500</description>
+<link>http://docs.info.apple.com/article.html?artnum=32476</link>
+<content:encoded><![CDATA[
+<P>When &quot;Digital Audio Output&quot; is selected in DVD Player preferences, video may freeze or stutter, or audio may cut out after you pause a movie. This document applies to:</p> <ul> <li>Mac OS X 10.3 through 10.3.2</li> <li>DVD Player 4.0</li> <li>Power Mac G5 (Dual 2.0 Ghz) computers<br /> <br /> </li> </ul> <P><B>Solution</B><BR> <BR> <a href="http://docs.info.apple.com/article.html?artnum=106704">Download and install</a> the Mac OS X 10.3.3 Update or later to avoid this issue.<BR> <BR> If you're not ready to update, as a workaround, you can forward (fast forward) a few seconds, then resume playback. If that does not solve the issue, switch to &quot;System ]]></content:encoded>
+<pubDate>Wed, 26 Apr 2006 11:21:06 -0500</pubDate>
+</item>
+</channel>
+</rss>

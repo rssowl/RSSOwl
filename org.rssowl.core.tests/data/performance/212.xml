@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="http://sports.espn.go.com/rss/friendlyRSSDemo.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" 	xmlns:dc="http://purl.org/dc/elements/1.1/"	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"	xmlns:admin="http://webns.net/mvcb/"	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"	xmlns:atom="http://purl.org/atom/ns#"	xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+	<title>ESPN.com</title>
+	<link>http://espn.go.com/</link>	<description>Latest news from ESPN.com</description>
+	<language>en-us</language>
+   <atom:link rel="self" href="http://sports.espn.go.com/espn/rss/news?null" />
+	<lastBuildDate>Wed, 24 May 2006 14:38:53 PDT</lastBuildDate>
+	<docs>http://backend.userland.com/rss</docs>
+	<managingEditor>webmaster@espn.go.com</managingEditor>
+ <image> 
+     <url>http://espn-att.starwave.com/i/tvlistings/tv_espn_original.gif</url>
+	<title>ESPN logo</title>
+	<link>http://espn.go.com</link>
+	<width>84</width>
+	<height>34</height>
+ </image> 
+ <ttl>30</ttl> 
+	<dc:rights>Copyright 2006</dc:rights>
+	<admin:generatorAgent rdf:resource="http://espn.go.com/rss/?v=0.9beta"/>
+	<admin:errorReportsTo rdf:resource="mailto:customer.service@espn.go.com"/>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+<item>
+<dc:creator><![CDATA[Rob Neyer]]></dc:creator>
+<title><![CDATA[Baseball Blunders: Braves sign Babe]]></title>
+<description><![CDATA[In an excerpt from his "Big Book of Baseball Blunders," Rob Neyer writes on the Braves' signing of Babe Ruth in 1935.]]></description>
+<pubDate>Tue, 23 May 2006 10:11:26 PDT</pubDate>
+<guid>http://sports.espn.go.com/mlb/news/story?id=2438825&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/mlb/news/story?id=2438825&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Preakness winner Bernardini not running in Belmont]]></title>
+<description><![CDATA[Preakness winner Bernardini will not run in the Belmont Stakes, another blow to the final race of the Triple Crown
+series.]]></description>
+<pubDate>Wed, 24 May 2006 14:33:13 PDT</pubDate>
+<guid>http://sports.espn.go.com/sports/horse/triplecrown06/news/story?id=2456866&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/sports/horse/triplecrown06/news/story?id=2456866&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Broncos QB Plummer denies road-rage incident ]]></title>
+<description><![CDATA[Denver Broncos quarterback Jake Plummer on Wednesday said he did cut someone off while driving last month, but denied kicking and then backing up into another motorist's
+vehicle in a road-rage incident.]]></description>
+<pubDate>Wed, 24 May 2006 12:49:35 PDT</pubDate>
+<guid>http://sports.espn.go.com/nfl/news/story?id=2456598&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/nfl/news/story?id=2456598&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[ESPN.com news services]]></dc:creator>
+<title><![CDATA[Source: Central Florida, O'Leary agree to new deal]]></title>
+<description><![CDATA[Coach George O'Leary and Central Florida have agreed to a new 10-year contract, a source close to the coach told ESPN's Joe Schad on Wednesday.]]></description>
+<pubDate>Wed, 24 May 2006 11:15:32 PDT</pubDate>
+<guid>http://sports.espn.go.com/ncf/news/story?id=2456546&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/ncf/news/story?id=2456546&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Roddick injures left foot, retires in World Team Cup]]></title>
+<description><![CDATA[Andy Roddick injured his left foot Wednesday while playing Nicolas Massu of Chile at the World Team Cup and was forced to retire from the match in the first set.]]></description>
+<pubDate>Wed, 24 May 2006 11:48:49 PDT</pubDate>
+<guid>http://sports.espn.go.com/sports/tennis/news/story?id=2456194&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/sports/tennis/news/story?id=2456194&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[ESPN.com news services]]></dc:creator>
+<title><![CDATA[Report: Duke women's lacrosse to wear 'innocent' band]]></title>
+<description><![CDATA[The Duke women's lacrosse team retains strong ties to the men's team currently embroiled in rape allegations.]]></description>
+<pubDate>Wed, 24 May 2006 10:27:28 PDT</pubDate>
+<guid>http://sports.espn.go.com/ncaa/news/story?id=2456262&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/ncaa/news/story?id=2456262&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Cards scratch Carpenter with swelling in back]]></title>
+<description><![CDATA[St. Louis right-hander Chris Carpenter was scratched from his start against the San Francisco Giants on Wednesday with some swelling in the right side of his upper back.]]></description>
+<pubDate>Wed, 24 May 2006 13:09:12 PDT</pubDate>
+<guid>http://sports.espn.go.com/mlb/news/story?id=2456729&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/mlb/news/story?id=2456729&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[External]]></dc:creator>
+<title><![CDATA[USA's Reyna 'relieved', MRI on hamstring negative ]]></title>
+<description><![CDATA[Visit ESPN.com for the complete story.]]></description>
+<pubDate>Wed, 24 May 2006 11:31:52 PDT</pubDate>
+<guid>http://soccernet.espn.go.com/news/story?id=368744&amp;cc=5901&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://soccernet.espn.go.com/news/story?id=368744&amp;cc=5901&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Nuggets' Karl ready to mend fences with forward Martin]]></title>
+<description><![CDATA[Nuggets coach George Karl said he believes the
+situation with forward Kenyon Martin can be resolved, though the
+two haven't spoken since Martin was suspended during Denver's
+first-round playoff series loss to the Clippers.
+]]></description>
+<pubDate>Wed, 24 May 2006 11:37:13 PDT</pubDate>
+<guid>http://sports.espn.go.com/nba/news/story?id=2456626&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/nba/news/story?id=2456626&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Texas 2005 championship ring for sale on eBay]]></title>
+<description><![CDATA[Less than six months after Texas won its first undisputed football national championship in 36 years, a Longhorns
+championship ring is for sale on eBay, the online auction site.]]></description>
+<pubDate>Wed, 24 May 2006 13:04:43 PDT</pubDate>
+<guid>http://sports.espn.go.com/ncf/news/story?id=2456704&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/ncf/news/story?id=2456704&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Bobcats CEO/president, 1st employee hired, steps down]]></title>
+<description><![CDATA[Ed Tapscott, the first employee hired when the NBA gave Charlotte the expansion Bobcats, stepped down Wednesday as president and CEO of the second-year team.]]></description>
+<pubDate>Wed, 24 May 2006 08:48:49 PDT</pubDate>
+<guid>http://sports.espn.go.com/nba/news/story?id=2456325&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/nba/news/story?id=2456325&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[External]]></dc:creator>
+<title><![CDATA[A's owners to try to bring MLS back to Bay Area]]></title>
+<description><![CDATA[Visit ESPN.com for the complete story.]]></description>
+<pubDate>Wed, 24 May 2006 10:44:45 PDT</pubDate>
+<guid>http://soccernet.espn.go.com/news/story?id=368727&amp;cc=5901&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://soccernet.espn.go.com/news/story?id=368727&amp;cc=5901&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[Associated Press]]></dc:creator>
+<title><![CDATA[Jurassic start: Raptors claim No. 1 pick in NBA draft]]></title>
+<description><![CDATA[New general manager Bryan Colangelo got a
+huge boost in his effort to rebuild the Toronto Raptors on Tuesday
+night, winning the NBA lottery and the No. 1 pick in next month's
+draft.]]></description>
+<pubDate>Wed, 24 May 2006 12:01:10 PDT</pubDate>
+<guid>http://sports.espn.go.com/nba/draft2006/news/story?id=2455735&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/nba/draft2006/news/story?id=2455735&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[John Clayton]]></dc:creator>
+<title><![CDATA[Owners plan three-month process to replace commish]]></title>
+<description><![CDATA[NFL owners held an all-day meeting Tuesday in Denver to escalate both priorities, but no one can estimate how long each process will take.]]></description>
+<pubDate>Wed, 24 May 2006 08:09:40 PDT</pubDate>
+<guid>http://sports.espn.go.com/nfl/news/story?id=2455792&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/nfl/news/story?id=2455792&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+<item>
+<dc:creator><![CDATA[John Clayton]]></dc:creator>
+<title><![CDATA[Bush loses numbers game; back can't wear No. 5]]></title>
+<description><![CDATA[The NFL Competition Committee rejected the request by Reggie Bush and other players to change their uniform numbering system for the 2006 season.]]></description>
+<pubDate>Tue, 23 May 2006 16:41:14 PDT</pubDate>
+<guid>http://sports.espn.go.com/nfl/news/story?id=2455586&amp;campaign=rss&amp;source=ESPNHeadlines</guid>
+<link>http://sports.espn.go.com/nfl/news/story?id=2455586&amp;campaign=rss&amp;source=ESPNHeadlines</link>
+</item>
+
+</channel></rss>

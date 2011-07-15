@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE rss SYSTEM "http://www.fool.com/xml/rss-0.91.dtd">
+
+<rss version="0.91">
+	<channel>
+		<title>The Motley Fool</title>
+		<link>http://www.fool.com</link>
+		<description>To Educate, Amuse, and Enrich</description>
+		<language>en-us</language>
+		<image>
+			<title>The Motley Fool</title>
+			<url>http://www.fool.com/art/partners/bbac/88x31F.gif</url>
+			<link>http://www.fool.com</link>
+			<width>88</width>
+			<height>31</height>
+			<description>To Educate, Amuse, and Enrich</description>
+		</image>    
+		<item>
+			<title>GM&#39;s Gas Tab</title>
+			<link>http://www.fool.com/News/mft/2006/mft06052419.htm</link>
+			<description>The automaker&#39;s offer to pick up the gas tab suggests a deeper problem than prices at the pump.</description>
+		</item>
+		<item>
+			<title>Phillips-Van Heusen Gets Untucked</title>
+			<link>http://www.fool.com/News/mft/2006/mft06052418.htm</link>
+			<description>Despite a growing retail malaise, this is a winning brand-manager.</description>
+		</item>
+		<item>
+			<title>Microsoft Isn&#39;t Run by Bill Gates Anymore</title>
+			<link>http://www.fool.com/news/commentary/2006/commentary06052415.htm</link>
+			<description>Ray Ozzie looks to lead Microsoft&#39;s comeback as the company fights to be relevant in the Internet&#39;s next generation.</description>
+		</item>
+		<item>
+			<title>Adobe, the Agile Acrobat</title>
+			<link>http://www.fool.com/news/commentary/2006/commentary06052414.htm</link>
+			<description>The price drop in Adobe&#39;s stock represents a flash of opportunity.</description>
+		</item>
+		<item>
+			<title>Time to Hedge Your Bets</title>
+			<link>http://www.fool.com/news/commentary/2006/commentary06052413.htm</link>
+			<description>Is your portfolio ready for this downturn?</description>
+		</item>
+		<item>
+			<title>Finding Lynch&#39;s 10-Baggers</title>
+			<link>http://www.fool.com/news/commentary/2006/commentary06052412.htm</link>
+			<description>There&#39;s a method to finding tomorrow&#39;s home runs.</description>
+		</item>
+		<item>
+			<title>Dial V for Vulnerable</title>
+			<link>http://www.fool.com/News/mft/2006/mft06052417.htm</link>
+			<description>Still think that customer stock offering was a good deal?</description>
+		</item>
+		<item>
+			<title>More Dangerous Growth</title>
+			<link>http://www.fool.com/news/commentary/2006/commentary06052411.htm</link>
+			<description>It&#39;s the kind that hasn&#39;t happened yet.</description>
+		</item>
+		<item>
+			<title>Heinz and Peltz Duke It Out</title>
+			<link>http://www.fool.com/News/mft/2006/mft06052416.htm</link>
+			<description>Peltz and his Trian Fund call for numerous changes at Heinz.</description>
+		</item>
+		<item>
+			<title>Are Stocks Risky?</title>
+			<link>http://www.fool.com/News/mft/2006/mft06052415.htm</link>
+			<description>Stocks aren&#39;t risk-free, but for many they offer the best possible returns.</description>
+		</item>
+	</channel>
+</rss>

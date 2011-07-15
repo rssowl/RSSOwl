@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="wordpress/2.0.2" -->
+<rss version="2.0" 
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	>
+
+<channel>
+	<title>Th!nkNerd Blog</title>
+	<link>http://www.thinknerd.org</link>
+	<description>fnord revisited</description>
+	<pubDate>Mon, 22 May 2006 20:07:03 +0000</pubDate>
+	<generator>http://wordpress.org/?v=2.0.2</generator>
+	<language>en</language>
+			<item>
+		<title>Kill Hannah - All That He Wants</title>
+		<link>http://www.thinknerd.org/2006/05/22/kill-hannah-all-that-he-wants/</link>
+		<comments>http://www.thinknerd.org/2006/05/22/kill-hannah-all-that-he-wants/#comments</comments>
+		<pubDate>Mon, 22 May 2006 20:07:03 +0000</pubDate>
+		<dc:creator>phantom</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/05/22/kill-hannah-all-that-he-wants/</guid>
+		<description><![CDATA[Hiho,
+hat den song aus dem topic evtl. jemand als .mp3 rumfliegen? Den such ich nun schon verzweifelt eine ganze Weile. Aber weder bei killhannah.com gibts den zu kaufen weder im itunes store. Und irgendwelchen komischen russischen mp3 sites trau ich nicht so recht.
+Wenn den song jemand hat wäre mir mit einer e-mail und so an [...]]]></description>
+			<content:encoded><![CDATA[<p>Hiho,</p>
+<p>hat den song aus dem topic evtl. jemand als .mp3 rumfliegen? Den such ich nun schon verzweifelt eine ganze Weile. Aber weder bei killhannah.com gibts den zu kaufen weder im itunes store. Und irgendwelchen komischen russischen mp3 sites trau ich nicht so recht.</p>
+<p>Wenn den song jemand hat wäre mir mit einer e-mail und so an phantom@h07.org sehr geholfen. Kill Hannah selbst belohn ich dann natürlich mit einem Kauf des letzten aktuellen Albums :)
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/05/22/kill-hannah-all-that-he-wants/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>ADSL2 bei M-NET. Der Kunde als Betatester ohne Support.</title>
+		<link>http://www.thinknerd.org/2006/05/21/adsl2-bei-m-net-der-kunde-als-betatester-ohne-support/</link>
+		<comments>http://www.thinknerd.org/2006/05/21/adsl2-bei-m-net-der-kunde-als-betatester-ohne-support/#comments</comments>
+		<pubDate>Sun, 21 May 2006 11:53:11 +0000</pubDate>
+		<dc:creator>phantom</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/05/21/adsl2-bei-m-net-der-kunde-als-betatester-ohne-support/</guid>
+		<description><![CDATA[Hallo,
+heute gibt es mal wieder einen Frustartikel. Wie ja bekannt ist haben wir (risk und ich) vor kurzem bei der Telekom gekündigt um uns eine schnelle 16MBit/s ADSL2 Verbindung bei M-NET zu holen die in etwa auch das selbe kostet. Nach 2 Wochen Wartezeit stand auch die Leitung (wobei selbst das schon ein hin und [...]]]></description>
+			<content:encoded><![CDATA[<p>Hallo,</p>
+<p>heute gibt es mal wieder einen Frustartikel. Wie ja bekannt ist haben wir (risk und ich) vor kurzem bei der Telekom gekündigt um uns eine schnelle 16MBit/s ADSL2 Verbindung bei M-NET zu holen die in etwa auch das selbe kostet. Nach 2 Wochen Wartezeit stand auch die Leitung (wobei selbst das schon ein hin und her zwischen der telekom und m-net war). Der Speed war in Ordnung und alles schaute gut aus. Am letzten Freitag war die Leitung dann 03:00 Uhr Morgens weg (kein sync garnix). Support um die Uhrzeit gibts nicht, aber das ist um die Zeit noch verständlich. Nach etwas hin und her mit M-NET lief die Leitung dann wieder (das Problem lag also irgendwo bei m-net). Toll denkt man sich, kann ja mal passieren.</p>
+<p><strong> Nun kommt aber der Hammer.</strong></p>
+<p>Gestern gegen 6 Uhr morgens war die Leitung mit dem selben phänomen wieder weg. Support am Wochenende? Fehlanzeige. Anrufbeantworter das wars. Störungsmeldung? gibt es keine. Störungsmeldung per E-Mail (gprs) ergab auch nichts. <strong>Als Privatkunde erhält man bei M-NET für DSL und Telefon am Wochenende KEINERLEI SUPPORT</strong>.  Nun dann versucht man natürlich dennoch an Netz zu kommen, ein bekannter von mir arbeitet bei m-net im Vertrieb, also etwas mit ihm telefoniert. Er hats versucht aber konnte auch nicht viel machen auser das für Montag schedulen (er hats aber probiert).</p>
+<p>Nun ok&#8230; meine Firma hat mehrere Leitungen bei M-NET (u.a auch eine 10 und 100MBit Leitung)&#8230; so was ist wenn ich als Systemverantwortlicher für meine Standorte in der Firma dringend Daten kopieren muss und meine Mitarbeiter auch alle bei M-NET sind? Also die Geschäftskundenhotline angerufen (da gibts dann support für Geschäftskunden). Und nun gehts richtig los. Erstmal meinten Die man kann mir eh nicht helfen weil man angeblich nicht auf die Vertragsdaten von Privatkunden zugreifen kann. Komisch das ein anderer Mitarbeiter mir aber meine Vertragsinformationen dann doch nennen konnte was heist das man dort auch noch vollgelogen wird. Nächste Ausrede war das man mir nicht helfen kann weil man dann auch die Vertragsnummer des Firmenanschlusses brauch die ich gerade nicht zur hand hatte.</p>
+<p>Ich hab mir also die Vertragsdaten der Firma besorgt und nochmal angerufen und mich extrem aufgeregt was das soll, wenn wir extra alle zu m-net gehen damit die Konnektivität in die Firma gewährleistet ist und man überhaupt keinen Versuch macht mal einen Techniker dazu zubewegen mal die glubschn aufzumachen und ein paar Minuten zu investieren vorallem wenn es das Problem schonmal gab. NEIN man behart darauf das Privatkunden keinen Support bekommen, das die Leitung schon 2 Tage nicht nutzbar ist juckt dort niemanden. Das ist der erste Provider der mir untergekommen ist wo man keinen Support bekommt am Wochenende, nichtmal wenn man als Geschäftskunde mit grossen Leitungen dort anruft und um Hilfe für einen Mitarbeiter bittet.</p>
+<p>Das <a href="http://foren.mnet-online.de/">M-NET Forum</a> ist voll mit ADSL2 Kunden die Probleme haben und keine Unterstützung bekommen. Wer also mit dem Gedanken spielt sich dort ADSL2 zu holen sollte darauf momentan zumindest verzichten, es macht echt keinen Spass wenn man die Leitung nur zu Hälfte nutzen kann und bei einer Downtime keinen Support bekommt.</p>
+<p>Die Leistung könnte ruhig mehr kosten wenn der Support stimmt, aber hier spart M-NET definitiv an der falschen Stelle. Ein kleiner Dorfprovider hat besseren Kundensupport als M-NET, ich habe den Eindruck das M-NET sich einen Dreck um Privatkunden schert.</p>
+<p>Sollte es vermehrt wieder zu Problemen kommen jetzt die Woche kann mich M-NET fett am Arsch lecken. Und bei Entscheidungen für neue Firmenleitungen werde ich garantiert mit einer Negativstimme für M-NET antworten. Die Leitungen in der Firma machen nämlich auch Probleme am laufenden Band.</p>
+<p>Ich komm mir als Kunde einfach nur verarscht vor. Bitte M-NET 30 Euro Mehr auf die Leitung und dafür Support am Wochenende und SCHNELLE PROBLEMLÖSUNG. Alternativ schonmal daran gedacht Supportleistung extra zu verkaufen? wäre mir auch egal hauptsache mir wird geholfen. Den Kunde im regen stehen zu lassen ist mal einfach nur schlecht.
+</p>
+Tags: <a href="http://technorati.com/tag/adsl2" title="See the Technorati tag page for 'adsl2'." rel="tag">adsl2</a>, <a href="http://technorati.com/tag/vdsl" title="See the Technorati tag page for 'vdsl'." rel="tag">vdsl</a>, <a href="http://technorati.com/tag/m-net" title="See the Technorati tag page for 'm-net'." rel="tag">m-net</a>, <a href="http://technorati.com/tag/mnet" title="See the Technorati tag page for 'mnet'." rel="tag">mnet</a>, <a href="http://technorati.com/tag/betatest" title="See the Technorati tag page for 'betatest'." rel="tag">betatest</a>, <a href="http://technorati.com/tag/support" title="See the Technorati tag page for 'support'." rel="tag">support</a>]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/05/21/adsl2-bei-m-net-der-kunde-als-betatester-ohne-support/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>Medien Rundschau - was bewegt die Geek Welt</title>
+		<link>http://www.thinknerd.org/2006/05/16/medien-rundschau-was-bewegt-die-geek-welt/</link>
+		<comments>http://www.thinknerd.org/2006/05/16/medien-rundschau-was-bewegt-die-geek-welt/#comments</comments>
+		<pubDate>Tue, 16 May 2006 09:59:29 +0000</pubDate>
+		<dc:creator>Poeloq</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/05/16/medien-rundschau-was-bewegt-die-geek-welt/</guid>
+		<description><![CDATA[Hier mal eine kleine Zusammenfassung was ich so interesssantes gefunden habe heute:
+Skype und VoIP - Skype biete nordamerikanischen Nutzern kostenlose Gespraeche
+Zuerst gefunden bei TechCrunch. Es ist wohl so das Skype nun fuer seine Benutzer in Nordamerika kostenlose Gespraeche zu Landleitungen und Mobilfunkgeraeten in den USA und Kanada anbietet. Vorerst soll dieser Service bis 1. Januar [...]]]></description>
+			<content:encoded><![CDATA[<p>Hier mal eine kleine Zusammenfassung was ich so interesssantes gefunden habe heute:</p>
+<p><strong>Skype und VoIP - Skype biete nordamerikanischen Nutzern kostenlose Gespraeche</strong></p>
+<p>Zuerst gefunden bei <a href="http://www.techcrunch.com/2006/05/15/skypeout-now-free-in-us-and-canada/">TechCrunch</a>. Es ist wohl so das Skype nun fuer seine Benutzer in Nordamerika kostenlose Gespraeche zu Landleitungen und Mobilfunkgeraeten in den USA und Kanada anbietet. Vorerst soll dieser Service bis 1. Januar 2007 beschraenkt sein. Es ist bekannt das der Amerikanische Markt Skype nicht mehr ganz so loyal ist wie frueher und dies koennte ein erste SOS-Ruf sein. Wieso?<br />
+Es ist kein Geheimnis das Yahoo! sich in der Vergangenheit NICHT mit der chinesischen Regierung angelegt hat und unter anderem Realdaten von E-Mailbenutzern herausgegeben hat welcher zur Verurteilung zwei politischer Gegner gefuehrt hat, nun allerdings dies:</p>
+<p>Die auf dem offenen Protokoll &#8220;SIP&#8221; basierten Anbieter gewinnen immer mehr an Nutzern. Der deutsche Anbieter http://www.voipstunt.com bietet zum Beispiel fuer zehn Euro 120 Tage kostenlose Gespraeche in viele Laender, u.a. Deutschland, USA, Kanda, China, &#8230; und eine eigene Rufnummer. Das ist ein Angebot?</p>
+<p>Was fehlt noch damit VoIP richtig in Schwung kommen koennte? Richtig: schoene Endgeraete, ein netter Ansatz hat Sony in Japan: eine <a href="http://www.ecat.sony.co.jp/vaio/acc/acc.cfm?PD=23389">Maus mit integriertem Telefon</a>. Und damit wir Geeks auch zufrieden sind koennten auch die ersten Anbieter mal das von <a href="http://www.thinknerd.org/www.philzimmermann.com/">Philip Zimmermann</a> entwickelte <a href="http://rds.yahoo.com/_ylt=A0geutvtnmlEQx4A9XtXNyoA;_ylu=X3oDMTB2c2Zzc202BGNvbG8DZQRsA1dTMQRwb3MDMwRzZWMDc3IEdnRpZAM-/SIG=11np6vujo/EXP=1147859053/**http%3a//www.at-mix.de/news/1146.html">Verschluesselungsverfahren</a> integrieren. Wurde eigentlich bemerkt das nach Google, Microsoft und Yahoo nun auch <a href="http://www.silicon.de/enid/wirtschaft_und_politik/18867">Skype mit China sich &#8220;verbuendet&#8221;</a> hat? Wo wir auch beim naechsten Thema sind:</p>
+<p><strong>China und &#8220;The Great Firewall of China&#8221; &#8211;> Baidupedia<br />
+</strong></p>
+<p>Das China zensiert ist nicht neu, aber jetzt gehts richtig los. Nicht nur werden ungewollte Seiten einfach gespeert sondern durch eigene von der Regierung oder seinen Partnern betriebenen ersetzt: so entstand auch &#8220;<a href="http://derstandard.at/?id=2443946">Baidupedia</a>&#8221; ein vom Portalbetreiber <a href="http://www.baidu.com">Baidu</a> betriebener Wikipedia Klon.</p>
+<p><strong>Frankreich und die Downloads</strong></p>
+<p>Die <a href="http://www.nytimes.com/">New York Times</a> hat einen interessanten <a href="http://www.nytimes.com/2006/05/15/technology/15audionaut.html?ex=1305345600&#038;en=9d54a7c2bfc843bd&#038;ei=5088&#038;partner=rssnyt&#038;emc=rss">Artikel</a> ueber den erst 18-jaehrigen Aziz Ridouan, welcher als Experte fuer die Regierung fungiert.</p>
+<p>Google Notebook</p>
+<p>Bei <a href="http://www.yigg.de/2964_Google_Notebook_ist_online">Yigg</a> gefunden: <a href="http://www.google.com/notebook/">Google Notebook</a> ist da, aber: wie von mir erwartet gab es kein schickes Laptop von Google sondern ein Online Notizbuch. Schade&#8230;</p>
+<p><strong>Yigg:Reloaded</strong></p>
+<p>Das wie Th!nknerd von <a href="http://www.h07.org">h zero seven</a> betriebene Digg-Klon &#8220;<a href="http://www.yigg.de">Yigg</a>&#8221; hat ein nettes Redesign bekommen.
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/05/16/medien-rundschau-was-bewegt-die-geek-welt/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>Verliert Microsoft in China? (UPDATED)</title>
+		<link>http://www.thinknerd.org/2006/05/09/verliert-microsoft-in-china/</link>
+		<comments>http://www.thinknerd.org/2006/05/09/verliert-microsoft-in-china/#comments</comments>
+		<pubDate>Tue, 09 May 2006 11:44:49 +0000</pubDate>
+		<dc:creator>Poeloq</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/05/09/verliert-microsoft-in-china/</guid>
+		<description><![CDATA[Wie einige unserer Stammlese wissen lebe ich nun schon einige Zeit in Beijing (Peking), China und muss mich hier nicht nur mit Sprachproblemen (obwohl mein Chinesisch recht gut) ist und anderen Dingen rumschlagen sondern auch mit langsamen und zensiertem Internet rumschlagen.
+Die Zensur ist in den ersten paar Wochen und fuer viele Touristen nicht bemerkbar, den [...]]]></description>
+			<content:encoded><![CDATA[<p>Wie einige unserer Stammlese wissen lebe ich nun schon einige Zeit in Beijing (Peking), China und muss mich hier nicht nur mit Sprachproblemen (obwohl mein Chinesisch recht gut) ist und anderen Dingen rumschlagen sondern auch mit langsamen und zensiertem Internet rumschlagen.</p>
+<p>Die Zensur ist in den ersten paar Wochen und fuer viele Touristen nicht bemerkbar, den wie oft will man BBC oder CNN im Urlaub lesen? Und dann auch noch in einem verrauchten Internetcafe? Aber sobald man mit wirklichem Surfen anfaengt <strike>geht der</strike> hoert der Spass <strike>los</strike> auf. Nicht nur sind viele der Newsseiten geblockt sondern auch die meisten Blogdienste (u.a. blogger aber zum beispiel auch wordpress.com). Und jetzt auch noch das:</p>
+<p>Meine Freundin beschwerte sich vor kurzem ihre E-Mails nicht mehr abrufen zu koennen und das dies daran laege das ich (&#8221;wieder einmal&#8221;) was am Computer geaendert haette. Hotmail=Webmail. Das war ich definitiv nicht. Dann bin ich ueber einem Forumartikel bei <a href="http://www.thatsbj.com">ThatsBeijing</a> gestolpert der meinte es wuerde an der Umschaltung zu MS Live liegen. Kann man irgendwie nicht glauben aber dann: MSN Messenger Live Beta ist nun oeffentlich. Will man ja mal testen: nichts da. Time Out.</p>
+<p>Tatsaechlich: die komplette live.com ist zensiert. Nichts gibts: kein neuen Messenger und auch kein Hotmail zur Zeit. Wieso die das zensieren? Keine Ahnung: aber es wird Microsoft weh tun.</p>
+<p>Manchmal hat die Mauer auch was Gutes an sich ;)</p>
+<p><strong>UPDATE: </strong>Der neue Messenger (MSN Messenger Live Beta, Messenger 8) kann sich mittlerweile auch aus China ohne Umwege einloggen, alles andere bleibt gleich.
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/05/09/verliert-microsoft-in-china/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>BOFH Wochenende: Stromausfall &#038; Plattencrash</title>
+		<link>http://www.thinknerd.org/2006/05/06/bofh-wochenende-stromausfall-plattencrash/</link>
+		<comments>http://www.thinknerd.org/2006/05/06/bofh-wochenende-stromausfall-plattencrash/#comments</comments>
+		<pubDate>Sat, 06 May 2006 16:31:28 +0000</pubDate>
+		<dc:creator>phantom</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/05/06/bofh-wochenende-stromausfall-plattencrash/</guid>
+		<description><![CDATA[Huhu,
+gab eine weile nichts zu lesen (POEEEEELOOOQ UND CODEC woooo seits? :P ). risk, tilli und meine wenigkeit besuchten vor kurzem madd zum jährlichen nerdigen Frühjahrsgrillen. War sehr nett, leider war ich zu betrunken um mich an details zu erinnern. Obwohl, wir basteln jetzt neben yigg in kürze auch an einem neuem Web Projekt welches [...]]]></description>
+			<content:encoded><![CDATA[<p>Huhu,</p>
+<p>gab eine weile nichts zu lesen (POEEEEELOOOQ UND CODEC woooo seits? :P ). risk, tilli und meine wenigkeit besuchten vor kurzem madd zum jährlichen nerdigen Frühjahrsgrillen. War sehr nett, leider war ich zu betrunken um mich an details zu erinnern. Obwohl, wir basteln jetzt neben yigg in kürze auch an einem neuem Web Projekt welches auf einer älteren idee um neurale netzwerke und Informations Management beruht (<a title="Think IMS" href="http://h07.org/~phantom/think.txt">read me</a>). Danke gopher *g*.</p>
+<p>Dann wollten wir ja eigentlich auch zum Linuxtag, aber nach 2 Tagen voller Alkohol und chronischem Geldmangel fiel das leider ins Wasser. Tschuldigung.</p>
+<p>Mein Wochenende jetzt ist dafür umso schöner *würgh*. Gestern hat es die Hauptsicherung im Keller rausgehauen und der Hausmeisterfutzi kam erst heute. Alle Server offline, nix geht mehr und jetzt wo wieder Strom da ist hat es mir die normale Platte und die Backupplatte meiner Firewall zerschmissen. Partitionstabelle weg, nichtmal mehr fdisk mag mich (Uncorrectable error). Also dd_rescue raus, image schreiben, image kopieren, neue platte rein und mit gpart partitionstabelle wieder herstellen.<br />
+Wenigstens ist es in meinem <a href="http://flickr.com/photos/flyersa/123683956/">BOFH Zimmer</a> gemütlich.
+</p>
+Tags: <a href="http://technorati.com/tag/grillen" title="See the Technorati tag page for 'grillen'." rel="tag">grillen</a>, <a href="http://technorati.com/tag/bbq" title="See the Technorati tag page for 'bbq'." rel="tag">bbq</a>, <a href="http://technorati.com/tag/bofh" title="See the Technorati tag page for 'bofh'." rel="tag">bofh</a>, <a href="http://technorati.com/tag/stromausfall" title="See the Technorati tag page for 'stromausfall'." rel="tag">stromausfall</a>, <a href="http://technorati.com/tag/plattencrash" title="See the Technorati tag page for 'plattencrash'." rel="tag">plattencrash</a>, <a href="http://technorati.com/tag/linuxtag" title="See the Technorati tag page for 'linuxtag'." rel="tag">linuxtag</a>]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/05/06/bofh-wochenende-stromausfall-plattencrash/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>When Worlds Collide - kein internet AAARGH</title>
+		<link>http://www.thinknerd.org/2006/04/21/when-worlds-collide-kein-internet-aaargh/</link>
+		<comments>http://www.thinknerd.org/2006/04/21/when-worlds-collide-kein-internet-aaargh/#comments</comments>
+		<pubDate>Fri, 21 Apr 2006 17:02:49 +0000</pubDate>
+		<dc:creator>phantom</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/04/21/when-worlds-collide-kein-internet-aaargh/</guid>
+		<description><![CDATA[Ja dumme Welt. 1 1/2 Jahre dauerstress und pornodownloads waren wohl zuviel für meinen scheis DSL Router von der Teledoof . Ein Wochenende ohne Netz, ich glaub ich geh morgen freiwillig auf Arbeit (hier gibts sogar bier umsonst). Ich fühl mich als fehlt mir irgendetwas überlebensnotwendiges&#8230; ach ja ich schreib das vom büro aus. Das [...]]]></description>
+			<content:encoded><![CDATA[<p>Ja dumme Welt. 1 1/2 Jahre dauerstress und pornodownloads waren wohl zuviel für meinen scheis <a href="http://www.n24.de/images/2004/09/17/2004091713194121270.jpg">DSL Router von der Teledoof</a> . Ein Wochenende ohne Netz, ich glaub ich geh morgen freiwillig <a href="http://www.autointell-news.com/european_companies/BMW/FIZ-BMW-cut.jpg">auf Arbeit</a> (hier gibts sogar bier umsonst). Ich fühl mich als fehlt mir irgendetwas überlebensnotwendiges&#8230; ach ja ich schreib das vom büro aus. Das heist erstmal keine krassen yigg änderungen jetzt :(
+</p>
+Tags: <a href="http://technorati.com/tag/offline%2Chelpmeiexplode" title="See the Technorati tag page for 'offline,helpmeiexplode'." rel="tag">offline,helpmeiexplode</a>]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/04/21/when-worlds-collide-kein-internet-aaargh/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>Ohne Kommentar</title>
+		<link>http://www.thinknerd.org/2006/04/20/ohne-kommentar/</link>
+		<comments>http://www.thinknerd.org/2006/04/20/ohne-kommentar/#comments</comments>
+		<pubDate>Thu, 20 Apr 2006 01:38:16 +0000</pubDate>
+		<dc:creator>Poeloq</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/04/20/ohne-kommentar/</guid>
+		<description><![CDATA[
+
+Imagethief
+&#160;
+&#160;
+
+technorati tags: USA, Rumsfeld
+
+
+]]></description>
+			<content:encoded><![CDATA[<blockquote cite="http://news.imagethief.com/blogs/china/default.aspx"><p><img src="http://www.imagethief.com/siteimages/rummy.jpg" /></p></blockquote>
+<p class="citation">
+<p><cite><a href="http://news.imagethief.com/blogs/china/default.aspx">Imagethief</a></cite></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><!-- technorati tags begin --><br />
+<p style="font-size:10px;text-align:right;">technorati tags: <a href="http://technorati.com/tag/USA" rel="tag">USA</a>, <a href="http://technorati.com/tag/Rumsfeld" rel="tag">Rumsfeld</a></p>
+<p><!-- technorati tags end -->
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/04/20/ohne-kommentar/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>Chinesische Geek Girls (CGG)</title>
+		<link>http://www.thinknerd.org/2006/04/18/chinesische-geek-girls-cgg/</link>
+		<comments>http://www.thinknerd.org/2006/04/18/chinesische-geek-girls-cgg/#comments</comments>
+		<pubDate>Tue, 18 Apr 2006 15:49:03 +0000</pubDate>
+		<dc:creator>Poeloq</dc:creator>
+		
+	<category>Das Nertenleben</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/04/18/chinesische-geek-girls-cgg/</guid>
+		<description><![CDATA[20years old beijing girl&#8217;s feeling lonely, working already, interested in guitar, linux, singing and travel. wants to find a sould resting place here in Beijing who has the familiar interest with me, whoever wants to be my bf pls email me with your picture. (catholic will be given priority, because i am a catholic)
+
+seeking my [...]]]></description>
+			<content:encoded><![CDATA[<blockquote cite="http://www.thatsbj.com/index.php?a=2&amp;b=72847"><p>20years old beijing girl&#8217;s feeling lonely, working already, interested in guitar, <strong>linux</strong>, singing and travel. wants to find a sould resting place here in Beijing who has the familiar interest with me, whoever wants to be my bf pls email me with your picture. (catholic will be given priority, because i am a catholic)</p></blockquote>
+<p class="citation">
+<p><cite><a href="http://www.thatsbj.com/index.php?a=2&amp;b=72847">seeking my Mr.Right</a></cite>
+</p>
+<p class="citation">
+&nbsp;
+</p>
+<p class="citation">
+Und das ist nicht selten hier. Es gibt einen Haufen sehr attraktive InformatikstudentINNEN hier welche nicht nur gut aussehen sondern auch was von Linux (&#8230;weitere geekige Themen&#8230;) verstehen.
+</p>
+<p class="citation">
+&nbsp;Weiteres Szenario: Pekinger Internetcafe um 2 Uhr morgens Ortszeit: Junge und attraktive Frauen welche World of Warcraft spielen. Und es gibt.
+</p>
+<p class="citation">
+</p>
+<p class="citation">
+:D Ja, ihr duerft neidisch sein. Aber es gibt ja noch das (tote?) <a href="http://www.nerdflirt.de/">Nerdflirt</a> ;)&nbsp;
+</p>
+<p class="citation">
+&nbsp;(Anmerkung: Der Autor lebt seit 2005 in Peking, China)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><!-- technorati tags begin --><br />
+<p style="font-size:10px;text-align:right;">technorati tags: <a href="http://technorati.com/tag/china" rel="tag">china</a>, <a href="http://technorati.com/tag/frauen" rel="tag">frauen</a>, <a href="http://technorati.com/tag/geek" rel="tag">geek</a></p>
+<p><!-- technorati tags end -->
+</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/04/18/chinesische-geek-girls-cgg/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>Ungesundes Nertenleben</title>
+		<link>http://www.thinknerd.org/2006/04/16/ungesundes-nertenleben/</link>
+		<comments>http://www.thinknerd.org/2006/04/16/ungesundes-nertenleben/#comments</comments>
+		<pubDate>Sun, 16 Apr 2006 10:42:42 +0000</pubDate>
+		<dc:creator>codec</dc:creator>
+		
+	<category>Das Nertenleben</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/04/16/ungesundes-nertenleben/</guid>
+		<description><![CDATA[Jeder von uns kennt es: Schlaflose Nächte vor dem Computer. Das Blut ist voller Koffein. Der Rechner schnurrt vor sich hin.
+An Schlaf ist hier nicht zu denken, keineswegs. Schlafen geht jetzt eh nicht mehr. Dafür ist das Blutgehalt im Koffeinkreislauf viel zu niedrigKoffeingehalt im Blutkreislauf viel zu hoch.
+Schlaflosigkeit ist aber laut Dr. AA&#8217;s Artikel nicht [...]]]></description>
+			<content:encoded><![CDATA[<p>Jeder von uns kennt es: Schlaflose Nächte vor dem Computer. Das Blut ist voller Koffein. Der Rechner schnurrt vor sich hin.<br />
+An Schlaf ist hier nicht zu denken, keineswegs. Schlafen geht jetzt eh nicht mehr. Dafür ist das <strike>Blutgehalt im Koffeinkreislauf viel zu niedrig</strike>Koffeingehalt im Blutkreislauf viel zu hoch.</p>
+<p>Schlaflosigkeit ist aber laut <a href="http://www.carotids.com/lifestyle/health-problems-related-to-the-geek-lifestyle/">Dr. AA&#8217;s Artikel</a> nicht das einzige Problem der Nerten.</p>
+<p>So haben wir, laut Dr. AA, auch noch eine Konzentrationsschwäche.<br />
+Wir scheinen zwar im Multitasking um einiges besser zu sein als die langweilige Version des Menschen, aber wenn es um Konzentration für einen einzelnen Task geht, haben wir ein kleines Problem. Da sind wir nämlich relativ unfähig. Dies scheint jedoch nur im Zusammenhang mit Aufgaben zu passieren, die nichts mit Technik oder unserem allseits geliebten &#8220;<a href="http://www.urbandictionary.com/define.php?term=puter">Puter</a>&#8221; zu tun haben. Laut <a href="http://futurezone.orf.at/it/stories/101235/">Futurezone</a> soll sich das zum Beispiel in Meetings zeigen, wenn man auf einmal von extremer Müdigkeit übermannt wird.</p>
+<p>Laut Dr. AA beklagen sich auch viele unserer Gattung über Schlafprobleme, z.B. ein leichter Schlaf und oftmaliges Aufwachen. Ich persönlich kann mich da weniger beklagen, wenn ich mal schlafe, dann schlafe ich richtig. Man könnte mich in einen Serverraum umlagern und die Kisten würden mich nicht stören. Gut, vermutlich würde ich dann nur noch besser schlafen&#8230; Aber okay, zurück zum Thema.</p>
+<p>Der liebe Herr Doctor <strike>Norton</strike>AA rät dazu, dass Bett wirklich nur zum schlafen und für heiße Liebesspielchen zu benutzen. Ich frag&#8217; mich warum er letzteres überhaupt erwähnt, immerhin behandelt er Nerds.</p>
+<p>Kopfschmerzen scheinen auch ein größeres Problem bei uns zu sein, das kann ich teilweise nachvollziehen.<br />
+Das scheint von zu hellen oder zu dunklen Bildschirmen zu kommen. Eventuell auch, weil sie schlecht positioniert sind. Da kann ich mich nicht beklagen, mein Monitor steht dank &#8220;Linux in a nutshell&#8221; und &#8220;PHP4&#8243; auf einer angenehmen Höhe.</p>
+<p>Ein anderer Knack - im wahrsten Sinne des Wortes - -punkt scheint der Rücken zu sein.<br />
+Gut. Uns wird seit Jahren erzählt das wir alle mal Krüppel werden oder es bereits sind. Das is&#8217; ja nichts neues, oder? Ich kann dazu nur sagen, dass mein Arzt neulich bei der Untersuchung auch nur meinte: &#8220;Etwas schwache Haltung.&#8221;</p>
+<p>Im Großen und Ganzen ist uns ja allen bekannt, dass es, so wie wir leben, nicht gerade optimal ist.<br />
+Aber hey! Nur die Harten kommen in den <strike>Garten</strike>Keller.</p>
+<p>Via <a href="http://www.symlink.ch/article.pl?sid=06/04/09/1353248">Symlink.ch</a> über <a href="http://futurezone.orf.at/it/stories/101235/">FuZo</a> in Richtung <a href="http://www.carotids.com/lifestyle/health-problems-related-to-the-geek-lifestyle/">Carotids.com</a>.
+</p>
+Tags: <a href="http://technorati.com/tag/nerds" title="See the Technorati tag page for 'nerds'." rel="tag">nerds</a>, <a href="http://technorati.com/tag/health" title="See the Technorati tag page for 'health'." rel="tag">health</a>, <a href="http://technorati.com/tag/life" title="See the Technorati tag page for 'life'." rel="tag">life</a>, <a href="http://technorati.com/tag/rl" title="See the Technorati tag page for 'rl'." rel="tag">rl</a>]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/04/16/ungesundes-nertenleben/feed/</wfw:commentRSS>
+		</item>
+		<item>
+		<title>London: Videoueberwachung Extrem</title>
+		<link>http://www.thinknerd.org/2006/04/15/london-videoueberwachung-extrem/</link>
+		<comments>http://www.thinknerd.org/2006/04/15/london-videoueberwachung-extrem/#comments</comments>
+		<pubDate>Sat, 15 Apr 2006 12:36:37 +0000</pubDate>
+		<dc:creator>Poeloq</dc:creator>
+		
+	<category>Nachrichten</category>
+		<guid isPermaLink="false">http://www.thinknerd.org/2006/04/15/london-videoueberwachung-extrem/</guid>
+		<description><![CDATA[Video&#252;berwachung neuer Qualit&#228;t: in London sollen Bewohner ihr Viertel selbst beobachten. James Morris ist stolz: &#34;Ehrlich gesagt hat mich dieses Interesse selbst &#252;berrascht!&#34; Seit im Januar die Pl&#228;ne von Shoreditch Trust, einem Londoner Wohlfahrtsverband, bekannt wurden, kann sich der Vorstandsvorsitzende der Anfragen von Journalisten und Stadtpolitikern kaum erwehren. Sogar aus dem Ausland kommen interessierte Anrufe [...]]]></description>
+			<content:encoded><![CDATA[<blockquote cite="http://www.heise.de/tp/r4/artikel/22/22461/1.html"><p>Video&uuml;berwachung neuer Qualit&auml;t: in London sollen Bewohner ihr Viertel selbst beobachten. James Morris ist stolz: &quot;Ehrlich gesagt hat mich dieses Interesse selbst &uuml;berrascht!&quot; Seit im Januar die Pl&auml;ne von Shoreditch Trust, einem Londoner Wohlfahrtsverband, bekannt wurden, kann sich der Vorstandsvorsitzende der Anfragen von Journalisten und Stadtpolitikern kaum erwehren. Sogar aus dem Ausland kommen interessierte Anrufe &ndash; kein Wunder, denn was Morris plant, ist weltweit einzigartig: Bald sollen bis zu 20.000 Menschen Zugang zu den Aufnahmen von &Uuml;berwachungskameras erhalten und von ihren heimischen Fernsehger&auml;ten und Computerbildschirmen aus ihre Nachbarschaft beobachten.</p></blockquote>
+<p class="citation">
+<p><cite><a href="http://www.heise.de/tp/r4/artikel/22/22461/1.html">TP: Heute Abend im Fernsehen: Alles</a></cite>
+</p>
+<p class="citation">
+&nbsp;
+</p>
+<p class="citation">
+Ich musste diesen Absatz mehrfach durchlesen, das Datum pruefen und nochmal durchlesen bevor ich das Glauben konnte was ich las.<br />
+&nbsp;
+</p>
+<blockquote cite="http://www.heise.de/tp/r4/artikel/22/22461/1.html"><p>W&auml;hrend der jetzt laufenden Testphase k&ouml;nnen zun&auml;chst 1.000 Haushalte dieses Angebot nutzen. Erkl&auml;rtes Ziel ist, mit Hilfe eines Crime Channels die Zusammenarbeit zwischen Bewohnern und Polizei zu verbessern. Neben allgemeinen Ratschl&auml;gen und Informationen stehen die Zuschauern Echtzeit&uuml;bertragungen von elf Kameras in ihrer Gegend zur Verf&uuml;gung.</p></blockquote>
+<p class="citation">
+Wir wussten alle das Videoueberwachung von perversen Spannern im Staatsdienst missbraucht werden kann und allgemein unsere Privatsphaere einschraenkt. ABER DAS IST ECHT DIE HOEHE.
+</p>
+<p class="citation">
+&nbsp;
+</p>
+<p></p>
+<p class="citation">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRSS>http://www.thinknerd.org/2006/04/15/london-videoueberwachung-extrem/feed/</wfw:commentRSS>
+		</item>
+	</channel>
+</rss>

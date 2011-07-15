@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us" custom="custom_formatAttribute">
+	<custom>entry_leveld</custom>
+	<title type="text" custom="custom_titleAttribute">atom_title</title>
+	<subtitle type="text">atom_subtitle</subtitle>
+	<link rel="alternate" type="application/xhtml+xml" href="atom_link_html" custom="custom_linkAttribute" />
+	<generator>atom_generator</generator>
+	<icon>atom_icon</icon>
+	<logo>atom_logo</logo>
+	<updated>2005-26-12T20:00:00Z</updated>
+	<category term="atom_category.term" scheme="atom_category.scheme" label="atom_category.label" custom="custom_categoryAttribute"/>
+	<rights>atom_copyright</rights>
+	<author custom="custom_authorAttribute">
+		<custom>sub_author_leveld</custom>
+		<name custom="custom_nameAttribute">atom_author.name</name>
+		<uri>atom_author.uri</uri>
+		<email>atom_author.email</email>
+	</author>
+	
+	<!-- Entry #1 using "text" as type -->
+	<entry custom="custom_entryAttribute">
+		<custom>sub_entry_leveld</custom>
+		<title custom="custom_titleAttribute" type="text">atom_entry1.title</title>
+		<summary type="text">atom_entry1.description</summary>
+		<category term="atom_entry1.category.term" scheme="atom_entry1.category.scheme" label="atom_entry1.category.label" custom="custom_categoryAttribute" />
+		<id>atom_entry1.id</id>
+		<link rel="alternate" href="atom_entry1.link.href" type="application/xhtml+xml" hreflang="en" custom="custom_linkAttribute" />
+		<link rel="enclosure" href="atom_entry1.enclosure1.href" type="mp3" length="4500000" custom="custom_enclosureAttribute" />
+		<link rel="enclosure" href="atom_entry1.enclosure2.href" type="wav" length="2500000" />
+		<published>2005-26-12T20:00:00Z</published>
+		<updated>2005-26-12T20:00:00Z</updated>
+		<source custom="custom_sourceAttribute">
+		  <custom>sub_source_leveld</custom>
+		  <id>atom_entry1.source.id</id>
+		  <title>atom_entry1.source.title</title>
+		  <updated>2005-26-12T20:00:00Z</updated>
+		  <rights custom="custom_rightsAttribute">atom_entry1.source.rights</rights>
+		</source>
+		<author custom="custom_authorAttribute">
+			<custom>sub_author_leveld</custom>
+			<name custom="custom_nameAttribute">atom_entry1.author.name</name>
+			<uri>atom_entry1.author.uri</uri>
+			<email>atom_entry1.author.email</email>
+		</author>
+	</entry>
+</feed>

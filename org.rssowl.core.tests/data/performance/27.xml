@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?><!-- Copyright (C) 2001-2006 - Developer Shed, Inc. -->
+<rss version="2.0">
+<channel>
+<title>Dev Shed - The Open Source Web Development Site</title>
+<link>http://www.devshed.com</link>
+<description>mos_rss</description>
+<language>en-us</language>
+<lastBuildDate>Wed, 24 May 2006 17:34:55 -0400</lastBuildDate>
+<item><title>Adding Methods to the Query Processor in PHP</title>
+<link>http://www.devshed.com/c/a/PHP/Adding-Methods-to-the-Query-Processor-in-PHP/</link>
+<description>
+<![CDATA[Over this second article in a series covering network programming in PHP  you will learn how to run popular Windows network monitoring utilities  such as the  ping    netstat  and  ipconfig  programs  by adding some new methods to the  QueryProcessor  class introduced in the previous article....
+<br>
+<br><a href="http://rsslinks.industrybrains.com/click?sid=360&amp;scid=5778&amp;rqctid=4194&amp;lid=360926&amp;cid=42544&amp;pr=2&amp;tstamp=20060524000000&amp;url=http://www.db4o.com/about/productinformation/whitepapers">(Advertisement) Open Source Object Database - Native Java and .NET</a> This Whitepaper by Rick Grehan describes the case for a database library that is small, fast, powerful, and easy to use.]]></description>
+</item>
+<item><title>Experience the Possibilities with Oracle 10g Express Edition</title>
+<link>http://www.devshed.com/c/a/Oracle/Experience-the-Possibilities-with-Oracle-10g-Express-Edition/</link>
+<description>
+<![CDATA[There are plenty of companies that produce large  expensive database programs with lots of features. But if you re a small company  you don t need to spend a lot of money to get a database that suits your needs  in fact  you may not need to spend any money at all. This article introduces you to Oracle 1 g XE  a free database with a friendly user interface....
+<br>
+<br><a href="http://rsslinks.industrybrains.com/click?sid=360&amp;scid=5778&amp;rqctid=4194&amp;lid=357746&amp;cid=53597&amp;pr=2&amp;tstamp=20060524000000&amp;url=http://www.mks.com/go/ibcomponentreuse">(Advertisement) Advanced Reuse and Component-Based Development</a> Free MKS whitepaper. Component based development and component re-use is on the rise for IT organizations. This paper examines some of the management challenges for re-use initiatives through MKS’ Integrity Suite superior solution.]]></description>
+</item>
+<item><title>An Introduction to Sockets in PHP</title>
+<link>http://www.devshed.com/c/a/PHP/An-Introduction-to-Sockets-in-PHP/</link>
+<description>
+<![CDATA[Working with low-level sockets can be a painful task in PHP. Fortunately  PHP offers a nice library of socket handling functions to make your life easier. If you do a lot of network programming in PHP  you will want to check out this three-part series  which starts with the basics and takes you through more advanced approaches. This article is the first one in the series....
+<br>
+<br><a href="http://rsslinks.industrybrains.com/click?sid=360&amp;scid=5778&amp;rqctid=4194&amp;lid=355657&amp;cid=44583&amp;pr=2&amp;tstamp=20060524000000&amp;url=http://www.networkliquidators.com/%3ftrack%3dib">(Advertisement) Refurbished and Used Networking Equipment</a> Network Liquidators sells refurbished and used networking equipment for up to 95% off list, with a 1 year warranty. We buy and sell top brands like Cisco, Extreme, Foundry, and more. Call us for best pricing.]]></description>
+</item>
+<item><title>Planned Improvements in MySQL 5.1</title>
+<link>http://www.devshed.com/c/a/MySQL/Planned-Improvements-in-MySQL-51/</link>
+<description>
+<![CDATA[This article looks ahead to the improvements you can expect in MySQL 5.1. These include triggers  user variables  and other features. It is excerpted from chapter 8 of  em Beginning MySQL Database Design and Optimization  From Novice to Professional  em   written by Jon Stephens and Chad Russell  Apress  ISBN  159 593324 ....
+<br>
+<br><a href="http://rsslinks.industrybrains.com/click?sid=360&amp;scid=5778&amp;rqctid=4194&amp;lid=390081&amp;cid=7795&amp;pr=2&amp;tstamp=20060524000000&amp;url=http://www.visualbuild.com">(Advertisement) Automate Software Builds with Visual Build Pro</a> Easily create an automated, repeatable process for building and deploying software.]]></description>
+</item>
+<item><title>Build a Query Processor Class for Networking in PHP 5</title>
+<link>http://www.devshed.com/c/a/PHP/Build-a-Query-Processor-Class-for-Networking-in-PHP-5/</link>
+<description>
+<![CDATA[Welcome to the first of three tutorials in a series that covers network programming in PHP. In this article you will learn how to use some useful PHP networking functions that will help you perform a variety of common networking tasks. To that end  you will build a simple networking query application in PHP 5....
+<br>
+<br><a href="http://rsslinks.industrybrains.com/click?sid=360&amp;scid=5778&amp;rqctid=4194&amp;lid=382196&amp;cid=63468&amp;pr=2&amp;tstamp=20060524000000&amp;url=http://www.loadtestingtool.com%3fgad%3dCJLmzIcCEgg5yRHEOXD0UBjl57__AyDKuNgU">(Advertisement) WAPT: Web Site/Application Load and Stress Testing</a> WAPT is a load, stress and performance testing tool for websites and web-based applications. Testing of dynamic web applications, recording/playback of HTTPS requests, and several authentication schemes are supported. Descriptive graphs and reports.]]></description>
+</item>
+</channel>
+</rss>

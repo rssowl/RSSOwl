@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<channel rdf:about="http://bootleg-rss.g-blog.net/betanews_com.php">
+<title>BetaNews / FileForum</title>
+<link>http://www.betanews.com/</link>
+<description>Bootleg/scraped RSS feed.  Original news listing (c) BetaNews Updated every 60 minutes. See http://bootleg-rss.g-blog.net for a bunch of other quality feeds.</description>
+<dc:language>en</dc:language>
+<dc:publisher>Feed (c) Carlo Zottmann (carlo@g-blog.net)</dc:publisher>
+<dc:creator>Feed (c) Carlo Zottmann (carlo@g-blog.net)</dc:creator>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/ATI_Catalyst_Drivers_for_Windows_XP/1058330408/1" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/ATI_Catalyst_Drivers_for_Windows_98Me/1058330408/2" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/XFonter/1011855349/1" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/Gizmo_Project_for_Windows/1124733526/1" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/Gizmo_Project_for_Mac_OS_X/1124733526/2" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/AIM_Sypware_Remover/1148486172/1" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/Nokia_Lifeblog/1109232084/1" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/KLite_Codec_Pack_Update/1094057842/4" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/KLite_Codec_Pack_Basic/1094057842/1" />
+<rdf:li rdf:resource="http://fileforum.betanews.com/detail/nVIDIA_ForceWare_Drivers_for_Windows_2000XP_32bit/950852325/1" />
+</rdf:Seq>
+</items>
+</channel>
+
+
+<item rdf:about="http://fileforum.betanews.com/detail/ATI_Catalyst_Drivers_for_Windows_XP/1058330408/1">
+<link>http://fileforum.betanews.com/detail/ATI_Catalyst_Drivers_for_Windows_XP/1058330408/1</link>
+<title>ATI Catalyst Drivers for Windows XP 6.5</title>
+<description><![CDATA[This unified driver has been further enhanced to provide the highest level of power, performance, and reliability. The ATI CATALYST software suite is the ultimate in performance and stability.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/ATI_Catalyst_Drivers_for_Windows_98Me/1058330408/2">
+<link>http://fileforum.betanews.com/detail/ATI_Catalyst_Drivers_for_Windows_98Me/1058330408/2</link>
+<title>ATI Catalyst Drivers for Windows 98/Me</title>
+<description><![CDATA[Microsoft IronPython is a codename of the early pre-alpha release of the new Implementation Running on .NET of Python programming language. It supports an interactive interpreter with fully dynamic compilation. It is well integrated with the rest of the framework and makes all .NET libraries easily available to Python programmers.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/XFonter/1011855349/1">
+<link>http://fileforum.betanews.com/detail/XFonter/1011855349/1</link>
+<title>X-Fonter 6.0 RC5</title>
+<description><![CDATA[X-Fonter is a user friendly font viewer, font manager, and 3D graphic creator. It allows you to make nice 3D Graphics that you can use for your Webpages, emails, and much more.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/Gizmo_Project_for_Windows/1124733526/1">
+<link>http://fileforum.betanews.com/detail/Gizmo_Project_for_Windows/1124733526/1</link>
+<title>Gizmo Project for Windows 2.0.0.162</title>
+<description><![CDATA[Gizmo Project uses your Internet connection (broadband or dial-up) to make calls to other computers. With the click of a mouse, you’re connected to friends, family, and colleagues anywhere on earth. It’s just that simple. You talk clearly for as long as you want for free.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/Gizmo_Project_for_Mac_OS_X/1124733526/2">
+<link>http://fileforum.betanews.com/detail/Gizmo_Project_for_Mac_OS_X/1124733526/2</link>
+<title>Gizmo Project for Mac OS X</title>
+<description><![CDATA[REAPER is a powerful but sensible Windows application that lets you record, arrange, edit, and render multi-track waveform audio. It provides an extensive set of features, but is a very small and lightweight application (the installer is less than 1 megabyte, and includes many effects and a sample project).]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/AIM_Sypware_Remover/1148486172/1">
+<link>http://fileforum.betanews.com/detail/AIM_Sypware_Remover/1148486172/1</link>
+<title>AIM Sypware Remover 0.9 Beta</title>
+<description><![CDATA[AIM Spyware Remover is a free application that will help you to search, scan, remove spyware and use AIM safer.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/Nokia_Lifeblog/1109232084/1">
+<link>http://fileforum.betanews.com/detail/Nokia_Lifeblog/1109232084/1</link>
+<title>Nokia Lifeblog 2.0.403</title>
+<description><![CDATA[Nokia Lifeblog is a PC and mobile phone software combination that effortlessly keeps a multimedia diary of the items you collect with your mobile phone. It automatically organizes your photos, videos, text messages, and multimedia messages into a clear chronology you can easily browse, search, edit, and save. It does the work of organizing the items you create and receive, and you can also add notes throughout the day, or tag and update your favorites so they're always on your phone.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/KLite_Codec_Pack_Update/1094057842/4">
+<link>http://fileforum.betanews.com/detail/KLite_Codec_Pack_Update/1094057842/4</link>
+<title>K-Lite Codec Pack Update 5/24/06</title>
+<description><![CDATA[K-Lite Codec Pack is a collection of codecs and related tools. Codec is short for Compressor-Decompressor. Codecs are needed for encoding and decoding (playing) audio and video. This Codec Pack is designed as a user-friendly solution for playing all your movie files. You should be able to play all the popular movie formats and even some rare formats.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/KLite_Codec_Pack_Basic/1094057842/1">
+<link>http://fileforum.betanews.com/detail/KLite_Codec_Pack_Basic/1094057842/1</link>
+<title>K-Lite Codec Pack Basic</title>
+<description><![CDATA[Drivers for the nVIDIA GeForce, Geforce 2, GeForce 3 + 4, the 'Ti' range of cards, GeForce FX and some Quadro cards. Visit the nVIDIA website for a full list of supported products.]]></description>
+</item>
+<item rdf:about="http://fileforum.betanews.com/detail/nVIDIA_ForceWare_Drivers_for_Windows_2000XP_32bit/950852325/1">
+<link>http://fileforum.betanews.com/detail/nVIDIA_ForceWare_Drivers_for_Windows_2000XP_32bit/950852325/1</link>
+<title>nVIDIA ForceWare Drivers for Windows 2000/XP (32-bit)</title>
+<description><![CDATA[avast! is an antivirus set that is able to detect the presence of viruses in computers. It has a powerful antivirus kernal that has a boot-time scan, improved resident protection, heuristic analysis for email, and a script blocker. The program works great as a on-demand and/or resident virus scanner. The skinable interface is easy to use for any user.]]></description>
+</item>
+
+</rdf:RDF>

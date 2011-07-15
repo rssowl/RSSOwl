@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us" xml:base="http://www.feed-uri.de">
+	<title type="text">atom_title</title>
+	<subtitle type="text">atom_subtitle</subtitle>
+	<link rel="alternate" type="application/xhtml+xml" href="atom_link_html" />
+	<generator>atom_generator</generator>
+	<icon>atom_icon</icon>
+	<logo>atom_logo</logo>
+	<updated>2005-26-12T20:00:00Z</updated>
+	<category term="atom_category.term" scheme="atom_category.scheme" label="atom_category.label" />
+	<rights>atom_copyright</rights>
+	<author>
+		<name>atom_author.name</name>
+		<uri>atom_author.uri</uri>
+		<email>atom_author.email</email>
+	</author>
+	
+	<!-- Entry #1 using "text" as type -->
+	<entry xml:base="http://www.entry-uri.de">
+		<title type="text">atom_entry1.title</title>
+		<summary type="text">atom_entry1.description</summary>
+		<category term="atom_entry1.category.term" scheme="atom_entry1.category.scheme" label="atom_entry1.category.label" />
+		<id>atom_entry1.id</id>
+		<link rel="alternate" href="atom_entry1.link.href" type="application/xhtml+xml" hreflang="en" />
+		<link rel="enclosure" href="atom_entry1.enclosure1.href" type="mp3" length="4500000" />
+		<link rel="enclosure" href="atom_entry1.enclosure2.href" type="wav" length="2500000" />
+		<published>2005-26-12T20:00:00Z</published>
+		<updated>2005-26-12T20:00:00Z</updated>
+		<source>
+		  <id>atom_entry1.source.id</id>
+		  <title>atom_entry1.source.title</title>
+		  <updated>2005-26-12T20:00:00Z</updated>
+		  <rights>atom_entry1.source.rights</rights>
+		</source>
+		<author>
+			<name>atom_entry1.author.name</name>
+			<uri>atom_entry1.author.uri</uri>
+			<email>atom_entry1.author.email</email>
+		</author>
+	</entry>
+	
+	<!-- Entry #2 using "html" as type -->
+	<entry xml:base="/subfolder">
+		<title type="html"><![CDATA[<p>atom_entry2.title</p>]]></title>
+		<content type="html"><![CDATA[<p>atom_entry2.description</p>]]></content>
+		<source>
+		  <link>atom_entry2.source.link</link>
+		</source>
+	</entry>
+	
+	<!-- Entry #3 using "xhtml" as type -->
+	<entry>
+		<title type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>atom_entry3.title</p></div></title>
+		<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>atom_entry3.description</p></div></summary>
+	</entry>
+	
+	<!-- Entry #4 with a link without a rel -->
+	<entry>
+		<link href="atom_entry4.link.href"/>
+	</entry>
+	
+	<!-- Entry #5 using "application/xhtml+xml" as type -->
+	<entry>
+		<title type="application/xhtml+xml"><div xmlns="http://www.w3.org/1999/xhtml"><p>atom_entry5.title</p></div></title>
+		<summary type="application/xhtml+xml"><div xmlns="http://www.w3.org/1999/xhtml"><p>atom_entry5.description</p></div></summary>
+	</entry>
+	
+	<!-- Entry #6 using "xhtml" as type and CDATA inside -->
+	<entry>
+		<title type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><![CDATA[<p>atom_entry6.title</p>]]></div></title>
+		<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>atom_entry6.description</p></div></summary>
+	</entry>
+</feed>

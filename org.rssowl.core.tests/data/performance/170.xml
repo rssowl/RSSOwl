@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Dilbert</title>
+    <link>http://www.dilbert.com/</link>
+    <description>Unofficial Dilbert RSS Feed by TapestryComics.com</description>
+    <item>
+      <title>Comic for 24 May 2006</title>
+      <link>http://www.dilbert.com/comics/dilbert/archive/dilbert-20060524.html</link>
+      <description>&lt;img src="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2004885460524.gif" border="0" /&gt;</description>
+      <enclosure url="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2004885460524.gif"
+        length="27026"
+        type="image/gif"/>
+      <pubDate>Wed, 24 May 2006 00:01:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Comic for 23 May 2006</title>
+      <link>http://www.dilbert.com/comics/dilbert/archive/dilbert-20060523.html</link>
+      <description>&lt;img src="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2073282060523.gif" border="0" /&gt;</description>
+      <enclosure url="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2073282060523.gif"
+        length="25496"
+        type="image/gif"/>
+      <pubDate>Tue, 23 May 2006 00:01:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Comic for 22 May 2006</title>
+      <link>http://www.dilbert.com/comics/dilbert/archive/dilbert-20060522.html</link>
+      <description>&lt;img src="http://www.dilbert.com/comics/dilbert/archive/images/dilbert21465630060522.gif" border="0" /&gt;</description>
+      <enclosure url="http://www.dilbert.com/comics/dilbert/archive/images/dilbert21465630060522.gif"
+        length="34494"
+        type="image/gif"/>
+      <pubDate>Mon, 22 May 2006 00:01:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Comic for 21 May 2006</title>
+      <link>http://www.dilbert.com/comics/dilbert/archive/dilbert-20060521.html</link>
+      <description>&lt;img src="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2006052209371.jpg" border="0" /&gt;</description>
+      <enclosure url="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2006052209371.jpg"
+        length="122588"
+        type="image/jpeg"/>
+      <pubDate>Sun, 21 May 2006 00:01:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Comic for 20 May 2006</title>
+      <link>http://www.dilbert.com/comics/dilbert/archive/dilbert-20060520.html</link>
+      <description>&lt;img src="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2006052442720.gif" border="0" /&gt;</description>
+      <enclosure url="http://www.dilbert.com/comics/dilbert/archive/images/dilbert2006052442720.gif"
+        length="34868"
+        type="image/gif"/>
+      <pubDate>Sat, 20 May 2006 00:01:00 -0400</pubDate>
+    </item>
+
+
+
+
+  </channel>
+</rss>

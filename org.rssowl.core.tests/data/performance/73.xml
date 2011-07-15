@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://instapundit.com/">
+<title>Instapundit.com</title>
+<link>http://instapundit.com/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-24T16:28:15-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.17" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://instapundit.com/archives/030530.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030529.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030528.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030527.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030526.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030525.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030524.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030523.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030522.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030520.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030521.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030519.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030518.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030517.php" />
+<rdf:li rdf:resource="http://instapundit.com/archives/030516.php" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://instapundit.com/archives/030530.php">
+<title></title>
+<link>http://instapundit.com/archives/030530.php</link>
+<description>CONGRESS MEMBERS AGREE: Congress is above the law! House leaders of both parties stood in rare election-year unanimity Wednesday demanding the FBI surrender documents it took and remove agents involved in the weekend raid of a congressman&apos;s office. &quot;The Justice Department must immediately return the papers it unconstitutionally seized,&quot; House...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T16:28:15-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030529.php">
+<title></title>
+<link>http://instapundit.com/archives/030529.php</link>
+<description>AT BEST OF THE WEB, more criticism of Dennis Hastert&apos;s claim of special privileges for Congress: Hastert and Boehner&apos;s objections are bound to rub many Republican constitutents the wrong way. After all, the first plank of the Contract With America was a promise to &quot;require all laws that apply to...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T15:33:47-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030528.php">
+<title></title>
+<link>http://instapundit.com/archives/030528.php</link>
+<description>GOOGLE FUNDING MOVEON? Eli Pariser denies it....</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T15:30:26-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030527.php">
+<title></title>
+<link>http://instapundit.com/archives/030527.php</link>
+<description>EXPLOSION AND FIRE at the Istanbul airport. InstaPundit&apos;s Istanbul correspondent Claire Berlinski emails: I&apos;m back in Istanbul (I flew in yesterday and as usual missed the excitement). I&apos;m looking out the window, but not seeing this big black cloud of smoke everyone&apos;s talking about -- then again, I&apos;m a ways...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T15:14:37-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030526.php">
+<title></title>
+<link>http://instapundit.com/archives/030526.php</link>
+<description>THE CLUB FOR GROWTH BLOG is praising Barney Frank. They&apos;re right to....</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T13:31:56-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030525.php">
+<title></title>
+<link>http://instapundit.com/archives/030525.php</link>
+<description>BANNING REFERENCES TO AMERICANS AS &quot;AMERICANS&quot; seems to me to be taking &quot;international friendliness&quot; too far....</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T13:22:19-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030524.php">
+<title></title>
+<link>http://instapundit.com/archives/030524.php</link>
+<description>DETENTION FOR A BLOG ENTRY? I don&apos;t think that high schools have any business punishing students for things they do when they&apos;re out of school, whether or not they blog about them. Plus, the weasel-phrase &quot;illegal or inappropriate behavior&quot; sets my teeth on edge. Do I trust a high-school principal...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T13:08:28-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030523.php">
+<title></title>
+<link>http://instapundit.com/archives/030523.php</link>
+<description>SOME THOUGHTS ON CONGRESS, MUBARAK, AND CHUTZPAH, over at GlennReynolds.com....</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T12:26:39-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030522.php">
+<title></title>
+<link>http://instapundit.com/archives/030522.php</link>
+<description>IN THE MAIL: Peter Beinart&apos;s new book, The Good Fight : Why Liberals---and Only Liberals---Can Win the War on Terror and Make America Great Again. I don&apos;t think that there are enough liberal hawks left in the Democratic Party -- which is currently trying to purge Joe Lieberman -- to...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T10:51:41-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030520.php">
+<title></title>
+<link>http://instapundit.com/archives/030520.php</link>
+<description>MORE ON THE MEDIA&apos;S KATRINA DEBACLE: Where to begin? As I’ve written before, virtually all of the gripping stories from Katrina were untrue. All of those stories about, in Paula Zahn’s words, “bands of rapists, going block to block”? Not true. The tales of snipers firing on medevac helicopters? Bogus....</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T10:43:17-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030521.php">
+<title></title>
+<link>http://instapundit.com/archives/030521.php</link>
+<description>ED MORRISSEY ON THE JEFFERSON INVESTIGATION and the lame response from the Congressional leadership: This can&apos;t be the same Congress that issues subpoenas for all sorts of probes into the executive branch and the agencies it runs. Does Congress really want to establish a precedent that neither branch has to...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T09:15:38-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030519.php">
+<title></title>
+<link>http://instapundit.com/archives/030519.php</link>
+<description>STRATEGYPAGE: The last two weeks have seen an ambitious Taliban offensive shot to pieces. As many as a thousand Taliban gunmen, in half a dozen different groups, have passed over the Pakistani border, or been gathered within Afghanistan, and sent off to try and take control of remote villages and...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T08:42:26-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030518.php">
+<title></title>
+<link>http://instapundit.com/archives/030518.php</link>
+<description>DAN RIEHL thinks that Google is heading for a fall....</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T08:30:16-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030517.php">
+<title></title>
+<link>http://instapundit.com/archives/030517.php</link>
+<description>THIS SEEMS RATHER IRONIC: The American Civil Liberties Union is weighing new standards that would discourage its board members from publicly criticizing the organization&apos;s policies and internal administration. &quot;Where an individual director disagrees with a board position on matters of civil liberties policy, the director should refrain from publicly highlighting...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T08:14:03-05:00</dc:date>
+</item>
+<item rdf:about="http://instapundit.com/archives/030516.php">
+<title></title>
+<link>http://instapundit.com/archives/030516.php</link>
+<description>CRAIG NEWMARK DEBATES NET NEUTRALITY with Mike McCurry in the Wall Street Journal. (Free link). And here&apos;s an interesting interview with Craig. I can attest that he does customer-service at all hours; I was up and posting at 3:30 AM one morning (we had moved to the basement during a...</description>
+<dc:subject></dc:subject>
+<dc:creator>Glenn Reynolds</dc:creator>
+<dc:date>2006-05-24T08:04:24-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="2.0">
+<channel>
+	<title>Mac Help Forums</title>
+	<link>http://www.mac-help.com/forums</link>
+	<description><![CDATA[Mac OSX help and discussion forum website.]]></description>
+	<language>en</language>
+	<pubDate>Wed, 24 May 2006 21:34:49 GMT</pubDate>
+	<generator>vBulletin</generator>
+	<ttl>60</ttl>
+
+	<item>
+		<title>Pixar Animation Studios Looking for Rockstar Engineers!</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=731&amp;goto=newpost</link>
+		<pubDate>Mon, 22 May 2006 21:56:00 GMT</pubDate>
+		<description><![CDATA[About Pixar Animation Studios:
+ 
+Pixar Animation Studios combines creative and technical artistry to create original stories in the medium of computer animation. Pixar has created six of the most...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=46"><![CDATA[USA Jobs]]></category>
+		<author><![CDATA[example@example.com (epalmore)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=731</guid>
+	</item>
+
+	<item>
+		<title>PowerMac G4 not booting-up.</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=730&amp;goto=newpost</link>
+		<pubDate>Sun, 21 May 2006 05:58:11 GMT</pubDate>
+		<description><![CDATA[Hello there.
+I have a PowerMac g4 1ghz. That's not booting-up.
+It stops on a silver screen with an apple in the midle.
+After many tryings on booting from the CD with the Apple Hardware test disk...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=2"><![CDATA[Desktop Macs]]></category>
+		<author><![CDATA[example@example.com (edulima)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=730</guid>
+	</item>
+
+	<item>
+		<title>Custom Bullets in InDesign??!?!</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=729&amp;goto=newpost</link>
+		<pubDate>Fri, 19 May 2006 17:56:34 GMT</pubDate>
+		<description><![CDATA[uuugh!
+Can you not add a custom bullet in inDesign CS2 4.0.2.blabla?!?! I have a little graphic that I want to add for the bullets; or at least be able to do real text character adjustments to one of...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=25"><![CDATA[Mac OS X Applications]]></category>
+		<author><![CDATA[example@example.com (rooter)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=729</guid>
+	</item>
+
+	<item>
+		<title>argg... keychain laziness</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=728&amp;goto=newpost</link>
+		<pubDate>Thu, 18 May 2006 17:09:05 GMT</pubDate>
+		<description><![CDATA[I don't understand why the heck my keychain passwords and logins don't work. Or rather work completely randomly!!! Why is that?! 
+I just reinstalled (clean install, not a fresh reinstall) 10.4.6 and...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=8"><![CDATA[Mac OS X System Software]]></category>
+		<author><![CDATA[example@example.com (rooter)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=728</guid>
+	</item>
+
+	<item>
+		<title>Take A Tour Of Microsoft's Mac Lab</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=727&amp;goto=newpost</link>
+		<pubDate>Wed, 17 May 2006 18:14:57 GMT</pubDate>
+		<description><![CDATA[Quite impressive and lots and lots of Mac's in there :eek: 
+
+http://davidweiss.blogspot.com/2006/04/tour-of-microsofts-mac-lab.html]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=15"><![CDATA[The Lounge Bar]]></category>
+		<author><![CDATA[example@example.com (Kyomii)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=727</guid>
+	</item>
+
+	<item>
+		<title>FileMaker instant Web Publishing</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=726&amp;goto=newpost</link>
+		<pubDate>Fri, 12 May 2006 18:16:33 GMT</pubDate>
+		<description><![CDATA[Does anyone out there have any experience with the Instant Web Publishing abilities of FileMaker (we're using FM 7)?
+
+We're just starting to look in to it's potential, and our webmistress is...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=25"><![CDATA[Mac OS X Applications]]></category>
+		<author><![CDATA[example@example.com (zeyhra)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=726</guid>
+	</item>
+
+	<item>
+		<title>Automator: Command Line: Password Response?</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=725&amp;goto=newpost</link>
+		<pubDate>Thu, 11 May 2006 23:19:22 GMT</pubDate>
+		<description><![CDATA[I would like to use automator to automate some lengthy command lines for users who would rather not go there...
+
+The process I need to call needs root or sudo... so the call would be like this... for...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=35"><![CDATA[Automator]]></category>
+		<author><![CDATA[example@example.com (VorpalBlade)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=725</guid>
+	</item>
+
+	<item>
+		<title>Checking mail from another machine</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=724&amp;goto=newpost</link>
+		<pubDate>Tue, 09 May 2006 20:43:23 GMT</pubDate>
+		<description><![CDATA[Hi guys-
+
+I have finally gotten my mail service running using 10.3.9 Server (through a combination of Server Admin, Workgroup Manager and some commandline stuff for crying out loud- can't this be...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=9"><![CDATA[Mac OS X Server]]></category>
+		<author><![CDATA[example@example.com (artcop)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=724</guid>
+	</item>
+
+	<item>
+		<title>Daz 3D Studio, Poser 6 and getting 'Micheal' to work</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=723&amp;goto=newpost</link>
+		<pubDate>Tue, 09 May 2006 20:25:16 GMT</pubDate>
+		<description><![CDATA[I've recently started to use my beast capabilites to get into the world of 3D models. As part of my job requires a lot of retouche on images, something like Poser or D3D can make my life easier....]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=25"><![CDATA[Mac OS X Applications]]></category>
+		<author><![CDATA[example@example.com (vjoustra)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=723</guid>
+	</item>
+
+	<item>
+		<title>ibook g4 wont finnish starting</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=722&amp;goto=newpost</link>
+		<pubDate>Tue, 09 May 2006 06:49:58 GMT</pubDate>
+		<description><![CDATA[when i bush the start button the normal chime rings, fan blows, apple screen comes up with the little spinning dial, then the blue screen with the mac os z box and the blue progress bar. the bar...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=3"><![CDATA[Portable Macs]]></category>
+		<author><![CDATA[example@example.com (cookytrix)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=722</guid>
+	</item>
+
+	<item>
+		<title>what do i use to burn exact copies of cds?</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=719&amp;goto=newpost</link>
+		<pubDate>Sun, 07 May 2006 22:02:33 GMT</pubDate>
+		<description><![CDATA[hi, i haven't had my mac long and don't know how to burn CDs or DVDs. i want to burn exact copies of some data discs.
+
+i know how to burn music in iTunes, that is easy.
+
+do you get a burning program...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=25"><![CDATA[Mac OS X Applications]]></category>
+		<author><![CDATA[example@example.com (iboy)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=719</guid>
+	</item>
+
+	<item>
+		<title>Mac problems, really need help!Thanks!</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=718&amp;goto=newpost</link>
+		<pubDate>Sun, 07 May 2006 11:58:39 GMT</pubDate>
+		<description><![CDATA[I am desperately need help now, I am stressed because too much problems on my financial lately and another problem occured, which is my Mac got error and I am thinking about bring it to service...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=8"><![CDATA[Mac OS X System Software]]></category>
+		<author><![CDATA[example@example.com (sushikid)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=718</guid>
+	</item>
+
+	<item>
+		<title>intel mini</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=717&amp;goto=newpost</link>
+		<pubDate>Sat, 06 May 2006 00:53:30 GMT</pubDate>
+		<description><![CDATA[i installed   bootcamp and windows  xp  pro  sp 2  on my  mini  (gave it a partition of  10  gig ) 
+so far everything runs fine the installation was  smooth in both ways  ( boot camp  windows and the...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=8"><![CDATA[Mac OS X System Software]]></category>
+		<author><![CDATA[example@example.com (bluekatt)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=717</guid>
+	</item>
+
+	<item>
+		<title>boot camp</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=716&amp;goto=newpost</link>
+		<pubDate>Fri, 05 May 2006 19:58:36 GMT</pubDate>
+		<description><![CDATA[i dont have any  actual  questions about boot camp it runs on my  intel mini  just  fine 
+what i want to know is that  its preview software and the pdf  explicitly states that  it  is  usuable as ...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=8"><![CDATA[Mac OS X System Software]]></category>
+		<author><![CDATA[example@example.com (bluekatt)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=716</guid>
+	</item>
+
+	<item>
+		<title>vpc  woes  ..again</title>
+		<link>http://www.mac-help.com/forums/showthread.php?t=715&amp;goto=newpost</link>
+		<pubDate>Fri, 05 May 2006 19:37:50 GMT</pubDate>
+		<description><![CDATA[i  just bought my shiny new  mac mini  intel single core 
+everything is going fine until  i  want to install  vpc 7 
+it instal fine until the  reboot and then it  dies on me 
+it gives me an error ...]]></description>
+		<category domain="http://www.mac-help.com/forums/forumdisplay.php?f=25"><![CDATA[Mac OS X Applications]]></category>
+		<author><![CDATA[example@example.com (bluekatt)]]></author>
+		<guid isPermaLink="false">http://www.mac-help.com/forums/showthread.php?t=715</guid>
+	</item>
+</channel>
+</rss>

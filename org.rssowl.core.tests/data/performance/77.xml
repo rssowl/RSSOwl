@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<feed version="0.3" xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">
+  <title>mozillaZine.org</title>
+  <link rel="alternate" type="text/html" href="http://www.mozillazine.org/" />
+  <modified>2006-05-13T21:03:20-08:00</modified>
+  <tagline>Your Source for Daily Mozilla News and Advocacy</tagline>
+  <id>tag:mozillazine.org,2004:1</id>
+  <copyright>Copyright (c) 2004, The Mozillazine Organization</copyright>
+    <entry>
+      <title>Bon Echo Alpha 2 Milestone Available</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8406" />
+      <modified>2006-05-13T14:01:50-08:00</modified>
+      <created>2006-05-13T14:01:50-08:00</created>
+      <issued>2006-05-13T14:01:50-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8406</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="http://developer.mozilla.org/devnews/index.php/2006/05/12/bon-echo-alpha-2-milestone/">Bon Echo Alpha 2</a>, the second development milestone of Mozilla Firefox 2 aimed at developers and testers, is now available. Changes include inline spell checking in text boxes, automatic session restore after a crash and changes to the default tab behavior. The <a href="http://www.mozilla.org/projects/bonecho/releases/2.0a2.html">Bon Echo Alpha 2 Release Notes</a> have more information.</p>
+        <p>As reported earlier, <a href="http://www.mozillazine.org/talkback.html?article=8283">places is not enabled</a> in Bon Echo Alpha 2. Users of Bon Echo Alpha 1 should refer to the <a href="http://developer.mozilla.org/devnews/index.php/2006/04/25/important-message-for-branch-nightly-users-places">instructions for exporting bookmarks</a>.</p>
+        <p>A third milestone, <a href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/9d345ed59e067962/">Bon Echo Alpha 3 is being planned</a> to pickup features such as SafeBrowsing and DOMStorage, that missed the Alpha 2 cutoff.</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8406">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Camino 1.0.1 Released</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8401" />
+      <modified>2006-05-12T18:56:50-08:00</modified>
+      <created>2006-05-12T18:56:50-08:00</created>
+      <issued>2006-05-12T18:56:50-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8401</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p>Juha-Matti Laurio wrote in to inform us that <a href="http://www.caminobrowser.org/releases/1.0.1.php">Camino 1.0.1</a> has been released. This release includes fixes for several critical security issues, including those fixed in Revision 1.8.0.3 of the Gecko rendering engine. Other updates include an upgrade to the Java embedding plugin and improved ad-blocking.
+</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8401">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Sunbird 0.3 Alpha 2 Released</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8400" />
+      <modified>2006-05-12T18:51:25-08:00</modified>
+      <created>2006-05-12T18:51:25-08:00</created>
+      <issued>2006-05-12T18:51:25-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8400</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p>Simon Paquet writes: "The Sunbird team is proud to announce the completion of <a href="http://www.mozilla.org/projects/calendar/releases/sunbird0.3alpha2.html">Sunbird 0.3 Alpha 2</a> for Windows, Linux and Mac OS X. This is a major milestone on the road to the final Sunbird 0.3 release. Thanks go to all developers, testers and other supporters of the project."</p>
+        <p>"Builds for different platforms are available on our <a href="http://www.mozilla.org/projects/calendar/sunbird/download.html">download page</a>. Note that we do not consider it to be a production-quality release. It is pre-release software and should be treated as such."</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8400">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Version 1.0 of the Firefox Client Customization Kit Released</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8367" />
+      <modified>2006-05-08T12:26:08-08:00</modified>
+      <created>2006-05-08T12:26:08-08:00</created>
+      <issued>2006-05-08T12:26:08-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8367</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="mailto:mkaply@us.ibm.com">Michael Kaply</a> wrote in to inform us that Version 1.0 of the <a href="http://www.mozilla.org/projects/cck/firefox/">Firefox CCK (Client Customization Kit)</a> has been released.</p>
+        <p>The Firefox CCK allows people to create an extension that customizes the browser for a particular installation or deployment. Example customizations include adding an indentifier to the user agent string, changing the default home page, title bar text and the animated logo, preinstalling browser plugins and search engines, adding bookmarks, registry keys and certificates.</p>
+        <p>Some of these changes, if distributed publicly, would require adherence to the <a href="http://www.mozilla.org/foundation/trademarks/">trademark policy</a>.</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8367">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Mozilla Firefox 1.5.0.3 Released</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8327" />
+      <modified>2006-05-02T23:17:52-08:00</modified>
+      <created>2006-05-02T23:17:52-08:00</created>
+      <issued>2006-05-02T23:17:52-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8327</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="http://www.mozilla.com/firefox/releases/1.5.0.3.html">Mozilla Firefox 1.5.0.3</a> has been released. This update fixes a <a href="http://forums.mozillazine.org/viewtopic.php?t=408603">publicly disclosed</a> <a href="http://www.mozilla.org/security/announce/2006/mfsa2006-30.html">denial of service weakness</a>. All users are encouraged to upgrade to this version.</p>
+        <p>The bugfixes previously <a href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/44d49e09870ae0de">planned for Firefox 1.5.0.3 were shifted to 1.5.0.4</a>, and a quick update was released shortly after the recent <a href="http://www.mozillazine.org/talkback.html?article=8252">1.5.0.2 release</a> to address the publicly reported issue. </p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8327">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Firefox Flicks Ad Contest Winners Announced</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8292" />
+      <modified>2006-04-29T23:50:29-08:00</modified>
+      <created>2006-04-29T23:50:29-08:00</created>
+      <issued>2006-04-29T23:50:29-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8292</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p>The winners of the <a href="http://www.mozillazine.org/talkback.html?article=7961">Firefox Flicks Ad Contest</a> have been announced. <a href="http://www.firefoxflicks.com/flick/?id=19326">Daredevil</a>, by Pete Macomber, won the Grand Prize. Other winners include <a href="http://www.firefoxflicks.com/flick/?id=19542">Wheee!</a> by Jeff Gill, <a href="http://www.firefoxflicks.com/flick/?id=21146">Fox Fever</a> by Andrew N. Green, <a href="http://www.firefoxflicks.com/flick/?id=20674">This is Hot</a> by Danny Robashkin and <a href="http://www.firefoxflicks.com/flick/?id=19836">Give Me the Soap</a> by Chris Wedding.</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8292">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Places Disabled on Firefox 2 Development Branch</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8283" />
+      <modified>2006-04-27T18:52:36-08:00</modified>
+      <created>2006-04-27T18:52:36-08:00</created>
+      <issued>2006-04-27T18:52:36-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8283</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="http://wiki.mozilla.org/Places">Places</a>, the new bookmarks/history user interface, has been disabled on the Gecko 1.8 branch. As mentioned earlier, Firefox 2 will be shipped from this branch. The new mozStorage APIs, which use the <a href="http://www.sqlite.org/">sqlite</a> database engine, will remain enabled and available to extension authors.</p>
+        <p>In a newsgroup post, Mike Schroepfer of Mozilla Corporation <a href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/4b8e7bafecccbc10/">explains the reasoning</a> behind this decision.</p>
+        <p>Places was enabled on <a href="http://www.mozillazine.org/talkback.html?article=8146">Bon Echo Alpha 1</a>, which was shipped last month. Mozilla Developer News has the <a href="http://developer.mozilla.org/devnews/index.php/2006/04/25/important-message-for-branch-nightly-users-places">instructions for exporting bookmarks</a> from a places-enabled build.</p>
+        <p>At his weblog, Ben Goodger attempts to <a href="http://weblogs.mozillazine.org/ben/archives/010115.html">justify a 2.0 moniker</a> for a places-less release.
+</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8283">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>SeaMonkey 1.0.1 Released</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8259" />
+      <modified>2006-04-25T08:49:22-08:00</modified>
+      <created>2006-04-25T08:49:22-08:00</created>
+      <issued>2006-04-25T08:49:22-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8259</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="mailto:kairo@kairo.at">Robert Kaiser</a> writes:
+"<a href="http://www.mozilla.org/projects/seamonkey/releases/">SeaMonkey 1.0.1</a> is now available. All users of previous SeaMonkey versions, the Netscape suite and the Mozilla suite (which has seen its last ever release) are encouraged to upgrade to this new version, as SeaMonkey 1.0.1 includes multiple security fixes along with other critical bug fixes. Please see the <a href="http://www.mozilla.org/projects/seamonkey/releases/seamonkey1.0.1/">release notes</a> for more information."</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8259">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Security and Stability Updates for Thunderbird Released</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8252" />
+      <modified>2006-04-23T10:57:08-08:00</modified>
+      <created>2006-04-23T10:57:08-08:00</created>
+      <issued>2006-04-23T10:57:08-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8252</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="http://www.mozilla.com/thunderbird/releases/1.5.0.2.html">Thunderbird 1.5.0.2</a> and <a href="http://www.mozilla.com/thunderbird/releases/1.0.8.html">Thunderbird 1.0.8</a> have been released. These updates contain several security and stability fixes.</p>
+        <p>Thunderbird 1.0.8 is the last release in the Thunderbird 1.0.x product line, and the recently released <a href="http://www.mozilla.org/releases/mozilla1.7.13/">Mozilla Application Suite 1.7.13</a> is the last official release of the Mozilla Application Suite. Mozilla Corporation <a href="http://developer.mozilla.org/devnews/index.php/2006/04/12/sunset-announcement-for-fxtb-10x-and-mozilla-suite-17x/">recommends that all users of these products upgrade</a> to the Thunderbird 1.5.0.x product line.  The <a href="http://wiki.mozilla.org/ReleaseRoadmap">Release Roadmap</a> contains more information on product life cycles.</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8252">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Security and Stability Updates for Firefox Released</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8220" />
+      <modified>2006-04-13T18:22:46-08:00</modified>
+      <created>2006-04-13T18:22:46-08:00</created>
+      <issued>2006-04-13T18:22:46-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8220</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="http://www.mozilla.com/firefox/releases/1.5.0.2.html">Firefox 1.5.0.2</a> and <a href="http://www.mozilla.com/firefox/releases/1.0.8.html">Firefox 1.0.8</a> have been released. These updates contain several security fixes.</p>
+        <p>Firefox 1.0.8 is the last release in the Firefox 1.0.x product line. Mozilla Corporation <a href="http://developer.mozilla.org/devnews/index.php/2006/04/12/sunset-announcement-for-fxtb-10x-and-mozilla-suite-17x/">recommends that all users upgrade</a> to the Firefox 1.5.0.x product line.  The <a href="http://wiki.mozilla.org/ReleaseRoadmap">Release Roadmap</a> contains more information on product life cycles.
+</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8220">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>MozillaZine Folding@Home Team Completes 10 Million Points</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8191" />
+      <modified>2006-04-03T23:11:34-08:00</modified>
+      <created>2006-04-03T23:11:34-08:00</created>
+      <issued>2006-04-03T23:11:34-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8191</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p><a href="http://folding.stanford.edu/">Folding@Home</a> is a project based on the distributed computing model, and aims to find a cure for diseases related to protein folding. </p>
+        <p>Over a year ago, MozillaZine forum members had <a href="http://forums.mozillazine.org/viewtopic.php?t=138693">formed a folding@home team</a>, and had <a href="http://www.mozillazine.org/talkback.html?article=7073">entered the top 100 folding teams</a> last year.</p>
+        <p>We're pleased to announce that our team has been making steady progress and has completed 10,000,000 points towards the cause. To join the team, <a href="http://folding.stanford.edu/download.html">download the Folding@Home client</a>, and select team 39340. Happy folding!</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8191">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+    <entry>
+      <title>Bon Echo Alpha 1 Available</title>
+      <link rel="alternate" type="text/html" href="http://www.mozillazine.org/talkback.html?article=8146" />
+      <modified>2006-03-21T21:10:38-08:00</modified>
+      <created>2006-03-21T21:10:38-08:00</created>
+      <issued>2006-03-21T21:10:38-08:00</issued>
+      <id>tag:mozillazine.org,2004:article8146</id>
+      <author>
+        <name>mozillaZine.org</name>
+      </author>
+      <content type="text/html" mode="escaped" xml:lang="en" xml:base="http://www.mozillazine.org/">
+        <![CDATA[<p>Bon Echo Alpha 1, the first development milestone of Mozilla Firefox 2 aimed at developers and testers, is now available for download from <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/bonecho/alpha1/">ftp.mozilla.org</a>. Bon Echo Alpha 1 is the first of many developer milestones on the path to Firefox 2. This milestone is focused on testing the backend infrastructure supporting the new Places functionality. </p>
+        <p>The <a href="http://www.mozilla.org/projects/bonecho/releases/2.0a1.html">Bon Echo Alpha 1 Release Notes</a> have more information about what's new. The <a href="http://www.mozilla.org/projects/bonecho/">Bon Echo Alpha 1 Start Page</a> now makes it easy for testers to provide feedback and report bugs.</p>]]>
+        <![CDATA[<p><a href="http://www.mozillazine.org/talkback.html?article=8146">Talkback</a></p>]]>
+      </content>
+    </entry>
+
+</feed>

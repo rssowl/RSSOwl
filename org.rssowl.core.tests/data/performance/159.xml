@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Get Fuzzy</title>
+    <link>http://www.comics.com//comics/getfuzzy/</link>
+    <description>Unofficial Get Fuzzy RSS Feed by TapestryComics.com</description>
+    <item>
+      <title>Comic for 24 May 2006</title>
+      <link>http://www.comics.com//comics/getfuzzy/archive/getfuzzy-20060524.html</link>
+      <description>&lt;img src='http://www.comics.com//comics/getfuzzy/archive/images/getfuzzy2004885460524.gif' border='0' /&gt;</description>
+      <enclosure url="http://www.comics.com//comics/getfuzzy/archive/images/getfuzzy2004885460524.gif"
+        length="45671"
+        type="image/gif"/>
+      <pubDate>Wed, 24 May 2006 00:01:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Comic for 23 May 2006</title>
+      <link>http://www.comics.com//comics/getfuzzy/archive/getfuzzy-20060523.html</link>
+      <description>&lt;img src='http://www.comics.com//comics/getfuzzy/archive/images/getfuzzy2073282060523.gif' border='0' /&gt;</description>
+      <enclosure url="http://www.comics.com//comics/getfuzzy/archive/images/getfuzzy2073282060523.gif"
+        length="50987"
+        type="image/gif"/>
+      <pubDate>Tue, 23 May 2006 00:01:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>Comic for 22 May 2006</title>
+      <link>http://www.comics.com//comics/getfuzzy/archive/getfuzzy-20060522.html</link>
+      <description>&lt;img src='http://www.comics.com//comics/getfuzzy/archive/images/getfuzzy21465630060522.gif' border='0' /&gt;</description>
+      <enclosure url="http://www.comics.com//comics/getfuzzy/archive/images/getfuzzy21465630060522.gif"
+        length="48692"
+        type="image/gif"/>
+      <pubDate>Mon, 22 May 2006 00:01:00 -0400</pubDate>
+    </item>
+
+
+
+
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://my.netscape.com/rdf/simple/0.9/">
+
+<channel>
+<title>Sci-Fi Storm</title>
+<link>http://scifistorm.org/</link>
+<description>Your Source for Sci-Fi News</description>
+</channel>
+
+<image>
+<title>Sci-Fi Storm</title>
+<url>http://scifistorm.org/images/stormlogo-sm.gif</url>
+<link>http://scifistorm.org/</link>
+</image>
+
+<item>
+<title>Burk &lt;i&gt;Lost&lt;/i&gt; on &lt;i&gt;Trek XI&lt;/i&gt;</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/23/1418252</link>
+</item>
+
+<item>
+<title>&lt;i&gt;Lost&lt;/i&gt; to answer questions...pose more?</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/22/1414228</link>
+</item>
+
+<item>
+<title>New from SteveJordanBooks.com: &lt;i&gt;Encephalopath&lt;/i&gt;</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/21/149241</link>
+</item>
+
+<item>
+<title>&lt;i&gt;Aquaman&lt;/i&gt; sinks in the consolidation void</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/18/2241210</link>
+</item>
+
+<item>
+<title>&lt;i&gt;Caspian&lt;/i&gt; release delayed; &lt;i&gt;Fountain&lt;/i&gt; surprises</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/17/1052257</link>
+</item>
+
+<item>
+<title>Singer may not direct &lt;i&gt;Logan's Run&lt;/i&gt;</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/16/111246</link>
+</item>
+
+<item>
+<title>&lt;i&gt;Invasion&lt;/i&gt; repelled? Looks like its cancelled...</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/16/0012210</link>
+</item>
+
+<item>
+<title>Exclusive X-Men trailer live at midnight EDT</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/11/2028208</link>
+</item>
+
+<item>
+<title>More &lt;i&gt;Stargate&lt;/i&gt;, please...</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/11/1037206</link>
+</item>
+
+<item>
+<title>&lt;i&gt;World of Warcraft: The Movie&lt;/i&gt;</title>
+<link>http://scifistorm.org/article.pl?sid=06/05/09/2311218</link>
+</item>
+
+<textinput>
+<title>Search Sci-Fi Storm</title>
+<description>Search Sci-Fi Storm stories</description>
+<name>query</name>
+<link>http://scifistorm.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>

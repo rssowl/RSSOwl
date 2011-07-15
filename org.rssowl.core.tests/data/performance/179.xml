@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.livingroom.org.au/blog/">
+<title>LivingRoom &gt;&gt; A space for Life</title>
+<link>http://www.livingroom.org.au/blog/</link>
+<description>Talking Emerging Church, Blogging, Faith and General Silliness from South of the Equator</description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-20T23:40:13+10:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.2" />
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-nd-nc/1.0/" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/frequently_asked_questions_about_livingroom.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/love_thy_neighbor.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/the_da_vinci_code_a_christian_response.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/digital_photography_school.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/measuring_emerging_church_as_a_trend.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/_livingroom.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/everyday_spirituality_tour_of_my_life.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/holiday_snaps.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/podcast_about_livingroom.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/neil_cole_in_melbourne_5th7th_april_highly_recommended.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/christians_only_social_networking.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/livingroom_talks_money.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/byo_worship_lent.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/what_does_mission_look_like_at_livingroom.php" />
+<rdf:li rdf:resource="http://www.livingroom.org.au/blog/archives/brian_mclaren_in_melbourne.php" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.livingroom.org.au/blog/archives/frequently_asked_questions_about_livingroom.php">
+<title>Frequently Asked Questions about LivingRoom</title>
+<link>http://www.livingroom.org.au/blog/archives/frequently_asked_questions_about_livingroom.php</link>
+<description> One of the things that is becoming increasingly common at the moment is for me to get emails from people wanting to know more about LivingRoom. Most of these are coming in as a result of people searching for...</description>
+<dc:subject>Living Room</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-05-20T23:40:13+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/love_thy_neighbor.php">
+<title>Love Thy Neighbor</title>
+<link>http://www.livingroom.org.au/blog/archives/love_thy_neighbor.php</link>
+<description> Robert Bruce has written and posted a thought provoking and challenging poem on his blog titled Love Thy Neighbor....</description>
+<dc:subject>Faithorama</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-05-16T23:18:36+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/the_da_vinci_code_a_christian_response.php">
+<title>The Da Vinci Code - A Christian Response?</title>
+<link>http://www.livingroom.org.au/blog/archives/the_da_vinci_code_a_christian_response.php</link>
+<description> I&apos;m fascinated by the response of the church here in Australia to the Da Vinci Code. On one hand there have been a number of &apos;campaigns&apos; that I&apos;ve come across encouraging Christians to boycott the Da Vinci Code movie...</description>
+<dc:subject>Faithorama</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-05-15T10:33:03+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/digital_photography_school.php">
+<title>Digital Photography School</title>
+<link>http://www.livingroom.org.au/blog/archives/digital_photography_school.php</link>
+<description> I&apos;ve been working on a new blog that some of you might have some interest in if you&apos;re interesting in improving your digital camera technique. It&apos;s called Digital Photography School and is a blog with regularly updated tips for...</description>
+<dc:subject>Getting Personal</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-05-12T14:47:20+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/measuring_emerging_church_as_a_trend.php">
+<title>Measuring Emerging Church as a Trend</title>
+<link>http://www.livingroom.org.au/blog/archives/measuring_emerging_church_as_a_trend.php</link>
+<description> Yesterday Google announced a new tool - Google Trends which is great for tracking how many people are searching Google for different keywords. The term &apos;Emerging Church didn&apos;t really appear on Google&apos;s tracking until about three quarters through 2005....</description>
+<dc:subject>Emerging Church</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-05-12T14:27:06+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/_livingroom.php">
+<title>@ LivingRoom</title>
+<link>http://www.livingroom.org.au/blog/archives/_livingroom.php</link>
+<description> The last two weeks at LivingRoom have been good fun. Two weeks ago was our &apos;big gathering&apos; where both groups come together. We had Kim Hammond from Forge Victoria come along to share his story. Kim is a great...</description>
+<dc:subject>Living Room</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-05-05T13:22:17+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/everyday_spirituality_tour_of_my_life.php">
+<title>Everyday Spirituality Tour of My Life</title>
+<link>http://www.livingroom.org.au/blog/archives/everyday_spirituality_tour_of_my_life.php</link>
+<description> Tonight at LivingRoom we&apos;re doing another Everyday Spirituality Tour and tonight it&apos;s my turn to take the group on a tour of my life. For those unfamiliar with the concept I&apos;ve written about them here and here previously. Tonight&apos;s...</description>
+<dc:subject>Living Room</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-04-19T17:42:05+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/holiday_snaps.php">
+<title>Holiday Snaps</title>
+<link>http://www.livingroom.org.au/blog/archives/holiday_snaps.php</link>
+<description> V and I just got back from a couple of weeks away on holiday in far North Queensland. It was a great time of relaxation, food, fun and a little scuba diving! Here&apos;s a picture....</description>
+<dc:subject>Getting Personal</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-04-19T17:41:36+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/podcast_about_livingroom.php">
+<title>Podcast about LivingRoom</title>
+<link>http://www.livingroom.org.au/blog/archives/podcast_about_livingroom.php</link>
+<description> I spent 45 minutes on Skype this morning with Jon from the Matters of the Heart recording a podcast. The focus of it was LivingRoom and some of the basics of how we run, how we started and how...</description>
+<dc:subject>Living Room</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-03-30T15:12:48+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/neil_cole_in_melbourne_5th7th_april_highly_recommended.php">
+<title>Neil Cole in Melbourne: 5th-7th April - Highly Recommended</title>
+<link>http://www.livingroom.org.au/blog/archives/neil_cole_in_melbourne_5th7th_april_highly_recommended.php</link>
+<description> One of the best speakers I&apos;ve ever heard in recent years on mission and church is Neil Cole who came and spoke at a Forge event a couple of years back. He shared some of his story in one...</description>
+<dc:subject>Emerging Church</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-03-29T20:41:56+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/christians_only_social_networking.php">
+<title>Christians Only Social Networking</title>
+<link>http://www.livingroom.org.au/blog/archives/christians_only_social_networking.php</link>
+<description> I&apos;ve just seen one of the more bizarre blogging tools out there - Xianz is it&apos;s name and it&apos;s promoting itself as &apos;MySpace for Christians&apos;. It&apos;s an invitation only social networking and blogging tool which at a first glance...</description>
+<dc:subject>Linkage</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-03-29T13:40:00+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/livingroom_talks_money.php">
+<title>LivingRoom talks Money</title>
+<link>http://www.livingroom.org.au/blog/archives/livingroom_talks_money.php</link>
+<description> This past week at LivingRoom was one of our big gatherings (where our two groups came together - something we do every 7 weeks). The night was a first on two fronts. Firstly we had a sermon/preaching for the...</description>
+<dc:subject>Living Room</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-03-11T01:22:37+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/byo_worship_lent.php">
+<title>BYO Worship - Lent</title>
+<link>http://www.livingroom.org.au/blog/archives/byo_worship_lent.php</link>
+<description> LivingRoom tonight (our group at least) was another BYO Worship night where each person was invited to bring something along to talk about or lead the rest of the group through as Worship (more explaining how we do it...</description>
+<dc:subject>Living Room</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-03-01T22:29:53+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/what_does_mission_look_like_at_livingroom.php">
+<title>What Does Mission Look Like at LivingRoom?</title>
+<link>http://www.livingroom.org.au/blog/archives/what_does_mission_look_like_at_livingroom.php</link>
+<description> Just had an email question from someone who came across this site. it&apos;s a question that I&apos;ve had on a number of occasions so thought i&apos;d blog my answer: &apos;I&apos;ve been traipsing around your site, (niceely constructed, by the...</description>
+<dc:subject>Living Room</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-02-24T11:50:47+10:00</dc:date>
+</item>
+<item rdf:about="http://www.livingroom.org.au/blog/archives/brian_mclaren_in_melbourne.php">
+<title>Brian McLaren in Melbourne</title>
+<link>http://www.livingroom.org.au/blog/archives/brian_mclaren_in_melbourne.php</link>
+<description> For those of you in Melbourne who would like to hear Brian McLaren speak you might like to click on the following promotion for details of a night he&apos;s doing on 23 February with Forge....</description>
+<dc:subject>Emerging Church</dc:subject>
+<dc:creator>Darren</dc:creator>
+<dc:date>2006-01-20T14:47:40+10:00</dc:date>
+</item>
+
+
+</rdf:RDF>

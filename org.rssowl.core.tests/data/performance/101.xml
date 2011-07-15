@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss1full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:cc="http://web.resource.org/cc/" xmlns="http://purl.org/rss/1.0/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+    <channel rdf:about="http://ilounge.com/index.php/news/">
+       <title>iLounge | All Things iPod, iTunes and beyond</title>
+       <link>http://www.iLounge.com</link>
+       <description />
+       <dc:language>en</dc:language>
+       <dc:creator>larry@ipodlounge.com</dc:creator>
+       <dc:date>2006-05-24T17:40:01-08:00</dc:date>
+       <admin:generatorAgent rdf:resource="http://www.pmachine.com/" />
+
+       <items>
+         <rdf:Seq>
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/businessweek-looks-at-nike-apple-partnership-sport-kit/" />
+         
+         <rdf:li rdf:resource="http://www.ilounge.com/index.php/ipod/review/incase-new-york-landmark-folio-for-ipod-5g-and-nano/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/griffin-intros-tunebuds-for-ipod-nano/" />
+         
+         <rdf:li rdf:resource="http://www.ilounge.com/index.php/ipod/review/tunewear-prie-sienna-series-cases/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/plaintiff-in-ipod-nano-suit-denies-cooperation/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/targus-offers-security-lock-for-ipods/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/nhl-game-highlights-come-to-itunes-music-store/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/apples-nikeipod-system-uses-proprietary-80211-not-bluetooth/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/analyst-apple-still-in-early-stages-of-ipod-expansion/" />
+         
+         <rdf:li rdf:resource="http://www.ilounge.com/index.php/ipod/review/griffin-technology-tunebuds-earbuds-and-lanyard-for-ipod-nano/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/nike-apple-partner-to-launch-nikeipod-global-products/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/world-cup-ipod-hoodies-announced/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/navio-plans-to-unlock-ipod-with-drm-technology/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/sandisk-launches-idont-anti-ipod-campaign/" />
+         
+         <rdf:li rdf:resource="http://www.ilounge.com/index.php/ipod/review/memorex-iwake-dual-alarm-clock-with-remote-control/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/analyst-q3-ipod-sales-could-be-slightly-below-estimates/" />
+         
+         <rdf:li rdf:resource="http://www.ilounge.com/index.php/ipod/review/bosch-power-box-dock-for-ipod/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/griffin-bundles-cassette-adapter-with-tuneflex/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/mix-steve-jobs-macys-walkman-phone-cnet/" />
+         
+         <rdf:li rdf:resource="http://ilounge.com/index.php/news/comments/sen-hillary-rodham-clinton-reveals-ipod-playlist/" />
+         </rdf:Seq>
+       </items>
+    <image rdf:resource="http://www.feedburner.com/fb/images/pub/fb_pwrd.gif" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/ilounge" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to iLounge Copyright and Terms of Use.</feedburner:browserFriendly></channel>
+
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/businessweek-looks-at-nike-apple-partnership-sport-kit/">
+      <title>News: BusinessWeek looks at Nike/Apple partnership, Sport Kit</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2029</link>
+      <description />
+      <dc:subject>Apple</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-24T16:40:01-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/businessweek-looks-at-nike-apple-partnership-sport-kit/</feedburner:origLink></item>
+    
+    <item rdf:about="http://www.ilounge.com/index.php/ipod/review/incase-new-york-landmark-folio-for-ipod-5g-and-nano/">
+      <title>First Looks: Incase New York Landmark Folio for iPod 5G and nano</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2028</link>
+      <description />
+      <dc:subject>Cases - iPod 5G (with Video), Cases - iPod nano</dc:subject>
+      <dc:creator>Jeremy Horwitz</dc:creator>
+      <dc:date>2006-05-24T15:17:00-08:00</dc:date>
+    <feedburner:origLink>http://www.ilounge.com/index.php/ipod/review/incase-new-york-landmark-folio-for-ipod-5g-and-nano/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/griffin-intros-tunebuds-for-ipod-nano/">
+      <title>News: Griffin intros TuneBuds for iPod nano</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2026</link>
+      <description />
+      <dc:subject>Accessories</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-24T15:08:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/griffin-intros-tunebuds-for-ipod-nano/</feedburner:origLink></item>
+    
+    <item rdf:about="http://www.ilounge.com/index.php/ipod/review/tunewear-prie-sienna-series-cases/">
+      <title>First Looks: Tunewear PRIE Sienna Series Cases</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2027</link>
+      <description />
+      <dc:subject>Cases - iPod 5G (with Video), Cases - iPod nano</dc:subject>
+      <dc:creator>Jeremy Horwitz</dc:creator>
+      <dc:date>2006-05-24T15:06:00-08:00</dc:date>
+    <feedburner:origLink>http://www.ilounge.com/index.php/ipod/review/tunewear-prie-sienna-series-cases/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/plaintiff-in-ipod-nano-suit-denies-cooperation/">
+      <title>News: Plaintiff in iPod nano suit denies cooperation</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2025</link>
+      <description />
+      <dc:subject>iPod nano</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-24T14:31:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/plaintiff-in-ipod-nano-suit-denies-cooperation/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/targus-offers-security-lock-for-ipods/">
+      <title>News: Targus offers security lock for iPods</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2024</link>
+      <description />
+      <dc:subject>Accessories</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-24T13:11:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/targus-offers-security-lock-for-ipods/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/nhl-game-highlights-come-to-itunes-music-store/">
+      <title>News: NHL game highlights come to iTunes Music Store</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2023</link>
+      <description />
+      <dc:subject>iTunes</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-24T12:40:01-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/nhl-game-highlights-come-to-itunes-music-store/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/apples-nikeipod-system-uses-proprietary-80211-not-bluetooth/">
+      <title>News: Nike+iPod system uses proprietary 802.11, not Bluetooth</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2022</link>
+      <description />
+      <dc:subject>Accessories</dc:subject>
+      <dc:creator>Jeremy Horwitz</dc:creator>
+      <dc:date>2006-05-23T23:03:01-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/apples-nikeipod-system-uses-proprietary-80211-not-bluetooth/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/analyst-apple-still-in-early-stages-of-ipod-expansion/">
+      <title>News: Analyst: Apple still in 'early stages' of iPod expansion</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2021</link>
+      <description />
+      <dc:subject>iPod</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-23T21:45:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/analyst-apple-still-in-early-stages-of-ipod-expansion/</feedburner:origLink></item>
+    
+    <item rdf:about="http://www.ilounge.com/index.php/ipod/review/griffin-technology-tunebuds-earbuds-and-lanyard-for-ipod-nano/">
+      <title>First Looks: Griffin Technology TuneBuds Earbuds and Lanyard for iPod nano</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2020</link>
+      <description />
+      <dc:subject>Headphones &amp; Earphones</dc:subject>
+      <dc:creator>Jeremy Horwitz</dc:creator>
+      <dc:date>2006-05-23T17:07:01-08:00</dc:date>
+    <feedburner:origLink>http://www.ilounge.com/index.php/ipod/review/griffin-technology-tunebuds-earbuds-and-lanyard-for-ipod-nano/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/nike-apple-partner-to-launch-nikeipod-global-products/">
+      <title>News: Nike, Apple partner to launch Nike+iPod global products</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2019</link>
+      <description />
+      <dc:subject>iPod</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-23T15:21:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/nike-apple-partner-to-launch-nikeipod-global-products/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/world-cup-ipod-hoodies-announced/">
+      <title>News: World Cup iPod Hoodies announced</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2017</link>
+      <description />
+      <dc:subject>Accessories</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-23T13:26:01-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/world-cup-ipod-hoodies-announced/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/navio-plans-to-unlock-ipod-with-drm-technology/">
+      <title>News: Navio plans to 'unlock' iPod with DRM technology</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2016</link>
+      <description />
+      <dc:subject>iPod</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-23T11:53:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/navio-plans-to-unlock-ipod-with-drm-technology/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/sandisk-launches-idont-anti-ipod-campaign/">
+      <title>News: SanDisk launches 'iDon't' anti-iPod campaign</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2015</link>
+      <description />
+      <dc:subject />
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-22T18:29:01-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/sandisk-launches-idont-anti-ipod-campaign/</feedburner:origLink></item>
+    
+    <item rdf:about="http://www.ilounge.com/index.php/ipod/review/memorex-iwake-dual-alarm-clock-with-remote-control/">
+      <title>Review: Memorex iWake Dual Alarm Clock with Remote Control</title>
+      <link>http://feeds.feedburner.com/ilounge?m=1986</link>
+      <description />
+      <dc:subject>Clock Radios, FM Radio Receivers, Speakers</dc:subject>
+      <dc:creator>Jeremy Horwitz</dc:creator>
+      <dc:date>2006-05-22T18:03:00-08:00</dc:date>
+    <feedburner:origLink>http://www.ilounge.com/index.php/ipod/review/memorex-iwake-dual-alarm-clock-with-remote-control/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/analyst-q3-ipod-sales-could-be-slightly-below-estimates/">
+      <title>News: Analyst: Q3 iPod sales could be slightly below estimates</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2014</link>
+      <description />
+      <dc:subject>iPod</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-22T17:30:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/analyst-q3-ipod-sales-could-be-slightly-below-estimates/</feedburner:origLink></item>
+    
+    <item rdf:about="http://www.ilounge.com/index.php/ipod/review/bosch-power-box-dock-for-ipod/">
+      <title>First Looks: Bosch Power Box Dock for iPod</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2013</link>
+      <description />
+      <dc:subject>FM Radio Receivers, Speakers</dc:subject>
+      <dc:creator>Jeremy Horwitz</dc:creator>
+      <dc:date>2006-05-22T16:06:00-08:00</dc:date>
+    <feedburner:origLink>http://www.ilounge.com/index.php/ipod/review/bosch-power-box-dock-for-ipod/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/griffin-bundles-cassette-adapter-with-tuneflex/">
+      <title>News: Griffin bundles cassette adapter with TuneFlex</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2012</link>
+      <description />
+      <dc:subject>Accessories</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-22T14:37:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/griffin-bundles-cassette-adapter-with-tuneflex/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/mix-steve-jobs-macys-walkman-phone-cnet/">
+      <title>News: Mix: Steve Jobs, Macy's, Walkman phone, CNET</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2011</link>
+      <description />
+      <dc:subject>Mix</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-22T13:17:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/mix-steve-jobs-macys-walkman-phone-cnet/</feedburner:origLink></item>
+    
+    <item rdf:about="http://ilounge.com/index.php/news/comments/sen-hillary-rodham-clinton-reveals-ipod-playlist/">
+      <title>News: Sen. Hillary Rodham Clinton reveals iPod playlist</title>
+      <link>http://feeds.feedburner.com/ilounge?m=2010</link>
+      <description />
+      <dc:subject>iPod</dc:subject>
+      <dc:creator>Larry Angell</dc:creator>
+      <dc:date>2006-05-22T12:45:00-08:00</dc:date>
+    <feedburner:origLink>http://ilounge.com/index.php/news/comments/sen-hillary-rodham-clinton-reveals-ipod-playlist/</feedburner:origLink></item>
+    
+<image rdf:about="http://www.feedburner.com/fb/images/pub/fb_pwrd.gif"><url>http://www.feedburner.com/fb/images/pub/fb_pwrd.gif</url><link>http://www.ilounge.com</link><title>iLounge.com</title></image></rdf:RDF>

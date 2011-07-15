@@ -1,0 +1,116 @@
+{
+ "alternate": [{
+  "type": "text/html",
+  "href": "http://www.rssowl.org"
+ }],
+ "id": "feed/http://www.rssowl.org/newsfeed",
+ "title": "RSSOwl News",
+ "items": [
+  {
+   "alternate": [{
+    "type": "text/html",
+    "href": "http://www.rssowl.org/node/279"
+   }],
+   "origin": {
+    "htmlUrl": "http://www.rssowl.org",
+    "title": "RSSOwl News",
+    "streamId": "feed/http://www.rssowl.org/newsfeed"
+   },
+   "likingUsers": [{"userId": "06891114430619242965"}],
+   "id": "tag:google.com,2005:reader/item/83514e0c32f4c92b",
+   "content": {
+    "content": "We are happy to announce that the beta of RSSOwl 2.1 is now available for download. \nThe 2.1 release comes with some exciting cool new features:\n\n<ul>\n<li>new headlines and list layout<\/li>\n<li>redesigned newspaper view<\/li>\n<li>news archiving<\/li>\n<li>readability support<\/li>\n<li>instant folder aggregation<\/li>\n<li>improved performance and reliability<\/li>\n<li>Full <a href=\"http://wiki.rssowl.org/index.php/2.1_Beta\">Changelog<\/a><\/li>\n<\/ul>\n\n<b>Download for:<\/b> <a href=\"http://www.rssowl.org/dl/Integration_Build/rssowl-2.1.beta.win32.zip\">Windows<\/a> | <a href=\"http://www.rssowl.org/dl/Integration_Build/rssowl-2.1.beta.linux.x86.zip\">Linux<\/a> | <a href=\"http://www.rssowl.org/dl/Integration_Build/rssowl-2.1.beta.linux.x86_64.zip\">Linux 64Bit<\/a> | <a href=\"http://www.rssowl.org/dl/Integration_Build/rssowl-2.1.beta.macosx.zip\">Mac<\/a>\n<br><br>\nPlease visit our <a href=\"http://wiki.rssowl.org/index.php/2.1_Beta\">2.1 Beta<\/a> site for installation instructions and a complete changelog. We welcome every feedback on this release in our <a href=\"https://sourceforge.net/projects/rssowl/forums\">forums<\/a> or <a href=\"https://sourceforge.net/tracker/?group_id=86683&amp;atid=2238642\">bug tracker<\/a>.<br><br><a href=\"http://www.rssowl.org/node/279\">Read the full article<\/a>",
+    "direction": "ltr"
+   },
+   "author": "bpasero",
+   "title": "RSSOwl 2.1 Beta available",
+   "updated": 1308564626,
+   "timestampUsec": "1307818900817326",
+   "categories": [
+    "user/15054148507047854541/state/com.google/reading-list",
+    "user/15054148507047854541/state/com.google/fresh",
+    "user/15054148507047854541/state/com.google/read",
+    "user/15054148507047854541/state/com.google/kept-unread",
+    "user/15054148507047854541/state/com.google/starred",
+    "user/15054148507047854541/label/RSSOwl Label",
+    "user/15054148507047854541/label/Foo",
+    "Test 123",
+    "Foo Bar"
+   ],
+   "annotations": [],
+   "crawlTimeMsec": "1307818900817",
+   "published": 1307813061,
+   "enclosure":
+    [
+        {
+            "href":"http://feedproxy.google.com/~r/astronomycast/~5/4TPW83-0h4Y/AstroCast-090921.mp3",
+            "type":"audio/mpeg","length":"17610000"
+        }
+    ],
+   "comments": []
+  },
+  {
+   "alternate": [{
+    "type": "text/html",
+    "href": "http://www.rssowl.org/node/278"
+   }],
+   "origin": {
+    "htmlUrl": "http://www.rssowl.org",
+    "title": "RSSOwl News",
+    "streamId": "feed/http://www.rssowl.org/newsfeed"
+   },
+   "likingUsers": [],
+   "id": "tag:google.com,2005:reader/item/24ecce137a4e42b9",
+   "content": {
+    "content": "The development on upcoming RSSOwl 2.1 has finally reached the milestone of being feature complete. From now on, the focus is on <b>testing<\/b> and <b>performance optimizations<\/b>.<br><br>\nWhile this is <b>not<\/b> an official call for beta testers, the nightlies of RSSOwl 2.1 are considered stable enough to be used by the brave and good enough to report some feedback.<br><br>\nFor that, the <a href=\"http://wiki.rssowl.org/index.php/2.1_Beta\">RSSOwl 2.1 Changelog<\/a> lists instructions how to safely install a nightly and provides an overview of the new features added.<br><br>\n<br><br><a href=\"http://www.rssowl.org/node/278\">Read the full article<\/a>",
+    "direction": "ltr"
+   },
+   "author": "bpasero",
+   "title": "RSSOwl 2.1 Changelog",
+   "updated": 1306774192,
+   "timestampUsec": "1306776163721260",
+   "categories": [
+    "user/15054148507047854541/state/com.google/reading-list",
+    "user/15054148507047854541/state/com.google/fresh"
+   ],
+   "annotations": [],
+   "crawlTimeMsec": "1306776163721",
+   "published": 1306773751,
+   "comments": []
+  },
+  {
+   "alternate": [{
+    "type": "text/html",
+    "href": "http://www.rssowl.org/node/277"
+   }],
+   "origin": {
+    "htmlUrl": "http://www.rssowl.org",
+    "title": "RSSOwl News",
+    "streamId": "feed/http://www.rssowl.org/newsfeed"
+   },
+   "isReadStateLocked": true,
+   "likingUsers": [{"userId": "14085045238944081207"}],
+   "id": "tag:google.com,2005:reader/item/5c5d5801a50753bd",
+   "content": {
+    "content": "The next release of RSSOwl will include lots of new features that I am very happy to announce today. Work is closely coming to an end on RSSOwl 2.1 and a public beta will be announced in June. It is hard to name the top 5 features, because there are many more. Here you go:\n<ul>\n<li>new headlines and list layout<\/li>\n<li>redesigned newspaper view<\/li>\n<li>news archiving<\/li>\n<li>readability support<\/li>\n<li>unlimited news storage<\/li>\n<\/ul>\nStay tuned. I will announce the features in greater detail after the beta has been announced.\n<br><br><a href=\"http://www.rssowl.org/node/277\">Read the full article<\/a>",
+    "direction": "ltr"
+   },
+   "author": "bpasero",
+   "title": "RSSOwl 2.1 is in the making",
+   "updated": 1305055582,
+   "timestampUsec": "1305056591093672",
+   "categories": [
+    "user/15054148507047854541/state/com.google/reading-list",
+    "user/15054148507047854541/state/com.google/read"
+   ],
+   "annotations": [],
+   "crawlTimeMsec": "1305056591093",
+   "published": 1305054572,
+   "comments": []
+  }
+ ],
+ "updated": 1307818900,
+ "description": "This is the rssowl.org feed",
+ "direction": "ltr",
+ "self": [{"href": "http://www.google.com/reader/api/0/stream/contents/feed/http%3A%2F%2Fwww.rssowl.org%2Fnewsfeed?n=200&client=scroll&ck=1308834655365"}]
+}

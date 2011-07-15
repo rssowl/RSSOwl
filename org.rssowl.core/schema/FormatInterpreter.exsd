@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.rssowl.core.interpreter" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="org.rssowl.core.interpreter" id="FormatInterpreter" name="Format Interpreter"/>
+      </appinfo>
+      <documentation>
+         &lt;p&gt;
+A format interpreter knows how to interprete a XML document of a certain format. The format is identified by the name of the root element. Use this extension point if you want to let RSSOwl handle new formats, e.g. being able to display an XML event log as feed.
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="formatInterpreter" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="formatInterpreter">
+      <annotation>
+         <appinfo>
+            <meta.element labelAttribute="rootElement"/>
+         </appinfo>
+      </annotation>
+      <complexType>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A class that implements &lt;samp&gt;org.rssowl.core.interpreter.IFormatInterpreter&lt;/samp&gt;.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn="org.rssowl.core.interpreter.IFormatInterpreter"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="rootElement" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The root element of the XML document this handler should be responsible for.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="since"/>
+      </appinfo>
+      <documentation>
+         2.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         &lt;p&gt;
+The following is an example of the extension point that registers a format
+interpreter for RSS documents: 
+&lt;pre&gt;&lt;extension point=&quot;org.rssowl.core.FormatInterpreter&quot;&gt;
+   &lt;formatInterpreter
+      class=&quot;org.rssowl.core.internal.interpreter.RSSInterpreter&quot;
+      rootElement=&quot;rss&quot;/&gt;
+&lt;/extension&gt; 
+&lt;/pre&gt;
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appinfo>
+         <meta.section type="copyright"/>
+      </appinfo>
+      <documentation>
+         Copyright notice (c) 2005-2011 RSSOwl Development Team.                            
+All rights reserved´. This program and the accompanying 
+materials are made available under the terms of the Eclipse 
+Public License v1.0 which accompanies this distribution, and 
+is available at: &lt;a href=&quot;http://www.rssowl.org/legal/epl-v10.html&quot;&gt;http://www.rssowl.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

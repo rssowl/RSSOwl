@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Computerworld Breaking News</title>
+    <link>http://www.computerworld.com</link>
+    <description>Computerworld.com&amp;apos;s award-winning Web site offers IT pros continually updated news stories, as well as features, analysis pieces, opinions and research/resource materials on important technology issues. With a heavy focus on technology users, the site serves as a resource for IT professionals looking to improve business operations -- and their own careers -- by successfully deploying and managing technology.</description>
+    <language>en-us</language>
+    <dc:language>en-us</dc:language>
+    <image>
+      <title>Computerworld.com</title>
+      <url>http://www.computerworld.com/rss/computerworld_logo_sm.gif</url>
+      <link>http://www.computerworld.com</link>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.computerworld.com/Computerworld/News" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+      <title>Cisco buys into virtualization vendor</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3030</link>
+      <description>Cisco Systems Inc. invested in an $11 million funding round for NeoPath Networks, a maker of file and storage virtualization gear.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=DrmOGt"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=DrmOGt" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=TkOTnx7w"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=TkOTnx7w" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=PHXLIx3o"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=PHXLIx3o" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=cs7kpIfR"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=cs7kpIfR" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=1pOGqjME"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=1pOGqjME" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3030"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000750&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000750&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>Q&amp;A: IBM's Al Zollar touts new management products</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3028</link>
+      <description>Al Zollar, general manager for Tivoli Software at IBM, talked about the companys centralized database and the process manager tools that work with it for better IT systems management and efficiency.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=V9Sh7N"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=V9Sh7N" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=1pcaA2Ze"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=1pcaA2Ze" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=K6Em4CIQ"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=K6Em4CIQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=lzXplFZL"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=lzXplFZL" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=9e31BsGE"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=9e31BsGE" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3028"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000748&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000748&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>WAN Acceleration Buyer's Guide by Jim Metzler</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3029</link>
+      <description>A new generation of WAN acceleration appliances has emerged to help companies address the limitations that arise when deploying large applications across a distributed enterprise.  Noted industry analyst Jim Metzler provides guidance on criteria to consider when selecting application acceleration solutions.  This paper discusses how WAN acceleration improves initiatives such as Disaster Recovery, Data Center consolidation and centralization of servers in the branch office.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=HDPm05"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=HDPm05" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=lheg7OZq"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=lheg7OZq" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=uAiQ1NFh"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=uAiQ1NFh" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=wm5frFxl"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=wm5frFxl" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=m2j9EPNZ"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=m2j9EPNZ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3029"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/whitepapers.do?command=viewWhitePaperDetail&amp;contentId=9000747&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/whitepapers.do?command=viewWhitePaperDetail&amp;contentId=9000747&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>Study: Online sales to top $200B this year</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3026</link>
+      <description>The largest nontravel categories for online spending this year will include computer hardware and software, according to The 2006 State of Retailing Online study.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=4I7iMN"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=4I7iMN" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=yns0Fznc"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=yns0Fznc" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=GZ5hV3Wu"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=GZ5hV3Wu" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=w5WROoxX"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=w5WROoxX" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=KiltDEe5"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=KiltDEe5" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3026"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000746&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000746&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>Brief: Bank tech glitch affects ATM withdrawals</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3027</link>
+      <description>A disk problem is suspected to have caused an 8-hour service lapse.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=VOXenU"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=VOXenU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=ZJvs45Lq"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=ZJvs45Lq" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=1PEY7iYr"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=1PEY7iYr" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=xf1tEjav"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=xf1tEjav" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=GUcHcC8w"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=GUcHcC8w" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3027"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000745&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000745&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>Deutsche Bank takes a long view on VoIP</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3024</link>
+      <description>Deutsche Bank is starting small with Internet telephony but is optimistic about the technology's long-range benefits.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=ETwJPx"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=ETwJPx" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=01atAj4I"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=01atAj4I" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=suQHFOCT"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=suQHFOCT" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=IeqJbSUS"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=IeqJbSUS" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=ARERUXP3"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=ARERUXP3" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3024"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000743&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000743&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>Oracle, boosted by Linux, stays atop global database market</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3025</link>
+      <description>Bolstered by the popularity of Oracle Database running on Linux, Oracle retained its firm grip on the database market last year, according to new figrues released by Gartner and Dataquest.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=d36JN9"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=d36JN9" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=bWA0t9TY"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=bWA0t9TY" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=qdG0Nbqq"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=qdG0Nbqq" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=JG3XEXaY"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=JG3XEXaY" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=4TBYXXbX"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=4TBYXXbX" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3025"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000742&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000742&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>Ira Winkler: Y2k was a success. Deal with it.</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3021</link>
+      <description>While a tenuous acquaintance with logic isn't a great surprise in the population at large, our columnist is dismayed to find this attitude in the IT community when it comes to Y2k.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=Rx5DDi"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=Rx5DDi" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=HIAZ9Z0V"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=HIAZ9Z0V" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=suEeegbI"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=suEeegbI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=ovTWJIRF"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=ovTWJIRF" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=9tix7Rhq"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=9tix7Rhq" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3021"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000740&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000740&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>Survey: Data security becoming political issue</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3022</link>
+      <description>Less than half of U.S. residents believe their personal information is safe when they shop online, and half avoid making online purchases because of security fears, according to a survey released Tuesday.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=eNabtI"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=eNabtI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=dUZn4KHN"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=dUZn4KHN" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=QvFNEAtj"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=QvFNEAtj" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=qYrsE7zy"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=qYrsE7zy" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=MDmHN5Gi"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=MDmHN5Gi" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3022"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000739&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000739&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>StopBadware.org adds to its hall of shame list</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=3023</link>
+      <description>StopBadware.org, the organization dedicated to highlighting software that consumers might prefer to avoid, Wednesday added another round of software programs to its "Badware Watch List."
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=21ewVC"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=21ewVC" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=UM50Z7LN"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=UM50Z7LN" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=WVR2zJ5V"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=WVR2zJ5V" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=hpdz9Vx7"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=hpdz9Vx7" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=Q67EIGPo"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=Q67EIGPo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=3023"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000738&amp;source=rss_news10</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000738&amp;source=rss_news10</feedburner:origLink></item>
+    <item>
+      <title>More News...</title>
+      <link>http://feeds.computerworld.com/Computerworld/News?m=2854</link>
+      <description>View more news and analysis from Computerworld.com.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/News?a=DFMXz2"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/News?i=DFMXz2" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=dHLdOXFu"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=dHLdOXFu" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=28QZW7Km"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=28QZW7Km" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=JSScbQTU"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=JSScbQTU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.computerworld.com/~f/Computerworld/News?a=IeQgKLPp"&gt;&lt;img src="http://feeds.computerworld.com/~f/Computerworld/News?i=IeQgKLPp" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/News?g=2854"/&gt;</description>
+      <guid isPermaLink="false">http://www.computerworld.com/news/index.jsp</guid>
+    <feedburner:origLink>http://www.computerworld.com/news/index.jsp</feedburner:origLink></item>
+  </channel>
+</rss>

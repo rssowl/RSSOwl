@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<myimport version="1.1">
+  <body>
+  
+    <myimport text="category_1">
+      <myimport text="category_1_feed_1_text" title="category_1_feed_1_title" xmlUrl="http://www.category_1_feed_1_url.com" htmlUrl="category_1_feed_1_website" description="category_1_feed_1_description" />
+      <myimport text="category_1_feed_2_text" xmlUrl="http://www.category_1_feed_2_url.com" htmlUrl="category_1_feed_2_website" description="category_1_feed_2_description" />
+      <myimport title="category_1_feed_3_title" xmlUrl="http://www.category_1_feed_3_url.com" />
+    </myimport>
+  </body>
+</myimport>

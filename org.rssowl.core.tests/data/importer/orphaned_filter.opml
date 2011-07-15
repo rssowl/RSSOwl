@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl Subscriptions</title>
+    <dateModified>Mo, 03 Aug 2009 22:23:48 CEST</dateModified>
+  </head>
+  <body>
+    <rssowl:searchfilter name="All News in 'RSSOwl News'" order="0" enabled="true" matchAllNews="false">
+      <rssowl:search matchAllConditions="true">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="0">
+            <rssowl:location isBin="false" isFolder="false" value="605" />
+          </rssowl:searchvalue>
+          <rssowl:searchfield id="19" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:search>
+      <rssowl:filteraction id="org.rssowl.core.MarkReadNewsAction" />
+    </rssowl:searchfilter>
+  </body>
+</opml>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<project name="RSSOwl Automated Tests" default="run" basedir=".">
+
+  <!-- The property ${eclipse-home} should be passed into this script -->
+  
+  <!-- sets the properties eclipse-home, and library-file -->
+  <property name="eclipse-home" value="${basedir}/../../"/>
+  <property name="library-file" value="${eclipse-home}/plugins/org.eclipse.test/library.xml"/>
+  <property name="org.rssowl.core.tests" value="org.rssowl.core.tests"/>
+  <property name="rssowl-home" value="${eclipse-home}/plugins/${org.rssowl.core.tests}"/>
+
+  <!-- This target holds all initialization code that needs to be done for -->
+  <!-- all tests that are to be run. Initialization for individual tests -->
+  <!-- should be done within the body of the suite target. -->
+  <target name="init">
+    <tstamp/>
+  </target>
+
+  <!-- This target defines the tests that need to be run. -->
+  <target name="suite">
+    <property name="location" value="${eclipse-home}/rssowl_test_workspace"/>
+    <delete dir="${location}" quiet="true"/>
+
+    <!-- Session Test ** RSSOwl Core ** -->
+    <ant target="core-test" antfile="${library-file}" dir="${eclipse-home}">
+      <property name="data-dir" value="${location}"/>
+      <property name="plugin-name" value="org.rssowl.core.tests"/>
+      <property name="classname" value="org.rssowl.core.tests.AllTests"/>
+    </ant>
+  	
+    <!-- Session Test ** Team UI ** -->
+    <!--<ant target="ui-test" antfile="${library-file}" dir="${eclipse-home}">
+      <property name="data-dir" value="${location}"/>
+      <property name="plugin-name" value="org.eclipse.team.tests.core"/>
+      <property name="classname" value="org.eclipse.team.tests.core.AllTeamUITests"/>
+    </ant>-->
+    
+  </target>
+  
+  <!-- This target holds code to cleanup the testing environment after the tests -->
+  <!-- have been run. You can use this to delete temporary files that are created. -->
+  <target name="cleanup">
+  </target>
+
+  <!-- This target runs the test suite. Any actions that need to happen after all -->
+  <!-- the tests have been run should go here. -->
+  <target name="run" depends="init,suite,cleanup">
+    <ant target="collect" antfile="${library-file}" dir="${eclipse-home}">
+      <property name="includes" value="org*.xml"/>
+      <property name="output-file" value="org.eclipse.team.tests.core.xml"/>
+    </ant>
+  </target>
+
+  <!-- This target runs the performance test suites. -->
+  <target name="performance">
+  </target>
+
+</project>

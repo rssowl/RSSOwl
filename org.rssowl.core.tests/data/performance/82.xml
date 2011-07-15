@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Computerworld Cybercrime/Hacking News</title>
+    <link>http://www.computerworld.com</link>
+    <description>Computerworld.com&amp;apos;s award-winning Web site offers IT pros continually updated news stories, as well as features, analysis pieces, opinions and research/resource materials on important technology issues. With a heavy focus on technology users, the site serves as a resource for IT professionals looking to improve business operations -- and their own careers -- by successfully deploying and managing technology.</description>
+    <language>en-us</language>
+    <dc:language>en-us</dc:language>
+    <image>
+      <title>Computerworld.com</title>
+      <url>http://www.computerworld.com/rss/computerworld_logo_sm.gif</url>
+      <link>http://www.computerworld.com</link>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.computerworld.com/Computerworld/Hacking/News" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+      <title>Hundreds arrested in marketing fraud sweep</title>
+      <link>http://feeds.computerworld.com/Computerworld/Hacking/News?m=163</link>
+      <description>Operation Global Con targeted lottery and sweepstakes schemes, offers of nonexistent investments, bogus offers of preapproved credit cards and scams similar to the ubiquitous Nigerian banking schemes.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?a=fIrIij"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?i=fIrIij" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Hacking/News?g=163"/&gt;</description>
+      <pubDate>Wed, 24 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000733&amp;source=rss_topic82</guid>
+      <dc:date>2006-05-24T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000733&amp;source=rss_topic82</feedburner:origLink></item>
+    <item>
+      <title>Global Dispatches</title>
+      <link>http://feeds.computerworld.com/Computerworld/Hacking/News?m=158</link>
+      <description>A Chinese university fires the dean of its microelectronics school for lying about the development of a well-known semiconductor product line; and Kenya has withdrawn its support for an undersea fiber-optic cable project in Africa.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?a=ykf6PF"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?i=ykf6PF" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Hacking/News?g=158"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111305&amp;source=rss_topic82</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111305&amp;source=rss_topic82</feedburner:origLink></item>
+    <item>
+      <title>Desktop Defenses</title>
+      <link>http://feeds.computerworld.com/Computerworld/Hacking/News?m=159</link>
+      <description>Organizations are adding host-based intrusion prevention to their desktops to stop the threats that get through network- and server-based systems.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?a=urbnLt"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?i=urbnLt" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Hacking/News?g=159"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111332&amp;source=rss_topic82</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111332&amp;source=rss_topic82</feedburner:origLink></item>
+    <item>
+      <title>What Is HIPS?</title>
+      <link>http://feeds.computerworld.com/Computerworld/Hacking/News?m=160</link>
+      <description>A quick review of the many approaches to HIPS.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?a=eT6bxV"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?i=eT6bxV" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Hacking/News?g=160"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111333&amp;source=rss_topic82</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111333&amp;source=rss_topic82</feedburner:origLink></item>
+    <item>
+      <title>Protected Territory</title>
+      <link>http://feeds.computerworld.com/Computerworld/Hacking/News?m=161</link>
+      <description>A list of areas protected by HIPS.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?a=go0mb0"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?i=go0mb0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Hacking/News?g=161"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111334&amp;source=rss_topic82</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111334&amp;source=rss_topic82</feedburner:origLink></item>
+    <item>
+      <title>Putting a cap on HIPS overhead</title>
+      <link>http://feeds.computerworld.com/Computerworld/Hacking/News?m=162</link>
+      <description>HIPS works, but there's lots of network overhead to manage as the systems are being tuned.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?a=WPxrK5"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?i=WPxrK5" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Hacking/News?g=162"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111335&amp;source=rss_topic82</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111335&amp;source=rss_topic82</feedburner:origLink></item>
+    <item>
+      <title>More Cybercrime/Hacking News...</title>
+      <link>http://feeds.computerworld.com/Computerworld/Hacking/News?m=142</link>
+      <description>View more Cybercrime/Hacking news and analysis from Computerworld.com.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?a=VOyAYD"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Hacking/News?i=VOyAYD" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Hacking/News?g=142"/&gt;</description>
+      <guid isPermaLink="false">http://www.computerworld.com/taxonomy/000/000/000//taxonomy_000000082_index.jsp</guid>
+    <feedburner:origLink>http://www.computerworld.com/taxonomy/000/000/000//taxonomy_000000082_index.jsp</feedburner:origLink></item>
+  </channel>
+</rss>

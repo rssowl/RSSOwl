@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://purl.org/rss/1.0/">
+  <channel rdf:about="http://darkgate.net/comic/">
+    <title>Darkgate Comic Slurper</title>
+    <link>http://darkgate.net/comic/</link>
+    <description>The latest strips of your favourite web-comics slurped from the internet.  Configure your preferences at &lt;a href=&quot;http://darkgate.net/comic/&quot;&gt;http://darkgate.net/comic/&lt;/a&gt;.</description>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/doonesbury/1147929123.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/dilbert/1147929202.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/stonesoup/1147935425.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/sherman/1147936443.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/userf/1147939561.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/dilbert/1148014207.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/doonesbury/1148016555.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/stonesoup/1148018823.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/sherman/1148023443.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/userf/1148023743.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/dilbert/1148103676.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/doonesbury/1148103729.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/stonesoup/1148107029.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/userf/1148108521.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/sherman/1148109969.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/doonesbury/1148189823.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/dilbert/1148191623.jpg" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/stonesoup/1148193723.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/sherman/1148194805.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/userf/1148195162.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/doonesbury/1148274242.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/dilbert/1148276342.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/stonesoup/1148280183.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/sherman/1148282283.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/userf/1148283181.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/dilbert/1148362142.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/doonesbury/1148363822.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/stonesoup/1148365742.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/userf/1148368143.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/sherman/1148368805.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/doonesbury/1148449028.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/dilbert/1148449030.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/stonesoup/1148450823.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/sherman/1148456104.gif" />
+        <rdf:li rdf:resource="http://darkgate.net/comic/images/userf/1148457122.gif" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <image rdf:about="http://darkgate.net/comic/">
+    <url>http://darkgate.net/images/header.png</url>
+    <title>Darkgate Comics</title>
+    <link>http://darkgate.net/comic/</link>
+  </image>
+  <item rdf:about="http://darkgate.net/comic/images/doonesbury/1147929123.gif"> 
+    <title>Doonesbury by G.B. Trudeau - 18 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/doonesbury/1147929123.gif"&gt;</description>
+    <dc:date>2006-05-18T06:12:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#doonesbury</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/dilbert/1147929202.gif"> 
+    <title>Dilbert by Scott Adams - 18 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/dilbert/1147929202.gif"&gt;</description>
+    <dc:date>2006-05-18T06:13:22+00:00</dc:date>
+        <link>http://darkgate.net/comic/#dilbert</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/stonesoup/1147935425.gif"> 
+    <title>Stone Soup by Jan Eliot - 18 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/stonesoup/1147935425.gif"&gt;</description>
+    <dc:date>2006-05-18T07:57:05+00:00</dc:date>
+        <link>http://darkgate.net/comic/#stonesoup</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/sherman/1147936443.gif"> 
+    <title>Shermans Lagoon by Jim Toomey - 18 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/sherman/1147936443.gif"&gt;</description>
+    <dc:date>2006-05-18T08:14:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#sherman</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/userf/1147939561.gif"> 
+    <title>User Friendly by J D "Illiad" Frazer - 18 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/userf/1147939561.gif"&gt;</description>
+    <dc:date>2006-05-18T09:06:01+00:00</dc:date>
+        <link>http://darkgate.net/comic/#userf</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/dilbert/1148014207.gif"> 
+    <title>Dilbert by Scott Adams - 19 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/dilbert/1148014207.gif"&gt;</description>
+    <dc:date>2006-05-19T05:50:07+00:00</dc:date>
+        <link>http://darkgate.net/comic/#dilbert</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/doonesbury/1148016555.gif"> 
+    <title>Doonesbury by G.B. Trudeau - 19 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/doonesbury/1148016555.gif"&gt;</description>
+    <dc:date>2006-05-19T06:29:15+00:00</dc:date>
+        <link>http://darkgate.net/comic/#doonesbury</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/stonesoup/1148018823.gif"> 
+    <title>Stone Soup by Jan Eliot - 19 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/stonesoup/1148018823.gif"&gt;</description>
+    <dc:date>2006-05-19T07:07:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#stonesoup</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/sherman/1148023443.gif"> 
+    <title>Shermans Lagoon by Jim Toomey - 19 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/sherman/1148023443.gif"&gt;</description>
+    <dc:date>2006-05-19T08:24:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#sherman</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/userf/1148023743.gif"> 
+    <title>User Friendly by J D "Illiad" Frazer - 19 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/userf/1148023743.gif"&gt;</description>
+    <dc:date>2006-05-19T08:29:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#userf</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/dilbert/1148103676.gif"> 
+    <title>Dilbert by Scott Adams - 20 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/dilbert/1148103676.gif"&gt;</description>
+    <dc:date>2006-05-20T06:41:16+00:00</dc:date>
+        <link>http://darkgate.net/comic/#dilbert</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/doonesbury/1148103729.gif"> 
+    <title>Doonesbury by G.B. Trudeau - 20 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/doonesbury/1148103729.gif"&gt;</description>
+    <dc:date>2006-05-20T06:42:09+00:00</dc:date>
+        <link>http://darkgate.net/comic/#doonesbury</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/stonesoup/1148107029.gif"> 
+    <title>Stone Soup by Jan Eliot - 20 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/stonesoup/1148107029.gif"&gt;</description>
+    <dc:date>2006-05-20T07:37:09+00:00</dc:date>
+        <link>http://darkgate.net/comic/#stonesoup</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/userf/1148108521.gif"> 
+    <title>User Friendly by J D "Illiad" Frazer - 20 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/userf/1148108521.gif"&gt;</description>
+    <dc:date>2006-05-20T08:02:01+00:00</dc:date>
+        <link>http://darkgate.net/comic/#userf</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/sherman/1148109969.gif"> 
+    <title>Shermans Lagoon by Jim Toomey - 20 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/sherman/1148109969.gif"&gt;</description>
+    <dc:date>2006-05-20T08:26:09+00:00</dc:date>
+        <link>http://darkgate.net/comic/#sherman</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/doonesbury/1148189823.gif"> 
+    <title>Doonesbury by G.B. Trudeau - 21 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/doonesbury/1148189823.gif"&gt;</description>
+    <dc:date>2006-05-21T06:37:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#doonesbury</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/dilbert/1148191623.jpg"> 
+    <title>Dilbert by Scott Adams - 21 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/dilbert/1148191623.jpg"&gt;</description>
+    <dc:date>2006-05-21T07:07:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#dilbert</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/stonesoup/1148193723.gif"> 
+    <title>Stone Soup by Jan Eliot - 21 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/stonesoup/1148193723.gif"&gt;</description>
+    <dc:date>2006-05-21T07:42:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#stonesoup</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/sherman/1148194805.gif"> 
+    <title>Shermans Lagoon by Jim Toomey - 21 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/sherman/1148194805.gif"&gt;</description>
+    <dc:date>2006-05-21T08:00:05+00:00</dc:date>
+        <link>http://darkgate.net/comic/#sherman</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/userf/1148195162.gif"> 
+    <title>User Friendly by J D "Illiad" Frazer - 21 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/userf/1148195162.gif"&gt;</description>
+    <dc:date>2006-05-21T08:06:02+00:00</dc:date>
+        <link>http://darkgate.net/comic/#userf</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/doonesbury/1148274242.gif"> 
+    <title>Doonesbury by G.B. Trudeau - 22 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/doonesbury/1148274242.gif"&gt;</description>
+    <dc:date>2006-05-22T06:04:02+00:00</dc:date>
+        <link>http://darkgate.net/comic/#doonesbury</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/dilbert/1148276342.gif"> 
+    <title>Dilbert by Scott Adams - 22 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/dilbert/1148276342.gif"&gt;</description>
+    <dc:date>2006-05-22T06:39:02+00:00</dc:date>
+        <link>http://darkgate.net/comic/#dilbert</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/stonesoup/1148280183.gif"> 
+    <title>Stone Soup by Jan Eliot - 22 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/stonesoup/1148280183.gif"&gt;</description>
+    <dc:date>2006-05-22T07:43:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#stonesoup</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/sherman/1148282283.gif"> 
+    <title>Shermans Lagoon by Jim Toomey - 22 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/sherman/1148282283.gif"&gt;</description>
+    <dc:date>2006-05-22T08:18:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#sherman</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/userf/1148283181.gif"> 
+    <title>User Friendly by J D "Illiad" Frazer - 22 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/userf/1148283181.gif"&gt;</description>
+    <dc:date>2006-05-22T08:33:01+00:00</dc:date>
+        <link>http://darkgate.net/comic/#userf</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/dilbert/1148362142.gif"> 
+    <title>Dilbert by Scott Adams - 23 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/dilbert/1148362142.gif"&gt;</description>
+    <dc:date>2006-05-23T06:29:02+00:00</dc:date>
+        <link>http://darkgate.net/comic/#dilbert</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/doonesbury/1148363822.gif"> 
+    <title>Doonesbury by G.B. Trudeau - 23 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/doonesbury/1148363822.gif"&gt;</description>
+    <dc:date>2006-05-23T06:57:02+00:00</dc:date>
+        <link>http://darkgate.net/comic/#doonesbury</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/stonesoup/1148365742.gif"> 
+    <title>Stone Soup by Jan Eliot - 23 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/stonesoup/1148365742.gif"&gt;</description>
+    <dc:date>2006-05-23T07:29:02+00:00</dc:date>
+        <link>http://darkgate.net/comic/#stonesoup</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/userf/1148368143.gif"> 
+    <title>User Friendly by J D "Illiad" Frazer - 23 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/userf/1148368143.gif"&gt;</description>
+    <dc:date>2006-05-23T08:09:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#userf</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/sherman/1148368805.gif"> 
+    <title>Shermans Lagoon by Jim Toomey - 23 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/sherman/1148368805.gif"&gt;</description>
+    <dc:date>2006-05-23T08:20:05+00:00</dc:date>
+        <link>http://darkgate.net/comic/#sherman</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/doonesbury/1148449028.gif"> 
+    <title>Doonesbury by G.B. Trudeau - 24 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/doonesbury/1148449028.gif"&gt;</description>
+    <dc:date>2006-05-24T06:37:09+00:00</dc:date>
+        <link>http://darkgate.net/comic/#doonesbury</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/dilbert/1148449030.gif"> 
+    <title>Dilbert by Scott Adams - 24 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/dilbert/1148449030.gif"&gt;</description>
+    <dc:date>2006-05-24T06:37:10+00:00</dc:date>
+        <link>http://darkgate.net/comic/#dilbert</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/stonesoup/1148450823.gif"> 
+    <title>Stone Soup by Jan Eliot - 24 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/stonesoup/1148450823.gif"&gt;</description>
+    <dc:date>2006-05-24T07:07:03+00:00</dc:date>
+        <link>http://darkgate.net/comic/#stonesoup</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/sherman/1148456104.gif"> 
+    <title>Shermans Lagoon by Jim Toomey - 24 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/sherman/1148456104.gif"&gt;</description>
+    <dc:date>2006-05-24T08:35:04+00:00</dc:date>
+        <link>http://darkgate.net/comic/#sherman</link>
+      </item>
+  <item rdf:about="http://darkgate.net/comic/images/userf/1148457122.gif"> 
+    <title>User Friendly by J D "Illiad" Frazer - 24 May 2006</title>
+    <description>&lt;img src="http://darkgate.net/comic/images/userf/1148457122.gif"&gt;</description>
+    <dc:date>2006-05-24T08:52:02+00:00</dc:date>
+        <link>http://darkgate.net/comic/#userf</link>
+      </item>
+</rdf:RDF>

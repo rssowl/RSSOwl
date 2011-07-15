@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.macminute.com/">
+<title>MacMinute</title>
+<link>http://www.macminute.com/</link>
+<description>Mac news first.</description>
+<language>en-us</language>
+
+<webMaster>email@macminute.com</webMaster>
+<lastBuildDate>Wed, 24 May 2006 15:34:21 -0400</lastBuildDate>
+<pubDate>Wed, 24 May 2006 15:34:21 -0400</pubDate>
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.macminute.com/2006/05/24/faxcenter/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/pictureitpostage/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/daylite3/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/proxi/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/mowc-macbook-memory-upgrades/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/contour-design/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/griffin-tunebuds/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/logic-express-update/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/softraid/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/24/totalview/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/yummy-ftp/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/xcode/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/barcode-producer/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/joy-of-tech/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/subethaedit/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/nike-apple/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/miglia-tvmax/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/videator/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/xtensions/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/merlin/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/speed-download/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/quarkxpress7/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/mercury-elite/" />
+<rdf:li rdf:resource="http://www.macminute.com/2006/05/23/macforensicslab/" />
+</rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="http://www.macminute.com/2006/05/24/faxcenter/">
+<title>Ben Mackin releases FaxCenter 1.5</title>
+<description>Ben Mackin today announced the release of FaxCenter 1.5, an application that sends and receives faxes using almost any fax modem...</description>
+<link>http://www.macminute.com/2006/05/24/faxcenter/</link>
+<dc:date>2006-05-24T15:34:21-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/pictureitpostage/">
+<title>Endicia releases PictureItPostage for Mac 2.1</title>
+<description>Endicia today announced the availability of PictureItPostage for Mac 2.1, the latest update to the company's customized postage solution...</description>
+<link>http://www.macminute.com/2006/05/24/pictureitpostage/</link>
+<dc:date>2006-05-24T14:24:53-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/daylite3/">
+<title>Marketcircle releases Daylite 3.0.3</title>
+<description>Marketcircle today announced the update release of its productivity manager for the Mac, Daylite...</description>
+<link>http://www.macminute.com/2006/05/24/daylite3/</link>
+<dc:date>2006-05-24T14:17:56-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/proxi/">
+<title>Griffin Technology announces Proxi 1.0</title>
+<description>Griffin Technology today announced the official 1.0 release status of Proxi, its powerful and easy shortcut software for Mac OS X...</description>
+<link>http://www.macminute.com/2006/05/24/proxi/</link>
+<dc:date>2006-05-24T12:07:43-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/mowc-macbook-memory-upgrades/">
+<title>OWC announces MacBook memory Upgrade Kits</title>
+<description>Other World Computing (OWC) today announced that new 1GB and 2GB memory upgrade kits for Apple's new MacBook and MacBook Pro models are now available...</description>
+<link>http://www.macminute.com/2006/05/24/mowc-macbook-memory-upgrades/</link>
+<dc:date>2006-05-24T12:04:31-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/contour-design/">
+<title>Contour releases drivers for Intel-based Macs</title>
+<description>Contour Design has announced the release of the latest ShuttlePRO and ShuttleXpress drivers for the Intel-based Macs...</description>
+<link>http://www.macminute.com/2006/05/24/contour-design/</link>
+<dc:date>2006-05-24T11:45:55-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/griffin-tunebuds/">
+<title>Griffin announces TuneBuds for iPod nano</title>
+<description>Griffin Technology today announced its TuneBuds combination earbud and lanyard for iPod nano...</description>
+<link>http://www.macminute.com/2006/05/24/griffin-tunebuds/</link>
+<dc:date>2006-05-24T11:23:40-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/logic-express-update/">
+<title>Apple posts Logic Express Update 7.2.1</title>
+<description>Apple has posted Logic Express Update 7.2.1...</description>
+<link>http://www.macminute.com/2006/05/24/logic-express-update/</link>
+<dc:date>2006-05-24T09:07:14-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/softraid/">
+<title>SoftRAID 3.5 ships as Universal Binary</title>
+<description>SoftRAID today announced SoftRAID 3.5, their Intel-compatible version of SoftRAID is now shipping...</description>
+<link>http://www.macminute.com/2006/05/24/softraid/</link>
+<dc:date>2006-05-24T09:04:00-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/24/totalview/">
+<title>Etnus releases beta version of TotalView debugger</title>
+<description>Etnus has begun beta testing TotalView 7.3, the industry standard for debugging multiprocess and multithreaded HPC programs on Mac OS X, Linux, and UNIX...</description>
+<link>http://www.macminute.com/2006/05/24/totalview/</link>
+<dc:date>2006-05-24T08:52:12-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/yummy-ftp/">
+<title>Yummy FTP goes Universal</title>
+<description>Yummy Software today announced the availability of Yummy FTP 1.5, a major update to the popular FTP client software...</description>
+<link>http://www.macminute.com/2006/05/23/yummy-ftp/</link>
+<dc:date>2006-05-23T17:34:23-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/xcode/">
+<title>Apple releases Xcode 2.3</title>
+<description>Apple has released Xcode 2.3, an update to its set of developer tools for Mac OS X, notes MacUpdate...</description>
+<link>http://www.macminute.com/2006/05/23/xcode/</link>
+<dc:date>2006-05-23T15:32:30-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/barcode-producer/">
+<title>Barcode Producer 3.8 adds QuarkXPress 7 integration</title>
+<description>Intelli Innovations today announced the release Barcode Producer 3.8, a new update to the company's barcode generation software suite for Mac OS X...</description>
+<link>http://www.macminute.com/2006/05/23/barcode-producer/</link>
+<dc:date>2006-05-23T15:24:50-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/joy-of-tech/">
+<title>Joy of Tech announces caption contest</title>
+<description>To celebrate the recent opening of Apple's Fifth Avenue store, our colleagues over at The Joy of Tech are holding a caption contest...</description>
+<link>http://www.macminute.com/2006/05/23/joy-of-tech/</link>
+<dc:date>2006-05-23T13:38:24-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/subethaedit/">
+<title>TheCodingMonkeys announce the release of SubEthaEdit 2.5</title>
+<description>TheCodingMonkeys today released SubEthaEdit 2.5, a significant update to its collaborative text editor for developers, Web designers, schools and small businesses...</description>
+<link>http://www.macminute.com/2006/05/23/subethaedit/</link>
+<dc:date>2006-05-23T12:54:07-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/nike-apple/">
+<title>Nike and Apple partner to launch Nike+iPodGlobal</title>
+<description>&amp;EDATE
+Nike and Apple today announced a partnership bringing the worlds of sports and music together with the launch of innovative Nike+iPod products...</description>
+<link>http://www.macminute.com/2006/05/23/nike-apple/</link>
+<dc:date>2006-05-23T12:11:52-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/miglia-tvmax/">
+<title>Miglia Technology launches TVMax for Mac mini</title>
+<description>Miglia Technology today announced TVMax, a new digital video recorder that matches Apples Mac mini...</description>
+<link>http://www.macminute.com/2006/05/23/miglia-tvmax/</link>
+<dc:date>2006-05-23T10:42:56-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/videator/">
+<title>Stone Design ships Videator 1.0 for the Mac</title>
+<description>Stone Design today announced the availability of Videator 1.0, a movie-making and video processing application that lets users instantly make movies with all sorts of effects from live video or existing movies...</description>
+<link>http://www.macminute.com/2006/05/23/videator/</link>
+<dc:date>2006-05-23T09:56:18-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/xtensions/">
+<title>Extensis announces XTensions for QuarkXPress 7</title>
+<description>Extensis and Quark today announced that Extensis is now offering QuarkXPress 7 XTensions modules for all Extensis font-management products...</description>
+<link>http://www.macminute.com/2006/05/23/xtensions/</link>
+<dc:date>2006-05-23T09:21:37-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/merlin/">
+<title>ProjectWizards announces Merlin 1.3.10</title>
+<description>ProjectWizards today announced the release of Merlin 1/2/10, the latest update to the company's project management application...</description>
+<link>http://www.macminute.com/2006/05/23/merlin/</link>
+<dc:date>2006-05-23T09:16:47-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/speed-download/">
+<title>Speed Download 4.0.2 update released</title>
+<description>Yazsoft today announced the availability of Speed Download 4.0.2, the latest version of the company's download manager for Mac OS X...</description>
+<link>http://www.macminute.com/2006/05/23/speed-download/</link>
+<dc:date>2006-05-23T09:11:01-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/quarkxpress7/">
+<title>Quark now shipping QuarkXPress 7 worldwide</title>
+<description>Quark today announced the release and availability of QuarkXPress 7, the newest upgrade to its flagship product, QuarkXPress...</description>
+<link>http://www.macminute.com/2006/05/23/quarkxpress7/</link>
+<dc:date>2006-05-23T08:47:48-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/mercury-elite/">
+<title>Mercury Elite-AL FireWire 800 Mirror RAID-1 up to 750GB</title>
+<description>Other World Computing (OWC) today announced it has expanded its Mercury Elite line with new OWC Mercury Elite-AL 800 Pro RAID-1 Mirror FireWire 800/400 Solutions from US$399.99...</description>
+<link>http://www.macminute.com/2006/05/23/mercury-elite/</link>
+<dc:date>2006-05-23T08:40:07-04:00</dc:date>
+</item>
+<item rdf:about="http://www.macminute.com/2006/05/23/macforensicslab/">
+<title>SubRosaSoft ships MacForensicsLab 1.0</title>
+<description>SubRosaSoft today announced the availability of MacForensicsLab 1.0, which combines the power of many individual functions into one application in order to provide a single solution for law enforcement and forensic professionals...</description>
+<link>http://www.macminute.com/2006/05/23/macforensicslab/</link>
+<dc:date>2006-05-23T08:29:49-04:00</dc:date>
+</item>
+</rdf:RDF>

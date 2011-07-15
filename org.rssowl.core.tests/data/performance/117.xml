@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <ttl>60</ttl>
+    <title>Eat Feed</title>
+    <itunes:author>Anne Bramley</itunes:author>
+    <link>http://www.eatfeed.com</link>
+    <description>The food and cooking podcast that takes you back in time, across the country, around the world, and back to your own table.</description>
+    <itunes:subtitle>Eat Feed is a podcast dedicated to food history as well as local and international cuisine</itunes:subtitle>
+    <itunes:summary>Eat Feed is the food and cooking podcast that takes you back in time, across the country, around the world, and back to your own table.</itunes:summary>
+    <language>en-us</language>
+    <copyright>Anne Bramley 2005</copyright>
+        <itunes:owner>
+            <itunes:name>Anne Bramley</itunes:name>
+            <itunes:email>annebramley@eatfeed.com</itunes:email>
+        </itunes:owner>
+        <image>
+      <url>http://www.eatfeed.com/images/eatfeed_logo.jpg</url>
+      <title>Eat Feed</title>
+      <link>http://www.eatfeed.com</link>
+    </image>
+
+<itunes:image href="http://www.eatfeed.com/images/eatfeed_logo.jpg"/>
+        
+<category>Food</category>
+
+        <itunes:category text="Food">
+        </itunes:category>
+
+<item>
+      <title>Eat Feed 42: The Kitchen</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Justin Spring-The Itty Bitty Kitchen Handbook for cooks in 21st century apartments launches us into a look at the kitchen through history and around the world.</description>
+      <itunes:subtitle>Forever and Everywhere</itunes:subtitle>
+      <itunes:summary>Justin Spring-The Itty Bitty Kitchen Handbook for cooks in 21st century apartments launches us into a look at the kitchen through history and around the world.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/42_the_kitchen.mp3" length="37380178" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/42_the_kitchen.mp3</guid>
+      <pubDate>Sat, 6 Apr 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:38:55</itunes:duration>
+      <itunes:keywords>Hustin Spring Kitchen Itty Bitty Kitchen Handbook kitchen history</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 41: April in Season</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Asparagus and Going Dutch on a Dinner Party</description>
+      <itunes:subtitle>The Tastes of the Month</itunes:subtitle>
+      <itunes:summary>Asparagus and Going Dutch on a Dinner Party</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/41_april_in_season.mp3" length="6300929" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/41_april_in_season.mp3</guid>
+      <pubDate>Fri, 28 Apr 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:06:32</itunes:duration>
+      <itunes:keywords>Asparagus jenever tulips Holland spring April Dinner Party</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 40: Rites of Spring</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Easter candy for adults and celebrating a traditional Seder with stories and recipes</description>
+      <itunes:subtitle>Easter and Passover</itunes:subtitle>
+      <itunes:summary>Easter candy for adults and celebrating a traditional Seder with stories and recipes</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/40_rites_of_spring.mp3" length="21908442" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/40_rites_of_spring.mp3</guid>
+      <pubDate>Wed, 12 Apr 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:22:48</itunes:duration>
+      <itunes:keywords>easter bunny seder holiday spring chocolate kugel</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 39: March in Season</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Spring lamb and celebrating a food hero&apos;s birthday</description>
+      <itunes:subtitle>The Tastes of the Month</itunes:subtitle>
+      <itunes:summary>Spring lamb and celebrating a food hero&apos;s birthday</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/39_march_in_season.mp3" length="10733152" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/39_march_in_season.mp3</guid>
+      <pubDate>Thu, 29 Mar 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:11:07</itunes:duration>
+      <itunes:keywords>Spring lamb celebrate food hero birthday Cesar Chavez</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 38: Comfort Food</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Sauerkraut, sauerkraut, and more sauerkraut; listeners&apos; favorite comfort food; eating through the winter on the 19th-century American frontier</description>
+      <itunes:subtitle>Eating Well in Winter</itunes:subtitle>
+      <itunes:summary>Sauerkraut, sauerkraut, and more sauerkraut; listeners&apos; favorite comfort food; eating through the winter on the 19th-century American frontier</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/38_comfort_food.mp3" length="21733883" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/38_comfort_food.mp3</guid>
+      <pubDate>Tue, 28 Feb 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:22:37</itunes:duration>
+      <itunes:keywords>Great Lakes Sauerkraut silverfloss krrrrisp kraut sauerkraut comfort food winter 19th-century American frontier</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 37: February in Season</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>The Chocolate Connoisseur by Chloe Doutre-Roussel and a different way to spend Mardi Gras with pancakes</description>
+      <itunes:subtitle>Chocolate and Pancakes</itunes:subtitle>
+      <itunes:summary>The Chocolate Connoisseur by Chloe Doutre-Roussel and a different way to spend Mardi Gras with pancakes</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/37_february_in_season.mp3" length="11981017" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/37_february_in_season.mp3</guid>
+      <pubDate>Mon, 20 Feb 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:12:27</itunes:duration>
+      <itunes:keywords>Chocolate Connoisseur Chloe Doutre-Roussel Mardi Gras pancakes</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 36: The Romance of Food</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>What&apos;s Your Food Sign; Simply In Season cookbook review; the history of romantic French dining</description>
+      <itunes:subtitle>Valentine&apos;s Day</itunes:subtitle>
+      <itunes:summary>What&apos;s Your Food Sign; Simply In Season cookbook review; the history of romantic French dining</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/36_romance_of_food.mp3" length="38240492" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/36_romance_of_food.mp3</guid>
+      <pubDate>Tue, 14 Feb 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:39:48</itunes:duration>
+      <itunes:keywords>Valentine Day Romance Your Food Sign; Simply In Season cookbook review; the history of romantic French dining</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 35: Dinner from the Oven</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>braises, roasts, and casseroles; history of the TV dinner; book interviews: Lydie Marshall and Slow Cooked Comfort; Laura Shapiro and Something From the Oven</description>
+      <itunes:subtitle>Warm Ideas for Cold Nights</itunes:subtitle>
+      <itunes:summary>braises, roasts, and casseroles; history of the TV dinner; book interviews: Lydie Marshall and Slow Cooked Comfort; Laura Shapiro and Something From the Oven</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/35_dinner_from_the_oven.mp3" length="28463871" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/35_dinner_from_the_oven.mp3</guid>
+      <pubDate>Sat, 4 Feb 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:29:37</itunes:duration>
+      <itunes:keywords>TV dinner Lydie Marshall braises roasts casseroles Slow Cooked Comfort Laura Shapiro Something From the Oven</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 34: January in Season</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Winter citrus and Burns Night Supper</description>
+      <itunes:subtitle>January</itunes:subtitle>
+      <itunes:summary>Winter citrus and Burns Night Supper</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/34_january_in_season.mp3" length="14630898" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/34_january_in_season.mp3</guid>
+      <pubDate>Sun, 22 Jan 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:15:14</itunes:duration>
+      <itunes:keywords>Winter citrus Burns Night Supper</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 33: Global Celebrations</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Las Posadas in Mexico, St. Lucia Day in Sweden, Hanukkah in Algeria and Iraq, and Hogmanay in Scotland. Recipes for Swedish gingerbread, spiced wine, and St. Lucia buns as well as Iraqi potatoes with cilantro and almond date balls.</description>
+      <itunes:subtitle>Feasting Around the World</itunes:subtitle>
+      <itunes:summary>Las Posadas in Mexico, St. Lucia Day in Sweden, Hanukkah in Algeria and Iraq, and Hogmanay in Scotland. Recipes for Swedish gingerbread, spiced wine, and St. Lucia buns as well as Iraqi potatoes with cilantro and almond date balls.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/33_global_celebrations.mp3" length="38273063" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/33_global_celebrations.mp3</guid>
+      <pubDate>Sun, 1 Jan 2006 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:39:51</itunes:duration>
+      <itunes:keywords>Christmas St. Lucia Day Hanukkah Hogmanay gingerbread spiced wine St. Lucia buns Iraqi potatoes almond date balls</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 32: The Gifted Cook</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Food games and trivia; cocoas, ports, and puddings; gifts from small farmers and for small farmers; homemade gifts from the kitchen</description>
+      <itunes:subtitle>An Eclectic Guide to Holiday Giving</itunes:subtitle>
+      <itunes:summary>Food games and trivia; cocoas, ports, and puddings; gifts from small farmers and for small farmers; homemade gifts from the kitchen</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/32_gifted_cook.mp3" length="36918288" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/32_gifted_cook.mp3</guid>
+      <pubDate>Tue, 13 Dec 2005 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:38:26</itunes:duration>
+      <itunes:keywords>Christmas gift holiday foodie game trivia cocoa small farm homemade</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 31: A Baker&apos;s Dozen</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Delicious chocolate desserts, tips for the best pie crust, history of the cookie in America and a club devoted to British puddings, three new cookbooks and the great bakers behind them</description>
+      <itunes:subtitle>13 Baking Highlights for the Holiday Season</itunes:subtitle>
+      <itunes:summary>Delicious chocolate desserts, tips for the best pie crust, history of the cookie in America and a club devoted to British puddings, three new cookbooks and the great bakers behind them</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/31_bakers_dozen.mp3" length="34342085" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/31_bakers_dozen.mp3</guid>
+      <pubDate>Sun, 4 Dec 2005 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:35:46</itunes:duration>
+      <itunes:keywords>Foraging London British regional cuisine Scotch Malt Whisky Society Cullen Skink Yorkshire Parkin Cornish Pasties</itunes:keywords>
+</item>
+
+<item>
+      <title>Eat Feed 30: The British Countryside</title>
+      <itunes:author>Anne Bramley</itunes:author>
+      <description>Foraging for food in the woods south of London; tasting British regional cuisine; the Scotch Malt Whisky Society; recipes for Cullen Skink, Yorkshire Parkin, and Cornish Pasties</description>
+      <itunes:subtitle>Exploring Regional Cuisine</itunes:subtitle>
+      <itunes:summary>Foraging for food in the woods south of London; tasting British regional cuisine; the Scotch Malt Whisky Society; recipes for Cullen Skink, Yorkshire Parkin, and Cornish Pasties</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/30_british_countryside.mp3" length="44700773" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/30_british_countryside.mp3</guid>
+      <pubDate>Wed, 16 Nov 2005 10:45:32 EDT</pubDate>
+      <category>Food</category>
+      <itunes:category text="Food">
+        </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:46:32</itunes:duration>
+      <itunes:keywords>Foraging London British regional cuisine Scotch Malt Whisky Society Cullen Skink Yorkshire Parkin Cornish Pasties</itunes:keywords>
+</item>
+
+    <item>
+      <title>Eat Feed 29: Thanksgiving</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>Whether you long for colonial inspirations, Victorian traditions, or 20th century innovations, this episode is your guide to a historically inspired meal. Guest: Sandy Oliver, co-author of Giving Thanks: Thanksgiving Recipes and History, from Pilgrims to Pumpkin Pie.</description>
+      <itunes:subtitle>The History of America&apos;s Favorite Meal</itunes:subtitle>
+      <itunes:summary>Whether you long for colonial inspirations, Victorian traditions, or 20th century innovations, this episode is your guide to a historically inspired meal. Guest: Sandy Oliver, co-author of Giving Thanks: Thanksgiving Recipes and History, from Pilgrims to Pumpkin Pie.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/29_thanksgiving.mp3" length="16549608" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/29_thanksgiving.mp3</guid>
+      <pubDate>Tue, 8 Nov 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:17:13</itunes:duration>
+      <itunes:keywords>Thanksgiving Sandy Oliver turkey Victorian stuffing dressing gravy Pilgrim Puritan colonial</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 28: Autumn Harvest</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>Cooking up the taste of the season: Pumpkins, Cranberries, Apples, Wild Rice, and great spices like cinnamon, nutmeg, and cloves.  Step-by-step making caramel at home and a recipe for cranberry cream muffins.</description>
+      <itunes:subtitle>A Celebration of Autumn Flavors</itunes:subtitle>
+      <itunes:summary>Cooking up the taste of the season: Pumpkins, Cranberries, Apples, Wild Rice, and great spices like cinnamon, nutmeg, and cloves.  Step-by-step making caramel at home and a recipe for cranberry cream muffins.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/28_autumn_harvest.mp3" length="47413771" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/28_autumn_harvest.mp3</guid>
+      <pubDate>Sat, 22 Oct 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:49:22</itunes:duration>
+      <itunes:keywords>Pumpkins halloween Cranberry Apple Wild Rice spice cinnamon nutmeg clove caramel cranberry cream muffins</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 27: A Culinary Passage to India</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>500 years of Indian food from the Moghuls to the British; the globalization of Indian food in the 21st century; hot Indian restaurants in London and their secret recipes; Indian tea from Darjeeling to Assam.  And don&apos;t forget the Walkers shortbread giveaway!</description>
+      <itunes:subtitle>From Chai to Chaat</itunes:subtitle>
+      <itunes:summary>500 years of Indian food from the Moghuls to the British; the globalization of Indian food in the 21st century; hot Indian restaurants in London and their secret recipes; Indian tea from Darjeeling to Assam.  And don&apos;t forget the Walkers shortbread giveaway!</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/27_culinary_passage_to_india.mp3" length="35234484" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/27_culinary_passage_to_india.mp3</guid>
+      <pubDate>Sat, 15 Oct 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:36:41</itunes:duration>
+      <itunes:keywords>Indian food garden Moghuls British London Indian tea Darjeeling Assam</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 26: Food on the Homefront</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>Feed gives away Walkers shortbread. Braised pork shoulder with grapes in a WWI crock; Rachel Laudan on Victory Gardens and post-war desserts; Jennifer Wilkins on food citizenship and food security; and your ideas for homefront drinks.</description>
+      <itunes:subtitle>Eating in a Time of War</itunes:subtitle>
+      <itunes:summary>Feed gives away Walkers shortbread. Braised pork shoulder with grapes in a WWI crock; Rachel Laudan on Victory Gardens and post-war desserts; Jennifer Wilkins on food citizenship and food security; and your ideas for homefront drinks.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/26_food_on_the_homefront.mp3" length="34130660" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/26_food_on_the_homefront.mp3</guid>
+      <pubDate>Thu, 6 Oct 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:35:32</itunes:duration>
+      <itunes:keywords>war victory garden Rachel Jennifer Wilkins citizenship security</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 25: A Moveable Feast</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>Russell Cronkhite and his cookbook A Return to Family Picnics, menus for autumn picnic, tailgate party, or outdoor meal of cordon bleu subs; Robin Campbell and Mary Ellen Hern-history American picnics; Tim Elliot picnic wine</description>
+      <itunes:subtitle>Autumn Dining in the Great Outdoors</itunes:subtitle>
+      <itunes:summary>Russell Cronkhite and his cookbook A Return to Family Picnics, menus for autumn picnic, tailgate party, or outdoor meal of cordon bleu subs; Robin Campbell and Mary Ellen Hern-history American picnics; Tim Elliot picnic wine</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/25_moveable_feast.mp3" length="28450179" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/25_moveable_feast.mp3</guid>
+      <pubDate>Tue, 20 Sep 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:29:37</itunes:duration>
+      <itunes:keywords>picnic Cronkhite Robin Campbell Ellen Hern tailgate party autumn Tim Elliott</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 24: Preserving the Past</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>Making the most of today&apos;s bounty by storing it for the future. Sue Shephard&apos;s Pickled, Potted, and Canned; June Taylor and her amazing historically-inspired line of preserves; and Tim Elliott  from Winecast on wine as the preserved grape.</description>
+      <itunes:subtitle>Pickles, jams, and Other Preserves</itunes:subtitle>
+      <itunes:summary>Making the most of today&apos;s bounty by storing it for the future. Sue Shephard&apos;s Pickled, Potted, and Canned; June Taylor and her amazing historically-inspired line of preserves; and Tim Elliott  from Winecast on wine as the preserved grape.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/24_preserving_the_past.mp3" length="34748941" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/24_preserving_the_past.mp3</guid>
+      <pubDate>Sat, 10 Sep 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:36:11</itunes:duration>
+      <itunes:keywords>preservation jam pickle ham wine Sue Shephard pickles June Taylor Tim Elliott</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 23: Revolutionary Taste</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>The tastes, trends, food, and fads that have revolutionized the way we eat: exploration, the printing press, ice, measuring cups, organic awareness, ancient grains, cooking at home, small farms, and even more big ideas.  Sherri Brooks Vinto&apos;s The Real Food Revival; the country&apos;s first Curator of American Culinary History, Jan Longone; and Mark Prince from the Coffee Geek Podcast.</description>
+      <itunes:subtitle>Food Movements that Have Changed the World</itunes:subtitle>
+      <itunes:summary>The tastes, trends, food, and fads that have revolutionized the way we eat: exploration, the printing press, ice, measuring cups, organic awareness, ancient grains, cooking at home, small farms, and even more big ideas.  Sherri Brooks Vinton&apos;s The Real Food Revival; the country&apos;s first Curator of American Culinary History, Jan Longone; and Mark Prince from the Coffee Geek Podcast.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/23_revolutionary_taste.mp3" length="39152943" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/23_revolutionary_taste.mp3</guid>
+      <pubDate>Tue, 30 Aug 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:40:46</itunes:duration>
+      <itunes:keywords>organic farmers market scientific measurement exploration longone brooks vinton</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 22: Fresh from the Field</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>A late-summer harvest of Iowa corn, historic tomatoes, and fruit-filled drinks; Jeremy Jackson&apos;s The Cornbread Book, Andy Smith&apos;s The Tomato in America, and Sandy Oliver on the colonial beverage called shrub</description>
+      <itunes:subtitle>Late-Summer Bounty</itunes:subtitle>
+      <itunes:summary>A late-summer harvest of Iowa corn, historic tomatoes, and fruit-filled drinks; Jeremy Jackson&apos;s The Cornbread Book, Andy Smith&apos;s The Tomato in America, and Sandy Oliver on the colonial beverage called shrub</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/22Fresh.mp3" length="22884438" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/22Fresh.mp3</guid>
+      <pubDate>Thu, 18 Aug 2005 10:45:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:31:46</itunes:duration>
+      <itunes:keywords>corn tomato harvest shrub jackson smith iowa cornbread oliver</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 21: A Culinary Independence: Jefferson for July 4th</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>Discussions of the cookbook Dining at Monticello: In Good Taste and Abundance; Jefferson&apos;s vanilla ice cream recipe; tomatoes, winter wheat, and pastured beef; the culinary and cooking innovations of the third US president.</description>
+      <itunes:subtitle>Historic Meals for the Fourth of July</itunes:subtitle>
+      <itunes:summary>Discussions of the cookbook Dining at Monticello: In Good Taste and Abundance; Jefferson&apos;s vanilla ice cream recipe; tomatoes, winter wheat, and pastured beef; the culinary and cooking innovations of the third US president.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/Jefferson4th.mp3" length="38058526" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/Jefferson.mp3</guid>
+      <pubDate>Sun, 3 Jul 2005 12:17:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:39:56</itunes:duration>
+      <itunes:keywords>food Jefferson Independence July 4th fourth Monticello tomato vanilla ice cream winter wheat pastured beef</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 20: The Flavors and Foods of Hawaii</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>Poi, pineapple, and poke.  Fresh fish, exotic fruits, and traditions and trends in the Pacific Rim culinary world.  Hawaii Regional Cuisine and island farmers markets. Interviews with food writer, Joan Namkoong, and chef, Peter Merriman.</description>
+      <itunes:subtitle>Cooking and Cuisine in Hawaii</itunes:subtitle>
+      <itunes:summary>Poi, pineapple, and poke.  Fresh fish, exotic fruits, and traditions and trends in the Pacific Rim culinary world.  Hawaii Regional Cuisine and island farmers markets. Interviews with food writer, Joan Namkoong, and chef, Peter Merriman.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/Hawaii.mp3" length="25779965" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/Hawaii.mp3</guid>
+      <pubDate>Tue, 28 Jun 2005 12:17:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:21:51</itunes:duration>
+      <itunes:keywords>food Hawaii fish poi pineapple poke Namkoong Merriman</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 19: Ice Cream Through the Ages</title>
+      <description>Coffee ice cream, tea ice cream, marmalade ice cream, Thomas Jefferson's vanilla ice cream, even artichoke and Parmesan ice cream.  Ice cream molded like a peach and ice cream painted like a fish.  Sabatieres and hand crank machines. Ice cream socials and ice cream parlors. And the author of Ice Cream: The Ultimate in Cold Comfort.</description>
+      <link>http://libsyn.com/media/eatfeed/ice-cream-through-the-ages.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/ice-cream-through-the-ages.mp3" length="34195853" type="audio/mpeg"/>
+      <pubDate>Wed, 8 Jun 2005 12:17:32 EDT</pubDate>
+    </item>
+    <item>
+      <title>The Art of Breakfast</title>
+      <description>Tasting the forgotten meal of the day: blue, green, and even purple free-range eggs from Fickle Creek Farm; tasting the best bacon with the blogger Bacontarian; putting it all together with Maryana Vollstedt and her Big Book of Breakfast; recipes for Sticky Bun French Toast and Brunch Bake</description>
+      <link>http://libsyn.com/media/eatfeed/Naples.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Breakfast.mp3" length="23560103" type="audio/mpeg"/>
+      <pubDate>Wed, 1 Jun 2005 12:17:32 EDT</pubDate>
+    </item>
+    <item>
+      <title>Naples in New York</title>
+      <description>)Owner Giovanni Iovine and Executive Chef Giuliano Materese from New York's Borgo Antico restaurant; Italian wine recs with Tim Elliot of Winecast; pre-anouncing our summer Farmer's Market recipe contest.</description>
+      <link>http://libsyn.com/media/eatfeed/Naples.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Naples.mp3" length="13391927" type="audio/mpeg"/>
+      <pubDate>Wed, 18 May 2005 12:17:32 EDT</pubDate>
+    </item>
+    <item>
+      <title>Food and Philosophy on the Left Coast</title>
+      <description>Design and create your own vintage at Crushpad Winery in San Francisco; artisanal cheeses from California at the Cheese Board Collective; kid's meals redesigned by Ecoliteracy.</description>
+      <link>http://libsyn.com/media/eatfeed/LeftCoast.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/LeftCoast.mp3" length="41689455" type="audio/mpeg"/>
+      <pubDate>Wed, 18 May 2005 12:07:32 EDT</pubDate>
+    </item>
+    <item>
+      <title>The French Flavors of Cinco de Mayo</title>
+      <description>French food in 19th century Mexico; the battle between Mexican corn and Spanish wheat; and homemade sour cream for your Cinqo de Mayo feast.</description>
+      <link>http://libsyn.com/media/eatfeed/Cinqodemayo.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Cinqodemayo.mp3" length="22753411" type="audio/mpeg"/>
+      <pubDate>Wed, 20 Apr 2005 12:07:32 EDT</pubDate>
+    </item>
+    <item>
+      <title>Mediterranean Seder</title>
+      <description>Spain, Italy, and Greece on the Passover Table; author Joyce Goldstein; Kosher wine recommendations for the Holiday.</description>
+      <link>http://libsyn.com/media/eatfeed/Seder.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Seder.mp3" length="20149507" type="audio/mpeg"/>
+      <pubDate>Wed, 20 Apr 2005 12:07:32 EDT</pubDate>
+    </item>
+    <item>
+      <title>Tastes of Vermont</title>
+      <description>Claudia Clark of Moosewood Hollow creates an innovative twist on maple syrup; Thomas Christopher Greene takes us into the pages of fictional foodie Vermont with the novel I'll Never Be Long Gone</description>
+      <link>http://libsyn.com/media/eatfeed/Vermont.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Vermont.mp3" length="19679736" type="audio/mpeg"/>
+      <pubDate>Tue, 19 Apr 2005 12:07:32 EDT</pubDate>
+    </item>
+    <item>
+      <title>Gastronomic Georgian England</title>
+      <description>the curious world of flummery and syllabub, dinner with William Wordsworth, an ice cream craze, and 18th-century celebrity chefs.</description>
+      <link>http://libsyn.com/media/eatfeed/EighteenthCentury.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/EighteenthCentury.mp3" length="20990980" type="audio/mpeg"></enclosure>
+      <pubDate>Fri, 8 Apr 2005 17:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Eating and Drinking to Save the World</title>
+      <description>Drinking beer and eating chocolate to save the world. Growing your own and eating the landscape.</description>
+      <link>http://libsyn.com/media/eatfeed/World.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/World.mp3" length="48270237" type="audio/mpeg"></enclosure>
+      <pubDate>Fri, 1 Apr 2005 17:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Easter</title>
+      <description>leg of lamb with roasted vegetables and the perfect wines to go with it plus Bill Niman from Niman Ranch, the secret life of home-schooled chickens, and paring knife reviews</description>
+      <link>http://libsyn.com/media/eatfeed/Easter.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Easter.mp3" length="18611984" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 23 Mar 2005 17:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>ireland</title>
+      <description>recipes from Ballymaloe Cookery School, smoked salmon from Woodcock Smokery, and artisanal cheese from Gubbeen, as well as beer recs for St. Patrick's Day</description>
+      <link>http://libsyn.com/media/eatfeed/ireland.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/ireland.mp3" length="17654520" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 16 Mar 2005 17:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Soup</title>
+      <description>soup cookbooks, vegetarian soups, soups from Zimbabwe and inspired by Mexico; plus recipes and how-to&apos;s for homebrews</description>
+      <link>http://libsyn.com/media/eatfeed/Soup.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Soup.mp3" length="9441042" type="audio/mpeg"></enclosure>
+      <pubDate>Fri, 25 Feb 2005 22:32:17 -0500</pubDate>
+    </item>
+    <item>
+      <title>Scandinavia</title>
+      <description>New Scandinavian Cooking with Andreas Viestad, wine pairings with Tim Elliot of Winecast, shopping for kitchens and food at Ikea, Viking-strength spirits</description>
+      <link>http://libsyn.com/media/eatfeed/Scandinavia.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Scandinavia.mp3" length="7754054" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 16 Feb 2005 18:51:35 -0500</pubDate>
+    </item>
+    <item>
+      <title>Chicago</title>
+      <description>The Culinary Low-Down on Chi-Town&lt;br&gt;
+The tastes of Chicago: Windy City hot dogs a.k.a. Garden on a Bun, Polish home cooking, stuffed pizza on a soapbox, and the voices of Chicago food lovers&lt;br&gt;</description>
+      <link>http://libsyn.com/media/eatfeed/Chicago.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Chicago.mp3" length="7790129" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 9 Feb 2005 18:52:49 -0500</pubDate>
+    </item>
+    <item>
+      <title>Chocolate</title>
+      <description>Food of the Gods: A Sacred History of Chocolate&lt;br&gt;
+3,000 years of chocolate, chocolate tastings, chocolate desserts, chocolate insight. What percent is your chocolate packin&apos;?&lt;br&gt;</description>
+      <link>http://libsyn.com/media/eatfeed/Chocolate.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Chocolate.mp3" length="7000055" type="audio/mpeg"></enclosure>
+      <pubDate>Thu, 3 Feb 2005 01:27:33 -0500</pubDate>
+    </item>
+    <item>
+      <title>Valentines</title>
+      <description>Husband and wife champscast. Ideas for Valentines cooking: steak with brandy cream sauce, meringues, caviar potatoes, and Kir Royale cocktails. Folks around the world give their ideas for V-Day food.  And, as always, food trivia.</description>
+      <link>http://libsyn.com/media/eatfeed/Valentines.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/Valentines.mp3" length="7160761" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 26 Jan 2005 21:51:24 -0500</pubDate>
+    </item>
+    <item>
+      <title>Easy Japanesey</title>
+      <description>Easy Japanese meals to make at home: soba, curry, green tea ice cream, tonkatsu, and marinated fish.  Plus the theory of rice.</description>
+      <link>http://libsyn.com/media/eatfeed/EasyJapanesey.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/EasyJapanesey.mp3" length="34537739" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 19 Jan 2005 18:14:01 -0500</pubDate>
+    </item>
+    <item>
+      <title>Beyond Cheeseheads</title>
+      <description>This week's podcast takes us to Wisconsin where we talk with regional food specialists.  Hmong cuisine ingredients and restaurants, Scandinavian influences, church suppers, fish boils, and great beer and cheese.</description>
+      <link>http://libsyn.com/media/eatfeed//BeyondCheeseheads.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/BeyondCheeseheads.mp3" length="33856869" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 12 Jan 2005 12:45:51 -0500</pubDate>
+    </item>
+    <item>
+      <title>At Shakespeares Table</title>
+      <description>This week's show is dedicated to cooking and feasting like a Renaissance man or woman.  There&apos;s a Twelfth Night feast and a Pancake Day party.  Recipes for venison pasties, wassail, Shrove Tuesday pancakes, and more.</description>
+      <link>http://libsyn.com/media/eatfeed/AtShakespearesTable.mp3</link>
+      <category domain="www.eatfeed.com">food, cooking, food history, entertaining, recipes</category>
+      <enclosure url="http://libsyn.com/media/eatfeed/AtShakespearesTable.mp3" length="24074522" type="audio/mpeg"></enclosure>
+      <pubDate>Wed, 5 Jan 2005 12:45:51 -0500</pubDate>
+    </item>
+
+    <item>
+      <title>Eat Feed 0: Promo</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>The podcast that takes you back in time, across the country, around the world, and back to your own table.</description>
+      <itunes:subtitle>Eat Feed Promo</itunes:subtitle>
+      <itunes:summary>The podcast that takes you back in time, across the country, around the world, and back to your own table.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/Promo.mp3" length="458831" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/Promo.mp3</guid>
+      <pubDate>Tue, 4 Jan 2005 12:17:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:00:28</itunes:duration>
+      <itunes:keywords>food history gourmet recipe cooking chef eat international cuisine</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Eat Feed 00: Promo</title>
+          <itunes:author>Anne Bramley</itunes:author>
+      <description>The podcast that takes you back in time, across the country, around the world, and back to your own table.</description>
+      <itunes:subtitle>Eat Feed Promo</itunes:subtitle>
+      <itunes:summary>The podcast that takes you back in time, across the country, around the world, and back to your own table.</itunes:summary>
+      <enclosure url="http://libsyn.com/media/eatfeed/new_promo.mp3" length="535696" type="x-audio/mp3"/>
+      <guid>http://libsyn.com/media/eatfeed/new_promo.mp3</guid>
+      <pubDate>Mon, 3 Jan 2005 12:17:32 EDT</pubDate>
+
+      <category>Food</category>
+      <itunes:category text="Food">
+      </itunes:category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:00:32</itunes:duration>
+      <itunes:keywords>food history gourmet recipe cooking chef eat international cuisine</itunes:keywords>
+    </item>
+  </channel>
+</rss>

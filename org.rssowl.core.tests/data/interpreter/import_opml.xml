@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.1">
+  <head>
+    <title>Some Title</title>
+    <dateCreated>19.03.06 20:58</dateCreated>
+    <ownerName>bpasero</ownerName>
+  </head>
+  <body>
+  
+    <outline text="category_1">
+      <outline text="category_1_feed_1_text" title="category_1_feed_1_title" xmlUrl="http://www.category_1_feed_1_url.com" htmlUrl="category_1_feed_1_website" description="category_1_feed_1_description" />
+      <outline text="category_1_feed_2_text" xmlUrl="http://www.category_1_feed_2_url.com" htmlUrl="category_1_feed_2_website" description="category_1_feed_2_description" />
+      <outline title="category_1_feed_3_title" xmlUrl="http://www.category_1_feed_3_url.com" />
+    </outline>
+    
+    <outline text="category_2">
+      <outline text="sub_category_1">
+        <outline title="sub_category_1_feed_1_title" xmlUrl="http://www.sub_category_1_feed_1_url.com" />
+        <outline xmlUrl="http://www.sub_category_1_feed_2_url.com" />
+      	<outline text="sub_sub_category_1">
+          <outline title="sub_sub_category_1_feed_1_title" xmlUrl="www.sub_sub_category_1_feed_1_url.com" />
+        </outline>
+      </outline>
+    </outline>
+    
+    <outline />
+    <outline>
+    	<outline bogus="true" />
+    </outline>
+  </body>
+</opml>

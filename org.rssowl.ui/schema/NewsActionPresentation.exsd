@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.rssowl.ui" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="org.rssowl.ui" id="FilterActionPresentation" name="Filter Action Presentation"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+This extension point allows to contribute a presentation for a news action. This is useful when extra input from the user is required for the news action to function properly.
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appInfo>
+            <meta.element />
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="newsActionPresentation" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="newsActionPresentation">
+      <complexType>
+         <attribute name="actionId" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The ID of the news action this presentation is used for.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A class that implements &lt;samp&gt;org.rssowl.ui.filter.INewsActionPresentation&lt;/samp&gt;.
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="java" basedOn=":org.rssowl.ui.filter.INewsActionPresentation"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         2.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+The following is an example for using the extension point for the news action with the ID &apos;org.rssowl.core.LabelNewsAction&apos;:
+&lt;pre&gt;&lt;extension
+         point=&quot;org.rssowl.ui.NewsActionPresentation&quot;&gt;
+      &lt;newsActionPresentation
+            class=&quot;org.rssowl.ui.internal.filter.LabelNewsActionPresentation&quot;
+            actionId=&quot;org.rssowl.core.LabelNewsAction&quot;&gt;
+      &lt;/newsActionPresentation&gt;
+&lt;/extension&gt;&lt;/pre&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appInfo>
+         <meta.section type="copyright"/>
+      </appInfo>
+      <documentation>
+         Copyright notice (c) 2005-2011 RSSOwl Development Team.                            
+All rights reserved´. This program and the accompanying 
+materials are made available under the terms of the Eclipse 
+Public License v1.0 which accompanies this distribution, and 
+is available at: &lt;a href=&quot;http://www.rssowl.org/legal/epl-v10.html&quot;&gt;http://www.rssowl.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="RSSOwl" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/org.rssowl.ui/icons/product/about.gif"/>
+      <text>
+         RSSOwl
+
+Version: 2.1
+Build Id: 2011-07-15
+
+RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.
+http://www.rssowl.org/legal/epl-v10.html
+
+(c) Copyright RSSOwl contributors and others 2005, 2011.  All rights reserved.
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+      <linux>/org.rssowl.ui/config.ini</linux>
+      <macosx>/org.rssowl.ui/config.ini</macosx>
+      <solaris>/org.rssowl.ui/config.ini</solaris>
+      <win32>/org.rssowl.ui/config.ini</win32>
+   </configIni>
+
+   <launcherArgs>
+      <vmArgs>-Xms15m -Xmx192m -Dosgi.requiredJavaVersion=1.5</vmArgs>
+   </launcherArgs>
+
+   <windowImages i16="/org.rssowl.ui/icons/product/16x16.png" i32="/org.rssowl.ui/icons/product/32x32.png" i48="/org.rssowl.ui/icons/product/48x48.png" i64="/org.rssowl.ui/icons/product/64x64.png" i128="/org.rssowl.ui/icons/product/128x128.png"/>
+
+   <launcher name="RSSOwl">
+      <linux icon="/org.rssowl.ui/icons/product/rssowl.xpm"/>
+      <macosx icon="/org.rssowl.ui/icons/product/rssowl.icns"/>
+      <solaris/>
+      <win useIco="true">
+         <ico path="/org.rssowl.ui/icons/product/rssowl.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <license>
+        <url>http://www.rssowl.org/legal/epl-v10.html</url>
+        <text>
+   Copyright notice                                            
+(c) 2005-2011 RSSOwl Development Team                       
+http://www.rssowl.org/                                      
+All rights reserved                                         
+This program and the accompanying materials are made available
+under   
+the terms of the Eclipse Public License v1.0 which accompanies
+this    
+distribution, and is available at:                          
+http://www.rssowl.org/legal/epl-v10.html                    
+A copy is found in the file epl-v10.html and important notices
+to the  
+license from the team is found in the textfile LICENSE.txt distributed
+in this package.                                            
+This copyright notice MUST APPEAR in all copies of the file!
+Contributors:                                               
+RSSOwl Development Team - initial API and implementation
+         </text>
+   </license>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.eclipse.rcp" version="3.4.200.R342_v20090122-989JESTEbig-SVaL8UJHcYBr4A63"/>
+      <feature id="org.rssowl.dependencies" version="2.0.0"/>
+      <feature id="org.rssowl" version="2.1.0.qualifier"/>
+   </features>
+
+
+</product>

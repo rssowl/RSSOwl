@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://my.netscape.com/rdf/simple/0.9/">
+<channel>
+<title>Codewalkers Tutorial List</title>
+<link>http://codewalkers.com/</link>
+<description>Resource for PHP developers</description>
+</channel>
+<item>
+<title>Coding "Best Practices"--or at least "Better Practices"</title>
+<link>http://codewalkers.com/tutorials.php?show=94</link>
+<description>Following these simple guidelines will help make your scripts easier to understand and maintain, more bug-free and save you time.</description>
+</item>
+<item>
+<title>Intro to Databases</title>
+<link>http://codewalkers.com/tutorials.php?show=93</link>
+<description>A quickstart guide to working with databases for beginners, covering basic concepts, simple SQL, and working with databases in PHP either natively or with PEAR DB.  </description>
+</item>
+<item>
+<title>Adding a Poll to Your Web Site</title>
+<link>http://codewalkers.com/tutorials.php?show=92</link>
+<description>Easily add interaction to your web site by adding a poll.  Bruce Alderman shows you how, as well as discusses the security issues and other concerns.</description>
+</item>
+<item>
+<title>Sending SMS Thru HTTP</title>
+<link>http://codewalkers.com/tutorials.php?show=90</link>
+<description>Use PHP and the HTTP protocol to send text-messages from your website through an SMS gateway.</description>
+</item>
+<item>
+<title>Advanced Bulleted-List Menu</title>
+<link>http://codewalkers.com/tutorials.php?show=89</link>
+<description>Explore drawing dynamic navigation menus using PHP, CSS and JavaScript.  This tutorial teaches you how to generate an easily modifiably bulleted-list that is fully collapsible and preserves state between pages.</description>
+</item>
+<item>
+<title>The Postal Fix - Part 2</title>
+<link>http://codewalkers.com/tutorials.php?show=88</link>
+<description>Part Two of The Postal Fix.</description>
+</item>
+<item>
+<title>Smart Auto Refresh</title>
+<link>http://codewalkers.com/tutorials.php?show=87</link>
+<description>In this tutorial Hermawan will teach you how to create an auto refreshing page. The trick he will show you is how to have the page only refresh when there is new data to display.</description>
+</item>
+<item>
+<title>Adding Mail with Exim</title>
+<link>http://codewalkers.com/tutorials.php?show=86</link>
+<description>PHP must have access to the Sendmail binary during compile time if its mail() function is desired.  However, Exim can replace sendmail as shown how in this tutorial.</description>
+</item>
+<item>
+<title>The Postal Fix - Part 1</title>
+<link>http://codewalkers.com/tutorials.php?show=85</link>
+<description>Take a break and join us for a little fiction. Mark West struggling with an unfulfilling job soon embarks on adventures he never thought he would have. Join Mark on his adventures into the new west where the law is upheld with a revolver and programming skill.</description>
+</item>
+<item>
+<title>Create Your Own Custom API</title>
+<link>http://codewalkers.com/tutorials.php?show=84</link>
+<description>If you've ever just gotten frustrated with XML-RPC, SOAP or any other "web service" protocal - do what I did - make your own!</description>
+</item>
+</rdf:RDF>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+
+<channel>
+<title>internetnews.com</title>
+<link>http://www.internetnews.com</link>
+<description>Real time breaking news, analysis, features and opinion for IT decision-makers. Focus includes Enterprise, Developer, Security, Storage, Wireless, eCommerce and Policy.</description>
+<language>en-us</language>
+<copyright>Copyright 1996-2006 Jupitermedia Corporation</copyright>
+<docs>http://backend.userland.com/rss</docs>
+<managingEditor>rss@jupitermedia.com</managingEditor>
+<webMaster>rss@jupitermedia.com</webMaster>
+
+<item>
+<title>ADV: Sun&#39;s new breakthrough server</title>
+<link>http://redir.internet.com/rss/top-news/ad.doubleclick.net/clk;23189588;12135883;s?http://www.sun.com/coolthreads/T1000</link>
+<description>Sun&#39;s new server maximizes capacity with dramatic energy efficiency and costs savings. The Sun Fire* Solaris T1000 server delivers more compute threads using significantly less power.
+</description>
+</item>
+
+<item>
+<title>House Panel Moves on Data Breach Bill</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608816</link>
+<description>With data breaches back in the news, national legislation begins to
+percolate.
+</description>
+</item>
+
+<item>
+<title>Vonage IPO Hits Market Turbulence</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608661</link>
+<description>VoIP company hopes to raise $531M to help fund expansion and pay off debts.
+</description>
+</item>
+
+<item>
+<title>Rough Start For Google&#39;s Summer of Code &#39;06</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/dev-news/article.php/3608631</link>
+<description>We regret to inform you that the acceptance letter we sent you for the program...was wrong. 
+</description>
+</item>
+
+<item>
+<title>Sycamore Hit With SEC Probe</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608711</link>
+<description>Networking company the latest firm involved in stock option  
+investigation.
+</description>
+</item>
+
+<item>
+<title>Google: Resistance is Futile</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608776</link>
+<description>Reporter&#39;s Notebook: Search giant&#39;s laser focus has always been on &#39;collective computing.&#39;</description>
+</item>
+
+<item>
+<title>Symantec-Microsoft Suit Casts Pall on Vista</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608771</link>
+<description>Analysis: Symantec&#39;s suit is a gauntlet for Microsoft and a threat to Vista, but analysts expect a resolution.</description>
+</item>
+
+<item>
+<title>HP Does the VTL Limbo</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/storage/article.php/3608751</link>
+<description>HP unveils a virtual tape offering that sells for a bit over $6,000, bringing VTL technology within reach of SMBs.</description>
+</item>
+
+<item>
+<title>South Korea Rejects Microsoft&#39;s Appeal</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608796</link>
+<description>High Court the last option before August deadline.</description>
+</item>
+
+<item>
+<title>Leaked Docs Claim AT&amp;T Aided NSA</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608786</link>
+<description>Smoking Gun? New statements purport to be part of whistleblower&#39;s sealed evidence in EFF lawsuit against AT&amp;T.
+</description>
+</item>
+
+<item>
+<title>StreamCast Takes Legal Aim at eBay&#39;s Skype</title>
+<link>http://redir.internet.com/rss/top-news/redir.internet.com/rss/click/www.internetnews.com/bus-news/article.php/3608646</link>
+<description>The amended lawsuit is seeking a global injunction on marketing and sales.</description>
+</item>
+
+</channel>
+</rss>

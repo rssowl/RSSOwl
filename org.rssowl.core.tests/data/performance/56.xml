@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0"><channel><title>freshmeat.net announcements (Global)</title><link>http://freshmeat.net</link><description>The last 24 hours worth of freshmeat.net releases</description><lastBuildDate>Wed, 24 May 2006 13:55:14 GMT</lastBuildDate><generator>PyRSS2Gen-0.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Stunnix JavaScript Obfuscator and Encoder 3.2 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20974</link><description>Stunnix JS-Obfus protects your JavaScript code
+from potential analyzing/studying/reworking by
+unwanted parties. It's both an obfuscator and
+encoder for the JavaScript/JScript source code. It
+converts the JavaScript/JScript source files into
+highly mangled and obfuscated form, making it
+extremely difficult to study, analyse, reuse, and
+re-work for competitors or customers, while fully
+retaining functionality of the original source
+code, and then encodes it afterwards, making it
+completely unreadable. There are a lot of options
+to control all aspects of code hiding, and full
+support for all syntax constructs. It is designed
+to be multi-module aware.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License with Free Trial
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This version better supports .js files with a UTF-8 byte order marker. encoding of scripts that contain raw UTF-8 bytes in them works correctly now. Support for 'try' blocks and regular expressions was improved. The Project Manager GUI now copies file and directory permissions when building projects, and recognizes more file extensions as containing scripts.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=m76Bkc"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=m76Bkc" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20974"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227990/</guid><pubDate>Wed, 24 May 2006 20:18:08 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227990/</feedburner:origLink></item><item><title>Scala 2.1.5 (Scala 2 branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20975</link><description>Scala is a modern multi-paradigm programming
+language designed to express common programming
+patterns in a concise, elegant, and type-safe way.
+It smoothly integrates features of object-oriented
+and functional languages including mixins,
+algebraic datatypes with pattern matching,
+genericity, and more. It is well integrated with
+Java and .NET: the Scala compiler produces standard Java class files or .NET assemblies, and Java/.NET libraries and frameworks can be used without glue code or additional declarations.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; BSD License (revised)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Fixes many bugs in the Scala compiler. Adds the command scalascript to execute Scala scripts.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=Ts68jC"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=Ts68jC" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20975"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227988/</guid><pubDate>Wed, 24 May 2006 20:17:00 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227988/</feedburner:origLink></item><item><title>Babel Interoperability Tool 0.99.0  (1.0  RC1) (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20976</link><description>Babel is an IDL-based interoperability tool
+specific to engineering and scientific
+applications. It allows Fortran 77, Fortran 90, C,
+C++, Java, and Python to call each other in a
+single address space for maximum performance.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=er9FiA"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=er9FiA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20976"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227986/</guid><pubDate>Wed, 24 May 2006 20:16:23 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227986/</feedburner:origLink></item><item><title>Stax 1.13 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20977</link><description>&lt;img src="http://images.freshmeat.net/screenshots/60084_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Stax is a collection of puzzle games for Linux,
+Windows, and DOS. It is built with the Allegro
+game library.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=gMuKw4"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=gMuKw4" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20977"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227982/</guid><pubDate>Wed, 24 May 2006 20:16:08 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227982/</feedburner:origLink></item><item><title>Buddi 0.8 Beta (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20978</link><description>Buddi is a simple budgeting program targeted for
+users with little or no financial background. It
+allows users to set up accounts and categories,
+record transactions, check spending habits, etc.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=Ent3Ag"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=Ent3Ag" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20978"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227979/</guid><pubDate>Wed, 24 May 2006 20:15:52 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227979/</feedburner:origLink></item><item><title>DataDrafter Personal Edition 1.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20979</link><description>&lt;img src="http://images.freshmeat.net/screenshots/60082_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+DataDrafter is a program that allows you to create
+your own interactive graphics applications with
+data editing, navigation, search, and reporting
+features built in. Use it instead of Visio, for
+example, to create diagrams, maps, and technical
+drawings that are interactive and fully integrated
+with your data. Your visualizations become real
+applications instead of just wallpaper. You can
+even share your graphics and data as an
+application on the Web, or on your own intranet.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=7yaKqZ"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=7yaKqZ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20979"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227974/</guid><pubDate>Wed, 24 May 2006 20:15:04 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227974/</feedburner:origLink></item><item><title>Coherent Mail Gateway 0.13.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20965</link><description>Coherent Mail Gateway is intended to be a very
+easy to set up MTA using SMTP and POP3.
+Greylisting is used on the SMTP daemon to reduce
+spam. In addition, quite a lot of checks on the
+validity of information from the SMTP client (such
+as claimed server name and sender) are carried
+out, and anyone caught telling lies is
+disconnected. Grey-, black-, and white-listing are
+supported, as well as (optionally) ClamAV and
+Spamhaus. The target market is users with static
+IP addresses. Others can use the system, but its
+value will be limited to outgoing email.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Freeware
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The SMTP server now dynamically bans persistently abusive IPs for a period. Performance is enhanced, and users may be given passwords to relay through the SMTP server from remote locations.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=zhAAxA"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=zhAAxA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20965"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227985/</guid><pubDate>Wed, 24 May 2006 17:03:21 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227985/</feedburner:origLink></item><item><title>Enterprise CRM and Groupware System 1.2.3 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20966</link><description>&lt;img src="http://images.freshmeat.net/screenshots/39169_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+EGS is a multi-user, Web-based Groupware/CRM/MRP
+suite developed using PHP. Current modules include
+CRM/address book/dashboard, calendar, content
+management, Wiki, project management tools, email
+ticketing, Web site news, file sharing, and
+accounting/ERP.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release has two new reports to allow users to easily capture and record overtime/wages on a weekly basis, as well as provide in/out sheets for fire safety regulations.   There are several minor bugfixes. and a complete ADODB upgrade to allow users to continue using EGS with the fixed security issues in PostgreSQL.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=WjctKT"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=WjctKT" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20966"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227984/</guid><pubDate>Wed, 24 May 2006 17:02:37 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227984/</feedburner:origLink></item><item><title>Live-Generator 1.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20967</link><description>live-generator is an integrated pack of scripts
+for building LiveCDs based on Aurox Linux. The
+user must fill in the config file (for custom
+wallpaper, bootsplash, etc.) located in the main
+Live-Generator directory and run  'generate-live'.
+It creates a base Aurox installation in the
+specified directory, and installs custom packages
+listed in the config file). It uses Yum to
+download packages from repositories. Scripts
+prepare a custom home directory with specified
+settings. mksquashfs compresses the root directory
+to an img file, and mkisofs creates the final ISO
+file.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=obFAsM"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=obFAsM" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20967"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227983/</guid><pubDate>Wed, 24 May 2006 17:00:01 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227983/</feedburner:origLink></item><item><title>GCViewer 1.25 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20968</link><description>&lt;img src="http://images.freshmeat.net/screenshots/20635_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+GCViewer is a Swing-based application that
+visualizes the verbose garbage collection output
+generated by the IBM, Sun, HP and BEA Java VMs
+(-verbose:gc/-Xloggc:-flags). The data can also be
+exported as CSV for forther processing with a
+spreadsheet application. Visualizing the data can
+help when one is tuning the garbage collector,
+especially the generation sizes and initial heap
+size.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release adds support for the new -XX:+UseParallelOldGC flag, -XX:+CMSIncrementalPacing, and GC-- promotion failures. Also added was initial support for BEA JRockit 5.0.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=CYx7qX"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=CYx7qX" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20968"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227981/</guid><pubDate>Wed, 24 May 2006 16:58:50 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227981/</feedburner:origLink></item><item><title>nuu 1.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20969</link><description>&lt;img src="http://images.freshmeat.net/screenshots/60014_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+NUU (Network Update Utility) is a GUI RPM package
+manager based on Yum that supports downloading,
+installation, and updating of packages from remote
+repositories, and removal of installed packages.
+It has the ability to examine both installed and
+available packages, and includes a repository
+configuration editor. It also supports package
+groups and suites of packages. Finally, it
+recognizes a simple authentication mechanism
+called buffet based on a server-side cgi-bin program.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release is functionally the same as the 0.9.9.8 release candidate.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=FoDqv6"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=FoDqv6" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20969"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227980/</guid><pubDate>Wed, 24 May 2006 16:58:11 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227980/</feedburner:origLink></item><item><title>faces 0.9.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20970</link><description>&lt;img src="http://images.freshmeat.net/screenshots/55079_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+faces is a powerful and flexible project
+management tool. It not only offers many
+extraordinary features like multiple resource
+balancing algorithms and multi scenario planing,
+but can also be easily extended and customized.
+Faces consists of a Python class framework and a
+graphical front-end.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release has many bugfixes and improvements in the chart printing mechanism. Snapshots also save the resource allocation. The chart view has been refactored. The popup menus are tidier. Several bugs in the report view were fixed. Many Windows-specific bugs were fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=u6OdV7"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=u6OdV7" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20970"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227977/</guid><pubDate>Wed, 24 May 2006 16:55:47 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227977/</feedburner:origLink></item><item><title>SDL.NET 4.0.4 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20971</link><description>&lt;img src="http://images.freshmeat.net/screenshots/33343_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+SDL.NET is a set of object-oriented CLS-compliant .NET bindings for the SDL gaming library. It provides high-level access to audio, keyboard, mouse, joystick, TrueType fonts, various image formats, sound mixing, MPEG-1 movies, and 3D hardware via OpenGL and a 2D video framebuffer. It is compatible with both .NET and Mono runtimes.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Updated to the latest SDL, SDL_image, SDL_mixer, SDL_ttf, and smpeg. A problem with Font style properties has been fixed. The library SdlDotNet.OpenGl has been added for drawing 2D surfaces to an OpenGl screen. The OpenGlFont example shows text being drawn over a spinning cube. New Video.SetVideoMode overloads default to the current desktop resolution. The ability to retrieve the Unicode character pressed on the keyboard has been added. VideoInfo now holds the current resolution's height and width. The SDK installer now includes the runtimes as well. A bug in Video.ListModes has been fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=jIXzlC"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=jIXzlC" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20971"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227976/</guid><pubDate>Wed, 24 May 2006 16:54:51 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227976/</feedburner:origLink></item><item><title>LDAP Account Manager 1.0.2 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20972</link><description>&lt;img src="http://images.freshmeat.net/screenshots/38316_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+LDAP Account Manager makes it possible to manage various account types (Unix, Samba, and Kolab) in an LDAP directory. It also features an external script for managing quotas and home directories.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release adds some security enhancements and closes several bugs.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=hojdTH"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=hojdTH" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20972"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227975/</guid><pubDate>Wed, 24 May 2006 16:52:34 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227975/</feedburner:origLink></item><item><title>Install Kernel 0.9.3 (Stable branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20973</link><description>Install Kernel (ik) is a bash script that installs the Linux kernel and automatically sets up LILO or GRUB. It also saves your kernel configuration each time you do an install. This allows you to restore the newest configuration file when you make a new kernel. This script is intended for two groups of people; people new to compiling kernels, and people who are tired of moving files around and editing their bootloader configurations every time they install a new kernel. 
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; MIT/X Consortium License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Updated to work with the newer version of coreutils for head and tail. The MAKE_JOBS directive has been removed in favor of make -j2 to prevent make from spawning hundreds of jobs if /proc/cpuinfo did not exist.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=srp7nA"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=srp7nA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20973"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227972/</guid><pubDate>Wed, 24 May 2006 16:52:09 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227972/</feedburner:origLink></item><item><title>PyX 0.9 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20961</link><description>PyX is a Python package for the creation of
+PostScript and PDF files. It combines an
+abstraction of the PostScript drawing model with a
+TeX/LaTeX interface. Complex tasks like 2D and 3D
+plots in publication-ready quality are built out
+of these primitives.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release features a new set of deformers for path manipulations like smoothing, shifting, etc. A new set of extensively documented examples describing various aspects of PyX in a cookbook-like fashion have been written. Type 1 font-stripping is now handled by a newly written Python module. Many other improvements and bugfixes are included in this release.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=O0h8vq"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=O0h8vq" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20961"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227970/</guid><pubDate>Wed, 24 May 2006 16:42:05 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227970/</feedburner:origLink></item><item><title>CrossVC 1.5.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20962</link><description>&lt;img src="http://images.freshmeat.net/screenshots/5799_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+CrossVC is a cross-platform version control client formerly known as
+LinCVS.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The ability to show/hide the toolbar via the menu. A lot of bugfixes.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=vEKlmL"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=vEKlmL" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20962"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227969/</guid><pubDate>Wed, 24 May 2006 16:40:25 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227969/</feedburner:origLink></item><item><title>GrokEVT 0.3.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20963</link><description>GrokEVT is a collection of scripts for reading Windows event log files on Unix. The scripts work together on one or more mounted Windows partitions to extract all information needed (registry entries, message templates, and log files) to convert the logs to a human-readable format.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Initial Jnicode support has been added. Windows UTF-16 is properly read from logs, and output is optionally produced in UTF-8. A new option has been added for printing log meta information, which is helpful in determining a log's level of corruption. A new script, grokevt-addlog, has been introduced. This allows one to add raw log files to an existing message template database. There is a much improved log parsing algorithm, which works with wrapped and fragmentary logs. Multiple bugfixes and improved exception handling.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=qqBGYg"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=qqBGYg" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20963"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227968/</guid><pubDate>Wed, 24 May 2006 16:39:39 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227968/</feedburner:origLink></item><item><title>InstallJammer 1.0rc3 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20964</link><description>&lt;img src="http://images.freshmeat.net/screenshots/57274_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+InstallJammer is a multi-platform GUI installer
+and builder designed to be completely
+cross-platform and function on Windows and most
+versions of Unix, with eventual support for Mac OS X. InstallJammer is renamed from the original InstallBase project.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Mozilla Public License (MPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release fixes the minor bugs that have been reported since the last release candidate.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=vFth0B"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=vFth0B" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20964"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227967/</guid><pubDate>Wed, 24 May 2006 16:36:49 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227967/</feedburner:origLink></item><item><title>Rad Image Viewer 0.92 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20957</link><description>Rad Image viewer is an image viewer capable of
+displaying popular formats and camera raw format
+files.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; OSI Approved
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A slide show feature was added. Short cut keys
+were added. A minor bug in the feature for fitting
+to the screen was fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=gFvfdJ"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=gFvfdJ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20957"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227966/</guid><pubDate>Wed, 24 May 2006 13:05:23 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227966/</feedburner:origLink></item><item><title>Opera 9 Beta 2 (Beta branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20958</link><description>Opera is a full-featured Internet tool, most
+notably a fully standard conforming Web browser.
+Opera includes pop-up blocking, tabbed browsing,
+integrated searches, and advanced functions like a
+password manager, mouse gestures, native Scalable
+Vector Graphics (SVG) support, an email program,
+RSS newsfeeds, and IRC chat. It is designed to be
+fast and highly customizable.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Several display bugs were fixed. Several fixes for
+Web archives, including saving of XHTML documents,
+were implemented. Tab selection when exiting full
+screen mode was fixed. Temporary downloads are now
+cleared when deleting the cache. Stability with
+Java applets was improved. An SSL negotiation
+problem was fixed. Multi-tracker support was added
+to BitTorrent. Many improvements for Widgets were
+introduced. A system tray icon was added for Unix.
+International input via dead keys and IM was
+fixed. Duplicated messages in IMAP and re-download
+of feeds was fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=DPpA6J"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=DPpA6J" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20958"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227965/</guid><pubDate>Wed, 24 May 2006 13:00:33 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227965/</feedburner:origLink></item><item><title>Day planner 0.1.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20959</link><description>&lt;img src="http://images.freshmeat.net/screenshots/59629_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Day planner is a simple time management program.
+It is designed to help you easily manage your
+time. It can manage appointments, birthdays, and
+more. It makes sure you remember your appointments
+by popping up a dialog box reminding you about them.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A bug that caused the entire program to go
+insensitive if you clicked the edit button without
+having any event selected was fixed. Daemon errors
+are handled better. A bug where day planner would
+freeze if the daemon shut down while it was
+running was fixed. Localization was fixed. A
+Norwegian bokmål translation was added. The pop up
+dialogs is now placed on top of the main window.
+The notifier now gets the information from the
+daemon instead of getting it on the command-line,
+so that other users can't see information about
+other users on the system.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=01xXGn"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=01xXGn" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20959"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227963/</guid><pubDate>Wed, 24 May 2006 12:58:59 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227963/</feedburner:origLink></item><item><title>clapf 0.3.26 (Stable branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20960</link><description>clapf is a modular network filter for Postfix. It includes a statistical (inverse chi-square) antispam module, the blackhole feature, antivirus support (clamav, AVG Linux, avast!, Kaspersky, and Dr. Web), and CGI and command-line interfaces for easily training the token database. Users may manage their own spam quarantine. SURBL support is also included.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; zlib/libpng License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+SURBL support was added. User preferences are
+stored in an LDAP directory or a MySQL database.
+Users can manage their own preferences via CGI.
+The spam quarantine was redesigned. Users may
+manage their own spam and determine what to do
+with it: drop, move into the quarantine, or
+deliver it into their junk folder. Tokens are all
+lowercased. Invalid characters are replaced to see
+the message on the terminal.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=9pYMnR"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=9pYMnR" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20960"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227964/</guid><pubDate>Wed, 24 May 2006 12:56:57 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227964/</feedburner:origLink></item><item><title>GLobal Application Network 0.3.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20953</link><description>Glan is a toolkit for developing network GUI applications. It consists of an Universal Client Application and a Qt-based Application Server development platform for creating GUI oriented client-server applications. It allows the developer to just
+write code using the Qt programming style for the server side and forget about the client side.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Some small bugs were fixed. GSplitter was added.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=Ejxppa"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=Ejxppa" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20953"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227962/</guid><pubDate>Wed, 24 May 2006 12:39:47 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227962/</feedburner:origLink></item><item><title>Docvert 2.1.6 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20954</link><description>Docvert is Web service software that takes
+multiple word processor files (typically .doc) and
+converts them to Oasis OpenDocument v1.0 format,
+and then optionally to any XML/HTML format. The
+results are returned in a .zip file.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Conversion previews were added. You can now see
+the results and the unit tests on a preview page
+before download.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=ZGAYPR"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=ZGAYPR" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20954"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227961/</guid><pubDate>Wed, 24 May 2006 12:38:31 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227961/</feedburner:origLink></item><item><title>DB Solo 2.0.0 Beta 1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20955</link><description>&lt;img src="http://images.freshmeat.net/screenshots/52025_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+DB Solo is a powerful database development and management tool for developers and DBAs. It has an intuitive user interface that allows you to explore and manage your database objects as well as execute ad-hoc queries. It supports Oracle, MySQL, Sybase, DB2, Solid, PostgreSQL, and MS SQL Server. In addition to viewing and managing objects such as schemas, tables, indexes, views, tablespaces, users, roles, sessions, and stored procedures, you can view, edit, print, and export data from tables or the results of queries. You can also graphically view foreign key relationships.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Shareware
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A J2EE code generator was added, which can produce
+POJOs, EJB 3.0 annotated classes, DAOs, and
+Hibernate mapping files from existing tables.
+Support was added for SQL Server 2005, Sybase 15,
+Solid 4.5, and Intel-based Macs. The Explain Plan
+feature was added for DB2. Dozens of other
+features were added as well.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=RDqxqp"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=RDqxqp" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20955"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227960/</guid><pubDate>Wed, 24 May 2006 12:34:00 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227960/</feedburner:origLink></item><item><title>JGraph Layout Pro 1.3.0.2 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20956</link><description>&lt;img src="http://images.freshmeat.net/screenshots/53089_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+JGraph Layout Pro is a high performance graph
+layout library for JGraph that automatically
+positions your graph, diagram, or network in a
+visually pleasing manner. Layout Pro provides
+flexibility and a simple design, enabling you to
+use circular, tree, force-directed, and
+hierarchical layouts with ease. Example uses are
+organisational charts, workflow and process
+diagrams, call charts, network diagrams, UML
+tools, and more. It comes with its own
+documentation and an example applet.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License with Source
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+An issue in the hierarchical layout has been
+resolved where the layout was not positioning the
+widest rank first. This meant the layout was not
+always as compact as it might have been. Also,
+automatic determination of the roots of a layout
+has been changed to include isolated cells, those
+without any connected edges.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=bY82V3"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=bY82V3" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20956"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227959/</guid><pubDate>Wed, 24 May 2006 12:22:09 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227959/</feedburner:origLink></item><item><title>edtFTPj/PRO 1.2.8 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20951</link><description>edtFTPj/PRO is a Java library that performs secure file transfers. It supports FTPS (FTP over SSL), both explicit and implicit modes, and SFTP (FTP via SSH) All major FTP operations are supported, including both active and passive modes. It provides a progress monitor interface, allowing applications to receive progress updates for their file transfers. The library is built on the open source edtFTPj and shares its API. 
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License with Source
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The AES cipher was added to SSH/SFTP. Bugs that
+prevented correct interaction with Titan server
+and PSFTPd server were fixed. mput() methods now
+do not attempt to create remote directories if
+they exist. The timeout was fixed so it propagates
+correctly to active data sockets.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=aYqQG1"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=aYqQG1" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20951"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227958/</guid><pubDate>Wed, 24 May 2006 12:17:04 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227958/</feedburner:origLink></item><item><title>Linbox Rescue Server 20060518 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20952</link><description>&lt;img src="http://images.freshmeat.net/screenshots/36680_thumb.gif"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+The Linbox Rescue Server (LRS) is a tool to centralize hard disk images (like Ghost Enterprise Server), file backups, hardware and software inventory (with Windows, Linux, and Mac OS X agents), and remote access on a single server. It can be managed from any PC through a Web-based administration interface, and disk images can be restored using PXE boot or using a bootable CD or DVD. It supports Ext2/3, ReiserFS, XFS, JFS, and LVM v1/v2. 
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Some bugs related to static DHCP, the backup of
+LVM2 partitions, and WINS name lookups were fixed.
+Moreover, the inventory module should be fully
+compatible with Windows, Unix, and Mac OS X OCSng
+agents.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=WO9cau"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=WO9cau" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20952"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227956/</guid><pubDate>Wed, 24 May 2006 12:15:23 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227956/</feedburner:origLink></item><item><title>Sofia-SIP 1.11.8 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20948</link><description>Sofia-SIP is a SIP user agent library, compliant
+with the IETF RFC3261 specification. It can be
+used as a building block for SIP client software
+for uses such as VoIP, IM, and many other
+real-time and person-to-person communication
+services. The primary target platform is
+GNU/Linux. Sofia-SIP is based on a SIP stack
+developed at the Nokia Research Center.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Support for outbound and GRUU SIP protocol
+features has been added. A new library providing
+glib/gobject bindings and a mechanism to connect
+the SIP stack event loop to a glib event loop have
+been added to the package. The VC6/Win32 port has
+seen major updates, including better support for
+building DLLs, and better DNS support.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=9MbTvp"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=9MbTvp" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20948"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227954/</guid><pubDate>Wed, 24 May 2006 10:00:51 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227954/</feedburner:origLink></item><item><title>VoiceOne 0.4.0pre2 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20949</link><description>&lt;img src="http://images.freshmeat.net/screenshots/57850_thumb.gif"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+VoiceOne is an easy-to-use, Web-based GUI for the
+Asterisk PBX. It gives full control over PBX
+settings from the admin configuration panel. You
+can manage extensions, VoIP trunks, users' queues
+and rules sets, and dynamically create an IVR.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Audio files may now be deleted and renamed. All the bash scripts have been merged into a single file (vo-tools.sh). Some typographical errors were fixed, and directories were renamed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=0InOtr"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=0InOtr" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20949"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227953/</guid><pubDate>Wed, 24 May 2006 09:59:44 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227953/</feedburner:origLink></item><item><title>HTML Forms generation and validation 2006.05.24 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20950</link><description>&lt;img src="http://images.freshmeat.net/screenshots/4170_thumb.gif"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+HTML Forms generation and validation is a PHP
+class that generates HTML forms supporting many
+built-in validation types on server and client
+sides. It prevents security attacks by discarding
+spoofed values, has multiple submit protection,
+outputs HTML for fields displayed as fully
+accessible or in read-only mode, and has field
+value filtering and reformatting. It can be
+extended with custom input control plug-in
+classes. AJAX based form submission, automatic
+vertical layout renderer, Calendar date, CAPTCHA,
+Google Maps world location selection, and linked
+select plug-in controls are available.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; BSD License (original)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release introduces a new custom input plug-in
+that lets the user choose world location by
+pointing to it on a map presented with the Google
+Maps API. The custom input retrieves the latitude
+and longitude coordinates of the selected
+location. A new function was added to the main
+forms class to generate the necessary HTML code to
+insert in the forms page head section. This is
+necessary to support certain types of plug-ins
+that need to load additional JavaScript or define
+style sheets, meta and link tags in the head
+section.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=J6Uwca"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=J6Uwca" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20950"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227952/</guid><pubDate>Wed, 24 May 2006 09:58:11 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227952/</feedburner:origLink></item><item><title>neon 0.26.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20938</link><description>neon is an HTTP and WebDAV client library for Unix systems, with a C language API. It provides high-level interfaces to HTTP/1.1 and WebDAV methods, and a low-level interface to HTTP request/response handling, allowing new methods to be easily implemented.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release adds minor build fixes and a
+Simplified Chinese translation.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=vUataa"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=vUataa" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20938"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227951/</guid><pubDate>Wed, 24 May 2006 07:47:00 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227951/</feedburner:origLink></item><item><title>ShareToDo 1.0.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20939</link><description>&lt;img src="http://images.freshmeat.net/screenshots/60078_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+ShareToDo is a Web-based todo list application.
+Using ShareToDo, you can manage your todo list
+privately or share your todo list with others.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=8Jxspb"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=8Jxspb" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20939"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227950/</guid><pubDate>Wed, 24 May 2006 07:46:55 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227950/</feedburner:origLink></item><item><title>DbWrench 1.3.3 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20940</link><description>&lt;img src="http://images.freshmeat.net/screenshots/48557_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+DbWrench is multi-vendor, multi-platform database design 
+and synchronization software. Features include a syntax 
+highlighting SQL query editor, support for many of today's 
+most popular databases, a graphic entity relation diagram 
+(ERD) designer, and the ability to forward and reverse 
+engineer 
+databases. Its multi-vendor and multi-platform functionality 
+makes it ideal for heterogeneous database environments.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License with Free Trial
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The performance of database analysis during
+forward engineer script generation has been
+greatly improved. New table and foreign key glyph
+highlighting make locating and distinguishing
+selected glyphs in diagrams easier. Users now have
+the option to execute forward engineer scripts
+within a transaction. There have been other
+improvements in memory consumption, GUI
+performance, and HTML database documentation.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=sUhBr7"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=sUhBr7" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20940"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227949/</guid><pubDate>Wed, 24 May 2006 07:31:04 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227949/</feedburner:origLink></item><item><title>Oregano 0.50.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20941</link><description>Oregano is an application for schematic capture
+and simulation of electrical circuits. The actual
+simulation is performed by SPICE, which is
+required for simulation, but not necessary to run
+the application.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This version adds a new plot window with zoom and
+panning capabilities. The part properties dialog
+was reworked. Several bugs were fixed in the "flip
+and rotate" tools.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=ihFpGc"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=ihFpGc" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20941"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227947/</guid><pubDate>Wed, 24 May 2006 07:29:59 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227947/</feedburner:origLink></item><item><title>FEAR::API 0.486 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20942</link><description>FEAR::API is a tool that helps reduce the time you
+spend creating site scraping scripts and helps you
+do it in a much more elegant way. FEAR::API
+combines many strong and powerful features from
+various CPAN modules, such as LWP::UserAgent,
+WWW::Mechanize, Template::Extract, Encode,
+HTML::Parser, etc.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Perl License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A basic prefetching and document cache mechanism
+was added.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=1Q82Hj"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=1Q82Hj" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20942"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227948/</guid><pubDate>Wed, 24 May 2006 07:29:36 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227948/</feedburner:origLink></item><item><title>UnHash 0.4 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20943</link><description>UnHash is a program that tries to find a collision
+in a given hash. The hash can be either MD5 or
+SHA1, and the program will auto-detect which one
+is given. 
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The optimization flags for compile time were
+changed. The hash compare algorithm was modified,
+resulting in an 8% speed increase.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=I0YBDz"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=I0YBDz" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20943"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227945/</guid><pubDate>Wed, 24 May 2006 07:28:18 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227945/</feedburner:origLink></item><item><title>TAU 2.15.3 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20944</link><description>&lt;img src="http://images.freshmeat.net/screenshots/36906_thumb.gif"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+TAU (Tuning and Analysis Utilities) is a set of tools for analyzing the performance of C, C++, Fortran and Java programs. It collects much more information than is available through prof or gprof, the standard Unix utilities, including per-process, per-thread, and per-host information, inclusive and exclusive function times, profiling groups that allow you to organize data collection, access to hardware counters on some systems, per-class and per-instance information, the ability to separate data for each template instantiation, start/stop timers for profiling arbitrary sections of code, and support for collection of statistics on user-defined events.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Free To Use But Restricted
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+New features include support for automatic outer
+loop level instrumentation in Fortran, support for
+PDT's gfortran parser, tau_ompcheck for correcting
+OpenMP directives in Fortran, Derby and DB2
+support in PerfDMF, enhancements to Paraprof for
+phase based profiling, automatic instrumentation
+of pthread programs, a Java trace writer API
+library, Cray XT3 extensions, and an upgradetau
+utility for installing TAU.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=tc0z2f"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=tc0z2f" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20944"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227942/</guid><pubDate>Wed, 24 May 2006 07:27:35 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227942/</feedburner:origLink></item><item><title>X-Bone 1.0 (Embedded branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20945</link><description>&lt;img src="http://images.freshmeat.net/screenshots/11848_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+X-Bone dynamically deploys and manages Internet
+overlays to reduce their configuration effort and
+increase network component sharing. It discovers,
+configures, and monitors network resources to
+create overlays over existing IP networks. It uses
+two-layer IP-in-IP tunneled overlays and supports
+existing applications and unmodified routing,
+multicast, and DNS services in unmodified
+operating systems. X-Bone also support IPsec
+within overlays.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; BSD License (original)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This is an integrated distribution of FreeBSD 4.9
+with X-Bone 3.2, including utilities and
+dependencies installed and preconfigured.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=uDjMza"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=uDjMza" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20945"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227943/</guid><pubDate>Wed, 24 May 2006 07:27:07 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227943/</feedburner:origLink></item><item><title>RipOff CD Ripper 0.7 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20946</link><description>&lt;img src="http://images.freshmeat.net/screenshots/59977_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+RipOff is a GTK+ based CD ripper for Linux (and
+hopefully for other Unix systems once some testing
+and fixing have been done) that has a simple
+interface, CDDB lookups, and a plugin-based
+encoder architecture. It attempts to appeal to
+those users who want a non-GNOME dependent CD
+ripper with a simple interface, or users who just
+don't like the interfaces of the other GTK+ CD
+rippers.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+New features include a WAV output plugin, a
+LAME-based MP3 encoding plugin, and an improved
+ripping dialogue. The OGG Vorbis plugin now
+supports bitrate encoding.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=dQHMfS"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=dQHMfS" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20946"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227940/</guid><pubDate>Wed, 24 May 2006 07:25:04 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227940/</feedburner:origLink></item><item><title>ACE 5.5.1 (Development branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20947</link><description>The ADAPTIVE Communication Environment (ACE) is an object-oriented (OO) C++ framework that helps you develop and deploy high-performance networked applications faster and with less code to write and maintain. ACE is especially useful for systems that use network and/or inter-process communications and that take advantage of multithreading. While the ACE source code is free, that's not the only way you save money with ACE. ACE's wrappers and higher-level patterns help you develop your software quickly and portably, helping you to complete your projects on time and within budget.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; OSI Approved
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release is compliant with the CORBA 2.6
+specification. Support for attribute exceptions
+was added. Anonymous namespaces were added. The
+connection handler and transport lifetime code
+were cleaned up. Issues with handling connections
+after a write has failed were fixed. A priority
+inversion bug for real-time connections was fixed.
+A multicast interoperability bug was fixed. Visual
+C 7.1 compilation bugs for the Windows platform
+were fixed. A race condition in connector was
+fixed. Many other minor bugs were fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=cUn3NY"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=cUn3NY" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20947"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227938/</guid><pubDate>Wed, 24 May 2006 07:20:04 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227938/</feedburner:origLink></item><item><title>lustre 1.6.0-beta3 (Development branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20933</link><description>Lustre is a novel storage and filesystem architecture and implementation suitable for very large clusters. It is a next-generation cluster filesystem which can serve clusters with tens of thousands of nodes, petabytes of storage, move hundreds of GB/sec with state-of-the-art security and management infrastructure.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Stripe allocation was optimized to balance space
+availability and network resources.
+Interoperability with older versions of Lustre was
+improved.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=RyuGVV"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=RyuGVV" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20933"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227937/</guid><pubDate>Wed, 24 May 2006 07:17:56 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227937/</feedburner:origLink></item><item><title>QEMU-Puppy 1.0.9-1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20934</link><description>&lt;img src="http://images.freshmeat.net/screenshots/55732_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+QEMU-Puppy is an OS and a set of applications on a
+USB memory stick. This OS can be booted natively
+or on top of another already installed OS. Just
+borrow a PC, boot your own environment, and return
+the PC unaffected.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=6oe88U"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=6oe88U" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20934"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227936/</guid><pubDate>Wed, 24 May 2006 07:10:36 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227936/</feedburner:origLink></item><item><title>rTorrent 0.5.3 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20935</link><description>&lt;img src="http://images.freshmeat.net/screenshots/52767_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+rTorrent is a console-based BitTorrent client. It aims to be a 
+fully-featured and efficient client with the ability to run in the 
+background using screen. It supports fast-resume and 
+session management.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A bug that caused session torrents that were
+queued for hashing to cause an exception on load
+was fixed. A problem in which the command-line
+arguments' order was being randomized when
+checking for  the "-n" flag was fixed. Tracker
+requests no longer fail when the tracker sends a
+dictionary type for the "peers" field.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=HrX9Fx"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=HrX9Fx" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20935"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227934/</guid><pubDate>Wed, 24 May 2006 07:09:41 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227934/</feedburner:origLink></item><item><title>yahoo2mbox 0.21 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20936</link><description>yahoo2mbox retrieves the messages from Yahoo! Groups archive and stores them in a local file in mbox format.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Public Domain
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A bug that resulted in corrupted output file due
+to the presence of extra spaces in Yahoo! Web
+pages was fixed. The --x-yahoo option is turned on
+by default, since resuming doesn't always work
+properly without it.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=nm8iF9"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=nm8iF9" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20936"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227930/</guid><pubDate>Wed, 24 May 2006 06:53:53 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227930/</feedburner:origLink></item><item><title>Copper Project Manager 2006 (Corporate branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20937</link><description>&lt;img src="http://images.freshmeat.net/screenshots/34382_thumb.gif"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Copper is a leading Web-based project management
+and collaboration tool that allows teams to share
+information and files more effectively. It
+includes modules for clients, projects, tasks,
+contacts, files, and reports. It features a
+dynamic Flash/PHP draggable timeline, PDF
+invoicing, issue management, iCal/Mozilla Calendar
+syncing, and more.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License with Source
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The interface was refined by improving UI flow and
+hierarchy. A centralized language file is used.
+Task screens were consolidated. A new billing tab,
+a new Flash timeline, a new Springboard, a new
+multi-file upload feature, and a new calendar were
+added. New settings were added in admin. Minor
+tweaks were made throughout the software.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=0G0i2q"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=0G0i2q" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20937"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227929/</guid><pubDate>Wed, 24 May 2006 06:53:30 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227929/</feedburner:origLink></item><item><title>XScreenSaver 5.00 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20921</link><description>XScreenSaver is the standard screen saver
+collection shipped on most Linux and Unix systems
+running the X11 Window System. These screen savers
+also work on MacOS (X11 is not required). More
+than 200 screen savers are included.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; MIT/X Consortium License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+XScreenSaver now works natively on MacOS X (X11 is
+not required). New hacks include topblock and
+glschool. Improvements were made to image loading
+and to jigsaw, glslideshow, carousel, sonar,
+xmatrix, endgame, webcollage. Various API and
+command-line argument changes were made.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=dY14zM"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=dY14zM" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20921"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227928/</guid><pubDate>Wed, 24 May 2006 06:47:07 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227928/</feedburner:origLink></item><item><title>TaskFreak! 0.2.0 (Multi User branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20922</link><description>&lt;img src="http://images.freshmeat.net/screenshots/56472_64299_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+TaskFreak! is a Web-based task manager and todo list. It lets you organize tasks per project, priority, and deadline and context. It is easy to install and to use, and particular attention has been paid to the design and usability in order to improve the productivity by not spending too much time on the tool itself. It is compatible with PHP 4 and 5 and supports both mySQL and SQLite.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A new AJAX library is used: XAJAX. AJAX support
+has been dramatically improved. A printing version
+of the task list is now available. All known bugs
+have been fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=P2Gt0n"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=P2Gt0n" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20922"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227927/</guid><pubDate>Wed, 24 May 2006 06:47:01 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227927/</feedburner:origLink></item><item><title>Metasploit Framework 2.6 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20923</link><description>&lt;img src="http://images.freshmeat.net/screenshots/46155_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+The Metasploit Framework is a platform for developing, testing, and using exploit code.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Artistic License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release includes 43 more exploits, numerous
+bugfixes, improvements to the SMB/DCERPC layers,
+and a few cosmetic changes.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=6OQNtd"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=6OQNtd" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20923"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227925/</guid><pubDate>Wed, 24 May 2006 06:44:30 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227925/</feedburner:origLink></item><item><title>Linux Live 5.4.5 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20924</link><description>&lt;img src="http://images.freshmeat.net/screenshots/43728_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Linux Live is a set of bash scripts which allows users to 
+create their own live CD from any Linux distribution. 
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The previously announced noload cheatcode didn't
+work in many cases, so this release rewrites it.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=aAip1A"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=aAip1A" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20924"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227924/</guid><pubDate>Wed, 24 May 2006 06:42:49 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227924/</feedburner:origLink></item><item><title>SMS Server Tools 2.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20925</link><description>The SMS Server Tools (smstools) were made to send and receive SMS from one or many GSM modems. They include a send/receive daemon and some sample scripts to build an SMS email gateway and for logging into an SQL database. The daemon waits for files in an outgoing spool directory and sends them. It puts all received SMS in an incoming spool directory, and can call any external program for incoming or outgoing notification. This software support text messages in 7 and 16 bits (UCS2), as well as 8 bit binary messages.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Raw support of UDH in text messages was added. In
+binary messages, the UDH flag was not detected
+properly. This has been fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=iJQC8y"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=iJQC8y" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20925"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227923/</guid><pubDate>Wed, 24 May 2006 06:42:40 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227923/</feedburner:origLink></item><item><title>PhpWebGallery 1.6.0RC2 (Development branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20926</link><description>&lt;img src="http://images.freshmeat.net/screenshots/41879_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+PhpWebGallery is an image gallery with a very simple installation interface and administration panel. It features free or restricted access, user management, groups, access management for each category, multi-server support, user comments, HTML templates, virtual categories, multi-lingual support, an RSS notification feed, EXIF and IPTC support, multi-category support (each picture can belong to more than one category), compliance with W3C specifications, and simple external authentication.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=Wabr08"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=Wabr08" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20926"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227922/</guid><pubDate>Wed, 24 May 2006 06:41:25 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227922/</feedburner:origLink></item><item><title>IBM Generic Web Services Client Tool 1.0.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20927</link><description>IBM Generic Web Services Client is a lightweight
+multi-platform tool designed for testing existing
+Web services from an environment consisting of
+Apache, MySQL, PHP, and either Linux or Windows.
+The tool provides both direct and indirect
+(low-level) calls, using either the PHP5 SOAP
+extension or the NuSOAP package.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=u9mu4J"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=u9mu4J" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20927"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227919/</guid><pubDate>Wed, 24 May 2006 06:40:55 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227919/</feedburner:origLink></item><item><title>Contact Conductance Estimator 0.2 beta (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20928</link><description>&lt;img src="http://images.freshmeat.net/screenshots/60071_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Contact Conductance Estimator (CoCoE) is a program that estimates 
+the conductance (or resistance) between two surfaces in contact. It 
+is meant to be used by designers and analysts of physical systems 
+where heat transfer by means of contact is of importance.  CoCoE is 
+written in Perl, and uses a self-contained SQLite database and Tk for 
+the user interface.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+The ability to select unit systems was added,
+where appropriate. Units were added to the final
+result window. The "Go Back" button now works. "Go
+Back" has been replaced with "Exit" on the first
+window (Material A). A "Start Over" button was
+added to the final result window. A wrong
+resistance function for Stainless on the database
+was fixed. Some entries were added to the
+database. Required DLL files were added to the
+Win32 release, so now it works.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=AHnp2M"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=AHnp2M" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20928"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227906/</guid><pubDate>Wed, 24 May 2006 06:40:45 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227906/</feedburner:origLink></item><item><title>JExifViewer 1.0 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20929</link><description>&lt;img src="http://images.freshmeat.net/screenshots/60072_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+JExifViewer is a program for displaying and comparing EXIF 
+information stored in JPEG files created by digital cameras. It has an 
+image viewer in which you can rotate, flip, and zoom in on/out from 
+the selected image. You can also print an image.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=hTKrUs"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=hTKrUs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20929"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227914/</guid><pubDate>Wed, 24 May 2006 06:38:09 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227914/</feedburner:origLink></item><item><title>ScopServ-VoIP 1.2.16 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20930</link><description>&lt;img src="http://images.freshmeat.net/screenshots/54455_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+ScopServ-VoIP is a Web-based management interface
+(GUI) for the Asterisk system which can be
+accessed by any XHTML 1.0+ browser. It supports a
+lot of features like: multiple languages, multiple
+users, reporting tools, personal IVR, and an end
+user UI. It is available in SOHO, SMB,
+Professional, and ITSP editions.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License with Free Trial
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release adds paging and intercom
+functionality in the application, with auto-answer
+support. The Queue (ACD) Import script now runs as
+a daemon. A new monitoring trigger to call back an
+extension after a blackout has been added. The
+Sangoma (analog and digital) packages have been
+updated, and a new DKMS package has been added for
+Wanpipe drivers.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=LjOrE5"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=LjOrE5" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20930"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227902/</guid><pubDate>Wed, 24 May 2006 06:34:58 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227902/</feedburner:origLink></item><item><title>Sub Ether Release II (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20931</link><description>Sub Ether is a system that includes software to network computers 
+together over the Internet so that applications can share resources. 
+It is basically a grid computer over the Internet using volunteers' 
+spare CPU and disk resources. An example application written for Sub 
+Ether is sedistcc. It allows you to use distcc to use compilers on 
+machines running elsewhere on the Sub Ether network.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=4zCcMO"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=4zCcMO" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20931"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227904/</guid><pubDate>Wed, 24 May 2006 06:33:58 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227904/</feedburner:origLink></item><item><title>MyZipCodeDB 3.0.5 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20932</link><description>MyZipCodeDB is a MySQL ZIP code database with a
+PHP locator. It integrates with existing location
+tables to provide locater functionality on any
+table that contains a 5-digit ZIP code column.
+There is  no need to dump, reformat, and reload
+existing location data into a vendor-provided
+location table.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Other/Proprietary License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This version was split into three projects.  The first is ZIP Code Table, a set of basic ZIP code data for MySQL, containing over 42,000 ZIP codes. The second is ZIP Code Radius, a ZIP code table with PHP scripts to return all ZIP codes within a given distance from a specified ZIP code. The third is MyZipCodeDB, a full-featured locator that performs distance searches on custom (user-defined) location tables. New features include improved CSS support and the ability fo a user to query multiple location tables from a single form.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=RmmFOf"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=RmmFOf" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20932"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227898/</guid><pubDate>Wed, 24 May 2006 06:32:36 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227898/</feedburner:origLink></item><item><title>Ruby-BDD 0.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20920</link><description>&lt;img src="http://images.freshmeat.net/screenshots/60066_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+BDDs [bry86] (or more precisely ROBDDs) are efficient data 
+structures for representing a boolean formula. They are widely used 
+in formal verification, in particular symbolic model-checking. Ruby-
+BDD, based on Buddy, provides access to BDDs from Ruby, a powerful 
+and very easy to use object-oriented language. The purposes are 
+quick prototyping and education.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=vmp5Ah"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=vmp5Ah" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20920"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227892/</guid><pubDate>Wed, 24 May 2006 04:59:18 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227892/</feedburner:origLink></item><item><title>xulfaces 0.6 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20918</link><description>&lt;img src="http://images.freshmeat.net/screenshots/59662_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+xulfaces adds XUL power to Java via Java Server
+Faces with an XUL RenderKit, a custom XUL tag
+library, and Facelets support for increasing
+productivity.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release adds menuitem, menupopup, and menu components. It 
+adds toolbar, toolbox, and toolbarbutton components. It adds many 
+methods to the Javascript bridge to support asynchronous AJAX 
+requests. It adds a tour app to show basic xulfaces features (the 
+folder "tour" in webapps/sample). The xulfaces site has been updated 
+to add the link to the live demo.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=cEYyei"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=cEYyei" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20918"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227921/</guid><pubDate>Tue, 23 May 2006 21:54:09 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227921/</feedburner:origLink></item><item><title>Mathematical Backgrounds 1.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20919</link><description>Mathematical Backgrounds is a set of wallpapers about Mathematics.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Artistic License
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release adds one picture: the Gauss integral.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=LPxJKS"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=LPxJKS" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20919"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227920/</guid><pubDate>Tue, 23 May 2006 21:51:05 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227920/</feedburner:origLink></item><item><title>Caché Monitor 0.31 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20907</link><description>&lt;img src="http://images.freshmeat.net/screenshots/53889_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Caché Monitor is an SQL development tool for
+InterSystems database Caché. It features an
+advanced SQL query editor with SQL syntax
+highlighting, SQL code completion with context
+sensitive information about database objects (also
+known as Intellisense), an SQL history buffer for
+executed SQL commands, SQL code formatting,
+parallel queries, graphical SQL execution plan
+with index and selectivity information from every
+used index in the plan, SQL abbreviations, and
+much more.
+
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; Freeware
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+A quick filter function has been added to the table browser's context 
+menu. Date/time/timestamp are now editable. Many memory leaks 
+have been removed. Sub-nodes are created at first expansion.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=2m2OTc"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=2m2OTc" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20907"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227917/</guid><pubDate>Tue, 23 May 2006 21:48:55 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227917/</feedburner:origLink></item><item><title>Kexi 1.0.1 (Stable branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20908</link><description>&lt;img src="http://images.freshmeat.net/screenshots/45091_57922_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Kexi is an integrated environment for managing data. 
+It helps with creating database schemas and 
+inserting, querying, and processing data. It 
+integrates smoothly into KDE and KOffice, and is 
+designed to compete with Microsoft Access. It is supported under Linux and MS Windows.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Numerous fixes for bugs found after the 1.0 release.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=5crFwX"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=5crFwX" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20908"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227916/</guid><pubDate>Tue, 23 May 2006 21:47:10 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227916/</feedburner:origLink></item><item><title>BFilter 1.0.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20909</link><description>BFilter is a smart filtering HTTP proxy. Its primary purpose is removing banner ads. Unlike the majority of similar tools, it doesn't rely on a list of blocked URLs, but instead parses HTML on the fly, and detects ads using a set of heuristic rules. BFilter has a built-in Javascript engine that detects js-generated ads.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Several problems with the GTK GUI were fixed. Ads generated using 
+innerHTML are now detected. An infinite loop on platforms where 
+char is unsigned by default has been fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=37dlkT"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=37dlkT" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20909"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227915/</guid><pubDate>Tue, 23 May 2006 21:45:58 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227915/</feedburner:origLink></item><item><title>KAlarm 1.4.2 (KDE 3 branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20910</link><description>&lt;img src="http://images.freshmeat.net/screenshots/17132_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+KAlarm lets you configure personal messages to be displayed, commands to be executed, or emails to be sent, at scheduled times. It allows you to choose the message font and color, how often to repeat, whether to display an advance reminder, whether to speak the message or play a sound when it is displayed, and whether to cancel the alarm if it can't be triggered on time (e.g. if you are logged out at the time). As well as using the graphical interface to configure alarms, you can use the command line, and there is a DCOP interface for other applications.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release fixes reminder time not being saved in alarm templates.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=20RHGP"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=20RHGP" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20910"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227912/</guid><pubDate>Tue, 23 May 2006 21:44:50 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227912/</feedburner:origLink></item><item><title>MaraDNS 1.2.07.4 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20911</link><description>MaraDNS is a fully functional DNS server supporting authoritative DNS, recursive DNS, and caching DNS.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; BSD License (revised)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Authoritative NS delegation works again. This release compiles on 
+OpenBSD, and the binary RPM has been fixed. There are parser 
+improvements and documentation tweaks.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=ayRswH"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=ayRswH" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20911"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227911/</guid><pubDate>Tue, 23 May 2006 21:44:27 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227911/</feedburner:origLink></item><item><title>TinyCA 0.7.3 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20912</link><description>&lt;img src="http://images.freshmeat.net/screenshots/21588_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+TinyCA is a simple GUI written in Perl-Gtk to manage a small certification authority. It works as a frontend to OpenSSL. TinyCA lets you manage x509 certificates. It is possible to export data in PEM or DER format for use with servers, as PKCS#12 for use with clients, or as S/MIME certificates for use with email programs. It is also possible to import your own PKCS#10 requests and generate certificates from them. It also lets you create and manage SubCAs for more complex setups. The most important certificate extensions can be configured with the graphical frontend. English, German, Spanish, and Czech translations are included.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Detects certificate status correctly due to changes in OpenSSL 
+version detection. Fingerprint display has been fixed. "Friendly Name" 
+has been added to PKCS#12 options.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=5C7jqD"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=5C7jqD" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20912"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227910/</guid><pubDate>Tue, 23 May 2006 21:43:41 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227910/</feedburner:origLink></item><item><title>Zabbix 1.1beta11 (Development branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20913</link><description>&lt;img src="http://images.freshmeat.net/screenshots/13929_thumb.png"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Zabbix is software that monitors your servers and applications. Polling and trapping techniques are both supported. It has a simple, yet very flexible notification mechanism, and a Web interface that allows quick and easy administration. It can be used for logging, monitoring, capacity planning, availability and performance measurement, and providing the latest information to a helpdesk.  
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release introduces several critical fixes. Upgrading from previous 
+releases is highly recommended.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=j1j7vw"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=j1j7vw" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20913"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227909/</guid><pubDate>Tue, 23 May 2006 21:42:48 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227909/</feedburner:origLink></item><item><title>textTHaCAA 0.3 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20914</link><description>&lt;img src="http://images.freshmeat.net/screenshots/59997_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+textTHaCAA is a system for Telling Humans and
+Computers Apart Automatically that was inspired by
+CAPTCHA from Carnegie Mellon. Unlike image-based
+problems which can be difficult for people with
+certain disabilities, it is designed to be
+accessible to all users. It achieves this by
+asking simple randomly generated text-based
+multiple choice questions where the user has to
+select the members of one group from a list
+randomly selected from members of a series of
+different groups.
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU Lesser General Public License (LGPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release includes improved seeding of the random number 
+generators and increases the accessibility of the system. It now 
+passes the full range of accessibility checks that are performed by the 
+WAVE 3.0 Accessibility Tool. This release fixes session handling 
+issues, and there are various other minor optimisations and 
+improvements.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=bMJk9B"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=bMJk9B" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20914"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227908/</guid><pubDate>Tue, 23 May 2006 21:42:10 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227908/</feedburner:origLink></item><item><title>Plasmidb 0.4.2 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20915</link><description>&lt;img src="http://images.freshmeat.net/screenshots/50096_thumb.jpg"
+     align="right" alt="Screenshot" hspace="10" vspace="10"&gt;
+Plasmidb is a database management system for 
+manipulating, viewing, and storing molecular biology 
+information rapidly and easily. It is capable of 
+handling constructed plasmids, clones, standard 
+vectors, primers, antibiotics, enzymes, and more. 
+
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+This release has more integration of DNA to protein sequences; DNAs 
+are automatically translated to give protein sequences, and 
+ProtParam-type information is generated from it. It has a simplified 
+data model, more auto-calculated statistics, and improved BioPHP.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=e1EoTa"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=e1EoTa" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20915"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227907/</guid><pubDate>Tue, 23 May 2006 21:41:24 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227907/</feedburner:origLink></item><item><title>SiSU 0.40.1 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20916</link><description>SiSU (Structured information, Serialized Units) is a command line driven document creation and management framework. With minimal markup of a plaintext file, it produces: plain-text, HTML, XHTML, XML, ODF (OpenDocument), LaTeX, PDF, and populates an SQL database (PostgreSQL or SQLite) at an object/paragraph level for "atomic searches". Prepare documents using your text editor of choice, then use SiSU to generate the desired output formats. A vim syntax highlighting file for SiSU markup is provided.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=yqM82T"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=yqM82T" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20916"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227903/</guid><pubDate>Tue, 23 May 2006 21:39:58 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227903/</feedburner:origLink></item><item><title>Tablix 0.3.2 (Default branch)</title><link>http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?m=20917</link><description>Tablix is a powerful free software kernel for solving general timetabling problems. It uses a coarse-grained parallel genetic algorithm in combination with other techniques to construct sensible timetables from XML formatted problem descriptions. Tablix can run on a single host as well as on a heterogeneous parallel virtual machine using PVM3. The default installation will export finished timetables into XHTML 1.1 format ready for publishing on the Internet, or into a "comma separated values" format (CSV) that is suitable for import into a spreadsheet application and further processing. The kernel supports a very wide range of timetabling problems, from high school timetabling to barge scheduling. Several timetable constraints are already implemented in the default installation. Because of the kernel's modular design, it is easy to add custom timetable constraints and/or modify existing ones.
+&lt;hr /&gt;
+&lt;strong&gt;License:&lt;/strong&gt; GNU General Public License (GPL)
+&lt;hr /&gt;
+&lt;strong&gt;Changes:&lt;/strong&gt;&lt;br /&gt;
+Several bugs were fixed in the kernel and fitness modules. The kernel 
+API for updater functions has been changed due to a design error. A 
+new XHTML export module with better support for large timetables 
+has been added. Support for multi-week timetables has been 
+enhanced. Compile errors on the AMD-64 architecture have been 
+fixed.
+&lt;p&gt;&lt;a href="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?a=LflIzS"&gt;&lt;img src="http://rss.freshmeat.net/~a/freshmeat/feeds/fm-releases-global?i=LflIzS" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.freshmeat.net/freshmeat/feeds/fm-releases-global?g=20917"/&gt;</description><guid isPermaLink="false">http://freshmeat.net/releases/227901/</guid><pubDate>Tue, 23 May 2006 21:35:23 GMT</pubDate><feedburner:origLink>http://freshmeat.net/releases/227901/</feedburner:origLink></item></channel></rss>

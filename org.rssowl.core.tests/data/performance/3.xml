@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.osnews.com/files/recent.rdf">
+<title>OSNews</title>
+<link>http://www.osnews.com/</link>
+<description>Exploring the Future of Computing</description>
+
+   <image rdf:resource="http://www.osnews.com/images/osnews.gif" />
+    <items>
+      <rdf:Seq>
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14707" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14706" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14705" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14704" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14703" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14702" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14701" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14700" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14699" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14696" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14698" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14697" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14695" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14694" />
+<rdf:li resource="http://www.osnews.com/story.php?news_id=14693" />
+
+      </rdf:Seq>
+    </items>
+
+<textinput rdf:resource="http://www.osnews.com/search.php?search=" />
+
+</channel>
+
+ <image rdf:about="http://www.osnews.com/images/osnews.gif">
+    <title>OSNews.com</title>
+    <link>http://www.osnews.com/</link>
+    <url>http://www.osnews.com/images/osnews.gif</url>
+ </image>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14707">
+<title>Vista May Be Delayed by a Few Weeks; MS To Focus on 64bit</title>
+<link>http://www.osnews.com/story.php?news_id=14707</link>
+<description>At WinHEC, Microsoft CEO said Vista might be pushed back a few weeks, depending on the feedback received on Vista Beta 2. &quot;We think we are on track for shipping early in [2007],&quot; the Microsoft CEO said. &quot;We've talked about the month, but we get a chance to critically assess all of the feedback we'll get from this beta release then confirm or move [the launch date] a few weeks. We put the beta out today... So we should start getting feedback right away.&quot; Other than that, Bill Gates said Microsoft will focus its products on 64bit, starting later this year.</description>
+<dc:date>2006-05-24T18:58:43+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14706">
+<title>Intel Takes Wraps off of Woodcrest</title>
+<link>http://www.osnews.com/story.php?news_id=14706</link>
+<description>&quot;Earlier this month, Intel held a 'reviewer's workshop' event where they invited a number of representatives from hardware review sites to spend a few days benchmarking and learning about their new Core 2 microarchitecture. The star of the show was Woodcrest, which is the top end of the Core 2 lineup and will be replacing the last Netburst-based Xeon processor in June. The participating reviewers got to benchmark both Dempsey and Woodcrest, and the results of those benchmark runs are now available. In all, Woodcrest looks like a stellar performer that massively improves on its predecessors in both raw horsepower and power efficiency.&quot;</description>
+<dc:date>2006-05-24T18:58:09+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14705">
+<title>Review: SUSE 10.1</title>
+<link>http://www.osnews.com/story.php?news_id=14705</link>
+<description>Linux.com reviews SUSE 10.1, and concludes: &quot;With SUSE 10.1, Novell has embraced and extended its role as the leading desktop distribution. Given the amount of eye-popping eye candy and playtime 3-D effects available on this desktop, it's easy to forget that Novell is all about bringing Linux to the corporate - not the home - desktops. Yes, the money is all in the server market these days, but after the revolution Linux will inherit its rightful share of desktops, too.&quot;</description>
+<dc:date>2006-05-24T18:57:13+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14704">
+<title>Review: Office 2007 Beta 2</title>
+<link>http://www.osnews.com/story.php?news_id=14704</link>
+<description>&quot;eWEEK Labs' evaluation of Microsoft's Office 2007 Beta 2 unearthed compelling features and tools, and reminded us why enterprises continue to rely on the productivity suite. During tests of the second beta of Office 2007, we were impressed with the suite's collaboration features. In fact, we believe they will be the impetus for dedicated Windows shops to upgrade when Office 2007 ships later in 2006. The suitewide attention to collaboration will enable users and enterprises as a whole to work with information in new and more creative ways.&quot; My take: I've been testing Office 2007 for a while now, and all I can say is this: the new interface is excellent. Try it before judging it, please.</description>
+<dc:date>2006-05-24T18:56:32+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14703">
+<title>Belenix 0.4.3a Released</title>
+<link>http://www.osnews.com/story.php?news_id=14703</link>
+<description>Belenix 0.4.3a has been released. &quot;Another release of the LiveCD this month. The significant feature of this release is the inclusion of JDK 1.5 under the new Distributors License for Java as announced by Sun on May 16th in JavaOne. See the JDK Distros Project for more details.&quot;</description>
+<dc:date>2006-05-24T18:55:45+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14702">
+<title>Haiku Gets Sliding Window Tabs</title>
+<link>http://www.osnews.com/story.php?news_id=14702</link>
+<description>All BeOS users rejoice as Stephan Assmus ('Stippi') has recently checked in code which allows sliding window tabs for Haiku. Sliding tabs are undoubtably one of the most-loved features from BeOS. Sliding tabs allow multiple windows to be overlayed on top of each other, where individual windows can be accessed by selecting their appropriate tab. Sentimental value, almost.</description>
+<dc:date>2006-05-24T17:18:39+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14701">
+<title>OLPC Prototype in Action</title>
+<link>http://www.osnews.com/story.php?news_id=14701</link>
+<description>Christopher Blizzard, one of OLPC (One Laptop Per Child) developers posted on his blog the picture of the working OLPC prototype running a stripped Fedora Core 5 and the test board provided by Quanta Computers. More pictures available. This demonstration shows Fedora Core 5 running on a 500mhz processor, 128 MB of RAM, and a half a GB of flash storage.</description>
+<dc:date>2006-05-24T17:11:45+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14700">
+<title>Microsoft's Shared Source Contest</title>
+<link>http://www.osnews.com/story.php?news_id=14700</link>
+<description>Microsoft is sponsoring a contest that challenges developers to use Windows CE Shared Source in a real-world project, and offers Xbox 360 game console prizes. The grand prize includes the Xbox 360 console, a 34-inch HDTV, games, and accessories.</description>
+<dc:date>2006-05-24T17:07:16+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14699">
+<title>*Computers:  Too Easy to Use*</title>
+<link>http://www.osnews.com/story.php?news_id=14699</link>
+<description>It's conventional wisdom that computers need to be &quot;easier to use.&quot;  But do they?  More reliable, yes.  Easier to troubleshoot, yes.  But now that so many people use computers so much, I think there's something to be said for making them less easy-to-use and less intuitive. Read more on this exclusive OSNews article...</description>
+<dc:date>2006-05-24T04:08:11+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14696">
+<title>X.Org 11R7.1 Released</title>
+<link>http://www.osnews.com/story.php?news_id=14696</link>
+<description>&quot;Five months after release of X11R7.0, the modularized and autotooled release of the MIT Licensed X Window System source code, the X.Org Foundation has issued its first modular roll-up release. X11R7.1 supports Linux, Solaris, and  BSD systems. It includes important new  server and driver features for embedded systems, 64 bit platforms, enhanced operating system support,  and accelerated indirect GLX support. It most importantly demonstrates to developers and industry immediate benefits of modularization.&quot;</description>
+<dc:date>2006-05-23T21:46:56+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14698">
+<title>KOffice 1.5.1 Released</title>
+<link>http://www.osnews.com/story.php?news_id=14698</link>
+<description>&quot;The KOffice team today released the first bug-fix release in their 1.5 series. Critical bugs in KSpread, KWord and Krita were fixed, thanks to the helpful input of our users. We also have updated languages packs. You can read more about it in the press release and the full announcement. A full changelog is also available.&quot;</description>
+<dc:date>2006-05-23T21:44:05+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14697">
+<title>Samsung To Sell PCs with Flash Drives Next Month</title>
+<link>http://www.osnews.com/story.php?news_id=14697</link>
+<description>Samsung will early next month ship the first notebook PC and the first ultra-mobile PC fitted with 32GB of solid-state NAND Flash storage instead of a regular hard disk drive, the company announced today. The two machines - respectively, a version of Samsung's Q30 12.1in notebook and its Q1 UMPC - are both fitted with the 32GB SSD (Solid-state Disk) the company unveiled in March this year. Both PCs will go on sale in South Korea for KRW3.5m ($3700) and KRW2.3m ($2430), respectively.</description>
+<dc:date>2006-05-23T21:39:10+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14695">
+<title>Vista Beta 2 Released; Preparing for Public Release</title>
+<link>http://www.osnews.com/story.php?news_id=14695</link>
+<description>&quot;Windows Vista Build 5384 has been released to Tech Beta testers at Microsoft Connect. Build 5384 is the real deal: Microsoft Windows Vista Beta 2 Milestone Build! Contrary to public opinion and 'leaked' information, Windows Vista Beta 2 is not a mere recompile of Vista 5381.1 and it isn't 5381.4; Vista 5384 is Beta 2 and it's official! Microsoft has already launched the public download site for Vista Beta 2, but no more than that, only the site is live, but the build is not ready for download to non-techbeta testers yet.&quot; eWeek reviews the Beta (&quot;Windows Vista Beta 2 shows steady progress, but the new 3D Aero Glass user interface in particular still flakes out&quot;), and also has a slideshow.</description>
+<dc:date>2006-05-23T21:27:42+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14694">
+<title>Microsoft Demoes Windows Hypervisor</title>
+<link>http://www.osnews.com/story.php?news_id=14694</link>
+<description>During the Bill Gates keynote at WinHEC 2006 Microsoft demonstrated the new Windows Hypervisor (codename Viridian). In the demo two unique features for a virtualization platform were demoed: 4 virtual CPUs per virtual machine and live modification of virtual hardware while the virtual machine is powered on (i.e. adding a NIC or more virtual memory while the guest OS was still running).</description>
+<dc:date>2006-05-23T21:23:20+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.osnews.com/story.php?news_id=14693">
+<title>AMD Socket-AM2: Same Performance, Faster Memory, Lower Power</title>
+<link>http://www.osnews.com/story.php?news_id=14693</link>
+<description>AnandTech reviewed AMD's new socket-AM2 in its usual in-depth fasion, and concluded: &quot;And there you have it, quite possibly the most unimpressive launch from AMD (from a performance perspective), but given what we had already seen prior to today there shouldn't be any surprises. The introduction of the Athlon 64 FX-62 means that there is an even faster alternative for those looking to spend as much as possible on a desktop or workstation CPU, but the new 5000+ isn't really all that appealing, especially if you're a gamer.&quot;</description>
+<dc:date>2006-05-23T21:19:02+00:00</dc:date>
+</item>
+
+<textinput rdf:about="http://www.osnews.com/search.php?search=">
+<title>Search OSNews</title>
+<description>Search OSNews articles</description>
+<name>search</name>
+<link>http://www.osnews.com/search.php?search=</link>
+</textinput>
+
+</rdf:RDF>

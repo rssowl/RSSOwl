@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://wirelessunleashed.com/">
+<title>Wireless Unleashed</title>
+<link>http://wirelessunleashed.com/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2004-08-17T15:26:58-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.16" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://wirelessunleashed.com/archives/000388.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000338.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000331.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000330.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000324.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000321.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000317.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000316.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000306.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000305.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000304.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000302.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000289.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000294.html" />
+<rdf:li rdf:resource="http://wirelessunleashed.com/archives/000293.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://wirelessunleashed.com/archives/000388.html">
+<title>A delay in the white space proceeding?</title>
+<link>http://wirelessunleashed.com/archives/000388.html</link>
+<description><![CDATA[<p>The comment deadline is approaching in the important FCC <a href="http://wirelessunleashed.com/archives/000263.html#more">proceeding</a> to open up the un-used "white spaces" around broadcast licenses.  Last week, however, a technical advisory committee of the Institute for Electrical and Electronics Engineers (IEEE) filed a request for a six-month extension of the comment period.</p>
+
+<p>I filed an <a href="http://gullfoss2.fcc.gov/prod/ecfs/retrieve.cgi?native_or_pdf=pdf&id_document=6516287691">opposition</a>, as did Intel.</p>
+
+<p>A bit of extra time for technical analysis and industry negotiation isn't a terrible idea, given how hard it is to get things done over the summer months.  Half a year, however, seemed totally excessive.  There is momentum behind this proceeding, and interested parties are working on the comments they will file in about two weeks.  Putting off the comments until next year, when there will likely be a completely new FCC membership, risks derailing the whole proceeding.</p>]]></description>
+<dc:subject>Regulation</dc:subject>
+<dc:creator>Kevin</dc:creator>
+<dc:date>2004-08-17T15:26:58-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000338.html">
+<title>Whitepapers Now Available</title>
+<link>http://wirelessunleashed.com/archives/000338.html</link>
+<description><![CDATA[<p>We've posted some whitepapers written by the contributors to this site, providing various perspectives on unlicensed wireless.  You can find summaries (and a few older papers) in the <a href="http://www.wirelessunleashed.com/articles.html">articles</a> section.</p>
+
+<p>Clay Shirky, <a href="http://wirelessunleashed.com/papers/PublicGood.doc">The Possibility of Spectrum as a Public Good</a></p>
+
+<p>David Isenberg, <a href="http://wirelessunleashed.com/papers/FourScenarios.doc">Four Scenarios for the Future of the Network</a></p>
+
+<p>Andrew Odlyzko, <a href="http://wirelessunleashed.com/papers/TelecomDogmas.pdf">Telecom Dogmas and Spectrum Allocations</a></p>
+
+<p>Kevin Werbach, <a href="http://wirelessunleashed.com/papers/BeyondBroadcast.doc">Beyond Broadcast</a><br />
+</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Kevin</dc:creator>
+<dc:date>2004-07-01T14:02:51-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000331.html">
+<title>Sounds vaguely familiar</title>
+<link>http://wirelessunleashed.com/archives/000331.html</link>
+<description><![CDATA[<p>This is from a <a href="http://www.johnkerry.com/pdf/pr_2004_0624b.pdf">recent John Kerry white paper</a>:<blockquote><br />
+The Kerry plan will complete the transition to digital television, and accelerate the return of valuable spectrum that is currently being used for broadcasting the “analog” television signal, while ensuring that Americans continue to enjoy free, over-the-air television, including subsidies to ensure all Americans can make the transition. The plan will also provide shared access to unassigned TV channels where this will not interfere with television reception. </blockquote> Kerry's getting in front of this parade and waving the flag as if he's the leader.  But it's better than the silence of the current <strike>leadership</strike> administration.</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>David</dc:creator>
+<dc:date>2004-06-30T12:11:39-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000330.html">
+<title>FCC rules that landlords can&apos;t control uses of unlicensed spectrum</title>
+<link>http://wirelessunleashed.com/archives/000330.html</link>
+<description><![CDATA[<p>From <a href="http://www.computerweekly.com/articles/article.asp?liArticleID=131596&liArticleTypeID=1&liCategoryID=2&liChannelID=28&liFlavourID=1&sSearch=&nPage=1">Computer Weekly</a>:</p>
+
+<blockquote>Airlines won a key battle in their fight with airports over control of the Wi-Fi spectrum when the US Federal Communications Commission ruled that it has 'exclusive jurisdiction' over the use of unlicensed spectrum.
+
+<p>Airports such as Logan International in Boston, which is run by the Massachusetts Port Authority, contended they had the right to manage spectrum within their boundaries to eliminate interference.</p>
+
+<p>Massport and Denver International Airport have installed shared-use Wi-Fi networks offering paid public internet access, as well as access for the airlines.</p>
+
+<p>But the airport operators wanted to require the airlines to pay to use the networks for wireless bag scans, check-in systems and other applications.</blockquote></p>
+
+<p>Good news for the continued buildout of user-capitalized networks...</p>]]></description>
+<dc:subject>Regulation</dc:subject>
+<dc:creator>Clay</dc:creator>
+<dc:date>2004-06-28T22:27:31-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000324.html">
+<title>Innovative Wireless Architectures</title>
+<link>http://wirelessunleashed.com/archives/000324.html</link>
+<description><![CDATA[<p>In the near-term, say the next three years, I think wireless network architectures will yield some of the biggest technological surprises.  Absence of license will unleash constraints on licentious innovation.</p>
+
+<p>For example, Dewayne Hendricks just got back from Europe raving about this little open-source device called <a href="http://www.meshcube.org/meshwiki/">MeshCube</a>, a 5cm x 5cm x 7cm computer with <a href="http://www.meshcube.org/meshwiki/HardwareSpecs">lotsa gosintas and gosoutas</a>, both wired and (802.11) wireless, designed for roll-your-own multiple-access-point networks, for sale for 200 Euros as a kit or 240 Euros assembeled.  Dewayne has some reservations about the device, but not about the community that has self-organized around it.  Dewayne writes that not only does this community have momentum to build "viable wireless user provided telecommunications infrastructure, and deal with any problems that they encountered along the way."</p>
+
+<p>The 2.4 GHz learning experience -- each one teach one -- will not be lost when <1GHz unlicensed wireless arrives.  But the main action is in new network architectures, not spectrum.</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>David</dc:creator>
+<dc:date>2004-06-25T10:41:12-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000321.html">
+<title>Coming Changes in Broadcast Industry</title>
+<link>http://wirelessunleashed.com/archives/000321.html</link>
+<description><![CDATA[<p>The unspoken secret, the elephant in the room, of WirelessUnleashed is that broadcast as we know it is circling the drain.  In my humble opinion.  And more capable, more powerful Internet access will amplify that sucking sound.</p>
+
+<p><a href="http://doc.weblogs.com">Doc Searls</a> and <a href="http://www.buzzmachine.com">Jeff Jarvis</a> have been having a visionary dialog (blogalog?) about how post-broadcast TV and radio look.</p>
+
+<p>Doc <a href="http://doc.weblogs.com/2004/06/04#thinkOfItAsRadioSimplySydicated">says</a> that radio & tv stations should <blockquote>send out RSS notifications with every single program they put on. Hell, every advertisement too. Might even create some demand for appropriate messages. RSS can be really, really huge for the industry. It might make the damn industry not only interactive, but accountable. Meaning, for example, you can count, and account for, your listeners. If you're an NPR station, maybe you can get the listeners to buy the "content" that only 10% are paying for right now. </blockquote></p>
+
+<p>Doc has more to say <a href="http://doc.weblogs.com/2004/06/07#theKillerAppForRss">here</a>, and Jarvis takes it to the next level <a href="http://www.buzzmachine.com/archives/2004_06_09.html#007239">here</a>.</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>David</dc:creator>
+<dc:date>2004-06-21T11:17:01-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000317.html">
+<title>Killer apps with zero revenues</title>
+<link>http://wirelessunleashed.com/archives/000317.html</link>
+<description><![CDATA[<p>I agree completely with Clay Shirky (in the "Voice as the app killer" posting) that  voice revenues<br />
+are going to decline drastically.  Voice is the killer app, but that does not imply it is going to continue<br />
+generating bountiful revenues for long.  It will become just another application riding on top of a<br />
+broadband connection (wireless or wireline, mostly wireless).</p>
+
+<p>There will nothing unusual about this evolution.  Just think about email, which is still the "killer app"<br />
+of the Internet.  It comes for free with your Internet account, paid for by your subscription fee, and Yahoo and now also Google are eager to offer it to you totally for free.  But nobody dares neglect<br />
+email, and attempts are made constantly to enhance it.  And that is the main lesson for voice.<br />
+Service providers should not neglect opportunities to do more with it, for example by offering<br />
+higher quality voice and other associated services.</p>]]></description>
+<dc:subject>Technology</dc:subject>
+<dc:creator>Andrew</dc:creator>
+<dc:date>2004-06-18T21:11:48-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000316.html">
+<title>Mobile Services on Super-Hotspots</title>
+<link>http://wirelessunleashed.com/archives/000316.html</link>
+<description><![CDATA[<p>OK, so maybe this insight won't win any no-Bell prizes, but here goes:</p>
+
+<p>Not only would wireless services on unlicensed TV spectrum break the telco/cableco duopoly and cause prices for them to fall another notch, but they would host a new generation of mobile, or at least untethered, services, to be discovered.  </p>
+
+<p>And what do you call a hotspot that has a radius of a mile?  With a tip of the hat to the <a href="http://werblog.com">coiner</a> of the term "super-commons" and the instigator of "SuperNova," I suggest that "Super-Hotspot" works for me.</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>David</dc:creator>
+<dc:date>2004-06-18T16:13:33-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000306.html">
+<title>Voice as the app killer</title>
+<link>http://wirelessunleashed.com/archives/000306.html</link>
+<description><![CDATA[<p>I should have my head examined for writing about the economics of voice on a blog I share with Odlyzko (<a href="http://www.dtc.umn.edu/~odlyzko/doc/history.communications0.pdf">The history of communications and its implicatoins for the internet</a> is one of the best things ever written on internet economics), but I can't resist following up to when <a href="http://wirelessunleashed.com/archives/000294.html#more">Andrew says</a> "In the U.S., at least 70 percent of telecommunications revenues come from voice services (including cellular)" and "Voice is and will continue to be important not just because it is the traditional telecom cash cow."</p>
+
+<p>I think this overestimates the connection between the value of voice and voice revenues. Voice is clearly valuable, and that value is, as Andrew notes, much higher than netheads often understand. However, we are now at a point where that value actually <i>threatens</i> voice revenues. Voice has so much value, in fact, that people are putting it in products that have little or no relationship to the traditional phone, leading to potentially enormous displacement.</p>]]></description>
+<dc:subject>Society</dc:subject>
+<dc:creator>Clay</dc:creator>
+<dc:date>2004-06-16T11:52:13-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000305.html">
+<title>Short Summary of TV Spectrum Situation</title>
+<link>http://wirelessunleashed.com/archives/000305.html</link>
+<description><![CDATA[<p>This <a href="http://www.ntia.doc.gov/pubintadvcom/octmtg/tatalk.htm">one-page document from the NTIA</a> is excellent in its brevity and completeness.</p>]]></description>
+<dc:subject></dc:subject>
+<dc:creator>David</dc:creator>
+<dc:date>2004-06-09T09:02:12-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000304.html">
+<title>The State of the Debate</title>
+<link>http://wirelessunleashed.com/archives/000304.html</link>
+<description><![CDATA[<p>I just got back from the Aspen Institute's inaugural <a href="http://www.aspeninstitute.org/Programt3.asp?bid=1235">roundtable</a> on spectrum policy.  Aspen brings together heavy-hitters from industry, government, Wall Street, and academia to hash out important policy issues.  For the first time, spectrum was broken out separately from Aspen's broader communications policy program, recognizing its importance.</p>
+
+<p>The comparison with the Aspen workshop I participated in two years ago was striking.</p>]]></description>
+<dc:subject>Regulation</dc:subject>
+<dc:creator>Kevin</dc:creator>
+<dc:date>2004-06-09T07:15:34-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000302.html">
+<title>New America on the Transition to DTV</title>
+<link>http://wirelessunleashed.com/archives/000302.html</link>
+<description><![CDATA[<p>Mail from the New America Foundation's <a href="http://www.spectrumpolicy.org">Spectrum Policy group</a>:<br />
+<blockquote>This Wednesday, June 9th, the Senate Commerce Committee will convene a 9:30 AM hearing on "Completing the Digital Television Transition," (<a href="http://commerce.senate.gov/">http://commerce.senate.gov/</a>). The Committee will hear testimony from spectrum policy experts, including the New America Foundation's Michael Calabrese, who will present a plan using targeted, consumer subsidies to rapidly complete the DTV transition, while also generating tens of billions of dollars against the deficit with the swift return of analog broadcast spectrum.  <br />
+[...]<br />
+Building on the success of the nine-month Berlin, Germany DTV transition, the Issue Brief details how progressive consumer subsidies can quickly move the remaining 15% of U.S. households that only receive "over-the-air" broadcast TV to purchase inexpensive, set-top converter boxes to enable them to receive digital signals.  By tapping less than 2% of the expected revenues from the auction of analog broadcast spectrum to pay for the subsidy, the politically tricky DTV endgame can be accomplished by the end of 2007, freeing up valuable spectrum for wireless broadband services and establishing a much-needed trust fund for the future of public television. </blockquote><br />
+The proposal document is <a href="http://www.newamerica.net/Download_Docs/pdfs/Pub_File_1575_1.pdf">here</a> (PDF).</p>]]></description>
+<dc:subject>Regulation</dc:subject>
+<dc:creator>Clay</dc:creator>
+<dc:date>2004-06-08T17:24:46-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000289.html">
+<title>The Philosopher&apos;s Stone of Spectrum</title>
+<link>http://wirelessunleashed.com/archives/000289.html</link>
+<description><![CDATA[<p>The battle over increasing unlicensed wireless spectrum  is obviously more than just another FCC regulation. Most issues the FCC deals with, even contentious ones like limits on ownership, are changes within regulatory schemes. The proposal to move the maximum percentage of a market a media company could own from 35% to 45% took the idea of the ownership cap itself at face value, and involved a simple change of amount.</p>
+
+<p>Unlicensed spectrum is different. In addition to all the regulatory complexities, there is an enormous philosophical change being proposed here. Because of advances in wireless technology, what spectrum <i>is</i>, at least in a regulatory setting, has been transformed, and the FCC is being asked to ratify that transformation.</p>]]></description>
+<dc:subject>Regulation</dc:subject>
+<dc:creator>Clay</dc:creator>
+<dc:date>2004-06-08T15:45:28-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000294.html">
+<title>More Spectrum, But For What?</title>
+<link>http://wirelessunleashed.com/archives/000294.html</link>
+<description><![CDATA[<p>There is a crying need for reallocating spectrum from broadcast to two-way communication, and in general introducing a more rational and economically efficient spectrum management scheme.  But how will this newly freed-up spectrum be used?  We hear about all the innovative new services that will be created.  But the main use of the additional spectrum will be--voice!  (For quite a few years, anyway.)</p>]]></description>
+<dc:subject>Technology</dc:subject>
+<dc:creator>Andrew</dc:creator>
+<dc:date>2004-06-08T10:20:11-05:00</dc:date>
+</item>
+<item rdf:about="http://wirelessunleashed.com/archives/000293.html">
+<title>Abolish the FCC -- but for a different reason</title>
+<link>http://wirelessunleashed.com/archives/000293.html</link>
+<description><![CDATA[<p>Declan McCullagh's recent diatribe, <a href="http://zdnet.com.com/2100-1107-5227545.html">"Abolish the FCC"</a> is kind of right, but for some seriously wrong reasons.  Declan observes correctly that the FCC has been fumbling the UNE-P issue, bumbling around the edges of censorship with Stern punishment, and crumbling computer functionality with broadcast flags.  As Declan points out, the FCC is crimping the Constitution, cheating on its charter, overreaching it orders.  But he misses the fact that all of these briar patches are application-layer issues.  And in his resulting confusion, he erroneously looks to the physical layer -- the regulation of spectrum -- to "solve" app-layer problems.</p>
+
+<p>Further, Declan discredits himself by choosing a real estate metaphor for spectrum, suggesting that a 6 megahertz TV channel could be handled, literally, just like a piece of real estate.  So, he extends, <blockquote>What if disputes over spectrum arose? The answer is simple. Whoever owned the rights to that slice of virtual real estate would locate the illicit broadcaster, march into the local courthouse and get a restraining order to pull the plug on the transmitter. Trespass is hardly a new idea, and courts are well-equipped to deal with it. </blockquote>Simple?  Too simple.  Trespass and interference are not equivalent "crimes."  Trespass is a deliberate act.  <a href="http://www.salon.com/tech/feature/2003/03/12/spectrum/index.html">But interference is not -- it is a characteristic of a receiver.</a>  If an ultra-high-tech receiver in Chicago receives a channel from St. Louis, the St. Louis station owner is not trespassing on the property of the Chicago station owner.  There are just too many important cases where the real estate metaphor does not apply.  </p>
+
+<p>Also, the real estate metaphor is too limiting.  It was a better fit in 1934 when the prevailing technology could provide selectivity only by frequency.  But now we have listen-before-transmit, steerable directional antennas, dynamic power adjustment, frequency agility, multiple modulation techniques, addressable packets and packet relay.  It is short-sighted, downright wrong, to stuff all of these -- and future improvements -- into a real-estate model.</p>
+
+<p>Sure, the FCC is a bureaucratic agency that is executing poorly on its overly-diverse and expanding mission.  But if it is to be abolished, it should be abolished precisely because spectrum is NOT property.  When modern techniques like dynamic power adjustment and packet relay are used, spectrum can have properties of a commons -- a <a href="http://werbach.com/research/supercommons.pdf">super-commons</a> where there is no tragedy because there's enough for everybody.  If there's enough for everybody, the need to regulate who gets what diminishes and eventually disappears.  </p>
+
+<p>The question remains whether the low-level technology is operating properly.  So there's still a need for a Federal Device Commission.  Because the Internet architecture creates a clean separation between the physical medium and the application by interposing Internet Protocol between them, the Federal Device Commission would have a much simpler task.  It would regulate simply to provide unabridged freedom of speech and the press simply by regulating the well-specified physical-layer properties of devices.  </p>]]></description>
+<dc:subject>Regulation</dc:subject>
+<dc:creator>David</dc:creator>
+<dc:date>2004-06-08T09:21:54-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>

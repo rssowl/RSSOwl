@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rss version="0.92">
+  <channel>
+    <image>
+      <url>http://www.variety.com/graphics/variety_com_31hi.gif</url>
+      <title>Variety.com</title>
+      <link>http://www.variety.com/</link>
+      <width>135</width>
+      <height>31</height>
+    </image>
+    <title>Variety.com - Book Reviews</title>
+    <link>http://www.variety.com</link>
+    <description>The premier source of entertainment news. Turn to Variety.com for timely, credible articles, reviews and analysis of film, TV, music, theater, video, gaming and movie and television production -- information vital to your showbiz career.</description>
+    <language>en-us</language>
+    <copyright>Copyright 2006, Reed Business Information, a division of Reed Elsevier Inc.  For non-commercial use only.</copyright>
+    <managingEditor>webeditors@reedbusiness.com</managingEditor>
+    <webMaster>webeditors@reedbusiness.com</webMaster>
+    <item>
+      <title>In Character: Actors Acting</title>
+      <link>http://www.variety.com/review/VE1117930565?categoryid=1010&amp;cs=1&amp;nid=2582</link>
+      <description>Book Reviews: Designed to showcase thesps in the act, this coffee-table tome serves up one arresting photo after another. Photog Howard Schatz gave 100 film, stage and TV thesps, a scenario to emote, then started clicking away. Most, but not all, of the actors provide commentary on their acting approach to accompany the oft-striking photos of their faces in motion.</description>
+    </item>
+    <item>
+      <title>The Sundance Kids: How The Mavericks Took Back Hollywood</title>
+      <link>http://www.variety.com/review/VE1117930566?categoryid=1010&amp;cs=1&amp;nid=2582</link>
+      <description>Book Reviews: James Mottram&apos;s epic study focuses on the entirely acceptable notion that the generation of filmmakers who emerged in the wake of &quot;sex, lies &amp; videotape&quot; has since fostered a new Golden Age akin to the early &apos;70s triumphs of Altman, Coppola, Scorsese et al who made up the so-called &quot;New Hollywood.&quot;</description>
+    </item>
+    <item>
+      <title>Ava Gardner: Love Is Nothing</title>
+      <link>http://www.variety.com/review/VE1117930567?categoryid=1010&amp;cs=1&amp;nid=2582</link>
+      <description>Book Reviews: Ava Gardner packed a lot of living -- and loving -- into her 67 years, and Lee Server seems hell bent on chronicling every dalliance in excruciating detail. Relying heavily on fading memories of secondary players, the scribe paints a melancholy portrait of a sensual star undone by her passions.</description>
+    </item>
+  </channel>
+</rss>

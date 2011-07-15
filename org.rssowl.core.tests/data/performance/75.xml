@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="0.91">
+
+	<channel>
+		<title>Computerworld Firewalls News</title>
+		<link>http://www.computerworld.com</link>
+		<description>Computerworld.com's award-winning Web site offers IT pros continually updated news stories, as well as features, analysis pieces, opinions and research/resource materials on important technology issues. With a heavy focus on technology users, the site serves as a resource for IT professionals looking to improve business operations -- and their own careers -- by successfully deploying and managing technology.</description>
+		<language>en-us</language>
+		<pubDate>Thu, 04 May 2006 09:00:00 EST</pubDate>
+		<managingEditor>editor@computerworld.com (Computerworld Editor)</managingEditor> 
+		<webMaster>webmaster@computerworld.com (Web Master)</webMaster> 
+		<image>
+		<title>Computerworld.com</title>
+		<url>http://www.computerworld.com/rss/computerworld_logo_sm.gif</url>
+		<link>http://www.computerworld.com/</link>
+		<width>136</width> 
+		<height>22</height>
+		</image>
+	
+	
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.computerworld.com/Computerworld/Firewalls/News" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+		 <title>ATMs linked to IP networks vulnerable to threats, security firm says</title>
+			<link>http://feeds.computerworld.com/Computerworld/Firewalls/News?m=32</link>
+			<description>A white paper by security auditing firm Redspin says new vulnerabilities are being introduced in the ATM networking area as banks move the machines to IP networks.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?a=9AXNSm"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?i=9AXNSm" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Firewalls/News?g=32"/&gt;</description>
+			<pubDate>Thu, 04 May 2006 09:00:00 EST</pubDate>
+		<feedburner:origLink>http://www.computerworld.com/securitytopics/security/firewall/story/0,10801,111158,00.html?source=x591</feedburner:origLink></item>
+	
+		<item>
+		 <title>FireEye debuts with 'virtual-machine' security</title>
+			<link>http://feeds.computerworld.com/Computerworld/Firewalls/News?m=31</link>
+			<description>Start-up FireEye, debuting this week, has announced plans to ship a switch-based network-access control appliance next month that will let customers identify network-borne malware and attacks in order to quickly contain them.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?a=cc7GHw"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?i=cc7GHw" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Firewalls/News?g=31"/&gt;</description>
+			<pubDate>Tue, 02 May 2006 09:00:00 EST</pubDate>
+		<feedburner:origLink>http://www.computerworld.com/securitytopics/security/firewall/story/0,10801,111095,00.html?source=x591</feedburner:origLink></item>
+	
+		<item>
+		 <title>Network access control makes steady progress</title>
+			<link>http://feeds.computerworld.com/Computerworld/Firewalls/News?m=30</link>
+			<description>New developments from the Trusted Computing Group and pure-play vendors  could soon enable Network Access Control technology to find its place on enterprise networks.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?a=fO2IFz"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?i=fO2IFz" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Firewalls/News?g=30"/&gt;</description>
+			<pubDate>Mon, 01 May 2006 09:00:00 EST</pubDate>
+		<feedburner:origLink>http://www.computerworld.com/securitytopics/security/firewall/story/0,10801,111057,00.html?source=x591</feedburner:origLink></item>
+	
+		<item>
+		 <title>Smart software sorts 'good' and 'bad' data</title>
+			<link>http://feeds.computerworld.com/Computerworld/Firewalls/News?m=29</link>
+			<description>New security software developed by researchers at the University of Melbourne and Australian start-up IntelliGuard IT said to adapt to changes in network traffic and block breaches before they happen.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?a=XhRMSQ"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?i=XhRMSQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Firewalls/News?g=29"/&gt;</description>
+			<pubDate>Sun, 30 Apr 2006 09:00:00 EST</pubDate>
+		<feedburner:origLink>http://www.computerworld.com/securitytopics/security/firewall/story/0,10801,111039,00.html?source=x591</feedburner:origLink></item>
+	
+		<item>
+		 <title>N.Y. county enacts wireless security law</title>
+			<link>http://feeds.computerworld.com/Computerworld/Firewalls/News?m=28</link>
+			<description>Westchester County, N.Y., has enacted what is believed to be the countrys first wireless security law.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?a=mJhKnQ"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?i=mJhKnQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Firewalls/News?g=28"/&gt;</description>
+			<pubDate>Fri, 21 Apr 2006 09:00:00 EST</pubDate>
+		<feedburner:origLink>http://www.computerworld.com/securitytopics/security/firewall/story/0,10801,110762,00.html?source=x591</feedburner:origLink></item>
+	
+		<item>
+		 <title>WHITEPAPER: FREE 30-Day Trial of Spy Sweeper Enterprise</title>
+			<link>http://feeds.computerworld.com/Computerworld/Firewalls/News?m=27</link>
+			<description>Stop spyware from accessing your confidential data and customer records. Download a FREE trial of Webroots Spy Sweeper EnterpriseTM for 30 days with no obligation. It's helped thousands of leading enterprises eradicate spyware - now experience it yourself.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?a=UP9USj"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?i=UP9USj" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Firewalls/News?g=27"/&gt;</description>
+			<pubDate>Thu, 13 Apr 2006 09:00:00 EST</pubDate>
+		<feedburner:origLink>http://www.computerworld.com/securitytopics/security/firewall/story/0,10801,110483,00.html?source=x591</feedburner:origLink></item>
+	 <item>
+		<title>More Firewalls News...</title>
+		<link>http://feeds.computerworld.com/Computerworld/Firewalls/News?m=8</link>
+		<description>View more Firewalls news and analysis from Computerworld.com.
+&lt;p&gt;&lt;a href="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?a=godPxn"&gt;&lt;img src="http://feeds.computerworld.com/~a/Computerworld/Firewalls/News?i=godPxn" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://feeds.computerworld.com/Computerworld/Firewalls/News?g=8"/&gt;</description> 
+	<feedburner:origLink>http://www.computerworld.com/securitytopics/security/firewall/news/</feedburner:origLink></item>
+</channel>
+</rss><!-- SECTID: 82; 591 -->

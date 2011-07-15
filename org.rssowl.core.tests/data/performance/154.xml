@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Scientific American - Official RSS Feed</title>
+	<link>http://www.sciam.com/</link>
+	<image>
+		<url>http://www.sciam.com/media/logo/SAlogo_144px.gif</url>
+		<title>Scientific American.com</title>
+ 		<link>http://www.sciam.com/</link>
+		<width>144</width>
+		<height>45</height>
+	</image>
+	<description>Science news and technology updates from Scientific American</description>
+	<language>en-us</language>
+	<managingEditor>editors@sciam.com</managingEditor> 
+  	<dc:publisher>Scientific American</dc:publisher>
+	<copyright>Copyright 1996-2006 Scientific American</copyright>
+	<item>
+	<title>Scientific American Launches Podcast</title>
+	<link>http://www.sciam.com/podcast/index.cfm?ref=rss</link>
+	<description>In this first episode, Scientific American editor-in-chief John Rennie reflects on the Korean stem cell debacle; the National Inventors Hall of Fame announces this year's inductees; and evolution defender Eugenie Scott discusses the importance of the decision in the recent Dover evolution trial. Also: hear outtakes from the CSI show you're never going to see on TV.</description>
+	<author>Scientific American</author>
+	<dc:date>2006-02-08T10:30:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>News: Large Study Finds No Link between Marijuana and Lung Cancer</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa003&amp;articleID=0002491F-755F-1473-B55F83414B7F0000&amp;ref=rss</link>
+	<author>David Biello</author>
+	<dc:date>2006-05-24T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>News: Combo Vaccines Show Promise against Bird Flu</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa003&amp;articleID=000CD8A7-2A23-1472-AA2383414B7F0000&amp;ref=rss</link>
+	<author>David Biello</author>
+	<dc:date>2006-05-23T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>News: Diet Linked to Twin Births</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa003&amp;articleID=00094DF5-2CC5-1471-ACC583414B7F0000&amp;ref=rss</link>
+	<author>David Biello</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>News: Apes Able to Think Ahead</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa003&amp;articleID=000C4698-F1DE-146C-B1DE83414B7F0000&amp;ref=rss</link>
+	<author>David Biello</author>
+	<dc:date>2006-05-19T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>News: New Antibiotic Eliminates Superbugs</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa003&amp;articleID=0002E37D-944D-146B-944D83414B7F0000&amp;ref=rss</link>
+	<author>David Biello</author>
+	<dc:date>2006-05-18T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>In Focus: The End of the Everglades?</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa004&amp;articleID=000997CF-938F-146C-91AE83414B7F0000&amp;ref=rss</link>
+	<description>Supreme court case jeopardizes 90 percent of U.S. wetland</description>
+	<author>Sara Beardsley</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>In Focus: A New Robot Rolls, and a New Prize Is Set</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa004&amp;articleID=0002E17D-9EE6-1468-9E1583414B7F4945&amp;ref=rss</link>
+	<description>The quest to build autonomous vehicles for the battlefield continues</description>
+	<author>W. Wayt Gibbs</author>
+	<dc:date>2006-05-15T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Ask the Experts: What causes ringing in the ears?</title>
+	<link>http://www.sciam.com/askexpert_question.cfm?articleID=000CE7C9-F37F-146C-B1DE83414B7F0000&amp;ref=rss</link>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Feature Article: Dependable Software by Design</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=00020D04-CFD8-146C-8D8D83414B7F0000&amp;ref=rss</link>
+	<description>Powerful new analytical tools should help ensure the reliability of the huge computer programs that run banking, communications and other industrial systems</description>
+	<dc:subject>INFORMATION TECHNOLOGY</dc:subject>
+	<author>Daniel Jackson</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Feature Article: The Secrets of Supervolcanoes</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=0006E0BF-BB43-146C-BB4383414B7F0000&amp;ref=rss</link>
+	<description>Four times in the past, titanic upheavals in California and Wyoming have covered much of North America under two feet of volcanic ash. Tiny crystals offer clues about the world's most devastating eruptions</description>
+	<dc:subject>EARTH SCIENCE</dc:subject>
+	<author>Ilya N. Bindeman</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Insights: The Implicit Prejudice</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=0004B0F0-7813-146C-ADB783414B7F0000&amp;ref=rss</link>
+	<description>Are you an unconscious racist? Social psychologist Mahzarin Banaji can measure the unsettling truth</description>
+	<author>Sally Lehrman</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Technicalities: The Ultimate Blood Test</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=000B967F-A8AE-146C-A56D83414B7F0000&amp;ref=rss</link>
+	<description>A pricey way to determine health risks: 250 tests at once</description>
+	<author>Philip Yam</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Reviews: Favored by the Gods</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=00053BBA-AC55-146C-A56D83414B7F0000&amp;ref=rss</link>
+	<description>If you're happy and you know it ... read these three new books on the biological and cultural roots of humanity's pursuit of happiness.</description>
+	<author>George Johnson</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Skeptic: The Flipping Point</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=000B557A-71ED-146C-ADB783414B7F0000&amp;ref=rss</link>
+	<description>How one global-warming skeptic became a believer</description>
+	<author>Michael Shermer</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>SA Perspectives: How to Kill Synthetic Biology</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=000D6682-91AE-146C-91AE83414B7F0000&amp;ref=rss</link>
+	<description>How to kill synthetic biology</description>
+	<author>The Editors</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Anti Gravity: Up the Lazy Creek</title>
+	<link>http://www.sciam.com/article.cfm?chanID=sa006&amp;articleID=0007C0ED-6DB7-146C-ADB783414B7F0000&amp;ref=rss</link>
+	<description>Leadership at FEMA is outMoDeD</description>
+	<author>Steve Mirsky</author>
+	<dc:date>2006-05-22T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>NEW! BLOG: SciAm Observations</title>
+	<link>http://blog.sciam.com</link>
+	<description>Opinions, arguments and analyses from the editors of Scientific American 
+featuring John Rennie, Editor in Chief.</description>
+	<author></author>
+	<dc:date>2005-11-01T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Blog: Red Spot, Jr.</title>
+	<link>http://blog.sciam.com/index.php?title=red_spot_jr&amp;more=1&amp;c=1&amp;tb=1&amp;pb=1&amp;ref=rss</link>
+	<author>Michael Battaglia</author>
+	<dc:date>2006-05-23T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Blog: Dammed Impacts</title>
+	<link>http://blog.sciam.com/index.php?title=dammed_impacts&amp;more=1&amp;c=1&amp;tb=1&amp;pb=1&amp;ref=rss</link>
+	<author>David Biello</author>
+	<dc:date>2006-05-18T00:00:00-05:00</dc:date>
+	</item>
+	<item>
+	<title>Blog: Neanderthal Nuclear DNA Sequenced</title>
+	<link>http://blog.sciam.com/index.php?title=neandertal_nuclear_dna_sequenced&amp;more=1&amp;c=1&amp;tb=1&amp;pb=1&amp;ref=rss</link>
+	<author>Kate Wong</author>
+	<dc:date>2006-05-17T00:00:00-05:00</dc:date>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="http://slashdot.org/">
+<title>Slashdot</title>
+<link>http://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2006, OSTG - Open Source Technology Group, Inc.  All Rights Reserved.</dc:rights>
+<dc:date>2006-05-24T21:21:32+00:00</dc:date>
+<dc:publisher>OSTG</dc:publisher>
+<dc:creator>pater@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://books.slashdot.org/article.pl?sid=06/05/24/1439253&amp;from=rss" />
+  <rdf:li rdf:resource="http://slashdot.org/article.pl?sid=06/05/24/1745209&amp;from=rss" />
+  <rdf:li rdf:resource="http://games.slashdot.org/article.pl?sid=06/05/24/1854252&amp;from=rss" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/article.pl?sid=06/05/24/1729257&amp;from=rss" />
+  <rdf:li rdf:resource="http://games.slashdot.org/article.pl?sid=06/05/24/1514216&amp;from=rss" />
+  <rdf:li rdf:resource="http://science.slashdot.org/article.pl?sid=06/05/24/1555201&amp;from=rss" />
+  <rdf:li rdf:resource="http://developers.slashdot.org/article.pl?sid=06/05/24/1527227&amp;from=rss" />
+  <rdf:li rdf:resource="http://developers.slashdot.org/article.pl?sid=06/05/24/1338225&amp;from=rss" />
+  <rdf:li rdf:resource="http://slashdot.org/article.pl?sid=06/05/24/1326223&amp;from=rss" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/article.pl?sid=06/05/24/1210225&amp;from=rss" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://images.slashdot.org/topics/topicslashdot.gif" />
+<textinput rdf:resource="http://slashdot.org/search.pl" />
+</channel>
+
+<image rdf:about="http://images.slashdot.org/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>http://images.slashdot.org/topics/topicslashdot.gif</url>
+<link>http://slashdot.org/</link>
+</image>
+
+<item rdf:about="http://books.slashdot.org/article.pl?sid=06/05/24/1439253&amp;from=rss">
+<title>The Business of Software</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5647</link>
+<description>pankaj_kumar writes "The business of software usually gets tons of footage by the tech media covering its various facets: products, people, organizations, its economics, business models, technology trends and myriad other related things. So one would think that it would be difficult, if not impossible, to say something original. However, this collection of blog entries by noted blogger Eric Sink, founder of SourceGear, a vendor of source code control system, and developer of a Web browser at Spyglass that later came to become Internet Explorer, manages to do just that. He does so by focusing on workings of a lesser known niche in software business, that of privately held small ISVs, relating to his own personal experiences in a very engaging manner." Read the rest of Pankaj's review.
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=WrsNju"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=WrsNju" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5647"/&gt;</description>
+<dc:creator>samzenpus</dc:creator>
+<dc:date>2006-05-24T20:27:00+00:00</dc:date>
+<dc:subject>biz</dc:subject>
+<slash:department>sell-it</slash:department>
+<slash:section>books</slash:section>
+<slash:comments>11</slash:comments>
+<slash:hit_parade>11,11,8,7,1,0,0</slash:hit_parade>
+<feedburner:origLink>http://books.slashdot.org/article.pl?sid=06/05/24/1439253&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://slashdot.org/article.pl?sid=06/05/24/1745209&amp;from=rss">
+<title>Trolltech Going Public</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5646</link>
+<description>An anonymous reader writes "After 12 years in business, Trolltech, the company whose founders created KDE, has filed an application for listing on the Oslo Stock Exchange (OSE). From the article: 'The OSE reports receiving the application the following day, and says Trolltech is now subject to disclosure of information requirements. IPO rumors sprang up around Trolltech last Fall, when the company hired Juha Christensen and Tod Nielsen in September, and then added Benoit Schillings and Dr. Karsten Homann in October. The company said in January that it doubled its design wins, among other significant 2005 achievements', particularly in the arena of using Linux as OS to power mobile phones."
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=jVLea3"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=jVLea3" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5646"/&gt;</description>
+<dc:creator>ScuttleMonkey</dc:creator>
+<dc:date>2006-05-24T19:32:00+00:00</dc:date>
+<dc:subject>biz</dc:subject>
+<slash:department>make-a-mint-and-get-out</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>65</slash:comments>
+<slash:hit_parade>65,64,52,38,7,5,5</slash:hit_parade>
+<feedburner:origLink>http://slashdot.org/article.pl?sid=06/05/24/1745209&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://games.slashdot.org/article.pl?sid=06/05/24/1854252&amp;from=rss">
+<title>Sony May Try To Stop PS3 Game Resales</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5648</link>
+<description>Next Generation reports on Sony's hopes that it will be able to prevent the resale of PS3 games. The article argues that it is unlikely they'll succeed in this goal. From the article: "One expert in retail law told Next-Gen.Biz, 'Sony can theoretically sell a license to play the game, but the user would have to acknowledge acceptance of the license. You've seen this when you install software on a PC. I'm not sure that the license agreement is enforceable if the licensee doesn't agree to it. Also, even if the agreement is enforceable, it's hard to preclude subsequent sale of the disc. The consumer could theoretically agree that he doesn't own the right to transfer his license, but why couldn't he sell the medium that held the license (the disc)? Sony can't enforce the agreement against a third party, as it lacks privity with the third party.'"
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=KeUfwA"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=KeUfwA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5648"/&gt;</description>
+<dc:creator>Zonk</dc:creator>
+<dc:date>2006-05-24T19:09:00+00:00</dc:date>
+<dc:subject>ps2</dc:subject>
+<slash:department>because-we-can't-hate-them-enough</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>200</slash:comments>
+<slash:hit_parade>200,197,161,119,25,14,8</slash:hit_parade>
+<feedburner:origLink>http://games.slashdot.org/article.pl?sid=06/05/24/1854252&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://hardware.slashdot.org/article.pl?sid=06/05/24/1729257&amp;from=rss">
+<title>Soldiers Bond with Bomb-Defusing Robots</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5645</link>
+<description>hdtv writes "Reuters is running a story that talks about the emotional bonds that US soldiers develop with the robots in places like Iraq and Afghanistan. The company, most famous on the US market for its Roomba vacuum cleaner, provided '300 PackBot Tactical Mobile Robots deployed in Iraq and Afghanistan to open doors in urban combat, lay fiber-optic cable, defuse bombs and perform other hazardous duties previously done by humans alone.'"
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=4v2GHw"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=4v2GHw" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5645"/&gt;</description>
+<dc:creator>ScuttleMonkey</dc:creator>
+<dc:date>2006-05-24T18:43:00+00:00</dc:date>
+<dc:subject>robotics</dc:subject>
+<slash:department>friendly-neighborhood-sacrificial-robot</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>156</slash:comments>
+<slash:hit_parade>156,151,117,78,26,16,11</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/article.pl?sid=06/05/24/1729257&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://games.slashdot.org/article.pl?sid=06/05/24/1514216&amp;from=rss">
+<title>New Super Mario Bros. Review</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5644</link>
+<description>In the "everything old is new again" spirit of the 21st century, there have been many bad remakes, remixes, and 'reinvisionings'. The gaming industry is especially guilty, with endless sequels and a lack of imagination being oft-discussed elements at developer get-togethers. Despite all this, it does appear you can go home again. Nintendo has competently revived the series that made it a household name in the U.S., with New Super Mario Bros.. A classic 2D platformer with plenty of new tricks, Mario comes bounding to the DS with a focus on what he does best. New Super Mario Bros. is not going to make you rethink what is possible in a game; It's not going to make you cry or change your life. It will, however, make you smile. Read on for my impressions of the pudgy plumber's newest adventure.
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=HZSinP"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=HZSinP" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5644"/&gt;</description>
+<dc:creator>Zonk</dc:creator>
+<dc:date>2006-05-24T17:51:00+00:00</dc:date>
+<dc:subject>portablegames</dc:subject>
+<slash:department>found-the-secret-warp-zone-while-working-on-the-drain</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>163</slash:comments>
+<slash:hit_parade>163,154,129,89,27,18,10</slash:hit_parade>
+<feedburner:origLink>http://games.slashdot.org/article.pl?sid=06/05/24/1514216&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://science.slashdot.org/article.pl?sid=06/05/24/1555201&amp;from=rss">
+<title>Voyager 2 Detects Peculiar Solar System Edge</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5643</link>
+<description>ClickOnThis writes "CNN reports that Voyager 2 has detected evidence of the magnetic edge of the solar system (aka the heliopause) at 76 AU (1 AU = 93 million miles), much closer to the Sun than the location of 85 AU found by Voyager 1. From the article: 'This implies that the heliosphere, a spherical bubble of charged low-energy particles created by our Sun's solar wind, is irregularly shaped, bulging in the northern hemisphere and pressed inward in the south. [...] The researchers think that the heliosphere's asymmetry might be due to a weak interstellar magnetic field pressing inward on the southern hemisphere.'"
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=Yi7zQc"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=Yi7zQc" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5643"/&gt;</description>
+<dc:creator>ScuttleMonkey</dc:creator>
+<dc:date>2006-05-24T17:17:00+00:00</dc:date>
+<dc:subject>space</dc:subject>
+<slash:department>magnet-on-a-really-long-string</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>207</slash:comments>
+<slash:hit_parade>207,198,161,108,41,21,10</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/article.pl?sid=06/05/24/1555201&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://developers.slashdot.org/article.pl?sid=06/05/24/1527227&amp;from=rss">
+<title>Oracle Unveils New Open Source BerkeleyDB Release</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5642</link>
+<description>Mark Brunelli writes to tell us that Oracle has released the newest version of the open source Oracle BerkeleyDB Java Edition. From the article: "The new release of the Java embeddable database is the third to come out in three years and the first new version to come out of Sleepycat Software since Oracle purchased the open source stalwart back in February. Rex Wang, Oracle's vice president of embedded systems and a former vice president of marketing at Sleepycat, said the latest release lets Java developers take advantage of a new Persistence application programming interface (API) that provides greater flexibility and new performance optimizations that enable applications to run faster."
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=KcN6Cw"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=KcN6Cw" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5642"/&gt;</description>
+<dc:creator>ScuttleMonkey</dc:creator>
+<dc:date>2006-05-24T16:05:00+00:00</dc:date>
+<dc:subject>databases</dc:subject>
+<slash:department>time-for-first-impressions</slash:department>
+<slash:section>developers</slash:section>
+<slash:comments>80</slash:comments>
+<slash:hit_parade>80,73,59,49,17,6,5</slash:hit_parade>
+<feedburner:origLink>http://developers.slashdot.org/article.pl?sid=06/05/24/1527227&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://developers.slashdot.org/article.pl?sid=06/05/24/1338225&amp;from=rss">
+<title>The Curious Incident of Sun in the Night-Time</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5641</link>
+<description>Joe Barr writes "NewsForge is carrying a story by Richard Stallman which blasts Sun's recent Java move, claiming it is deceptive and self-serving, makes Java neither free nor even open source, and leaves him wondering why it has attracted so much attention."
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=mvp7HR"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=mvp7HR" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5641"/&gt;</description>
+<dc:creator>CmdrTaco</dc:creator>
+<dc:date>2006-05-24T14:57:00+00:00</dc:date>
+<dc:subject>java</dc:subject>
+<slash:department>stuff-to-read</slash:department>
+<slash:section>developers</slash:section>
+<slash:comments>284</slash:comments>
+<slash:hit_parade>284,276,228,185,40,23,16</slash:hit_parade>
+<feedburner:origLink>http://developers.slashdot.org/article.pl?sid=06/05/24/1338225&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://slashdot.org/article.pl?sid=06/05/24/1326223&amp;from=rss">
+<title>Vista Beta 2 has Major Problems</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5640</link>
+<description>WebHostingGuy writes "In a review by Gary Krackow from MSNBC who reviewed Vista Beta 2 over the last week he had very disappointing problems. "for me [it] was one of the worst operating system experiences that I've ever encountered." Built-in audio and wireless didn't work on his Levono laptop. It took four days to get the first installation."
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=sUnuUO"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=sUnuUO" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5640"/&gt;</description>
+<dc:creator>CmdrTaco</dc:creator>
+<dc:date>2006-05-24T13:55:00+00:00</dc:date>
+<dc:subject>microsoft</dc:subject>
+<slash:department>so-does-every-version-of-windows</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>568</slash:comments>
+<slash:hit_parade>568,556,470,310,86,47,31</slash:hit_parade>
+<feedburner:origLink>http://slashdot.org/article.pl?sid=06/05/24/1326223&amp;from=rss</feedburner:origLink></item>
+
+<item rdf:about="http://hardware.slashdot.org/article.pl?sid=06/05/24/1210225&amp;from=rss">
+<title>First Photos of MIT $100 Laptop</title>
+<link>http://rss.slashdot.org/Slashdot/slashdot?m=5637</link>
+<description>An anonymous reader noted that MITs $100 laptop was unveiled at the Seven Countries Task Force Meeting. It runs a special version of the Fedora linux and it comes with native wireless lan support. You can see the photo album, and you can pledge to buy one at triple price... in order to donate 2 of them to children.
+&lt;p&gt;&lt;a href="http://rss.slashdot.org/~a/Slashdot/slashdot?a=frbE85"&gt;&lt;img src="http://rss.slashdot.org/~a/Slashdot/slashdot?i=frbE85" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;&lt;img src="http://rss.slashdot.org/Slashdot/slashdot?g=5637"/&gt;</description>
+<dc:creator>CmdrTaco</dc:creator>
+<dc:date>2006-05-24T12:56:00+00:00</dc:date>
+<dc:subject>hardware</dc:subject>
+<slash:department>only-a-matter-of-time</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>563</slash:comments>
+<slash:hit_parade>563,547,453,301,71,42,35</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/article.pl?sid=06/05/24/1210225&amp;from=rss</feedburner:origLink></item>
+
+<textinput rdf:about="http://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>http://slashdot.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>

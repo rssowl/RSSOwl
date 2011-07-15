@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.spacefuture.com/">
+<title>Space Future Update</title>
+<link>http://www.spacefuture.com/</link>
+<description>What's New at Space Future</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2004, Space Future</dc:rights>
+<dc:date>2006-04-24T19:34+00:00</dc:date>
+<dc:publisher>webmaster@spacefuture.com</dc:publisher>
+<dc:creator>webmaster@spacefuture.com</dc:creator>
+<dc:subject>Space Tourism, Vehicles, Power and Habitat</dc:subject>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1997-01-01T00:00+00:00</syn:updateBase>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+    <rdf:li resource="http://dmoz.org/Recreation/Travel/Speciality/Space" />
+    <rdf:li resource="http://dmoz.org/Business/Industries/Manufacturing/Aerospace/Space" />
+  </rdf:Bag>
+</taxo:topics>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/why_implementing_the_space_option_is_necessary_for_society.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/the_potential_importance_of_passenger_space_travel_services.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/benefits_of_international_cooperation_in_a_low_equatorial_orbit_sps_pilot_plant_demonstrator_project.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/synergies_between_solar_power_supply_from_space_and_passenger_space_travel.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/spaceport_business_potential_markets_thru_2020.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/the_future_of_lunar_tourism.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/lessons_of_ascent_messages_for_industry_the_federal_government_and_spaceport_authorities.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/project_and_test_engineering_methodology.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/the_ascent_study_understanding_the_market_environment_for_the_follow_on_to_the_space_shuttle.shtml" />
+  <rdf:li rdf:resource="http://www.spacefuture.com/archive/space_tourism_market_demand_and_the_transportation_infrastructure.shtml" />
+ </rdf:Seq>
+</items>
+<textinput rdf:resource="http://www.spacefuture.com/search/search.cgi" />
+</channel>
+
+<item rdf:about="http://www.spacefuture.com/archive/why_implementing_the_space_option_is_necessary_for_society.shtml">
+<title>Why Implementing the Space Option Is Necessary for Society</title>
+<link>http://www.spacefuture.com/archive/why_implementing_the_space_option_is_necessary_for_society.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/the_potential_importance_of_passenger_space_travel_services.shtml">
+<title>The Potential Importance of Passenger Space Travel Services</title>
+<link>http://www.spacefuture.com/archive/the_potential_importance_of_passenger_space_travel_services.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/benefits_of_international_cooperation_in_a_low_equatorial_orbit_sps_pilot_plant_demonstrator_project.shtml">
+<title>Benefits of International Cooperation in a Low Equatorial Orbit SPS Pilot Plant Demonstrator Project</title>
+<link>http://www.spacefuture.com/archive/benefits_of_international_cooperation_in_a_low_equatorial_orbit_sps_pilot_plant_demonstrator_project.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/synergies_between_solar_power_supply_from_space_and_passenger_space_travel.shtml">
+<title>Synergies Between Solar Power Supply from Space and Passenger Space Travel</title>
+<link>http://www.spacefuture.com/archive/synergies_between_solar_power_supply_from_space_and_passenger_space_travel.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/spaceport_business_potential_markets_thru_2020.shtml">
+<title>Spaceport Business - Potential Markets Through 2020</title>
+<link>http://www.spacefuture.com/archive/spaceport_business_potential_markets_thru_2020.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/the_future_of_lunar_tourism.shtml">
+<title>The Future of Lunar Tourism</title>
+<link>http://www.spacefuture.com/archive/the_future_of_lunar_tourism.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/lessons_of_ascent_messages_for_industry_the_federal_government_and_spaceport_authorities.shtml">
+<title>Lessons of ASCENT - Messages for Industry, the Federal Government and Spaceport Authorities</title>
+<link>http://www.spacefuture.com/archive/lessons_of_ascent_messages_for_industry_the_federal_government_and_spaceport_authorities.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/project_and_test_engineering_methodology.shtml">
+<title>Project and Test Engineering Methodology</title>
+<link>http://www.spacefuture.com/archive/project_and_test_engineering_methodology.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/the_ascent_study_understanding_the_market_environment_for_the_follow_on_to_the_space_shuttle.shtml">
+<title>The ASCENT Study - Understanding the Market Environment for the Follow-on to the Space Shuttle</title>
+<link>http://www.spacefuture.com/archive/the_ascent_study_understanding_the_market_environment_for_the_follow_on_to_the_space_shuttle.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<item rdf:about="http://www.spacefuture.com/archive/space_tourism_market_demand_and_the_transportation_infrastructure.shtml">
+<title>Space Tourism Market Demand and the Transportation Infrastructure</title>
+<link>http://www.spacefuture.com/archive/space_tourism_market_demand_and_the_transportation_infrastructure.shtml</link>
+<description>From the Space Future Archive</description>
+<dc:language>en-us</dc:language>
+<dc:type>Archive Document</dc:type>
+<taxo:topics>
+  <rdf:Bag>
+    <rdf:li resource="http://dmoz.org/Science/Technology/Space" />
+  </rdf:Bag>
+</taxo:topics>
+</item>
+
+<textinput rdf:about="http://www.spacefuture.com/search/search.cgi">
+<title>Search Space Future</title>
+<description>
+        Enter the words you want to find. Case is not important. More advanced searches can
+        be done using AND, OR and NOT to combine terms, and parantheses to group them; for
+        example: space and (tourism or commerce). Use a wildcard to match partial words; for
+        example, space tour* matches space tourism, space tourists and space tours.
+    </description>
+<name>find</name>
+<link>http://www.spacefuture.com/search/search.cgi</link>
+</textinput>
+
+</rdf:RDF>

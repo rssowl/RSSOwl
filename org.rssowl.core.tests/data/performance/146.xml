@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+
+<channel>
+	
+	<title>Guardian Unlimited</title>
+	<link>http://www.guardian.co.uk</link>
+	<description>Intelligent news and comment throughout the day from The Guardian newspaper</description>
+	<language>en-us</language> 
+	<copyright>Guardian Unlimited, Guardian Newspapers Limited 2002</copyright>
+	
+    <image>
+        <title>Guardian Unlimited</title>
+        <url>http://image.guardian.co.uk/news/site/global/guardian_crumb.gif</url>
+        <link>http://www.guardian.co.uk</link>
+        <width>133</width>
+        <height>22</height>
+        <description>Intelligent news and comment throughout the day from The Guardian newspaper</description>
+      </image>		
+
+<item>
+	<title>
+	This RSS feed will shortly be removed 
+	</title>
+	<link>http://www.guardian.co.uk/webfeeds/</link>
+	<description>
+		Guardian Unlimited now provides a wider range of RSS feeds, including a new version of this feed.
+		Further information is available at http://www.guardian.co.uk/webfeeds/ .
+		This feed (the one you are currently reading) will stop being updated in a few weeks,
+		so we encourage all RSS subscribers to switch to the new feed(s) as soon as possible. 
+	</description>
+</item>
+
+
+	<item>
+		<title> 
+		School bill passes with less rebels  </title>
+			<link>http://www.guardian.co.uk/Education/policy/story/0,,1782190,00.html?=rss</link>			
+		
+			<description>Controversial education bill easily passes its third reading in the Commons tonight but Tony Blair is again forced to rely on opposition support after 46 Labour backbencher&apos;s rebelled.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Olmert: Israeli patience is limited  </title>
+			<link>http://www.guardian.co.uk/israel/Story/0,,1782185,00.html?=rss</link>			
+		
+			<description>Israel wants to work with Palestinians to seek peace but won&apos;t wait forever, PM tells US Congress.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Islamic charity target of anti-terror raids  </title>
+			<link>http://www.guardian.co.uk/terrorism/story/0,,1781844,00.html?=rss</link>			
+		
+			<description>UK:  Police sources say raids linked to alleged support for terrorist activities in Iraq.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Lords back &amp;#163;5m divorce payout  </title>
+			<link>http://www.guardian.co.uk/Politics/lords/story/0,,1782025,00.html?=rss</link>			
+		
+			<description>Law: &apos;Harvey Nichols wife&apos; entitled to &amp;#163;5m after break-up of three-year marriage to City fund manager.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Aziz testifies at Saddam trial  </title>
+			<link>http://www.guardian.co.uk/Iraq/Story/0,,1782079,00.html?=rss</link>			
+		
+			<description>World: Pyjama-clad former Iraqi foreign minister makes his first public appearance in three years.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Three injured in Istanbul airport fire  </title>
+			<link>http://www.guardian.co.uk/turkey/story/0,,1782138,00.html?=rss</link>			
+		
+			<description>Turkey:  Blaze sends smoke and flames 30 metres into the sky.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Reid apologises over wrong foreign prisoner figures  </title>
+			<link>http://www.guardian.co.uk/Politics/homeaffairs/story/0,,1782163,00.html?=rss</link>			
+		
+			<description>Politics: Home secretary apologises after figures he gave to MPs yesterday proved to be wrong. </description>
+		 </item>
+
+	<item>
+		<title> 
+		Iran nuclear talks continue  </title>
+			<link>http://www.guardian.co.uk/iran/story/0,,1782131,00.html?=rss</link>			
+		
+			<description>Iran: Officials from EU, US, China and Russia  meet in London to attempt to resolve Iran nuclear programme crisis.</description>
+		 </item>
+
+	<item>
+		<title> 
+		New MPC member &apos;openminded&apos; on rates  </title>
+			<link>http://www.guardian.co.uk/Business/story/0,,1782154,00.html?=rss</link>			
+		
+			<description>Business: Newest member of Bank&apos;s policy-making body is surprised at minimal impact of oil prices on inflation.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Wigan agree &amp;#163;8.5m Johnson fee  </title>
+			<link>http://www.guardian.co.uk/Football/News_Story/0,,1782117,00.html?=rss</link>			
+		
+			<description>Football: Crystal Palace accept bid for Andy Johnson, but keep door open for Everton and Bolton to match offer.</description>
+		 </item>
+
+	<item>
+		<title> 
+		&apos;Unhappy&apos; Shahbaz leaves Big Brother house  </title>
+			<link>http://www.guardian.co.uk/Media/site/story/0,,1781859,00.html?=rss</link>			
+		
+			<description>Media:  Big Brother contestant who threatened to kill himself on air has left the house.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Super-casino shortlist unveiled  </title>
+			<link>http://www.guardian.co.uk/gambling/story/0,,1782069,00.html?=rss</link>			
+		
+			<description>Gambling: Four cities in the running to host Britain&apos;s first Las Vegas-style super-casino.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Herceptin &apos;to get UK licence&apos;  </title>
+			<link>http://www.guardian.co.uk/Society/health/story/0,,1782043,00.html?=rss</link>			
+		
+			<description>Society: Breast cancer drug to get UK licence for use in early stages of disease, manufacturer Roche says.</description>
+		 </item>
+
+	<item>
+		<title> 
+		Tories attack pensions reforms   </title>
+			<link>http://www.guardian.co.uk/Money/money.guardian.co.uk/pensionswhitepaper/story/0,,1782097,00.html?=rss</link>			
+		
+			<description>Money: Workers will pay thousands each year for benefit that will be abolished under reforms, Conservatives claim. </description>
+		 </item>
+
+	<item>
+		<title> 
+		Carberry sentenced to two-month jail term  </title>
+			<link>http://www.guardian.co.uk/Sport/horseracing/story/0,,1782058,00.html?=rss</link>			
+		
+			<description>Horse racing: A prank on a plane will cost leading National Hunt jockey two months in prison unless he wins appeal.</description>
+		 </item>
+ </channel>
+</rss>
+

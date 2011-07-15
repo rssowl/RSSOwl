@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rss [<!ENTITY % HTMLlat1 PUBLIC "-//W3C//ENTITIES Latin 1 for XHTML//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">]>
+<rss version="2.0" xml:base="http://www.linuxjournal.com">
+<channel>
+ <title>Linux Journal -  </title>
+ <link>http://www.linuxjournal.com</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Localizing the Broadband Battle</title>
+ <link>http://www.linuxjournal.com/node/1000043</link>
+ <description>&lt;p&gt;&lt;i&gt;If &amp;quot;all politics is local&amp;quot;, as Tip O&#039;Niell famously said, can&#039;t we say the same about all business? If so, maybe we should start walking our Net Neutrality talk on our own main streets.&lt;/i&gt;&lt;/p&gt;
+</description>
+ <pubDate>Wed, 24 May 2006 12:11:38 -0700</pubDate>
+</item>
+<item>
+ <title>Welcome to my blog</title>
+ <link>http://www.linuxjournal.com/node/1000042</link>
+ <description>&lt;p&gt;I have a lot of things to say in this new blog, but I am currently neck deep in finishing up my work on the Ultimate Linux Box issue.  I hope to get back here later today to post something on the AM2, since the embargo on the NDA (non-disclosure agreement) has expired today.  You&#039;ll have to wait for the details, but let me summarize my take on the AM2 in these words:  Drink lots of liquids before you attempt to read my writeup, because you&#039;re going to lose a lot of drool.&lt;/p&gt;
+</description>
+ <pubDate>Tue, 23 May 2006 08:57:40 -0700</pubDate>
+</item>
+<item>
+ <title>Hide and Go Seek with Writer Content</title>
+ <link>http://www.linuxjournal.com/article/9053</link>
+ <description>By using Writer&#039;s hide functions, you no longer need to worry about multiple versions of a document remaining in sync.</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/4">HOWTOs</category>
+ <pubDate>Sat, 20 May 2006 12:29:43 -0700</pubDate>
+</item>
+<item>
+ <title>Linux System Administration in the New ERA</title>
+ <link>http://www.linuxjournal.com/node/1000041</link>
+ <description>&lt;p&gt;The success of Mozilla&#039;s Firefox and Openoffice.org&#039;s productivity suite has breathed life into people&#039;s aspirations about Desktop Linux. As a result, the vast majority of articles published today focus there and ignore the strides made on the Linux server. Unlike the Linux server of the past, today&#039;s version supports rocket science and its gains far exceed those of the Desktop.&lt;/p&gt;
+</description>
+ <pubDate>Thu, 18 May 2006 17:55:25 -0700</pubDate>
+</item>
+<item>
+ <title>Linux System Administration: Growth in the Enterprise</title>
+ <link>http://www.linuxjournal.com/node/1000040</link>
+ <description>&lt;p&gt;Trout Creek, Montana hardly seems like a place one would expect to find a center of Linux learning. Please do not tell Mike Weber of  SpiderTools that. He spent the last six years developing one of the more robust training facilities in the US.&lt;/p&gt;
+</description>
+ <pubDate>Wed, 10 May 2006 08:50:52 -0700</pubDate>
+</item>
+<item>
+ <title>The Gemcutter&#039;s Workshop</title>
+ <link>http://www.linuxjournal.com/article/9031</link>
+ <description>An update on all the excitement in the Ruby community.</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/2">Software</category>
+ <pubDate>Tue,  9 May 2006 15:46:22 -0700</pubDate>
+</item>
+<item>
+ <title>The Rise of Independent Media</title>
+ <link>http://www.linuxjournal.com/node/1000039</link>
+ <description>&lt;p&gt;&lt;i&gt;What would happen if anybody could produce radio or TV programming as easily as they consume it?&lt;br&gt;What would happen if the natural limits to broadcasting went away?&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Those questions only had sci-fi answers when I was a kid growing up in New Jersey, not far from the swamps later re-labeled &amp;quot;meadowlands&amp;quot;, after a sports complex by that name appeared alongside Paterson Plank Road. In those days, back in the &#039;50s and early &#039;60s, I was like any other geeky kid who had better luck with science than with girls: I sublimated unrequited desire for the latter into preoccupation with the former. Since computers were still captive to big business, big defense and big science, I focused my science obsessions on big radio.&lt;/p&gt;
+</description>
+ <pubDate>Tue,  9 May 2006 11:19:53 -0700</pubDate>
+</item>
+<item>
+ <title>The 2006 LinuxWorld Canada Show</title>
+ <link>http://www.linuxjournal.com/article/9028</link>
+ <description>Colin McGregor reports on the highlights and details of this year&#039;s LinuxWorld Canada.</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/6">Industry News</category>
+ <pubDate>Sun,  7 May 2006 21:39:10 -0700</pubDate>
+</item>
+<item>
+ <title>Yellow Dog Linux Installs Neatly on an iPod</title>
+ <link>http://www.linuxjournal.com/article/8903</link>
+ <description>&lt;p&gt;Forget bootable USB pendrives and use an iPod to boot Linux on a Mac.&lt;/p&gt;</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/2">Software</category>
+ <pubDate>Mon,  1 May 2006 00:00:00 -0700</pubDate>
+</item>
+<item>
+ <title>Linux Journal Contents #146, June 2006</title>
+ <link>http://www.linuxjournal.com/issue/146</link>
+ <description>Linux Journal Contents #146, June 2006</description>
+ <pubDate>Fri, 28 Apr 2006 22:36:52 -0700</pubDate>
+</item>
+<item>
+ <title>Linuxfest Northwest 2006</title>
+ <link>http://www.linuxjournal.com/article/9026</link>
+ <description>Today&#039;s the last day to sign up for the Pogo Linux  bus  to this weekend&#039;s show.</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/9">Community</category>
+ <pubDate>Thu, 27 Apr 2006 00:00:00 -0700</pubDate>
+</item>
+<item>
+ <title>Theoretical Hacking for IT Managers</title>
+ <link>http://www.linuxjournal.com/article/8987</link>
+ <description>When it comes to network security, yes, balance between paranoia and apathy is possible.</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/7">Security</category>
+ <pubDate>Wed, 26 Apr 2006 00:00:00 -0700</pubDate>
+</item>
+<item>
+ <title>Test It Out: Early Access Book Programs</title>
+ <link>http://www.linuxjournal.com/article/9010</link>
+ <description>Get involved now that publishers are  beginning to take advantage of beta testing cycles for their  upcoming titles.</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/3">Reviews</category>
+ <pubDate>Tue, 25 Apr 2006 00:00:00 -0700</pubDate>
+</item>
+<item>
+ <title>Beyond Plug &amp; Play</title>
+ <link>http://www.linuxjournal.com/node/1000038</link>
+ <description>&lt;p&gt;Monday at 1:00, at the &lt;a href=&quot;http://www.desktoplinuxsummit.org/&quot;&gt;Desktop Linux Summit&lt;/a&gt; in San Diego, I&#039;m going to give a talk titled &lt;a href=&quot;http://www.desktoplinuxsummit.org/agenda.php#dsearls&quot;&gt;Plug &#039;n&#039; Pray to Plug &#039;n&#039; Play: What&#039;s it Going to Take&lt;/a&gt;? If you follow that last link, you&#039;ll find no details. I&#039;m looking for &lt;i&gt;your&lt;/i&gt; help with that, fellow Linux Journalistas.&lt;/p&gt;</description>
+ <pubDate>Sat, 22 Apr 2006 09:02:54 -0700</pubDate>
+</item>
+<item>
+ <title>Linux System Administration: First Tasks</title>
+ <link>http://www.linuxjournal.com/article/9003</link>
+ <description>You might know how to write code or build applications, but do you know what is required of a good Linux sysadmin?</description>
+ <category domain="http://www.linuxjournal.com/taxonomy/term/8">SysAdmin</category>
+ <pubDate>Fri, 21 Apr 2006 00:00:00 -0700</pubDate>
+</item>
+</channel>
+</rss>

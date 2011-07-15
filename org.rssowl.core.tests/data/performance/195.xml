@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed version="0.3" xmlns="http://purl.org/atom/ns#">
+  <title>RSSOwl - A Java RSS / RDF / Atom Newsreader - May the owl be with you</title>
+  <link rel="alternate" type="text/html" href="http://www.rssowl.org"/>
+  <modified>2005-08-29T21:14:20+02:00</modified>
+  <entry>
+    <title>Back from JAX</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/196" />
+    <id>http://www.rssowl.org/node/196</id>
+    <issued>2006-05-17T18:23:58+02:00</issued>
+    <modified>2006-05-17T18:43:18+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[It was a very exciting week in Wiesbaden with a lot of cool Sessions and Workshops. I took some pictures with my new camera, however most of the pictures really have a bad quality:
+<ul>
+<li><a href="images/jax1.jpg?PHPSESSID=b8ca520838d334bab661d4f8444c1b22">Exhibition Hall</a></li>
+<li><a href="images/jax2.jpg?PHPSESSID=b8ca520838d334bab661d4f8444c1b22">Keynote</a></li>
+<li><a href="images/jax3.jpg?PHPSESSID=b8ca520838d334bab661d4f8444c1b22">Eclipse Nite</a></li>
+<li><a href="images/jax4.jpg?PHPSESSID=b8ca520838d334bab661d4f8444c1b22">JAX Party</a></li>
+</ul>
+<br>
+Ben
+]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>This Week @ JAX</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/195" />
+    <id>http://www.rssowl.org/node/195</id>
+    <issued>2006-05-09T08:46:47+02:00</issued>
+    <modified>2006-05-09T08:53:23+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[This week I am attending the Java conference <a href="http://www.jax.de">Jax</a> in Wiesbaden. With the Eclipse Forum, a small EclipseCon is taking place here with some interesting talks and workshops. I am looking forward for this evenings Eclipse Night and will post some more news about what is happening here over the week.
+<br><br>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Linux RPMs are online</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/193" />
+    <id>http://www.rssowl.org/node/193</id>
+    <issued>2006-04-29T20:37:49+02:00</issued>
+    <modified>2006-04-29T20:38:30+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[Thanks to Kay, the RPMs for RSSOwl 1.2.1 on Linux 32 and 64 Bit are now online as well and available from <a href="http://www.rssowl.org/download">here</a>.
+<br/><br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>RSSOwl 1.2.1 released</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/192" />
+    <id>http://www.rssowl.org/node/192</id>
+    <issued>2006-04-23T16:34:48+02:00</issued>
+    <modified>2006-04-23T16:47:29+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[The RSSOwl development team is happy to announce a fresh new version.<br/> 
+Check out some of the cool new features:
+<ul>
+	<li>Drag and drop <b>reordering</b> for tabs</li>
+	<li>Open Feeds of a Folder in seperate tabs with one click</li>
+	<li>Improved <b>Look and Feel</b></li>
+	<li>Favorites remember unread News even after a restart</li>
+	<li>Shipped as <b>universal binary</b> on Mac supporting both PPC and Intel</li>
+	<li>A lot of Bugfixes</li>
+</ul>
+<b>Download for:</b> <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_1_win32.exe?download">Windows</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_1_linux_bin.tar.gz?download">Linux</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_1_linux_64_bin.tar.gz?download">Linux 64Bit</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_1_mac_bin.tar.gz?download">Mac</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_1_solaris_bin.tar.gz?download">Solaris</a>
+<br/><br/>
+May the owl be with you,<br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Post to del.icio.us from RSSOwl</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/191" />
+    <id>http://www.rssowl.org/node/191</id>
+    <issued>2006-04-09T11:02:54+02:00</issued>
+    <modified>2006-04-09T11:04:57+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[There is an interesting tutorial on how to setup RSSOwl to easily post to del.icio.us using the "Blog News" command. Find it <a href="http://www.programwitch.com/main.asp?xP=BlogLink&xM=1&xY=1604">here</a>.
+
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Article on RSSOwl in german Java Magazin</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/190" />
+    <id>http://www.rssowl.org/node/190</id>
+    <issued>2006-03-08T22:11:04+01:00</issued>
+    <modified>2006-03-08T22:15:15+01:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[I wrote an article about RSSOwl for the popular german <a href="http://www.javamagazin.de/">Java Magazin</a>. It was added to this months issue and the article is even featured on the front page.
+<br><br>
+More information is available <a href="http://www.javamagazin.de/itr/ausgaben/psecom,id,305,nodeid,20.html">here</a>.
+<br><br>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>RSSOwl on Mac Intel</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/187" />
+    <id>http://www.rssowl.org/node/187</id>
+    <issued>2006-02-05T11:41:02+01:00</issued>
+    <modified>2006-02-05T12:12:34+01:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[Now that Macs on Intel CPU are available, we plan to release upcoming RSSOwl 1.2.1 with <a href="http://en.wikipedia.org/wiki/Universal_binary">universal binaries</a>. So with that version all Mac users should be able to run RSSOwl both on Mac with Intel and PowerPC, using the same application bundle.
+
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>RSSOwl and Fedora Core 5</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/186" />
+    <id>http://www.rssowl.org/node/186</id>
+    <issued>2006-01-19T08:35:50+01:00</issued>
+    <modified>2006-01-19T08:38:41+01:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[Thanks to <a href="http://spindazzle.org/green/">Anthony Green</a>, RSSOwl 1.2 is now part of Fedora Extras. Fedora Core is a linux distribution currently available as a test-version for the upcoming makjor release 5. Once FC 5 is out, I will post more details on how to obtain RSSOwl from Fedora Extras.
+<br /><br />
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>False spyware warning on rssowl.exe *update*</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/184" />
+    <id>http://www.rssowl.org/node/184</id>
+    <issued>2005-12-02T15:23:42+01:00</issued>
+    <modified>2005-12-06T08:47:42+01:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[Some users informed me about the fact that Kaspersky recently detects rssowl.exe as 
+<b>Hoax.Win32.SpyWare</b>. This is of course wrong and I already informed them. If you receive the same virus warning from any other anti-virus product, please leave a comment.<br/><br/>
+<b>Update</b>: The issue is resolved!<br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Mac version fixed and Linux RPMs released</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/183" />
+    <id>http://www.rssowl.org/node/183</id>
+    <issued>2005-11-09T14:40:14+01:00</issued>
+    <modified>2005-11-09T15:11:27+01:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[Good news, the <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_mac_bin.tar.gz?download">Mac version</a> was updated and should no longer crash when managing favorites. <br/><br/>
+The RPMs for Linux 32 and 64 Bit are released today as well, thanks Kay!<br/><br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>RSSOwl 1.2 released</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/182" />
+    <id>http://www.rssowl.org/node/182</id>
+    <issued>2005-11-06T17:20:52+01:00</issued>
+    <modified>2006-02-19T13:57:31+01:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[The RSSOwl development team is happy to announce the next big step in RSSOwl's development.<br/> Check out
+some of the cool new features:
+<ul>
+	<li>Fully <b>customizable Toolbar</b> with new elements like 'History'</li>
+	<li>New <b>Search Scopes</b> allow for more detailed searches</li>
+	<li>Cool new look for the HTML Export of News</li>
+	<li><b>Quick-Filter</b> added to Preferences Dialog to quickly find settings</li>
+	<li>Switch on <b>'Linked Mode'</b> to update selection in your Favorites automatically</li>
+<li>Improved Feed-Search and Feed-Discovery</li>
+	<li>Support for <b>Atom 1.0 Format</b></li>
+<li>A lot of <b>Bugfixes</b></li>
+</ul>
+<b>Download for:</b> <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_win32.exe?download">Windows</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_linux_bin.tar.gz?download">Linux</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_linux_64_bin.tar.gz?download">Linux 64Bit</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_mac_bin.tar.gz?download">Mac</a> | <a href="http://prdownloads.sourceforge.net/rssowl/rssowl_1_2_solaris_bin.tar.gz?download">Solaris</a>
+<br/><br/>
+May the owl be with you,<br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Illustration for Dutch computer magazine</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/181" />
+    <id>http://www.rssowl.org/node/181</id>
+    <issued>2005-10-17T12:26:08+02:00</issued>
+    <modified>2005-10-17T12:32:01+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[Just received an awesome illustration <a href="http://www.sevensheaven.nl/">Metin Seven</a> has done for a dutch computer magazine:
+
+<p style="width:200px; background-color: #FEFEFE; padding: 4px; border: 1px solid #BBB;">
+<a href="images/rssowl_by_sevensheaven.png?PHPSESSID=b8ca520838d334bab661d4f8444c1b22">
+<img src="images/rssowl_seven_small.png" width="200" height="200" alt="RSSOwl by sevensheaven.nl" />
+</a>
+</p>
+Thanks for this cool Owl!<br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Suggest feeds to be added to Samples in RSSOwl 1.2</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/179" />
+    <id>http://www.rssowl.org/node/179</id>
+    <issued>2005-10-06T12:12:58+02:00</issued>
+    <modified>2005-10-06T12:18:12+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[Again it is your chance to suggest newsfeeds which are not yet part of the Samples in RSSOwl. Your suggestions will be added into the Samples list of upcoming RSSOwl 1.2.<br/><br/>
+<b>Requirement: </b>Interesting and active Feeds in English<br/><br/>
+Simply leave a comment with a URL or send it to me via mail.<br/><br/>Thanks.<br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Help us finish translations for RSSOwl 1.2</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/177" />
+    <id>http://www.rssowl.org/node/177</id>
+    <issued>2005-09-20T01:44:52+02:00</issued>
+    <modified>2005-09-27T12:53:37+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[We are still looking for people helping us finishing the existing translation by translating the terms that where added during development of 1.2 (~ 20 items).
+<br/><br/>
+<b>Required Languages:</b>
+<ul>
+<li>none</li>
+</ul>
+If you speak one of these, please <a href="http://www.rssowl.org/contact">contact</a> me.<br/>
+Thanks,<br/>
+Ben]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Call for Tester *update*</title>
+    <link rel="alternate" type="text/html" href="http://www.rssowl.org/node/175" />
+    <id>http://www.rssowl.org/node/175</id>
+    <issued>2005-08-28T22:18:34+02:00</issued>
+    <modified>2005-08-29T21:14:20+02:00</modified>
+    <content type="text/html" mode="escaped"><![CDATA[We are looking for more people interested in testing RSSOwl preview-releases on Windows, Linux, Mac or Solaris.<br/><br/>
+If you are interested, <a href="http://www.rssowl.org/contact">contact</a> me and I will invite you to the internal Tester-Mailing-List.
+<br /><br />
+<b>Update</b>: Thanks for the big feedback I am getting! Of course all existing testers of previous versions will be informed about new preview-releases as well!]]></content>
+    <author>
+      <name>bpasero</name>
+    </author>
+  </entry>
+</feed>

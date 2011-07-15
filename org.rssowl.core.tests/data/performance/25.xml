@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="http://www.nbc11.com/css/4025676/style.css" type="text/css"?>
+
+<!-- This is a data file meant to be read by an RSS reader. See http://www.nbc11.com/rss/index.html for more information. -->
+<rss xmlns:ibsys="http://www.ibsys.com/rss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd">
+<ibsys:annotation>This is a data file meant to be read by an RSS reader. See http://www.nbc11.com/rss/index.html for more information.</ibsys:annotation>
+<title>NBC11.com - Health</title>
+<description>Health</description>
+<category>Health</category>
+<link>http://www.nbc11.com/health/index.html?rss=bay&amp;psp=health</link>
+<language>en-us</language>
+<copyright>Copyright 2006, Internet Broadcasting Systems, Inc</copyright>
+<itunes:summary>Health</itunes:summary>
+<itunes:author>NBC11.com</itunes:author>
+<itunes:category>Health</itunes:category>
+<ttl>60</ttl>
+<item>
+<title>U.N. Can't Find Source Of Family's Bird Flu</title>
+<link>http://www.nbc11.com/health/9266606/detail.html?rss=bay&amp;psp=health</link>
+<description>An infected family may be an important development in the avian flu battle.</description>
+<pubDate>Wed, 24 May 2006 10:04:42 PDT</pubDate>
+</item>
+<item>
+<title>Beauty Buzzwords May Lack Meaning</title>
+<link>http://www.nbc11.com/health/9261128/detail.html?rss=bay&amp;psp=health</link>
+<description>A dermatologist helps uncover the meanings behind cosmetic descriptions.</description>
+<pubDate>Tue, 23 May 2006 10:54:33 PDT</pubDate>
+</item>
+<item>
+<title>Radical Experimental Asthma Treatment Zaps Airways</title>
+<link>http://www.nbc11.com/health/9258720/detail.html?rss=bay&amp;psp=health</link>
+<description>Doctors are testing an experimental asthma treatment that actually burns off muscle tissue blocking air passages.</description>
+<pubDate>Tue, 23 May 2006 04:59:16 PDT</pubDate>
+</item>
+<item>
+<title>Poor Teens More Likely To Be Overweight</title>
+<link>http://www.nbc11.com/health/9260036/detail.html?rss=bay&amp;psp=health</link>
+<description>A study indicates that skipping breakfast may actually lead to weight problems.</description>
+<pubDate>Tue, 23 May 2006 13:02:10 PDT</pubDate>
+</item>
+</channel>
+</rss>

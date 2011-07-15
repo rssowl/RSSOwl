@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+ <!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+             "http://my.netscape.com/publish/formats/rss-0.91.dtd" >
+  <rss version="0.91">
+    <channel>
+        <title>KDE Dot News</title>
+        <language>en</language>
+        <link>http://dot.kde.org/</link>
+        <description>KDE Dot News: KDE News on the Dot.</description>
+        <image>
+           <title>KDE Dot News</title>
+           <url>http://www.kde.org/dot/Images/kdedotnews_88x31.gif</url>
+           <link>http://dot.kde.org/</link>
+           </image>
+        <item>
+           <title>KOffice 1.5.1 Released</title>
+           <link>http://dot.kde.org/1148340172/</link>
+           </item>
+        <item>
+           <title>KDE e.V. Quarterly Report Q1 2006 Published</title>
+           <link>http://dot.kde.org/1148285073/</link>
+           </item>
+        <item>
+           <title>KDE Commit-Digest for 21st May 2006</title>
+           <link>http://dot.kde.org/1148239094/</link>
+           </item>
+        <item>
+           <title>OpenSync: Synching on the Free Desktop</title>
+           <link>http://dot.kde.org/1148063569/</link>
+           </item>
+        <item>
+           <title>People Behind KDE: José Nuno Coelho Sanarra Pires</title>
+           <link>http://dot.kde.org/1148058641/</link>
+           </item>
+        <item>
+           <title>KDE Joins ODF Alliance</title>
+           <link>http://dot.kde.org/1148043309/</link>
+           </item>
+        <item>
+           <title>KDE Multimedia Meeting in the Netherlands</title>
+           <link>http://dot.kde.org/1148004529/</link>
+           </item>
+        <item>
+           <title>amaroK 1.4: Rediscover More of Your Music</title>
+           <link>http://dot.kde.org/1147903679/</link>
+           </item>
+        <item>
+           <title>KDE Desktop Hosting Service</title>
+           <link>http://dot.kde.org/1147800161/</link>
+           </item>
+        <item>
+           <title>KDE and Business: AEI Interview</title>
+           <link>http://dot.kde.org/1147698188/</link>
+           </item>
+        </channel>
+    </rss>

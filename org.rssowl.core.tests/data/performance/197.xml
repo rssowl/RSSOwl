@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+   <rss version="2.0">
+   <channel>
+ 	  <title>NYT &gt; Sports</title>
+		<link>http://www.nytimes.com/pages/sports/index.html?partner=rssuserland</link>
+		<description></description>
+		<copyright>Copyright 2006 The New York Times Company</copyright>
+		<language>en-us</language>
+		<lastBuildDate>Wed, 24 May 2006 09:05:01 EDT</lastBuildDate>
+		<image>
+			<url>http://graphics.nytimes.com/images/section/NytSectionHeader.gif</url>
+			<title>NYT &gt; Sports</title>
+			<link>http://www.nytimes.com/pages/sports/index.html</link>
+		</image>
+		<item>
+			<title>Mets 9, Phillies 8: Beltr&#225;n Sends Mets Home Tired, but Happy</title>
+			<link>http://www.nytimes.com/2006/05/24/sports/baseball/24mets.html?ex=1306123200&#38;en=8af43c7c65e0085f&#38;ei=5090&#38;partner=rssuserland&#38;emc=rss</link>
+			<description>The Mets came back from four- and three-run deficits, tying the score in the eighth inning, before Carlos Beltr&#225;n swatted a game-winning homer in the 16th inning to defeat the Phillies.</description>
+			<author>BEN SHPIGEL</author>
+			<pubDate>Wed, 24 May 2006 00:00:00 EDT</pubDate>
+			<guid isPermaLink="false">http://www.nytimes.com/2006/05/24/sports/baseball/24mets.html</guid>
+		</item>
+		<item>
+			<title>Yankees 7, Red Sox 5: Yankees Build a Cushion, and the Bullpen Uses It</title>
+			<link>http://www.nytimes.com/2006/05/24/sports/baseball/24yankees.html?ex=1306123200&#38;en=fa71a2b90e0c51fe&#38;ei=5090&#38;partner=rssuserland&#38;emc=rss</link>
+			<description>The Yankees have no answer for the fearsome duo of David Ortiz and Manny Ram&#237;rez; playing the Red Sox has become a matter of surviving their inevitable damage.</description>
+			<author>TYLER KEPNER</author>
+			<pubDate>Wed, 24 May 2006 00:00:00 EDT</pubDate>
+			<guid isPermaLink="false">http://www.nytimes.com/2006/05/24/sports/baseball/24yankees.html</guid>
+		</item>
+		<item>
+			<title>Heat 91, Pistons 86: In Rematch Against Detroit, Heat Takes Game 1</title>
+			<link>http://www.nytimes.com/2006/05/24/sports/basketball/24pistons.html?ex=1306123200&#38;en=c9ea0e24d386327e&#38;ei=5090&#38;partner=rssuserland&#38;emc=rss</link>
+			<description>The Miami Heat served notice that its formula for dethroning the Detroit Pistons, the two-time defending conference champions, might be the right one.</description>
+			<author>JOHN ELIGON</author>
+			<pubDate>Wed, 24 May 2006 00:00:00 EDT</pubDate>
+			<guid isPermaLink="false">http://www.nytimes.com/2006/05/24/sports/basketball/24pistons.html</guid>
+		</item>
+		<item>
+			<title>Oilers 5, Mighty Ducks 4: Edmonton Inches Closer to Stanley Cup Finals</title>
+			<link>http://www.nytimes.com/2006/05/24/sports/hockey/24nhl.ready.html?ex=1306123200&#38;en=b61e833d5156b98c&#38;ei=5090&#38;partner=rssuserland&#38;emc=rss</link>
+			<description>Fernando Pisani and the Edmonton Oilers are one victory away from the Stanley Cup finals. Pisani&#39;s goal helped the Oilers withstand a late rally by the Anaheim Mighty Ducks, and Edmonton won Game 3 of the Western Conference finals.</description>
+			<author>THE ASSOCIATED PRESS</author>
+			<pubDate>Wed, 24 May 2006 00:00:00 EDT</pubDate>
+			<guid isPermaLink="false">http://www.nytimes.com/2006/05/24/sports/hockey/24nhl.ready.html</guid>
+		</item>
+		<item>
+			<title>Players N.F.L. Banished Find Refuge in Canada</title>
+			<link>http://www.nytimes.com/2006/05/24/sports/football/24argonauts.html?ex=1306123200&#38;en=0e13bd0be4167d19&#38;ei=5090&#38;partner=rssuserland&#38;emc=rss</link>
+			<description>American players have moved to the Canadian Football League, which does not have mandatory drug testing.</description>
+			<author>JOHN BRANCH</author>
+			<pubDate>Wed, 24 May 2006 00:00:00 EDT</pubDate>
+			<guid isPermaLink="false">http://www.nytimes.com/2006/05/24/sports/football/24argonauts.html</guid>
+		</item>
+		<item>
+			<title>Bulls Get No. 2 Pick, Thanks to the Knicks</title>
+			<link>http://www.nytimes.com/2006/05/24/sports/basketball/24draft.html?ex=1306123200&#38;en=2de4b4550e167bb6&#38;ei=5090&#38;partner=rssuserland&#38;emc=rss</link>
+			<description>The reward for the worst Knicks season in 20 years was officially claimed by the Chicago Bulls &#151; in the form of the second overall pick in the June draft.</description>
+			<author>HOWARD BECK</author>
+			<pubDate>Wed, 24 May 2006 00:00:00 EDT</pubDate>
+			<guid isPermaLink="false">http://www.nytimes.com/2006/05/24/sports/basketball/24draft.html</guid>
+		</item>
+	</channel>
+</rss>

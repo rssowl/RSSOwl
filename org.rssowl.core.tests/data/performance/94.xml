@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.rooksrant.com/">
+<title>Rook&apos;s Rant</title>
+<link>http://www.rooksrant.com/</link>
+<description>If I had wanted cream and sugar why order the damn coffee?</description>
+<dc:language>en</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-22T00:03:06-06:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.2" />
+<cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.rooksrant.com/2006/05/fox_not_the_mos.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/mayor_c_ray_nag.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/major_general_g.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/worldnetdailyra.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/tell_us_again_a.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/pat_buchan_make.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/who_hates_you.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/cia_leak_grand_1.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/conservatives_a.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/blogspot_sucks.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/the_bell_tolls.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/okay_let_me_def.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/05/bush_is_not_a_l.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/04/indefinite_hiat.html" />
+<rdf:li rdf:resource="http://www.rooksrant.com/2006/04/i_demand_wil_in.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.rooksrant.com/2006/05/fox_not_the_mos.html">
+<title>Fox Not The Most Watched Network News In Government?</title>
+<link>http://www.rooksrant.com/2006/05/fox_not_the_mos.html</link>
+<description><![CDATA[<p>Ok, so now that the NYT has mentioned the <a href="http://www.nytimes.com/2006/05/22/washington/22letter.html?ex=1305950400&en=938ee6836f7f2d69&ei=5090&partner=rssuserland&emc=rss">White House's preference of Fox</a> over most other news channels, when will they note their own rather negative tone towards Democrats?</p>]]></description>
+<dc:subject>Journalism</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-22T00:03:06-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/mayor_c_ray_nag.html">
+<title>Mayor C. Ray Nagin Wins Re-election</title>
+<link>http://www.rooksrant.com/2006/05/mayor_c_ray_nag.html</link>
+<description><![CDATA[<blockquote><a title="An Incumbent Proves Resilient in New Orleans - New York Times" href="http://www.nytimes.com/2006/05/22/us/22orleans.html?ex=1305950400&en=56a8fa996e548366&ei=5090&partner=rssuserland&emc=rss">An Incumbent Proves Resilient in New Orleans - New York Times</a>
+
+<p>NEW ORLEANS, May 21 — The extraordinary circumstances stacked against Mayor C. Ray Nagin by Hurricane Katrina — a displaced electorate, an emptied city treasury, a punishing leadership test — could not finally trump a constant force of New Orleans politics, the power of incumbency.<br />
+</blockquote></p>
+
+<p>So, Nagin won because of incumbency, not because he actually was a good mayor? Well, despite the rather misleading first graph, the rest of the story actually lays out how he won the election; people saw him as a good leader, even among some conservative, Republican whites. </p>]]></description>
+<dc:subject>New Orleans</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-21T23:56:39-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/major_general_g.html">
+<title>Major General Geoffrey D. Miller To Testify</title>
+<link>http://www.rooksrant.com/2006/05/major_general_g.html</link>
+<description><![CDATA[<blockquote><a title="Abuse Trial Revives Old Questions" href="http://www.washingtonpost.com/wp-dyn/content/article/2006/05/21/AR2006052101119.html">Abuse Trial Revives Old Questions</a>
+
+<p>Maj. Gen. Geoffrey D. Miller, an artilleryman who commanded the U.S. military's prison at Guantanamo Bay, Cuba, and also helped set interrogation policy at Abu Ghraib, has agreed to testify in the court-martial of Sgt. Santos A. Cardona at the request of the dog handler's defense team. It will be Miller's first public account of events since he testified briefly at a Senate hearing in April 2004.<br />
+</blockquote></p>
+
+<p>An artilleryman? So, exactly when does an artilleryman get training in the art of interrogation? I'm just asking. Oh, and you want to bet the lawyer for the defense does too? In fact, considering this idiot is the person responsible for the whole torture atmosphere at Gitmo and Abu, I'd bet we get some excellent stories out of his testimony.</p>
+
+<p>This is probably too much to hope for, but I can't help wonder if this modern day Marquis De Sade is just itching to admit he gave the order "to make the country safe."</p>]]></description>
+<dc:subject>Torture</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-21T23:45:19-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/worldnetdailyra.html">
+<title>WorldNetDaily-Racists</title>
+<link>http://www.rooksrant.com/2006/05/worldnetdailyra.html</link>
+<description><![CDATA[<p>Racist bastard.<br />
+<blockquote><a title="WorldNetDaily: Against a fence" href="http://www.wnd.com/news/article.asp?ARTICLE_ID=50198">WorldNetDaily: Against a fence</a></p>
+
+<p>Dear Jorge plans to address the nation tonight, a speech wherein he will almost surely attempt to deceive citizens into believing that he does not wish the mass migration from Mexico to continue unabated. He will likely offer some negligible resources for law enforcement and border security – resources which will never materialize – in return for an amnesty program that will grant American citizenship to the Mexican nationals who have helped lower America's wage rates by 16 percent over the last 32 years.</p>
+
+<p>And he will be lying, again, just as he lied when he said: "Massive deportation of the people here is unrealistic – it's just not going to work."</p>
+
+<p>Not only will it work, but one can easily estimate how long it would take. If it took the Germans less than four years to rid themselves of 6 million Jews, many of whom spoke German and were fully integrated into German society, it couldn't possibly take more than eight years to deport 12 million illegal aliens, many of whom don't speak English and are not integrated into American society.<br />
+</blockquote></p>]]></description>
+<dc:subject>Journalism</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-15T19:10:46-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/tell_us_again_a.html">
+<title>Tell Us Again About Trust?</title>
+<link>http://www.rooksrant.com/2006/05/tell_us_again_a.html</link>
+<description><![CDATA[<blockquote><a title="The Blotter" href="http://blogs.abcnews.com/theblotter/2006/05/federal_source_.html">The Blotter</a>
+
+<p>Other sources have told us that phone calls and contacts by reporters for ABC News, along with the New York Times and the Washington Post, are being examined as part of a widespread CIA leak investigation.<br />
+</blockquote></p>
+
+<p>BushCo&#153; are using the NSA database for purely political reasons.</p>
+
+<p>HT: <a href="http://www.intoxination.net/2006/05/15/bye-bye-democracy/">IntoxiNation</a>.</p>
+
+<p>PS, indefinite hiatus to resume at a moment's notice, or with no notice at all.</p>]]></description>
+<dc:subject>Corruption</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-15T11:04:52-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/pat_buchan_make.html">
+<title>Pat Buchanan Makes A Point</title>
+<link>http://www.rooksrant.com/2006/05/pat_buchan_make.html</link>
+<description><![CDATA[<p>Of the list of people I would break my indefinite hiatus for, Pat Buchanan is not one I would have ever considered for inclusion. Yet, this May 12th editorial (ht <a href="http://informationclearinghouse.info/article13024.htm">ICH</a>) is well written and insightful. I may not be a fan of Mr. Buchanan, but I certainly have respect for his willingness to speak out against unprovoked war.</p>
+
+<blockquote><a title="Opinion: "Comrade Wolf" And The Mullahs - The Post Chronicle" href="http://www.postchronicle.com/commentary/opinion/article_21218533.shtml">Opinion: "Comrade Wolf" And The Mullahs - The Post Chronicle</a>
+
+<p>Which brings me to the point: There is no reason to believe Iran wants war with us.  If she did want war with America, she could have had it any time in the last 27 years.  If she did want war with America, all the old ayatollah had to do was continue holding those American hostages after Ronald Reagan raised his right hand.  He didn't.  As Reagan recited the oath, the hostages were clearing Iranian air space. </p>
+
+<p>In all those years, Iran has never attacked the United States and has been tied to but one terror attack against us: the Khobar Towers 10 years ago.  No evidence has been found that Iran had any role in 9-11, the first attack on the World Trade Center, the suicide attack on the U.S.S. Cole or the embassy bombings in Kenya and Tanzania.<br />
+</blockquote></p>
+
+<p>Of all the conservatives in our country, Pat Buchanan has shown consistency and integrity by sticking to his beliefs. He made noise when Clinton took action militarily, and he continues to do so against Bush in regards to both Iraq and Iran.</p>
+
+<p>So, I guess I have to say that though I would never want the man in elected office, I do want him there to confront any person in power. He is a grown-up conservative. Is he still a bigot, a racist and homophobic? Hell yes. But he makes no pretense about who he is and is not.</p>
+
+<p>I would even go so far as to endorse him for either Secretary of State or Secretary of Defense. And if given the choice between Buchanan and Bush, I guess I would rather have Buchanan in the Oval Office. Now, normally, there would be a "thank God I don't have to choose" statement at this point in the post. Unfortunately, Bush is in the Oval Office, and I would rather have the choice.</p>
+
+<p>Oh, and for those of you itching to proclaim that only the most holy and pure of progressives should be in office, grow the fuck up. Life isn't a fairy tale where the Knight in Shining Armor comes riding on his White Steed to save the day. We have to make compromises. There is no perfect progressive ideological leader waiting in the wings. Especially at this point of time in our history. When faced with the overwhelming incompetence now occupying the Oval Office that has weakened our country and threatened to topple the already perilously unstable world into total chaos, we simply need a leader competent enough to run our country.</p>
+
+<p>Look, we have a trifecta sitting in Washington creating the chaos that ripples out across the country and around the world. Our first order of business is the removal of Bush, Cheney and Rumsfeld. No doubt Cheney will fall as a result of the Plame outing. Rumsfeld will go when Bush is removed.</p>
+
+<p>If you think Bush will not be impeached, think again. Gleen Greenwald has already noticed <a href="http://glenngreenwald.blogspot.com/2006/05/conservatives-debate-bush-impeachment.html">a cry for impeachment </a>from some of the more rabid conservatives in blogtopia<sup><a href="http://xnerg.blogspot.com/">yes sctp</a>!</sup></p>
+
+<p>It would seem immigration has become the rallying cry for these otherwise drooling syncopates. Not able to admit to having been wrong about Iraq, they instead have to save face by creating a strawman and then faining outrage. And as Glenn notices, the have plenty of outrage to re-channel.</p>
+
+<blockquote>They're also clearly tired of slogging through the political and ethnic complexities of Iraq. That country just doesn't lend itself to any morally clear good/evil dichotomies. There are no good cartoon villains to hate. Calls for increased "ferocity," less "sensitive" approaches ("bomb some more mosques!"), and less discriminate bombings can generate some temporary enthusiasm -- as it did for a day or so with Shelby Steele's column -- but Iraq is so muddled and ambiguous, and not all that emotionally satisfying. It's pretty depressing, actually, to think about how everything they said would happen there is not happening, and trying to figure out solutions, ways out, is just not very invigorating stuff for those who thrive on Hating and Warring Against Evil.
+</blockquote>
+
+<p>So, let the rabid rightwing syncopates develop a case of denial over their warmongering support and focus that irrational rage at Bush over a made up crisis. Let's go ahead and impeach the idiot and remove him from office after Cheney has been forced to resign. Then we can at least have the essence of death no longer leading our government, our military and our country.</p>
+
+<p>Unfortunately, the only flaw in all this is who gets nominated to replace Cheney. That's where we need our minority party to finally stand up and be a minority party of opposition. Fight the nomination of any syncopate Bush proposes. And it would seem that <a href="http://www.washingtonmonthly.com/archives/individual/2006_05/008794.php">Harry Reid is up to the challenge lately</a>.</p>
+
+<p>So, I guess maybe I see a little ray of sunshine in this otherwise dark and dreary world where we currently reside.</p>
+
+<p>Now, for an observation; I have quoted Pat Buchanan and linked to Kevin Drum in the same post. And did so while breaking my indefinite hiatus. I think I am going to be ill...........</p>]]></description>
+<dc:subject>Impeachment</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-15T10:51:38-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/who_hates_you.html">
+<title>Who Hates You?</title>
+<link>http://www.rooksrant.com/2006/05/who_hates_you.html</link>
+<description><![CDATA[<p><a title="The Easter Bunny Hates You" href="http://www.transbuddha.com/mediaHolder.php?id=1674">The Easter Bunny Hates You</a>, that's who!</p>
+
+<p>And yes, still on indefinite hiatus. Get use to it. You want proof I am on this so called indefinite hiatus go check out the <a href="http://liberalcoalition.blogspot.com/2006_05_07_liberalcoalition_archive.html#114743337746634425">LC's blog-a-round</a>. You will see I am not listed. Proof of my indefinite hiatus. And here's a <a href="http://barkbarkwoofwoof.blogspot.com/archives/2006_05_01_barkbarkwoofwoof_archive.html#114743309039194636">second source</a> of the blog-a-round, just in case you are skeptical of a single source. And they're not anonymous!</p>]]></description>
+<dc:subject>Humor</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-12T10:21:41-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/cia_leak_grand_1.html">
+<title>CIA Leak Grand Jury To Meet Tomorrow</title>
+<link>http://www.rooksrant.com/2006/05/cia_leak_grand_1.html</link>
+<description><![CDATA[<p>We interrupt our regularly scheduled indefinite hiatus to bring you the following announcement:</p>
+
+<p><a title="Firedoglake - Firedoglake weblog - Grand Jury to Meet Tomorrow" href="http://www.firedoglake.com/2006/05/11/grand-jury-to-meet-tomorrow/">It's Fitzmas in May!</a></p>]]></description>
+<dc:subject>Plame Affair</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-11T23:17:19-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/conservatives_a.html">
+<title>Conservatives Abandon Bush</title>
+<link>http://www.rooksrant.com/2006/05/conservatives_a.html</link>
+<description><![CDATA[<p>&#60;/indefinite hiatus&#62;<br />
+<blockquote><a title="Bush, GOP Congress Losing Core Supporters" href="http://www.washingtonpost.com/wp-dyn/content/article/2006/05/10/AR2006051002040.html">Bush, GOP Congress Losing Core Supporters</a></p>
+
+<p>The Gallup polling organization recorded a 13-percentage-point drop in Republican support for Bush in the past couple of weeks. These usually reliable voters are telling pollsters and lawmakers they are fed up with what they see as out-of-control spending by Washington and, more generally, an abandonment of core conservative principles.<br />
+</blockquote></p>
+
+<p>An abandonment of core conservative principles? First of all, conservative principles is an oxymoron. Secondly, for there to have been an abandonment of said (oxymoronic) principles requires there having been an effort at following said (oxymoronic) principles from the beginning.</p>
+
+<blockquote>Since Bush took office, government spending has increased by more than 25 percent, the largest increase under any president since Democrat Lyndon B. Johnson. At the same time, Bush and the Republican Congress dramatically increased the government's role in, and overall spending on, education and Medicare by enacting the No Child Left Behind Act and new prescription drug entitlement for seniors. David A. Keene, head of the American Conservative Union, said there is a sense of flaccid leadership at the White House and in Congress that begets "things like frustration, which leads to disgust and apathy" among conservatives.
+</blockquote>
+
+<p>Seems to me there has been no abandonment because there was never any effort at conservatism in the first place. </p>
+
+<p>Oh, and don't you love the quick little sexual visualization? Flaccid? What is it with conservatives and their almost unconscious preoccupation with sex?</p>
+
+<p>Hat tip: shamanic over at <a href="http://shakespearessister.blogspot.com/2006/05/translating-news-and-gop.html">ShakeSis</a>.</p>
+
+<p>&#60;Indefinite Hiatus&#62;</p>]]></description>
+<dc:subject>Politics</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-11T09:22:35-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/blogspot_sucks.html">
+<title>blogspot Sucks!</title>
+<link>http://www.rooksrant.com/2006/05/blogspot_sucks.html</link>
+<description><![CDATA[<p>For Christ's Sakes! Google is suppose to be the number one internet company in the world. Yet, they can't do something simple like run a server service for bloggers. Now, I understand it's a free service. But it opens the door to their other, supposedly better, services. But if you can not run a simple server, how do you expect people to have faith in your for pay services?</p>
+
+<p>Besides, I am going through Blogger's Withdrawal. Some of my most favorite of bloggers are on blogspot. And let me tell you, Blogger's Withdrawal is an ugly, ugly scene.</p>
+
+<p>Indefinite Hiatus reinstated.</p>]]></description>
+<dc:subject>About Blogg&apos;n</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-09T10:14:12-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/the_bell_tolls.html">
+<title>The Bell Tolls For Rove?</title>
+<link>http://www.rooksrant.com/2006/05/the_bell_tolls.html</link>
+<description><![CDATA[<p>Okay, my indefinite hiatus is again in suspension as I wonder if <a href="http://www.dark-wraith.com/2006/05/inflammatory-opinion-gaming-game.html">DW is picking his teeth with crow feathers</a>.</p>
+
+<blockquote><a title="Rove's Time in Limbo Near End in CIA Leak Case" href="http://www.washingtonpost.com/wp-dyn/content/article/2006/05/07/AR2006050700717.html?referrer=email&referrer=email&referrer=email">Rove's Time in Limbo Near End in CIA Leak Case</a>
+
+<p>Fitzgerald, <em>according to sources close to the case</em>, is reviewing testimony from Rove's five appearances before the grand jury. Bush's top political strategist has argued that he never intentionally misled the grand jury about his role in leaking information about undercover CIA officer Valerie Plame to Time magazine reporter Matthew Cooper in July 2003. Rove testified that he simply forgot about the conversation when he failed to disclose it to Fitzgerald in his earlier testimony.<br />
+</blockquote> </p>
+
+<p>To be honest, I probably should still hold out judgement as to the veracity of this article’s <i>sources close to the case</i>. But I can not help but notice that there are now two reports reporting that an indictment of Rove is coming. That Jason Leopold may have had the timing wrong does not discredit his reporting. Now that Jim VandeHei of the Washington Post has stepped up to the plate, maybe there is, in fact, truth to Jason’s story.</p>
+
+<p>There is a little story I tell my patients; if only one person tells you that you have a tail, you can pretty much consider it a joke. If a second person than tells you the same thing, it’s time to start wondering. If a third person tells you, you best turn around and see what the hell is going on.</p>
+
+<p>Now, to be completely honorable to DW, I probably should hold off on the whole eating crow metaphor. Still, we now have a second, reputable, reporter making a claim about an indictment. I am now half inclined to not wait for a third report. Besides, who better to have a tail pinned to his ass then Karl Rove?</p>
+
+<p>Oh no you don’t! Keep that damn pin from my ass.......</p>
+
+<p>Oh, and my suspended<a href="http://www.rooksrant.com/2006/05/okay_let_me_def.html"> indefinite hiatus</a> is <a href="http://www.rooksrant.com/2006/04/indefinite_hiat.html">unsuspended</a>.</p>]]></description>
+<dc:subject>Plame Affair</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-08T11:08:09-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/okay_let_me_def.html">
+<title>Okay, Let Me Define Indefinite</title>
+<link>http://www.rooksrant.com/2006/05/okay_let_me_def.html</link>
+<description><![CDATA[<blockquote><a href="http://dictionary.reference.com/search?q=Indefinite%20">Indefinite</a>: adj 1: vague or not clearly defined or stated; "must you be so indefinite?"; "amorphous blots of color having vague and indefinite edges"; "he would not answer so indefinite a proposal" [ant: definite] 2: not decided or not known; "were indefinite about their plans"; "plans are indefinite"</blockquote>
+
+<p>So, you can see that I may, or may not, stop in once or twice-maybe a week, maybe a month. So, <a href="http://www.rooksrant.com/2006/05/bush_is_not_a_l.html#c5770">DW</a>, send all the bots you want.</p>]]></description>
+<dc:subject>About Blogg&apos;n</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-07T23:09:56-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/05/bush_is_not_a_l.html">
+<title>Bush Is Not A Liberal</title>
+<link>http://www.rooksrant.com/2006/05/bush_is_not_a_l.html</link>
+<description><![CDATA[<p>Okay, okay, here is a brief interruption of my hiatus.</p>
+
+<blockquote><a title="Unclaimed Territory - by Glenn Greenwald" href="http://glenngreenwald.blogspot.com/2006/05/bush-administration-is-radical-but-not.html">Unclaimed Territory - by Glenn Greenwald</a>
+
+<p>Ultimately, Bush's ideological purity matters little. It is conservatives whose support twice put him in office, who vigorously supported him for virtually his entire presidency, who never objected to his being described and self-labeled as "conservative," and who -- with rare exception -- repeatedly claimed him as one of their own. I understand the desire to re-cast Bush as a "liberal"; he's now akin to a live grenade frantically being tossed around because nobody wants to be stuck with him in history.<br />
+</blockquote></p>
+
+<p>Glenn Greenwald is doing journeymen work on the conservative movement's rush to distance themselves from Bush while at the same time smear him with the label of Liberal.</p>
+
+<p>Now, if he'd just code in a trackback feature I'd be a happy (and briefly off hiatus) blogger.</p>]]></description>
+<dc:subject>Politics</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-05-07T11:27:09-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/04/indefinite_hiat.html">
+<title>Indefinite Hiatus</title>
+<link>http://www.rooksrant.com/2006/04/indefinite_hiat.html</link>
+<description><![CDATA[<p>It's just not in me anymore. I find it hard to approach the keyboard and post. I read the stories in the morning and find myself simply not wanting to comment. I don't know if it is outrage overload or if I am just going through a writer's block. And at this point I don't care. I am tired of it all and so am going on hiatus indefinitely.</p>]]></description>
+<dc:subject>About Blogg&apos;n</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-04-27T07:09:03-06:00</dc:date>
+</item>
+<item rdf:about="http://www.rooksrant.com/2006/04/i_demand_wil_in.html">
+<title>I Demand Wil In Minneapolis!</title>
+<link>http://www.rooksrant.com/2006/04/i_demand_wil_in.html</link>
+<description><![CDATA[<p>I've done gone and joined voices in <a href="http://eventful.com/demand/D0-001-000000108-0">demanding Wil Wheaton</a> come to Minneapolis for a book reading. Any other Minnesotans that would like a chance to met a <a href="http://wilwheaton.typepad.com/wwdnbackup/2006/04/w00t_montreal_h.html">fellow blogger</a> go <a href="http://eventful.com/demand/D0-001-000000108-0">demand he come to Minneapolis</a>. At last count it was 55. He requires something like 75, so we are only 20 people away. Anyway, I think that's the threshold. I could be wrong.</p>]]></description>
+<dc:subject>About Blogg&apos;n</dc:subject>
+<dc:creator>Guy Andrew Hall</dc:creator>
+<dc:date>2006-04-25T10:39:07-06:00</dc:date>
+</item>
+
+
+</rdf:RDF>

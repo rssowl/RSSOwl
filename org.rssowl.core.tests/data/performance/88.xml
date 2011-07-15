@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.docnotes.net/">
+<title>Family Medicine Notes</title>
+<link>http://www.docnotes.net/</link>
+<description>Docnotes - Occasional Notes from a family physician - since 1999 </description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-02T19:18:12-05:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.2" />
+<cc:license rdf:resource="http://creativecommons.org/licenses/by/1.0/" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.docnotes.net/002422.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002421.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002418.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002416.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002415.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002406.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002405.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002404.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002403.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002402.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002400.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002399.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002398.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002396.html" />
+<rdf:li rdf:resource="http://www.docnotes.net/002395.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.docnotes.net/002422.html">
+<title>Medical Education Resources</title>
+<link>http://www.docnotes.net/002422.html</link>
+<description><![CDATA[It has been a long week.&nbsp; I was at the STFM meeting in San Francisco.&nbsp; Over 1000 family physicians were there.&nbsp; This was the one-year anniversary of the release of the Family Medicine Digital Resources Library (FMDRL).&nbsp;&nbsp; It's been a...]]></description>
+<dc:subject>Medical Education</dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-05-02T19:18:12-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002421.html">
+<title>EHR Focus group in SF?</title>
+<link>http://www.docnotes.net/002421.html</link>
+<description><![CDATA[In San Francisco for the STFM meeting?Want to help us understand what the next generation should look like/function?Sign up here for a free dinner .. and you'll get an iPod Shuffle too!&nbsp;...]]></description>
+<dc:subject>Electronic Medical Records</dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-04-27T13:06:47-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002418.html">
+<title>Writely Invites, Google Calendar SMS tricks</title>
+<link>http://www.docnotes.net/002418.html</link>
+<description>I noticed that Writely has just increased the number of invitations that current users have available. I&apos;m curious. If you have one availabe .. please send me one (if you have my e-mail address) .. or if you don&apos;t have...</description>
+<dc:subject>Technology</dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-04-23T14:56:46-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002416.html">
+<title>Family Medicine Notes ...</title>
+<link>http://www.docnotes.net/002416.html</link>
+<description><![CDATA[It's been a whils since I've made a substantive entry about family medicine.&nbsp; Here goes:I've been very busy lately with a project I can't discuss at all.&nbsp; It's very exciting and rather all-consuming and for those of you who have...]]></description>
+<dc:subject>Family Medicine</dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-04-16T10:31:59-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002415.html">
+<title>Google Calendar</title>
+<link>http://www.docnotes.net/002415.html</link>
+<description><![CDATA[ Google Calendar is good .. and will kill&nbsp; Trumba. We'll get Oncalls to export to Gcal soon.&nbsp; Should be easy as pie.&nbsp;...]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-04-13T01:31:46-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002406.html">
+<title>EMR Survey!</title>
+<link>http://www.docnotes.net/002406.html</link>
+<description><![CDATA[ Ok folks .. time to chime on on a little EMR survey for me.&nbsp; Entirely optional, of course, but your insight would be helpful. and it will only take about 90 seconds of your time. Thanks!&nbsp;...]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-27T15:10:26-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002405.html">
+<title>Red Sox (Spring) Fever, Pesky&apos;s fractured fibula, Sunscreen</title>
+<link>http://www.docnotes.net/002405.html</link>
+<description><![CDATA[ Over the past two weeks, Sam and I have&nbsp; been to&nbsp; Killington: And we've been to &quot;Fenway - South&quot; .. City of Palms Park in Ft Myers .. &nbsp; .. where we spent four great days watching the Red...]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-21T07:55:10-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002404.html">
+<title>The Ethics of Humor?</title>
+<link>http://www.docnotes.net/002404.html</link>
+<description>From this week&apos;s NEJM:...I hope always to uphold the code of proper patient care. But I also realize that to treat a human being well, one must remain human. And therein lies the quandary: How will we ever reconcile our...</description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-16T05:25:05-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002403.html">
+<title>RFC3219 - for nerds only</title>
+<link>http://www.docnotes.net/002403.html</link>
+<description><![CDATA[ The IANA RFC3219 listing shows who the real early adopters are in the SIP namespace.&nbsp; Dorks who really want to call me will be able to dial my extension (yeh - right - like I'm going to publish that...]]></description>
+<dc:subject>Technology</dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-15T23:17:45-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002402.html">
+<title>Onfolio</title>
+<link>http://www.docnotes.net/002402.html</link>
+<description>Onfolio Was just purchased by Microsoft. It&apos;s a free download now .. and adds some nice features to MSIE....</description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-12T19:21:45-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002400.html">
+<title>links for 2006-03-10</title>
+<link>http://www.docnotes.net/002400.html</link>
+<description> STFM Podcast STFM Podcast...</description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-09T20:22:35-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002399.html">
+<title>Writely acquired by Google</title>
+<link>http://www.docnotes.net/002399.html</link>
+<description><![CDATA[See the Writely Blog for more info &nbsp;...]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-09T13:10:18-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002398.html">
+<title>Osler - the oldest new medical weblog</title>
+<link>http://www.docnotes.net/002398.html</link>
+<description><![CDATA[Osler is the new weblog from the first&nbsp; medical blogger.&nbsp; Welcome back to David Theige. &nbsp;...]]></description>
+<dc:subject>Medical Education</dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-09T12:47:31-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002396.html">
+<title>Terry Francona invokes HIPAA</title>
+<link>http://www.docnotes.net/002396.html</link>
+<description>Closer Keith Foulke, who is also being brought along slowly after undergoing surgery on both knees last year, threw in the bullpen for the first time yesterday. Foulke was unavailable for comment. The team has refused to comment on reports...</description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-03T07:28:05-05:00</dc:date>
+</item>
+<item rdf:about="http://www.docnotes.net/002395.html">
+<title>FMDRL RSS feeds</title>
+<link>http://www.docnotes.net/002395.html</link>
+<description><![CDATA[Did I mention that FMDRL now has RSS feeds?&nbsp;&nbsp; Yep It does .. and of course .. Click the links to ass the FMDRL RSS feed of recent uploads to:My AOL, MyYahoo, Google, Bloglines...]]></description>
+<dc:subject></dc:subject>
+<dc:creator>Jacob</dc:creator>
+<dc:date>2006-03-02T16:51:02-05:00</dc:date>
+</item>
+
+
+</rdf:RDF>

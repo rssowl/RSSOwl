@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+	<channel>
+                <title>HardMac.com</title>
+                <link>http://www.hardmac.com/</link>
+                <description>Bidouille Hardware sur Mac</description>
+                <language>en</language>
+		<copyright>Copyright 2001-2002, Macbidouille.com</copyright>
+		<managingEditor>lionel@macbidouille.com (Lionel)</managingEditor>
+		<webMaster>w00kie@macbidouille.com (w00kie)</webMaster>
+		<pubDate>Wed, 24 May 2006 14:12:11 +0200</pubDate>
+		<lastBuildDate>Wed, 24 May 2006 23:20:41 +0200</lastBuildDate>
+		<generator>Custom RSS Generator by w00kie</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/hardmac" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><item>
+			<title>MacBook: a quick review</title>
+			<link>http://www.hardmac.com/news/2006-05-24/#5531</link>
+			<pubDate>Wed, 24 May 2006 14:12:11 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>One of our team members, Gotchi, has been playing with a MacBook, submitting it to series of test and evaluation. In the following &lt;a href="http://www.hardmac.com/articles/58/" target="_blank"&gt;article&lt;/a&gt;, he gives his comments on the MacBook, not based on FPS or related benchmarks, but rather as a normal user who would like to know how this new Apple notebook perform in everyday tasks.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:linathael@macbidouille.com'&gt;Eric&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=172EMn"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=172EMn" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5531</guid>
+		</item>
+		<item>
+			<title>First laptop with flash memory</title>
+			<link>http://www.hardmac.com/news/2006-05-24/#5530</link>
+			<pubDate>Wed, 24 May 2006 10:45:00 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>Samsung shall roll out in June the first laptop whose mass stockage peripheral is based on flash memory, for a 32 Go capacity.&lt;br /&gt;
+They announce this disk will have flow rates of 53 Mo/s (reading) and 28 (writing). Samsung alsos states that Windows boots 25 to 50% more quickly on this machine.&lt;br /&gt;
+The drive, at a 1,8" format, only weighs 50g.&lt;br /&gt;
+It's hard to say how much the disk alone will cost in the proposed configurations, yet given their overall high price, it surely not is cheap...&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:kalomir@macbidouille.com'&gt;Kalomir&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=8TzUaQ"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=8TzUaQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5530</guid>
+		</item>
+		<item>
+			<title>A promising Woodcrest</title>
+			<link>http://www.hardmac.com/news/2006-05-24/#5529</link>
+			<pubDate>Wed, 24 May 2006 10:41:55 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>While the new Xeon will only be unveiled on June 19th, Techreport managed to grab and test a machine containing two 3 GHz Xeon Woodcrest which makes a total of 4 cores. The machine used 4 Go of &lt;a href="http://www.hardmac.com/news/2005-12-12/#4853" target="_blank"&gt;&lt;u&gt;FB-DIMM&lt;/u&gt;&lt;/a&gt;.&lt;br /&gt;
+In short, the new Xeon will definitely unthrone the AMD Opteron, the star of the moment.&lt;br /&gt;
+A test made under Cinebench 64 bits allows some comparisons with the G5.&lt;br /&gt;
+When a G5 Quad 2.5 GHz makes a rendering multi CPU of 1179 CB-CPU, the Woodcrest reaches 1562. It would seem then than it's better than the G5 at equal frequency, in this test at least. &lt;br /&gt;
+The same task with a single core gives 386 for the G5 and 509 for the Xeon. For the Shading test, C4D, it reaches 385 as opposed to 486 for Intel CPU.&lt;br /&gt;
+If a single test doesn't allow drawing global conclusions, one can feel reassured about Apple high end products future.&lt;br /&gt;
+The test:&lt;br /&gt;
+&lt;a href="http://techreport.com/etc/2006q2/woodcrest/index.x?pg=1&amp;www.macbidouille.com" target="_blank"&gt;&lt;u&gt;http://techreport.com&lt;/u&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:kalomir@macbidouille.com'&gt;Kalomir&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=0ZsGlX"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=0ZsGlX" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5529</guid>
+		</item>
+		<item>
+			<title>Apple/Nike partnership</title>
+			<link>http://www.hardmac.com/news/2006-05-24/#5528</link>
+			<pubDate>Wed, 24 May 2006 10:34:47 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>&lt;p class="source"&gt;Source : &lt;a href="http://www.nike.com/nikebiz/news/pressrelease.jhtml?year=2006&amp;month=05&amp;letter=k" target=_blank&gt;Nike&lt;/a&gt;&lt;/p&gt;As the rumors had it, a partnership between Apple and Nike is now official.&lt;br /&gt;
+The Nike+iPod Sport Kit enables wireless communication between swoosh branded shoes and an iPod. This will allow the runner to collect information on his performances, calories burnt, the distance he ran...&lt;br /&gt;
+This gadget available in two months will cost $29.&lt;br /&gt;
+A partnership that comes at a good time for Apple while iPod sales sort of pulled down out of breath.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:kalomir@macbidouille.com'&gt;Kalomir&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=DQfGiF"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=DQfGiF" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5528</guid>
+		</item>
+		<item>
+			<title>Miglia TVMax</title>
+			<link>http://www.hardmac.com/news/2006-05-24/#5527</link>
+			<pubDate>Wed, 24 May 2006 07:48:38 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>Miglia has released a new companion for the Mac mini.&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="http://files.macbidouille.com/news/200605/TVMax_frontshot_w701.jpg" class="centered"/&gt;&lt;br /&gt;
+The TVMax is a case containing an analoge Tuner and A/V inputs.&lt;br /&gt;
+Using the &lt;a href="http://www.hardmac.com/articles/57/" target="_blank"&gt;&lt;u&gt;Eye TV 2&lt;/u&gt;&lt;/a&gt; software, you can view and record analog TV channels on a Mac.  The A/V inputs allow one to digitalise other analog sources, such as a VCR or a cable/satellite box.&lt;br /&gt;
+The TVMax connects to a computer using a USB2 connection.&lt;br /&gt;
+To learn more: &lt;a href="http://www.miglia.com/products/video/tvmax/index.html" target="_blank"&gt;&lt;u&gt;Miglia&lt;/u&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:jwa@macbidouille.com'&gt;jwa&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=iDcqIp"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=iDcqIp" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5527</guid>
+		</item>
+		<item>
+			<title>Xcode 2.3</title>
+			<link>http://www.hardmac.com/news/2006-05-24/#5526</link>
+			<pubDate>Wed, 24 May 2006 00:38:23 +0200</pubDate>
+			<author>schlum@macbidouille.com (schlum)</author>
+			<description>Xcode 2.3 is available from the ADC site&lt;br /&gt;
+&lt;br /&gt;
+&lt;Blockquote&gt;Xcode 2.3 Summary Release Notes &lt;br /&gt;
+Last updated on: May 22, 2006 &lt;br /&gt;
+Xcode 2.3 is the latest release of Apple Computer's integrated development environment for Mac OS X. &lt;br /&gt;
+This release adresses many known issues and is a recommended upgrade for all Xcode users of versions &lt;br /&gt;
+2.2.1 or earlier. Please choose Show Older Release Notes from the Help menu to see the release notes for &lt;br /&gt;
+Xcode 2.2.1, 2.2, 2.1, 2.0 and 1.5. Additionally, the complete list of Xcode and related tools release notes &lt;br /&gt;
+can be found from within Xcode by choosing Help -&gt; Xcode Help from the menu bar, and selecting the &lt;br /&gt;
+"Release Notes" bookmark item or look in the /Developer/ADC Reference Library/releasenotes folder. &lt;br /&gt;
+The About Xcode Tools document discusses Xcode and its role in development on Mac OS X. &lt;br /&gt;
+Changes to Xcode 2.3 &lt;br /&gt;
+New DWARF debugging format for improved debugging fidelity and efficient utilization of disk &lt;br /&gt;
+space &lt;br /&gt;
+New Distributed Network Build (DNB) scalable build architecture &lt;br /&gt;
+Numerous enhancements and bug fixes &lt;/blockquote&gt;
+The Apple Developer Connection site is available by creating a free account at &lt;a href="https://connect.apple.com"&gt;https://connect.apple.com&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:jwa@macbidouille.com'&gt;jwa&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=SLHmiD"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=SLHmiD" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5526</guid>
+		</item>
+		<item>
+			<title>Ichimatsu MacBook</title>
+			<link>http://www.hardmac.com/news/2006-05-23/#5524</link>
+			<pubDate>Tue, 23 May 2006 21:24:52 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>Our pals from &lt;a href="http://www.kodawarisan.com/k2006/archives/2006/05/macbook_ichimat.html" target="_blank"&gt;Kodawarisan&lt;/a&gt; have decided to customize a MacBook. Here's the baby, also known as the Ichimatsu MacBook :&lt;br /&gt;
+&lt;img src="http://www.hardmac.com/news/photonews19/0523001.jpg" class="centered"/&gt;&lt;br /&gt;
+It shows at least that the keys are easily replaceable!&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:greg@macbidouille.com'&gt;Greg&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=xAshqV"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=xAshqV" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5524</guid>
+		</item>
+		<item>
+			<title>Future AppleCenter Policies: Apple Premium Reseller</title>
+			<link>http://www.hardmac.com/news/2006-05-23/#5523</link>
+			<pubDate>Tue, 23 May 2006 21:22:58 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>Last Friday, our friends from&lt;a href="http://www.macgeneration.com/mgnews/depeche.php?aIdDepeche=121032" target="_blank"&gt;&lt;u&gt;Macgénération&lt;/u&gt;&lt;/a&gt; learned that Pascal Cagni, Vice President and General Manager Apple Europe, had sent an e-mail to all Apple Centers, in which he described future changes in Apple policies regarding the Apple Reseller network. &lt;br /&gt;
+We have obtained a copy of this e-mail from different sources and we have also learned that it has "driven many AppleCenter managers into madness".&lt;br /&gt;
+In summary, Apple announced in this e-mail the introduction of a new program named "Apple Premium Reseller". This program will replace the previous 17 year old program which assigned the name of "AppleCenter" to official Apple Resellers. &lt;br /&gt;
+Without going into details, there are not too many changes. Among the more significant changes are::&lt;br /&gt;
+- it will be required for the AppleCenter wishing to apply to the new program to be located in a mall or a commercially active area with a high traffic of potential customers. It will no longer be allowed to be located in a quiet street or low traffic area anymore... &lt;br /&gt;
+- it is no longer required to have an "Apple Store" design.&lt;br /&gt;
+This is quite a change, because we know that Apple has been pressing all AppleCenters to get them to renovate their shops into a more uniform "Apple design". We think that the future opening of Apple Stores in France and in Europe could be the reason for such a change as Apple would not like to have AppleCenters mixed up with their Apple Stores. &lt;br /&gt;
+Additionally, the future Apple "Premium Reseller" will not have the right to associate their name with "APPLE". Only the use of the Apple logo will be allowed.&lt;br /&gt;
+&lt;br /&gt;
+This is the logo of the future Apple "Premium Reseller" program:&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="http://files.macbidouille.com/news/200605/applereseller.jpg" class="centered"/&gt;&lt;br /&gt;
+The program will start on October 30th, the deadline date for current AppleCenters to adapt the new rules or to close down.&lt;br /&gt;
+PS: Do not get it wrong, we are happy to see future physical Apple Stores to be finally opened in Europe, including France, but we also think that Apple is (on purpose or not) destroying the AppleCenter network that has supported Cupertino and Mac users during the difficult years, and seems to be not really rewarded for this work by Apple when prosperous years are back.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:linathael@macbidouille.com'&gt;Eric&lt;/a&gt;]&lt;/i&gt; JCJ
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=jxeq9j"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=jxeq9j" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5523</guid>
+		</item>
+		<item>
+			<title>The MacBook Pro and its CPU</title>
+			<link>http://www.hardmac.com/news/2006-05-23/#5522</link>
+			<pubDate>Tue, 23 May 2006 11:24:19 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>&lt;p class="source"&gt;Source : &lt;a href="http://www.xlr8yourmac.com" target=_blank&gt;XLR8yourMac&lt;/a&gt;&lt;/p&gt;&lt;a href="http://www.increw.com/" target="_blank"&gt;&lt;u&gt;Increw&lt;/u&gt;&lt;/a&gt; is working on Speedit, the extension that allows the monitoring of the Core Duo. Doing so, he found some useful stuff:&lt;br /&gt;
+&lt;br /&gt;
+- To start with, the removal of the battery from a MacBook Pro blocks the CPU's clock at 1GHz. No way to go beyond. While this is obviously not a step aimed at increasing the autonomy, there is still no clue as to why it has been implemented.&lt;br /&gt;
+- Some Core Duo seem to be bugged in such a way that the thermal diods won't work. While this is not a real handicap when working, it can have serious conequences such as preventing emergency shutdown in case of overheating. Intel has proposed an update. Apple should do so as well.&lt;br /&gt;
+- The latest SMC update had the folowing consequences:  a higher rotation speed for the fans; the CPU's temperature down from 5 to 10C; the voltage of the CPU was modified; and the cooling system's temperature threshold was lowered, with cooler but noisier machines as a consequence.&lt;br /&gt;
+&lt;br /&gt;
+We would definitely welcome more information from Apple about these updates and what they do, instead of using them blindly as we do now.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:greg@macbidouille.com'&gt;Greg&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=s01BLf"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=s01BLf" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5522</guid>
+		</item>
+		<item>
+			<title>Defective Airport Express Station: Worldwide Investigation Campaign</title>
+			<link>http://www.hardmac.com/news/2006-05-23/#5521</link>
+			<pubDate>Tue, 23 May 2006 11:18:48 +0200</pubDate>
+			<author>linathael@macbidouille.com (Eric)</author>
+			<description>Couple of &lt;a href="http://www.hardmac.com/news/2006-01-09/#4957" target=_blank&gt;months ago&lt;/a&gt;, we were the first to report a reliability issue affecting the Airport Express Base Station (APX).&lt;br /&gt;
+So far we have collected over 250 reports of defective APX from readers located all over the world. We have been able to draw the following conclusions:&lt;br /&gt;
+- 95% of the defective APX are from countries using 220V as standard electrical voltage.&lt;br /&gt;
+- Defective APX have all been manufactured by Foxconn in 2004 and 2005.&lt;br /&gt;
+- Decoding APX serial number: i.e. HS430129R4N means: APX station built by Foxconn during the 30th week of 2004, weekly product number is 1233, and Apple product number is A1088.&lt;br /&gt;
+- an APX station usually dies after 13-14 or 16-18 months.&lt;br /&gt;
+- The product number of dead APX is A1088 for 220V-based countries, and A1084 for 110V-based countries.&lt;br /&gt;
+&lt;br /&gt;
+Up to date, only users with an active AppleCare (for another Apple hardware) have been able to get their defective APX replaced free of charge. For most defective APX owners, AppleSupport has replied by either denying the issue, or claiming that the problem was so far unknown, whereas the dedicated subject on Apple's forum is the most visited one among all Airport topics... without mentioning all websites that have reported the issue for weeks.&lt;br /&gt;
+&lt;br /&gt;
+Facing the increasing number of APX failure, we have decided to launch a worldwide campaign to record the serial number and all possible information related to defective APX in order to determine if the issue is due to faulty components, or rather originating from a design mistake which would then dramatically change the warranty.&lt;br /&gt;
+&lt;br /&gt;
+So, please enter references of your dead APX using the following recording webpage:&lt;br /&gt;
+&lt;br /&gt;
+&lt;center&gt;&lt;b&gt;&lt;a href=" http://www.macbidouille.com/apxdefect.php" target=_blank&gt; &gt;&gt; http://www.macbidouille.com/apxdefect.php &lt;&lt;&lt;/a&gt;&lt;/b&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;(please, submit your references even if you have already sent them by e-mail to me)&lt;/i&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:linathael@macbidouille.com'&gt;Eric&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=MlA7VF"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=MlA7VF" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5521</guid>
+		</item>
+		<item>
+			<title>OS X Drivers For Xbox360 Gamepad</title>
+			<link>http://www.hardmac.com/news/2006-05-23/#5520</link>
+			<pubDate>Tue, 23 May 2006 09:14:01 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>&lt;p class="source"&gt;Source : &lt;a href="http://uk.gizmodo.com" target=_blank&gt;Gizmodo&lt;/a&gt;&lt;/p&gt;On the website &lt;a href="http://tattiebogle.net/index.php/ProjectRoot/Xbox360Controller/OsxDriver" target="_blank"&gt;&lt;u&gt;http://tattiebogle.net/&lt;/u&gt;&lt;/a&gt; one can find a driver allowing the use of a Xbox360 gamepad on a Mac running OSX.&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="http://files.macbidouille.com/news/200605/Pref360Control.jpg" class="centered"/&gt;&lt;br /&gt;
+If the GUI might look minimalist, the driver is excellent, the force feedback feature is even supported! In addition, this driver is available under the GPL licensing, so if you wish to improve it...&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:linathael@macbidouille.com'&gt;Eric&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=taflU6"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=taflU6" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5520</guid>
+		</item>
+		<item>
+			<title>Xeon Woodcrest: Available on June, 19th?</title>
+			<link>http://www.hardmac.com/news/2006-05-23/#5519</link>
+			<pubDate>Tue, 23 May 2006 09:09:59 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>&lt;p class="source"&gt;Source : &lt;a href="http://www.theinquirer.net/?article=31316" target=_blank&gt;http://www.theinquirer.net&lt;/a&gt;&lt;/p&gt;Intel seems to be speeding up CPU release to compete with AMD offers.. According to recent rumors, the Xeon WoodCrest should be released on June 19th.&lt;br /&gt;
+We expect Apple to use this CPU in both Xserve and Powermac. Indeed, Quad processor computer based on Intel processor could only be built with Xeon WoodCrest.&lt;br /&gt;
+Hereafter is a summary of the expected introduction price (price per unit for 1000 ordered units):&lt;br /&gt;
+&lt;br /&gt;
+5110: 1,60 GHz: 209 $&lt;br /&gt;
+5120: 1,86 GHz: 256 $&lt;br /&gt;
+5130: 2,00 GHz: 316 $&lt;br /&gt;
+5140: 2,33 GHz: 455 $&lt;br /&gt;
+5150: 2,66 GHz: 690 $&lt;br /&gt;
+5160: 3,00 GHz: 851 $&lt;br /&gt;
+&lt;br /&gt;
+All Xeon WoodCrest feature 4MB of L2 cache, have a TDP of 80W; FSB of entry models will be set to 1033MHz, higher-end ones will be clocked to an unprecedented 1333MHz (for Intel).&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:linathael@macbidouille.com'&gt;Eric&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=F2cwDS"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=F2cwDS" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5519</guid>
+		</item>
+		<item>
+			<title>May the force be with you (and with your Macbook)</title>
+			<link>http://www.hardmac.com/news/2006-05-22/#5518</link>
+			<pubDate>Mon, 22 May 2006 22:10:54 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>Here is a useless soft that will nonetheless definitely meet a huge success.&lt;br /&gt;
+&lt;a href="http://isnoop.net/blog/2006/05/20/macsaber-turn-your-mac-into-a-jedi-weapon/" target="_blank"&gt;MacSaber&lt;/a&gt; uses Apple laptop's sudden motion sensor and has your beloved digital weapon buzz like a Jedi sword when you move it.&lt;br /&gt;
+While it seems to work on Macbook, this beta version is not compatible with all SMS enabled laptops.&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:greg@macbidouille.com'&gt;Greg&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=PS6WEk"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=PS6WEk" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5518</guid>
+		</item>
+		<item>
+			<title>Openwengo: Mac Version Available</title>
+			<link>http://www.hardmac.com/news/2006-05-22/#5517</link>
+			<pubDate>Mon, 22 May 2006 15:00:58 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>Thanks to Clodo for this info&lt;br /&gt;
+The beta_1 version of the VoIP application openwango 2 is now available on Mac from the official website: &lt;a href="http://www.openwengo.org" target="_blank"&gt;&lt;u&gt;www.openwengo.org&lt;/u&gt;&lt;/a&gt;). It might be interested for Mac users wishing to do some video conferencing.&lt;br /&gt;
+&lt;blockquote&gt;This is an alpha build of the upcoming WengoPhone NG version. It comes with each and every functionality planned for the 2.0 release: audio and video calls, MSN, Yahoo!, AIM/ICQ and Jabber support and a completely redesigned user interface. It still has stability issues. &lt;br /&gt;
+Features:&lt;br /&gt;
+- webcam support for Win, Linux and OSX.&lt;br /&gt;
+- interoperability with numerous IM protocols&lt;br /&gt;
+- GPL licensing.&lt;br /&gt;
+&lt;/blockquote&gt;
+It remains annoying that there is not an universal/cross-platform format for audio/video conferencing available. Apple has implemented &lt;a href="http://www.macbidouille.com/news/2005-04-25/#10859" target="_blank"&gt;&lt;u&gt;Jabber&lt;/u&gt;&lt;/a&gt; in iChat; but not IM applications are supporting Jabber.&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:linathael@macbidouille.com'&gt;Eric&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=sHVdmR"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=sHVdmR" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5517</guid>
+		</item>
+		<item>
+			<title>How To Clean Your Mighty Mouse?</title>
+			<link>http://www.hardmac.com/news/2006-05-22/#5516</link>
+			<pubDate>Mon, 22 May 2006 14:47:28 +0200</pubDate>
+			<author>lionel@macbidouille.com (Lionel)</author>
+			<description>The Mighty Mouse is a nice mouse, but as all mouse, it has to be clean from time to time. Obviously, Apple does not provide any real method to perform such operation. As shown on this photo, the tracking ball can be covered by dust, preventing a proper usage of the mouse.&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="http://files.macbidouille.com/news/200605/09web.jpg" class="centered"/&gt;&lt;br /&gt;
+&lt;br /&gt;
+Karrel, a Dutch citizen, has decided to clean his Mighty Mouse, and has posted a detailed and easy to follow procedure on his website: &lt;a href="http://web.mac.com/karelgil/iWeb/MacWebSite/MightyMEng.html" target="_blank"&gt;&lt;u&gt;Operation Mighty Mouse&lt;/u&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;i&gt;[translation by &lt;a href='mailto:linathael@macbidouille.com'&gt;Eric&lt;/a&gt;]&lt;/i&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/hardmac?a=PBqh3p"&gt;&lt;img src="http://feeds.feedburner.com/~a/hardmac?i=PBqh3p" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			<guid isPermaLink="false">hardmac.com#5516</guid>
+		</item>
+	<feedburner:awareness>http://api.feedburner.com/awareness/1.0/GetFeedData?uri=hardmac</feedburner:awareness></channel>
+</rss>

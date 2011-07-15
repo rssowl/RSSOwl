@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+
+<!DOCTYPE bugzilla SYSTEM "http://dev.rssowl.org/bugzilla.dtd">
+
+<bugzilla version="2.20" 
+	urlbase="http://dev.rssowl.org/" 
+	maintainer="bpasero@rssowl.org" 
+	exporter="admiral-kay@gmx.de"
+>
+	
+	<bug>
+		<bug_id>10</bug_id>
+    <creation_ts>2006-01-12 22:29</creation_ts>
+		<short_desc>bugzilla_short_description</short_desc>
+		<delta_ts>2006-01-25 11:03:33</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>2</classification_id>
+		<classification>bugzilla_classification</classification>
+		<product>bugzilla_product</product>
+		<component>bugzilla_component</component>
+		<version>2.0</version>
+		<rep_platform>bugzilla_rep_platform</rep_platform>
+		<op_sys>bugzilla_op_sys</op_sys>
+		<bug_status>bugzilla_bug_status</bug_status>
+		<priority>bugzilla_priority</priority>
+		<bug_severity>bugzilla_bug_severity</bug_severity>
+		<target_milestone>bugzilla_target_milestone</target_milestone>
+		<reporter>bugzilla_reporter@mail.xx</reporter>
+		<assigned_to>bugzilla_assigned_to</assigned_to>
+		<long_desc>
+			<who>bugzilla_who</who>
+			<bug_when>2006-01-12 22:29</bug_when>
+			<thetext>bugzilla_thetext</thetext>
+		</long_desc>
+		<long_desc>
+			<who>bugzilla_who</who>
+			<bug_when>2006-01-14 20:25</bug_when>
+			<thetext>bugzilla_thetext_2</thetext>
+		</long_desc>
+		<long_desc>
+			<who>bugzilla_who</who>
+			<bug_when>2006-01-14 20:28</bug_when>
+			<thetext>bugzilla_thetext_3</thetext>
+		</long_desc>
+	</bug>
+</bugzilla>

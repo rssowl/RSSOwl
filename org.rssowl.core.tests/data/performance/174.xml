@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>this WEEK in TECH</title>
+    <link>http://thisWEEKinTECH.com</link>
+    <description>Your first podcast of the week is the last word in tech. Join Leo Laporte, Patrick Norton, Kevin Rose, John C. Dvorak, and other tech luminaries in a roundtable discussion of the latest trends in digital technology. Winner of the 2005 People&apos;s Choice Podcast Award for best overall podcast and Best Technology Podcast. Released every Sunday at midnight Pacific.</description>
+    <generator>Feeder 1.3.3 http://reinventedsoftware.com/feeder/</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons License - Attribution-NonCommercial-ShareAlike - http://creativecommons.org/licenses/by-nc-sa/2.0/</copyright>
+    <managingEditor>leo@leoville.com (Leo Laporte)</managingEditor>
+    <webMaster>leo@leoville.com (Leo Laporte)</webMaster>
+    <pubDate>Sun, 21 May 2006 22:29:24 -0700</pubDate>
+    <lastBuildDate>Sun, 21 May 2006 22:29:24 -0700</lastBuildDate>
+    <category>Technology</category>
+    <ttl>720</ttl>
+    <image>
+      <url>http://leoville.tv/podcasts/coverart/twit144.jpg</url>
+      <title>this WEEK in TECH</title>
+      <link>http://thisWEEKinTECH.com</link>
+      <width>138</width>
+      <height>138</height>
+    </image>
+    <itunes:author>Leo Laporte</itunes:author>
+    <itunes:subtitle>Your first podcast of the week is the last word in tech. Join Leo Laporte, Patrick Norton, Kevin Rose, John C. Dvorak, and other tech luminaries in a roundtable discussion of the latest trends in digital tech. 2005 People&apos;s Choice Podcast Award winner.</itunes:subtitle>
+    <itunes:summary>Your first podcast of the week is the last word in tech. Join Leo Laporte, Patrick Norton, Kevin Rose, John C. Dvorak, and other tech luminaries in a roundtable discussion of the latest trends in high tech. Winner of People&apos;s Choice Podcast and Best Technology Podcast in the 2005 People&apos;s Choice Podcast Awards. Released every Sunday at midnight Pacific.</itunes:summary>
+    <itunes:keywords>twit, techtv, leo laporte, kevin rose, patrick norton, john c. dvorak </itunes:keywords>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:image href="http://leoville.tv/podcasts/coverart/twit300.jpg"/>
+    <itunes:owner>
+      <itunes:name>Leo Laporte</itunes:name>
+      <itunes:email>leo@leoville.com</itunes:email>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <itunes:category text="Technology">
+      <itunes:category text="News"/>
+    </itunes:category>
+    <item>
+      <title>TWiT 55: So Sue Me</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0055H.mp3</link>
+      <description><![CDATA[<p><b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>, <a href="http://dl.tv">Robert Heron</a>, <a href="http://dvorak.org/blog">John C. Dvorak</a>, <a href="http://grc.com">Steve Gibson</a>, and <a href="http://bit-tech.net">Wil Harris</a></p>Show notes to follow...<p><b>Running time:</b> 1:20:00<!--break-->]]></description>
+      <pubDate>Sun, 21 May 2006 22:29:02 -0700</pubDate>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0055H.mp3" length="77207649" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-55-so-sue-me</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Lawsuits, Black MacBooks, and HD DVD players</itunes:subtitle>
+      <itunes:summary>Hosts: Leo Laporte, Robert Heron, John C. Dvorak, Steve Gibson, and Wil Harris
+
+Show notes to follow...
+
+Running time: 1:20:00</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:20:00</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 54: Atomic Wedgie</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0054H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>, <a href="http://dl.tv">Patrick Norton</a>, <a href="http://dvorak.org/blog">John C. Dvorak</a>, <a href="http://openalpha.tv">Jenn Cutter</a>, and <a href="http://allowe.com">Al Lowe</a><p><b>Topics:</b><p><ul type="disc"> <li>E3 wrap up: Nintendo <a href="http://www.bit-tech.net/news/2006/05/11/nintendo_wii_gameplay/">pulls a Rocky</a></li> <li><a href="http://www.smh.com.au/news/breaking/microsofts-live-anywhere-gaming/2006/05/10/1146940583369.html">Microsoft announces Xbox and PC Gamers will be able to play together online</a></li> <li><a href="http://arstechnica.com/news.ars/post/20060512-6824.html">Sony says it should charge more for the PS/3</a></li> <li>Adrian Lamo refuses to <a href="http://yro.slashdot.org/yro/06/05/13/1331217.shtml">give his DNA</a></li> <li>The French government <a href="http://www.macobserver.com/article/2006/05/11.3.shtml">caves to Apple</a></li> <li><a href="http://www.informationweek.com/software/showArticle.jhtml?articleID=187200976">And Apple beats the Beatles</a></li> <li><a href="http://www.news.com.au/story/0,10117,19130870-1242,00.html">It's ok to rip CDs in Australia</a></li> <li><a href="http://www.itwire.com.au/content/view/4292/53/">Yahoo spurns Microsoft</a></li> <li><a href="http://biz.yahoo.com/prnews/060510/law005.html">CBS will televize Dance Dance Revolution</a></li> <li><a href="http://news.com.com/Adult+industry+welcomes+.xxx+domain+rejection/2100-1047_3-6071748.html">Nobody likes XXX - except us</a></li> <li><a href="http://arstechnica.com/news.ars/post/20060512-6825.html">Mcirsoft adds blogging to Word</a></li> <li><a href="http://www.cbc.ca/story/world/national/2006/05/10/australia-sea-survivor.html">SMS saves lives</a></li> </ul><p>
+<b>Running time:</b> 1:00:00]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 14 May 2006 22:32:05 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/54</comments>
+      <enclosure url="http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0054H.mp3" length="28970214" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-54-atomic-wedgie</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>E3 wrap up, Yahoo spurns Microsoft, SMS saves lives</itunes:subtitle>
+      <itunes:summary>Hosts: Leo Laporte, Patrick Norton, John C. Dvorak, Jenn Cutter, and Al Lowe
+
+Topics: 
+ * E3 wrap up: Nintendo pulls a Rocky
+ * Microsoft announces Xbox and PC Gamers will be able to play together online
+ * Sony says it should charge more for the PS/3
+ * Adrian Lamo refuses to give his DNA
+ * The French government caves to Apple
+ * And Apple beats the Beatles
+ * It&apos;s ok to rip CDs in Australia
+ * Yahoo spurns Microsoft
+ * CBS will televize Dance Dance Revolution
+ * Nobody likes XXX - except us
+ * Mcirsoft adds blogging to Word
+ * SMS saves lives
+
+
+ Running time: 1:00:00</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:00:00</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 53: Boyz of Destruction</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0053H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>,<a href="http://dl.tv">Robert Heron</a>, <a href="http://pixelcorps.com">Alex Lindsay</a>, <a href="http://dibona.com/">Chris DiBona</a>, and <a href="http://bit-tech.net">Wil Harris</a>
+<b>Topics:</b>
+
+Show notes to follow, but until then check the links on <a href="http://del.icio.us/twit/53">del.icio.us</a>.
+
+<b>Running time: </b>1:01:20]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 07 May 2006 17:22:20 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/53</comments>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0053H.mp3" length="29528182" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-53-boyz-of-destruction</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>What&apos;s ahead at E3, will Microsoft buy Yahoo, Apple rumors, and eye on IPTV</itunes:subtitle>
+      <itunes:summary>What&apos;s ahead at E3, will Microsoft buy Yahoo, Apple rumors, and eye on IPTV</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:01:20</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 52: Photo 145</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0052H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>, <a href="http://dl.tv">Patrick Norton</a>, <a href="http://dl.tv">Robert Heron</a>, <a href="http://revision3.com">David Prager</a>, and <a href="http://dvorak.org/blog">John C. Dvorak</a><p><b>Topics:</b><p><ul type="disc"> <li>John's back from Brazil loaded with <a href="http://www.american.edu/TED/cachaca.htm">Cachaca</a> but no absinthe</li> <li>Nintendo's Revolution is now <a href="http://www.tgdaily.com/2006/04/29/a_wii_bit_more_attention_for_nintendo/">Wii</a></li> <li>Xbox will have an HD-DVD</li> <li>Robert says Blu-Ray will ship May 23</li> <li>Warner Brothers will make a <a href="http://www.engadget.com/2006/04/26/warner-to-release-first-hybrid-hd-dvd-may-9th/">dual format disc</a> with standard DVD on one side, and HD-DVD on the other</li> <li>Where are the dual-standard players? Dvorak says the licensing contracts force manufacturers to stick with one format</li> <li>Pioneer says dual format players are a "bad idea"</li> <li>Forbes says YouTube is spending <a href="http://www.forbes.com/home/intelligentinfrastructure/2006/04/27/video-youtube-myspace_cx_df_0428video.html">$1 million/month</a> on bandwidth</li> <li>The Bush administration will <a href="http://blog.wired.com/27BStroke6/">invoke security privilege</a> to quash the EFF law suit against AT&T</li> <li>Political <a href="http://www.siliconvalley.com/mld/siliconvalley/rss/14454525.htm?source=rss&channel=siliconvalley_rss">dirty tricks</a> come to Wikipedia</li> <li>A Chinese businessman has bought a [[http://www.usatoday.com/tech/news/2006-04-30-ebay-jet_x.htm |used fighter jet]] from Ebay</li> <li>New <a href="http://www.earthtimes.org/articles/show/6366.html">ransomware virus</a> demands $10.99 or it will delete your files one by one</li> <li>Is Google <a href="http://seattletimes.nwsource.com/html/businesstechnology/2002962245_google30.html">profiting from your typos</a>?</li> <li>Yahoo is being accused of helping China <a href="http://www.siliconvalley.com/mld/siliconvalley/rss/14452186.htm?source=rss&channel=siliconvalley_rss">jail another dissident</a></li> <li>Steve Jobs says he <a href="http://www.siliconvalley.com/mld/siliconvalley/rss/14451991.htm?source=rss&channel=siliconvalley_rss">doesn't want to run Disney</a></li> <li>The Oakley <a href="http://www.red.com/">Red camera</a> uses the mysterium chip - but no unobtainium</li> <li>But what happened to the <a href="http://www.foveon.com/">Foveon</a>?</li> <li>University of Colorado police <a href="http://www.newwest.net/index.php/city/article/8119/C94/L94">post pictures of people smoking pot</a> and ask their friends to identify them for $50</li> </ul><p>
+<b>Running time:</b> ]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 30 Apr 2006 22:16:24 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/52</comments>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0052H.mp3" length="38589955" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-52-picture-145</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Wii, HD, and AT&amp;T</itunes:subtitle>
+      <itunes:summary>Hosts: Leo Laporte, Patrick Norton, Robert Heron, David Prager, and John C. Dvorak
+
+Topics: 
+ * John&apos;s back from Brazil loaded with Cachaca but no absinthe
+ * Nintendo&apos;s Revolution is now Wii
+ * Xbox will have an HD-DVD
+ * Robert says Blu-Ray will ship May 23
+ * Warner Brothers will make a dual format disc with standard DVD on one side, and HD-DVD on the other
+ * Where are the dual-standard players? Dvorak says the licensing contracts force manufacturers to stick with one format
+ * Pioneer says dual format players are a &quot;bad idea&quot;
+ * Forbes says YouTube is spending $1 million/month on bandwidth
+ * The Bush administration will invoke security privilege to quash the EFF law suit against AT&amp;T
+ * Political dirty tricks come to Wikipedia
+ * A Chinese businessman has bought a [[http://www.usatoday.com/tech/news/2006-04-30-ebay-jet_x.htm |used fighter jet]] from Ebay
+ * New ransomware virus demands $10.99 or it will delete your files one by one
+ * Is Google profiting from your typos?
+ * Yahoo is being accused of helping China jail another dissident
+ * Steve Jobs says he doesn&apos;t want to run Disney
+ * The Oakley Red camera uses the mysterium chip - but no unobtainium
+ * But what happened to the Foveon?
+ * University of Colorado police post pictures of people smoking pot and ask their friends to identify them for $50
+
+ Running time:</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:20:00</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 51: Digg This</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0051H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>, <a href="http://dl.tv">Patrick Norton</a>, <a href="http://digg.com">Kevin Rose</a>, <a href="http://pixelcorps.com">Alex Lindsay</a>, <a href="http://dl.tv">Robert Heron</a>, and <a href="revision3.com">David Prager</a>
+<p>
+<ul>
+<li>Kevin joins us to shed some light on how <a href="http://digg.com">Digg</a> works
+<li>The <a href="http://forevergeek.com/news/digg_corrupted_editors_playground_not_userdriven_website.php">Forever Geek posting</a> that started it all
+<li>Yahoo obeys the law and <a href="http://www.ibnlive.com/news/yahoo_squeals_on_chinese_dissident/8448-2.html">sends a Chinese dissident to jail</a>
+<li>Congress prepares <a href="http://news.com.com/2100-1028_3-6064016.html?part=rss&tag=6064016&subj=news">DMCA II</a> - rip a CD, go to jail
+<li>Mark Ecko is wearing his <a href="http://news.yahoo.com/s/ap/20060422/ap_on_hi_te/air_force_one_hoax">Air Force Ones</a>
+<li>Apple has a <a href="http://www.businessweek.com/technology/content/apr2006/tc20060420_719591.htm">great quarter</a> but a <a href="http://www.siliconvalley.com/mld/siliconvalley/rss/14390324.htm?source=rss&channel=siliconvalley_rss">bad day in court</a>
+<li>Google <a href="http://www.mercurynews.com/mld/mercurynews/business/14395330.htm">pisses off</a> the surrealists
+<li>and Westchester County <a href="http://www.siliconvalley.com/mld/siliconvalley/rss/14390324.htm?source=rss&channel=siliconvalley_rss">cracks down</a> on wi-fi insecurity</ul><p>
+Catch us live at the <a href="http://www.podcastacademy.com/">Podcast Academy</a> at Yahoo, 6/16.  
+<p><b>Running time:</b> 1:16:30]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 23 Apr 2006 21:39:00 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/51</comments>
+      <enclosure url="http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0051H.mp3" length="36737591" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-51-digg-this</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Kevin explains how Digg works, Yahoo cooperates with the Chinese, and Congress plans to ban CD ripping</itunes:subtitle>
+      <itunes:summary>Hosts: Leo Laporte, Patrick Norton, Kevin Rose, Alex Lindsay, Robert Heron, and David Prager
+
+* Kevin joins us to shed some light on how Digg works
+* The Forever Geek posting that started it all
+* Yahoo obeys the law and sends a Chinese dissident to jail
+* Congress prepares DMCA II - rip a CD, go to jail
+* Mark Ecko is wearing his Air Force Ones
+* Apple has a great quarter but a bad day in court
+* Google pisses off the surrealists
+* and Westchester County cracks down on wi-fi insecurity
+
+Catch us live at the Podcast Academy at Yahoo, 6/16.  
+
+Running time: 1:16:30</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:16:30</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 50: Squeak Toy</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0050H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>, <a href="http://bit-tech.net">Wil Harris</a>, <a href="http://dl.tv">Roger Chang</a>, and <a href="http://dvorak.org/blog">John C. Dvorak</a>
+<p>
+TWiT celebrates it's one year anniversary, and 50th show. <p><b>Running time:</b> 1:17:57]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 16 Apr 2006 17:45:54 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/50</comments>
+      <enclosure url="http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0050H.mp3" length="37432239" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-50-squeak-toy</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:17:57</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 49A: Introducing IPac</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://media.libsyn.com/media/twit/TWiT49AH.mp3</link>
+      <description><![CDATA[<b>this WEEK in TECH Special Episode: Introducing IPac</b>
+<p>
+<b>Host:</b> Leo Laporte
+<p>
+<b>Guests:</b> Ren Bucholz, EFF Policy Coordinator, and Jake Fischer, Executive Director of <a href="http://ipaction.org">IPac</a>
+<p>
+Today a special edition to talk about a new US political action committee (PAC) organized to put geek principals into action in the US government. According to the IPac Statement of Principles:
+<p>
+IPac is a nonpartisan group dedicated to preserving individual freedom through balanced intellectual property policy.<p>We believe that technological innovation and individual creativity are vital to the future of this country. We believe that a prosperous and democratic society depends on freedom for all individuals to pursue scientific invention and artistic expression. Unfortunately, new intellectual property laws threaten to stifle these freedoms and restrict public participation in science, art, and political discourse.<p>Therefore, IPac will support elected representatives and candidates for public office who fight for these principles:<ol><li>Creators of ideas and inventions have the right to be compensated for their work, but not to limit political expression, veto technological innovation, or restrict education and scientific research.<li>Intellectual property laws should be judged by their potential to foster new creativity, as required by the U.S. Constitution.<li>Intellectual property laws should be clear and explicit, so anybody can create without fear of lawsuits.</ol>
+<p>
+Today Leo talks with Ren Bucholz, one of IPac's founders and board members, and Jake Fischer, Executive Director.
+<p>
+<b>Running time:</b> 24:05
+]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Wed, 12 Apr 2006 12:18:11 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/49a</comments>
+      <enclosure url="http://www.podtrac.com/pts/redirect.mp3?http://media.libsyn.com/media/twit/TWiT49AH.mp3" length="11564766" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-49a-introducing-ipac</guid>
+      <itunes:author>Leo Laporte</itunes:author>
+      <itunes:subtitle>Ren Bucholz, EFF Policy Coordinator, and Jake Fischer, Executive Director of IPac talk about organizing geeks for political action in the US</itunes:subtitle>
+      <itunes:summary>Ren Bucholz, EFF Policy Coordinator, and Jake Fischer, Executive Director of IPac talk about organizing geeks for political action in the US</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>24:05</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 49: Mind the Lag</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0049H.mp3</link>
+      <description><![CDATA[Short but sweet, it's TWiT 49. 
+<b>Hosts:</b> <a href="http://scoble.weblogs.com">Robert Scoble</a>, <a href="http://leoville.com">Leo Laporte</a>, <a href="http://dl.tv">Patrick Norton</a>, <a href="http://digg.com">Kevin Rose</a>, <a href="http://www.cnet.com/4520-11455_1-6333605-1.html">Molly Wood</a>, and <a href="http://dvorak.org/blog">John C. Dvorak</a><p><b>Topics:</b> <ul>
+<li>Microsoft's <a href="http://channel9.msdn.com/ ">Channel 9 and <a href="http://onten.net">Channel 10</a><li>Bill Gates is <a href="http://news.com.com/2061-10805_3-6057208.html?part=rss&tag=6057208&subj=news">not appearing</a> on Dr. Who<li>But he is appearing with  <a href="http://youtube.com/watch?v=YktZkyx4wtM&search=bill%20gates%20napoleon">Napoleon Dynamite</a>. Gosh. <li>Apple <a href="http://www.macworld.com/weblogs/macword/2006/04/bootcamp/index.php">releases Boot Camp</a> <li>Wil Harris of <a href="http://bit-tech.net">Bit-Tech.net</a> says virtualization is virtually assured<li>Leo registers for <a href="http://secondlife.com">Second Life</a> under the name Pruneface Spatula<li>Forester Research says <a href="http://blogs.forrester.com/charleneli/2006/04/forrester_podca_1.html">no one's listening</a><li>Disney starts a <a href="http://www.nytimes.com/2006/04/05/business/media/05disney.html?_r=1&oref=slogin">cell phone service for kids</a><li>We give up on <a href="http://ventrilo.com">Ventrilo</a></ul><p><b>Running time:</b> 50:56<!--break-->]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Mon, 10 Apr 2006 00:21:59 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/49</comments>
+      <enclosure url="http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0049H.mp3" length="24613478" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-49-mind-the-lag</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Microsoft&apos;s Robert Scoble and CNET&apos;s Molly Wood join the TWiTs to talk Boot Camp, Dr. Who, and Second Life</itunes:subtitle>
+      <itunes:summary>Microsoft&apos;s Robert Scoble and CNET&apos;s Molly Wood join the TWiTs to talk Boot Camp, Dr. Who, and Second Life</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>50:56</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 48: Apple&apos;s 30th Anniversary</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0048H.mp3</link>
+      <description><![CDATA[On this special edition of TWiT Leo talks with four original Apple employees, and one of its founders, on the 30th Anniversary of the company's incorporation.
+<p>
+<b>Host:</b> <a href="http://leoville.com">Leo Laporte</a>
+<p>
+<b>Guests:</b> <a href="http://billfernandez.com/">Bill Fernandez</a>, <a href="http://folklore.org">Andy Hertzfeld</a>, <a href="http://www.digibarn.com/stories/dankottke/index.htm">Daniel Kottke<a/>, <a href="http://en.wikipedia.org/wiki/Randy_Wigginton">Randy Wigginton</a>, and <a href="http://woz.org">Steve Wozniak</a>
+<p>
+<b>Running time:</b> 1:33:12]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 02 Apr 2006 20:45:38 -0700</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/48</comments>
+      <enclosure url="http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0048H.mp3" length="44817337" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-48-apples-30th-anniversary</guid>
+      <itunes:author>Leo Laporte  </itunes:author>
+      <itunes:subtitle>Early Apple employes Bill Fernandez, Andy Hertzfeld, Daniel Kottke, Randy Wigginton, and founder Steve Wozniak talk about the early days on the 30th Anniversary of Apple Computer</itunes:subtitle>
+      <itunes:summary>Early Apple employes Bill Fernandez, Andy Hertzfeld, Daniel Kottke, Randy Wigginton, and founder Steve Wozniak talk about the early days on the 30th Anniversary of Apple Computer</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:33:12</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 47: Delayed</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0047H.mp3</link>
+      <description><![CDATA[Vista is delayed, so is HD-DVD, IE exploits, and France attacks Apple]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 26 Mar 2006 21:05:45 -0800</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/47</comments>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0047H.mp3" length="28140000" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-46-xpmini-madness-47-delayed</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Vista is delayed, so is HD-DVD, IE exploits, and France attacks Apple</itunes:subtitle>
+      <itunes:summary>Vista is delayed, so is HD-DVD, IE exploits, and France attacks Apple</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:01:17</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 46: XP-Mini Madness</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0046H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://dl.tv/">Patrick Norton</a>, <a href="http://dvorak.org/blog/">John C. Dvorak</a>, <a href="http://pixelcorps.com/">Alex Lindsay</a>, <a href="http://dl.tv/">Roger Chang</a>, and <a href="http://revision3.com/">David Prager</a><b>Topics</b>:<ul type="disc"> <li>Running <a href="http://onmac.net/">XP on a Mac mini</a></li> <li>AOL announces an Internet-based <a href="http://television.aol.com/in2tv">television network</a></li> <li>Google <a href="http://arstechnica.com/news.ars/post/20060317-6406.html">hands over the mail</a></li> <li>France making piracy <a href="http://www.businessweek.com/technology/content/mar2006/tc20060315_435741.htm?campaign_id=topStories_ssi_5">darn near legal</a></li> <li>Kinderstart sues Google over <a href="http://news.com.com/2060-10812_3-0.html">search rankings</a></li> <li>Judge: Google only has to <a href="http://googleblog.blogspot.com/2006/03/judge-tells-doj-no-on-search-queries.html">give 50,000</a></li> <li>Will IPTV will have to be <a href="http://www.theaustralian.news.com.au/common/story_page/0,5744,18468340%255E643,00.html</li> <li>">licensed in Australia</a></li> <li>US Senators make another call for <a href="http://www.dailytech.com/article.aspx?newsid=1297">.xxx domains</a></li> <li>Is the <a href="http://www.extremetech.com/article2/0,1558,1937738,00.asp">Playstation 3 delay</a> due to copy protection problems or is it just a lack of games?</li> <li>Blu-ray on PCs is <a href="http://www.extremetech.com/article2/0,1697,1939295,00.asp">coming this summer</a></li> <li>Warner Bros to <a href="http://www.latimes.com/technology/la-fi-briefs18.4mar18,1,2643315.story?coll=la-headlines-technology">delay HD-DVD releases</a> until late April.</li> <li>Katamari team... <a href="http://gamasutra.com/php-bin/news_index.php?story=8571">dissolves</a></li> <li>HD-DVD and Blu-ray <a href="http://hardware.slashdot.org/hardware/06/03/18/0823217.shtml">coming to PCs</a></li> <li>Yahoo adds <a href="http://news.yahoo.com/local/San+Francisco">local news</a></li> <li>Google buys <a href="http://arstechnica.com/news.ars/post/20060317-6406.html">Writely</a>, is <a href="http://irows.com/">irows</a> next?</li> <li>Google has to turn over <a href="http://arstechnica.com/news.ars/post/20060317-6406.html">full contents of Gmail account</a>: including deleted messages!</li> <li>Verizon, T-Mobile tops in PC Magazine's <a href="http://www.pcmag.com/article2/0,1895,1939337,00.asp">Call-Quality Survey</a></li> <li>John says Patrick wears a safety hat: baseball cap w/ aluminum inside...</li> <li>Dvorak is voting McCain/Giuliani</li> <li>Plugs for <a href="http://crankygeeks.com">Cranky Geeks</a></li> <li>Alex is getting married next week!</li></ul><p>Watch Diggnation <a href="http://visitrenotahoe.com/diggnation">live in Reno-Tahoe </a>March 23rd 7PM
+<p>
+<b>Running time: </b> 58:29]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Mon, 20 Mar 2006 07:53:01 -0800</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/46</comments>
+      <enclosure url="http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0046H.mp3" length="28100446" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-46-xpmini-madness</guid>
+      <itunes:author>Patrick Norton and the TWiTs</itunes:author>
+      <itunes:subtitle>Google troubles, XP runs, and XXX is back</itunes:subtitle>
+      <itunes:summary>Google troubles, XP runs, and XXX is back</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>58:29</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 45: CeBIT, IDF, and ETech</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0045H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>, <a href="http://dl.tv">Patrick Norton</a>, <a href="http://dl.tv">Robert Heron</a>, <a href="http://itconversations.com/">Doug Kaye</a>, and <a href="http://dvorak.org/blog">John C. Dvorak</a>
+<p>
+<b>Guest:</b> Wil Harris of <a href="http://www.bit-tech.net/">Bit-Tech.net</a> reporting on the Intel Developer Forum
+<p>
+<b>Running time:</b> 1:04:20]]></description>
+      <pubDate>Sun, 12 Mar 2006 23:06:04 -0800</pubDate>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0045H.mp3" length="30918570" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-45-cebit-idf-and-etech</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>News from CeBIT, the Intel Developer Forum, and O&apos;Reilly&apos;s Etech Conference</itunes:subtitle>
+      <itunes:summary>News from CeBIT, the Intel Developer Forum, and O&apos;Reilly&apos;s Etech Conference</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:04:20</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 44: Hacked</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0044H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte
+</a>, <a href="http://dl.tv">Patrick Norton</a>, <a href="http://digg.com">Kevin Rose</a>, <a href="http://dl.tv">Roger Chang</a>, <a href="http://www.cnet.com/4520-11455_1-6333605-1.html">Molly Wood</a>, <a href="http://macaddict.com/">Roman Loyola</a>, <a href="http://woz.org/">Steve Wozniak</a>
+<p>
+<b>Topics:</b> 
+<p>
+<ul type="disc"> <li>Was it the press or Apple that overhyped <a href="http://www.appleinsider.com/article.php?id=1563">this week's announcements</a>?</li> <li>Macs can connect with XBox 360 consoles using <a href="http://www.nullriver.com/index/products/connect360">Connect360</a></li> <li>Want to judge a stereo - don't crank it up (and don't listen to TWiT on it)</li> <li>Was Woz misquoted? Read <a href="http://www.nzherald.co.nz/organisation/story.cfm?o_id=437&ObjectID=10369314">the original article</a>, Steve's <a href="http://listserver.themacintoshguy.com/pipermail/titanium/2006-February/019302.html">rebuttal</a>, and the <a href="http://www.nzherald.co.nz/section/story.cfm?c_id=5&ObjectID=10370890">response with transcript</a> and you be the judge</li> <li>Have you seen the <a href="http://youtube.com/watch?v=mHgkZ-yIQfM&search=origami">Origami "ad"</a> on YouTube? Is it a hoax?</li> <li>It's certainly more than the cryptic <a href="http://www.origamiproject.com/2/">Origami Project site</a> reveals</li> <li>Here's <a href="http://roaminghack.blogspot.com/">one way</a> to get out of a cell phone contract</li> <li>Vista will come in <a href="http://arstechnica.com/news.ars/post/20060301-6295.html">six slick flavors</a> - with online upgrades</li> <li>The Pope <a href="http://news.com.com/2061-10799_3-6045919.html?part=rss&tag=6045919&subj=news">has a nano</a></li> <li>RIM settles with NTP and <a href="http://news.com.com/BlackBerry+saved/2100-1047_3-6045880.html?tag=nefd.lede">saves the Blackberry</a></li> <li>Cosby is <a href="http://wiredblogs.tripod.com/monkeybites/index.blog?entry_id=1426957">going after</a> <a href="http://waxy.org/">Waxy Links</a></li> <li>And the FCC is <a href="http://www.wired.com/news/technology/0,70320-0.html?tw=rss.index">going after</a> the call spoofing sites</li> <li>Senator Ron Wyden of Oregon has <a href="http://news.zdnet.com/2100-9588_22-6045330.html">introduced a Senate bill</a> to prevent a two tiered Internet</li> <li>Is AOL's <a href="http://www.nytimes.com/2006/02/28/technology/28mail.html?_r=1&oref=slogin">plan for email certification</a> the end of free email or just a way to help legitimate mass emailers? <a href="http://dearaol.com">Discuss</a>.</li> <li>HDCP will leave around 3 million HDTV owners <a href="http://www.fortwayne.com/mld/newssentinel/living/13975197.htm">in the lurch</a> when HiDef DVD players become available</li> <li>Dan Sokol says there's a $300 device that will by-pass HDCP, but the movie companies are <a href="http://arstechnica.com/news.ars/post/20060220-6219.html">fighting back</a></li> <li>The US Justice Department is <a href="http://www.betanews.com/article/DOJ_Investigating_Digital_Music_Prices/1141401513">investigating collusion</a> in online music pricing</li> </ul>
+<p>
+Thanks to the San Francisco Apple Store for hosting this episode! 
+<p>
+<b>Running time:</b> 1:09
+
+
+
+]]></description>
+      <pubDate>Sun, 05 Mar 2006 19:40:21 -0800</pubDate>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0044H.mp3" length="33074304" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-44-hacked</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Woz defends himself, AOL&apos;s controversial paid email scheme, and did Apple overhype its announcements</itunes:subtitle>
+      <itunes:summary>Woz defends himself, AOL&apos;s controversial paid email scheme, and did Apple overhype its announcements</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:09:00</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 43: Old Yeller</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0043H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://leoville.com">Leo Laporte</a>, <a href="http://digg.com">Kevin Rose</a>, <a href="http://dl.tv">Patrick Norton</a>, <a href="http://revision3.org">David Prager</a>, <a href="http://itconversations.com/">Doug Kaye</a>, and <a href="http://dvorak.org/blog">John C. Dvorak</a><p><b>Topics:</b><p><ul> <li>Dvorak's off to Orlando for the <a href="http://www.pmai.org/xpma2006/default.asp">PMA</a> then Hannover for <a href="http://www.cebit.de/homepage_e?x=1">CeBIT</a></li> <li>He's looking for a tour of Berlin - <a href="mailto:john@dvorak.org">email him</a> if you live there</li> <li>Doug, Leo, Patrick, and Bill Gates all have a piece of the Berlin Wall</li> <li>The <a href="http://www.robhyndman.com/2006/02/25/why-john-c-dvorak-is-wrong-about-apple/">point by point refutation</a> of Dvorak's column on Apple switching to Windows</li> <li>Apple's big announcement is February 28 - what does "fun new products" mean?<img src="http://leo.am/radio/uploads/ShowNotes/appleinvite.jpg" align=right hspace=10> We'll have same-day coverage on <a href="http://macbreak.com">MacBreak</a></li> <li>Check out the <a href="http://www.engadget.com/2006/02/26/video-ipod-fakery-exposed-on-video/">Engadget pictures</a> of the "new iPod"</li> <li>Leo predicts it's an iPod media center</li> <li>Skype runs on the T-Mobile <a href="http://www.pcmag.com/article2/0,1759,1918695,00.asp?kc=PCRSS02129TX1K0000530">MDA</a> but only if you <a href="http://msmobiles.com/news.php/4884.html">overclock it</a></li> <li><a href="http://base.google.com/">Google Base</a> is taking credit cards</li> <li>UserFriendly's send up of Google privacy is <a href="http://ars.userfriendly.org/cartoons/?id=20060221">here</a></li> <li>The TWiT.tv redesign is almost done - look for a beta test soon</li> <li>The most popular IT Conversations show of all time: <a href="http://www.itconversations.com/shows/detail214.html">the Woz interview</a></li> <li>AOL has <a href="http://news.yahoo.com/s/ap/20060222/ap_on_hi_te/aol_price_increase">raised the price of dialup</a> to $25.90 a month, the same as the broadband price</li> <li>Dvorak uses Google's <a href="http://pages.google.com/">Page Creator</a> to make <a href="http://dvorak.googlepages.com/">a web page</a> while we talk </li> <li>RIM is <a="href="http://www.theglobeandmail.com/servlet/story/RTGAM.20060224.wrim0224a/BNStory/Technology/?page=rss&id=RTGAM.20060224.wrim0224a">losing in court</a>, but <a href="http://www.washingtonpost.com/wp-dyn/content/article/2006/02/22/AR2006022201604.html?nav=rss_technology">winning in the US Patent Office</a>- is it because of political pressure to save Blackberry?</li> <li>The Onion's take on what Blackberry users will do <a href="http://www.theonion.com/content/node/44912">if service is disrupted</a></li> <li>NBC is trying to <a href="http://www.nytimes.com/2006/02/20/business/media/20youtube.html?ex=1298091600&en=06f4e30a6c8e7da2&ei=5090&partner=rssuserland&emc=rss">stop YouTube</a> and others from playing the Lazy Sunday clip - and they're trying to sell it for $1.99 on iTunes Music Store</li> <li><a href="http://alexa.com/">Alexa</a> rankings are meaningless</li> <li>Lakehead University in Thunder Bay <a href="http://arstechnica.com/news.ars/post/20060222-6235.html">bans wireless</a> due to "health concerns"</li> <li>Fans set up <a href="http://www.dvorak.org/blog/?p=4383">Church of Sponge Bob</a>, and John's joining</li> <li>Digg.de <a href="http://www.h07.org/?q=node/66">changes its name</a> to <a href="http://Yigg.de/">Yigg.de</a>, but Kevin says he never even contacted them </li> <li>MPAA is now <a href="http://www.slyck.com/news.php?story=1106">going after Usenet binaries</a> by attacking the indexing sites</li> <li>Dvorak uses "the IRC" to trade files so he's ok with it</li> <li>Lloyd Braun proposes a news show on Yahoo with <a href="http://news.com.com/Can+Yahoo+do+content/2100-1025_3-6041227.html">puppets as anchors</a></li> <li><a href="http://ananova.com/">Ananova</a> is a news site with a virtual anchor</li> <li>Doug and John still have their pets.com <a href="http://en.wikipedia.org/wiki/Pets.com">sock puppets</a></li> <li>They're cheap on <a href="http://cgi.ebay.com/PETS-COM-SOCK-PUPPET-NEW-IN-BOX-MINT-CONDITION_W0QQitemZ6039724398QQcategoryZ11741QQssPageNameZWDVWQQrdZ1QQcmdZViewItem">Ebay</a></li> <li>Watch for our Ebay auction to benefit EFF - coming soon</li> <li>John and Leo wax nostalgic over <a href="http://en.wikipedia.org/wiki/Lotus_Improv">Lotus Improv</a> and Adobe <a href="http://www.download.com/Adobe-ImageStyler/3000-2197_4-895487.html">ImageStyler</a></li> <li>EFF decodes the Xerox <a href="http://www.eff.org/Privacy/printers/docucolor/index.php">hidden dot-code</a></li> <li>Scanners can't copy US money</li> <li>iTunes hits <a href="http://www.apple.com/itunes/1billion/">1 billion songs sold</a>, and a kid in Michigan wins 10 ipods, an iMac, and $10,000 in songs</li> <li>According to NPR, record labels are holding back singles to preserve CD sales</li> <li>Tuesday Patrick demos the <a href="http://www.getdemocracy.com/">Democracy Player</a> from the Participatory Culture Foundation</li> <li><a href="http://fireant.tv/download">Fireant</a> is also good</li> <li>iPodderX is now <a href="http://thunderstonemedia.com/name_change">Thunderstone Media</a> and the new program is <a href="http://transistr.com/">Transistr</a> - com</li> <li>Dvorak is working on a new IPTV show for Z-D - stay tuned to details</li> <li>Leo's LTS Podcast interview is <a href="http://ltspodcast.com/?p=37">here</a></li> <li>Ricky Gervais goes for the gold by moving his free podcast to <a href="http://www.audible.com/adbl/store/product.jsp?BV_UseBVCookie=Yes&productID=PF_GERV_666666">Audible.com</a></li> <li>Cat's <a href="http://catschwartz.com/plain.html">expecting</a> - congratulations</li> <li>Microsoft is looking for an Apple-style buzz for next week's "<a href="http://www.origamiproject.com/1/">Origami</a>" announcement</li> <li>Look for Alex Albrecht's cooking show, Control-Alt-Chicken, and much more from <a href="http://revision3.com/">Revision 3</a> soon. </li> </ul><p>Next Friday, March 3, we'll be live from the <a href="http://www.apple.com/retail/sanfrancisco">San Francisco Apple Store</a>. Tape rolls at 7:30pm. We'll have pocket protectors, buttons, and TWiT toothbrushes to hand out. <p><b>Running time:</b> 1:09:59<!--break-->]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 26 Feb 2006 18:31:22 -0800</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/43</comments>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0043H.mp3" length="33626010" type="audio/mpeg"/>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Apple&apos;s big announcement, Digg to Yigg, and Control-Alt-Chicken</itunes:subtitle>
+      <itunes:summary>Hosts: Leo Laporte, Kevin Rose, Patrick Norton, David Prager, Doug Kaye, and John C. Dvorak
+
+Topics: 
+ * Dvorak&apos;s off to Orlando for the PMA then Hannover for CeBIT
+ * He&apos;s looking for a tour of Berlin - email him if you live there
+ * Doug, Leo, Patrick, and Bill Gates all have a piece of the Berlin Wall
+ * The point by point refutation of Dvorak&apos;s column on Apple switching to Windows
+ * Apple&apos;s big announcement is February 28 - what does &quot;fun new products&quot; mean? We&apos;ll have same-day coverage on MacBreak
+ * Check out the Engadget pictures of the &quot;new iPod&quot;
+ * Leo predicts it&apos;s an iPod media center
+ * Skype runs on the T-Mobile MDA but only if you overclock it
+ * Google Base is taking credit cards
+ * UserFriendly&apos;s send up of Google privacy is here
+ * The TWiT.tv redesign is almost done - look for a beta test soon
+ * The most popular IT Conversations show of all time: the Woz interview
+ * AOL has raised the price of dialup to $25.90 a month, the same as the broadband price
+ * Dvorak uses Google&apos;s Page Creator to make a web page while we talk 
+ * RIM is losing in court, but winning in the US Patent Office- is it because of political pressure to save Blackberry?
+ * The Onion&apos;s take on what Blackberry users will do if service is disrupted
+ * NBC is trying to stop YouTube and others from playing the Lazy Sunday clip - and they&apos;re trying to sell it for $1.99 on iTunes Music Store
+ * Alexa rankings are meaningless
+ * Lakehead University in Thunder Bay bans wireless due to &quot;health concerns&quot;
+ * Fans set up Church of Sponge Bob, and John&apos;s joining
+ * Digg.de changes its name to Yigg.de, but Kevin says he never even contacted them 
+ * MPAA is now going after Usenet binaries by attacking the indexing sites
+ * Dvorak uses &quot;the IRC&quot; to trade files so he&apos;s ok with it
+ * Lloyd Braun proposes a news show on Yahoo with puppets as anchors
+ * Ananova is a news site with a virtual anchor
+ * Doug and John still have their pets.com sock puppets
+ * They&apos;re cheap on Ebay
+ * Watch for our Ebay auction to benefit EFF - coming soon
+ * John and Leo wax nostalgic over Lotus Improv and Adobe ImageStyler
+ * EFF decodes the Xerox hidden dot-code
+ * Scanners can&apos;t copy US money
+ * iTunes hits 1 billion songs sold, and a kid in Michigan wins 10 ipods, an iMac, and $10,000 in songs
+ * According to NPR, record labels are holding back singles to preserve CD sales
+ * Tuesday Patrick demos the Democracy Player from the Participatory Culture Foundation
+ * Fireant is also good
+ * iPodderX is now Thunderstone Media and the new program is Transistr - com
+ * Dvorak is working on a new IPTV show for Z-D - stay tuned to details
+ * Leo&apos;s LTS Podcast interview is here
+ * Ricky Gervais goes for the gold by moving his free podcast to Audible.com
+ * Cat&apos;s expecting - congratulations
+ * Microsoft is looking for an Apple-style buzz for next week&apos;s &quot;Origami&quot; announcement
+ * Look for Alex Albrecht&apos;s cooking show, Control-Alt-Chicken, and much more from Revision 3 soon. 
+
+ Next Friday, March 3, we&apos;ll be live from the San Francisco Apple Store. Tape rolls at 7:30pm. We&apos;ll have pocket protectors, buttons, and TWiT toothbrushes to hand out. Running time: 1:09:59</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:09:59</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 42: Dvorak&apos;s Lost It</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0042H.mp3</link>
+      <description><![CDATA[<p><b>Hosts:</b> <a href="http://Alpha.CNET.com/">Tom Merritt</a>, <a href="http://dvorak.org/blog">John C. Dvorak</a>, <a href="http://leoville.com">Leo Laporte</a>, <a href="http://dl.tv">Robert Heron</a>, and <a href="http://dl.tv">Roger Chang</a>.
+<p>
+<b>Topics:</b>
+<p>
+<ul><li>Thanks to Nitrozac and Snaggy for <a href="http://joyoftech.com/joyoftech/index.html">the cartoon</a></li> <li>Amazon is going <a href="http://www.cdfreaks.com/news/13087">head to head with Apple</a> - opening its own music store</li> <li>The OS X Worm is <a href="http://www.ambrosiasw.com/forums/index.php?showtopic=102379">nothing to worry about</a> but it does herald the end of innocence for Mac users</li> <li>FON has found an <a href="http://online.wsj.com/public/article/SB113945389770169170.html">interesting way</a> to promote itself</li> <li>Is World of Warcraft <a href="http://joi.ito.com/archives/2006/02/10/world_of_warcraft_the_new_golf.html#comments">the new golf?</a></li> <li>Funny how consumers and experts <a href="http://www.extremetech.com/article2/0,1697,1927576,00.asp">completely disagree</a> on which LCOS display is best</li> <li>Want to know why Rep. Pete Sessions of Texas and Sen. John Ensign of Nevada are so hot to <a href="http://www.networkingpipeline.com/blog/archives/2006/02/att_pays_off_co.html">stop municipal wi-fi</a>? Follow the money trail to ATT.</li> <li>The Firefox memory leak is a <a href="http://weblogs.mozillazine.org/ben/archives/009749.html">feature not a bug</a></li> <li>Is it illegal to <a href="http://techdirt.com/articles/20060217/023253_F.shtml">play poker online</a>? It's not clear but if two Congressmen have their way it will be, with a five year penalty to boot</li> <li>BitTorrent is proposing <a href="http://www.slyck.com/news.php?story=1083">end-to-end encryption</a> to foil ISPs who block the protocol</li> <li>Skype encryption <a href="http://news.yahoo.com/s/ap/20060217/ap_on_hi_te/wiretapping_skype">prevents wiretapping</a>. Or does it?</li> <li>And what's going on with <a href="http://news.com.com/Intels+mantra+Lets+make+a+deal/2100-1006_3-6038282.html">Intel and Skype</a>? Is it fair to artificially limit Skype's capabilities unless you use Intel?</li> <li>Careful watching "Mr. & Mrs. Smith" in Germany. Fox has <a href="http://www.eweek.com/article2/0,1759,1926917,00.asp?kc=EWRSS03119TX1K0000594">planted a rootkit</a> on the DVD.</li> <li>The ladies of the evening want families to <a href="http://www.gamespot.com/news/6144286.html">boycott Grand Theft Auto</a></li> <li>Do two podcasts ending production make a trend? Some call it "<a href="http://www.wired.com/news/technology/0,70171-0.html?tw=wn_index_1">podfading</a>"</li> <li>Halo 2 will <a href="http://www.xbox.com/en-US/press/2006/0206-halo2vista.htm">only ship on Vista</a>, not XP</li> <li>And Vista will require a <a href="http://www.extremetech.com/article2/0,1697,1925173,00.asp">DirectX 9c capable video card</a></li> <li>More significantly, no video card has <a href="http://en.wikipedia.org/wiki/High-Bandwidth_Digital_Content_Protection">HDCP</a> support yet, and Vista will require that for output to an HD display</li> <li>Careful playing <a href="http://hosted.ap.org/dynamic/stories/M/MAYOR_GAME_OVER?SITE=AP&SECTION=HOME&TEMPLATE=DEFAULT">solitaire</a> around Mayor Bloomberg</li> <li>Microsoft antivirus <a href="http://blog.washingtonpost.com/securityfix/2006/02/microsoft_antispyware_deleting_1.html">uninstalls Norton</a>. Oops.</li> </ul>
+<p>
+TWiT listeners can get $30 off the <a href="http://www.scottevest.com/v3_store/subindex-twit.shtml">Scott E-Vest Ultimate Hoodie</a> (regularly $60 now $30) or <a href="http://www.scottevest.com/v3_store/subindex-twit.shtml">Sport Tec 4.0 windbreaker</a> (regularly $99 now $69). Both feature many pockets and SeV's famous PAN wiring capabilites. Use <b>TWiT</b> as the coupon code - if you want both you'll get $30 off both, but they'll have to update your amount by hand. Offer good for one week or while supplies last. Thanks, Scott!
+<p>
+<b>Running time:</b> 1:07:40
+]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Sun, 19 Feb 2006 22:00:07 -0800</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/42</comments>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0042H.mp3" length="64948070" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-42-dvoraks-lost-it</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>Dvorak explains, Amazon goes head to head with iTunes, and the OS X worm signals an end to innocence for Mac users</itunes:subtitle>
+      <itunes:summary>Hosts: Tom Merritt, John C. Dvorak, Leo Laporte, Robert Heron, and Roger Chang.
+
+Topics:
+ * Thanks to Nitrozac and Snaggy for the cartoon
+ * Amazon is going head to head with Apple - opening its own music store
+ * The OS X Worm is nothing to worry about but it does herald the end of innocence for Mac users
+ * FON has found an interesting way to promote itself
+ * Is World of Warcraft the new golf?
+ * Funny how consumers and experts completely disagree on which LCOS display is best
+ * Want to know why Rep. Pete Sessions of Texas and Sen. John Ensign of Nevada are so hot to stop municipal wi-fi? Follow the money trail to ATT.
+ * The Firefox memory leak is a feature not a bug
+ * Is it illegal to play poker online? It&apos;s not clear but if two Congressmen have their way it will be, with a five year penalty to boot
+ * BitTorrent is proposing end-to-end encryption to foil ISPs who block the protocol
+ * Skype encryption prevents wiretapping. Or does it?
+ * And what&apos;s going on with Intel and Skype? Is it fair to artificially limit Skype&apos;s capabilities unless you use Intel?
+ * Careful watching &quot;Mr. &amp; Mrs. Smith&quot; in Germany. Fox has planted a rootkit on the DVD.
+ * The ladies of the evening want families to boycott Grand Theft Auto
+ * Do two podcasts ending production make a trend? Some call it &quot;podfading&quot;
+ * Halo 2 will only ship on Vista, not XP
+ * And Vista will require a DirectX 9c capable video card
+ * More significantly, no video card has HDCP support yet, and Vista will require that for output to an HD display
+ * Careful playing solitaire around Mayor Bloomberg
+ * Microsoft antivirus uninstalls Norton. Oops.
+
+ TWiT listeners can get $30 off the Scott E-Vest Ultimate Hoodie (regularly $60 now $30) or Sport Tec 4.0 windbreaker (regularly $99 now $69). Both feature many pockets and SeV&apos;s famous PAN wiring capabilites. Use TWiT as the coupon code - if you want both you&apos;ll get $30 off both, but they&apos;ll have to update your amount by hand. Offer good for one week or while supplies last. Thanks, Scott!
+
+Running time: 1:07:40</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:07:40</itunes:duration>
+    </item>
+    <item>
+      <title>TWiT 41: No Comments</title>
+      <link>http://www.podtrac.com/pts/redirect.mp3?http://aolradio.podcast.aol.com/twit/TWiT0041H.mp3</link>
+      <description><![CDATA[<b>Hosts:</b> <a href="http://digg.com">Kevin Rose</a>, <a href="http://dvorak.org/blog">John C. Dvorak</a>, <a href="http://leoville.com">Leo Laporte</a>, <a href="http://revision3.com">David Prager</a>, and Roger Chang.
+<p>
+Links to this week's news stories are stored at <a href="http://del.icio.us/twit/41">del.icio.us/twit/41</a>. There's also an <a href="http://del.icio.us/rss/twit">RSS feed</a> for folks who want to see what we're working on for next week. 
+<p>
+<b>Running time:</b> 1:07:35
+
+]]></description>
+      <author>leo@leoville.com (Leo Laporte)</author>
+      <pubDate>Fri, 03 Feb 2006 15:37:45 -0800</pubDate>
+      <category>Technology</category>
+      <comments>http://twit.tv/41</comments>
+      <enclosure url="http://aolradio.podcast.aol.com/twit/TWiT0041H.mp3" length="32474742" type="audio/mpeg"/>
+      <guid isPermaLink="false">twit-41-no-comments</guid>
+      <itunes:author>Leo Laporte and the TWiTs</itunes:author>
+      <itunes:subtitle>What really happened at Digg.com, ESBN, CBS kicks Google off the island</itunes:subtitle>
+      <itunes:summary>What really happened at Digg.com, ESBN, CBS kicks Google off the island</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:07:35</itunes:duration>
+    </item>
+  </channel>
+</rss>

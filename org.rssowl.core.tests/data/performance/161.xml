@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+
+<channel>
+	<title>Joel on Software</title> 
+	<link>http://www.joelonsoftware.com</link> 
+	<description>Painless Software Management</description> 
+
+	<language>en-us</language> 
+	<copyright>Copyright 1999-2006 Joel Spolsky.</copyright> 
+
+	<managingEditor>Joel Spolsky</managingEditor> 
+
+	<webMaster>webmaster@fogcreek.com</webMaster> 
+
+<image>
+	<title>Joel On Software</title> 
+	<url>http://www.joelonsoftware.com/RssJoelOnSoftware.jpg</url> 
+	<link>http://www.joelonsoftware.com</link> 
+	<width>144</width> 
+	<height>25</height> 
+	<description>Painless Software Management</description> 
+</image>
+
+<item>
+	<title>FogBugz 5.0 Ships</title>
+	<link>http://www.joelonsoftware.com/items/2006/05/17.html</link>
+	<author>Joel Spolsky</author>
+	<guid isPermaLink="true">http://www.joelonsoftware.com/items/2006/05/17.html</guid>
+	<pubDate>17 May 2006 12:34:10 EST</pubDate>
+	<description>
+<![CDATA[
+<font face="Georgia"><p>&#8220;What's shipping today is really something like FogBugz 4½, but we're calling it 5.0 anyway, because life is confusing enough without fractions.&#8221;</p>
+<p><a href="http://www.joelonsoftware.com/articles/FB4.5.html">FogBugz 4½ and Subjective Well-Being</a></p></font>
+]]>
+</description>
+</item>
+
+<item>
+	<title>Lazy Programmer, Didn't Handle Exception</title>
+	<link>http://www.joelonsoftware.com/items/2006/05/05.html</link>
+	<author>Joel Spolsky</author>
+	<guid isPermaLink="true">http://www.joelonsoftware.com/items/2006/05/05.html</guid>
+	<pubDate>05 May 2006 15:57:29 EST</pubDate>
+	<description>
+<![CDATA[
+<font face="Georgia"><p><img alt="" src="http://www.joelonsoftware.com/items/2006/05/05Cingular.PNG" border="0" /></p>
+<p>try()<br />{<br />...<br />}<br />catch(Exception *)<br />{<br />&nbsp;&nbsp; print("call customer service");<br />}<br />// i guess i'm done! </p>
+<p>I called the numbers listed, and went through several layers of menus and waiting. Of course, the person who answered at Cingular had no idea what to do. He found someone walking around his call center who told him to call some other number. He called that number, went through voice menu hell, and finally got told to call some <em>other</em> number. Now he's calling that, and of course, it's just ringing the guy next to him, who has no idea what to do, either. Of course they don't. It's a friggin' unhandled exception.</p>
+<p>Eventually they got me to another customer service representative who had been trained just to ask me what I was trying to do (add another couple of lines to my account) and do it. That's not really a solution.</p>
+<p>One of the hallmarks of a broken system is when there's just no possible way that the programmer who is writing code that talks to customers can ever get feedback from those customers about bugs, because the call center is outsourced to a different company than the software development project is outsourced to. Everyone is trying their hardest to do their job but management has set it up so that it's impossible.</p>
+<p>Now, on to wireless companies in the USA. In the last ten years I can't think of <em>one time</em> when a wireless company has been able to handle the basic things I've asked for (new service, cancel service, port a phone number) without 45 minutes of unbelievably incompetent service. Over the years I've used Sprint, the old AT&amp;T, Cingular, and BellAtlantic, and they're all pretty much equally messed up. All of them suffer from hard working shlubs who are stuck in a situation created by incompetent managers, who have built esoteric mountains of complicated and brittle systems with a million moving parts, 3/4's of them outsourced, where it's simply impossible to get anything done.</p>
+<p><strong>What does your code do to contact you when things go badly wrong? </strong>We use <a href="http://www.fogcreek.com/FogBugz/docs/40/Articles/BugzScout.html">BugzScout</a>&nbsp;to report unhandled problems directly into our own <a href="http://www.fogcreek.com/FogBugz">FogBugz</a> database. But even if you call our customer service line you get a human who is sitting right next to the programmer.</p></font>
+]]>
+</description>
+</item>
+
+<item>
+	<title>Aardvark'd Screening in New York</title>
+	<link>http://www.joelonsoftware.com/items/2006/05/02.html</link>
+	<author>Joel Spolsky</author>
+	<guid isPermaLink="true">http://www.joelonsoftware.com/items/2006/05/02.html</guid>
+	<pubDate>02 May 2006 16:44:36 EST</pubDate>
+	<description>
+<![CDATA[
+<font face="Georgia"><p>When our summer internship candidates flew into New York City for their interviews, we made sure they got a hotel room with a DVD player and we left them a copy of <a href="http://www.projectaardvark.com/movie/">Aardvark'd</a>, the documentary about <a href="http://www.projectaardvark.com">last summer's interns</a>. Despite the filmmaker's fondness for stories about tomato plants and cockroaches, the movie works great as a recruiting tool.</p>
+<p>This summer we have six interns, including our first-ever graphic design intern and our first-ever intern in program management. Again, we had hundreds of applications, and we had so many good candidates we only interviewed about half of the candidates we wanted to before the new office space filled up. Interns get free housing, free lunch, Aeron chairs, dual-Xeon workstations with 30" LCD monitors, and weekly cultural events like Broadway shows, a Yankees game, and tours around New York City.</p>
+<p><a href="http://www.projectaardvark.com/movie/"><img style="MARGIN-LEFT: 5px" alt="Aardvark'd - A film by Lerone Wilson" src="http://www.joelonsoftware.com/items/2006/05/02Aardvarkd.PNG" align="right" border="0" /></a>If you're going to be in New York City next Tuesday, May 9th, join me for the premiere of Aardvark'd at the New York International Independent Film and Video Festival, at 8pm at the Village East Cinemas (<a href="http://www.nyfilmvideo.com/2006/nymay2006/schedule/ny-may-2006-schedule.html#tuesday7">Details</a> | <a href="http://www.ticketweb.com/user/?region=nyc&amp;query=detail&amp;event=661950&amp;interface=">Order Tickets</a>&nbsp;| <a href="http://www.projectaardvark.com/movie/trailersmall.wmv">Windows Trailer</a> | <a href="http://www.projectaardvark.com/movie/aardvarkdtrailersmall.mov">Quicktime Trailer</a>). If you're not in New York, you can still <a href="https://shop.fogcreek.com/?sCategory=movie&amp;pg=pgOrder&amp;Quantity_89=1">buy the movie on DVD</a>.</p>
+<p>&nbsp;</p></font>
+]]>
+</description>
+</item>
+
+<item>
+	<title>Muriel Spark, 1918-2006</title>
+	<link>http://www.joelonsoftware.com/items/2006/04/13.html</link>
+	<author>Joel Spolsky</author>
+	<guid isPermaLink="true">http://www.joelonsoftware.com/items/2006/04/13.html</guid>
+	<pubDate>15 Apr 2006 19:18:26 EST</pubDate>
+	<description>
+<![CDATA[
+<font face="Georgia"><p>“‘You begin,’ he said, ‘by setting your scene. You have to <em>see </em>your scene, either in reality or in imagination. For instance, from here you can see across the lake. But on a day like this you can’t see across the lake, it’s too misty. You can’t see the other side.’ Rowland took off his reading glasses to stare at his creative writing class, whose parents’ money was being thus spent: two boys and three girls around sixteen to seventeen years of age, some more, some a little less. ‘So,’ he said, ‘you must just write, when you set your scene, “the other side of the lake was hidden in mist.” Or if you want to exercise imagination, on a day like today, you can write, “The other side of the lake was just visible.” But as you are <em>setting</em> the scene, don’t make any emphasis as yet. It’s too soon, for instance, for you to write, “The other side of the lake was hidden in the fucking mist.” That will come later. You are setting your scene. You don’t want to make a point as yet.’” </p>
+<p>— from <em>The Finishing School</em></p></font>
+]]>
+</description>
+</item>
+
+<item>
+	<title>The Development Abstraction Layer</title>
+	<link>http://www.joelonsoftware.com/items/2006/04/11.html</link>
+	<author>Joel Spolsky</author>
+	<guid isPermaLink="true">http://www.joelonsoftware.com/items/2006/04/11.html</guid>
+	<pubDate>11 Apr 2006 12:39:00 EST</pubDate>
+	<description>
+<![CDATA[
+<font face="Georgia"><p>A young man comes to town. He is reasonably good looking, has a little money in his pocket. He finds it easy to talk to women.</p>
+<p>He doesn't speak much about his past, but it is clear that he spent a lot of time in a soulless big company.</p>
+<p>He is naturally friendly and outgoing, and quietly confident without being arrogant. So he finds it easy to pick up small gigs from the job board at the local Programmer's Cafe. But he rapidly loses interest in insurance database projects, vanity web pages for housewives, and financial calculation engines.</p>
+<p><a href="http://www.joelonsoftware.com/articles/DevelopmentAbstraction.html">The Development Abstraction Layer</a></p></font>
+]]>
+</description>
+</item>
+
+<item>
+	<title>Internship in Graphic Design</title>
+	<link>http://www.joelonsoftware.com/items/2006/04/10.html</link>
+	<author>Joel Spolsky</author>
+	<guid isPermaLink="true">http://www.joelonsoftware.com/items/2006/04/10.html</guid>
+	<pubDate>10 Apr 2006 10:54:27 EST</pubDate>
+	<description>
+<![CDATA[
+<font face="Georgia"><!-- --><p>If you know a student in graphic design or web design looking for a <a href="http://www.fogcreek.com/Jobs/SummerInterninGraphicDesi.html">paid summer internship</a> in New York City, tell them about Fog Creek!</p></font>
+]]>
+</description>
+</item>
+
+<item>
+	<title>Eric Sink on the Business of Software</title>
+	<link>http://www.joelonsoftware.com/items/2006/04/07.html</link>
+	<author>Joel Spolsky</author>
+	<guid isPermaLink="true">http://www.joelonsoftware.com/items/2006/04/07.html</guid>
+	<pubDate>07 Apr 2006 16:32:44 EST</pubDate>
+	<description>
+<![CDATA[
+<font face="Georgia"><p><a href="http://www.joelonsoftware.com/articles/BusinessofSoftware.html"><img style="MARGIN-LEFT: 5px" alt="Book image: Eric Sink on the Business of Software" src="http://www.joelonsoftware.com/pictures/EricSink.PNG" align="right" border="0" /></a>&#8220;Did I ever tell you the story of my first business?</p>
+<p>&#8220;Let me see if I can remember the whole thing. I was fourteen, I think. They were running some kind of a TESOL summer institute at the University of New Mexico, and I was hired to sit behind a desk and make copies of articles from journals if anybody wanted them.</p>
+<p>&#8220;There was a big urn full of coffee next to the desk, and if you wanted coffee, you helped yourself and left a quarter in a little cup. I didn’t drink coffee, myself, but I <em>did</em> like donuts and thought some nice donuts would go well with the coffee.&#8221;</p>
+<p><a href="http://www.joelonsoftware.com/articles/BusinessofSoftware.html">Foreword to &#8220;Eric Sink on the Business of Software&#8221;</a></p></font>
+]]>
+</description>
+</item>
+
+</channel>
+</rss>

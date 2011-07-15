@@ -1,0 +1,13 @@
+#Sat Feb 18 16:59:47 CET 2006
+compilers.p.build=1
+compilers.p.deprecated=1
+compilers.p.no-required-att=0
+compilers.p.not-externalized-att=2
+compilers.p.unknown-attribute=1
+compilers.p.unknown-class=1
+compilers.p.unknown-element=1
+compilers.p.unknown-resource=1
+compilers.p.unresolved-ex-points=0
+compilers.p.unresolved-import=0
+compilers.use-project=true
+eclipse.preferences.version=1

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl Subscriptions</title>
+    <dateModified>Mo, 03 Aug 2009 22:21:40 CEST</dateModified>
+  </head>
+  <body>
+    <outline text="First Set" rssowl:isSet="true" rssowl:id="194">
+      <outline text="Folder A" rssowl:isSet="false" rssowl:id="426">
+        <outline text="RSSOwl - A Java RSS / RDF / Atom Newsreader - May the owl be with you" xmlUrl="http://www.rssowl.org/node/feed" rssowl:id="429" />
+        <outline text="Bins" rssowl:isSet="false" rssowl:id="529">
+          <rssowl:newsbin name="Bin A" rssowl:id="530" />
+        </outline>
+      </outline>
+    </outline>
+    <outline text="Second Set" rssowl:isSet="true" rssowl:id="423">
+      <outline text="Folder B" rssowl:isSet="false" rssowl:id="427">
+        <outline text="Golem.de" xmlUrl="http://rss.golem.de/rss.php?feed=RSS1.0" rssowl:id="446" />
+        <outline text="Bins" rssowl:isSet="false" rssowl:id="528">
+          <rssowl:newsbin name="Bin B" rssowl:id="531" />
+        </outline>
+      </outline>
+      <outline text="MacOSXHints.com" xmlUrl="http://www.macosxhints.com/backend/geeklog.rdf" rssowl:id="533" />
+      <rssowl:newsbin name="Bin C" rssowl:id="575" />
+      <rssowl:savedsearch name="Search A" matchAllConditions="true" rssowl:id="576">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="11" />
+          <rssowl:searchvalue type="0" value="foo" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="12" />
+          <rssowl:searchvalue type="0">
+            <rssowl:location isBin="false" isFolder="true" value="426" />
+          </rssowl:searchvalue>
+          <rssowl:searchfield id="19" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+    </outline>
+    <rssowl:label id="5" name="To Do" order="4" color="113,160,168" />
+    <rssowl:label id="3" name="Important" order="2" color="177,39,52" />
+    <rssowl:label id="4" name="Work" order="3" color="234,152,79" />
+    <rssowl:label id="1" name="Later" order="0" color="113,21,88" />
+    <rssowl:label id="2" name="Personal" order="1" color="105,130,73" />
+    <rssowl:label id="579" name="RSSOwl" order="5" color="0,0,0" />
+    <rssowl:searchfilter name="Filter" order="0" enabled="true" matchAllNews="false">
+      <rssowl:search matchAllConditions="true">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="11" />
+          <rssowl:searchvalue type="0" value="bar" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="12" />
+          <rssowl:searchvalue type="0">
+            <rssowl:location isBin="false" isFolder="true" value="423" />
+          </rssowl:searchvalue>
+          <rssowl:searchfield id="19" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:search>
+      <rssowl:filteraction id="org.rssowl.core.MoveNewsAction" data="531" />
+      <rssowl:filteraction id="org.rssowl.core.LabelNewsAction" data="579" />
+    </rssowl:searchfilter>
+    <rssowl:pref id="org.rssowl.pref.UseMasterPassword" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.UseOSPassword" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.MarkNewsReadOnMinimize" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.MarkFeedReadOnChange" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.MarkNewsReadOnTabClose" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.DisableJavaScript" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.UseExternalBrowser" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.UseCustomExternalBrowser" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.ReopenBrowserTabs" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.UseSystemTray" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.TrayOnExit" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.TrayOnStart" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.MarkReadState" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.MarkReadInMillis" value="0" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.DelNewsByCountState" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.DelNewsByCountValue" value="200" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.DelNewsByAgeState" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.DelNewsByAgeValue" value="30" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.DelReadNewsState" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.NeverDelUnreadNewsState" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMNewsColumns" value="0,1,2,3,6" type="2" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMNewsSortColumn" value="1" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMNewsSortAscending" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMUpdateInterval" value="1800" type="3" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMUpdateIntervalState" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMOpenOnStartup" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMReloadOnStartup" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.editors.feed.SearchTarget" value="0" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.editors.feed.GroupType" value="0" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.editors.feed.FilterType" value="0" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.editors.feed.SashFormWeights" value="500,500" type="2" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.editors.feed.LayoutVertical" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.editors.feed.BrowserMaximized" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.editors.feed.HighlightSearchResults" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.views.explorer.BeginSearchOnTyping" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.views.explorer.AlwaysShowSearch" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.views.explorer.SortByName" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.views.explorer.FilterType" value="0" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.views.explorer.GroupingType" value="0" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.views.explorer.EnableLinking" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.ui.internal.views.explorer.DisableFavicons" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMNewsFiltering" value="-1" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMNewsGrouping" value="-1" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMLoadImages" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMOpenSiteForNews" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.OpenSiteForEmptyNews" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.ShowNotificationPoup" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.ShowNotificationPoupOnlyWhenMinimized" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.StickyNotificationPoup" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.AutoCloseNotificationPoupValue" value="8" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.LimitNotificationPoup" value="5" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.LimitNotifierToSelection" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CloseNotifierOnOpen" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.FadeNotifier" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.ShowExcerptInNotifier" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.AlwaysReuseFeedView" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.AlwaysReuseBrowser" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpBMByLastVisitState" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpBMByLastVisitValue" value="30" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpBMByLastUpdateState" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpBMByLastUpdateValue" value="30" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpBMByConError" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpBMByDuplicates" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpNewsByCountState" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpNewsByCountValue" value="200" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpNewsByAgeState" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpNewsByAgeValue" value="30" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpReadNewsState" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpNeverDelUnreadNewsState" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpReminderDateMillies" value="1251922586609" type="3" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpReminderState" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.CleanUpReminderDaysValue" value="30" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.SearchDialogPreviewVisible" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.SearchDialogNewsColumns" value="9,0,8,1,2,3,6" type="2" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.SearchDialogNewsSortColumn" value="9" type="1" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.SearchDialogNewsSortAscending" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.ShowToolbar" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.ShowStatus" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.BMLoadTitleFromFeed" value="true" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.OpenBrowserInBackground" value="false" type="0" kind="0" />
+    <rssowl:pref id="org.rssowl.pref.ShareProviderState" value="1,2,3,4,5,6,7,-8,-9,-10,-11,-12,-13,-14,-15,-16,-17,-18" type="2" kind="0" />
+    <rssowl:pref id="instance/org.eclipse.ui.workbench/OPEN_ON_SINGLE_CLICK" value="true" type="0" kind="1" />
+    <rssowl:pref id="instance/org.eclipse.ui.workbench/USE_IPERSISTABLE_EDITORS" value="true" type="0" kind="1" />
+    <rssowl:pref id="instance/org.eclipse.ui/SHOW_MULTIPLE_EDITOR_TABS" value="true" type="0" kind="1" />
+    <rssowl:pref id="instance/org.eclipse.ui.workbench/REUSE_OPEN_EDITORS_BOOLEAN" value="false" type="0" kind="1" />
+    <rssowl:pref id="instance/org.eclipse.ui.workbench/REUSE_OPEN_EDITORS" value="5" type="1" kind="1" />
+    <rssowl:pref id="/configuration/org.eclipse.core.net/proxiesEnabled" value="false" type="0" kind="1" />
+    <rssowl:pref id="/configuration/org.eclipse.core.net/systemProxiesEnabled" value="false" type="0" kind="1" />
+    <rssowl:pref id="/configuration/org.eclipse.core.net/proxyData/HTTP/hasAuth" value="false" type="0" kind="1" />
+    <rssowl:pref id="/configuration/org.eclipse.core.net/proxyData/HTTPS/hasAuth" value="false" type="0" kind="1" />
+    <rssowl:pref id="/configuration/org.eclipse.core.net/proxyData/SOCKS/hasAuth" value="false" type="0" kind="1" />
+  </body>
+</opml>
+

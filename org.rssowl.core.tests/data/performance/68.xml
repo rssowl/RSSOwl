@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://news.nationalgeographic.com">
+<title>National Geographic News</title>
+<link>http://news.nationalgeographic.com</link>
+<description>National Geographic News</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 2003, National Geographic Society</dc:rights>
+<dc:date>2006-05-24T15:15:00-05:00</dc:date>
+<dc:creator>kurtw@nationalgeographic.com</dc:creator>
+<dc:subject>Scientific and Environmental News</dc:subject>
+<syn:updatePeriod>daily</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1901-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://news.nationalgeographic.com/news/2006/05/060523-bear-germany.html?source=rss" />
+  <rdf:li rdf:resource="http://news.nationalgeographic.com/news/2006/05/060523-earthshine.html?source=rss" />
+  <rdf:li rdf:resource="http://news.nationalgeographic.com/news/2006/05/060523-patrol.html?source=rss" />
+  <rdf:li rdf:resource="http://news.nationalgeographic.com/news/2006/05/060522-montenegro.html?source=rss" />
+  <rdf:li rdf:resource="http://news.nationalgeographic.com/news/2006/05/060522-lions.html?source=rss" />
+  <rdf:li rdf:resource="http://news.nationalgeographic.com/news/2006/05/060522-robots.html?source=rss" />
+  <rdf:li rdf:resource="http://news.nationalgeographic.com/news/2006/05/060519_hurricanes.html?source=rss" />
+ </rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="http://news.nationalgeographic.com/news/2006/05/060523-bear-germany.html?source=rss">
+<title>1st Bear in Germany in 170 Years Makes Timely Escape</title>
+<link>http://news.nationalgeographic.com/news/2006/05/060523-bear-germany.html?source=rss</link>
+<description>The drama surrounding the first wild bear to roam Germany in over 170 years has renewed questions about how well humans and bears can coexist.</description>
+</item>
+
+<item rdf:about="http://news.nationalgeographic.com/news/2006/05/060523-earthshine.html?source=rss">
+<title>Earthshine May Help Detect Warming, Alien Life</title>
+<link>http://news.nationalgeographic.com/news/2006/05/060523-earthshine.html?source=rss</link>
+<description>Sunlight reflected from Earth onto the moon may hold clues to global warming and help locate Earth-like planets, scientists say.</description>
+</item>
+
+<item rdf:about="http://news.nationalgeographic.com/news/2006/05/060523-patrol.html?source=rss">
+<title>Poaching Wars in Tibet Inspire "Mountain Patrol" Movie</title>
+<link>http://news.nationalgeographic.com/news/2006/05/060523-patrol.html?source=rss</link>
+<description>Hunting the hunters, Tibetan men have risked their lives to guard rare antelopes whose wool is worth more than cashmere. Their story is the dramatic basis of a new film.</description>
+</item>
+
+<item rdf:about="http://news.nationalgeographic.com/news/2006/05/060522-montenegro.html?source=rss">
+<title>Montenegro Splits From Serbia, Redrawing Europe's Map</title>
+<link>http://news.nationalgeographic.com/news/2006/05/060522-montenegro.html?source=rss</link>
+<description>The last vestiges of the former Yugoslavia vanished today, as people in Montenegro voted narrowly to split from neighboring Serbia, according to early poll results.</description>
+</item>
+
+<item rdf:about="http://news.nationalgeographic.com/news/2006/05/060522-lions.html?source=rss">
+<title>Lion Killings Spur Fears of Regional Extinction in Kenya</title>
+<link>http://news.nationalgeographic.com/news/2006/05/060522-lions.html?source=rss</link>
+<description>Wthin two years ritual hunts and retaliatory killings by livestock herders may destroy the last lions in the shadow of Africa's Mount Kilimanjaro, experts say.</description>
+</item>
+
+<item rdf:about="http://news.nationalgeographic.com/news/2006/05/060522-robots.html?source=rss">
+<title>Mystery Robot Said to Solve Crimes, Find Mines in Chile</title>
+<link>http://news.nationalgeographic.com/news/2006/05/060522-robots.html?source=rss</link>
+<description>A Chilean inventor has built a machine that he claims has extraordinary capabilities for finding buried objects, from bodies to treasure. But he won't say how it works.</description>
+</item>
+
+<item rdf:about="http://news.nationalgeographic.com/news/2006/05/060519_hurricanes.html?source=rss">
+<title>Hurricane Could Devastate New York, U.S. Economy, Experts Warn</title>
+<link>http://news.nationalgeographic.com/news/2006/05/060519_hurricanes.html?source=rss</link>
+<description>Forecasters are warning that a hurricane making landfall at or near New York City could cause major problems well beyond the nation's largest city.</description>
+</item>
+
+</rdf:RDF>

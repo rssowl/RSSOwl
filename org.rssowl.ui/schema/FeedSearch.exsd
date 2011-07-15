@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.rssowl.ui" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="org.rssowl.ui" id="FeedSearch" name="Feed Search"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+This extension point allows to set the webservice that should be used when the user asks for news feeds matching specific set of keywords from the import wizard.
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appInfo>
+            <meta.element />
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="feedSearch"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="feedSearch">
+      <complexType>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The unique ID of this contribution.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="searchUrl" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The URL of a webservice that is used to search for feeds matching a specific set of keywords. Use &apos;[K]&apos; as part of the URL to indicate the location where the keywords are inserted to form the query.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         2.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+The following is an example for using the extension point:
+&lt;pre&gt;&lt;extension
+         point=&quot;org.rssowl.ui.FeedSearch&quot;&gt;
+      &lt;feedSearch
+            id=&quot;org.rssowl.ui.DefaultFeedSearch&quot;
+            searchUrl=&quot;http://www.mywebsite.org/dosearch.php?k=[K]&quot;&gt;
+      &lt;/feedSearch&gt;
+&lt;/extension&gt;&lt;/pre&gt;
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appInfo>
+         <meta.section type="copyright"/>
+      </appInfo>
+      <documentation>
+         Copyright notice (c) 2005-2011 RSSOwl Development Team.                            
+All rights reserved´. This program and the accompanying 
+materials are made available under the terms of the Eclipse 
+Public License v1.0 which accompanies this distribution, and 
+is available at: &lt;a href=&quot;http://www.rssowl.org/legal/epl-v10.html&quot;&gt;http://www.rssowl.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

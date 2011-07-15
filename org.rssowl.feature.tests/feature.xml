@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.rssowl.tests"
+      label="RSSOwl Tests Feature"
+      version="2.1.0.qualifier"
+      provider-name="RSSOwl.org">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.rssowl.lib.jdom"/>
+      <import plugin="org.junit4"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.rssowl.ui"/>
+      <import plugin="org.rssowl.lib.db4o"/>
+      <import plugin="org.rssowl.core"/>
+   </requires>
+
+   <plugin
+         id="org.rssowl.core.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

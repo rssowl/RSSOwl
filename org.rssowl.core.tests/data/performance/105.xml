@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://blog.scifi.com/stargate/">
+<title>Stargate</title>
+<link>http://blog.scifi.com/stargate/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-01-28T00:05:01+00:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.2" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2006/01/acting_acting_a.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2006/01/familiar_faces.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2006/01/front_and_cente.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2006/01/where_were_we.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/09/fight_fight_fig.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/09/ho_hum.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/09/if_you_build_it.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/08/an_alien_planet.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/08/big_ideas.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/08/inanities.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/08/kiss_and_tell.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/07/ronon_dex_in_th.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/07/medium.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/07/keeping_it_real.html" />
+<rdf:li rdf:resource="http://blog.scifi.com/stargate/archives/2005/07/new_beginnings.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://blog.scifi.com/stargate/archives/2006/01/acting_acting_a.html">
+<title>Acting, acting, acting...</title>
+<link>http://blog.scifi.com/stargate/archives/2006/01/acting_acting_a.html</link>
+<description>Yesterday was the first taped casting session of the new season. What generally happens is that our casting agents (we have both US and Canadian casting agents) audition actors for a particular role, and send us tape of the session....</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2006-01-28T00:05:01+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2006/01/familiar_faces.html">
+<title>Familiar Faces</title>
+<link>http://blog.scifi.com/stargate/archives/2006/01/familiar_faces.html</link>
+<description>Pre-production is humming along here at Bridge Studios in Burnaby, BC. Familiar faces are popping up everywhere. Today I saw Michael Blundell, one of our D.O.P’s and Kenny Gibbs, the SG-1 Props Master. He’s the guy we talk to about...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2006-01-21T01:16:41+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2006/01/front_and_cente.html">
+<title>Front and Center</title>
+<link>http://blog.scifi.com/stargate/archives/2006/01/front_and_cente.html</link>
+<description>I just talked with Brad Wright about this week’s Atlantis episode, Epiphany. Now, if you look closely at the credits, you’ll see a familiar name in an unfamiliar place: Story written by Brad Wright &amp; Joe Flanigan. Joe Flanigan? Colonel...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2006-01-13T18:30:00+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2006/01/where_were_we.html">
+<title>Where were we?</title>
+<link>http://blog.scifi.com/stargate/archives/2006/01/where_were_we.html</link>
+<description>Welcome back, sci-fi fans. If you feel anything like I do, you just blinked and all of the sudden it’s 2006. That’s a good thing, because the second half of the season of Stargate SG-1 and Stargate Atlantis kicks off...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2006-01-06T22:54:18+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/09/fight_fight_fig.html">
+<title>Fight! fight! fight!</title>
+<link>http://blog.scifi.com/stargate/archives/2005/09/fight_fight_fig.html</link>
+<description>Well, it’s a strange time of year around here. The last of the shows are being prepped as we speak, and the end of the production season is nigh… There’s the tendency to let up, but you mustn’t give in…....</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-09-23T23:39:31+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/09/ho_hum.html">
+<title>Ho hum...</title>
+<link>http://blog.scifi.com/stargate/archives/2005/09/ho_hum.html</link>
+<description>Big Sci-Fi Friday. On SG-1, you’ll see Prototype and The Fourth Horseman. Next week on Atlantis you get Aurora and The Lost Boys. Lots of episodes tonight… so I’m just going to throw out some behind-the-scenes information I’ve discovered. Yes,...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-09-16T20:35:36+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/09/if_you_build_it.html">
+<title>If you build it...</title>
+<link>http://blog.scifi.com/stargate/archives/2005/09/if_you_build_it.html</link>
+<description>Further to last week, I literally just overheard Joe Mallozzi talking to himself while reading Carl Binder’s script, Inferno. Joe: “Taranis? I thought we used that for something else? It sounds familiar.” Uh oh… Carl might snap – I fear...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-09-09T00:21:17+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/08/an_alien_planet.html">
+<title>An alien planet by any other name</title>
+<link>http://blog.scifi.com/stargate/archives/2005/08/an_alien_planet.html</link>
+<description>Did you ever wonder where all these alien names come from? I mean: Jaffa? Baal? Vala? Yat’yir? (rolls right off the back of the throat, that one). How do these writers come up with them? Well, I asked some of...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-08-25T23:20:49+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/08/big_ideas.html">
+<title>Big Ideas</title>
+<link>http://blog.scifi.com/stargate/archives/2005/08/big_ideas.html</link>
+<description>I walked into work today past the closed Iris – the bay doors to the SG-1 set were wide open. It reminded me of the day the actor playing Tenat came to our end of the hall to show the...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-08-19T01:28:40+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/08/inanities.html">
+<title>Inanities</title>
+<link>http://blog.scifi.com/stargate/archives/2005/08/inanities.html</link>
+<description>I logged onto gateworld today and was completely transfixed by one simple post: “Can a Wraith eat an Ori?” And this is really where my job gets ridiculously fun, because being me, I can just walk two steps to where...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-08-10T00:45:34+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/08/kiss_and_tell.html">
+<title>Kiss and tell...</title>
+<link>http://blog.scifi.com/stargate/archives/2005/08/kiss_and_tell.html</link>
+<description>Well there’s no fact checker, but all of us here at Stargate do believe we’re breaking new ground this week on Stargate Atlantis. In an effort to compete with Will &amp; Grace, this week’s Atlantis episode, entitled “Duet” offers… Wait...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-08-04T19:58:48+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/07/ronon_dex_in_th.html">
+<title>Ronon Dex in the house</title>
+<link>http://blog.scifi.com/stargate/archives/2005/07/ronon_dex_in_th.html</link>
+<description>Now, I don’t know how many of you are religious out there, but can you imagine sitting around, brainstorming, thinking about races and aliens and then coming up with an interesting idea and POOF! Making it happen… Just like that?...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-07-28T23:08:20+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/07/medium.html">
+<title>Medium</title>
+<link>http://blog.scifi.com/stargate/archives/2005/07/medium.html</link>
+<description>I’m sitting in my office, alone, when suddenly… a strange feeling comes over me… I feel the spirit of another life force overtaking me… my eyes roll back into my head, and my eyelids start to flutter… my body starts...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-07-25T22:50:11+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/07/keeping_it_real.html">
+<title>Keeping it real...</title>
+<link>http://blog.scifi.com/stargate/archives/2005/07/keeping_it_real.html</link>
+<description>So initial feedback to the blog is good, for the most part… Most people think it’s informative, upbeat, candid and fun… Almost everybody likes it. Except for one person. One guy thinks it’s too “fan-boy”. One guy thinks it’s too...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-07-20T18:01:35+00:00</dc:date>
+</item>
+<item rdf:about="http://blog.scifi.com/stargate/archives/2005/07/new_beginnings.html">
+<title>New Beginnings</title>
+<link>http://blog.scifi.com/stargate/archives/2005/07/new_beginnings.html</link>
+<description>Well, just like in Poltergeist….”We’re baaaaa-aaaaack”. Yup, SG-1 Season 9 and Atlantis Season 2 premiere tonight and it’s going to be a whole new season of sci-fi twists, turns, new villains, new heroes, old villains in new roles, old characters...</description>
+<dc:subject></dc:subject>
+<dc:creator>Alex Levine</dc:creator>
+<dc:date>2005-07-15T22:54:45+00:00</dc:date>
+</item>
+
+
+</rdf:RDF>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl Subscriptions</title>
+    <dateModified>Mo, 03 Aug 2009 22:29:21 CEST</dateModified>
+  </head>
+  <body>
+    <outline text="My Bookmarks" rssowl:isSet="true" rssowl:id="194">
+      <outline text="Business" rssowl:isSet="false" rssowl:id="195">
+        <outline text="Forbes.com Business News" xmlUrl="http://www.forbes.com/business/index.xml" rssowl:id="196" />
+        <outline text="Moreover - Entrepreneur news" xmlUrl="http://www.moreover.com/cgi-local/page?o=rss002&amp;c=entrepreneur%20news&amp;wiz=2277468" rssowl:id="197" />
+        <outline text="BusinessWeek Online -- Top News" xmlUrl="http://www.businessweek.com/rss/bwdaily.rss" rssowl:id="198" />
+        <outline text="CNN/Money" xmlUrl="http://www.cnn.com/rss/money_topstories.rss" rssowl:id="199" />
+        <outline text="The Motley Fool" xmlUrl="http://www.fool.com/xml/foolnews_rss091.xml" rssowl:id="200" />
+        <outline text="Smartmoney.com" xmlUrl="http://www.smartmoney.com/rss/smheadlines.cfm?feed=1&amp;format=rss091" rssowl:id="201" />
+        <outline text="Inc.com" xmlUrl="http://www.inc.com/rss.xml" rssowl:id="202" />
+        <outline text="Moreover - Small business news" xmlUrl="http://www.moreover.com/cgi-local/page?o=rss002&amp;c=small%20business%20news&amp;wiz=2277468" rssowl:id="203" />
+        <outline text="WSJ.com: Today's Free Features" xmlUrl="http://online.wsj.com/xml/rss/0,,3_7077,00.xml" rssowl:id="204" />
+      </outline>
+      <outline text="Computers" rssowl:isSet="false" rssowl:id="205">
+        <outline text="Mac" rssowl:isSet="false" rssowl:id="206">
+          <outline text="digg - tech news / apple / dig" xmlUrl="http://digg.com/rss/indexappledig.xml" rssowl:id="207" />
+          <outline text="Editors' Notes Weblog" xmlUrl="http://www.macworld.com/weblogs/editors/rss.xml" rssowl:id="208" />
+          <outline text="VersionTracker: Mac OS X" xmlUrl="http://www.versiontracker.com/macosx/recent.rss" rssowl:id="209" />
+          <outline text="Mac 911 Weblog" xmlUrl="http://www.macworld.com/weblogs/mac911/rss.xml" rssowl:id="210" />
+          <outline text="Macworld" xmlUrl="http://rss.macworld.com/macworld/feeds/main" rssowl:id="211" />
+          <outline text="MacNN | The Macintosh News Network" xmlUrl="http://www.macnn.com/macnn.rss" rssowl:id="212" />
+          <outline text="MacFixIt" xmlUrl="http://www.macfixit.com/backend/macfixit.rss" rssowl:id="213" />
+          <outline text="Daring Fireball" xmlUrl="http://daringfireball.net/index.xml" rssowl:id="214" />
+          <outline text="macosxhints" xmlUrl="http://www.macosxhints.com/backend/geeklog.rdf" rssowl:id="215" />
+          <outline text="Mac Help Forums" xmlUrl="http://www.mac-help.com/forums/external.php?type=rss2" rssowl:id="216" />
+          <outline text="Mac OS X Knowledge Base Docs" xmlUrl="http://docs.info.apple.com/rss/macosx.rss" rssowl:id="217" />
+          <outline text="MACnn News" xmlUrl="http://macnn.com/macnn.rss" rssowl:id="218" />
+          <outline text="Macworld" xmlUrl="http://www.macworld.com/rss.xml" rssowl:id="219" />
+          <outline text="Mac Gems Weblog" xmlUrl="http://www.macworld.com/weblogs/macgems/rss.xml" rssowl:id="220" />
+          <outline text="MacInTouch" xmlUrl="http://www.macintouch.com/rss.xml" rssowl:id="221" />
+          <outline text="MacMerc.com" xmlUrl="http://www.macmerc.com/index.rss" rssowl:id="222" />
+        </outline>
+        <outline text="PDA" rssowl:isSet="false" rssowl:id="223">
+          <outline text="Pocket PC Thoughts" xmlUrl="http://www.pocketpcthoughts.com/xml" rssowl:id="224" />
+        </outline>
+        <outline text="Unix" rssowl:isSet="false" rssowl:id="225">
+          <outline text="Linux Journal" xmlUrl="http://www.linuxjournal.com/news.rss" rssowl:id="226" />
+          <outline text="Linux Weekly News" xmlUrl="http://lwn.net/headlines/rss" rssowl:id="227" />
+        </outline>
+        <outline text="OS News" xmlUrl="http://www.osnews.com/files/recent.rdf" rssowl:id="228" />
+      </outline>
+      <outline text="Entertainment" rssowl:isSet="false" rssowl:id="229">
+        <outline text="Books" rssowl:isSet="false" rssowl:id="230">
+          <outline text="Variety.com" xmlUrl="http://www.variety.com/rss.asp?categoryid=1010" rssowl:id="231" />
+          <outline text="NYT Book Review" xmlUrl="http://radio.weblogs.com/0124132/staplerfeeds/nytbook.xml" rssowl:id="232" />
+          <outline text="The Literary Saloon" xmlUrl="http://www.complete-review.com/saloon/rss.xml" rssowl:id="233" />
+          <outline text="The Shifted Librarian" xmlUrl="http://www.theshiftedlibrarian.com/rss.xml" rssowl:id="234" />
+        </outline>
+        <outline text="Cars" rssowl:isSet="false" rssowl:id="235">
+          <outline text="Jalopnik" xmlUrl="http://feeds.gawker.com/jalopnik/full" rssowl:id="236" />
+          <outline text="Future cars, Hybrid Cars" xmlUrl="http://futurecars.blogspot.com/atom.xml" rssowl:id="237" />
+          <outline text="Motorcycle.Com News Feed" xmlUrl="http://www.motorcycle.com/news/news.xml" rssowl:id="238" />
+        </outline>
+        <outline text="Games" rssowl:isSet="false" rssowl:id="239">
+          <outline text="GamersCircle" xmlUrl="http://www.gamerscircle.net/b2rss2.php" rssowl:id="240" />
+          <outline text="Gaming News: GameCube" xmlUrl="http://www.dailygame.net/news/archives/categories/gc/index.xml" rssowl:id="241" />
+          <outline text="Gaming News: Playstation 2" xmlUrl="http://www.dailygame.net/news/archives/categories/ps2/index.xml" rssowl:id="242" />
+          <outline text="Joystiq" xmlUrl="http://www.joystiq.com/rss.xml" rssowl:id="243" />
+        </outline>
+        <outline text="Humor" rssowl:isSet="false" rssowl:id="244">
+          <outline text="Dilbert.com Blog" xmlUrl="http://dilbert.com/blog/" rssowl:id="245" />
+          <outline text="Darkgate Comic Slurper" xmlUrl="http://darkgate.net/comic/feed.php?foxtrot&amp;dilbert&amp;doonesbury&amp;sherman&amp;userf&amp;stonesoup" rssowl:id="246" />
+          <outline text="Get Fuzzy" xmlUrl="http://www.tapestrycomics.com/getfuzzy.xml" rssowl:id="247" />
+          <outline text="Lost Brain" xmlUrl="http://www.lostbrain.com/rss/rssv0_91.xml" rssowl:id="248" />
+        </outline>
+        <outline text="SciFi" rssowl:isSet="false" rssowl:id="249">
+          <outline text="Stargate Blog" xmlUrl="http://blog.scifi.com/stargate/index.rdf" rssowl:id="250" />
+          <outline text="Sci-Fi Storm" xmlUrl="http://scifistorm.org/scifistorm.rdf" rssowl:id="251" />
+        </outline>
+        <outline text="Gawker" xmlUrl="http://www.gawker.com/index.xml" rssowl:id="252" />
+        <outline text="The Movie Blog" xmlUrl="http://feeds.feedburner.com/themovieblog/VkTh" rssowl:id="253" />
+        <outline text="CC Insider" xmlUrl="http://ccinsider.comedycentral.com/cc_insider/atom.xml" rssowl:id="254" />
+      </outline>
+      <outline text="Food" rssowl:isSet="false" rssowl:id="255">
+        <outline text="Bay Area Bites" xmlUrl="http://www.kqed.org/weblog/food/atom.xml" rssowl:id="256" />
+        <outline text="Cucina Testa Rossa" xmlUrl="http://cucinatestarossa.blogs.com/weblog/atom.xml" rssowl:id="257" />
+        <outline text="Eat Feed" xmlUrl="http://www.eatfeed.com/eatfeed.xml" rssowl:id="258" />
+        <outline text="The Food Section" xmlUrl="http://www.thefoodsection.com/foodsection/index.rdf" rssowl:id="259" />
+        <outline text="Simply Recipes" xmlUrl="http://www.elise.com/recipes/index.rdf" rssowl:id="260" />
+      </outline>
+      <outline text="Health" rssowl:isSet="false" rssowl:id="261">
+        <outline text="BBC News | Health" xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/health/rss091.xml" rssowl:id="262" />
+        <outline text="Kevin, M.D. - Medical Weblog" xmlUrl="http://www.kevinmd.com/blog/atom.xml" rssowl:id="263" />
+        <outline text="NBC Bay Area - Health Top Stories" xmlUrl="http://feeds.nbcbayarea.com/nbcbayarea/health/?rss=y" rssowl:id="264" />
+        <outline text="Family Medicine Notes" xmlUrl="http://www.docnotes.net/index.rdf" rssowl:id="265" />
+        <outline text="Pharyngula" xmlUrl="http://pharyngula.org/index.xml" rssowl:id="266" />
+      </outline>
+      <outline text="Internet" rssowl:isSet="false" rssowl:id="267">
+        <outline text="WebDeveloper.com" xmlUrl="http://www.webdeveloper.com/webdeveloper.rdf" rssowl:id="268" />
+        <outline text="internetnews.com" xmlUrl="http://headlines.internet.com/internetnews/top-news/news.rss" rssowl:id="269" />
+        <outline text="SimpleBits" xmlUrl="http://www.simplebits.com/xml/rss.xml" rssowl:id="270" />
+        <outline text="Accessify" xmlUrl="http://www.accessify.com/rss/accessify_rss.xml" rssowl:id="271" />
+        <outline text="WebReference News" xmlUrl="http://www.webreference.com/webreference.rdf" rssowl:id="272" />
+      </outline>
+      <outline text="Music" rssowl:isSet="false" rssowl:id="273">
+        <outline text="iTunes 25 Just Added Albums" xmlUrl="http://phobos.apple.com/WebObjects/MZStore.woa/wpa/MRSS/justadded/limit=25/rss.xml" rssowl:id="274" />
+        <outline text="RollingStone.com Music News" xmlUrl="http://www.rollingstone.com/rssxml/music_news.xml" rssowl:id="275" />
+        <outline text="VH1 News" xmlUrl="http://www.vh1.com/rss/news/latest.jhtml" rssowl:id="276" />
+        <outline text="MTV News" xmlUrl="http://www.mtv.com/rss/news/latest.jhtml" rssowl:id="277" />
+        <outline text="CMT News" xmlUrl="http://www.cmt.com/rss/news/latest.jhtml" rssowl:id="278" />
+        <outline text="iTunes Top 25 Songs" xmlUrl="http://phobos.apple.com/WebObjects/MZStore.woa/wpa/MRSS/topsongs/limit=25/rss.xml" rssowl:id="279" />
+      </outline>
+      <outline text="News" rssowl:isSet="false" rssowl:id="280">
+        <outline text="Guardian Unlimited" xmlUrl="http://www.guardian.co.uk/rss/1,,,00.xml" rssowl:id="281" />
+        <outline text="World Press Review" xmlUrl="http://www.worldpress.org/feeds/topstories.xml" rssowl:id="282" />
+        <outline text="Yahoo! News" xmlUrl="http://rss.news.yahoo.com/rss/topstories" rssowl:id="283" />
+        <outline text="CNN" xmlUrl="http://xml.newsisfree.com/feeds/15/2315.xml" rssowl:id="284" />
+        <outline text="BBC News | News Front Page" xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml" rssowl:id="285" />
+        <outline text="Reuters: Top News" xmlUrl="http://www.microsite.reuters.com/rss/topnews" rssowl:id="286" />
+        <outline text="U.S. News &amp; World Report" xmlUrl="http://www.usnews.com/usnews/usnews.rss" rssowl:id="287" />
+        <outline text="New York Times" xmlUrl="http://xml.newsisfree.com/feeds/64/164.xml" rssowl:id="288" />
+        <outline text="Guardian Unlimited World Latest" xmlUrl="http://www.guardian.co.uk/rssfeed/0,,12,00.xml" rssowl:id="289" />
+        <outline text="The Wall Street Transcript" xmlUrl="http://www.twst.com/mynetscape/main.rdf" rssowl:id="290" />
+        <outline text="TIME Magazine Online" xmlUrl="http://www.time.com/time/rss/top/0,20326,,00.xml" rssowl:id="291" />
+      </outline>
+      <outline text="Podcast" rssowl:isSet="false" rssowl:id="292">
+        <outline text="The Chris Pirillo Show" xmlUrl="http://feeds.pirillo.com/ChrisPirilloShow" rssowl:id="293" />
+        <outline text="Open Source" xmlUrl="http://www.radioopensource.org/wp-rss2.php?cat=18" rssowl:id="294" />
+        <outline text="President's Weekly Radio Address" xmlUrl="http://www.whitehouse.gov/rss/radioaddress.xml" rssowl:id="295" />
+        <outline text="Geek News Central" xmlUrl="http://www.geeknewscentral.com/index.xml" rssowl:id="296" />
+        <outline text="this WEEK in TECH" xmlUrl="http://leo.am/podcasts/twit" rssowl:id="297" />
+        <outline text="Adam Curry: Daily Source Code" xmlUrl="http://radio.weblogs.com/0001014/categories/dailysourcecode/rss.xml" rssowl:id="298" />
+        <outline text="Geek News Central Podcast" xmlUrl="http://www.geeknewscentral.com/podcast.xml" rssowl:id="299" />
+      </outline>
+      <outline text="Politics" rssowl:isSet="false" rssowl:id="300">
+        <outline text="GrokLaw" xmlUrl="http://www.groklaw.net/backend/groklaw.rdf" rssowl:id="301" />
+        <outline text="The Agitator" xmlUrl="http://theagitator.com/index.xml" rssowl:id="302" />
+        <outline text="Davenetics Politics (electablog)" xmlUrl="http://www.electablog.com/rss.xml" rssowl:id="303" />
+        <outline text="Talking Points Memo" xmlUrl="http://www.talkingpointsmemo.com/index.xml" rssowl:id="304" />
+      </outline>
+      <outline text="Science" rssowl:isSet="false" rssowl:id="305">
+        <outline text="Physics Post" xmlUrl="http://physicspost.com/rss.php" rssowl:id="306" />
+        <outline text="ScienceDaily Headlines" xmlUrl="http://www.sciencedaily.com/newsfeed.xml" rssowl:id="307" />
+        <outline text="National Geographic News" xmlUrl="http://news.nationalgeographic.com/index.rss" rssowl:id="308" />
+        <outline text="Tom's Astronomy Blog" xmlUrl="http://tomsastroblog.com/?feed=atom" rssowl:id="309" />
+        <outline text="Scientific American - Official RSS Feed" xmlUrl="http://www.sciam.com/xml/sciam.xml" rssowl:id="310" />
+        <outline text="SPACE.com" xmlUrl="http://www.space.com/syn/space.xml" rssowl:id="311" />
+        <outline text="Minding the Planet" xmlUrl="http://novaspivack.typepad.com/nova_spivacks_weblog/atom.xml" rssowl:id="312" />
+        <outline text="Yahoo! News: Science News" xmlUrl="http://rss.news.yahoo.com/rss/science" rssowl:id="313" />
+      </outline>
+      <outline text="Software" rssowl:isSet="false" rssowl:id="314">
+        <outline text="BetaNews.Com" xmlUrl="http://www.betanews.com/mnn.php3" rssowl:id="315" />
+        <outline text="freshmeat.net" xmlUrl="http://freshmeat.net/backend/fm.rdf" rssowl:id="316" />
+        <outline text="SnapFiles latest software" xmlUrl="http://www.webattack.com/webattack.xml" rssowl:id="317" />
+        <outline text="Dev Shed" xmlUrl="http://www.devshed.com/index2.php?option=mos_rss&amp;no_html=1" rssowl:id="318" />
+        <outline text="MajorGeeks.com" xmlUrl="http://www.majorgeeks.com/backend.php?id=120" rssowl:id="319" />
+        <outline text="PC Magazine" xmlUrl="http://rssnewsapps.ziffdavis.com/pcmag.xml" rssowl:id="320" />
+        <outline text="Slashdot" xmlUrl="http://slashdot.org/slashdot.rss" rssowl:id="321" />
+        <outline text="PCWorld.com - Popular downloads" xmlUrl="http://feeds.pcworld.com/pcworld/downloads/weekly" rssowl:id="322" />
+        <outline text="mozillaZine" xmlUrl="http://www.mozillazine.org/atom.xml" rssowl:id="323" />
+        <outline text="Free Vista Files" xmlUrl="http://www.freevistafiles.com/rss/new_software.xml" rssowl:id="324" />
+        <outline text="FilePlaza" xmlUrl="http://www.fileplaza.com/lastaddedsoftware.rss" rssowl:id="325" />
+        <outline text="Do Download" xmlUrl="http://www.dodownload.com/rss/new_software.xml" rssowl:id="326" />
+      </outline>
+      <outline text="Sports" rssowl:isSet="false" rssowl:id="327">
+        <outline text="NBC Bay Area - Sports Top Stories" xmlUrl="http://feeds.nbcbayarea.com/nbcbayarea/sports/?rss=y" rssowl:id="328" />
+        <outline text="AP Sports" xmlUrl="http://xml.newsisfree.com/feeds/71/1471.xml" rssowl:id="329" />
+        <outline text="Yahoo! News - Sports" xmlUrl="http://rss.news.yahoo.com/rss/sports" rssowl:id="330" />
+        <outline text="BBC Sport" xmlUrl="http://newsrss.bbc.co.uk/rss/sportonline_world_edition/front_page/rss.xml" rssowl:id="331" />
+        <outline text="PR Web Sports" xmlUrl="http://www.prweb.com/xml/sports.xml" rssowl:id="332" />
+        <outline text="Fanblogs.com" xmlUrl="http://www.fanblogs.com/site.xml" rssowl:id="333" />
+        <outline text="New York Times: Sports" xmlUrl="http://partners.userland.com/nytrss/sports.xml" rssowl:id="334" />
+        <outline text="ESPN.com" xmlUrl="http://sports.espn.go.com/espn/rss/news" rssowl:id="335" />
+      </outline>
+      <outline text="Technology" rssowl:isSet="false" rssowl:id="336">
+        <outline text="Programming Languages" rssowl:isSet="false" rssowl:id="337">
+          <outline text="PHPBuilder.com" xmlUrl="http://phpbuilder.com/rss_feed.php?type=articles&amp;limit=20" rssowl:id="338" />
+          <outline text="PHP News" xmlUrl="http://www.php.net/news.rss" rssowl:id="339" />
+          <outline text="Java" xmlUrl="http://developers.sun.com/rss/sdn.xml" rssowl:id="340" />
+          <outline text="Planet JDK" xmlUrl="http://planetjdk.org/feed.atom-1.0" rssowl:id="341" />
+          <outline text="Servlets.com" xmlUrl="http://www.servlets.com/blog/index.rss" rssowl:id="342" />
+          <outline text="JavaScript Tips" xmlUrl="http://www.webreference.com/js/tips/channels/last1515.rdf" rssowl:id="343" />
+        </outline>
+        <outline text="Security" rssowl:isSet="false" rssowl:id="344">
+          <outline text="Computer World Security Knowledge Center" xmlUrl="http://www.computerworld.com/news/xml/0,5000,73,00.xml" rssowl:id="345" />
+          <outline text="Computer World Security Holes" xmlUrl="http://www.computerworld.com/news/xml/0,5000,584,00.xml" rssowl:id="346" />
+          <outline text="Computer World Hacking News" xmlUrl="http://www.computerworld.com/news/xml/0,5000,583,00.xml" rssowl:id="347" />
+        </outline>
+        <outline text="Wireless" rssowl:isSet="false" rssowl:id="348">
+          <outline text="Computer World Mobile" xmlUrl="http://www.computerworld.com/news/xml/0,5000,68,00.xml" rssowl:id="349" />
+          <outline text="The RFID Weblog" xmlUrl="http://www.rfid-weblog.com/index.rdf" rssowl:id="350" />
+          <outline text="WiFi Planet" xmlUrl="http://www.wi-fiplanet.com/icom_includes/feeds/80211/xml_front-news-10.xml" rssowl:id="351" />
+          <outline text="InfoWorld: Wireless" xmlUrl="http://www.infoworld.com/rss/wireless.rdf" rssowl:id="352" />
+        </outline>
+        <outline text="Digital Photography Review" xmlUrl="http://www.dpreview.com/news/dpr.rdf" rssowl:id="353" />
+        <outline text="eWEEK Technology News" xmlUrl="http://rssnewsapps.ziffdavis.com/tech.xml" rssowl:id="354" />
+        <outline text="Javalobby Front Page" xmlUrl="http://www.javalobby.org/forumrss/61.xml" rssowl:id="355" />
+        <outline text="Joel on Software" xmlUrl="http://www.joelonsoftware.com/rss.xml" rssowl:id="356" />
+        <outline text="BBC News | Technology | World Edition" xmlUrl="http://news.bbc.co.uk/rss/newsonline_world_edition/technology/rss091.xml" rssowl:id="357" />
+        <outline text="Shacknews" xmlUrl="http://www.shacknews.com/headlines.rdf" rssowl:id="358" />
+        <outline text="Graphics News" xmlUrl="http://www.graphicsnews.com/backend.php" rssowl:id="359" />
+        <outline text="ThinkGeek: What's New" xmlUrl="http://www.thinkgeek.com/thinkgeek.rdf" rssowl:id="360" />
+        <outline text="Ars Technica" xmlUrl="http://arstechnica.com/index.ars/rss" rssowl:id="361" />
+        <outline text="TechBookReport" xmlUrl="http://www.techbookreport.com/rss/rss.xml" rssowl:id="362" />
+        <outline text="KDE Dot News" xmlUrl="http://www.kde.org/dotkdeorg.rdf" rssowl:id="363" />
+        <outline text="iPodlounge" xmlUrl="http://www.ipodlounge.com/index.xml" rssowl:id="364" />
+        <outline text="Wired News" xmlUrl="http://www.wired.com/news_drop/netcenter/netcenter.rdf" rssowl:id="365" />
+        <outline text="OSI News Weblog" xmlUrl="http://opensource.org/blog/feed" rssowl:id="366" />
+        <outline text="digg - tech news" xmlUrl="http://digg.com/rss/index.xml" rssowl:id="367" />
+        <outline text="CNET News" xmlUrl="http://rss.com.com/2547-12-0-20.xml" rssowl:id="368" />
+        <outline text="Anand Tech" xmlUrl="http://www.anandtech.com/rss/articlefeed.aspx" rssowl:id="369" />
+        <outline text="ZDNet News - Front Door" xmlUrl="http://news.zdnet.com/2509-1_22-0-20.xml" rssowl:id="370" />
+        <outline text="XML News" xmlUrl="http://www.xml.com/cs/xml/query/q/19" rssowl:id="371" />
+        <outline text="The Register" xmlUrl="http://www.theregister.co.uk/tonys/slashdot.rdf" rssowl:id="372" />
+        <outline text="Apache News Online" xmlUrl="http://www.apachenews.org/index.rdf" rssowl:id="373" />
+        <outline text="NewsForge" xmlUrl="http://www.newsforge.com/reports.rss" rssowl:id="374" />
+        <outline text="Computer World" xmlUrl="http://www.computerworld.com/news/xml/10/0,5009,,00.xml" rssowl:id="375" />
+        <outline text="Microsoft Security Bulletins" xmlUrl="http://www.microsoft.com/technet/security/bulletin/secrss.aspx" rssowl:id="376" />
+        <outline text="MAKE: Blog" xmlUrl="http://www.makezine.com/blog/index.rdf" rssowl:id="377" />
+        <outline text="Planet Mozilla" xmlUrl="http://planet.mozilla.org/rss20.xml" rssowl:id="378" />
+        <outline text="Planet GNOME" xmlUrl="http://planet.gnome.org/rss20.xml" rssowl:id="379" />
+        <outline text="Planet Classpath" xmlUrl="http://planet.classpath.org/rss20.xml" rssowl:id="380" />
+        <outline text="Fedora People" xmlUrl="http://planet.fedoraproject.org/rss20.xml" rssowl:id="381" />
+        <outline text="Planet Debian" xmlUrl="http://planet.debian.org/rss20.xml" rssowl:id="382" />
+        <outline text="Mozillazine" xmlUrl="http://planet.mozillazine.org/rss20.xml" rssowl:id="383" />
+        <outline text="Eclipse News" xmlUrl="http://www.eclipse.org/home/eclipsenews.rss" rssowl:id="384" />
+        <outline text="Planet Eclipse" xmlUrl="http://www.planeteclipse.org/planet/atom.xml" rssowl:id="385" />
+        <outline text="EclipseZone: News" xmlUrl="http://www.eclipsezone.com/forumRSS/18112.xml" rssowl:id="386" />
+        <outline text="EclipseZone: Tips" xmlUrl="http://www.eclipsezone.com/forumRSS/18111.xml" rssowl:id="387" />
+        <outline text="Eclipse Podcasts" xmlUrl="http://feeds.feedburner.com/ezpodcast" rssowl:id="388" />
+      </outline>
+      <outline text="Weblogs" rssowl:isSet="false" rssowl:id="389">
+        <outline text="Google Sightseeing" xmlUrl="http://googlesightseeing.com/feed" rssowl:id="390" />
+        <outline text="LivingRoom. A space for Life" xmlUrl="http://www.livingroom.org.au/blog/index.rdf" rssowl:id="391" />
+        <outline text="Scobleizer -- Tech geek blogger" xmlUrl="http://scobleizer.wordpress.com/feed/" rssowl:id="392" />
+        <outline text="Mini-Microsoft" xmlUrl="http://minimsft.blogspot.com/atom.xml" rssowl:id="393" />
+        <outline text="Google Blogoscoped" xmlUrl="http://blog.outer-court.com/rss.xml" rssowl:id="394" />
+        <outline text="HorsePigCow: life uncommon" xmlUrl="http://feeds.feedburner.com/horsepigcowLifeUncommon" rssowl:id="395" />
+        <outline text="Wizbang" xmlUrl="http://wizbangblog.com/index.rdf" rssowl:id="396" />
+        <outline text="little. yellow. different." xmlUrl="http://littleyellowdifferent.com/index.xml" rssowl:id="397" />
+        <outline text="Blogcritics" xmlUrl="http://www.blogcritics.org/index.rdf" rssowl:id="398" />
+        <outline text="Jonathan Schwartz's Weblog" xmlUrl="http://blogs.sun.com/roller/rss/jonathan" rssowl:id="399" />
+        <outline text="Boing Boing" xmlUrl="http://www.boingboing.net/index.rdf" rssowl:id="400" />
+        <outline text="Anil Dash" xmlUrl="http://www.dashes.com/anil/index.rdf" rssowl:id="401" />
+        <outline text="Pandagon" xmlUrl="http://pandagon.net/index.php/site/rss_2.0/" rssowl:id="402" />
+      </outline>
+      <outline text="RSSOwl News" xmlUrl="http://www.rssowl.org/newsfeed" rssowl:id="403" />
+      <outline text="Engadget" xmlUrl="http://www.engadget.com/rss.xml" rssowl:id="404" />
+      <outline text="MarketWatch" xmlUrl="http://feeds.marketwatch.com/marketwatch/topstories" rssowl:id="405" />
+      <outline text="New York Times" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" rssowl:id="406" />
+      <outline text="Techcrunch" xmlUrl="http://feedproxy.google.com/Techcrunch" rssowl:id="407" />
+      <outline text="Wired Top Stories" xmlUrl="http://feeds.wired.com/wired/index" rssowl:id="408" />
+      <rssowl:savedsearch name="New and Updated News" matchAllConditions="true" rssowl:id="409">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="7">
+            <rssowl:newsstate value="0" />
+            <rssowl:newsstate value="3" />
+          </rssowl:searchvalue>
+          <rssowl:searchfield id="14" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="Recent News" matchAllConditions="true" rssowl:id="411">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="9" />
+          <rssowl:searchvalue type="4" value="2" />
+          <rssowl:searchfield id="18" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="News with Attachments" matchAllConditions="true" rssowl:id="413">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="6" value="true" />
+          <rssowl:searchfield id="10" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="Sticky News" matchAllConditions="true" rssowl:id="415">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="6" value="true" />
+          <rssowl:searchfield id="13" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <rssowl:savedsearch name="Labeled News" matchAllConditions="false" rssowl:id="417">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="0" />
+          <rssowl:searchvalue type="7" value="*" />
+          <rssowl:searchfield id="15" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+    </outline>
+  </body>
+</opml>
+

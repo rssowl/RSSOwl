@@ -1,0 +1,1876 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fr="http://ASPRSS.com/fr.html" xmlns:pa="http://ASPRSS.com/pa.html" xmlns="http://purl.org/rss/1.0">
+<channel rdf:about="Physics Post">
+  <title>Physics Post</title>
+  <link>http://www.physicspost.com</link>
+  <description>Read physics and science articles.  Learn about black holes, speed of light and superstring theory.</description>
+  <dc:publisher>Physics Post</dc:publisher>
+  <dc:creator>Physics Post (mailto:ghb@uwm.edu)</dc:creator>
+  <image rdf:resource="http://www.physicspost.com/images/logo.gif" />
+  <items>
+    <rdf:Seq>
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=213" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=212" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=211" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=210" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=209" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=208" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=207" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=206" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=205" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=203" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=202" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=201" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=200" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=198" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=197" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=196" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=195" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=194" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=193" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=192" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=191" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=190" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=189" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=188" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=187" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=186" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=184" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=183" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=182" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=181" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=180" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=179" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=178" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=176" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=175" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=174" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=173" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=172" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=171" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=170" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=169" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=168" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=167" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=166" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=164" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=163" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=162" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=160" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=159" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=158" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=157" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=156" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=155" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=154" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=153" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=152" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=151" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=150" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=149" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=148" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=147" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=146" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=145" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=144" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=143" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=142" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=141" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=140" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=139" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=138" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=137" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=136" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=135" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=134" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=133" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=132" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=131" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=130" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=129" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=128" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=127" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=126" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=125" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=124" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=123" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=122" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=121" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=120" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=119" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=118" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=117" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=116" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=115" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=114" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=113" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=112" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=111" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=109" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=108" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=107" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=106" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=105" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=104" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=103" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=102" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=101" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=100" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=99" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=98" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=97" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=96" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=95" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=94" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=93" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=92" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=91" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=90" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=89" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=88" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=86" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=85" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=84" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=82" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=81" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=80" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=77" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=76" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=75" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=74" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=71" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=68" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=65" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=64" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=63" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=62" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=61" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=60" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=58" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=57" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=53" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=51" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=50" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=48" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=47" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=46" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=45" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=44" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=43" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=42" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=41" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=40" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=39" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=37" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=36" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=35" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=34" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=33" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=32" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=31" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=30" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=29" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=28" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=26" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=25" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=24" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=23" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=21" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=20" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=19" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=18" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=17" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=15" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=14" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=13" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=12" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=11" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=10" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=9" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=5" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=4" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=2" />
+    <rdf:li rdf:resource="http://www.physicspost.com/articles.php?articleId=1" />
+    </rdf:Seq>
+  </items>
+</channel>
+<image rdf:about="http://www.physicspost.com/images/logo.gif">
+  <title>Physics Post</title>
+  <url>http://www.physicspost.com/images/logo.gif</url>
+  <link>http://www.physicspost.com</link>
+</image>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=213">
+  <title>Does spooky action at a distance allow faster than light communication</title>
+  <description>Quantum entanglement as first explained in the EPR paper written by Einstein and his colleagues seems to imply that a quotspookyquot connection exists between particles that have interacted in the past Does this connection allow us to communicate faster than the speed of light</description>
+  <link>http://www.physicspost.com/articles.php?articleId=213</link>
+  <dc:date>2006-03-21</dc:date>
+  <dc:creator>
+David Mcmahon (mailto:dmmcmah@sandia.gov)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=212">
+  <title>The Method of Eigenfunction Expansion</title>
+  <description>In this article we explore a technique used to solve partial differential equations called the method of eigenfunction expansion</description>
+  <link>http://www.physicspost.com/articles.php?articleId=212</link>
+  <dc:date>2005-03-19</dc:date>
+  <dc:creator>
+David Mcmahon (mailto:dmmcmah@sandia.gov)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=211">
+  <title>7 Keys to Success with a Physics Degree</title>
+  <description>Students and educators in physics often worry that a physics degree leaves students unprepared for jobs in industry In this article we explore seven steps students can take to ensure that while getting their physics degree they are also preparing themselves for a job in industry</description>
+  <link>http://www.physicspost.com/articles.php?articleId=211</link>
+  <dc:date>2006-03-14</dc:date>
+  <dc:creator>
+David Mcmahon (mailto:dmmcmah@sandia.gov)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=210">
+  <title>Employment in Physics</title>
+  <description>There have been frequent questions on the kinds of employment that are available for physicists That question is very difficult to answer because it depends on a number of factors such as where you are what degree you obtained what area of specialization you went into and what skill you have acquired</description>
+  <link>http://www.physicspost.com/articles.php?articleId=210</link>
+  <dc:date>2006-02-14</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=209">
+  <title>Condensed Matter Physics</title>
+  <description>Consider the fact that when most brighteyed physics majors in their first year entering a university they are either not aware or hardly know anything about a field of physics known as condensed matter</description>
+  <link>http://www.physicspost.com/articles.php?articleId=209</link>
+  <dc:date>2006-01-01</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=208">
+  <title>Why is Quantum Mechanics SO difficult</title>
+  <description>Strangely enough QM39s formalism isn39t any more difficult than other areas of physics The mathematics of the quotstandardquot QM isn39t any worse than let39s say electromagnetism Yet to many people especially nonphysicists QM presents a very daunting effort to understand</description>
+  <link>http://www.physicspost.com/articles.php?articleId=208</link>
+  <dc:date>2005-06-09</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=207">
+  <title>So You Want To Be A Physicist 3</title>
+  <description>We are still discussing the final year of your undergraduate education So far we have covered what you need to consider if you want to go on to graduate school and prepare yourself as best as you can for that part of your journey However this isn39t the only path one can take with an undergraduate physics degree Many physics degree holder do not continue to pursue a graduate degree in physics</description>
+  <link>http://www.physicspost.com/articles.php?articleId=207</link>
+  <dc:date>2005-05-30</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=206">
+  <title>So You Want To Be A Physicist 2</title>
+  <description>We have now reached the final year of your undergraduate program By now you would have gone through courses in the fundamental pillars of physics Classical mechanics Quantum mechanics and EM and even courses in ThermodynamicsStatistical Physics</description>
+  <link>http://www.physicspost.com/articles.php?articleId=206</link>
+  <dc:date>2005-04-28</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=205">
+  <title>So You Want To Be A Physicist</title>
+  <description>One of the most frequent questions we get besides the annoying quotcan anything travel faster than cquot or quotshouldn39t light have mass since Emc2quot is the process and background of being a physics major Often we have students asking what are the requirements of obtaining a physics degree and what can one do with such accomplishments</description>
+  <link>http://www.physicspost.com/articles.php?articleId=205</link>
+  <dc:date>2005-04-18</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=203">
+  <title>Steady state theory</title>
+  <description>In cosmology the steady state theory is a model developed in 1949 by Fred Hoyle Thomas Gold and others as an alternative to the Big Bang theory Although the model had a large number of supporters among cosmologists in the 1950s and 1960s the number of supporters decreased markedly in the late 1960s and today it is considered a nonstandard cosmology It is also the basis for another theory known as the quasisteady state theory which postulates a lot of little big bangs occurring over time</description>
+  <link>http://www.physicspost.com/articles.php?articleId=203</link>
+  <dc:date>2005-04-10</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=202">
+  <title>Vacuum energy</title>
+  <description>Quantum field theory considers the vacuum ground state not to be completely empty but to consist of a seething mass of virtual particles and fields</description>
+  <link>http://www.physicspost.com/articles.php?articleId=202</link>
+  <dc:date>2004-11-03</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=201">
+  <title>National Security Nightmare</title>
+  <description>World scientists have been committing millions and now billions of dollars in 2004 for the research and construction of a quantum computer capable of performing calculations a billion times faster than a classical computer</description>
+  <link>http://www.physicspost.com/articles.php?articleId=201</link>
+  <dc:date>2004-08-09</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=200">
+  <title>Car handling physics model in Xpand Rally</title>
+  <description>During the design and the creation of Xpand Rally its developers were aiming towards completely new quality and realism level in a racing game</description>
+  <link>http://www.physicspost.com/articles.php?articleId=200</link>
+  <dc:date>2004-08-06</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=198">
+  <title>Nikola Tesla</title>
+  <description>Nikola Tesla July 10 1856  January 7 1943 Baptism name  Nikolaj Name in Cyrillic alphabet   was a SerbAmerican physicist mathematician inventor and electrical engineer</description>
+  <link>http://www.physicspost.com/articles.php?articleId=198</link>
+  <dc:date>2004-05-31</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=197">
+  <title>The Future of Biotechnology</title>
+  <description>This lecture is based on interviews with 150 of the worlds top scientists many of them Nobel Laureates or directors of major scientific laboratories about their conception of the science of the next 20 to 50 years</description>
+  <link>http://www.physicspost.com/articles.php?articleId=197</link>
+  <dc:date>2004-04-15</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=196">
+  <title>Piercing the Haze of Titan</title>
+  <description>Imagine an alien world where hydrocarbons reign or rain instead of water  More than mere speculation such a place is believed to exist in our solar system  This world has been named Titan as it is by far the largest of Saturns 31 moons  Titan has been a long time curiosity to astronomers and now finally we are set to conduct some significant upclose explorations  </description>
+  <link>http://www.physicspost.com/articles.php?articleId=196</link>
+  <dc:date>2004-04-13</dc:date>
+  <dc:creator>
+James Ropp (mailto:phobos042@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=195">
+  <title>NavierStokes equations</title>
+  <description>In fluid dynamics the NavierStokes equations are a set of nonlinear partial differential equations that describe the flow of fluids such as liquids and gases</description>
+  <link>http://www.physicspost.com/articles.php?articleId=195</link>
+  <dc:date>2004-04-04</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=194">
+  <title>Bacterial Mechanisms of Infection An Introduction</title>
+  <description>Bacteria are our friend and foes and some have developed specific mechanism to colonize animals Commensal bacteria use these mechanism to benefits their host whereas infectious bacteria use the same mechanism as biological weapons In this article I will introduce the fine line that differentiate between friends and enemies</description>
+  <link>http://www.physicspost.com/articles.php?articleId=194</link>
+  <dc:date>2004-03-20</dc:date>
+  <dc:creator>
+Yannick Tremblay (mailto:yantremblay29@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=193">
+  <title>Mesothelioma</title>
+  <description>Mesothelioma is an uncommon form of cancer associated with prolonged exposure to asbestos which affects the pleura a sac which surrounds the lungs the peritoneum the lining of the abdominal cavity or the pericardium a sac which surrounds the heart</description>
+  <link>http://www.physicspost.com/articles.php?articleId=193</link>
+  <dc:date>2004-03-01</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=192">
+  <title>A Trip as Far Away as SpaceTime Will Allow</title>
+  <description>No one knows if aliens are really blowing up their starships over Council Bluffs But if extraterrestrial life forms are visiting from time to time somewhere some sentient beings must have figured out a way to transit interstellar space</description>
+  <link>http://www.physicspost.com/articles.php?articleId=192</link>
+  <dc:date>2004-03-08</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=191">
+  <title>Neural networks</title>
+  <description>An artificial neural network more commonly known as a neural network or neural net for short is a mathematical model for information processing based on a connectionist approach to computation</description>
+  <link>http://www.physicspost.com/articles.php?articleId=191</link>
+  <dc:date>2004-03-05</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=190">
+  <title>Fermionic condensate</title>
+  <description>The fermionic condensate is a new phase of matter first created on December 16 2003 by physicist Deborah S Jin It is the sixth known phase of matter and is related to the BoseEinstein condensate which was first created in 1995 The five other phases of matter are gases solids liquids plasmas and BoseEinstein condensates</description>
+  <link>http://www.physicspost.com/articles.php?articleId=190</link>
+  <dc:date>2004-02-24</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=189">
+  <title>My Name Finally Makes an Impact</title>
+  <description>On July 4 2005 my name will be obliterated  NASA is burning my name onto a CD and blasting it off the face of the Earth set on a collision course with a nearby comet   Deep Impact mission</description>
+  <link>http://www.physicspost.com/articles.php?articleId=189</link>
+  <dc:date>2004-02-09</dc:date>
+  <dc:creator>
+James Ropp (mailto:phobos042@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=188">
+  <title>Protonproton chains</title>
+  <description>The protonproton chain reaction also known as the PP chain is one of two fusion reactions by which stars convert hydrogen to helium the other being the CNO cycle The protonproton chain is more important in stars the size of the Sun or less</description>
+  <link>http://www.physicspost.com/articles.php?articleId=188</link>
+  <dc:date>2004-01-31</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=187">
+  <title>Digital circuits</title>
+  <description>Digital circuits are electric circuits based on a number of discrete voltage levels In most cases there are two voltage levels one near to zero volts and one at a higher level depending on the supply voltage in use</description>
+  <link>http://www.physicspost.com/articles.php?articleId=187</link>
+  <dc:date>2004-01-27</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=186">
+  <title>Ren Descartes</title>
+  <description>We may consider Descartes as the first of the modern school of mathematics Ren Descartes was born near Tours on March 31 1596 and died at Stockholm on February 11 1650 thus he was a contemporary of Galileo and Desargues</description>
+  <link>http://www.physicspost.com/articles.php?articleId=186</link>
+  <dc:date>2004-01-23</dc:date>
+  <dc:creator>
+Tab Stevens (mailto:tab21@earthlink.net)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=184">
+  <title>Your Environment Can Affect Your Health</title>
+  <description>There are many factors that can cause your physiology to move away from that state of balance in which you enjoy perfect complete health One big factor is environment Climatetemperatures outside</description>
+  <link>http://www.physicspost.com/articles.php?articleId=184</link>
+  <dc:date>2004-01-12</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=183">
+  <title>Questioning the Proof</title>
+  <description>Science has the problem of induction we can not really know anything to be ultimately true thus a perfect 39proof39 in the mathematical sense is unattainable Proof is however in mathematics the essence But what are the simliarities between the types of proof Read on</description>
+  <link>http://www.physicspost.com/articles.php?articleId=183</link>
+  <dc:date>2003-12-24</dc:date>
+  <dc:creator>
+Christian Ottem (mailto:christian_ottem@yahoo.no)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=182">
+  <title>Forces</title>
+  <description>These are the topic areas that will be discussed Basics of Forces Force Diagrams Addition of Forces EquilibriumGravity and Friction
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=182</link>
+  <dc:date>2003-12-16</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=181">
+  <title>Particle Systems A Physically Based Modelling Approach</title>
+  <description>This article will pick up where the last article finished It will show the reader how to make more accurate simulations using numerical methods </description>
+  <link>http://www.physicspost.com/articles.php?articleId=181</link>
+  <dc:date>2003-11-25</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=180">
+  <title>Well miss you Galileo</title>
+  <description>Read about the blazing end to an unprecedented survey of the solar systems largest planet by NASAs Galileo spacecraft that resulted in amazing discoveries whiteknuckle moments and some interesting sidebars</description>
+  <link>http://www.physicspost.com/articles.php?articleId=180</link>
+  <dc:date>2003-11-19</dc:date>
+  <dc:creator>
+James Ropp (mailto:phobos042@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=179">
+  <title>Energy Redshift Paradox</title>
+  <description>Within the framework of General Relativity in one of its most simple forms the Schwarzschild solution a very interesting paradox can be proposed involving the conservation of work  energy  Its a puzzle for the Relativity buff  In this short discussion I outline this energy redshift paradox and the implications for an attempted solution</description>
+  <link>http://www.physicspost.com/articles.php?articleId=179</link>
+  <dc:date>2003-11-13</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=178">
+  <title>Mechanical Energy Basics</title>
+  <description>These are the topic areas covered in the notes for this article The Concept of Energy Work and Power Potential Energy Kinetic Energy Change in Energy Conservation of Energy Elastic Collisions</description>
+  <link>http://www.physicspost.com/articles.php?articleId=178</link>
+  <dc:date>2003-11-12</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=176">
+  <title>An Introduction to Black Hole Thermodynamics</title>
+  <description>Black Holes have always ben a controversial affair among Theoretical Astrophysicists Especially the Thermodynamics of a Black Hole It was considered that the entropy of a Black Hole is infinitely large until Stephen Hawking proved that Black Holes are not really Black They infact Radiate and evaporate How is this so What are the laws of Thermodynamics governing this process Read on</description>
+  <link>http://www.physicspost.com/articles.php?articleId=176</link>
+  <dc:date>2003-10-28</dc:date>
+  <dc:creator>
+Sridhar Narayanan (mailto:sridhar_n@email.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=175">
+  <title>Impact of the natural universal phylogenetic classification on the evolution of cells theory</title>
+  <description>Taxonomy is often seen as a trivial and boring part of biology For many decades classification of organisms was based on morphology behaviour and distribution in the environment With the advance of molecular biology and the sequencing era a modern classification tool arose the smallsubunit of ribosomal ribonucleic acid A new universal phylogenetic tree was born Recently a new theory about cellular emerged The theory was influence by the 1618S rRNAbased phylogenetic tree</description>
+  <link>http://www.physicspost.com/articles.php?articleId=175</link>
+  <dc:date>2003-10-27</dc:date>
+  <dc:creator>
+Yannick Tremblay (mailto:yantremblay29@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=174">
+  <title>Introduction to Cryptology  Part 1</title>
+  <description>This series of articles will introduce readers to the ancient art and science of cryptology No high tech wizardry here it39s all simple and dare I say fun</description>
+  <link>http://www.physicspost.com/articles.php?articleId=174</link>
+  <dc:date>2003-10-26</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=173">
+  <title>Understanding Quantum Tunneling</title>
+  <description>RichardPFeynman once said quotI think it would be safe for me to say that no one in this world understands Quantum Mechanicsquot Such an amazing theory Quantum Mechanics is yet hard to understand Quantum Tunneling has always been given in small portions of many text books and details have not been covered so as to aid better understanding of the ConceptIn this article I have made an attempt to provide a better understanding of Tunneling Go along read it</description>
+  <link>http://www.physicspost.com/articles.php?articleId=173</link>
+  <dc:date>2003-10-21</dc:date>
+  <dc:creator>
+Sridhar Narayanan (mailto:sridhar_n@email.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=172">
+  <title>Are Humans Still Evolving</title>
+  <description>It may seem like civilisation has removed all of the selective pressures faced by wild animals but Natural Selection acts on a lot more than superficial characteristics Natural Selection is an omnipresent force shaping everything even the things that we think we are choosing</description>
+  <link>http://www.physicspost.com/articles.php?articleId=172</link>
+  <dc:date>2003-10-20</dc:date>
+  <dc:creator>
+Shane Greenup (mailto:mgreenup@bigpond.net.au)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=171">
+  <title>Two males getting their own genetic baby a future possibility</title>
+  <description>Recently a fertilization technique concieved human embryos with three genetic parents Would a baby with samesex parents be possible</description>
+  <link>http://www.physicspost.com/articles.php?articleId=171</link>
+  <dc:date>2003-10-19</dc:date>
+  <dc:creator>
+Monique van der Voet (mailto:niqqie@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=170">
+  <title>Geometry in Space</title>
+  <description>Geometry is how Nature displays itself to us Geometry is the language of Nature We have only been exposed to Geometry inside Earth How beautiful is the Geometry of Outer Space</description>
+  <link>http://www.physicspost.com/articles.php?articleId=170</link>
+  <dc:date>2003-10-18</dc:date>
+  <dc:creator>
+Sridhar Narayanan (mailto:sridhar_n@email.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=169">
+  <title>Matrix AlgebraThis one39s new</title>
+  <description>This is a fundamental discovery on the existence of circulants Circulants are Matrices which have a sequence of arrangements of the elements  The article deals with a new Algebra developed on Matrices
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=169</link>
+  <dc:date>2003-10-17</dc:date>
+  <dc:creator>
+Sridhar Narayanan (mailto:sridhar_n@email.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=168">
+  <title>QuantumChromodynamics A Definition</title>
+  <description>QCD describes the interactions between quarks in high energy physics  Here I will give you a few bits of information to spark your interest</description>
+  <link>http://www.physicspost.com/articles.php?articleId=168</link>
+  <dc:date>2003-10-07</dc:date>
+  <dc:creator>
+Tab Stevens (mailto:tab21@earthlink.net)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=167">
+  <title>Wave Interference Basics</title>
+  <description>The topics discussed in the article include Standing waves Superposition Resonance Lasers Resonance in strings Resonance in air columns Diffraction Interference patterns Diffraction Gratings Spectral analysis
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=167</link>
+  <dc:date>2003-09-19</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=166">
+  <title>Why do we age</title>
+  <description>Aging is a result of evolution not something selected by evolution but something outside the selective powers of evolution As research uncovers more and more about the mechanisms behind aging the exact nature of this fact is being realised more and more</description>
+  <link>http://www.physicspost.com/articles.php?articleId=166</link>
+  <dc:date>2003-09-06</dc:date>
+  <dc:creator>
+Shane Greenup (mailto:mgreenup@bigpond.net.au)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=164">
+  <title>Electrostatic Basics</title>
+  <description>These are the topic areas covered in this article Nature of Charge Charging Process Electrical Force Electrical Fields Electrical Potential Energy Electrical Potential</description>
+  <link>http://www.physicspost.com/articles.php?articleId=164</link>
+  <dc:date>2003-08-16</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=163">
+  <title>The Consequences of Physical Immortality</title>
+  <description>Bruce J Klein founder of the Immortality Institute ImmInstorg answers questions by 39Kharin39 from the Virus Forums Topics covered overpopulation resource scarcity economic consequences accelerating change and the Singularity 
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=163</link>
+  <dc:date>2003-07-25</dc:date>
+  <dc:creator>
+Bruce J. Klein (mailto:bjk@bjklein.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=162">
+  <title>Particle Systems</title>
+  <description>A practical introduction to a popular computer simulation technique used in such movies as quotShrekquot and quotMonsters Incquot</description>
+  <link>http://www.physicspost.com/articles.php?articleId=162</link>
+  <dc:date>2003-07-22</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=160">
+  <title>Feenburgs Twin Paradox Still Unsolved</title>
+  <description>Think you know Relativity  Beaten the paradox of the twins to death scourged every possible edifice  Only those too lazy to study still believe there to be a paradox yet today  You might be surprised just how many Relativity experts dont really understand the key to this particular incarnation of the paradox  Is there a problem with rotation symmetry in the velocity transformation</description>
+  <link>http://www.physicspost.com/articles.php?articleId=160</link>
+  <dc:date>2003-07-19</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=159">
+  <title>Men and women like chalk and cheese Sex differences in brain and behaviour</title>
+  <description>Men and women completely different They think differently act differently reason differently its a wonder any relationship between them ever lasts They might as well come from different planets So the current pop psychological theories suggest But is there any biological evidence for all of this</description>
+  <link>http://www.physicspost.com/articles.php?articleId=159</link>
+  <dc:date>2003-07-17</dc:date>
+  <dc:creator>
+Lucy Maddox (mailto:lucymaddox@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=158">
+  <title>The Drake Equation Is there really other Life in the Universe</title>
+  <description>Is there other life in the universe We may never know Is there a possibility</description>
+  <link>http://www.physicspost.com/articles.php?articleId=158</link>
+  <dc:date>2003-07-15</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=157">
+  <title>Current Electricity Basics</title>
+  <description>Circuit Basics Electrical Current Electrical Resistance Electrical Power Electrical Circuits Series Circuits Parallel Circuits Complex Circuits</description>
+  <link>http://www.physicspost.com/articles.php?articleId=157</link>
+  <dc:date>2003-07-12</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=156">
+  <title>Question  Answer Chat Event With Dr Michio Kaku</title>
+  <description>mkakuorg recently help a chat with Dr Michio Kaku  Topics include string theory time travel and the spacetime construct  Come inside and find out more</description>
+  <link>http://www.physicspost.com/articles.php?articleId=156</link>
+  <dc:date>2003-07-04</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=155">
+  <title>Electromagnetism Basics</title>
+  <description>Magnets Magnetic polarity Magnetic fields
+Electromagnetism Electromagnetic fields Magnetic effects on charged particles Magnetic effects on current carrying conductors Applications of electromagnetic concepts Induced current Applications of induction Generators Characteristics of alternating current Motors</description>
+  <link>http://www.physicspost.com/articles.php?articleId=155</link>
+  <dc:date>2003-06-29</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=154">
+  <title>The Changing nature of Search Engines</title>
+  <description>This article briefly discusses search engines and different alternatives to search documents and images on the web</description>
+  <link>http://www.physicspost.com/articles.php?articleId=154</link>
+  <dc:date>2003-06-23</dc:date>
+  <dc:creator>
+Srimannarayana Grandhi (mailto:grandhis@cqufic.ac.fj)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=153">
+  <title>Uniform Motion Basics</title>
+  <description>ScalarsVectors Uniform Motion PositionDistanceDisplacement SpeedVelocity AverageInstantaneous Motion Graphs will all be discussed in the exploration of beginning physics</description>
+  <link>http://www.physicspost.com/articles.php?articleId=153</link>
+  <dc:date>2003-06-23</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=152">
+  <title>In the Belly of an Angry Giant  Speculations on Residing in a Very Large Black Hole</title>
+  <description>Apparent doom a reasonable thought or the work of crackpottery  You be the judge</description>
+  <link>http://www.physicspost.com/articles.php?articleId=152</link>
+  <dc:date>2003-06-19</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=151">
+  <title>Optic Basics Part 22</title>
+  <description>This is the second installment of the Optic Basics series  You39ll learn about Using mirror equations Refraction Snells Law and Lenses
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=151</link>
+  <dc:date>2003-06-12</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=150">
+  <title>Why Bandwidth is important</title>
+  <description>Bandwidth can be the difference between the lowest and highest frequencies The available frequency is divided into several channels using Frequency Division Multiplexing Technique FDM</description>
+  <link>http://www.physicspost.com/articles.php?articleId=150</link>
+  <dc:date>2003-06-11</dc:date>
+  <dc:creator>
+Srimannarayana Grandhi (mailto:grandhis@cqufic.ac.fj)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=149">
+  <title>Optic Basics Part 12</title>
+  <description>When any wave encounters an object it can do one of three things  it can bounce off the object reflection it can go into the object refraction or it can go past the object diffraction  In each case changes in the lights path occurs</description>
+  <link>http://www.physicspost.com/articles.php?articleId=149</link>
+  <dc:date>2003-06-08</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=148">
+  <title>Misc Science Tips</title>
+  <description>Short descriptions of Lightning Dry Cell
+Batteries Threeway Switches the Van Allen Belts and Guitar Pickups</description>
+  <link>http://www.physicspost.com/articles.php?articleId=148</link>
+  <dc:date>2003-06-06</dc:date>
+  <dc:creator>
+John Bruning (mailto:portajohn04@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=147">
+  <title>Hyperspace and a Theory of Everything</title>
+  <description>When I was a child I used to visit the Japanese Tea Garden in San Francisco I would spend hours fascinated by the carp who lived in a very shallow pond just inches beneath the lily pads</description>
+  <link>http://www.physicspost.com/articles.php?articleId=147</link>
+  <dc:date>2003-06-05</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=146">
+  <title>Momentum Basics</title>
+  <description>These are the topic areas covered in this article Impulse Momentum Change in Momentum and Conservation of Momentum
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=146</link>
+  <dc:date>2003-06-02</dc:date>
+  <dc:creator>
+Tom Young (mailto:tyoung@waukesha.k12.wi.us)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=145">
+  <title>Introduction to Black Holes</title>
+  <description>   As far back as the beginning man people have looked to the heavens and wondered what is actually up there  Many have hypothesized studied and used various sorts of equipment to research the heavens</description>
+  <link>http://www.physicspost.com/articles.php?articleId=145</link>
+  <dc:date>2003-05-29</dc:date>
+  <dc:creator>
+Tab Stevens (mailto:tab21@earthlink.net)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=144">
+  <title>Recent Chat with Michio Kaku</title>
+  <description>A chat recently held by mkakuorg has brought up some interesting information Dr Kaku answers some of his fan39s questions about the universe</description>
+  <link>http://www.physicspost.com/articles.php?articleId=144</link>
+  <dc:date>2003-05-24</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=143">
+  <title>Neural Integration and Electro Potentials</title>
+  <description>Just some information I picked up from that neurology mail correspondance course</description>
+  <link>http://www.physicspost.com/articles.php?articleId=143</link>
+  <dc:date>2003-05-19</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=142">
+  <title>Planetary Formation Based on Matter Condensation and Accretion</title>
+  <description>The millions of years of stellar evolution summed up in about two pages</description>
+  <link>http://www.physicspost.com/articles.php?articleId=142</link>
+  <dc:date>2003-05-17</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=141">
+  <title>Space Elevators The Time for Laughing is Over</title>
+  <description>With the discovery and subsequent development of carbon nanotubes the possibility finally exists to replace current chemical based launch systems with space elevators This article takes a look at risk cost and market analyses comparing current launch systems proposed second generation launch systems and space elevators</description>
+  <link>http://www.physicspost.com/articles.php?articleId=141</link>
+  <dc:date>2003-05-15</dc:date>
+  <dc:creator>
+David K. Pullen (mailto:enigma555@mailcity.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=140">
+  <title>HyperSpace  A Scientific Odyssey</title>
+  <description>Do higher dimensions exist Are there unseen worlds just beyond our reach beyond the normal laws of physics Although higher dimensions have historically been the exclusive realm of charlatans mystics and science fiction writers</description>
+  <link>http://www.physicspost.com/articles.php?articleId=140</link>
+  <dc:date>2003-05-13</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=139">
+  <title>An Introduction to Kramer39s Rule</title>
+  <description>I always thought this was handy in those inevitable cases where I would have to solve n unknowns in n equations</description>
+  <link>http://www.physicspost.com/articles.php?articleId=139</link>
+  <dc:date>2003-05-10</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=138">
+  <title>What to Do If You Have a Proposal for the Unified Field Theory</title>
+  <description>I would like to give some guidelines for people who have thoughtfully pondered the question of the meaning of spacetime</description>
+  <link>http://www.physicspost.com/articles.php?articleId=138</link>
+  <dc:date>2003-05-08</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=137">
+  <title>Book Review The Problem of the Soul Two Visions of Mind and How to Reconcile</title>
+  <description>After a lifetime spent 
+reading the obfuscating works of philosophers and theologians twisting logic 
+into pretzelian contortions to prove such unprovable concepts as God the 
+soul and free will</description>
+  <link>http://www.physicspost.com/articles.php?articleId=137</link>
+  <dc:date>2003-05-07</dc:date>
+  <dc:creator>
+Michael Shermer (mailto:skepticmag@aol.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=136">
+  <title>Managing Biological Pollution from Transgenic Crops</title>
+  <description>Transgenic crops crops whose genes have been modified to be resistant to pests and disease are a permanent part of worldwide agriculture</description>
+  <link>http://www.physicspost.com/articles.php?articleId=136</link>
+  <dc:date>2003-05-05</dc:date>
+  <dc:creator>
+Jon Johnson (mailto:joe11@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=135">
+  <title>At Heart I am Irrational and Demonstrate this with Elegant Absurdity</title>
+  <description>Archimedes irrationality absurdity and the usual smutty insinuation  Come drink from my cyber mouth
+
+No lengthy introduction today I have embedded my rambling for your pleasure</description>
+  <link>http://www.physicspost.com/articles.php?articleId=135</link>
+  <dc:date>2003-05-03</dc:date>
+  <dc:creator>
+Kelvin Corlett (mailto:Malevolent_pixie@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=134">
+  <title>Quantum Computers Towards the Future</title>
+  <description>Quantum computers represent the future of computing and will very likely overtake classical computers within this century Their size and speed will revolutionize every aspect of technology in the same way classical computers have</description>
+  <link>http://www.physicspost.com/articles.php?articleId=134</link>
+  <dc:date>2003-05-03</dc:date>
+  <dc:creator>
+Jon Johnson (mailto:joe11@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=133">
+  <title>Shuttle Thermal Tiles Description and Suggestions</title>
+  <description>Friction with the air is often neglected but when traveling at Mach 18 it becomes a huge factor To cope with this NASA engineers have ingeniously developed sandbased thermal tiles that are designed to withstand temperatures that can reach up to 2600 degrees Fahrenheit
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=133</link>
+  <dc:date>2003-05-02</dc:date>
+  <dc:creator>
+Jon Johnson (mailto:joe11@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=132">
+  <title>Proof by Induction the Power Rule and a Moderate Snipe at Engineers</title>
+  <description>Hey you You want to be certain about the truth of mathematical statements  You better had or I39m going to be mightily angry  Here39s a brief example of how you can be in certain cases
+
+Note  Go straight to page 2 if you want the good stuff</description>
+  <link>http://www.physicspost.com/articles.php?articleId=132</link>
+  <dc:date>2003-05-01</dc:date>
+  <dc:creator>
+Kelvin Corlett (mailto:Malevolent_pixie@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=131">
+  <title>Good Screen Names</title>
+  <description>This essay will discuss briefly just how many screen names there are and then go in depth about just how hard it would really be to crack a screen name with a completely random password without an exploit
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=131</link>
+  <dc:date>2003-04-30</dc:date>
+  <dc:creator>
+Jon Johnson (mailto:joe11@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=130">
+  <title>Book Review  Mathematical Techniques an Introduction</title>
+  <description>Hey you want an introduction to Mathematical Techniques  You39re in luck my friend it just so happens that I can fix you up
+
+Just make sure you use protection
+
+Note You may not want to read this if you happen to hate the rambling selfindulgent style adopted by Dj Sneaky Whiskers in his Physicsforum book reviews  My similarity to him is almost sinister</description>
+  <link>http://www.physicspost.com/articles.php?articleId=130</link>
+  <dc:date>2003-04-29</dc:date>
+  <dc:creator>
+Kelvin Corlett (mailto:Malevolent_pixie@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=129">
+  <title>Doubly Special Relativity in Brief</title>
+  <description>An amazing basic beginner39s guide to DSR and how it differs from conventional relativity</description>
+  <link>http://www.physicspost.com/articles.php?articleId=129</link>
+  <dc:date>2003-04-28</dc:date>
+  <dc:creator>
+FZ  (mailto:FZpost@fangs.freeserve.co.uk)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=128">
+  <title>Maxwell39s Equations</title>
+  <description>This article looks at the concepts of electricity and magnetism and maxwell39s role in uniting them</description>
+  <link>http://www.physicspost.com/articles.php?articleId=128</link>
+  <dc:date>2003-04-25</dc:date>
+  <dc:creator>
+Nicole Kennedy (mailto:Nicolek_271@yahoo.co.uk)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=127">
+  <title>The Theory and Instrumentation of the Atomic Absorption Spectrophotometer</title>
+  <description>Atomic absorption spectroscopy AAS is the appropriate term used when electromagnetic radiation EMR is absorbed or emitted by atoms and measured  </description>
+  <link>http://www.physicspost.com/articles.php?articleId=127</link>
+  <dc:date>2003-04-25</dc:date>
+  <dc:creator>
+Ana Gamboa (mailto:Entropia@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=126">
+  <title>How to Control Runaway Nanotechnology</title>
+  <description>On Apr 20 2003 around fifteen Immortality Institute members and guest participated in an online chat to discuss how best to control the potentially dangerous prospect of runaway nanotechnology
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=126</link>
+  <dc:date>2003-04-23</dc:date>
+  <dc:creator>
+Bruce J. Klein (mailto:bjk@bjklein.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=125">
+  <title>Unified Relativity</title>
+  <description>  Have you ever wondered why General Relativity breaks down at extremely small scales  Have you ever thought that maybe there is some simple connection with Quantum Mechanics that were missing  What I propose in this paper is my personal view on this missing link between the two powerful theories</description>
+  <link>http://www.physicspost.com/articles.php?articleId=125</link>
+  <dc:date>2003-04-14</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=124">
+  <title>Biological Invasion a Killer alga</title>
+  <description>The ecological damage that can be done when a foreign agent is introduced into a new niche should not be underestimated A recent example is that of severe acute respiratory syndrome SARS where a virus normally infecting life stock found a new host in humans Amazing is the example of an alga that has started to take over the coastal regions all over the world This is a tale of Caulerpa taxifolia</description>
+  <link>http://www.physicspost.com/articles.php?articleId=124</link>
+  <dc:date>2003-04-08</dc:date>
+  <dc:creator>
+Monique van der Voet (mailto:niqqie@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=123">
+  <title>Book Review Linux for Windows Addicts</title>
+  <description>Everyone has a stance in the OS debates but I39ve really never taken a side I have Mandrake on one machine and I could do some commands and simple stuff but I didn39t really know what Linux was all about</description>
+  <link>http://www.physicspost.com/articles.php?articleId=123</link>
+  <dc:date>2003-04-07</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=122">
+  <title>Book Review The Complete Idiot39s Guide to Calculus</title>
+  <description>I39ve never really been very good at math and when I found out I had to take a Calculus class I started to panic Once I gathered myself I went to the local bookstore to see if I could get a book to read</description>
+  <link>http://www.physicspost.com/articles.php?articleId=122</link>
+  <dc:date>2003-04-03</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=121">
+  <title>Linear Independence and Wronskian Determinants</title>
+  <description>Linear Algebra and Calculus distinct from one another  Read on and find out
+
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=121</link>
+  <dc:date>2003-03-28</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=120">
+  <title>An Introduction to Linear Algebra</title>
+  <description>A brief introduction to linear algebra This tutorial can be thought of as a precursor to the article quotAn Introduction to Eigenvalues and Eigenvectorsquot </description>
+  <link>http://www.physicspost.com/articles.php?articleId=120</link>
+  <dc:date>2003-03-26</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=119">
+  <title>Entirely Rotational Internal Combustion Hydrogen Engine</title>
+  <description>With the everlooming threat imposed by dwindling fossils fuel supplies we constantly need to develop and improve the efficiency of our engines  One of the safest alternate fuel sources to crude oil is hydrogen  Our current engine designs however are very wasteful in the method of converting fuel into motion  Using hydrogen as a fuel makes those inefficiencies even more pronounced  Here is a design that attacks some of those inefficiencies the ERICH engine</description>
+  <link>http://www.physicspost.com/articles.php?articleId=119</link>
+  <dc:date>2003-03-23</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=118">
+  <title>Complex Numbers The Other Side of Algebra</title>
+  <description>We all have worked with the real number system for as long as we can remember The set of imaginary numbers are a mystery that many of us have never explored You can39t take the square root of 81 Or can you</description>
+  <link>http://www.physicspost.com/articles.php?articleId=118</link>
+  <dc:date>2003-03-22</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=117">
+  <title>Stellar Energy Generation and Nucleosynthesis</title>
+  <description>This article is a brief explanation of energy generation in stars and the means of creating heavier elements</description>
+  <link>http://www.physicspost.com/articles.php?articleId=117</link>
+  <dc:date>2003-03-21</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=116">
+  <title>The NewtonRaphson Method for the Approximation of Polynomial and Monomial Roots</title>
+  <description>There are other Calculusbased methods for finding the roots of a function  Find out more in this article</description>
+  <link>http://www.physicspost.com/articles.php?articleId=116</link>
+  <dc:date>2003-03-20</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=115">
+  <title>Differentiation of the natural exponential function e</title>
+  <description>This is a follow up to Carter Bowles quotDerivatives An Introduction to Calculusquot This article explains the derivation of the natural exponential function which has many applications in exponential growth and decay</description>
+  <link>http://www.physicspost.com/articles.php?articleId=115</link>
+  <dc:date>2003-03-12</dc:date>
+  <dc:creator>
+Benjamin Pucci (mailto:illy2k@optonline.net)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=114">
+  <title>Tapping the Vacuum Energy with Nanotechnology</title>
+  <description>Is the dream of tapping into the vacuum energy by exploiting the uncertainty principle a hoax  There seems to be very little doubt that an ambient energy level exists in the vacuum devoid of matter even if this energy is due strictly to the uncertainty demanded by quantum mechanics but can such energy be tapped to produce power  Knowing thermodynamics I had never thought twice about the impracticality of the idea until I thought of a very simple idea using nanotechnology</description>
+  <link>http://www.physicspost.com/articles.php?articleId=114</link>
+  <dc:date>2003-03-07</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=113">
+  <title>The Physics of ExtraTerrestrial Civilizations</title>
+  <description>The late Carl Sagan once asked this question quotWhat does it mean for a civilization to be a million years old We have had radio telescopes and spaceships for a few decades our technical civilization is a few hundred years old an advanced civilization millions of years old is as much beyond us as we are beyond a bush baby or a macaquequot</description>
+  <link>http://www.physicspost.com/articles.php?articleId=113</link>
+  <dc:date>2003-03-05</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=112">
+  <title>Conceptual Quantum Mechanics</title>
+  <description>The title of this article is somewhat misleading as nobody truly conceives quantum mechanics It is called conceptual only because no math is involved Interested in the theory but still unable to understand what is going This could help</description>
+  <link>http://www.physicspost.com/articles.php?articleId=112</link>
+  <dc:date>2003-03-02</dc:date>
+  <dc:creator>
+Carter Bowles (mailto:CJames745@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=111">
+  <title>The Last Man On The Moon</title>
+  <description>On 11th December 1972  just over 30 years ago man set foot on the moon for the last time The Apollo 17 mission manned by Eugene Cernan and geologist Harrison Schmitt was the last in the program marking the end of quite possibly the most important era in space exploration
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=111</link>
+  <dc:date>2003-02-26</dc:date>
+  <dc:creator>
+Nicole Kennedy (mailto:Nicolek_271@yahoo.co.uk)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=109">
+  <title>Look At It This Way  By Steve Mason</title>
+  <description>There39s a line from that classic tune quotOld Man Riverquot that goes tired 
+a39livin but scared a39dyin Interestingly enough that probably sums up the 
+feelings of a significant share of the population As the average age goes 
+up an evergreater number of people are finding that their lives have become 
+decreasingly joyful and increasingly fearful </description>
+  <link>http://www.physicspost.com/articles.php?articleId=109</link>
+  <dc:date>2003-02-21</dc:date>
+  <dc:creator>
+Bruce J. Klein (mailto:bjk@bjklein.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=108">
+  <title>No Nuclear Energy from Iron</title>
+  <description>Fusion is a nuclear process that powers the stars it also provides electricity to homes and businesses while fission at times is used to induce fusion The products the elements produced during these nuclear processes proceed in the direction of a common element Iron</description>
+  <link>http://www.physicspost.com/articles.php?articleId=108</link>
+  <dc:date>2003-02-20</dc:date>
+  <dc:creator>
+Nathan Cochran (mailto:Nebula@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=107">
+  <title>Combinatorics  Counting Made Simple</title>
+  <description>Sesame Street39s Count Von Count would be proud</description>
+  <link>http://www.physicspost.com/articles.php?articleId=107</link>
+  <dc:date>2003-02-19</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=106">
+  <title>Light Pollution</title>
+  <description>What is light pollution Find out here what it is and why it is a problem</description>
+  <link>http://www.physicspost.com/articles.php?articleId=106</link>
+  <dc:date>2003-02-17</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=105">
+  <title>Controlled Fusion with Nanotechnology  Hydrogen Trap</title>
+  <description>This article discusses fusion and proposes an alternative way to control this potentially wonderful energy source  How do we use the strengths of nanotechnology to our advantage and can we design a method to extract the energy more efficiently  Rather than viewing the fuel as a tub of gasoline to ignite and burn into a giant solar blaze imagine it as carefully contained pulses  like a fuelinjected engine  Links included
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=105</link>
+  <dc:date>2003-02-16</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=104">
+  <title>ZeroG A common misinterpretation</title>
+  <description>Do you get confused when people talk about zeroG Ever wonder why spacecraft need to go so fast to stay in orbit The answers are all here</description>
+  <link>http://www.physicspost.com/articles.php?articleId=104</link>
+  <dc:date>2003-02-12</dc:date>
+  <dc:creator>
+David K. Pullen (mailto:enigma555@mailcity.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=103">
+  <title>Determining PressureDependent Equilibrium Constants</title>
+  <description>I finally figured out a way how to relate the equilibrium constant with that of pressure  This article will show you how to do it without going through stacks of paper hey at least we are saving trees</description>
+  <link>http://www.physicspost.com/articles.php?articleId=103</link>
+  <dc:date>2003-02-11</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=102">
+  <title>The Idea that Shook Physics  On The Consequences of Special Relativity</title>
+  <description>Ever wanted to find out more about SR  This article will attempt to explain the time dilation the length contraction and the twin paradox but at least our twins aren39t those irritating Olsen twins
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=102</link>
+  <dc:date>2003-02-10</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=101">
+  <title>What Exactly Is Curved</title>
+  <description>This compilation of thought experiments attempts to describe the most basic mathematics of spacetime curvature of General Relativity in a pictorial way  The material is intended for readers familiar with special relativity but lost when trying to visualize Einstein39s theory on curved spacetime  This work is a continuation of the paper Distortions of Relativistic Measure and gives a taste of the curvature in General Relativity </description>
+  <link>http://www.physicspost.com/articles.php?articleId=101</link>
+  <dc:date>2003-02-09</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=100">
+  <title>Environmental Risks and Benefits of Transgenic Crops</title>
+  <description>It is an indisputable fact that the planets soaring human population has caused massively increased demands on both agriculture and livestock production within the last century</description>
+  <link>http://www.physicspost.com/articles.php?articleId=100</link>
+  <dc:date>2003-02-08</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=99">
+  <title>Models of Evolution and Abiogenesis Part 2 of 3</title>
+  <description>An introduction to some simple computational models utilizing evolutionary theory and genetics</description>
+  <link>http://www.physicspost.com/articles.php?articleId=99</link>
+  <dc:date>2003-02-07</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=98">
+  <title>The Paradox of Existence</title>
+  <description>Existence is demonstrably paradoxical that is it does not make rational sense Nature may make perfectly rational sense but existence itself is clearly irrational and thus possibly supernatural</description>
+  <link>http://www.physicspost.com/articles.php?articleId=98</link>
+  <dc:date>2003-01-30</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=97">
+  <title>Immortality A Philosophical Joust</title>
+  <description>The subject of immortality can spark some interesting and lively debates An example of this is the following exchange between ImmInst director Bruce J Klein and Joshua Hublar</description>
+  <link>http://www.physicspost.com/articles.php?articleId=97</link>
+  <dc:date>2003-01-28</dc:date>
+  <dc:creator>
+Bruce J. Klein (mailto:bjk@bjklein.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=96">
+  <title>Quantum Computing Tip</title>
+  <description>Ask anybody in the information technology business about the future of computing and you will certainly get a response involving some form of quantum computing</description>
+  <link>http://www.physicspost.com/articles.php?articleId=96</link>
+  <dc:date>2003-01-27</dc:date>
+  <dc:creator>
+Dean Halford (mailto:deanofseattle@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=95">
+  <title>Models of Evolution and Abiogenesis Part 1 of 3</title>
+  <description>A look at some simple Mathematical and Computational models of Evolution and Abiogenesis</description>
+  <link>http://www.physicspost.com/articles.php?articleId=95</link>
+  <dc:date>2003-01-24</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=94">
+  <title>Our Universe Could Be Flatter Than We Think</title>
+  <description>Until the last decade or so the expansion of the universe was thought to have had an almost constant value the Hubble constant since Hubble first discovered the redshift of far away starlight</description>
+  <link>http://www.physicspost.com/articles.php?articleId=94</link>
+  <dc:date>2003-01-23</dc:date>
+  <dc:creator>
+Erich Schoedl (mailto:erich_s@msn.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=93">
+  <title>Hypersonics</title>
+  <description>Hypersonic Flight
+
+What it is how far we39ve come and what we need to get there</description>
+  <link>http://www.physicspost.com/articles.php?articleId=93</link>
+  <dc:date>2003-01-20</dc:date>
+  <dc:creator>
+David K. Pullen (mailto:enigma555@mailcity.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=92">
+  <title>Superfluidity</title>
+  <description>What is a superfluid and what properties does it exhibit This article answers those questions and examines the superfluidic nature of helium4</description>
+  <link>http://www.physicspost.com/articles.php?articleId=92</link>
+  <dc:date>2003-01-18</dc:date>
+  <dc:creator>
+Nicole Kennedy (mailto:Nicolek_271@yahoo.co.uk)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=91">
+  <title>Plate Tectonics</title>
+  <description>Have you ever wondered why earthquakes and volcanoes occur Did you ever think about what lies underneath the Earth39s crust Would you believe that the Earth39s surface is moving under us Read more about it here</description>
+  <link>http://www.physicspost.com/articles.php?articleId=91</link>
+  <dc:date>2003-01-17</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=90">
+  <title>A Monkey39s Guide to Evolution</title>
+  <description>Ever wondered about those questions of life Befuddled by variation Challenged by selection This article explains some of the common questions and no banana in sight</description>
+  <link>http://www.physicspost.com/articles.php?articleId=90</link>
+  <dc:date>2003-01-13</dc:date>
+  <dc:creator>
+FZ  (mailto:FZpost@fangs.freeserve.co.uk)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=89">
+  <title>EnergySystem Analysis and Energy Transfer</title>
+  <description>Energysystem relationships have interested me ever since I saw that one episode of Sesame Streetbut seriously ever wanted to understand the basic idea of the surrounding the system and the transfer of energy  Read on</description>
+  <link>http://www.physicspost.com/articles.php?articleId=89</link>
+  <dc:date>2003-01-12</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=88">
+  <title>Distortion of Relativistic Measures</title>
+  <description>This article brings to light the variability of the observed length and rates of aging of relatively fast objects  This angleofobservation dependent distortion is one of the most misunderstood consequences of Special Relativity  Some basics about relativity including simple length contraction are initially covered to set up the topic with the help of two mischievous clocks and a smiley face</description>
+  <link>http://www.physicspost.com/articles.php?articleId=88</link>
+  <dc:date>2003-01-10</dc:date>
+  <dc:creator>
+Contest Winner (mailto:na@na.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=86">
+  <title>Blackholes Wormholes  the Tenth Dimension</title>
+  <description>What lies on the other side of a black hole If someone foolishly fell into a black hole will they be crushed by its immense gravity as most physicists believe or will they be propelled into a parallel universe or emerge in another time era To solve this complex question</description>
+  <link>http://www.physicspost.com/articles.php?articleId=86</link>
+  <dc:date>2003-01-09</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=85">
+  <title>Dynamical Systems 201</title>
+  <description>A real world problem solved using the techniques developed in the previous article</description>
+  <link>http://www.physicspost.com/articles.php?articleId=85</link>
+  <dc:date>2003-01-08</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=84">
+  <title>Cooperating with AI</title>
+  <description>As Moore39s Law continues to accelerate the prospect of true Artificial Intelligence comes closer and closer  How can we make sure that AI doesn39t smudge us into paste  What design features precautions and rules must be taken into consideration to prevent a disaster from happening</description>
+  <link>http://www.physicspost.com/articles.php?articleId=84</link>
+  <dc:date>2003-01-06</dc:date>
+  <dc:creator>
+Michael Anissimov (mailto:DarkVegeta26@aol.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=82">
+  <title>Particle Weapons 101</title>
+  <description>Probably the most wellknown particle weapons are those on the TV series Star Trek  Todays technology however cannot support these sophisticated weapons</description>
+  <link>http://www.physicspost.com/articles.php?articleId=82</link>
+  <dc:date>2002-12-31</dc:date>
+  <dc:creator>
+Contest Winner (mailto:na@na.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=81">
+  <title>An Introduction to Biomolecules Carbohydrates</title>
+  <description>Remember that Rolling Stones39 song quotBrown Sugarquot  Working on this article gave me a whole new perspective on it</description>
+  <link>http://www.physicspost.com/articles.php?articleId=81</link>
+  <dc:date>2002-12-29</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=80">
+  <title>The Physics of HandtoHand Combat</title>
+  <description>Master your body through martial arts so that you can master your mind through peace  </description>
+  <link>http://www.physicspost.com/articles.php?articleId=80</link>
+  <dc:date>2002-12-28</dc:date>
+  <dc:creator>
+Karam El-Mubasher (mailto:Uclawyer@aol.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=77">
+  <title>A Brief Introduction to Quantum Mechanics and Quantum Numbers</title>
+  <description>I heard a fellow Physics major say quotThere39s nothing cuter than someone trying to understand Quantum Mechanicsquot So go ahead and print this article and read it in front of someone you happen to like
+
+</description>
+  <link>http://www.physicspost.com/articles.php?articleId=77</link>
+  <dc:date>2002-12-26</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=76">
+  <title>The Fates of Massive Stars</title>
+  <description>Deep in the vastness of space beyond our solar system stars are born in primordial nebulae gaseous molecular clouds on the spiral arms of galaxies extending across the heavens Within this gaseous womb a protostar is born and just as there is new life in the universe there is also death</description>
+  <link>http://www.physicspost.com/articles.php?articleId=76</link>
+  <dc:date>2002-12-24</dc:date>
+  <dc:creator>
+Nathan Cochran (mailto:Nebula@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=75">
+  <title>Overcoming the Problem of Procrastination</title>
+  <description>Procrastination is the art of using time to waste time Read this article and learn how to quit this bad habit once and for all </description>
+  <link>http://www.physicspost.com/articles.php?articleId=75</link>
+  <dc:date>2002-12-23</dc:date>
+  <dc:creator>
+Karam El-Mubasher (mailto:Uclawyer@aol.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=74">
+  <title>DielsAlder Reaction Mechanism</title>
+  <description>The DielsAlder Reaction is considered to be one of the most interesting and useful reactions in the world of organic chemistry</description>
+  <link>http://www.physicspost.com/articles.php?articleId=74</link>
+  <dc:date>2002-12-23</dc:date>
+  <dc:creator>
+Ana Gamboa (mailto:Entropia@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=71">
+  <title>Correlations Between quotGenesis by Observershipquot and Cognition</title>
+  <description>Speculations based on a peculiar relationship between physicist John Wheeler39s quotgenesis By Observershipquot theory and the physiological aspects of cognition</description>
+  <link>http://www.physicspost.com/articles.php?articleId=71</link>
+  <dc:date>2002-12-20</dc:date>
+  <dc:creator>
+Patrick Thomas Collins (mailto:PresidentPTC@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=68">
+  <title>Is there a limit to Human Lifespans</title>
+  <description>2000 years ago you39d be lucky to make it to your 20th birthday party Today if you live in the United States you39re probably going to live well past age of 70 and maybe even longer</description>
+  <link>http://www.physicspost.com/articles.php?articleId=68</link>
+  <dc:date>2002-12-18</dc:date>
+  <dc:creator>
+Bruce J. Klein (mailto:bjk@bjklein.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=65">
+  <title>Special Relativity a Comprehensive Guide</title>
+  <description>It has been said that only a handful of people on the planet understand the concept of Einsteins Theory of Relativity Upon first site the theory can appear incomprehensible and against common sense But if one is willing to take a good hard look at nature it is possible to grasp its basics without painful confusion Even if you are familiar with relativity read the section on the Twin Paradox You may have never heard it explained in this way</description>
+  <link>http://www.physicspost.com/articles.php?articleId=65</link>
+  <dc:date>2002-12-16</dc:date>
+  <dc:creator>
+Carter Bowles (mailto:CJames745@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=64">
+  <title>DNA and RNA  Strands of Life</title>
+  <description>What are DNA and RNA How do they work What are they composed of Find out here</description>
+  <link>http://www.physicspost.com/articles.php?articleId=64</link>
+  <dc:date>2002-12-15</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=63">
+  <title>Numbers and Basic Logic Part 12</title>
+  <description>Everybody who cares knows that computers do everything in terms of binary 01010100  This is a common sight in any movie or TV show which makes use of advanced technology There is often technical sounding music accompanying it</description>
+  <link>http://www.physicspost.com/articles.php?articleId=63</link>
+  <dc:date>2002-12-14</dc:date>
+  <dc:creator>
+Jason Smestad (mailto:jasons@zapo.net)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=62">
+  <title>SpinDoctoring Science</title>
+  <description>Whats really going on in the anthropology wars over the Yanomam people 
+of Amazonia</description>
+  <link>http://www.physicspost.com/articles.php?articleId=62</link>
+  <dc:date>2002-12-13</dc:date>
+  <dc:creator>
+Michael Shermer (mailto:skepticmag@aol.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=61">
+  <title>Solar Eclipse</title>
+  <description>Safe Viewing What is it and what can I expect to see</description>
+  <link>http://www.physicspost.com/articles.php?articleId=61</link>
+  <dc:date>2002-12-12</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=60">
+  <title>quotLanding on The Moon Was a Big Hoaxquot Not</title>
+  <description>  Has anyone ever said quotWe didn39t land on the moonquot or quotIt was just some big hoaxquot and they give you all this proof and you think quothmmm maybe they are rightquot Well guess what They are wrong</description>
+  <link>http://www.physicspost.com/articles.php?articleId=60</link>
+  <dc:date>2002-12-11</dc:date>
+  <dc:creator>
+Nick Smith (mailto:Astronomer2005@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=58">
+  <title>Escape Velocity</title>
+  <description>As technology being invented ever more quickly science as a whole has improved We have found more and more ways to fire rockets into the cosmos we also discovered more and more ways to send satellites up the sky to form a GPS system to bring live weather forecast and much more could a satellite do </description>
+  <link>http://www.physicspost.com/articles.php?articleId=58</link>
+  <dc:date>2002-12-12</dc:date>
+  <dc:creator>
+Tom Zhang (mailto:PrudensOptimum@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=57">
+  <title>Communications Satellites</title>
+  <description>How comm satellites are launched and how they stay in orbit  Find out in this article</description>
+  <link>http://www.physicspost.com/articles.php?articleId=57</link>
+  <dc:date>2002-12-09</dc:date>
+  <dc:creator>
+John Bruning (mailto:portajohn04@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=53">
+  <title>An Introduction to Eigenvalues and Eigenvectors</title>
+  <description>Five words  Linear Algebra can be interesting  Find out how in this article</description>
+  <link>http://www.physicspost.com/articles.php?articleId=53</link>
+  <dc:date>2002-12-06</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=51">
+  <title>Boomerangs</title>
+  <description>You39ve seen them in cartoons you may have used one yourself But how do boomerangs return to their thrower</description>
+  <link>http://www.physicspost.com/articles.php?articleId=51</link>
+  <dc:date>2002-12-05</dc:date>
+  <dc:creator>
+John Bruning (mailto:portajohn04@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=50">
+  <title>quotBuilding Bigger and Better Brainsquot</title>
+  <description>Up until recently it was thought that once neurons died a natural death they were never replaced It has now been confirmed that certain parts of the brain retain the ability to generate new neurons throughout adult life</description>
+  <link>http://www.physicspost.com/articles.php?articleId=50</link>
+  <dc:date>2002-12-04</dc:date>
+  <dc:creator>
+Guest Writer (mailto:na@notavailible.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=48">
+  <title>The Physics of Interstellar Travel</title>
+  <description>When discussing the possibility of interstellar travel there is something called the giggle factor Some scientists tend to scoff at the idea of interstellar travel because of the enormous distances that separate the stars</description>
+  <link>http://www.physicspost.com/articles.php?articleId=48</link>
+  <dc:date>2002-11-29</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=47">
+  <title>The Vertebrate Brain  A Crash Course in Brain Surgery</title>
+  <description>This isn39t going to qualify you to perform neurology with whiskey and a coat hanger but at least it39ll hopefully give you an understanding about the main parts of the brain</description>
+  <link>http://www.physicspost.com/articles.php?articleId=47</link>
+  <dc:date>2002-11-26</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=46">
+  <title>Dynamical Systems 101</title>
+  <description>Introduction to Dynamical Systems</description>
+  <link>http://www.physicspost.com/articles.php?articleId=46</link>
+  <dc:date>2002-11-24</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=45">
+  <title>Meteor Showers</title>
+  <description>What are meteor showers What causes them Find out</description>
+  <link>http://www.physicspost.com/articles.php?articleId=45</link>
+  <dc:date>2002-11-22</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=44">
+  <title>A Layman39s Guide to Lies Damned Lies and Pseudoscience</title>
+  <description>Unable to distinguish the genuine science from the works of fantasies Here39s a brief guide</description>
+  <link>http://www.physicspost.com/articles.php?articleId=44</link>
+  <dc:date>2002-11-20</dc:date>
+  <dc:creator>
+FZ  (mailto:FZpost@fangs.freeserve.co.uk)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=43">
+  <title>Kaluza Klein and the Grand Unified Theory</title>
+  <description>Hidden dimensions and unified forces an introduction to KaluzaKlein Theories</description>
+  <link>http://www.physicspost.com/articles.php?articleId=43</link>
+  <dc:date>2002-11-19</dc:date>
+  <dc:creator>
+Jim Adson (mailto:jadson@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=42">
+  <title>The Face on Mars</title>
+  <description>Mars is the planet that we most closely relate to Earth So is it any wonder that we try to find life on it</description>
+  <link>http://www.physicspost.com/articles.php?articleId=42</link>
+  <dc:date>2002-11-17</dc:date>
+  <dc:creator>
+Zach Clifton (mailto:Darklink@Physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=41">
+  <title>Intro to Binary Part 12</title>
+  <description>Binary is the fundamental number system that electronic computers use  To know binary is to know exactly how computers crunch those numbers you throw at them  I39ll go through the very basics of binary math in this first part of the series</description>
+  <link>http://www.physicspost.com/articles.php?articleId=41</link>
+  <dc:date>2002-11-14</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=40">
+  <title>MTheory The Mother of all SuperStrings</title>
+  <description>Every decade or so a stunning breakthrough in string theory sends shock waves racing through the theoretical physics community generating a feverish outpouring of papers and activity</description>
+  <link>http://www.physicspost.com/articles.php?articleId=40</link>
+  <dc:date>2002-11-13</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=39">
+  <title>The Higgs Mechanism</title>
+  <description>Professors of the University of Edinburgh found a way to endow some of the YangMills fields with mass while retaining exact gauge symmetry This technique is now called the Higgs Mechanism</description>
+  <link>http://www.physicspost.com/articles.php?articleId=39</link>
+  <dc:date>2002-11-10</dc:date>
+  <dc:creator>
+Tab Stevens (mailto:tab21@earthlink.net)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=37">
+  <title>Professional Issues in Mathematics</title>
+  <description>The aim of this short article is to try and stress to potential or current math students the need for ethics in research  </description>
+  <link>http://www.physicspost.com/articles.php?articleId=37</link>
+  <dc:date>2002-11-08</dc:date>
+  <dc:creator>
+Paul Hancock (mailto:mr___diablo@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=36">
+  <title>The Constants of Nature</title>
+  <description>After years of recycling old ideas and essays John D Barrow one of the finest British cosmologists have finally come up with a refreshingly good book which questions the constancy of the underlying forces of our Universe</description>
+  <link>http://www.physicspost.com/articles.php?articleId=36</link>
+  <dc:date>2002-11-07</dc:date>
+  <dc:creator>
+Tormod Guldvog (mailto:tormod@guldvog.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=35">
+  <title>The Rock Cycle</title>
+  <description>Sedimentary rocks Igneous rocks metamorphic rocks and their relationship to one another</description>
+  <link>http://www.physicspost.com/articles.php?articleId=35</link>
+  <dc:date>2002-11-06</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=34">
+  <title>Automobile Tire Tread Design</title>
+  <description>Those tires on the car in your driveway differ from those on an Indy car because of a difference in surfaces and turning capabilities</description>
+  <link>http://www.physicspost.com/articles.php?articleId=34</link>
+  <dc:date>2002-11-06</dc:date>
+  <dc:creator>
+John Bruning (mailto:portajohn04@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=33">
+  <title>The Physics of Time Travel</title>
+  <description>In HG Wells39 novel The Time Machine our protagonist jumped into a special chair with blinking lights spun a few dials and found himself catapulted several hundred thousand years into the future</description>
+  <link>http://www.physicspost.com/articles.php?articleId=33</link>
+  <dc:date>2002-11-06</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=32">
+  <title>Derivatives an Introduction to Calculus</title>
+  <description>To understand calculus understanding the derivative is an essential If you wish to get a head start or simply need a reminder read ahead</description>
+  <link>http://www.physicspost.com/articles.php?articleId=32</link>
+  <dc:date>2002-11-05</dc:date>
+  <dc:creator>
+Carter Bowles (mailto:CJames745@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=31">
+  <title>Humans and chimpanzees not as closely related</title>
+  <description>Are humans and chimpanzees as closely related as previously thought And what will the differences between our genomes tell us about ourselves</description>
+  <link>http://www.physicspost.com/articles.php?articleId=31</link>
+  <dc:date>2002-11-04</dc:date>
+  <dc:creator>
+Monique van der Voet (mailto:niqqie@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=30">
+  <title>The Loneliness in a Dark Room</title>
+  <description>Are we truly alone in the Universe  Man has looked up at the skies with wonder and realized the question as to whether he is alone in such a seemingly vast and beautiful Universe  The answer to that question</description>
+  <link>http://www.physicspost.com/articles.php?articleId=30</link>
+  <dc:date>2002-11-03</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=29">
+  <title>The Quest for the Dream Machine</title>
+  <description>Some scientists see an altogether deeper significance in the quest for the quantum computer Ultimately the laws of the universe are quantum mechanical The fact that we normally encounter weird quantum effects only at the atomic level has blinded</description>
+  <link>http://www.physicspost.com/articles.php?articleId=29</link>
+  <dc:date>2002-10-31</dc:date>
+  <dc:creator>
+Paul Davies (mailto:pdavies@els.mq.edu.au)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=28">
+  <title>quotAnd Who Says I Can39tquot</title>
+  <description>When I was in high school I had no idea what I wanted to study in college  I was thinking of going into engineering because I grew up with the mentality that</description>
+  <link>http://www.physicspost.com/articles.php?articleId=28</link>
+  <dc:date>2002-10-30</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=26">
+  <title>An Analysis of the Piezoelectric Effect</title>
+  <description>A Brief Study of the Piezoelectric Effect</description>
+  <link>http://www.physicspost.com/articles.php?articleId=26</link>
+  <dc:date>2002-10-27</dc:date>
+  <dc:creator>
+Philip Mathew (mailto:Feynman1983@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=25">
+  <title>The Basics of String Theory</title>
+  <description>String theory is a beautiful theory that explains the universe at its origins using complex math But what about the rest of us</description>
+  <link>http://www.physicspost.com/articles.php?articleId=25</link>
+  <dc:date>2002-10-27</dc:date>
+  <dc:creator>
+Carter Bowles (mailto:CJames745@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=24">
+  <title>An Idiot39s Guide to The Tides and Tidal Forces</title>
+  <description>Even get confused about the tides Flabberghasted when people talk about tidal forces Here FZ39s guide</description>
+  <link>http://www.physicspost.com/articles.php?articleId=24</link>
+  <dc:date>2002-10-26</dc:date>
+  <dc:creator>
+FZ  (mailto:FZpost@fangs.freeserve.co.uk)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=23">
+  <title>Studio in a Box Digital Modeling Amplifiers</title>
+  <description>Since the dawn of the musicalrecording age the preferred method of recording guitars has been to set up microphones in front of amplifiers and capture the sounds produced</description>
+  <link>http://www.physicspost.com/articles.php?articleId=23</link>
+  <dc:date>2002-10-26</dc:date>
+  <dc:creator>
+Joe Gonzales (mailto:halfpastzero31@hotmail.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=21">
+  <title>A FiveMinute Tour of the Universe</title>
+  <description>Galaxies Stars Solar Systems and more</description>
+  <link>http://www.physicspost.com/articles.php?articleId=21</link>
+  <dc:date>2002-10-25</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=20">
+  <title>Quasicrystal Quandary</title>
+  <description>What39s a quasicrystal What is it made of What is it used for Let39s find out</description>
+  <link>http://www.physicspost.com/articles.php?articleId=20</link>
+  <dc:date>2002-10-24</dc:date>
+  <dc:creator>
+Jason Smestad (mailto:jasons@zapo.net)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=19">
+  <title>Schrodinger39s Poor Pet</title>
+  <description>What exactly was Schrodinger39s cat Find out here If you are new to quantum mecahanics or just confused this is your article </description>
+  <link>http://www.physicspost.com/articles.php?articleId=19</link>
+  <dc:date>2002-10-23</dc:date>
+  <dc:creator>
+Zach Clifton (mailto:Darklink@Physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=18">
+  <title>Implicit Differentiation</title>
+  <description>Implicit Differentiation is a technique used to differentiate a function when it cannot be explicitly solved for the dependant variable We will consider two methods for implicitly differentiating a function The first method is taught to students taking Calculus 1 however the second method requires knowledge of partial derivatives and is not always taught in Multivariable Calculus classes  </description>
+  <link>http://www.physicspost.com/articles.php?articleId=18</link>
+  <dc:date>2002-10-22</dc:date>
+  <dc:creator>
+Nathan Cochran (mailto:Nebula@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=17">
+  <title>So you want to become a Physicist</title>
+  <description>I39m often been asked the question how do you become a physicist Let me first say that physicists from a fairly early age are fascinated by the universe and its fantastic wonders We want to be part of the romantic exciting adventure to tease apart its mysteries and understand the nature of physical reality </description>
+  <link>http://www.physicspost.com/articles.php?articleId=17</link>
+  <dc:date>2002-10-22</dc:date>
+  <dc:creator>
+Michio Kaku (mailto:Mkaku@Mkaku.org)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=15">
+  <title>Einstein Rosen Bridges</title>
+  <description>Einstein Rosen Bridges consist of a black hole a white hole and a quotthroatquot Details on wormholes</description>
+  <link>http://www.physicspost.com/articles.php?articleId=15</link>
+  <dc:date>2002-10-21</dc:date>
+  <dc:creator>
+Jennifer Barlow (mailto:rightascention@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=14">
+  <title>National Dark Sky Week</title>
+  <description>  National Dark Sky Week created by amateur astronomer Jennifer Barlow will help reduce light pollution and will allow us to see our Night sky like our ancestors did before the light bulb was invented</description>
+  <link>http://www.physicspost.com/articles.php?articleId=14</link>
+  <dc:date>2002-10-21</dc:date>
+  <dc:creator>
+Nick Smith (mailto:Astronomer2005@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=13">
+  <title>A Quarter Century of Science Pseudoscience and Skepticism</title>
+  <description>Since the time of the Greeks skepticism in its various carnations has evolved along with other epistemologies and their accompanying social activists</description>
+  <link>http://www.physicspost.com/articles.php?articleId=13</link>
+  <dc:date>2002-10-21</dc:date>
+  <dc:creator>
+Michael Shermer (mailto:skepticmag@aol.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=12">
+  <title>Black Hole at the Center of the Milky Way</title>
+  <description>With a recent study scientists are now fully confident that our galaxy is swirling around an enormous black hole Sagittarius A</description>
+  <link>http://www.physicspost.com/articles.php?articleId=12</link>
+  <dc:date>2002-10-20</dc:date>
+  <dc:creator>
+Dean Halford (mailto:deanofseattle@yahoo.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=11">
+  <title>Alpha  The Fine Structure Constant</title>
+  <description>The fine structure constant is quite mysterious and has baffled many physicists mathematicians and anybody else who has been concerned because there are several bizarre numerical coincidences involving the digits 137</description>
+  <link>http://www.physicspost.com/articles.php?articleId=11</link>
+  <dc:date>2002-10-20</dc:date>
+  <dc:creator>
+Ana Gamboa (mailto:Entropia@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=10">
+  <title>The DoubleSlit Experiment A Classic Example of Quantum Weirdness</title>
+  <description>Although there are many wonderful examples of the strangeness of Quantum Mechanics few more clearly illustrate the effect of the observer on the outcome of the experiment than this  This is a brief overview of the experiment and some of its variations</description>
+  <link>http://www.physicspost.com/articles.php?articleId=10</link>
+  <dc:date>2002-10-19</dc:date>
+  <dc:creator>
+Jim Adson (mailto:jadson@physicsforums.com)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=9">
+  <title>Are force fields a possibility</title>
+  <description>Force fields are displayed as protective barriers in the latest SciFi movies but are they a possibilty in real life  Read this short summary for a few ideas</description>
+  <link>http://www.physicspost.com/articles.php?articleId=9</link>
+  <dc:date>2002-10-19</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=5">
+  <title>Quantum Tunneling Fact</title>
+  <description>Quantum weirdness at it39s best  Check out this short summary on quantum tunneling</description>
+  <link>http://www.physicspost.com/articles.php?articleId=5</link>
+  <dc:date>2002-10-17</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=4">
+  <title>The Standard Model</title>
+  <description>In the early 20th Century the only matter particles known to exist were the proton neutron and electron Then additional particles were discovered in cosmic rays and particle accelerators  The Standard Model would soon be born</description>
+  <link>http://www.physicspost.com/articles.php?articleId=4</link>
+  <dc:date>2002-10-17</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=2">
+  <title>Absolute Zero Nope</title>
+  <description>Absolute Zero is a state where kinetic energy is equal to zero  We haven39t yet experienced this phenomenon and here are a few reasons why we might never reach it</description>
+  <link>http://www.physicspost.com/articles.php?articleId=2</link>
+  <dc:date>2002-10-16</dc:date>
+  <dc:creator>
+Greg Bernhardt (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+<item rdf:about="http://www.physicspost.com/articles.php?articleId=1">
+  <title>Can the Market Handle Rival Audio Formats</title>
+  <description>Two select audio formats are gaining a tremendous amount of attention from audio enthusiasts  The Super Audio CD SACD format and the DVD Audio format are becoming trademarks of the Hifi audio world but can music and music accessory markets stay strong with these competing formats</description>
+  <link>http://www.physicspost.com/articles.php?articleId=1</link>
+  <dc:date>2004-03-05</dc:date>
+  <dc:creator>
+Unknown (mailto:ghb@uwm.edu)
+</dc:creator>
+</item>
+</rdf:RDF>

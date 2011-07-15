@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.newsforge.com/">
+<title>NewsForge</title>
+<link>http://www.newsforge.com/</link>
+<description>The Online Newspaper for Linux and Open Source</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 2004, OSTG - Open Source Technology Group, Inc.  All Rights Reserved.</dc:rights>
+<dc:date>2006-05-24T19:50:11+00:00</dc:date>
+<dc:publisher>NewsForge</dc:publisher>
+<dc:creator>webmaster@newsforge.com</dc:creator>
+<dc:subject>Information Technology</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://trends.newsforge.com/article.pl?sid=06/05/24/1855255&amp;from=rss" />
+  <rdf:li rdf:resource="http://trends.newsforge.com/article.pl?sid=06/05/15/2023227&amp;from=rss" />
+  <rdf:li rdf:resource="http://os.newsforge.com/article.pl?sid=06/05/22/1818255&amp;from=rss" />
+  <rdf:li rdf:resource="http://software.newsforge.com/article.pl?sid=06/05/24/1154233&amp;from=rss" />
+  <rdf:li rdf:resource="http://software.newsforge.com/article.pl?sid=06/05/18/1916246&amp;from=rss" />
+  <rdf:li rdf:resource="http://entertainment.newsforge.com/article.pl?sid=06/05/23/2219219&amp;from=rss" />
+  <rdf:li rdf:resource="http://software.newsforge.com/article.pl?sid=06/05/23/2141246&amp;from=rss" />
+  <rdf:li rdf:resource="http://trends.newsforge.com/article.pl?sid=06/05/04/1938240&amp;from=rss" />
+  <rdf:li rdf:resource="http://business.newsforge.com/article.pl?sid=06/05/15/1941210&amp;from=rss" />
+  <rdf:li rdf:resource="http://software.newsforge.com/article.pl?sid=06/04/28/207233&amp;from=rss" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://images.newsforge.com/nf_anvil_bug.gif" />
+<textinput rdf:resource="http://www.newsforge.com/search.pl" />
+</channel>
+
+<image rdf:about="http://images.newsforge.com/nf_anvil_bug.gif">
+<title>NewsForge</title>
+<url>http://images.newsforge.com/nf_anvil_bug.gif</url>
+<link>http://www.newsforge.com/</link>
+</image>
+
+<item rdf:about="http://trends.newsforge.com/article.pl?sid=06/05/24/1855255&amp;from=rss">
+<title>Battling DRM outside Seattle WinHEC conference</title>
+<link>http://trends.newsforge.com/article.pl?sid=06/05/24/1855255&amp;from=rss</link>
+<description>SEATTLE -- It was Tuesday morning, and inside the Washington State Convention and Trade Center, Microsoft's Bill Gates was preparing to give the keynote address to the Windows Hardware Engineering Conference (WinHEC). Out front, a protest group organized by the Free Software Foundation (FSF) greeted people as they arrived at WinHEC; they were easy to spot, as most of them wore bright yellow "hazardous material" suits. But the protesters warned not of biohazards, but rather of digital rights management.</description>
+<dc:creator>StoneLion</dc:creator>
+<dc:date>2006-05-24T19:00:00+00:00</dc:date>
+<dc:subject>news</dc:subject>
+<slash:section>trends</slash:section>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://trends.newsforge.com/article.pl?sid=06/05/15/2023227&amp;from=rss">
+<title>Chilling Effects site defends online freedom of expression</title>
+<link>http://trends.newsforge.com/article.pl?sid=06/05/15/2023227&amp;from=rss</link>
+<description>Chilling Effects is a resource site for online freedom of expression in the United States. Founded by Wendy Seltzer, currently a visiting assistant professor at Brooklyn Law School, the site is supported by the Electronic Frontier Foundation and more than half a dozen law schools, including Harvard, Stanford, and Boalt. The site exists to document attempts to stifle free speech online, and to provide general legal advice for those faced with such attempts. During its five years of operation, Chilling Effects has become one of the major Web resources on its subject.</description>
+<dc:creator>StoneLion</dc:creator>
+<dc:date>2006-05-24T17:00:00+00:00</dc:date>
+<dc:subject>legal</dc:subject>
+<slash:section>trends</slash:section>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://os.newsforge.com/article.pl?sid=06/05/22/1818255&amp;from=rss">
+<title>Review: SUSE 10.1</title>
+<link>http://os.newsforge.com/article.pl?sid=06/05/22/1818255&amp;from=rss</link>
+<description>Novell released SUSE 10.1 -- the distro once known as OpenSUSE -- this month after an extensive public beta that went through five public and two closed release candidates before being deemed worthy. Here's my take on the final version of SUSE 10.1.</description>
+<dc:creator>StoneLion</dc:creator>
+<dc:date>2006-05-24T14:01:00+00:00</dc:date>
+<dc:subject>linux</dc:subject>
+<slash:section>os</slash:section>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://software.newsforge.com/article.pl?sid=06/05/24/1154233&amp;from=rss">
+<title>The Curious Incident of Sun in the Night-Time</title>
+<link>http://software.newsforge.com/article.pl?sid=06/05/24/1154233&amp;from=rss</link>
+<description>Our community has been abuzz with the rumor that Sun has made its implementation Java free software (or "open source"). Community leaders even publicly thanked Sun for its contribution. What is Sun's new contribution to the FLOSS community?</description>
+<dc:creator>warthawg</dc:creator>
+<dc:date>2006-05-24T11:47:00+00:00</dc:date>
+<dc:subject>freesoftware</dc:subject>
+<slash:section>software</slash:section>
+<slash:hitparade>36,36,7,0,0,0,0</slash:hitparade>
+<slash:comments>36</slash:comments>
+</item>
+
+<item rdf:about="http://software.newsforge.com/article.pl?sid=06/05/18/1916246&amp;from=rss">
+<title>Vim tips: Folding fun</title>
+<link>http://software.newsforge.com/article.pl?sid=06/05/18/1916246&amp;from=rss</link>
+<description>The problem with writing and editing on a computer, versus having words on paper, is that it's usually hard to compare text from different sections of a document when they don't fit on the screen together. One way to do it is to use Vim's viewports feature. Another is to "fold" the text. Using Vim's folding features, you can tuck away portions of a file's text so that they're out of sight until you want to work with them again. Here's how.</description>
+<dc:creator>StoneLion</dc:creator>
+<dc:date>2006-05-24T08:01:00+00:00</dc:date>
+<dc:subject>desktop</dc:subject>
+<slash:section>software</slash:section>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://entertainment.newsforge.com/article.pl?sid=06/05/23/2219219&amp;from=rss">
+<title>FSF launches anti-DRM campaign outside WinHEC 2006</title>
+<link>http://entertainment.newsforge.com/article.pl?sid=06/05/23/2219219&amp;from=rss</link>
+<description>The Free Software Foundation (FSF) launched its anti-Digital Rights Management (DRM) campaign in Seattle this morning. When attendees of the Windows Hardware Engineering Conference (WinHEC) 2006 arrived at the Washington State Convention and Trade Center to hear a keynote address by Bill Gates, a small group of FSF members and their local allies were waiting to greet them, dressed in yellow hazmat suits and handing out pamphlets explaining that Microsoft products are -- in the words of the key slogan for the campaign -- "defective by design" because of the DRM technologies included in them.</description>
+<dc:creator>jzb</dc:creator>
+<dc:date>2006-05-23T22:30:00+00:00</dc:date>
+<dc:subject>topstory</dc:subject>
+<slash:section>entertainment</slash:section>
+<slash:hitparade>10,10,3,0,0,0,0</slash:hitparade>
+<slash:comments>10</slash:comments>
+</item>
+
+<item rdf:about="http://software.newsforge.com/article.pl?sid=06/05/23/2141246&amp;from=rss">
+<title>PostgreSQL addresses SQL injection vulnerabilities</title>
+<link>http://software.newsforge.com/article.pl?sid=06/05/23/2141246&amp;from=rss</link>
+<description>The PostgreSQL project released updated versions of the PostgreSQL 8.1, 8.0, 7.4, and 7.3 series today to address a SQL injection vulnerability.</description>
+<dc:creator>roblimo</dc:creator>
+<dc:date>2006-05-23T21:38:00+00:00</dc:date>
+<dc:subject>security</dc:subject>
+<slash:section>software</slash:section>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<item rdf:about="http://trends.newsforge.com/article.pl?sid=06/05/04/1938240&amp;from=rss">
+<title>OSAPA initiative will combat unworthy software patents</title>
+<link>http://trends.newsforge.com/article.pl?sid=06/05/04/1938240&amp;from=rss</link>
+<description>The elusive open source prior art repository -- attempted by several, failed at by all. What makes the Open Source as Prior Art (OSAPA) initiative, championed by OSDL, IBM, and others such as SourceForge.net, and announced by the USPTO Office in January, likely to succeed where others have failed? The answer can be found in the timely confluence of pressures on the different stakeholders, combined with an approach that leverages the existing resources and strengths of the open source community.</description>
+<dc:creator>StoneLion</dc:creator>
+<dc:date>2006-05-23T20:00:00+00:00</dc:date>
+<dc:subject>legal</dc:subject>
+<slash:section>trends</slash:section>
+<slash:hitparade>2,2,2,0,0,0,0</slash:hitparade>
+<slash:comments>2</slash:comments>
+</item>
+
+<item rdf:about="http://business.newsforge.com/article.pl?sid=06/05/15/1941210&amp;from=rss">
+<title>A free education</title>
+<link>http://business.newsforge.com/article.pl?sid=06/05/15/1941210&amp;from=rss</link>
+<description>My sister Erika's second grade primary school class had a problem: it had four old computers running Microsoft Windows 98, and no educational software for the computers. The computers were used mainly for viewing children's educational Web sites, and playing simple Macromedia Flash games. I decided to introduce free software into her classroom. The results were heart-warming.</description>
+<dc:creator>StoneLion</dc:creator>
+<dc:date>2006-05-23T17:00:00+00:00</dc:date>
+<dc:subject>educationtraining</dc:subject>
+<slash:section>business</slash:section>
+<slash:hitparade>13,13,1,0,0,0,0</slash:hitparade>
+<slash:comments>13</slash:comments>
+</item>
+
+<item rdf:about="http://software.newsforge.com/article.pl?sid=06/04/28/207233&amp;from=rss">
+<title>Antivirus protection for the really worried</title>
+<link>http://software.newsforge.com/article.pl?sid=06/04/28/207233&amp;from=rss</link>
+<description>You probably know that viruses pose no immediate danger to Linux, but maybe you want to protect some Windows machines attached to your Linux mail server. I compared a commercial product, Frisk Software's F-Prot, and a free open source product, ClamAV, both running on a Linux server.</description>
+<dc:creator>StoneLion</dc:creator>
+<dc:date>2006-05-23T14:01:00+00:00</dc:date>
+<dc:subject>security</dc:subject>
+<slash:section>software</slash:section>
+<slash:hitparade>0,0,0,0,0,0,0</slash:hitparade>
+</item>
+
+<textinput rdf:about="http://www.newsforge.com/search.pl">
+<title>Search NewsForge</title>
+<description>Search NewsForge stories</description>
+<name>query</name>
+<link>http://www.newsforge.com/search.pl</link>
+</textinput>
+
+</rdf:RDF>

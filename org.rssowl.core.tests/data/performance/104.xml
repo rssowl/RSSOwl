@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+<channel rdf:about="http://www.php.net/">
+	<title>PHP: Hypertext Preprocessor</title>
+	<link>http://www.php.net/</link>
+	<description>The PHP scripting language web site</description>
+	<items>
+		<rdf:Seq>
+			<rdf:li rdf:resource="http://zendcon06.kbconferences.com/" />
+			<rdf:li rdf:resource="http://www.phparch.com/works" />
+			<rdf:li rdf:resource="http://www.afup.org/" />
+			<rdf:li rdf:resource="http://www.nyphpcon.com" />
+			<rdf:li rdf:resource="http://www.php.net/downloads.php" />
+			<rdf:li rdf:resource="http://www.php.net/downloads.php" />
+			<rdf:li rdf:resource="http://code.google.com/summerofcode.html" />
+			<rdf:li rdf:resource="http://froscon.de/" />
+			<rdf:li rdf:resource="http://phpvikinger.org/" />
+			<rdf:li rdf:resource="http://input.entwickler.com/phpconference" />
+			<rdf:li rdf:resource="http://www.phparch.com/tek/" />
+			<rdf:li rdf:resource="http://www.phpquebec.com/" />
+			<rdf:li rdf:resource="http://www.nyphpcon.com" />
+			<rdf:li rdf:resource="http://wtconferences.com/" />
+			<rdf:li rdf:resource="http://www.froscon.org/wiki/CallforPapers" />
+			<rdf:li rdf:resource="http://www.phpconference.co.uk/" />
+			<rdf:li rdf:resource="http://www.php.net/downloads.php" />
+			<rdf:li rdf:resource="http://www.php.net/downloads.php" />
+		</rdf:Seq>
+	</items>
+</channel>
+<!-- RSS-Items -->
+
+<item rdf:about="http://zendcon06.kbconferences.com/">
+	<title>Zend/PHP Conference 2006 - Call for Papers</title>
+	<link>http://zendcon06.kbconferences.com/</link>
+	<description>Zend Technologies invites you to participate in the Zend/PHP Conference 2006. Share your ideas with fellow colleagues in the PHP community. Present your technical concepts, cutting edge applications, or business applications. Your participation will help make this conference a success. Session tracks include: -- PHP and Web Services - Architecting and Building Service Based Applications: From SOA to Mashups -- PHP Development - Best Practices and Pivotal Skills for PHP Development -- PHP Management - Operating Business Critical PHP Applications The conference selection committee will consider all abstracts submitted on or before June 30th, 2006. Notifications will be made by August 1st, 2006. Complete details available at the Zend Developer Zone</description>
+	<dc:date>2006-05-24</dc:date>
+</item>
+
+<item rdf:about="http://www.phparch.com/works">
+	<title>php|works / db|works 2006 - Call for Papers</title>
+	<link>http://www.phparch.com/works</link>
+	<description>php|architect magazine is proud to announce php|works / db|works 2006, a three-day conference (plus one day of exclusive in-depth seminars) dedicated to PHP driven software development. This year's conference will take place on Sept. 12-15, 2006, in Toronto, Canada with September 12th set aside for a set of in-depth seminars. If you've got unique insight into PHP, or have used PHP to connect to high-end datastores, php|architect wants to hear from you. For more information, please visit the Call for Papers page, and submit your ideas. The deadline is June 5, 2006.</description>
+	<dc:date>2006-05-16</dc:date>
+</item>
+
+<item rdf:about="http://www.afup.org/">
+	<title>Call to speaker for Paris "Forum PHP 2006"</title>
+	<link>http://www.afup.org/</link>
+	<description>The AFUP, Association Française des Utilisateurs de PHP, is proud to announce the upcoming conference "Forum PHP 2006". For this unique event in France, we are looking for the best French speaking experts, who want to share their know-how and enthusiasm. This two day conference features one technical day, with the most advanced PHP techniques and a business day, with case studies and examples of successful projects. Date and location: the "Forum PHP 2006" will take place in Paris, at the SNHF (Société Nationale d'Horticulture), on Thursday and Friday the 9th and 10th of November 2006.</description>
+	<dc:date>2006-05-17</dc:date>
+</item>
+
+<item rdf:about="http://www.nyphpcon.com">
+	<title>NYPHPCon 2006 Program Announced</title>
+	<link>http://www.nyphpcon.com</link>
+	<description>We are pleased to announce the speaker, tutorial and keynote program for NYPHPCon 2006. The New York PHP Conference &amp; Expo 2006 is taking place in New York City, at the historic New Yorker Hotel, June 14-16, 2006. There will be three full days of sessions, tutorials, exhibits, and networking events. We are also pleased to host the IBM Mashup Contest and Oracle PHPFest, and a special PHP Training package at this event. NYPHPCon 2006 focuses on the The PHP Business Community, with two featured parallel tracks plus tutorials: Business Strategy and Technical Solutions. Over 400 are expected to attend, including business and technical professionals from around the world.</description>
+	<dc:date>2006-05-16</dc:date>
+</item>
+
+<item rdf:about="http://www.php.net/downloads.php">
+	<title>PHP 5.1.4 Released</title>
+	<link>http://www.php.net/downloads.php</link>
+	<description>A critical bug with $_POST array handling as well as the FastCGI sapi have been discovered in PHP 5.1.3. A new PHP release 5.1.4 is now available to address these issues. All PHP users are encouraged to upgrade to this release as soon as possible. Further details about this release can be found in the release announcement and the full list of changes is available in the PHP 5 ChangeLog. The tarballs were updated to include the PEAR's phar file, previously missing from the release.</description>
+	<dc:date>2006-05-04</dc:date>
+</item>
+
+<item rdf:about="http://www.php.net/downloads.php">
+	<title>PHP 5.1.3 Released</title>
+	<link>http://www.php.net/downloads.php</link>
+	<description>The PHP development team is proud to announce the release of PHP 5.1.3. This release combines small number of feature enhancements with a significant amount of bug fixes and resolves a number of security issues. Some of the key changes of PHP 5.1.3 include: Disallow certain characters in session names. Fixed a buffer overflow inside the wordwrap() function. Prevent jumps to parent directory via the 2nd parameter of the tempnam() function. Enforce safe_mode for the source parameter of the copy() function. Fixed cross-site scripting inside the phpinfo() function. Fixed offset/length parameter validation inside the substr_compare() function. Fixed a heap corruption inside the session extension. Fixed a bug that would allow variable to survive unset(). Fixed a number of crashes in the DOM, SOAP and PDO extensions. Upgraded bundled PCRE library to version 6.6 The use of the var keyword to declare properties no longer raises a deprecation E_STRICT. FastCGI interface was completely reimplemented. Multitude of improvements to the SPL, SimpleXML, GD, CURL and Reflection extensions. Over 120 various bug fixes. Further details about this release can be found in the release announcement and the full list of changes is available in the PHP 5 ChangeLog.</description>
+	<dc:date>2006-05-01</dc:date>
+</item>
+
+<item rdf:about="http://code.google.com/summerofcode.html">
+	<title>Summer of Code</title>
+	<link>http://code.google.com/summerofcode.html</link>
+	<description>Proposals are now being accepted for Google's Summer of Code program. If you qualify and you are interested in working on a PHP-related project this summer, please consider applying. We have listed a couple of ideas, but we would encourage you to submit a proposal for any part of PHP you are interested in. If your project is accepted we will match you up with a mentor and try to provide you with as much support as possible. To get started, read the FAQ and then go to Step 1.</description>
+	<dc:date>2006-05-01</dc:date>
+</item>
+
+<item rdf:about="http://froscon.de/">
+	<title>PHP at FrOSCon Call for Papers</title>
+	<link>http://froscon.de/</link>
+	<description>The faculty for Computer Science of the college of higher education Bonn-Rhein-Sieg celebrates the first conference about free software in cooperation with the LUUSA and the FrOSCon e.V. 2006. The event takes place on June 24th/25th in Bonn, Germany and is organized completely free and open. The PHP user groups Köln/Bonn and Dortmund take part in the conference and organize a professional PHP track for both days. The call for papers is currently open and every interesting talk is highly appreciated.</description>
+	<dc:date>2006-04-24</dc:date>
+</item>
+
+<item rdf:about="http://phpvikinger.org/">
+	<title>PHP Vikinger</title>
+	<link>http://phpvikinger.org/</link>
+	<description>The PHP Vikinger is a community-driven PHP event that will be held in Skien, Norway from June 24th to 25th. Like the famous Foo Camp and Bar Camp, the people who attend get to choose and present the sessions at the event. The event is meant to be affordable: registration is 20 Euros, and simple food and a place to sleep are provided for both days of the event. The major expense for most attendees will be the cost of traveling to Norway. 50 invitations have been sent to various PEAR and PHP contributors. General registration for the event opens on May 1st.</description>
+	<dc:date>2006-04-24</dc:date>
+</item>
+
+<item rdf:about="http://input.entwickler.com/phpconference">
+	<title>International PHP Conference 2006 Call for Papers</title>
+	<link>http://input.entwickler.com/phpconference</link>
+	<description>The Call for Papers for the International PHP Conference 2006, 5th to 8th November 2009 at Frankfurt/Main Germany, has been started. The Conference features two days full with six hours PowerWorkshops and two days main conference with sessions. The main focus of the conference will be Security through an own security track. Like last year, we'll provide a Management Day for businesses utilizing PHP or evaluating PHP. The Call for Papers will end at May, 21th.</description>
+	<dc:date>2006-04-24</dc:date>
+</item>
+
+<item rdf:about="http://www.phparch.com/tek/">
+	<title>php|tek 2006</title>
+	<link>http://www.phparch.com/tek/</link>
+	<description>The php|tek 2006 conference will take place in Orlando, Florida, April 25-28. This year's speaker roster features many well-known PHP and open-source experts, including Rasmus Lerdorf, IBM's Rod Smith and Zend's Andi Gutmans, speaking on a variety of topics that highlight PHP's scalability, robustness and future.</description>
+	<dc:date>2006-03-02</dc:date>
+</item>
+
+<item rdf:about="http://www.phpquebec.com/">
+	<title>PHP Quebec 2006</title>
+	<link>http://www.phpquebec.com/</link>
+	<description>The PHP Quebec team is pleased to announce the 4th edition of the PHP Quebec Conference. This year, the conference will be held at the Montreal Plaza Hotel from March 29th to 31st. It features 2 days of technical learning and an additional day of workshop. Among the speakers, the well known PHP Experts such has Rasmus Lerdorf, Andrei Zmeivski, Derick Rethans and Ilia Alshanetsky. The conference will have three distinct tracks of session: Advanced Techniques, Professional Development and Databases. With over 31 sessions, including workshops, the PHP Québec Conference is great opportunity to learn about the latest PHP techniques and professional development techniques to help you build high quality PHP software. The conference will also present the various storage solutions available such has IBM DB2, PostgreSQL, SQLite and MySQL. Early bird pricing are available until march 3rd. Learn more about this exciting conference.</description>
+	<dc:date>2006-02-26</dc:date>
+</item>
+
+<item rdf:about="http://www.nyphpcon.com">
+	<title>NYPHPCon 2006</title>
+	<link>http://www.nyphpcon.com</link>
+	<description>The New York PHP Conference &amp; Expo 2006 is taking place in New York City, at the historic New Yorker Hotel, June 14-16, 2006. There will be three full days of sessions, tutorials, exhibits, and networking events. NYPHPCon 2006 focuses on the The PHP Business Community, with two featured parallel tracks: Business Strategy and Technical Solutions. Over 400 are expected to attend, including business and technical professionals from around the world. We invite everyone - whether technical or non-technical - to participate in our Call For Papers. An early-bird discount is available until March 1st.</description>
+	<dc:date>2006-02-02</dc:date>
+</item>
+
+<item rdf:about="http://wtconferences.com/">
+	<title>Third Bulgarian PHP Conference</title>
+	<link>http://wtconferences.com/</link>
+	<description>The third Web Technology conference and Expo in Bulgaria will be held in June 2006 in the city of Sofia. Within its framework, the Third Bulgarian PHP Conference will be held. The event will take place on the 30th of June and the 1st of July at the conference area of the Kempinski Hotel Zografski. The purpose of this meeting is to discuss the new tendencies in this direction and to popularize the internet technologies in the spheres of business, education, and services. The range of subjects includes technologies like PHP, Perl, business systems through web, education through the internet, and others.</description>
+	<dc:date>2006-01-19</dc:date>
+</item>
+
+<item rdf:about="http://www.froscon.org/wiki/CallforPapers">
+	<title>FrOSCon 2006 - Call for Papers</title>
+	<link>http://www.froscon.org/wiki/CallforPapers</link>
+	<description>The first Free and Open Source Conference "FrOSCon" takes place on 24th and 25th June 2006 in St. Augustin, near Bonn, Germany. Organized by a commited team, it aims to become a significant event for free software in the Rhineland. The conference is hosted by the faculty of computer science of the University of Applied Sciences Bonn-Rhein-Sieg in collaboration with the student body and the Linux/Unix User Group St. Augustin. In a Call for Papers, the organizers ask for submission of contributions. A broad variety of topics concerning free and open source software is desired. Particularly welcome are contributions about programming languages, free software on the desktop, security, systems administration and networks. Aspects of free software in business and industry are also a focus of the conference. Contributions can be submitted in English or German and should summarize the intended talk concisely and succinctly; talks should range from 45 to 60 minutes in length. Deadline for submission is 15th March 2006.</description>
+	<dc:date>2006-01-19</dc:date>
+</item>
+
+<item rdf:about="http://www.phpconference.co.uk/">
+	<title>UK PHP Conference 2006</title>
+	<link>http://www.phpconference.co.uk/</link>
+	<description>The first UK PHP Conference is going to be held on February 10th 2006, organized by the PHP London user group. This is a one day event at South Bank University, plus networking events. The list of speakers: Derick Rethans, Pawel Kozlowski, Harry Fuecks, Chris Kunz and Matt Zandstra. Not bad for 50 quid.</description>
+	<dc:date>2006-01-17</dc:date>
+</item>
+
+<item rdf:about="http://www.php.net/downloads.php">
+	<title>PHP 4.4.2 Released</title>
+	<link>http://www.php.net/downloads.php</link>
+	<description>The PHP development team is proud to announce the release of PHP 4.4.2. This release address a few small security issues, and also corrects some regressions that occurred in PHP 4.4.1. All PHP 4 users are encouraged to upgrade to this release. Some of the key changes of PHP 4.4.2 include: HTTP Response Splitting has been addressed in the header() function. An XSS problem inside the error reporting functionality has been removed. Apache 2 regression with sub-request handling on non-Linux systems has been fixed. A regression with the key() and current() functions have been fixed. Over 30 various bug fixes. Further details about this release can be found in the release announcement and the full list of changes is available in the PHP 4 ChangeLog.</description>
+	<dc:date>2006-01-13</dc:date>
+</item>
+
+<item rdf:about="http://www.php.net/downloads.php">
+	<title>PHP 5.1.2 Released</title>
+	<link>http://www.php.net/downloads.php</link>
+	<description>The PHP development team is proud to announce the release of PHP 5.1.2. This release combines small feature enhancements with a fair number of bug fixes and addresses three security issues. All PHP 5 users are encouraged to upgrade to this release. Some of the key changes of PHP 5.1.2 include: HTTP Response Splitting has been addressed in ext/session and in the header() function. Fixed format string vulnerability in ext/mysqli. Fixed possible cross-site scripting problems in certain error conditions. Hash &amp; XMLWriter extensions added and enabled by default. Upgraded OCI8 extension. Over 85 various bug fixes. Further details about this release can be found in the release announcement and the full list of changes is available in the PHP 5 ChangeLog.</description>
+	<dc:date>2006-01-12</dc:date>
+</item>
+<!-- / RSS-Items PHP/RSS -->
+</rdf:RDF>

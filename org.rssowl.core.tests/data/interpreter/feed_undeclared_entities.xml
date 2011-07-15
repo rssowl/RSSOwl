@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+<rss version="2.0">
+	<channel>
+		<title>entities_title#&ouml;&auml;&uuml;&amp;&lt;&gt;</title>
+	  	<link>entities_link</link>
+	  	<description>entities_description#&ouml;&auml;&uuml;&amp;&lt;&gt;</description>
+
+		<item>
+			<title>entities_item1.title#&ouml;&auml;&uuml;&amp;&lt;&gt;</title>
+	        <link>entities_item1.link</link>
+	        <description>entities_item1.description#&ouml;&auml;&uuml;&amp;&lt;&gt;</description>
+		</item>
+	</channel>
+</rss>

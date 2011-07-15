@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl Subscriptions</title>
+    <dateModified>Mo, 03 Aug 2009 22:27:10 CEST</dateModified>
+  </head>
+  <body>
+      <outline text="Entertainment">
+        <outline text="Books" rssowl:isSet="false" rssowl:id="230">
+          <outline text="Variety.com" xmlUrl="http://www.variety.com/rss.asp?categoryid=1010" />
+          <outline text="NYT Book Review" xmlUrl="http://radio.weblogs.com/0124132/staplerfeeds/nytbook.xml" rssowl:id="232" />
+          <outline text="The Literary Saloon" xmlUrl="http://www.complete-review.com/saloon/rss.xml" rssowl:id="233" />
+          <outline text="The Shifted Librarian" xmlUrl="http://www.theshiftedlibrarian.com/rss.xml" rssowl:id="234" />
+        </outline>
+        <outline text="Cars">
+          <outline text="Jalopnik" xmlUrl="http://feeds.gawker.com/jalopnik/full" rssowl:id="236" />
+          <outline text="Future cars, Hybrid Cars" xmlUrl="http://futurecars.blogspot.com/atom.xml" />
+          <outline text="Motorcycle.Com News Feed" xmlUrl="http://www.motorcycle.com/news/news.xml" rssowl:id="238" />
+        </outline>
+        <outline text="Games" rssowl:isSet="false" rssowl:id="239">
+          <outline text="GamersCircle" xmlUrl="http://www.gamerscircle.net/b2rss2.php" rssowl:id="240" />
+          <outline text="Gaming News: GameCube" xmlUrl="http://www.dailygame.net/news/archives/categories/gc/index.xml" rssowl:id="241" />
+          <outline text="Gaming News: Playstation 2" xmlUrl="http://www.dailygame.net/news/archives/categories/ps2/index.xml" rssowl:id="242" />
+          <outline text="Joystiq" xmlUrl="http://www.joystiq.com/rss.xml" rssowl:id="243" />
+        </outline>
+        <outline text="Humor" rssowl:isSet="false" rssowl:id="244">
+          <outline text="Dilbert.com Blog" xmlUrl="http://dilbert.com/blog/" rssowl:id="245" />
+          <outline text="Darkgate Comic Slurper" xmlUrl="http://darkgate.net/comic/feed.php?foxtrot&amp;dilbert&amp;doonesbury&amp;sherman&amp;userf&amp;stonesoup" rssowl:id="246" />
+          <outline text="Get Fuzzy" xmlUrl="http://www.tapestrycomics.com/getfuzzy.xml" rssowl:id="247" />
+          <outline text="Lost Brain" xmlUrl="http://www.lostbrain.com/rss/rssv0_91.xml" rssowl:id="248" />
+        </outline>
+        <outline text="SciFi" rssowl:isSet="false" rssowl:id="249">
+          <outline text="Stargate Blog" xmlUrl="http://blog.scifi.com/stargate/index.rdf" rssowl:id="250" />
+          <outline text="Sci-Fi Storm" xmlUrl="http://scifistorm.org/scifistorm.rdf" rssowl:id="251" />
+        </outline>
+        <outline text="Gawker" xmlUrl="http://www.gawker.com/index.xml" rssowl:id="252" />
+        <outline text="The Movie Blog" xmlUrl="http://feeds.feedburner.com/themovieblog/VkTh" rssowl:id="253" />
+        <outline text="CC Insider" xmlUrl="http://ccinsider.comedycentral.com/cc_insider/atom.xml" rssowl:id="254" />
+      </outline>
+      <outline text="Internet" rssowl:isSet="false" rssowl:id="267">
+        <outline text="WebDeveloper.com" xmlUrl="http://www.webdeveloper.com/webdeveloper.rdf" rssowl:id="268" />
+        <outline text="internetnews.com" xmlUrl="http://headlines.internet.com/internetnews/top-news/news.rss" rssowl:id="269" />
+        <outline text="SimpleBits" xmlUrl="http://www.simplebits.com/xml/rss.xml" rssowl:id="270" />
+        <outline text="Accessify" xmlUrl="http://www.accessify.com/rss/accessify_rss.xml" rssowl:id="271" />
+        <outline text="WebReference News" xmlUrl="http://www.webreference.com/webreference.rdf" rssowl:id="272" />
+      </outline>
+      <outline text="Music">
+        <outline text="iTunes 25 Just Added Albums" xmlUrl="http://phobos.apple.com/WebObjects/MZStore.woa/wpa/MRSS/justadded/limit=25/rss.xml" rssowl:id="274" />
+        <outline text="RollingStone.com Music News" xmlUrl="http://www.rollingstone.com/rssxml/music_news.xml" rssowl:id="275" />
+        <outline text="VH1 News" xmlUrl="http://www.vh1.com/rss/news/latest.jhtml" />
+        <outline text="MTV News" xmlUrl="http://www.mtv.com/rss/news/latest.jhtml" />
+        <outline text="CMT News" xmlUrl="http://www.cmt.com/rss/news/latest.jhtml" />
+        <outline text="iTunes Top 25 Songs" xmlUrl="http://phobos.apple.com/WebObjects/MZStore.woa/wpa/MRSS/topsongs/limit=25/rss.xml" rssowl:id="279" />
+      </outline>
+  </body>
+</opml>

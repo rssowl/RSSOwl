@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.apachenews.org/">
+<title>Apache News Online</title>
+<link>http://www.apachenews.org/</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-10T13:31:08+00:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.122-ja" />
+<cc:license rdf:resource="http://creativecommons.org/licenses/by/1.0/" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.apachenews.org/archives/000867.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000866.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000865.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000864.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000863.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000862.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000861.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000860.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000859.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000858.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000857.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000856.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000855.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000854.html" />
+<rdf:li rdf:resource="http://www.apachenews.org/archives/000853.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.apachenews.org/archives/000867.html">
+<title>10 May 2006 - ApacheCon Europe 2006: The European Event for Apache Technologies</title>
+<link>http://www.apachenews.org/archives/000867.html</link>
+<description>
+<![CDATA[<a href="http://www.apache.org/">The Apache Software Foundation</a> and Software & Support Media proudly announce the upcoming <a href="http://www.eu.apachecon.com">ApacheCon Europe 2006</a> that will take place for the first time in the Irish capital Dublin from 26-30 June, 2006.           
+<p/>
+We kindly invite you to participate at ApacheCon Europe 2006 and get the latest information on all things  Apache and meet an international crowd of Apache enthusiasts.
+<p/>
+Registration is open! Save money by registering prior to May 29, 2006 at www.eu.apachecon.com.
+<p/>
+ApacheCon Europe 2006 will offer seminars that cover the whole spectrum of Apache projects and technologies including the famous Apache HTTP Server, Jakarta, Tomcat, Geronimo, XML, Web Services, Portals, Cocoon, Lenya, Struts, and many more.
+<p/>
+With more than 70 top-quality sessions and more than 20 tutorials ApacheCon Europe 2006 offers one of the biggest programs on Open Source techology this summer plus a keynote from Thawte and Ubuntu founder Mark Shuttleworth.
+<p/>
+NEW: Open Source & Business Track<br/>
+A new, business track has been added to ApacheCon Europe this year, which focuses on how to make money from your Open Source projects. This track will be especially appealing to management  - CIOs, CTOs, project managers and others in the decision-making chain -  who need to understand the considerations behind doing business with Open Source technologies. The Business Track at ApacheCon Europe 2006 offers two full days of sessions and tutorials that can be booked separately.
+<p/>
+The complete agenda and registration information of ApacheCon Europe 2006 are available at <a href="http://www.eu.apachecon.com">http://www.eu.apachecon.com</a>
+<p/>
+We look forward to seeing you in Dublin!
+<p/>
+Best Regards
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://www.eu.apachecon.com">-- The ApacheCon Europe Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_conference_index.html">Apache Conference</a> ] <a href="http://www.apachenews.org/archives/news_apache_conference.pdf"><img src="http://www.apachenews.org/pdf.gif?867" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_conference.xml"><img src="http://www.apachenews.org/xml.gif?867" border="0" alt="XML_RSS"/></a><br />[ Category : <a href="http://www.apachenews.org/archives/cat_apache_software_foundation_index.html">Apache Software Foundation</a> ] <a href="http://www.apachenews.org/archives/news_apache_software_foundation.pdf"><img src="http://www.apachenews.org/pdf.gif?867" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_software_foundation.xml"><img src="http://www.apachenews.org/xml.gif?867" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Conference</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-10T13:31:08+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000866.html">
+<title>09 May 2006 - Apache TCPMon (WebServices Commons) 1.0 Released</title>
+<link>http://www.apachenews.org/archives/000866.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/commons/tcpmon/">Apache TCPMon Team</a> is proud to announce the 1.0 release of Apache TCPMon, the recently moved out tool from <a href="http://ws.apache.org/axis2/">Apache Axis2</a>.
+<p/>
+You can download this release from our official site at <a href="http://ws.apache.org/commons/tcpmon/download.cgi">http://ws.apache.org/commons/tcpmon/download.cgi</a>
+<p/>
+The release jar is available at <a href="http://www.apache.org/dist/java-repository/ws-commons/jars/">http://www.apache.org/dist/java-repository/ws-commons/jars/</a> for embedding purposes
+<p/>
+Additions to this release apart from the regular TCPMon include<ol><li>SOAP message sender capability to send arbitrary SOAP messages</li><li>Batch and shell scripts to easily start TCPMon</li><li>Documentation including a simple user guide</li></ol>
+<p/>
+Please use this release and send your comments to commons-dev@ws.apache.org.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/commons/tcpmon/">-- Apache TCPMon Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?866" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?866" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-09T15:36:18+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000865.html">
+<title>09 May 2006 - Apache MyFaces Tomahawk 1.1.2 Released</title>
+<link>http://www.apachenews.org/archives/000865.html</link>
+<description>
+<![CDATA[<a href="http://myfaces.apache.org/">The Apache MyFaces PMC</a> is proud to announce a new and great release (1.1.2) of <a href="http://myfaces.apache.org/tomahawk/">Apache MyFaces Tomahawk</a>.
+<p/>
+MyFaces Tomahawk 1.1.2 is a set of JavaServer(tm) Faces 1.1 compatible custom and extended standard components and other JSF goodies.
+<p/>
+Please note: This is the first Tomahawk release that is fully independent of the MyFaces Core Implementation. From now on you can use any Tomahawk release with any MyFaces Core release with a release number greater than 1.1.2 as well as any other JavaServer(tm) Faces 1.1 compliant implementation.
+<p/>
+Find at Release Notes a list of bugs that have been fixed in this release. There is also a number of new features and improvements.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://myfaces.apache.org/">-- The Apache MyFaces PMC (Project Management Committee)</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_myfaces_index.html">Apache MyFaces</a> ] <a href="http://www.apachenews.org/archives/news_apache_myfaces.pdf"><img src="http://www.apachenews.org/pdf.gif?865" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_myfaces.xml"><img src="http://www.apachenews.org/xml.gif?865" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache MyFaces</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-09T15:33:23+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000864.html">
+<title>09 May 2006 - Apache MyFaces Core 1.1.3 Released</title>
+<link>http://www.apachenews.org/archives/000864.html</link>
+<description>
+<![CDATA[<a href="http://myfaces.apache.org/">The Apache MyFaces PMC</a> is proud to announce a new and great release (1.1.3) of the <a href="http://myfaces.apache.org/">MyFaces Core Implementation</a>.
+<p/>
+MyFaces Core is a JavaServer(tm) Faces 1.1 implementation as specified by <a href="http://www.jcp.org/en/jsr/detail?id=127">JSR-127</a>. It has passed Sun's TCK and is considered to be 100% compliant with the spec.
+<p/>
+Find below a list of bugs that have been fixed in this release.
+<p/>
+<u><strong>Release Notes - MyFaces Core - Version 1.1.3</strong></u>
+<p/>
+<strong>Bugs</strong><ul><li>[MYFACES-1092] - HtmlTableRendererBase.encodeInnerHtml() fails when data model returns -1 for getRowCount()</li><li>[MYFACES-1270] - Hot deployment in exploded mode is broken due to FacesConfigurator</li><li>[MYFACES-1289] - selectBooleanCheckbox does not call endElement("input")</li><li>[MYFACES-1290] - ServletFacesContextImpl.release() doesn't reset</li><li>[MYFACES-1299] - &lt;f:facet name="header"/&gt; doesn't allow multiple &lt;h:outputText&gt; inside</li></ul>
+<p/>
+<strong>Improvements</strong><ul><li>[MYFACES-1276] - Add new methods to HtmlFormBaseRenderer to ease integration support with AjaxAnywhere</li></ul>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://myfaces.apache.org/">-- The Apache MyFaces PMC (Project Management Committee)</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_myfaces_index.html">Apache MyFaces</a> ] <a href="http://www.apachenews.org/archives/news_apache_myfaces.pdf"><img src="http://www.apachenews.org/pdf.gif?864" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_myfaces.xml"><img src="http://www.apachenews.org/xml.gif?864" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache MyFaces</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-09T15:26:12+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000863.html">
+<title>07 May 2006 - Jakarta Commons HttpClient 3.0.1 Released</title>
+<link>http://www.apachenews.org/archives/000863.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/commons/httpclient/">The Jakarta Commons HttpClient project</a> is pleased to announce the release of HttpClient 3.0.1. This version fixes a number of bugs found since the release of 3.0. All HttpClient users are encouraged to upgrade.  Please download and enjoy.
+<p/>
+Download - <a href="http://jakarta.apache.org/site/downloads/downloads_commons-httpclient.cgi">http://jakarta.apache.org/site/downloads/downloads_commons-httpclient.cgi</a>
+<p/>
+Release notes - <a href="http://www.apache.org/dist/jakarta/commons/httpclient/RELEASE-NOTES.txt">http://www.apache.org/dist/jakarta/commons/httpclient/RELEASE-NOTES.txt</a>
+<p/>
+HttpClient site - <a href="http://jakarta.apache.org/commons/httpclient/">http://jakarta.apache.org/commons/httpclient/</a>
+<p/>
+About HttpClient - Although the java.net package provides basic functionality for accessing resources via HTTP, it doesn't provide the full flexibility or functionality needed by many applications. The Jakarta Commons HttpClient component seeks to fill this void by providing an efficient, up-to-date, and feature-rich package implementing the client side of the most recent HTTP standards and recommendations. 
+<p/>
+Enjoy,
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://jakarta.apache.org/commons/httpclient/">-- Jakarta Commons HttpClient Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?863" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?863" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-08T05:53:52+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000862.html">
+<title>05 May 2006 - Apache Rampart 1.0 Released</title>
+<link>http://www.apachenews.org/archives/000862.html</link>
+<description>
+<![CDATA[Apache Rampart Team is happy to announce the 1.0 release of Apache Rampart.
+<p/>
+Apache Rampart is the <a href="http://ws.apache.org/axis2/">Apache Axis2</a> module that implements the WS-Security specification based on <a href="http://ws.apache.org/wss4j/">Apache WSS4J</a> 1.5.0 and the Apache AXIOM-DOOM implementation.
+<p/>
+In addition to the WS-Security features listed in the WSS4J web site (<a href="http://ws.apache.org/wss4j">http://ws.apache.org/wss4j</a>) rampart provides:<ul><li>Ability to MTOM optimize parts of the message</li><li>Convenient and intuitive configurations</li><li>Mechanism to dynamically configure the module</li><li>Experimental WS-SecurityPolicy support</li></ul>
+<p/>
+This module was successfully tested for interoparability with other WS-Security implementations.
+<p/>
+You can download the rampart-1.0.mar from:
+<p/>
+<a href="http://www.apache.org/dyn/mirrors/mirrors.cgi/ws/axis2/modules/rampart/1_0/">http://www.apache.org/dyn/mirrors/mirrors.cgi/ws/axis2/modules/rampart/1_0/</a>
+<p/>
+For documentation on configuration please refer
+<p/>
+<a href="http://ws.apache.org/axis2/modules/rampart/1_0/security-module.html">http://ws.apache.org/axis2/modules/rampart/1_0/security-module.html</a>
+<p/>
+Let "rampart" secure your messages !!!
+<p/>
+----
+<p/>
+-- Apache Rampart Team
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?862" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?862" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-06T05:38:23+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000861.html">
+<title>04 May 2006 - Apache Axis2 1.0 Released</title>
+<link>http://www.apachenews.org/archives/000861.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/axis2/">The Apache Axis2 Development Team</a> is very proud to announce that Apache Axis2 1.0 has been released. 
+<p/>
+Apache Axis2 is a complete re-design and re-write of the widely used Apache Axis SOAP stack to build on the lessons learnt from Apache Axis.
+<p/>
+Apache Axis2 not only supports SOAP 1.1 and SOAP 1.2, but it also has integrated support for the widely popular REST style of Web services: the same business logic implementation can offer both a WS-* style interface as well as a REST style interface simultaneously.
+<p/>
+Apache Axis2 is more efficient, more modular and more XML-oriented than the older version. It is carefully designed to support the easy addition of plug-in "modules" that extend its functionality for features such as security and reliability. Modules currently available or under development include:<ul><li><a href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wsrm">WS-ReliableMessaging</a> - Supported by <a href="http://ws.apache.org/sandesha/sandesha2/">Apache Sandesha2</a> </li><li><a href="http://www-128.ibm.com/developerworks/library/specification/ws-tx/#coor">WS-Coordination</a> and <a href="http://www-128.ibm.com/developerworks/library/specification/ws-tx/#atom">WS-AtomicTransaction</a> - Supported by <a href="http://ws.apache.org/kandula/">Apache Kandula2</a> </li><li><a href="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss">WS-Security</a> - Supported by <a href="http://ws.apache.org/axis2/modules/index.html">Apache Rampart</a> </li><li><a href="http://www.w3.org/Submission/ws-addressing/">WS-Addressing</a> - <a href="http://ws.apache.org/axis2/modules/index.html">Module</a> included as part of Axis2 core </li></ul>
+<p/>
+Apache Axis2 is built on <a href="http://ws.apache.org/commons/axiom/index.html">Apache Axiom (WebServices Commons)</a>, a new high performant, pull-based XML object model that was released two days ago.
+<p/>
+Downloads: <a href="http://ws.apache.org/axis2/download.cgi">http://ws.apache.org/axis2/download.cgi</a>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/axis2/">-- The Apache Axis2 Development Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?861" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?861" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-05T12:57:27+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000860.html">
+<title>03 May 2006 - Apache Neethi (WebServices Commons) 1.0.1 Released</title>
+<link>http://www.apachenews.org/archives/000860.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/commons/neethi/">The Apache Neethi team</a> is proud to announce the release of Apache Neethi version 1.0.1 You can download the source and binary distributions from the following mirrors.
+<p/>
+Mirrors: <a href="http://www.apache.org/dyn/closer.cgi/ws/commons/neethi/1_0_1/">http://www.apache.org/dyn/closer.cgi/ws/commons/neethi/1_0_1/</a>
+<p/>
+Please use our backup site if the mirrors are not yet updated.
+<p/>
+Backup: <a href="http://www.apache.org/dist/ws/commons/neethi/1_0_1/">http://www.apache.org/dist/ws/commons/neethi/1_0_1/</a>
+<p/>
+Please feel free to send any feedback to our mailing list commons-dev@ws.apache.org (preferably with [Neethi] prefix).
+<p/>
+Visit our website at: <a href="http://ws.apache.org/commons/neethi/index.html">http://ws.apache.org/commons/neethi/index.html</a> for further information.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/commons/neethi/">-- The Apache Neethi Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?860" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?860" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-04T08:53:13+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000859.html">
+<title>03 May 2006 - Apache WSS4J 1.5.0 Released</title>
+<link>http://www.apachenews.org/archives/000859.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/wss4j">The Apache WSS4J team</a> is happy to announce the 1.5.0 release of Apache WSS4J, the Web service security implementation.
+<p/>
+You can download the releases from:
+<p/>
+<a href="http://www.apache.org/dyn/closer.cgi/ws/wss4j/1_5_0">http://www.apache.org/dyn/closer.cgi/ws/wss4j/1_5_0</a>
+<p/>
+The distributions to the mirror(s) sites will be available in the next few days.
+<p/>
+Apart from the binary and source distributions, We have an additional ZIP file that contains other required JAR files to install and run WSS4J.
+<p/>
+Please refer to the *readme.* files in the distribution for further information regarding implemented features, additional information, links to the Wiki pages, etc.
+<p/>
+Note that major refactoring from the 1.1.0 to 1.5.0 is mentioned in the wiki : <a href="http://wiki.apache.org/ws/FrontPage/WsFx/refactor">http://wiki.apache.org/ws/FrontPage/WsFx/refactor</a>
+<p/>
+More information about WSS4J and related projects is available on the WSS4J homepage:
+<p/>
+<a href="http://ws.apache.org/wss4j">http://ws.apache.org/wss4j</a>
+<p/>
+We hope you have fun with this new WSS4J
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/wss4j">-- The Apache WSS4J team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?859" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?859" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-04T00:04:20+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000858.html">
+<title>02 May 2006 - Apache Axiom 1.0 Released</title>
+<link>http://www.apachenews.org/archives/000858.html</link>
+<description>
+<![CDATA[After nearly 2 years of development and numerous incremental releases, <a href="http://ws.apache.org/commons/">The Apache WebServices Commons Project</a> is proud to announce the release of Version 1.0 of <a href="http://ws.apache.org/commons/axiom/">Apache AXIOM</a>. (Download : <a href="http://ws.apache.org/commons/axiom/download.cgi">http://ws.apache.org/commons/axiom/download.cgi</a> )
+<p/>
+Apache AXIOM is a StAX-based, XML Infoset compliant object model which supports on-demand building of the object tree. It supports a novel "pull-through" model which allows one to turn off the tree building and directly access the underlying pull event stream. It also has built in support for XML Optimized Packaging (XOP) and MTOM, the combination of which allows XML to carry binary data efficiently and in a transparent manner. The combination of these is an easy to use API with a very high performant architecture.
+<p/>
+Developed as part of <a href="http://ws.apache.org/axis2/">Apache Axis2</a>, Apache AXIOM is the core of Apache Axis2. However, it is a pure standalone XML Infoset model with novel features and can be used independently of Apache Axis2.
+<p/>
+Key Features<ul><li>Full XML Infoset compliant XML object model</li><li>StAX based builders with on-demand building and pull-through</li><li>XOP/MTOM support offering direct binary support</li><li>Convenient SOAP Infoset API on top of AXIOM</li><li>Two implementations included:<ul><li>Linked list based implementation</li><li>W3C DOM supporting implementation</li></ul></li><li>High performance</li></ul>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/commons/">-- The Apache WebServices Commons Project</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?858" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?858" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-03T08:54:51+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000857.html">
+<title>01 May 2006 - Apache HTTP Server 2.2.2 Released</title>
+<link>http://www.apachenews.org/archives/000857.html</link>
+<description>
+<![CDATA[Apache HTTP Server 2.2.2 Released
+<p/>
+The Apache Software Foundation and The Apache HTTP Server Project are pleased to announce the release of version 2.2.2 of the Apache HTTP Server ("Apache").
+<p/>
+We consider this release to be the best version of Apache available, and encourage users of all prior versions to upgrade.
+<p/>
+Apache HTTP Server 2.2.2 is available for download from:
+<p/>
+  <a href="http://httpd.apache.org/download.cgi">http://httpd.apache.org/download.cgi</a>
+<p/>
+Apache 2.2 offers numerous enhancements, improvements, and performance boosts over the 2.0 codebase.  For an overview of new features introduced since 2.0 please see:
+<p/>
+  <a href="http://httpd.apache.org/docs/2.2/new_features_2_2.html">http://httpd.apache.org/docs/2.2/new_features_2_2.html</a>
+<p/>
+Please see the CHANGES_2.2 file, linked from the download page, for a full list of changes.
+<p/>
+Apache HTTP Server 1.3.35 and 2.0.58 legacy releases are also available with minor bugfixes.  See the appropriate CHANGES from the url above. The Apache HTTP Project developers strongly encourages all users to migrate to Apache 2.2, as only limited maintenance is performed on these legacy versions.
+<p/>
+This release includes the <a href="http://apr.apache.org/">Apache Portable Runtime (APR)</a> version 1.2.7 bundled with the tar and zip distributions.  The APR libraries libapr, libaprutil, and (on Win32) libapriconv must all be updated to ensure binary compatibility and address many known platform bugs.
+<p/>
+This release has been through extensive testing, including live at some of the world's busiest sites, and is now considered stable.  This means that modules and applications developed for Apache 2.2.2 will be both source- and binary-compatible with future 2.2.x releases.  This release builds on and extends the Apache 2.0 API. Modules written for Apache 2.0 will need to be recompiled in order to run with Apache 2.2, but no substantial reworking should be necessary.
+<p/>
+  <a href="http://svn.apache.org/repos/asf/httpd/httpd/branches/2.2.x/VERSIONING">http://svn.apache.org/repos/asf/httpd/httpd/branches/2.2.x/VERSIONING</a>
+<p/>
+When upgrading or installing this version of Apache, please bear in mind that if you intend to use Apache with one of the threaded MPMs, you must ensure that any modules you will be using (and the libraries they depend on) are thread-safe.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://www.apache.org/">-- The Apache Software Foundation</a></u></em></strong>
+<p/>
+<strong><em><u><a href="http://httpd.apache.org/">-- The Apache HTTP Server Project</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_http_index.html">Apache HTTP</a> ] <a href="http://www.apachenews.org/archives/news_apache_http.pdf"><img src="http://www.apachenews.org/pdf.gif?857" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_http.xml"><img src="http://www.apachenews.org/xml.gif?857" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache HTTP</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-05-01T05:46:21+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000856.html">
+<title>28 April 2006 - Apache Tomcat 5.5.17 Stable Now Available</title>
+<link>http://www.apachenews.org/archives/000856.html</link>
+<description>
+<![CDATA[<a href="http://tomcat.apache.org/">The Apache Tomcat Team</a> has voted to the v5.5.17 release as stable. You can see the stability vote results at <a href="http://marc.theaimsgroup.com/?l=tomcat-dev&m=114614639118049&w=2">http://marc.theaimsgroup.com/?l=tomcat-dev&m=114614639118049&w=2</a>, and you may find the following links useful:
+<p/>
+Release Notes: <a href="http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES">http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES</a>
+<p/>
+Change Log: <a href="http://tomcat.apache.org/tomcat-5.5-doc/changelog.html">http://tomcat.apache.org/tomcat-5.5-doc/changelog.html</a>
+<p/>
+Downloads: <a href="http://tomcat.apache.org/download-55.cgi">http://tomcat.apache.org/download-55.cgi</a>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://tomcat.apache.org/">-- The Apache Tomcat Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_tomcat_index.html">Apache Tomcat</a> ] <a href="http://www.apachenews.org/archives/news_apache_tomcat.pdf"><img src="http://www.apachenews.org/pdf.gif?856" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_tomcat.xml"><img src="http://www.apachenews.org/xml.gif?856" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Tomcat</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-28T01:06:13+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000855.html">
+<title>24 April 2006 - Jakarta HttpComponents HttpCore 4.0-alpha1 Now Available</title>
+<link>http://www.apachenews.org/archives/000855.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/httpcomponents/http-core/index.html">Jakarta HttpComponents HttpCore 4.0-alpha1</a> has been released. HttpCore provides a set of low level components, which can be used to build custom client and server side HTTP services.
+<p/>
+This release represents a complete redesign of the <a href="http://jakarta.apache.org/commons/">Jakarta Commons</a> HttpClient 3.x API, and a significant rewrite of the core HTTP components derived from the HttpClient 3.0 code base. HttpCore will form the foundation of the future releases of Jakarta HttpClient.
+<p/>
+This release is primarily intended for API review and use in experimental projects. The  HttpCore API is still deemed unstable, and it can still undergo significant changes based on the feedback from early adopters. Please check it out and let us know what you think.
+<p/>
+Enjoy,
+<p/>
+----
+<p/>
+<a href="http://jakarta.apache.org/httpcomponents/">-- Jakarta HttpComponents Team</a>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?855" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?855" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-25T02:29:26+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000854.html">
+<title>20 April 2006 - Apache Neethi as the brand name of WS Policy project</title>
+<link>http://www.apachenews.org/archives/000854.html</link>
+<description>
+<![CDATA[Please note that Apache WS Commons Policy project will now use *Apache Neethi* as its brand name.
+<p/>
+Majority of the community had voted in favour of this proposal.
+<p/>
+Vote thread:
+<a href="http://mail-archives.apache.org/mod_mbox/ws-commons-dev/200604.mbox/%3c44434989.2010406@apache.org%3e">http://mail-archives.apache.org/mod_mbox/ws-commons-dev/200604.mbox/%3c44434989.2010406@apache.org%3e</a>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?854" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?854" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-20T21:53:02+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000853.html">
+<title>20 April 2006 - Apache FOP 0.92 beta Now Available</title>
+<link>http://www.apachenews.org/archives/000853.html</link>
+<description>
+<![CDATA[<a href="http://xmlgraphics.apache.org/fop/">The Apache FOP development team</a> is very proud to present the third release off the trunk: Apache FOP 0.92beta.
+<p/>
+It can be downloaded at: <a href="http://xmlgraphics.apache.org/fop/download.html">http://xmlgraphics.apache.org/fop/download.html</a>
+<p/>
+Apache FOP 0.92 contains a considerable amount of improvements, bugfixes and new features in comparison with last December's 0.91 release, so you're all probably wondering: Why *still* consider it a beta release?
+<p/>
+The main reason for this is a fundamental modification in the API, which was motivated by the fact that a lot of resources could be reused for multiple rendering runs. It has, of course, all been rigorously tested, but still we'd very much appreciate any feedback, especially if one of you feels there is room for improvement, be it in the area of performance or user-friendliness. Every one of your comments will be carefully weighed and taken into consideration.
+<p/>
+Due to this change, we urge you to check out the following page before starting to work with the new release: <a href="http://xmlgraphics.apache.org/fop/0.92/embedding.html">http://xmlgraphics.apache.org/fop/0.92/embedding.html</a>
+<p/>
+If all proceeds as planned, the next release will --finally, after some 3 years-- lose the beta-tag, since a lot of feedback and our own experiences now tell us this piece of software is ready for production environments.
+<p/>
+On The Other Hand, if you take a look at the release notes at <a href="http://xmlgraphics.apache.org/fop/relnotes.html">http://xmlgraphics.apache.org/fop/relnotes.html</a>, you will still see a lot of open/known issues, so...
+<p/>
+As always, code-heads are encouraged to download the sources, and start tinkering with it. Your ideas, good or bad, will be very very welcome. If you have a lot of free time and feel like joining us, all the  better.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://xmlgraphics.apache.org/fop/">-- Apache FOP development team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_xml_graphics_index.html">Apache XML Graphics</a> ] <a href="http://www.apachenews.org/archives/news_apache_xml_graphics.pdf"><img src="http://www.apachenews.org/pdf.gif?853" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_xml_graphics.xml"><img src="http://www.apachenews.org/xml.gif?853" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache XML Graphics</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-20T19:19:11+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000852.html">
+<title>18 April 2006 - Apache MyFaces Core 1.1.2 Released</title>
+<link>http://www.apachenews.org/archives/000852.html</link>
+<description>
+<![CDATA[The Apache MyFaces PMC is proud to announce a new and great release of the <a href="http://myfaces.apache.org/">MyFaces Core Implementation</a> [1].
+<p/>
+MyFaces Core is a JavaServer(tm) Faces 1.1 implementation as specified by <a href="http://www.jcp.org/en/jsr/detail?id=127">JSR-127</a> [2]. It has passed Sun's TCK and is considered to be 100% compliant with the spec.
+<p/>
+Please pay attention to the fact that you cannot use this release of MyFaces Core with the MyFaces Tomahawk library in version 1.1.1 - it will only work with the Tomahawk library in version 1.1.2 and onward.
+<p/>
+From the release 1.1.2 on, you can use any Tomahawk release with a release number greater than 1.1.2 with any MyFaces Implementation release - we have taken special care to enable this.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://myfaces.apache.org/">-- The Apache MyFaces PMC (Project Management Committee) members</a></u></em></strong>
+<p/>
+----
+<p/>
+[1] <a href="http://myfaces.apache.org/">http://myfaces.apache.org/</a>
+<p/>
+[2] <a href="http://www.jcp.org/en/jsr/detail?id=127">http://www.jcp.org/en/jsr/detail?id=127</a>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_myfaces_index.html">Apache MyFaces</a> ] <a href="http://www.apachenews.org/archives/news_apache_myfaces.pdf"><img src="http://www.apachenews.org/pdf.gif?852" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_myfaces.xml"><img src="http://www.apachenews.org/xml.gif?852" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache MyFaces</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-18T19:02:36+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000851.html">
+<title>15 April 2006 - Apache Tomcat v5.5.17-beta Now Available</title>
+<link>http://www.apachenews.org/archives/000851.html</link>
+<description>
+<![CDATA[<a href="http://tomcat.apache.org/">The Apache Tomcat team</a> is proud to announce the immediate availability of <a href="http://tomcat.apache.org/tomcat-5.5-doc/">Tomcat v5.5.17-beta</a>. This release contains dozens of bug fixes and a number of other updates. Please consult the change log below for more details.
+<p/>
+<strong>Release Notes:</strong> <a href="http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES">http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES</a>
+<p/>
+<strong>Change Log:</strong> <a href="http://tomcat.apache.org/tomcat-5.5-doc/changelog.html">http://tomcat.apache.org/tomcat-5.5-doc/changelog.html</a>
+<p/>
+<strong>Downloads:</strong> <a href="http://tomcat.apache.org/download-55.cgi">http://tomcat.apache.org/download-55.cgi</a>
+<p/>
+Thank you,
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://tomcat.apache.org/">-- The Apache Tomcat Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_tomcat_index.html">Apache Tomcat</a> ] <a href="http://www.apachenews.org/archives/news_apache_tomcat.pdf"><img src="http://www.apachenews.org/pdf.gif?851" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_tomcat.xml"><img src="http://www.apachenews.org/xml.gif?851" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Tomcat</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-15T18:28:35+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000850.html">
+<title>11 April 2006 - Apache Maven 2.0.4 Released</title>
+<link>http://www.apachenews.org/archives/000850.html</link>
+<description>
+<![CDATA[<a href="http://maven.apache.org/">The Apache Maven team</a> is proud to announce the release of Maven 2.0.4. You can download it at:
+<p/>
+<a href="http://maven.apache.org/download.html">http://maven.apache.org/download.html</a>
+<p/>
+This release fixes a number of regressions in 2.0.3. These bugfixes include:<ul><li>[MNG-2054] - Multiple Inheritence causes plugin executions to run multiple times (Test Case Attached)</li><li>[MNG-2186] - POM interpolation problem in maven-2.0.3</li><li>[MNG-2196] - Fails when parent module is not located a level above</li><li>[MNG-2207] - Infinite Recursion when POM element has value with substring that is self-referencing</li></ul>
+<p/>
+The full release notes for this release can be found at:
+<p/>
+<a href="http://jira.codehaus.org/secure/ReleaseNote.jspa?version=12527&styleName=Html&projectId=10500&Create=Create">http://jira.codehaus.org/secure/ReleaseNote.jspa?version=12527&styleName=Html&projectId=10500&Create=Create</a>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://maven.apache.org/">-- The Apache Maven team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_maven_index.html">Apache Maven</a> ] <a href="http://www.apachenews.org/archives/news_apache_maven.pdf"><img src="http://www.apachenews.org/pdf.gif?850" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_maven.xml"><img src="http://www.apachenews.org/xml.gif?850" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Maven</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-11T02:27:17+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000849.html">
+<title>08 April 2006 - Apache Jackrabbit 1.0 Released</title>
+<link>http://www.apachenews.org/archives/000849.html</link>
+<description>
+<![CDATA[<a href="http://jackrabbit.apache.org/">The Apache Jackrabbit community</a> is pleased to announce the release of Apache Jackrabbit version 1.0. The release is available for download at:
+<p/>
+  <a href="http://jackrabbit.apache.org/downloads.cgi">http://jackrabbit.apache.org/downloads.cgi</a>
+<p/>
+Release Notes -- Apache Jackrabbit -- Version 1.0
+<p/>
+Introduction<br/>
+------------
+<p/>
+The Apache Jackrabbit project is an effort to build and maintain an open source implementation of the Content Repository for Java Technology API (JCR) specified in the Java Specification Request 170 (JSR-170).
+<p/>
+Apache Jackrabbit 1.0 is a fully conforming and stable JSR-170 implementation. Developed from the same source tree as the JSR-170 reference implementation, the 1.0 release implements the full JCR API, including level 1, level 2, and all the optional features like versioning, transactions, and observation.
+<p/>
+See the Apache Jackrabbit website at <a href="http://jackrabbit.apache.org/">http://jackrabbit.apache.org/</a> for more information.
+<p/>
+Release Contents<br/>
+----------------
+<p/>
+The main contents of this release are the Apache Jackrabbit core content repository implementation and the related general-purpose JCR utilities:<ul><li>jackrabbit-core-1.0-src.jar</li><li>jackrabbit-core-1.0.jar</li><li>jackrabbit-jcr-commons-1.0.jar</li></ul>
+<p/>
+This release contains also additional components that offer extra functionality for use with either Apache Jackrabbit core or any JCR compliant content repository. These modules should be considered alpha quality:<ul><li>RMI network layer for the JCR API.<ul><li>jackrabbit-jcr-rmi-1.0-src.jar</li><li>jackrabbit-jcr-rmi-1.0.jar</li></ul></li><li>Deployable Jackrabbit installation with WebDAV support for JCR.<ul><li>jackrabbit-jcr-server-1.0-src.jar</li><li>jackrabbit-jcr-webdav-1.0.jar</li><li>jackrabbit-jcr-client-1.0.jar</li><li>jackrabbit-jcr-server-1.0.jar</li><li>jackrabbit-server-1.0.war</li></ul></li><li>J2EE Connector Architecture (JCA) resource adapter for Jackrabbit.<ul><li>jackrabbit-jca-1.0-src.jar</li><li>jackrabbit-jca-1.0.rar</li></ul></li><li>Text indexing filters for Jackrabbit. Includes example filters for Adobe PDF and MS Excel, PowerPoint, and Word.<ul><li>jackrabbit-index-filters-1.0-src.jar</li><li>jackrabbit-index-filters-1.0.jar</li></ul></li></ul>
+<p/>
+All components are released as a source jar file and one or more compiled binary files. All files contain a README.txt file with more information. Note that external runtime dependencies are only included for the war and rar archives. Other dependencies can be downloaded either manually or automatically using the Maven build system.
+<p/>
+Each release file is accompanied by SHA1 and MD5 checksums and a PGP signature. The public key used for the signatures can be found in the KEYS file located in the parent directory.
+<p/>
+Upgrading from 0.9<br/>
+------------------
+<p/>
+Due to a change in query functionality (JCR-257) a full rebuild of the full text indexes is required on existing content repositories when upgrading from the 0.9 release. Reindexing can be triggered by manually removing the index directories when the repository has been shut down. You should also add a repository-level SearchIndex configuration element to your repository configuration file if one is not already included.
+<p/>
+Known Issues<br/>
+------------
+<p/>
+The known issues in this release are listed below:<ul><li>[JCR-382] Setting WebDAV property without value causes NPE in ...</li><li>[JCR-381] Repository does not start if text filter dependencies are ...</li><li>[JCR-374] Missing 'node removed' event when removing a version</li><li>[JCR-371] ItemStateException on concurrently committing transactions ...</li><li>[JCR-369] IllegalNameException when importing document view with ...</li><li>[JCR-362] restore sometime throws error about missing tmp files</li><li>[JCR-359] JCA project tests assume Windows paths</li><li>[JCR-336] Concurrent locking operations fail</li><li>[JCR-335] Deadlock caused by versioning operations within transaction</li><li>[JCR-331] RepositoryConfig instance can not be reused once it has ...</li><li>[JCR-325] docview roundtripping does not work with multivalue ...</li><li>[JCR-323] import/export does not work on the root node</li><li>[JCR-320] BinaryValue equals fails for two objects with two ...</li><li>[JCR-299] errors in text filters can cause indexing to fail ...</li><li>[JCR-285] Line-separator differences cause PredefinedNodeTypeTest ...</li><li>[JCR-272] Removal of versions throws javax.jcr.ReferentialIntegrity...</li><li>[JCR-140] Versioning might not be thread-safe</li><li>[JCR-50]  Persistence data of versioning not cleaned up correctly</li><li>[JCR-43]  Restore on node creates same-name-sibling of OPV-Version ...</li><li>[JCR-18]  Multithreading issue with versioning</li></ul>
+<p/>
+Note that JCR-374 causes two observation unit test failures to be reported.
+<p/>
+See the issue tracker at <a href="http://issues.apache.org/jira/browse/JCR">http://issues.apache.org/jira/browse/JCR</a> for more details.
+<p/>
+Change History<br/>
+--------------
+<p/>
+Changes since 1.0-rc3:<ul><li>[JCR-379] Remove the unneeded cqfs dependencies</li><li>[JCR-378] jackrabbit-server.war is missing the slf4j-log4j12 library</li><li>[JCR-377] Change project names to start with jackrabbit</li><li>[JCR-376] JCR-RMI depends on commons-logging</li><li>[JCR-368] Add support for simple test cases</li></ul>
+<p/>
+Changes since 1.0-rc2:<ul><li>[JCR-375] jcr:encoding not respected in NodeIndexer</li><li>[JCR-373] all references to incubator need to be replaced with new ...</li><li>[JCR-370] SearchIndex class contains garbled String</li><li>[JCR-365] Web client/WebDAV fails to unescape workspace names</li><li>[JCR-357] Move to jackrabbit.apache.org</li><li>[JCR-356] Replace license headers with new policy text</li><li>[JCR-353] TransientRepository does not shutdown if first login fails</li><li>[JCR-338] Query Builder and jcr:deref problem. Can't add predicate ...</li><li>[JCR-333] NodeTypeDef depends on supertype ordering</li><li>[JCR-257] Use separate index for jcr:system tree</li></ul>
+<p/>
+Changes since 1.0-rc1:<ul><li>[JCR-363] Node.setProperty(String, ...) implementation not according to ...</li><li>[JCR-354] Use a pre-generated version of XPath.jjt</li><li>[JCR-351] Default to anonymous access when no Credentials are given</li><li>[JCR-348] Add automatic default configuration</li><li>[JCR-347] Jcr-server: Parsing NodeTypeProperty not compliant with definition</li><li>[JCR-346] Jcr-Server: ItemDefinitionImpl.toXml throws NPE for the root node</li><li>[JCR-345] Jcr-Server: DavException doesn't allow to specify an exception ...</li><li>[JCR-344] Jcr-server: DeltaVResource lists MKWORKSPACE in the method ...</li><li>[JCR-343] Jcr-server: Report#init limits the Report interface to DeltaV ...</li><li>[JCR-342] Jcr-Server: DavResource#getDavSession() missing</li><li>[JCR-341] Jcr-Server: registration of ReportTypes fails</li><li>[JCR-340] Jcr-Server: ValuesProperty missing property type information</li><li>[JCR-337] Jcr-Server: remove jcr depedency from dav-library</li><li>[JCR-215] Code depends on Log4J directly</li></ul>
+<p/>
+Changes since 0.9:<ul><li>[JCR-334] loadURI compile error with Maven 1.0.2</li><li>[JCR-330] Include the README file in the generated jar files</li><li>[JCR-329] NodeReferencesId.equals() is not symetric</li><li>[JCR-328] TransientRepository with LocalFileSystem eventually ...</li><li>[JCR-327] Mixins as supertypes do not appear to be queryable</li><li>[JCR-326] Initialize the cause of a login exception in the repository</li><li>[JCR-318] RepositoryHelper.unregisterRepository() does not allow ...</li><li>[JCR-317] replace UUID strings by UUID classes in NodeId, etc..</li><li>[JCR-316] Fixed README.txt on textfilters project</li><li>[JCR-315] Support for OpenOffice text extraction</li><li>[JCR-309] Extract the public API interfaces from o.a.j.core to o.a.j.api</li><li>[JCR-308] Nodes having OPV=Ignore are removed on restore</li><li>[JCR-307] serious performance degradation of node operations when ...</li><li>[JCR-275] NodeTypeRegistry.unregisterNodeTypes(Collection) missing</li><li>[JCR-156] Review test cases and cross check with 1.0 specification</li></ul>
+<p/>
+Changes since 0.9-rc1:<ul><li>[JCR-109] Contrib RMI: NotSerializableException</li></ul>
+<p/>
+Changes since the beginning:
+<p/>
+The first Apache Jackrabbit release was the result of more than two years of development and contained the resolutions of more than 270 tracked issues. See the issue tracker for the full history.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://jackrabbit.apache.org/">-- The Apache Jackrabbit community</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jackrabbit_index.html">Apache Jackrabbit</a> ] <a href="http://www.apachenews.org/archives/news_apache_jackrabbit.pdf"><img src="http://www.apachenews.org/pdf.gif?849" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jackrabbit.xml"><img src="http://www.apachenews.org/xml.gif?849" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jackrabbit</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-09T03:18:57+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000848.html">
+<title>09 April 2006 - Apache Cocoon 2.1.9 Released</title>
+<link>http://www.apachenews.org/archives/000848.html</link>
+<description>
+<![CDATA[<a href="http://cocoon.apache.org/">The Apache Cocoon Community</a> is proud to announce the new release of Apache Cocoon.
+<p/>
+Apache Cocoon is a web development framework built around the concept of separation of concerns (that is: allowing people to do their job without having to step on each other toes) and component-oriented web RAD.
+<p/>
+The latest version is downloadable from <a href="http://cocoon.apache.org/mirror.cgi">http://cocoon.apache.org/mirror.cgi</a> (Please use the mirrors to download the release - it might take a little bit more time until the latest release is available on all mirrors, so give the mirrors some time - approx. 24h to update.)
+<p/>
+This release includes many bug fixes and smaller enhancements.
+<p/>
+For more information about Apache Cocoon 2.1.9, please go to <a href="http://cocoon.apache.org/">http://cocoon.apache.org</a>. You'll find the whole list of changes at <a href="http://cocoon.apache.org/2.1/changes.html">http://cocoon.apache.org/2.1/changes.html</a>.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://cocoon.apache.org/">-- The Apache Cocoon Project</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_cocoon_index.html">Apache Cocoon</a> ] <a href="http://www.apachenews.org/archives/news_apache_cocoon.pdf"><img src="http://www.apachenews.org/pdf.gif?848" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_cocoon.xml"><img src="http://www.apachenews.org/xml.gif?848" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Cocoon</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-09T03:05:03+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000847.html">
+<title>04 April 2006 - Apache MINA 0.9.3: A Network Application Framework</title>
+<link>http://www.apachenews.org/archives/000847.html</link>
+<description>
+<![CDATA[<a href="http://directory.apache.org/">The Apache Directory project team</a> is proud to announce the release of <a href="http://directory.apache.org/subprojects/mina">MINA</a>, a network application framework, version 0.9.3.
+<p/>
+Apache MINA (Multipurpose Infrastructure for Network Applications) is a network application framework which helps users develop network applications easily by providing abstractions of network and protocol I/O layers. <a href="http://directory.apache.org/subprojects/mina/">The MINA project website</a> includes resources such
+as an introductory presentation ( <a href="http://directory.apache.org/subprojects/mina/mina.ppt">PPT (with animations) </a> or <a href="http://directory.apache.org/subprojects/mina/mina.pdf">PDF (without animations)</a>)and an <a href="http://directory.apache.org/subprojects/mina/demo.htm">implementation demo movie</a>. Additionally, <a href="http://svn.apache.org/viewcvs.cgi/directory/trunks/mina/examples/src/main/java/org/apache/mina/examples/">6 examples</a> are provided to help you learn MINA even under serious time constraint.
+<p/>
+Feature List:<ul><li>Abstract API which supports various transport types (TCP and UDP)</li><li>Very easy to learn</li><li>Unit test friendly</li><li>In-VM pipe communication</li><li>Extensible ByteBuffer pooling mechanism</li><li>Various thread model</li><li>Support for SSL/TLS including StartTLS</li><li>Support for stream compression using JZLib</li><li>Support for both text-based and binary protocols</li><li>Support for stream-based I/O</li><li>Integration with Spring framework</li></ul>
+<p/>
+Changes since 0.9.2:<ul><li>Stream compression filter using JZLib</li><li>Much easier way to specify a thread model</li><li>Support for ByteBuffer.duplicate (), slice(), and asReadOnlyBuffer()</li><li>Several bug fixes</li></ul>
+<p/>
+The Apache Directory project team is always open for your feedback. Please let us know what you think about MINA.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://directory.apache.org/">-- The Apache Directory project team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_directory_index.html">Apache Directory</a> ] <a href="http://www.apachenews.org/archives/news_apache_directory.pdf"><img src="http://www.apachenews.org/pdf.gif?847" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_directory.xml"><img src="http://www.apachenews.org/xml.gif?847" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Directory</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-04T15:31:38+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000846.html">
+<title>03 April 2006 - Jakarta Commons Pool 1.3 released</title>
+<link>http://www.apachenews.org/archives/000846.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/commons/pool/">Jakarta Commons Pool 1.3</a> has been released. Jakarta Commons Pool provides provides an object-pooling API.
+<p/>
+This release fixes a number of bugs and adds a few enhancements. The most significant fix is the GenericObjectPool was documented as a FIFO but implemented as a LIFO, it now behaves as a FIFO. 
+<p/>
+The <a href="http://jakarta.apache.org/commons/pool/release-notes-1.3.html">Release notes</a> are available online and in the download. 
+<p/>
+Downloads are available from <a href="http://jakarta.apache.org/site/downloads/downloads_commons-pool.cgi">http://jakarta.apache.org/site/downloads/downloads_commons-pool.cgi</a> 
+<p/>
+Feedback welcomed to the Jakarta Commons Pool Team 
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://jakarta.apache.org/commons/pool/">-- Jakarta Commons Pool Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?846" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?846" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-03T04:46:54+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000845.html">
+<title>02 April 2006 - Apache Axis2/C 0.90 released</title>
+<link>http://www.apachenews.org/archives/000845.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/axis2/c/">The Apache Axis2/C team</a> just released the 0.90 version .. basically signally they're getting there! Its now functional, interoperable and performant. If you are looking for a highly embeddable kernel for a WS-* stack, then you have to check it out. If you want help with it then of course <a href="http://www.wso2.com/">WSO2</a> will be happy to support it.
+<p/>
+Key features of Axis2/C include:<ul><li>AXIOM, an XML object model optimized for SOAP 1.1/1.2 Messages. This has complete XML infoset support.</li><li>Support for One-Way Messaging (In-Only) and Request Response Messaging (In-Out)</li><li>Module Architecture, mechanism to extend the SOAP Processing Model</li><li>Content hierarchy</li><li>Directory based deployment model</li><li>Raw XML providers</li><li>WS-Addressing, both the submission (2004/08) and final (2005/08) versions</li><li>Transports support: HTTP (both simple axis server and Apache2 httpd module</li></ul>
+<p/>
+<a href="http://ws.apache.org/axis2/c/download.cgi">Check it out</a> and please send feedback to <a href="mailto:axis-c-dev@ws.apache.org?subject=%5Baxis2%5D%20Feedback">axis-c-dev@ws.apache.org</a>.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/axis2/c/">-- The Apache Axis2/C team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?845" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?845" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-02T17:20:41+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000844.html">
+<title>01 April 2006 - Jakarta Tapestry 3.0.4 released</title>
+<link>http://www.apachenews.org/archives/000844.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/tapestry/">Jakarta Tapestry 3.0.4</a> released
+<p/>
+Close to 100+ bug fixes and patches have been applied for the next release of the the Tapestry web application framework. This release provides more stabilization and enhancements to the well known 3.X series tapestry releases. 
+<p/>
+Tapestry is an open-source framework for creating dynamic, robust, highly scalable web applications in Java. Tapestry complements and builds upon the standard Java Servlet API, and so it works in any servlet container or application server. 
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?844" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?844" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-01T17:17:39+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000843.html">
+<title>01 April 2006 - Jakarta Tapestry 4.0.1 released</title>
+<link>http://www.apachenews.org/archives/000843.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/tapestry/">Jakarta Tapestry 4.0.1</a> released
+<p/>
+Close to 100+ bug fixes and patches have been applied for the next release of the the Tapestry web application framework. 
+<p/>
+Tapestry is an open-source framework for creating dynamic, robust, highly scalable web applications in Java. Tapestry complements and builds upon the standard Java Servlet API, and so it works in any servlet container or application server. 
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?843" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?843" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-04-01T17:15:57+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000841.html">
+<title>29 March 2006 - Apache Maven 2.0.3 Released</title>
+<link>http://www.apachenews.org/archives/000841.html</link>
+<description>
+<![CDATA[<a href="http://maven.apache.org/">The Apache Maven team</a> is pleased to announce the release of Maven 2.0.3.
+<p/>
+You can download it here:
+<p/>
+<a href="http://maven.apache.org/download.html">http://maven.apache.org/download.html</a>
+<p/>
+This is the third maintenance release of the redesigned 2.0 application, and brings with it fixes for numerous issues, including improvements to the following:<ul><li>Path calculations for &lt;distributionManagement&gt; sections</li><li>Error messages for missing dependencies</li><li>Profile activation and &lt;activeByDefault/&gt;</li><li>Parent-POM resolution and error messaging</li><li>Transport support for SSH and file:// via updated Wagon libraries</li><li>POM interpolation</li><li>Lifecycle overlays (for custom behavior in forked lifecycles)</li></ul>
+<p/>
+For more information and a full list of the issues resolved by this release, see:
+<p/>
+<a href="http://jira.codehaus.org/secure/ReleaseNote.jspa?projectId=10500&styleName=Html&version=12107">http://jira.codehaus.org/secure/ReleaseNote.jspa?projectId=10500&styleName=Html&version=12107</a>
+<p/>
+Thanks to everyone who helped us discover, track, test, and fix issues to make this release happen.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://maven.apache.org/">-- The Apache Maven Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_maven_index.html">Apache Maven</a> ] <a href="http://www.apachenews.org/archives/news_apache_maven.pdf"><img src="http://www.apachenews.org/pdf.gif?841" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_maven.xml"><img src="http://www.apachenews.org/xml.gif?841" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Maven</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-29T15:41:20+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000840.html">
+<title>27 March 2006 - Jakarta Cactus 1.7.2 Released</title>
+<link>http://www.apachenews.org/archives/000840.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/cactus/">The Jakarta Cactus project</a> is pleased to announce the release of version 1.7.2. Cactus is a unit testing framework for testing server side java code.
+<p/>
+Goals<br/>
+-----
+<p/>
+This release was created just because the previous 1.7.x releases have bundled an LGPL jar (jboss-j2ee.jar, necessary to run the samples), which is not allowed by <a href="http://www.apache.org/">ASF</a> policies. Other than that, the only technical change is a new feature on the <a href="http://maven.apache.org/">Maven</a> plugin (<a href="https://issues.apache.org/jira/browse/CACTUS-231">https://issues.apache.org/jira/browse/CACTUS-231</a>).
+<p/>
+Changes<br/>
+-------
+<p/>
+Please check the Changes page at <a href="http://jakarta.apache.org/cactus/changes.html">http://jakarta.apache.org/cactus/changes.html</a> for a full list of the changes in version 1.7.2
+<p/>
+Known limitations and bugs:<br/>
+---------------------------
+<p/>
+See <a href="http://issues.apache.org/jira/browse/CACTUS">http://issues.apache.org/jira/browse/CACTUS</a> .
+<p/>
+For more information about Cactus, please visit <a href="http://jakarta.apache.org/cactus/">http://jakarta.apache.org/cactus/</a> .
+<p/>
+Have fun,
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://jakarta.apache.org/cactus/">-- The Jakarta Cactus team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?840" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?840" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-27T03:30:15+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000839.html">
+<title>25 March 2006 - Apache Portable Runtime 1.2.6 Released</title>
+<link>http://www.apachenews.org/archives/000839.html</link>
+<description>
+<![CDATA[ <a href="http://www.apache.org/">The Apache Software Foundation</a> and <a href="http://apr.apache.org/">the Apache Portable Runtime Project</a> are proud to announce the General Availability of version 1.2.6 of the Apache Portable Runtime, APR.
+<p/>
+ APR is available for download from:
+<p/>
+ <a href="http://apr.apache.org/download.cgi">http://apr.apache.org/download.cgi</a>
+<p/>
+ This version of APR is principally a bug fix release.
+<p/>
+ The mission of the Apache Portable Runtime Project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific mplementations. The primary goal is to provide an API to which software developers may code and be assured of predictable if not identical behavior regardless of the platform on which their software is built, relieving them of the need to code special-case conditions to work around or take advantage of platform-specific deficiencies or features.
+<p/>
+ APR and its companion libraries are implemented entirely in C and provide a common programming interface across a wide variety of operating system platforms without sacrificing performance. Currently supported platforms include:<ul><li>UNIX</li><li>Windows</li><li>Netware</li><li>Mac OS X</li><li>OS/2</li><li>BeOS</li></ul>
+<p/>
+ To give a brief overview, the primary core subsystems of APR 1.2 include the following:<ul><li>Atomic operations</li><li>Dynamic Shared Object loading</li><li>File I/O</li><li>Locks (mutexes, condition variables, etc)</li><li>Memory management (high performance allocators)</li><li>Memory-mapped files</li><li>Multicast Sockets</li><li>Network I/O</li><li>Shared memory</li><li>Thread and Process management</li><li>Various data structures (tables, hashes, priority queues, etc)</li></ul>
+<p/>
+ For a more complete list, please refer to the following URLs:<ul><li><a href="http://apr.apache.org/docs/apr/modules.html">http://apr.apache.org/docs/apr/modules.html</a></li><li><a href="http://apr.apache.org/docs/apr-util/modules.html">http://apr.apache.org/docs/apr-util/modules.html</a></li></ul>
+<p/>
+ Users of APR 0.9 should be aware that migrating to the APR 1.x programming interfaces may require some adjustments; APR 1.x is not binary compatible with earlier APR 0.9 releases.  Users of APR 1.x can expect consistent interfaces and binary compatibility through the entire APR 1.x release cycle, as defined in our versioning rules:
+<p/>
+  <a href="http://apr.apache.org/versioning.html">http://apr.apache.org/versioning.html</a>
+<p/>
+ APR is already used extensively by the <a href="http://httpd.apache.org/">Apache HTTP Server</a> version 2.0 and the <a href="http://subversion.tigris.org/">Subversion</a> revision control system, to name but a few.  We list all known projects using APR at <a href="http://apr.apache.org/projects.html">http://apr.apache.org/projects.html</a> -- so please let us know if you find our libraries useful in your own projects.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://apr.apache.org/">-- The Apache Portable Runtime Project</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_apr_index.html">Apache APR</a> ] <a href="http://www.apachenews.org/archives/news_apache_apr.pdf"><img src="http://www.apachenews.org/pdf.gif?839" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_apr.xml"><img src="http://www.apachenews.org/xml.gif?839" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache APR</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-25T20:01:13+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000838.html">
+<title>24 March 2006 - Jakarta Commons Validator 1.3.0 released</title>
+<link>http://www.apachenews.org/archives/000838.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/commons/validator/">The Jakarta Commons Validator team</a> is pleased to announce the availability of Commons Validator 1.3.0. For a summary of whats new in Validator 1.3.0 see the notes on the <a href="http://wiki.apache.org/jakarta-commons/ValidatorVersion130">Commons Wiki</a>. A complete list of changes is available in the <a href="http://jakarta.apache.org/commons/validator/changes-report.html">change log</a>.
+<p/>
+Commons Validator is available in either binary or source form from the <a href="http://jakarta.apache.org/site/downloads/downloads_commons-validator.cgi">Validator downloads page</a>.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://jakarta.apache.org/commons/validator/">-- The Jakarta Commons Validator team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?838" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?838" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-25T04:04:07+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000837.html">
+<title>25 March 2006 - Apache Axis2 v0.95 Released</title>
+<link>http://www.apachenews.org/archives/000837.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/axis2/">Apache Axis2 team</a> is proud to announce the release of Axis2 0.95 version.
+<p/>
+You can download the release from : <a href="http://ws.apache.org/axis2/download.cgi">http://ws.apache.org/axis2/download.cgi</a>
+<p/>
+Axis2 version 0.95 comes with 5 different packages, giving you the flexibility to select one of them to suit your own requirements. Please see <a href="http://ws.apache.org/axis2/0_95/installationguide.html">http://ws.apache.org/axis2/0_95/installationguide.html</a> for further details about different distributables.
+<p/>
+Complete Features List:<ol><li>AXIOM, an XML object model working on StAX (Streaming API for XML) parsing optimized for SOAP 1.1/1.2 Messages. This has complete XML infoset support.</li><li>Support for One-Way Messaging (In-Only) and Request Response Messaging (In-Out).</li><li>Module Architecture, mechanism to extend the SOAP Processing model.</li><li>Module version support, can have multiple versions of the same module and use them depending on the requirement.</li><li>Content hierarchy</li><li>Archive based deployment model and Directory based deployment model</li><li>JWS like deployment (making Java class into Web service)</li><li>WSDL Code Generation tool for stubs and skeletons</li><li>WS-Addressing, both the submission (2004/08) and final (2005/08) versions</li><li>WSS4J module for security</li><li>Improved and user friendly Client API</li><li>WSDL2Java and Java2WSDL</li><li>REST (REpresentational State Transfer) Support</li><li>Transports supports: HTTP, SMTP, TCP, JMS</li><li>Raw XML providers</li><li>Support for MTOM/ MIME/ SwA</li><li>SAAJ implementation</li><li>DOOM</li><li>Pack/Unpack capability for the generated code</li><li>Axis Data Binding - ADB (Framework and Schema Compiler)</li><li>Numerous bug fixes since last release</li><li>Transport framework improvements (ListenerManager) - New</li><li>AxisServlet auto starts when the application server starts up - New</li><li>Module disengagemnt support - New</li><li>Loading modules (.mar files) from classpath - New</li><li>Sessions scoping for Application, SOAP, Transport and Request levels - New</li></ol>
+<p/>
+Experimental Features List:<ol><li>Server side and client side Web service Policy support</li><li>wsdl and xsd support</li><li>Generating ServiceClient for a given WSDL and invoke the corresponding service using generated client</li></ol>
+<p/>
+Major Changes Since Last Release:<ol><li>Transport framework improvements (ListenerManager)</li><li>The way to add an action mapping (wsamapping) has been moved from being a parameter to a child element. With this version onwards the way of adding an action mapping is as follows: &lt;actionMapping&gt;MyMapping&lt;/actionMapping&gt;</li><li>Refactored following packages in Axiom:<ul><li>org.apache.ws.commons.om.impl.llom.builder to org.apache.ws.commons.om.impl.builder</li><li>org.apache.ws.commons.om.impl.llom.mtom to org.apache.ws.commons.om.impl.mtom</li><li>org.apache.ws.commons.om.impl.llom.serialize to org.apache.ws.commons.om.impl.serialize</li><li>org.apache.ws.commons.om.impl.llom.traverse to org.apache.ws.commons.om.impl.traverse</li></ul></li></ol>
+<p/>
+Tools Included In This Release:<ol><li>Axis2 Web Application (Web App)</li><li>WSDL2WS - Command line version</li></ol>
+<p/>
+What's Still To Do? See list of what we think needs to be done, and consider helping out if you're interested and able!<ol><li>JAX-RPC 1.1 and/or JAX-WS compliance</li><li>SOAP Encoding</li><li>Binary serialization and de-serialization support</li><li>Management Interface for Axis2</li><li>Implementation of other Transports.</li><li>Resource framework implementation (WS-RF) and Enterprise web services such as JSR 109 support</li><li>Completion of Interop tests</li></ol>
+<p/>
+Axis2 is taking shape, this 0.95 release is a glimpse of 1.0 that is coming soon. If you happen to have a vision of how the next generation Web services platform should be, contribute to Apache Axis2, and help us shape it. Any contribution in the form of coding, testing, submitting improvements to the documentation, and reporting bugs are always welcome.
+<p/>
+Thanks for your interest in Axis2!
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/axis2/">-- The Apache Axis2 Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?837" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?837" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-25T03:57:46+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000836.html">
+<title>20 March 2006 - Jakarta Commons IO 1.2 released</title>
+<link>http://www.apachenews.org/archives/000836.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/commons/io/">Jakarta Commons IO</a> 1.2 has been released. Commons IO provides low level utilities, file filters and streams that probably should be in the JDK. This release fixes a few bugs and adds various enhancements. These include LineIterator, which allows you to use an iterator interface over a file, and Age and Size filters for files. The Release notes are available online and in the download.
+<p/>
+Downloads are available from <a href="http://jakarta.apache.org/site/downloads/downloads_commons-io.cgi">http://jakarta.apache.org/site/downloads/downloads_commons-io.cgi</a> (Note: the binary download includes a source zip for use with IDEs)
+<p/>
+Feedback welcomed to the Jakarta Commons IO Team
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://jakarta.apache.org/commons/io/">-- Jakarta Commons IO Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?836" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?836" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-20T01:32:35+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000835.html">
+<title>14 March 2006 - Apache XML-Xerces-2.7.0-0 released</title>
+<link>http://www.apachenews.org/archives/000835.html</link>
+<description>
+<![CDATA[With a big thanks to the BBC for financial support, 2.7 is finally finished. The major change in this release (besides support for Xerces-C 2.7) is the elimination of the SAX/SAX2 related Unicode bugs - Xerces-P should now support 100% Unicode compliance.
+<p/>
+Also, the entire Xerces-P site has been updated:
+<p/>
+<a href="http://xerces.apache.org/xerces-p/">http://xerces.apache.org/xerces-p/</a>
+<p/>
+You can download the code from the usual places:
+<p/>
+XML::Xerces is available from CPAN
+<p/>
+<a href="http://www.cpan.org/CPAN/authors/id/JASONS/">http://www.cpan.org/CPAN/authors/id/JASONS/</a>
+<p/>
+and Apache:
+<p/>
+<a href="http://www.apache.org/xml/dist/xerces-p/">http://www.apache.org/xml/dist/xerces-p/</a>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://xerces.apache.org/">-- The Apache Xerces Project</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_xerces_index.html">Apache Xerces</a> ] <a href="http://www.apachenews.org/archives/news_apache_xerces.pdf"><img src="http://www.apachenews.org/pdf.gif?835" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_xerces.xml"><img src="http://www.apachenews.org/xml.gif?835" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Xerces</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-16T02:12:19+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000834.html">
+<title>16 March 2006 - Apache Tomcat v5.5.16 Now Stable</title>
+<link>http://www.apachenews.org/archives/000834.html</link>
+<description>
+<![CDATA[<a href="http://tomcat.apache.org/">The Apache Tomcat Team</a> has voted to certify v5.5.16 as stable. Binding +1 votes were cast by Mladen Turk, Peter Rossbach, Remy Maucherat, Henri Gomez, Jeanfrancois Arcand, and Yoav Shapira.
+<p/>
+The web site will be updated shortly to reflect the result of this vote.  You can also inspect the:
+<p/>
+Release Notes: <a href="http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES">http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES</a>
+<p/>
+Change Log: <a href="http://tomcat.apache.org/tomcat-5.5-doc/changelog.html">http://tomcat.apache.org/tomcat-5.5-doc/changelog.html</a>
+<p/>
+Downloads: <a href="http://tomcat.apache.org/download-55.cgi">http://tomcat.apache.org/download-55.cgi</a>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://tomcat.apache.org/">-- The Apache Tomcat Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_tomcat_index.html">Apache Tomcat</a> ] <a href="http://www.apachenews.org/archives/news_apache_tomcat.pdf"><img src="http://www.apachenews.org/pdf.gif?834" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_tomcat.xml"><img src="http://www.apachenews.org/xml.gif?834" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Tomcat</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-16T01:57:50+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000833.html">
+<title>12 March 2006 - Apache WS Policy implementation v0.90 released</title>
+<link>http://www.apachenews.org/archives/000833.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/commons/policy/index.html">Apache's WS-Policy implementation team</a> has released the version 0.90 of WS-Policy implementation (WS-Commons). While there's more work ahead, this framework works now and is heavily used in <a href="http://ws.apache.org/axis2">Apache Axis2</a> to drive its behavior based on <a href="http://www-128.ibm.com/developerworks/library/specification/ws-polfram/">WS-Policy</a> specifications.
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?833" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?833" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-12T00:22:12+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000842.html">
+<title>11 March 2006 - Apache SpamAssassin 3.1.1 released</title>
+<link>http://www.apachenews.org/archives/000842.html</link>
+<description>
+<![CDATA[<a href="http://spamassassin.apache.org/">Apache SpamAssassin</a> 3.1.1 released]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_spamassassin_index.html">Apache SpamAssassin</a> ] <a href="http://www.apachenews.org/archives/news_apache_spamassassin.pdf"><img src="http://www.apachenews.org/pdf.gif?842" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_spamassassin.xml"><img src="http://www.apachenews.org/xml.gif?842" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache SpamAssassin</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-11T04:25:24+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000832.html">
+<title>05 March 2006 - Apache Tomcat v5.5.16-beta Now Available</title>
+<link>http://www.apachenews.org/archives/000832.html</link>
+<description>
+<![CDATA[<a href="http://tomcat.apache.org/">The Apache Tomcat team</a> is proud to announce the immediate availability of Tomcat v5.5.16-beta. This release contains dozens of bug fixes and a number of other updates.  Please consult the change log below for more details.
+<p/>
+Release Notes: <a href="http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES">http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES</a>
+<p/>
+Change Log: <a href="http://tomcat.apache.org/tomcat-5.5-doc/changelog.html">http://tomcat.apache.org/tomcat-5.5-doc/changelog.html</a>
+<p/>
+Downloads: <a href="http://tomcat.apache.org/download-55.cgi">http://tomcat.apache.org/download-55.cgi</a>
+<p/>
+Thank you,
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://tomcat.apache.org/">-- The Apache Tomcat Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_tomcat_index.html">Apache Tomcat</a> ] <a href="http://www.apachenews.org/archives/news_apache_tomcat.pdf"><img src="http://www.apachenews.org/pdf.gif?832" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_tomcat.xml"><img src="http://www.apachenews.org/xml.gif?832" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Tomcat</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-05T16:28:48+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000830.html">
+<title>02 March 2006 - Apache Xerces-J 2.8.0 Released</title>
+<link>http://www.apachenews.org/archives/000830.html</link>
+<description>
+<![CDATA[<a href="http://xerces.apache.org/xerces2-j/">The Apache Xerces-J team</a> is pleased to announce that version 2.8.0 of Xerces-J is now available.
+<p/>
+This release introduces several new validation related features and provides enhancements to the XML schema annotation support. All of the schema component interfaces in the XML Schema API now have a getAnnotations() method which returns a list of XSAnnotations. This includes annotations on particles and attribute uses which were previously "lost". In addition, in this release we implemented support for pretty-printing in the LSSerializer, repaired the warn-on-undeclared-elemdef feature which had been broken for several releases and fixed many other bugs.
+<p/>
+Specifically, the changes introduced in this release are:<ul><li>Added a getAnnotations() method to each of the component interfaces in the XML Schema API (including XSParticle and XSAttributeUse) and implemented the support for the new methods. [Neil Delima] </li><li>Implemented a property for starting schema assessment from a specific type definition. [Peter McCracken] </li><li>Implemented features for disabling ID/IDREF, unparsed entity and identity constraint checking. [Peter McCracken] </li><li>Implemented a feature which instructs the schema validator to ignore xsi:type attributes until a global element declaration has been found. [Peter McCracken] </li><li>Modified the JAXP Validation API implementation so that it propagates features set on the SchemaFactory to the Schemas created from the factory and in turn ValidatorHandlers and Validators constructed from those Schema objects (as clarified by JAXP 1.4). [Peter McCracken] </li><li>Implemented the DOM Level 3 Load and Save format-pretty-print parameter. [Mat?j Kraus] </li><li>Fixed the warn-on-undeclared-elemdef feature which had been broken for many releases. [Michael Glavassevich] </li><li>Implemented a feature which allows the parser to process DTDs containing large content models which under normal operation may cause a StackOverflowError to occur. [Michael Glavassevich] </li><li>Improved the performance and memory usage of XSAnnotation.writeAnnotation(). [Michael Glavassevich] </li><li>Implemented XML Schema erratum E2-66. [Sandy Gao] </li><li>Fixed bugs in the implementation of Document.normalizeDocument() which caused DTD validation to fail in numerous scenarios. [Michael Glavassevich] </li><li>Fixed a bug where schema validation performed in Document.normalizeDocument() was adding default attributes without setting their owner element or firing mutation events. [Michael Glavassevich] </li><li>Fixed a bug which caused the JAXP 1.2 method for schema validation to fail when the parser is reused. [Michael Glavassevich] </li><li>Fixed a bug which caused a ClassCastException to be thrown when adopting a node from a deferred DOM into a non-deferred DOM. [Michael Glavassevich] </li><li>Fixed the dtdjars build target which had been broken for several releases. [Michael Glavassevich] </li><li>Improved identity constraint error messages. [George Cristian Bina] </li><li>Fixed various bugs and made various improvements. [Nathan Beyer, Dave Brosius, Sandy Gao, Michael Glavassevich, Mat?j Kraus, Peter McCracken]</li></ul>
+<p/>
+For more information please visit: <a href="http://xerces.apache.org/xerces2-j/">http://xerces.apache.org/xerces2-j/</a>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://xerces.apache.org/xerces2-j/">-- The Apache Xerces-J Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_xml_index.html">Apache XML</a> ] <a href="http://www.apachenews.org/archives/news_apache_xml.pdf"><img src="http://www.apachenews.org/pdf.gif?830" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_xml.xml"><img src="http://www.apachenews.org/xml.gif?830" border="0" alt="XML_RSS"/></a><br />[ Category : <a href="http://www.apachenews.org/archives/cat_apache_xerces_index.html">Apache Xerces</a> ] <a href="http://www.apachenews.org/archives/news_apache_xerces.pdf"><img src="http://www.apachenews.org/pdf.gif?830" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_xerces.xml"><img src="http://www.apachenews.org/xml.gif?830" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Xerces</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-03-02T15:13:29+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000831.html">
+<title>27 February 2006 - Apache Lucene (Java) 1.9 final Released</title>
+<link>http://www.apachenews.org/archives/000831.html</link>
+<description>
+<![CDATA[<a href="http://lucene.apache.org/">The Apache Lucene Team</a> has relased the version 1.0 of Apache Lucene (Java), Java-based indexing and search technology.
+<p/>
+This release has many improvements since release 1.4.3, including new features, performance improvements, bug fixes, etc. See CHANGES.txt for details.
+<p/>
+1.9 will be the last 1.x release. It is both back-compatible with 1.4.3 and forward-compatible with the upcoming 2.0 release. Many methods and classes in 1.4.3 have been deprecated in 1.9 and will be removed in 2.0. Applications must compile against 1.9 without deprecation warnings before they are compatible with 2.0.
+<p/>
+Binary and source distributions are available <a href="http://www.apache.org/dyn/closer.cgi/lucene/java/">here</a>.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://lucene.apache.org/">-- The Apache Lucene Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_lucene_index.html">Apache Lucene</a> ] <a href="http://www.apachenews.org/archives/news_apache_lucene.pdf"><img src="http://www.apachenews.org/pdf.gif?831" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_lucene.xml"><img src="http://www.apachenews.org/xml.gif?831" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Lucene</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-02-27T15:14:45+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000829.html">
+<title>21 February 2006 - Call for Papers Opens for ApacheCon Europe 2006</title>
+<link>http://www.apachenews.org/archives/000829.html</link>
+<description>
+Call for Papers Opens for ApacheCon Europe 2006 The Apache Software Foundation (ASF) is proud to announce that ApacheCon Europe 2006 will be held at the Burlington Hotel in Dublin, Ireland, June 26-30, 2006. ApacheCon Europe is the official conference of the Apache Software Foundation in Europe. This annual event creates a unique platform for the Open Source community in Europe to come together to gain deep insight into techniques and methodologies critical to the advancement of Open Source software, and gain skills to optimize the power and versatility of Apache software. The conference brings together ASF members, developers and contributors, business people, and power users, working with Apache and related software, to participate in a leading-edge forum to exchange ideas and network with peers. The conference begins with two days of intensive half-day and full-day tutorials, which will offer actionable techniques and methodologies pivotal to the increasing demand for Open Source software. The three main conference days offer a wide range of beginner, intermediate and advanced sessions. ApacheCon Europe attendees will have more than 70 sessions to choose from, to gain real-world insight and to learn first-hand the latest developments of key Open Source projects including the Apache HTTP Server - the world&apos;s most popular web server software. Come share your knowledge, hit upon new ideas, find solutions and connect with your peers at this educational, fun-filled gathering of users, developers, and vendors of Apache software. The ASF and the conference producer for the ApacheCon Europe conference series - Software &amp; Support Verlag from Frankfurt, Germany - invite the Open Source community to send in session and tutorial proposals for ApacheCon Europe 2006. Apache Software Foundation members are designing the technical program for ApacheCon Europe 2006, which will feature multiple tracks and dozens of technical sessions. The program committee...
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_conference_index.html">Apache Conference</a> ] <a href="http://www.apachenews.org/archives/news_apache_conference.pdf"><img src="http://www.apachenews.org/pdf.gif?829" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_conference.xml"><img src="http://www.apachenews.org/xml.gif?829" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Conference</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-02-21T19:53:21+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000828.html">
+<title>18 February 2006 - ApacheCon EU 2006</title>
+<link>http://www.apachenews.org/archives/000828.html</link>
+<description>
+<![CDATA[<a href="http://apachecon.com/">The ApacheCon Planners</a> have announced that ApacheCon Europe 2006 will be held in Dublin, Ireland, at <a href="http://www.jurysdoyle.com/ireland/doyle_burlington.htm">the Burlington Hotel</a>, June 26-30.
+<p/>
+Further details to follow as they are available.
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_conference_index.html">Apache Conference</a> ] <a href="http://www.apachenews.org/archives/news_apache_conference.pdf"><img src="http://www.apachenews.org/pdf.gif?828" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_conference.xml"><img src="http://www.apachenews.org/xml.gif?828" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Conference</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-02-18T20:27:18+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000827.html">
+<title>29 January 2006 - Jakarta HiveMind 1.1.1 released</title>
+<link>http://www.apachenews.org/archives/000827.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/hivemind/">Jakarta HiveMind</a> release 1.1.1 is now available; this is a bug fix release. This release addresses performance bottlenecks in HiveMind related to the use of unqualified class names, and the use of the threaded and pooled service lifecycle models. HiveMind 1.1.1 is a drop-in replacement for HiveMind 1.1, and is recommended for use with <a href="http://jakarta.apache.org/tapestry/">Tapestry 4.0</a> applications. 
+<p/>
+<a href="http://jakarta.apache.org/site/downloads/downloads_hivemind.cgi">Download HiveMind</a> 
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?827" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?827" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-01-29T17:16:48+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000824.html">
+<title>21 January 2006 - Apache Tomcat v5.5.15 Now Stable</title>
+<link>http://www.apachenews.org/archives/000824.html</link>
+<description>
+<![CDATA[<a href="http://tomcat.apache.org/">The Apache Tomcat team</a> has voted the 5.5.15 release as stable, with binding +1 votes from Peter Rossbach, Remy Maucherat, Jim Jagielski, Mladen Turk, and Jeanfrancois Arcand.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://tomcat.apache.org/">-- The Apache Tomcat Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_tomcat_index.html">Apache Tomcat</a> ] <a href="http://www.apachenews.org/archives/news_apache_tomcat.pdf"><img src="http://www.apachenews.org/pdf.gif?824" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_tomcat.xml"><img src="http://www.apachenews.org/xml.gif?824" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Tomcat</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-01-21T16:42:19+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000825.html">
+<title>11 January 2006 - Apache Axis2 0.94 Released</title>
+<link>http://www.apachenews.org/archives/000825.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/axis2/">Apache Axis2 team</a> is proud to announce the release of Axis2 0.94 version. You can download the release from : <a href="http://ws.apache.org/axis2/download.cgi">http://ws.apache.org/axis2/download.cgi</a> (if you can not find the distribution in the mirrors, please use the backup sites)
+<p/>
+Axis2 version 0.94 comes with 5 different packages and 3 plugins, giving you the flexibility to select one of them to suit your own requirements. Please see <a href="http://ws.apache.org/axis2/0_94/installationguide.html">http://ws.apache.org/axis2/0_94/installationguide.html</a> for further details about different distributables.
+<p/>
+Axis2 Complete Features List<ul><li>AXIOM, an XML object model working on StAX (Streaming API for XML) parsing optimized for SOAP 1.1/1.2 Messages. This has complete XML infoset support.</li><li>Support for One-Way Messaging (In-Only) and Request Response Messaging (In-Out)</li><li>Module Architecture, mechanism to extend the SOAP Processing Model</li><li>Module version support , can have multiple versions of the same module and use them depending on the requirement.</li><li>Content hierarchy</li><li>Archive based deployment Model and Directory based deployment model</li><li>JWS like deployment (making Java class into Web service)</li><li>WSDL Code Generation Tool for Stub and skeletons</li><li>WS-Addressing, both the submission (2004/08) and final (2005/08) versions</li><li>WSS4J module for security</li><li>Improved and user friendly Client API</li><li>WSDL2Java</li><li>REST (REpresentational State Transfer) Support</li><li>Transports supports: HTTP, SMTP, TCP, JMS</li><li>Raw XML providers</li><li>Support for MTOM/ MIME/ SwA</li><li>SAAJ implementation</li><li>DOOM - New Feature</li><li>Pack/Unpack capability for the generated code- New Feature</li><li>Axis Data Binding - ADB (Framework and Schema Compiler)</li><li>Numerous bug fixes since last release</li></ul>
+<p/>
+Axis2 Experimental Features List<ul><li>Sessions scoping for Application, SOAP, Transport and Request levels</li><li>Server side Web Service Policy support</li><li>?wsdl and ?xsd support</li><li>Java2WSDL</li><li>Generating ServiceClient for a given WSDL and invoke the corresponding service using generated client.</li></ul>
+<p/>
+Major Changes Since Last Release<ul><li>Fixing of memory leaks</li><li>Client API changes , Introducing ServiceClient instead of MEPClient, InOnlyMEPClient, InOutMEPClient, Call. (Please note that the above classes will be deprecated in this release.)</li><li>Module versioning support , can have multiple versions of the same module and use them depending on the requirement.</li><li>Code generator improved to process multi-port WSDL's properly</li><li>Packing and unpacking options for the code generated classes</li><li>Multiple Axis2 packaging distros for diferent requirements</li></ul>
+<p/>
+Tools Included In This Release<ul><li>Axis2 Web Application (Web App)</li><li>WSDL2WS- Eclipse plugin/ Command line version/ IntelliJ IDEA plugin</li><li>Service Archive Wizard- Eclipse plugin/ IntelliJ IDEA plugin</li></ul>
+<p/>
+*What's Still To Do?*<ul><li>See list of what we think needs to be done, and consider helping out if you're interested and able!</li><li>JAX-RPC 1.1 and/or JAX-WS compliance</li><li>SOAP Encoding</li><li>Binary serialization and de-serialization support</li><li>Management Interface for Axis2</li><li>Implementation of other Transports.</li><li>Resource framework implementation (WS-RF) and Enterprise web services such as JSR 109 support</li><li>Completion of interop tests</li></ul>
+<p/>
+Axis2 is taking shape and this 0.94 release is a glimpse of version 1.0 that will be coming soon. If you happen to have a vision of how the next generation of Web Service should be, and like to contribute to Apache Axis2 feel free to pitch in. Any contributions in the form of coding, testing, submitting improvements to the documentation, and reporting bugs are most welcome!
+<p/>
+Thanks for your interest in Apache Axis2!
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/axis2/">-- The Apache Axis2 Development Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?825" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?825" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-01-11T17:56:25+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000826.html">
+<title>07 January 2006 - Jakarta Tapestry 4.0 (Final) Released</title>
+<link>http://www.apachenews.org/archives/000826.html</link>
+<description>
+<![CDATA[After nearly two years of work, the <a href="http://jakarta.apache.org/tapestry/">Tapestry development team</a> is proud to announce the next major release of the <a href="http://jakarta.apache.org/tapestry/">Tapestry web application framework</a>.Tapestry is an open-source framework for creating dynamic, robust, highly scalable web applications in Java. Tapestry complements and builds upon the standard Java Servlet API, and so it works in any servlet container or application server.
+<p/>
+Tapestry divides a web application into a set of pages, each constructed from components. This provides a consistent structure, allowing the Tapestry framework to assume responsibility for key concerns such as URL construction and dispatch, persistent state storage on the client or on the server, user input validation, localization/internationalization, and exception reporting. Developing Tapestry applications involves creating HTML templates using plain HTML, and combining the templates with small amounts of Java code using (optional) XML descriptor files. In Tapestry, you create your application in terms of objects, and the methods and properties of those objects -- and specifically not in terms of URLs and query parameters. Tapestry brings true object oriented development to Java web applications.
+<p/>
+Tapestry is specifically designed to make creating new components very easy, as this is a routine approach when building applications. The distribution includes over fifty components, ranging from simple output components all the way up to complex data grids and tree navigators.
+<p/>
+Tapestry is architected to scale from tiny applications all the way up to massive applications consisting of hundreds of individual pages, developed by large, diverse teams. Tapestry easily integrates with any kind of backend, including J2EE, <a href="http://jakarta.apache.org/hivemind/">HiveMind</a> and <a href="http://springframework.org/">Spring</a>.
+<p/>
+Tapestry 4.0 represents a significant advance over Tapestry 3.0. The following are the most significant changes between the two releases:<ul><li> The new 4.0 specification DTDs have been simplified. </li><li> The syntax used for binding parameters inside an HTML template and inside an XML specification is now consistent. Both make use of binding prefixes. </li><li> "Friendly" URLs (that is, URLs that pack more information into the path and less into query parameters) are built in. This makes it easy to divide your application across many folders (reducing clutter), and leverage J2EE declarative security along the way. </li><li> Listener methods are much easier and more flexible; listener parameters in the URL are automatically mapped to listener method parameters, and listener methods can return the page name or page instance to activate. </li><li> Component parameters now <em>just work</em>, without having to worry about "direction". </li><li> Applications can now have a global message catalog, in addition to per-page and per-component message catalogs. Messages not found in the component message catalog are searched for in the application catalog. </li><li> Full, native support for developing <a href="http://www.jcp.org/en/jsr/detail?id=168">JSR-168 Portlets</a> has been added. </li><li> Tapestry 4.0 makes much less use of reflection and <a href="http://www.ognl.org/">OGNL</a> than Tapestry 3.0; partly because there are many new binding prefixes and largely because of how parameters are now implemented. </li><li><a href="http://jakarta.apache.org/hivemind/">HiveMind</a> services and <a href="http://springframework.org/">Spring</a> beans can be directly injected into page and component classes. </li><li> Tapestry 4.0 includes optional JDK 1.5 annotation support (but Tapestry still works with JDK 1.3). </li><li> Tapestry 4.0 debuts a new and much more sophisticated user input validation subsystem. </li><li> Line precise error reporting can now display the contents of files containing errors. </li><li> Forms can now be canceled, bypassing client-side validation logic, and invoking an alternate listener on the server-side. </li><li> You are no longer limited to just Global and Visit; you can have as many application state objects as you like. </li><li> The use of HiveMind under the covers means that Tapestry can be easily customized to fit your needs. </li><li> Page properties can now be persisted on the client, as well as in the session. </li><li> Components and component parameters can now be marked as deprecated. Component parameters may have aliases (used when renaming a parameter). </li><li>The examples have been rewritten to take full advantage of Tapestry 4.0 features, including annotations.</li></ul>
+<p/>
+Tapestry is released under the Apache Software Licence 2.0.
+<p/>
+Tapestry is distributed as a combined binary/source distribution, and an additional documentation distribution. Tapestry may be downloaded from the <a href="http://jakarta.apache.org/site/downloads/downloads_tapestry.cgi">Apache Mirrors</a>.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://jakarta.apache.org/tapestry/">-- The Jakarta Tapestry Development Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?826" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?826" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-01-07T18:03:56+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000823.html">
+<title>04 January 2006 - Apache Tomcat v5.5.15-beta Now Available</title>
+<link>http://www.apachenews.org/archives/000823.html</link>
+<description>
+<![CDATA[<a href="http://tomcat.apache.org/">The Apache Tomcat team</a> is proud to announce the immediate availability of Tomcat v5.5.15-beta. This is primarily a bug fix release: consult the change log below for more details.
+<p/>
+Release Notes: <a href="http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES">http://tomcat.apache.org/tomcat-5.5-doc/RELEASE-NOTES</a>
+<p/>
+Change Log: <a href="http://tomcat.apache.org/tomcat-5.5-doc/changelog.html">http://tomcat.apache.org/tomcat-5.5-doc/changelog.html</a>
+<p/>
+Downloads: <a href="http://tomcat.apache.org/download-55.cgi">http://tomcat.apache.org/download-55.cgi</a>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://tomcat.apache.org/">-- The Apache Tomcat team</a></u></em></strong>
+<p/>]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_tomcat_index.html">Apache Tomcat</a> ] <a href="http://www.apachenews.org/archives/news_apache_tomcat.pdf"><img src="http://www.apachenews.org/pdf.gif?823" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_tomcat.xml"><img src="http://www.apachenews.org/xml.gif?823" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Tomcat</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-01-04T19:38:52+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000822.html">
+<title>01 January 2006 - Apache OJB 1.0.4 Released</title>
+<link>http://www.apachenews.org/archives/000822.html</link>
+<description>
+<![CDATA[<a href="http://db.apache.org/ojb/">Apache Object/Relational Bridge (OJB)</a> is an Object/Relational mapping tool that allows transparent persistence for Java objects against relational databases.
+<p/>
+<a href="http://db.apache.org/ojb/">The Apache OJB team</a> is happy to announce the 1.0.4 release:
+<p/>
+---------------------------------------------------------------------<br/>
+Release 1.0.4<br/>
+---------------------------------------------------------------------<br/>
+<p/>
+<strong>NEW FEATURES:</strong><ul><li>Support for embedded & network Derby (only distinct count queries don't work yet)</li><li>Added ability to prepare the database for OJB's unit tests via DdlUtils (instead of Torque) Note that this is required when running the tests against Derby</li><li>[OJB-10] - Configurable Proxy generation (including CGLIB based generation)</li><li>[OJB-31] - Configurable JDBC driver-setting setFetchSize</li><li>[OJB-14] - Setting custom JDBC driver tuning options trough jdbc-connection-descriptor</li><li>[OJB-6]  - Support for stored procedures returning ResultSet.</li><li>[OJB-41] - ODMG-api: Allow cascading delete using auto-delete setting in metadata</li><li>[OJB-66] - Allow to specify a sequence start element for SequenceManagerNextValImpl. Fixed for Oracle, PostgreSQL, MaxDB/SapDB, DB2. Additionally sequence properties like 'increment by', 'cache', 'order',... are supported too. See 'sequence manger' guide and javadoc</li><li>Add new ODMG extensions and configuration properties. All properties can be set at runtime as global property in class ImplementationExt and for a specific transaction in class TransactionExt:<ul><li>'ordering' Allow to dis-/enable OJB's object ordering on transaction commit</li><li>'implicitLocking' Dis-/enable OJB's implicit locking</li></ul></li><li>Add new property 'TxCheck' in OJB.properties file. When enabled, on PB store and delete calls OJB checks for a running PB-tx, if not found an error is logged in order to avoid store/delete calls without a running PB-tx (while development).</li></ul>
+<p/>
+<strong>NOTES:</strong><ul><li>Internal OJB class configuration files are changed, don't forget to replace these files on upgrade from older version (by default the internal used classes are located in repository_internal.xml).</li><li>Improved performance comparison tests ('ant perf-test' and 'ant performance'). Now the tests more fair for registered API's</li><li>In order to facilitate [OJB-10] the constructor signature of VirtualProxy has been changed.</li></ul>
+<p/>
+<strong>CHANGES:</strong><ul><li>INTERNAL API CHANGES: Pluggable class interfaces changed to support and fix OJB-31, OJB-6, OJB-63:
+<ul><li>StatementsForClassIF</li><li>StatementManagerIF</li><li>Platform</li><li>RowReader</li><li>SqlGenerator</li></ul></li><li>Configurable ProxyFactory is now available. Both JDK-based (default) and CGLIB are provided. CGLIB-based generation allows for proxies to be generated for all persistent classes, and not just ones that implement an interface.</li><li>Change in behavior of property 'useAutoCommit="1"' in jdbc-connection-descriptor detailed info can be found in reference guide of the repository file</li><li>ConnectionFactoryManagedImpl is declared deprecated. Now OJB automatic detect the running JTA-transaction and suppress critical method calls on the used connection</li><li>Removed deprecated SequenceManager implementation SequenceManagerMySQLImpl</li><li>Remove unused method #setReferenceFKs from SequenceManager interface</li><li>ODMG-api: Method behavior of ImplementationImpl#setImplicitLocking(boolean) changed. Now this method set the global property for 'implicitLocking'. Old version only changed the implicit locking behavior for the current used transaction, this is moved to TransactionExt#setImplicitLocking</li><li>Internal used OJB_HL_SEQ table changed. Remove of deprecated column. If the SequenceManagerHighLowImpl was used and problems occur after upgrade, please drop and recreate this table without removed column</li><li>Cleanup naming of 'PersistentField' implementation classes: Remove deprecated classes, rename implementation classes, declare all ...ImplNew classes as deprecated. See OJB.properties file.</li><li>Upgraded ANTLR to v2.7.5 (OQL and JDOQL parser classes have been re-generated)</li><li>Upgraded commons-dbcp to v1.2.1</li><li>Upgraded commons-pool to v1.2</li><li>Upgraded commons-beanutils to v1.7</li><li>Upgraded commons-logging to v1.0.4</li><li>Upgraded commons-collections to v3.1</li><li>Upgraded hsql to v1.8.0.2</li><li>Upgraded Torque to v3.1.1</li></ul>
+<p/>
+<strong>BUG FIXES:</strong><ul><li>[OJB-18] - ODMG ordering problem with circular/bidirectional 1:1 references</li><li>[OJB-25] - Inheritance (each subclass on separate table) PK problem with nextval SequenceManager</li><li>[OJB-26] - JDBC-ODBC bridge problem</li><li>[OJB-27] - [ODMG] Foreign key violation</li><li>[OJB-29] - Infinite loop in case of refresh=true and cycles in references</li><li>[OJB-40] - CallableStatement check doesn't work with maxDB</li><li>[OJB-42] - MsSQLServer, auto-generated querry error (m:n relation)</li><li>[OJB-44] - ReferenceMap$Entry keeps growing over period of application usage.</li><li>[OJB-52] - KeyConstraintViolatedException during store</li><li>[OJB-54] - ConnectionFactoryManagedImpl may try to use pool</li><li>[OJB-55] - Getting foreignkeyField's FieldDescriptor is failing if the foreignkey field is defined in the base class</li><li>[OJB-59] - Incorrect identity management in SequenceManagerNativeImpl because of wrong plate-forme settings</li><li>[OJB-62] - addPathClass in QueryByCriteria does not consider inheritance</li><li>[OJB-63] - Bug when query against objects mapped on multiple joined tables ("super"-references)</li><li>[OJB-70] - Connection reset by peer: socket write error</li><li>[OJB-76] - OJB MtoN implementor failes to work properly with composite M&N keys that have some fields common.</li><li>[OJB-77] - PlatformMsSQLServerImpl.getLastInsertIdentityQuery creates incorrect SQL statement to pull the identity from the last</li></ul>
+<p/>
+<strong>KNOWN ISSUES:</strong><ul><li>Auto-Detection for insert/update objects checks to avoid DB queries the PK fields of the object. If at least one PK field is 'NULL' or if primitive field '0', OJB assume the object is new and needs insert. This will be configurable in next upcoming version. Workaround for PB-api: use method PB#store(Object obj, ObjectModification mod) to state update or insert.</li><li>Batch handling doesn't work properly with optimistic locking. This will be fixed in version 1.1</li><li>Subqueries are not extent aware. see QueryTest#testSubQueryAgainstExtents</li><li>Managed Environment: When run OJB in managed environment and using PBStateListener, the call of PBStateListener#beforeClose(PBStateEvent event) is made twice when a PB instance was closed in a JTA-tx (for the first time when PB.close() was called in bean on the PB handle, second time when the JTA-tx completes)</li><li>otm-api: The OTM API has a known caching issue and should not be considered for code used in production environments. The future of the OTM layer will be subject for discussion on the OJB developers list, if you are using it - please subscribe to ojb-dev and make your voice heard.</li><li>Oracle9i platform: when using statement batching, there is a 2k limit on BLOB + 4k limit on CLOB.</li></ul>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://db.apache.org/ojb/">-- The Apache OJB team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_db_index.html">Apache DB</a> ] <a href="http://www.apachenews.org/archives/news_apache_db.pdf"><img src="http://www.apachenews.org/pdf.gif?822" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_db.xml"><img src="http://www.apachenews.org/xml.gif?822" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache DB</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2006-01-01T17:11:53+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000820.html">
+<title>30 December 2005 - Apache XML-RPC 2.0.1 Released</title>
+<link>http://www.apachenews.org/archives/000820.html</link>
+<description>
+<![CDATA[<a href="http://ws.apache.org/xmlrpc/">The Apache XML-RPC team</a> is glad to announce the availability of Apache XML-RPC 2.0.1. Version 2.0.1 is a bug fix release. See changes below.<ul><li>The Webserver class was unable to handle basic authentication, because the BASE64 codec wasn't initialized.<br/>Issue: XMLRPC-68, Johan Oskarson</li><li>The characters 0x20, 0xe000, and 0x10000 have been escaped without reason.<br/>Issue: XMLRPC-69, Claude Zervas</li><li>The wrong version of commons-codec was downloaded by build.xml.<br/>Issue: XMLRPC-73, Thomas Mohaupt</li><li>Added the CommonsXmlRpcTransportFactory.<br/>Jimisola Laursen</li><li>Added the possibility to specify a timezone for interpreting incoming date values.<br/>Henry Story</li><li>Upgrade to <a href="http://jakarta.apache.org/httpclient/">commons-httpclient</a> 3.0.</li></ul>
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://ws.apache.org/xmlrpc/">-- The Apache XML-RPC team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_webservices_index.html">Apache WebServices</a> ] <a href="http://www.apachenews.org/archives/news_apache_webservices.pdf"><img src="http://www.apachenews.org/pdf.gif?820" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_webservices.xml"><img src="http://www.apachenews.org/xml.gif?820" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache WebServices</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2005-12-31T04:33:21+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000819.html">
+<title>28 December 2005 - Jakarta Tapestry 4.0-rc-3 Now Available</title>
+<link>http://www.apachenews.org/archives/000819.html</link>
+<description>
+<![CDATA[The latest (and hopefully, final) release candidate for <a  href="http://jakarta.apache.org/tapestry/">Jakarta Tapestry</a> 4.0 is now available. Tapestry is a component based web application framework that provides lots of functionality with minimal Java coding, and creates an environment that supports high levels of reuse.
+<p/>
+This release fixes a page initialization bug.
+<p/>
+Tapestry is provided as a combined binary/source distribution, and a separate documentation distribution.
+<p/>
+<a href="http://jakarta.apache.org/site/downloads/downloads_tapestry.cgi">Download Tapestry</a>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?819" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?819" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2005-12-28T18:47:36+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000818.html">
+<title>25 December 2005 - Apache FOP 0.91 beta Now Available</title>
+<link>http://www.apachenews.org/archives/000818.html</link>
+<description>
+<![CDATA[<a href="http://xmlgraphics.apache.org/fop/">The Apache FOP team</a> hereby notifies you all of the release of FOP 0.91 beta, which includes various updates and bugfixes based on user feedback to the 0.90 alpha 1 release from about a month ago.
+<p/>
+The changes made since 0.91 alpha can be found here: <a href="http://xmlgraphics.apache.org/fop/changes.html">http://xmlgraphics.apache.org/fop/changes.html</a>
+<p/>
+The following page contains the links to the various distributions: <a href="http://xmlgraphics.apache.org/fop/download.html">http://xmlgraphics.apache.org/fop/download.html</a>
+<p/>
+To those of you still using FOP 0.20.5 we would like to repeat the request to go ahead and try out the redesigned FOP. The more feedback we get, the more likely it becomes that certain features and enhancements will find their way into the codebase. If you encounter problems when upgrading, please check the following page first: <a href="http://xmlgraphics.apache.org/fop/0.91/upgrading.html">http://xmlgraphics.apache.org/fop/0.91/upgrading.html</a>
+<p/>
+If the answer to your particular problem isn't mentioned there, the Apache FOP Team will be at your disposal on fop-users.AT.xmlgraphics.apache.org to help guide you to a working solution.
+<p/>
+Code-grinders are, of course, always welcome to check out the source distribution and offer any ideas for enhancement and/or improvement on fop-dev.AT.xmlgraphics.apache.org.
+<p/>
+----
+<p/>
+<strong><em><u><a href="http://xmlgraphics.apache.org/fop/">-- The Apache FOP Team</a></u></em></strong>
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_xml_index.html">Apache XML</a> ] <a href="http://www.apachenews.org/archives/news_apache_xml.pdf"><img src="http://www.apachenews.org/pdf.gif?818" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_xml.xml"><img src="http://www.apachenews.org/xml.gif?818" border="0" alt="XML_RSS"/></a><br />[ Category : <a href="http://www.apachenews.org/archives/cat_apache_xml_graphics_index.html">Apache XML Graphics</a> ] <a href="http://www.apachenews.org/archives/news_apache_xml_graphics.pdf"><img src="http://www.apachenews.org/pdf.gif?818" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_xml_graphics.xml"><img src="http://www.apachenews.org/xml.gif?818" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache XML Graphics</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2005-12-25T20:19:07+00:00</dc:date>
+</item>
+<item rdf:about="http://www.apachenews.org/archives/000817.html">
+<title>23 December 2005 - Jakarta Commons FileUpload 1.1 Released</title>
+<link>http://www.apachenews.org/archives/000817.html</link>
+<description>
+<![CDATA[<a href="http://jakarta.apache.org/commons/fileupload/">The Jakarta Commons FileUpload team</a> is pleased to announce the release of Commons FileUpload 1.1. This release contains several new features, as well as many bug fixes. A full list of changes since the previous release can be found in the <a href="http://jakarta.apache.org/commons/fileupload/changes-report.html">change log</a>. 
+<p/>
+Commons FileUpload is available in either binary or source form from the <a href="http://jakarta.apache.org/site/downloads/downloads_commons-fileupload.cgi">FileUpload download page</a>. 
+<p/>
+]]>
+<![CDATA[ <p>[ Category : <a href="http://www.apachenews.org/archives/cat_apache_jakarta_index.html">Apache Jakarta</a> ] <a href="http://www.apachenews.org/archives/news_apache_jakarta.pdf"><img src="http://www.apachenews.org/pdf.gif?817" border="0" alt="PDF"/></a><a href="http://www.apachenews.org/archives/rss_apache_jakarta.xml"><img src="http://www.apachenews.org/xml.gif?817" border="0" alt="XML_RSS"/></a><br /></p>
+  ]]>
+</description>
+<dc:subject>Apache Jakarta</dc:subject>
+<dc:creator>Tetsuya Kitahata</dc:creator>
+<dc:date>2005-12-24T20:11:40+00:00</dc:date>
+</item>
+
+
+</rdf:RDF>

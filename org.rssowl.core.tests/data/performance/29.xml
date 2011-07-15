@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?>
+
+<feed xmlns="http://purl.org/atom/ns#" version="0.3" xml:lang="en-US">
+<link href="https://www.blogger.com/atom/7555958" rel="service.post" title="Mini-Microsoft" type="application/atom+xml"/>
+<link href="https://www.blogger.com/atom/7555958" rel="service.feed" title="Mini-Microsoft" type="application/atom+xml"/>
+<title mode="escaped" type="text/html">Mini-Microsoft</title>
+<tagline mode="escaped" type="text/html">Let's slim down Microsoft into a lean, mean, efficient customer pleasing profit making machine!  Mini-Microsoft, Mini-Microsoft, lean-and-mean!</tagline>
+<link href="http://minimsft.blogspot.com" rel="alternate" title="Mini-Microsoft" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958</id>
+<modified>2006-05-22T02:22:46Z</modified>
+<generator url="http://www.blogger.com/" version="6.72">Blogger</generator>
+<info mode="xml" type="text/html">
+<div xmlns="http://www.w3.org/1999/xhtml">This is an Atom formatted XML site feed. It is intended to be viewed in a Newsreader or syndicated to another site. Please visit the <a href="http://help.blogger.com/bin/answer.py?answer=697">Blogger Help</a> for more info.</div>
+</info>
+<convertLineBreaks xmlns="http://www.blogger.com/atom/ns#">false</convertLineBreaks>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114826456562560357" rel="service.edit" title="Commitment Zero and Reactions to the Big Microsoft Changes" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-05-21T19:19:00-07:00</issued>
+<modified>2006-05-22T02:22:45Z</modified>
+<created>2006-05-22T02:22:45Z</created>
+<link href="http://minimsft.blogspot.com/2006/05/commitment-zero-and-reactions-to-big.html" rel="alternate" title="Commitment Zero and Reactions to the Big Microsoft Changes" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114826456562560357</id>
+<title mode="escaped" type="text/html">Commitment Zero and Reactions to the Big Microsoft Changes</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>There is lots of good discussion regarding the refreshing change in direction announced by <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html">LisaB on May 18th</a>. Let's see... almost 280 comments since Thursday morning. I will touch on some of the comments that caught my eye below, but I believe it's worth any Microsoftie's time to read through the entire sequence of comments.</p>
+<p>Some of the various blog entries and articles around the Microsoft changes:</p>
+<ul>
+<li>Microsoftie: <a href="http://scobleizer.wordpress.com/2006/05/18/missed-big-hr-meeting/">Scobleizer - Microsoft Geek Blogger » Missed big HR meeting (MyMicrosoft is now improved)</a>
+</li>
+<li>Microsoftie: Adam Barr: <a href="http://www.proudlyserving.com/archives/2006/05/the_towels_are.html">Proudly Serving My Corporate Masters The Towels Are Back in Town</a> - Oooo, Mini was a secret weapon! Well, in the least, I'd enjoy <a href="http://c9park.wordpress.com/2006/05/18/mini-microsoft-15-minutes-of-blame">showing up</a> in this year's Company Meeting parody video.</li>
+<li>Microsoftie: <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=bc596bf1-deba-4500-8624-f41ec7cca38b">Dare Obasanjo aka Carnage4Life - Microsoft Listens to Mini-Microsoft</a>
+</li>
+<li>Microsoftie: <a href="http://spaces.msn.com/bubba/Blog/cns%214EA1C1E757D2CC06%21247.entry">Bubba's Place A brave new world</a> - Bubba takes on an optimistic, time to roll up the sleeves and get to work point of view (<i>Bubba's the author of a ThinkWeek paper dramatizing a Microsoft exit interview that revealed all sorts of non-transparent programs going on inside Microsoft</i>).</li>
+<li>Microsoftie Joshua Allen: <a href="http://www.netcrucible.com/blog/The+Death+Of+Stack+Ranking.aspx">Better Living Through Software - The Death of Stack Ranking</a> and <a href="http://www.netcrucible.com/blog/More+On+MyMicrosoftminiMicrosoft.aspx">Better Living Through Software - More on myMicrosoft-miniMicrosoft</a> (nice summary of why the towels got applause).</li>
+<li>Seattle P-I: <a href="http://blog.seattlepi.nwsource.com/microsoft/archives/103593.asp?source=rss">Todd Bishop's Microsoft Blog @ SeattlePI.com - Microsoft rethinks employee reviews ... and towels</a>
+</li>
+<li>Seattle P-I: <a href="http://seattlepi.nwsource.com/business/270863_msftmorale19.html">Microsoft unveils new worker perks</a>
+</li>
+<li>Seattle Times: <a href="http://seattletimes.nwsource.com/html/microsoft/2003004687_microsoft19.html">The Seattle Times Microsoft Under pressure, Microsoft fights to keep its workers</a> - an article given special attention by JeffR in front of a large crowd of senior managers, according to a commenter, <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114809385895716401">by being ripped in two</a>.</li>
+<li>Nathan Weinberg: <a href="http://microsoft.blognewschannel.com/index.php/archives/2006/05/19/bitter-towel-war-over/">» Bitter Towel War Over  InsideMicrosoft - part of the Blog News Channel</a>
+</li>
+<li>TDavid: <a href="http://www.makeyougohmm.com/20060519/3330/">Make You Go Hmm » For employees Microsoft throws in the towels</a> (<i>dang, TDavid sure needs a friggin' hug</i>).</li>
+</ul>
+<p>While it showed up on <a href="http://www.techmeme.com/">techmeme</a> the news didn't get too far from there, especially in light of the wrangling going on with Symantec. Frustrated folks who obsess over this just being about towels and how spoiled Microsofties are just need to take a moment to concentrate and see the deeper aspects of what's going on. Ask most Microsofties about the towels and you'll learn two things (1) They had no idea we had towel service when it was discontinued, and (2) They'll most likely rarely ever use the restored towel service. I will, and now I get to leave my Finding Nemo towel at home.</p>
+<p>The negative reaction to the towel imbroglio is just how smart, good-looking people react to dumb decisions. Long ago, I gave my perspective about cost cutting here: <a href="http://minimsft.blogspot.com/2004/07/performance-tuning-msftexe-or-how-to.html">Mini-Microsoft Performance Tuning MSFT.exe (or, How to Save Microsoft $1,000,000,000 Now)</a>.</p>
+<p>Fire people.</p>
+<p>Get your RIF on.</p>
+<p>(<i>RIF = Reduction in force - layoffs.</i>)</p>
+<p>And along that theme, <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114801517711752080">one commenter has this to say</a>:</p>
+<blockquote>
+<p>
+<i>I got wind today that a MASSIVE Windows RIF is in the works. It's real folks. Hundreds and hundreds of jobs. The good news is that other parts of MS will be able to absorb it. But if you want your pick of what's out there, beat the rush and don't wait for review time.</i>
+</p>
+</blockquote>
+<p>True? All I can add is a bit ago, I was hanging out with a small group of excellent Microsofties and one of the people there said that they had been involved in counseling executive leadership about dealing with a large layoff. Two things happened right then: (1) My eyes dilated big and black, just like as if I had an eye exam, (2) The person realized they had said something they shouldn't have (<i>probably signaled by my big, happy, black eyes</i>), and moved on.</p>
+<p>Today: curve-fitted performance review gone? Tomorrow: layoffs? I'm not going to have a damn thing to <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114816100697900574">blog about</a>.</p>
+<blockquote>
+<p>
+<i>Okay Mini, this is the right time to go on a 2 month blog break. Let us all get to doing some work now that the towels are back for the masses.</i>
+</p>
+<p>
+<i>Like others said, thanks for providing the vehicle for the message. The ball is in my and others court now, and we will continue to deliver.</i>
+</p>
+</blockquote>
+<p>It's tempting. I'm probably going to slip into clip-mode for a while... noting interesting articles and comments. Personally, I'm more thinking about <b>Mini-Microsoft 2.0</b> right now and what kind of positive change we can focus on and what silos and fiefdoms need to be broken down... and how we can do it. In addition to deadwood needing to be fired, I think we have some bad systems and habits also needing the boot just as badly as any process-ridden dot-commer clinging to their job.</p>
+<p>Sure, there is a lot more that LisaB and the leadership working with her has on their plate. You can't do everything all at once, and I'm damn surprised and elated they pulled off what they did for this review cycle. Damn surprised. There had to be a big bat swinging because I seriously doubt most VPs at the recent executive retreat were excited about these changes. Kudos to all the HR tool builders, too. That's a lot of mission-critical, high-scale global software to pull together. Their story is something I hope they take on the road internal to Microsoft. Well, after a successful review season is wrapped up come mid-September.</p>
+<p>My immediate issue: we still have stack ranking and will continue to have stack ranking given our renewed commitment to differentiation. The managers will still get together and rank their reports and people are going to realize they are still compared to their peers and are competing for dollars and stock based on their individual success over their team success. And while we have decoupled the performance review from the stack rank, I picked up from both LisaB and my leadership that, hey, you need to ration out how many <i>exceeds</i> you give out. So there'll still be pushback and there will most likely be cases when someone is on the border and the feedback given to them is fitted to meet compensation needs in dispersing the budget.</p>
+<p>But it's a lot less likely and you don't have to go and dork someone just to meet a 3.0 quota. Great! Still, the idealist in me would prefer everyone to have a clear idea through the year what their performance is looking like and what kind of commiserate compensation they can expect. We still have the three month mystery from when you submit your review until you get the results back.</p>
+<p>As for people concerned that their reports or peers will turn in their review and expect a resounding, "<span style="color:#000080;">Exceeds! Gimme!</span>" because they nailed their easy set of fluffy commitments, well, all I can share is my perspective: everyone has by default <b>Commitment Zero</b>. What's that? It's that you are committed to getting full or exceptional results in your career stage profile, perhaps even getting full results in the next profile up if you're near promotion. When it comes time for me to be a reviewer, the first thing I'm going over for each report is their performance against their CSP, then moving on to their additional commitments for more specific items.</p>
+<p>Plus, I expect to roll down some pretty strenuous commitments of my own. No, my only immediate angst is that I'm too much of a hard ass, and that manager next door to me is waving his wand-of-exceeds on all of his reports and I'm giving out the constructive tough-love. So it will be incumbent on my boss to do more work to ensure parity. And that seems right.</p>
+<p>Oh, and as always, if you still feel jolted and disrespected and you just don't think Microsoft is the right place for you, well, <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114806424999049322">Alyosha` says it well</a>:</p>
+<blockquote>
+<p>
+<i>The HR changes are good for Microsoft. To those who bemoan the absence of an across-the-board pay raise ... put your money where your mouth is. If you don't think you're being fairly compensated at Microsoft, find another company who's willing to pay what you think you're worth.</i>
+</p>
+</blockquote>
+<p>When are you going to find a better time than now? Like, <i>never</i>!</p>
+<p>
+<b>Comment round-up</b>: one of the Partner-level Microsofties posting here occasionally <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114818059985956654">apologizes near the end of their post</a> - it wasn't all sunshine, like:</p>
+<blockquote>
+<p>
+<i>Great disappointment with the senior team. Even a L68 like me feels a tremendous sense of foreboding. With the exception of perhaps Robbie Bach, that gang came across as a bunch of tone deaf people who are out of touch with reality with all their funny math. Steve is so financially unsavvy that it is embarassing - he actually seemed puzzled (and not in a pleasant grandfatherly kind of way) with the stock gyrations - his comments had me cringing. What an idiot! I can't believe I have to kiss up to these people.</i>
+</p>
+</blockquote>
+<p>One person does a <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114799748539700201">good breakdown of their immediate reaction</a>, including:</p>
+<blockquote>
+<p>
+<i>Compensation: Dismal. NO mention of raising a COLA bar or of increasing our 65th percentile. This has got to be hard on recruiting. We are just NOT competitive in base pay.</i>
+</p>
+</blockquote>
+<p>Some had their "leaving now" clocks <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114802409230697836">reset</a>:</p>
+<blockquote>
+<p>
+<i>[...] I love the work I do and am truly amazed by most of the people I work with on a daily basis. It is just a thrill to work with people who are smart and totally committed. I also love the fact that anything we do always has the potential of changing people's lives. I just wish that we could get more competitive in our compensation, our customer sat numbers and less competitive with our peers. I am willing to give the company my best efforts another year or two to see if we can truly change for the better.</i>
+</p>
+</blockquote>
+<p>A common theme of "what was missing?" was <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114806649949467162">accountability</a>, like:</p>
+<blockquote>
+<p>
+<i>While there were certainly problems with compensation, review curves, and employee services at Microsoft, and while it's certainly true that some of these problems were addressed yesterday, it still doesn't change the fundamental fact that the <b>real problem</b> continues to remain: A bloated, ineffective, self-serving rank of senior and executive managers who can't make good decisions quickly enough and who perpetuate a bureaucracy that makes it absolutely untenable for the next generation of leaders to thrive.</i>
+</p>
+</blockquote>
+<p>MSDecade put together a <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114816555654563733">report card</a>, including:</p>
+<blockquote>
+<p>
+<i>
+<b>Incent collaboration, team-building, making each other great</b> My grade: D-. Absolute performance vs. relative performance review is a great step, don't get me wrong. But the curve does still exist, which means that calibration still happens and performance envaluation is likely to stay as subjective as before. Team-based rewards will need to happen in the next round of changes.</i>
+</p>
+</blockquote>
+<p>Generally, people in their comments were exceptionally happy with Lisa Brummel. Kevin Johnson comes in a very distant second. Grumbles that BillG didn't show up. Exceptional dislike over Ballmer asking Google users to raise their hands (<i>Mr. Ballmer, if you need to know that, ask Microsoft IT department to roll-up some statistics from our proxy servers based on unique login-names. You can even get a pretty chart to compare usage over time with MSN and such. We have the technology!</i>). Wonder over whether the MSPoll will be disregarded given that it was before this change. General agreement, it seems, to start referring to <u>me</u> as "<u>she</u>." Agreement that the old ESPP would be much appreciated and would bind us back to the success of the company. Gold Star discussion more than usual... have you ever been awarded a Gold Star? </p>
+<p>Oh, and off-topic, but keeping an <a href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html#c114817983949040630">interesting conspiracy theory alive</a>:</p>
+<blockquote>
+<p>
+<i>I was researching MSFT’s SEC filings and I have come to the conclusion that the stock price is being intentionally manipulated to help MSFT’s bottom line. As long as the stock price remains below $28.73 by December 2006, the company will not have to book the $2.21 billion in stock option expense on the shares that were sold to JPMorgan.</i>
+</p>
+</blockquote>
+<hr/>
+<p>
+<i>Administrivia</i>: comment moderation clarification time: okay, I've had it with the "whiner" comments. The kind with the core comment being just whining that everyone else is whining and throwing in the occasional wit-free "<span style="color:#000080;">whaa!</span>" Say something deeper than that... at least put some effort into a counter-point. But don't just fling prose poo around and expect your rhetoric to be posted.</p>
+<p>
+<i>PS</i>: while I toy with the very unlikely idea of coming out from the realm of anonymity and scheme about how to turn Mini-Microsoft into an internal dialogue for honestly improving from within, maybe you've gone and figured out who Mini is. I can't imagine it's that hard. After you get over the quizzical bit of "<span style="color:#000080;">Who?</span>" why don't you drop on by my office location and we can talk over some espresso.</p>
+<hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i> </span>
+</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114796312272989170" rel="service.edit" title="Microsoft's May 18th 2006 - a Big Turning Point (?)" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-05-18T07:31:00-07:00</issued>
+<modified>2006-05-22T02:02:06Z</modified>
+<created>2006-05-18T14:38:42Z</created>
+<link href="http://minimsft.blogspot.com/2006/05/microsofts-may-18th-2006-big-turning.html" rel="alternate" title="Microsoft's May 18th 2006 - a Big Turning Point (?)" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114796312272989170</id>
+<title mode="escaped" type="text/html">Microsoft's May 18th 2006 - a Big Turning Point (?)</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>
+<b>Pre-Town Hall</b>: Is May 18th a big turning point of a day? Is it my first big step into the sunset of blog obsolescence?</p>
+<p>I'd love Microsoft to start its big internal defrag today, shrugging off the past of dysfunctional competitive reviews unattached to team success. I'd love Microsofties to stop focusing on succeeding by gaming the system and to start justly succeeding by producing great customer-focused results. I'd personally love to get back to just writing about making Microsoft smaller and efficient versus bemoaning trended 3.0s and The Curve and, <i>oy</i>, the injustice of it all.</p>
+<p>I'd love our review and compensation system to be so straightforward and fair that it just fades into the background of everyday worklife.</p>
+<p>There is risk. If the changes are as big as rumored in my building's hallways, there is great potential for a stunned backlash. You know, folks like to talk about change but don't like change when it happens. Employees also don't like having a bunch of unanswered questions. While it takes super leadership to rise up and push for the change, it takes extraordinary fantastic leadership to realize big change day-to-day from here forward. Each and everyone one of us, if we accept that the change is right, has to get behind it and ensure it's as good as it can be, and tweak and revise and adapt.</p>
+<p>Fingers crossed...</p>
+<p>
+<b>Post-Town Hall</b>:</p>
+<p>It's a good start.</p>
+<p>"<span style="color:#000080;">Should have just done the towels and called it a day!</span>" - Lisa Brummel, May 18th 2006.</p>
+<p>You know, one moment of reflection: the circle is now complete. My second post to this blog was on <a href="http://minimsft.blogspot.com/2004/07/gates-and-ballmer-employee-webcast.html">July 6th, 2004</a>. It was right after an impromptu employee meeting with Ballmer and Gates and as part of that, Mr. Ballmer justified the unfortunate recent benefit cuts, the main two points of ire being the towels and the ESPP revamp. Now, two years later, we're getting our towels back.</p>
+<p>Has it always just been about the towels?</p>
+<p>(<i>Possible book title flashes through my mind.</i>)</p>
+<p>It's not like we're sweaty work-out animals always in need of a shower and fresh towel. No. What riled us was the bone-headed way the towel cut-back was handled, explained, and justified. It truly made us wonder just who are these people in charge and just who do they think they are leading? The towels became the symbol of poor leadership. That and the office-supply hide-and-seek.</p>
+<p>Someone should send Ms. Brummel a golden towel award. I'd like my old ESPP back, too.</p>
+<p>So, I'm going to skip over Ballmer's presentation along with the other presidents. I liked hearing from them and what's going on in the groups. I guess we'll next hear more at the Company Meeting. The star of the show, and I'd say of the entire company right now, was Lisa Brummel. If I had my old paper notebook, I'd be drawing little hearts around her name. Personally, I think she's a fantastic role model.</p>
+<p>"<span style="color:#000080;">I think some people will think it's fabulous, some people will think it's great, some people will be completely confused by it, and some people won't like it.</span>"</p>
+<p>Peer-relative review ranking via fitting The Curve is gone. The trended 3.0 review score is gone. Your review rating is now an honest assessment based on what it is you should be doing and how well you did it. There are a lot of posts and comments here that, over time, are going to seem archaic. Good.</p>
+<p>(<i>Allow me to hang the disco ball, switch on the party lights, and put on some happy funk music...</i>)</p>
+<p>What's unclear and what time will reveal is that there still probably is Stack Ranking which feeds into a Compensation Curve. The poor manager with the review tool in front of them still has to figure out how to divvy up their merit increases. Either they make dictatorial decisions or stack ranks everyone. What's great, though, is they have the power to decide that, "<span style="color:#000080;">Hey, everyone did great</span>" and evenly spread out the budget vs. meeting a forced distribution.</p>
+<p>Dixie's BBQ? Typhoon? Excellent! I will need that towel now that I have to work off all of those calories (<i>or, wipe the sweat from my brow from a good dose of The Man sauce</i>). The rest of the tools and the focusing on managers is a long-term investment sort-of-thing. We'll have to see how that goes and if there are issues, how they can be improved. I think there was a passive aggressive message to all managers: if you became a manager just to get promoted faster, we're going to find you and weed you out. It would have been nice for that to be clearer.</p>
+<p>The one big thing missing out of all the rumors I heard was base-pay adjustment. The nicest biggest rumor was that we were going to be moving from 65 percentile based pay to 75 percentile based pay. That would have made incredible sense given the current competitive market and the salary compression people are dealing with. Salary compression hasn't been addressed at all. Maybe executive leadership is betting on another bubble burst?</p>
+<p>Coming soon: we'll find out if we're on track for a cost-of-living-adjustment or not for the target merit budget.</p>
+<p>And for you shareholders freaking out over the prospects of Microsoft blowing money on its employees: senior leadership made it clear that all of this was productivity based, and that they were expecting a great return on investment. Personally, I wouldn't have minded a mass-exodus from Microsoft of all the talented people because that indeed would have forced a Mini-Microsoft to be realized. These people are just doing their best to avoid that and to get excellent results in doing so.</p>
+<p>So, going back to basics, does any of this get us closer to a Mini-Microsoft. Nope. A non-distracted Microsoft, perhaps, but some fundamental issues still remain with respect to us being so incredibly big that we still stumble over ourselves and suffer horrible, horrible waste in time and effort. I know Mr. Johnson is trying to make all the "<span style="color:#000080;">
+<i>&lt;&lt;fill in the blank&gt;&gt;</i> Live</span>" stuff seem like we're finally nimble and all that but it's one thing to throw the wonderful Sanaz and team up on the stage and exclaim, "<span style="color:#000080;">
+<i>Ooo, yeah, agility</i>
+</span>!" and another to make Windows, Office, Dynamics, and VS agile.</p>
+<p>Lastly... what difference did this blog make? Would all of this had happened naturally once LisaB was in the house?</p>
+<p>My feeling is that we were on our commute bike, but off the paved trail, going down a steep gravel path with potholes and horse apples (<i>much like, say, the Tolt Pipeline trail</i>). Some folks, rattling along the way, saw another smoother path and scooted over to that, leaving Microsoft. As of today, we're back on the smooth path. <i>Ah!</i> It's got some tight turns and we can't see what's around the corner, but it's a hell of a lot better.</p>
+<p>"<span style="color:#000080;">A non-toothache is a very pleasant thing.</span>" I like that saying. We're back to being able to focus on what's important, not being angst ridden over a busted review system. Yes, there's new angst in the interim but I have faith we can work through it, make good decisions, and network together to make the best decisions within this new model into best practices.</p>
+<p>Looking back now: so many years... so many years people complained about trended review results, especially the dreaded trended 3.0, and you'd always hear, "<span style="color:#000080;">There's nothing you can do. It's just how it is.</span>" So - eventually - I brought it up here as something I thought was fairly uncool, dysfunctional, and hampering our ability to get exceptional customer-focus, profit-making results let alone truly fire the people who needed to be moved on.</p>
+<p>You don't need your 3.0 performers anymore to serve as a review foundation to prop up the rest of your team. Fire them!</p>
+<p>And, well, the public complaining and dialogue that went on, along with potential candidates saying, "<span style="color:#000080;">I don't want any of that crazy system!</span>" added up. It got a very big ball rolling. The internal discussions of people getting a clear view into the smoky rooms of the stack rank and curve modeling helped a lot, too. </p>
+<p>Thanks, Mr. Scoble, for your kind words <a href="http://scobleizer.wordpress.com/2006/05/18/missed-big-hr-meeting/">(Scobleizer - Microsoft Geek Blogger » Missed big HR meeting (MyMicrosoft is now improved)</a>).</p>
+<blockquote>
+<p>
+<i>Oh, and thanks Mini! These changes are due in no small part to you. Even if you don't get official props in the press releases.</i>
+</p>
+<p>
+<i>Can one person change a huge company? Mini did. And we don't even know his name.</i>
+</p>
+</blockquote>
+<p>So, I'm going to make the claim that this blog, and all of those who participated in it and followed up on its contents, made a difference. If you agree, well, you can buy me a beer one day. And if you think there's a lot more work to do: the system is in play. All the cards have been thrown into the air. Get to work to make the new changes even better.</p>
+<hr/>
+<p>
+<b>You</b>: So what do you think? Good? bad? I'd love to hear some constructive thoughts. Maybe even just what questions you have at this point.</p>
+<hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/compensation" rel="tag" title="http://technorati.com/tag/compensation">Compensation</a>
+</i>
+</span>
+</p>
+<p> </p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114765673557842439" rel="service.edit" title="Microsoft Investors, Partners, and Big Upcoming Changes" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-05-14T18:28:00-07:00</issued>
+<modified>2006-05-20T10:05:31Z</modified>
+<created>2006-05-15T01:32:15Z</created>
+<link href="http://minimsft.blogspot.com/2006/05/microsoft-investors-partners-and-big.html" rel="alternate" title="Microsoft Investors, Partners, and Big Upcoming Changes" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114765673557842439</id>
+<title mode="escaped" type="text/html">Microsoft Investors, Partners, and Big Upcoming Changes</title>
+<content mode="escaped" type="text/html" xml:base="http://minimsft.blogspot.com" xml:space="preserve">&lt;p&gt;Some fine, good-looking person wrote:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;Come on mini...post something new so we don't have to keep beating this dead horse :P&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Okay, then, even on such a beautiful day as today I can take time for a post-break so that we can start refreshed. I'll do this by me, well, cribbing a whole lot of comments together into something delightfully repackaged. So the word &amp;quot;new&amp;quot; might be inappropriate for you dedicated comment hounds (&lt;i&gt;you know, all thirty of you&lt;/i&gt;).&lt;/p&gt;&lt;p&gt;First of all, that Bloomberg article one of the commenters noted as pretty interesting was even carried in Saturday's Seattle P-I. The article: &lt;span&gt;&lt;a href="http://www.bloomberg.com/apps/news?pid=10000087&amp;sid=aIkQqqOGhJPk&amp;refer=top_world_news"&gt;Microsoft Investors Urge Ballmer to Use Cash on $60 Bln Buyback&lt;/a&gt;. I agree with the commenter, it has some really choice moments in there. My picks:&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;Analysts worry that Ballmer is trying to build a Google within Microsoft. Investors are concerned that they may never see the payoff. The falling stock price is hurting Microsoft's ability to attract and retain employees, Rosenberg said.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;:&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;Microsoft needs to show it is acting to boost the stock and appease shareholders, said Heather Bellini at UBS AG in New York, who is ranked the No. 2 software analyst by Institutional Investor magazine. &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;i&gt;``Previously, the problem was apathy on the stock,'' she said. ``Now the apathy has been replaced with anger.''&lt;/i&gt; &lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;All I can envision in the last part is a Yoda-voice reflecting, &amp;quot;&lt;font color="#000080"&gt;Apathy leads to anger, angers leads to hate, and hate leads to mass sell-offs and firings...&lt;/font&gt;&amp;quot; It has amazed me to no end, though, how incredibly long it's taken for investors and shareholders to start saying &amp;quot;&lt;font color="#000080"&gt;enough is enough&lt;/font&gt;&amp;quot; and start demanding reasonable leadership and reasonable results. It's as almost as if our executive leadership has, uh, wanted to keep the stock price down... Which leads to a comment that gets to the &lt;a href="http://minimsft.blogspot.com/2006/05/acronyms-attack-that-faq-upcoming-fam.html#c114733439271254502"&gt;best conspiracy&lt;/a&gt; I've heard in a long time (&lt;i&gt;even better than Mini-Microsoft actually doing Ballmer's will in prepping Microsofties for those mass firings&lt;/i&gt;): &lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;But look, once the stock was sitting dangerously long close to $28 zone, this stupid mishap with forgetting to warn the Street about $2.4B investment lowering the planned profits happened. Every one company issues the warning up front in such situation, every single one, it's 101.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;Does anyone really believe that the company head accountant along with CEO both didn't know what happens to the stock when the company issues unexpectedly low guidance for next quarter? Didn't they have any classes on about how stock market works while doing their MBA's? Didn't they at least, for Buddha's sake, nor any of their lieutenants at least watch Cramer's Mad Money on CNBC ever? &lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;I just don't believe this stock price 'accident' was an accident, there are reasons for stock being stagnant for years now. There are ways of keeping profits low, spending $500M on marketing here, putting glass windows with Windows logo engraved into offices in entire building there, distributing the beatiful , colourful and expensive flyers on diversity subject to every single employee (yeah, at the same time we have very aggresive cost efficacy program going on). All this wasteful spending might well pay off - as long as the stock price is stagnant, the company earns huge savings on the expiring stock options.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;(&lt;i&gt;Assume a ponderous &lt;a href="http://www.arseniohall.com/"&gt;Arsenio Hall&lt;/a&gt; pose&lt;/i&gt;) &amp;quot;&lt;font color="#000080"&gt;Hmmmmmm&lt;/font&gt;.&amp;quot; Well, in a way, it's strangely comforting for me to think we're being led by a clutch of super-genius stock villains than a confederacy of fiscal dunces.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;That whole SPSA program brought forth an interesting dialog. A &lt;a href="http://minimsft.blogspot.com/2006/05/acronyms-attack-that-faq-upcoming-fam.html#c114705967443107326"&gt;Partner-esque poster provided details and justification of the program&lt;/a&gt;. That did not elicit gushes of hugs and rainbows from the front-line. Some snippets:&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;The SPSA goals set three years ago had NOTHING to do with Vista. The goals were focused on 3 things:&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;1) Increased Customer Satisfaction with Microsoft Products&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;2) Increased adoption of the Developer Platform&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;3) Increased adoption of Office 11&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;We absolutely met/exceeded all of our goals set in these areas. Our customer satisfaction goals have been met, and in fact, we have exceeded our expectations by a wide margin. The .NET developer platform, including the recent Whidbey updates have been well received by our customers. Office 11 has definitely met its targets.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;:&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;The sad truth that you whining underachievers have to accept is that we were given a compensation package tied to aggressive and important goals. We worked very hard for three years to meet the performance goals tied to that package. We blew away the targets and now we DESERVE to be paid what was promised to us. I know it sucks to hear this, but you need to learn to deal with reality here. This was the deal that we accepted and it would be grossly unfair, and frankly would be illegal, for Microsoft or the Compensation comittee to all of a sudden just change the rules and shaft us.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Even MSDecade drove off the road momentarily:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;Remember when I said I chose this nickname because I expected to be at MS for a decade? This post single-handedly changed my mind. I'm going to send out my resume.&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Along the lines of conversation comes in this comment that rings with a &lt;a href="http://minimsft.blogspot.com/2006/05/acronyms-attack-that-faq-upcoming-fam.html#c114762974058601392"&gt;good dose of cold-water reality&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;I'm a long time lurker but avid reader of this blog. I'm a L68 partner (GM) at Microsoft - I thought this was one of the better posts and I specially enjoyed the spirited comments (many insightful, some negative, few balanced) here.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;:&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Politics in organization - again a GROUND REALITY. Just as we go into the marketplace we do whatever we take to fight and win, we as individuals do the same to rise in organizations. Some of us are successful and some of us are not. This is human nature and again reality. Did I earn my GM position fair and square? - yes. Did I have to play some politics to get there? - yes. Did I have to bury a few bodies to get there? - yes. Seems to me you want somebody like me to lead the battle (whatever it may be) versus somebody who is not willing to play 'games'.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;:&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;RE: do we have the right folks in place - here I say no! We have moribund and lethargic leadership at the partner level and above. Specially in the senior leadership. Most of the folks have tasted failure and are too schooled in the MS model. Over the past year or two, I have been observing the lack of accountability and true leadership in my group and it saddens me. There are few risk takers left and most partners are worried about territorial ambitions rather than breakout performance. Yes they earned their positions but these are the wrong people for the company's future as they are too grounded in the past. And I include myself in this sentiment. We have chased away leaders who bring the new thinking required to the company. Yes I can resign but I worry about the next level too - they are not seasoned enough and we haven't provide enough opportunities to season or grow these leaders.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Bottom line, we are at a turning point in this company.&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Wow.&lt;/p&gt;&lt;p&gt;And some people commented, &amp;quot;&lt;font color="#000080"&gt;Hey, lay off the Partners, they are the ones responsible for where Microsoft is today based on all their past accomplishments.&lt;/font&gt;&amp;quot; Oy and vey, what have you done for me lately? Or, more specifically:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;Our partners are for the most part, out of touch with the reality of today's software landscape. Most have NEVER launched an online service, never pushed bits to servers around the world, never configured a load balancer, performed calculations for a denial of service monitor, never written log analyzers needed to diagnose problems on live services. And just in case some of you say you have done this, let me quickly call BS... What I mean by doing is actually doing, nat &amp;quot;watching over&amp;quot;. In your day, you ran kernel debuggers, wrote code, debugged problems, coded new features, etc. Going through this experience first hand taught you many skills. One skill you learned is how to estimate complexity, how to break a project down into bite sized pieces, etc. You learned this on a disconnected and isolated pc centric environment.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;:&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;I guess my fear is that we are waging the wrong war with the wrong enemy, and somehow we have this beleif that our esteemed partners, csa's, and cto's can lead the way. I think we are fighting a war with the wrong leaders in place, and are fighting in a space that we dont have the skills to succeed in. It will be a war over several years that will defocus us and cause us to ignore our current set of customers. Windows, Office, our Enterprise server business. The places where we actually make money will suffer as we focus on this new space and start building our skills there.&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;Shifting gears: is something big on-tap for May 18th? I've been delighted by some insider rumors so far, and &lt;a href="http://minimsft.blogspot.com/2006/05/acronyms-attack-that-faq-upcoming-fam.html#c114739737473468654"&gt;I have great hopes&lt;/a&gt;:&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;Ballmer announced today at Silicon Valley Campus that the company will announce substantial changes to the employee review system on May 18.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;...also, when asked to review himself, Ballmer gave himself a 3.5&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;i&gt;Substantial&lt;/i&gt; sounds like a step in the right direction and opens up the system to major overhaul according to employee feedback and vision. Will we still have stack ranks? Still need to fit a curve? Still need to temper our feedback to one another so that people don't go over-reacting to positive-feedback and have the nerve to think that translates to a 4.0? People followed up saying have faith and that LisaB not only listened, she acted. So come the 18th I'm bringing in a bag of popcorn to pop and sit down and read whatever comes our way with great antici... ... ...pation.&lt;/p&gt;&lt;p&gt;Lastly: the&lt;span&gt; &lt;a href="http://www.blogger.com/profile/5522828"&gt;Al Billings&lt;/a&gt; Vs. Dare spat overflowed into here for a bit. Well, first Al shared some of his &lt;a href="http://minimsft.blogspot.com/2006/05/acronyms-attack-that-faq-upcoming-fam.html#c114714803905013707"&gt;going away from Microsoft thoughts&lt;/a&gt;:&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;Microsoft takes too long to respond to the current thoughtspace and I think that we are mired in levels and levels of requirements and dead wood. In my exit survey, I gave my feedback that I was personally disappointed that not a single person has apparently been fired for the screw-up with Windows Vista. Sure, a couple of VPs are quietly being put out to pasture (I guess...or are they?) but no one has been made accountable for it.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;In amidst the commenting here and there in the Al / Dare spat, Joshua Allen had a &lt;a href="http://www.netcrucible.com/blog/PermaLink,guid,baa9c86a-a47f-465e-aac8-25200c9aa041.aspx"&gt;nice perspective&lt;/a&gt;, including an interesting gem:&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;&lt;span&gt;As my boss remarked at our team meeting this morning, &amp;quot;the people who are afraid of transparency are the people who have something to hide&amp;quot;. Let people say what they're going to say, and let the readers judge for themselves.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;span&gt;Amen to that.&lt;/span&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;span style="FONT-SIZE: 85%"&gt;&lt;i&gt;&lt;a title="http://technorati.com/tag/mini-microsoft" rel="tag" href="http://technorati.com/tag/mini-microsoft"&gt;Mini-Microsoft&lt;/a&gt;&lt;/i&gt; &lt;i&gt;&lt;a title="http://technorati.com/tag/microsoft" rel="tag" href="http://technorati.com/tag/microsoft"&gt;Microsoft&lt;/a&gt;&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114701996816122281" rel="service.edit" title="Acronyms Attack! That FAQ, the Upcoming FAM, Transparent CSPs, and SPSA Goals" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-05-07T09:36:00-07:00</issued>
+<modified>2006-05-18T14:32:32Z</modified>
+<created>2006-05-07T16:39:28Z</created>
+<link href="http://minimsft.blogspot.com/2006/05/acronyms-attack-that-faq-upcoming-fam.html" rel="alternate" title="Acronyms Attack! That FAQ, the Upcoming FAM, Transparent CSPs, and SPSA Goals" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114701996816122281</id>
+<title mode="escaped" type="text/html">Acronyms Attack! That FAQ, the Upcoming FAM, Transparent CSPs, and SPSA Goals</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>(<i>I guess this is the acronym post... FAQ, FAM, CSP, and SPSA all in one place!</i>)</p>
+<p>Well, that <a href="http://minimsft.blogspot.com/2006/05/faq-on-reviews-promotions-job-changes.html">FAQ struck a nerve in the comment world</a>. The comment stream is worth taking a scan if you have a strong belief system about what it takes to succeed at Microsoft (<i>or similar company</i>) and want to add to the conversation. The reactions ranged from <u>pathetic</u> to <u>masterpiece</u>. My comment in the post about why I posted it in the first place:</p>
+<blockquote>
+<p>
+<i>I don't agree with the spirit of the FAQ but I can begrudgingly accept that it works. Is it wrong to reveal the perspective? Is it wrong to perpetuate that? By showing that it is "a way" to succeed that just burns your biscuits does it motivate you, whether you work at Microsoft or some other company where this is true, to try to fix it?</i>
+</p>
+<p>
+<i>The FAQ is, in my opinion, highly relevant to the team members / individual contributors of the world trying to figure out how to be recognized and rewarded. Maybe it's the path to the dark side. If so, what is the other path? Does it work as well or better?</i>
+</p>
+</blockquote>
+<p>A commenter from Saturday morning that slapped the FAQ and me up and down:</p>
+<blockquote>
+<p>
+<i>This "FAQ" should be called "FAQ for no talent bottom feeders." It's pathetic. Thank god my my group is most excellent and our bottom feeding, do noting chip on their shoulder inefectual boat anchors have all been eliminated. Yeah the curve sucks. Deal with it. Wha wha wha. Mini, you should be ashamed, this is not how you make MSFT leaner and better. The loser who wrote this is the same kind of people you advoacte firing. Don't be a hypocrite and post their drivel.</i>
+</p>
+</blockquote>
+<p>I'm not ashamed.</p>
+<p>I believe playing the system is a problem and both the system and the players need to be corrected. I'd much rather have people focused on doing a great job and getting rewarded justly to their individual merits and never even have to think of demoralizing atrocities like <a href="http://minimsft.blogspot.com/2005/06/microsofts-30-or-how-i-learned-to-stop.html">The Curve</a> or <a href="http://minimsft.blogspot.com/2005/07/microsoft-stack-ranking-is-not-good.html">Stack Ranking</a> or, "<span style="color:#000080;">Golly, what do I have to do to get me one of them </span>
+<a href="http://www.alfiekohn.org/business.htm">
+<span style="color:#000080;">Gold Stars</span>
+</a>?" <i>And you know what, a lot of people do just focus on doing a great job!</i> Some of the most successful people I've had the privilege to work with just come in and work well and hard, having a strong sense of self and knowing their own good work is accomplishment enough.</p>
+<p>But other employees - I think understandably - invest great trust and respect in their leadership and authority and they see this investment of trust and respect returned to them come review and feedback time. And the system as it is today has built-in disappointment for those people. I want to change the system. In the meantime, such a disillusioned person finds they need to change themselves because The Curve does not respect you and doesn't care for your investment of trust and respect.</p>
+<p>One change is to play the system, another is to build a stronger sense of self and ignore the system, and I'm sure there are other paths.</p>
+<p>Do all managers recognize when their reports are playing the system and focused on the system vs. doing just doing a great job? Sadly, I have to admit, I've been played. If I'd seen a write-up like this, would I have been more savvy and have put that person on a more productive career path (<i>vs. burning bridges to play career-advance ladder hoping... too bad we have so many bridges that you can burn through quite a few and it doesn't matter</i>)? I'd like to think I would have done a better job.</p>
+<p>Change the system. Recognize the system-players. Correct them, if not move them on.</p>
+<p>Let's say you walk into your office one morning. You reflect on your team before going through the morning email and have the realization that one of your reports (<i>who perhaps has done a good job making you feel like an excellent manager</i>) was in fact playing the system like this FAQ calls out. Or worse.</p>
+<p>
+<span title="What Would Mini-Microsoft Do? (I think I feel a t-shirt idea coming on...)">WWMMD?</span> Fire them if confrontational career mentoring was too late.</p>
+<p>What would you do?</p>
+<hr/>
+<p>
+<i>Elsewhere</i>...</p>
+<p>
+<b>FAM</b>: I am thinking and hoping that this July's <a href="http://www.microsoft.com/msft/aspx/calendarDetails.aspx?EventID=26406">Financial Analysts Meeting at Microsoft</a> might shape into an honest, hard discussion devoid of sunshine and rainbows but rather full of hard realities with accountability and a commitment to performance thrown in. I know, I know... my FAM hopes for an analyst uprising are a bit like <a href="http://en.wikipedia.org/wiki/Linus_van_Pelt">Linus van Pelt</a> and the Great Pumpkin. In Friday's article <a href="http://www.thestreet.com/tech/software/10284025.html">TechWeek The Trouble With Being Microsoft</a>, the following observation is made:</p>
+<blockquote>
+<p>
+<i>[...] But investors are running out of patience with the company, and it had better show some results -- or at least convince investors that good results are coming before too long.</i>
+</p>
+<p>
+<i>"I'm going to give Microsoft a few more quarters," says Daniel Morgan, portfolio manager for Synovus Investment Advisors. Asked why he can't a bit more patient, Morgan spoke for many hard-pressed managers, saying: "I'm judged on my results and I've been in this stock for a long time." </i>
+</p>
+</blockquote>
+<p>Judged on his results. Hmm... perhaps even held accountable? The unfortunate thing is that there's a lot of time between the reality shaking surprise of FY06Q3 and the FAM. Lots of time for Jedi mind tricks on a crowd that probably is quite willing to continue to hear that all is well, they are doing a good job sticking with Microsoft, and that the product pipeline of plenty is about to gush forth with great results. I'll sit in my pumpkin patch in the meantime, waiting for the analyst uprising. I have faith.</p>
+<p>
+<b>Transparency</b>: I'm still thinking about this one:</p>
+<blockquote>
+<p>
+<i>Hey Mini, you should take a look at the new CSPs over here in Office that will be applied to the rest of the company over time. Now that we all have titles that let you know within a level or two where someone's at, we see that Dev &amp; PM are generally two levels higher than test. Hmm.. interesting.</i>
+</p>
+</blockquote>
+<p>Do you know someone in Office? Well, look them up in the Outlook address book. Their title pretty much shows directly what their Career Stage Profile is, which is a rough bucketing of their level. Wow. And, why yes, you can find out who the partners are (<i>though you'd probably better off using the *trax program vs. clicking around all day in Outlook hunting</i>). Offhand, I think this is good and I don't know why only Office is engaging in this. It is coming to the rest of Microsoft? When? Curious.</p>
+<p>It's a reality check and perhaps a way to start holding folks accountable for the results they should be delivering at their level. This certainly seems like a step in the right direction. If your group did this, what would it mean to you?</p>
+<p>
+<b>Shared Performance Stock Award program</b>: regarding such Partners as the Office ones and elsewhere in the company, the following comment comes up on the <a href="http://minimsft.blogspot.com/2006/04/microsoft-fy06q3-results.html#c114619903340028865">SPSA Partner-focused award coming up</a>:</p>
+<blockquote>
+<p>
+<i>Its times like these that its GREAT to be a Partner!!!</i>
+</p>
+<p>
+<i>Can't wait till August when my first slug of SPSA stock comes due! I get $1m in this round because we met all of our targets that we set out to meet three years ago when this program started!</i>
+</p>
+<p>
+<i>Seriously though... This place sucks at time. The above is true, BUT it sure doesn't feel right.</i>
+</p>
+</blockquote>
+<p>An ex-Partner's <a href="http://minimsft.blogspot.com/2006/04/microsoft-fy06q3-results.html#c114632435492702984">reaction</a>:</p>
+<blockquote>
+<p>
+<i>[I wish that Ballmer] would set your SPSA multiplier to 1% and screw you all. The company has missed all reasonable expectations of targets these past three years. To claim otherwise is a crime! So, do I think a crime will be committed this August? You bet! I know for fact that Microsoft is going to claim to have met the SPSA target metrics and will reward the partners with 100% allocations. Those of you on the inside can check for yourselves...</i>
+</p>
+</blockquote>
+<p>From the <a href="http://www.microsoft.com/msft/SEC/FY05/proxy2005.mspx">2005 Microsoft Proxy statement talking about SPSA</a>:</p>
+<blockquote>
+<p>
+<i>The Compensation Committee will determine the final percentage in the exercise of its discretion. The Committee may amend the program to take into account significant changes in business or business strategy.</i>
+</p>
+</blockquote>
+<p>I would like to see shared with the employees and shareholders just what the goals are and how well the goals have been met. All we have is something like:</p>
+<blockquote>
+<p>
+<i>The SPSA program is designed to focus our top leaders on shared business goals to guide our long term growth and address our biggest challenges by rewarding participants based on growth in customer satisfaction, unit volumes of our Windows products and usage of our development tools, and desktop application deployment over a multi-year performance period. Metrics were developed to measure performance in each of these areas. For the Named Executive Officers, the performance period is the two-and-one-half year period ending June 30, 2006.</i>
+</p>
+</blockquote>
+<p>Doesn't the senior leadership believe, if they want to build trust between the employees and executive leadership, that this would be a key foundation of that trust? We've got folks not making cost of living and our stock just took a huge hit because we surprised Wall Street (<i>even I know: surprise <u>bad</u>.</i>). Products slip and no-one is being held publicly accountable. We're distracted... chasing the tail-lights of Google, Yahoo, and Apple like a dim rural dog that goes rabid over the scent of other people's money. And the L68+ employees are potentially about to be lavishly rewarded for all of this. </p>
+<p>Share the goals, because perhaps I'm a dim dog, too, and perhaps the more I know the more I can understand there's more to Microsoft's business than what I'm yapping about. Share the specific SPSA goals and explain why leadership has met or exceeded them. I'd even like the employees to rate leadership on those goals, not the Compensation Committee. You see, as of now, I believe there is room for improvement. And senior leadership damn well better not expect us to tighten our belts and enjoy another serving of weenies while the same leadership loads their plate up with shrimp.</p>
+<p>And you know, I'm okay with weenies. I've developed a taste for weenies. Just not of the leadership sort.</p>
+<p>In the meantime, start thinking of what kind of casual questions you can ask your Partners come September regarding how they are going to enjoy their SPSA grant. Maybe come September 15th, when your new pay raise, if any, is in effect.</p>
+<hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i>
+</span>
+</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114679490202240575" rel="service.edit" title="FAQ on reviews, promotions, job changes, and surviving re-orgs - Comment Repost" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-05-04T19:04:00-07:00</issued>
+<modified>2006-05-18T03:34:57Z</modified>
+<created>2006-05-05T02:08:22Z</created>
+<link href="http://minimsft.blogspot.com/2006/05/faq-on-reviews-promotions-job-changes.html" rel="alternate" title="FAQ on reviews, promotions, job changes, and surviving re-orgs - Comment Repost" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114679490202240575</id>
+<title mode="escaped" type="text/html">FAQ on reviews, promotions, job changes, and surviving re-orgs - Comment Repost</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>The following is not by me but rather is a comment repost that I exclaimed "<span style="color:#000080;">Ooo!</span>" when it came in. Even Dare <a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=1a4636ca-a73c-43b5-808f-a0eef17a03a3">linked directly to the comment</a>. I'd like to take a break from the financial angst and repost this comment - thanks to the anonymous individual who put together their point of view of basic survival skills in the Microsoft landscape.</p>
+<hr/>
+<p> </p>
+<h1>How it works: FAQ on reviews, promotions, job changes, and surviving re-orgs</h1>
+<p>
+<b>What do I write in my review?</b> </p>
+<p>You must accept the Matrix-like realization that your score was decided long before you even started your review. You have already gotten what your manager decided to give you. Your manager is not going to base anything in their feedback on what you wrote unless they want to argue with something you wrote. What they write is only to justify the score they gave you. Advice: Write your review so it looks like you did what you want your next job to be so new hiring managers think you’re great and qualified for their job, but are currently just in the wrong group. </p>
+<p>
+<b>Who gets bad review scores?</b> </p>
+<p>Nobody ever wants to give out bad scores, but somebody’s got to be the bottom and it makes it a lot easier on a manager if you meet any of the following criteria: </p>
+<p/>
+<ol>
+<li>You really, really, suck at your job. You’re making more work for your manager. They just want you to do your job and leave them alone. Many people suck but are either good at hiding it or their manager is afraid of them. </li>
+<li>You leave your job late in the review cycle. You get included in your old group instead of your new one and it’s much easier to ding someone you’re not going to face everyday. </li>
+<li>You get a new job in a different group. You could not possibly be ready for the demands of doing exactly the same thing you did before. </li>
+<li>You get promoted during the year. You will not be able to perform above a 3.0 at your new level. No matter what. </li>
+<li>You complain to HR about them. I don’t think I need to go into detail here. </li>
+</ol>
+<p/>
+<p>
+<b>Okay, I filled out the manager feedback form and nothing appears to have changed. Why isn’t it taken more seriously?</b> </p>
+<p>Because it doesn’t actually count. That’s why it’s called a feedback form. If it counted, in the review process the score would be mathematically calculated in your manager’s overall rating. It’s not. </p>
+<p>Manager feedback forms should only contain encouraging, nurturing, positive comments about how happy you are to have this wonderful human in your life. If you want it to look legitimate, say your manager should delegate more work to the rest of the team. The biggest risk is giving actual criticism or mentioning specific instances and they are able to recognize your writing style. Then you’re doomed. Advice: Never fill them out – remember there’s no penalty and only downside. Don’t take stupid chances like that again. You’ll never get promoted. </p>
+<p>
+<b>So how can I get promoted?</b> </p>
+<p>There are only so many promotions available; that’s why your manager won’t tell you specifically "If you do X and Y, you will get promoted." They will go to great pains to tell you that good performance only gets you a ticket in the pool of people that become "eligible" for a promotion. "Eligible" means one thing - your manager decided they want to promote you. Period. They have to fill out a form and then win the "who gets promoted" argument with the other managers at stack rank meetings, which is where they write everyone’s name up on a board, decide who is 4.0 or promotion material, pick out the bottom feeders they want to weed out, and then fill in the rest of the 3.0-3.5s. What anyone actually accomplished during the year is irrelevant. Advice: Focus all your energy on making your manager want to promote you. Do this by making them love you. You don’t have to do more or higher quality work. You can also do this at the expense of satisfying customers, decreasing costs, or generating profit for the company. It is up to you to find out what you need to do; all managers are different. Some want you to do more of their work; others simply look at how long you’ve been at your level, but remember that managers are employees too, so all will want one of those precious promotions first. </p>
+<p>
+<b>What happens if I do get promoted?</b> </p>
+<p>Words from my manager during my review this year (4.0, promotion): "Now I’m supposed to be sure to tell you that it’s going to be really, really hard for you to get a 3.5 next August." This means I’m getting a 3.0 no matter what I actually do. Advice: If you get a promotion, leave your group immediately. If you wait too long to move you’ll be included in your old group at review time which we’ve learned is not good. If you get a high score but no promotion, pour on more love and start mentioning an out-of-cycle promotion. And if your manager recently was promoted, it just might happen. If not, go find another job. </p>
+<p>
+<b>How do I go find a different job at Microsoft?</b> </p>
+<p>Very, very, carefully. Remember your job is to make your manager love you by making their life easier and you just added two types of action items to their list: </p>
+<p/>
+<ol>
+<li>Bad action item – they have to find a new person because you’re bailing on them. </li>
+<li>Not so bad action item – they can give you one of the crappy review scores. </li>
+</ol>
+<p/>
+<p>Bottom line is to not tip your hand unless you are sure you’ve got the job. Sometimes the reaction of a manager is to take it personally and think you don’t like them or their team anymore, but it’s also a sigh of relief because you just signed up for the bottom of the curve. Either way if you don’t get that new job, things are going to be unpleasant in your old job. Why? If they really liked you they’d promote you to get you to stay. Technically permission to interview is good for like a month or something so once you ask for formal permission the clock is ticking (and that bomb is real). Advice: First, only look at jobs for which you are actually qualified. Make informational interviews become the real interviews. Tell the hiring manager that your group is not going to be happy once you tell them you’re looking. They will nod in agreement. Set up informational interviews with everyone else that would be on the formal loop. Tell the hiring manager that you won’t formally interview unless you know you’re the leading candidate going into it. And don’t ask for formal permission until HR tells you they can’t continue the process without it. </p>
+<p>
+<b>I just got re-orged. Should I worry?</b> </p>
+<p>Re-orgs generally seem to make sense ("Networking and wireless are now together. That will help our wireless networking initiative."), but in reality it’s just how VPs trade power with each other. Most of the time you will experience absolutely zero change – the obligatory all-hands meeting with your new VP (go because it will be the only time you see them in person), announcements of who is in charge of doing what now, a change in co-worker taglines, and most of the time, the same manager. The danger is a new manager. One that decides on changes in your role. These changes will always line up exactly with what the manager was doing before. If it doesn’t line up, they will simply turn your Customer Escalation team into the Customer Escalation Marketing and Branding team and tell you to write new commitments that they’re going to judge you with even if there’s only two weeks left in the review cycle. Dev, Test, Admins, and those in a true PM role are generally safe from role changes; that leaves the other gazillion of us that are not. Hired for a specific role that actually brings value? Re-org! Oops, now you’re not. Meet your new manager. Advice: Recognize a role change when you see it. Managers show value through improving processes, which means change, which means changing things that generally weren’t broken before they got there. If you can’t convince your new manager that they need you in that role, leave immediately. Your review should be prepped for that next role anyway. </p>
+<p>
+<b>Author</b>: <a href="http://minimsft.blogspot.com/2006/04/ms-poll-06-and-happy-booming-brains.html#c114625043357005218">Anonymous</a>
+</p>
+<hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i>
+</span>
+</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114610815331906188" rel="service.edit" title="Microsoft FY06Q3 Results" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-04-26T20:20:00-07:00</issued>
+<modified>2006-05-12T21:42:43Z</modified>
+<created>2006-04-27T03:22:33Z</created>
+<link href="http://minimsft.blogspot.com/2006/04/microsoft-fy06q3-results.html" rel="alternate" title="Microsoft FY06Q3 Results" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114610815331906188</id>
+<title mode="escaped" type="text/html">Microsoft FY06Q3 Results</title>
+<content mode="escaped" type="text/html" xml:base="http://minimsft.blogspot.com" xml:space="preserve">&lt;p&gt;&lt;b&gt;Update&lt;/b&gt;: added discussion of the released financials. Plus Ballmer talking about firing people. And Intel's restructuring.
+&lt;/p&gt;&lt;p&gt;Another quarter, another check-in with FY06 for MSFT. So how is it looking?&lt;/p&gt;&lt;p&gt;Pre-discussion of the earning results:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://blog.seattlepi.nwsource.com/microsoft/archives/102927.asp?source=rss"&gt;Todd Bishop's Microsoft Blog @ SeattlePI.com - Microsoft Q3 earnings What to watch&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.businessweek.com/ap/financialnews/D8H792T83.htm?campaign_id=apn_tech_down&amp;chan=tc"&gt;Earnings Preview Microsoft Corp.&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.forbes.com/markets/bonds/2006/04/26/microsoft-oracle-0426markets17.html"&gt;Microsoft Seen As Top Pick In Software - Forbes.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Post-discussion earning results: &lt;span style="color:#000080;"&gt;&lt;b&gt;Yee-ouch!&lt;/b&gt;&lt;/span&gt; Right in the kisser! &lt;a href="http://www.microsoft.com/msft/earnings/FY06/earn_rel_q3_06.mspx"&gt;You'd think we done good&lt;/a&gt;. Except for meeting expectations. And how does The Street treat those who come up short? &lt;/p&gt;&lt;p&gt;It slaps them with a 2.5.&lt;/p&gt;&lt;p&gt;Let's see, &lt;a href="http://finance.yahoo.com/q/ecn?s=MSFT"&gt;after hours check-in&lt;/a&gt; has us down over 6% to $25.59. Yes, the commenter who sold at $27 yesterday is looking pretty bright right tonight. So we did not meet expectations.&lt;/p&gt;&lt;p&gt;The webcast was pretty boring, until after just over an hour Rick Sherlund of Goldman Sachs probed quite deftly regarding how the numbers didn't seem to add up and that there had to be some kind of mystery project going on to represent a big chunk of extra expense. A two-point-four billion dollar mystery. Liddell was mum. Discussion:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://www.informationweek.com/news/showArticle.jhtml?articleID=187000697&amp;amp;subSection=All+Stories"&gt;InformationWeek Microsoft Financials Microsoft's Coming Revenue Trade-Off April 27, 2006&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.tgdaily.com/2006/04/28/microsoft_q32006_planning_something_big_question-mark/print.html"&gt;The rising cost of business Is Microsoft planning something big [printer-friendly] TG Daily&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Snippet in the InformationWeek link:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;"The revenues looks good…but your expenses are more than $2.4 billion more than I estimated....There's something really big here. It sounds like you're building a Google or a Yahoo and Ray Ozzie has said this is really expensive. It looks like you're ramping up your online business and the decision is to take the benefits of next year's product cycle to gear up for a battle in the online market," said Rick Sherlund, partner with Goldman Sachs as he tried to suss out what was going on.&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;SQL server has been a knock-out winner. Xbox 360 has been a wonderful way to burn through cash.&lt;/p&gt;&lt;p&gt;General round-up:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://www.microsoftmonitor.com/archives/015108.html"&gt;Microsoft Monitor Microsoft Fiscal 2006 Q3 Results&lt;/a&gt; - always a nice technical break-down of the numbers.&lt;/li&gt;&lt;li&gt;&lt;a href="http://blog.seattlepi.nwsource.com/microsoft/archives/102995.asp"&gt;Todd Bishop's Microsoft Blog @ SeattlePI.com - Microsoft misses estimates for third quarter&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.redherring.com/Article.aspx?a=16665&amp;hed=Microsoft+Revenue+Disappoints&amp;amp;sector=Regions&amp;subsector=Americas"&gt;RED HERRING Microsoft Revenue Disappoints&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://money.cnn.com/2006/04/26/technology/microsoft_outlook/"&gt;Some on Wall Street are warming up to Microsoft - Apr. 27, 2006&lt;/a&gt; - a bit of a happy spin!&lt;/li&gt;&lt;li&gt;&lt;a href="http://money.cnn.com/2006/04/27/technology/microsoft_earnings/index.htm"&gt;Microsoft misses on earnings, sales in third quarter - Apr. 27, 2006&lt;/a&gt; - has a couple of interesting quotes, especially one saying that maybe a few quarters out we'll finally move out of our current range. Is it always just a few quarters out. For what, the last five years?&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.businessweek.com/ap/financialnews/D8H8JO1OF.htm?campaign_id=apn_home_up&amp;amp;chan=db"&gt;Aftermarket Movers Microsoft crashes&lt;/a&gt; &lt;/li&gt;&lt;li&gt;&lt;a href="http://tech.memeorandum.com/060427/p64#a060427p64"&gt;tech.memeorandum - Discussion Collection&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Meanwhile, in the world, Mr. Ballmer goes and describes how &lt;a href="http://business.timesonline.co.uk/article/0,,9075-2153181,00.html"&gt;everyone needs to fire as many people as Microsoft does&lt;/a&gt; (&lt;i&gt;ar-roo? I'd like to see that!&lt;/i&gt;) and Intel &lt;a href="http://www.msnbc.msn.com/id/12516970"&gt;slaps down&lt;/a&gt; a &lt;a href="http://news.com.com/Intel+to+get+widespread+restructuring/2100-1014_3-6065708.html"&gt;painful reality-check restructuring&lt;/a&gt;. I think Mr. Ballmer needs to be taking some advice vs. giving it. I know, I know... get Vista wrapped up and then whip-out the bitter medicine. Even Mr. Johnson is noting that Windows has more people than it needs. If you're in one of the groups that Kevin notes as being part of the redundant overhead (&lt;i&gt;e.g., photos&lt;/i&gt;), you know it's time to start looking around before someone starts arranging the chairs and plays the arr-i-eff music.&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;In other going ons...&lt;/p&gt;&lt;p&gt;(1) &lt;a href="http://channel9.msdn.com/Niners/jamie"&gt;Jamie&lt;/a&gt; has done it again over at Channel9 with &lt;a href="http://channel9.msdn.com/ShowPost.aspx?PostID=185793#185793"&gt;C9Park: Browser Wars&lt;/a&gt;. Yes, I laughed pretty hard at Han Scoble but ever more at Princess LisaB.&lt;/p&gt;&lt;p&gt;(2) Mr. Scoble had an interesting post this week... what was it again... oh yes: &lt;a href="http://scobleizer.wordpress.com/2006/04/24/how-microsoft-can-shut-down-mini-microsoft/"&gt;How Microsoft can shut down Mini-Microsoft&lt;/a&gt;. When I first saw the title my mind raced wondering just what the heck kind of break Scoble had been on. Re-education with a head-mounted cage and a hungry rat? Then I read it and appreciated its forward looking optimism.&lt;/p&gt;&lt;p&gt;Yes, please: marginalize me! Nothing would make me happier than to put up the post titled &lt;i&gt;My Work Here is Done&lt;/i&gt;. (&lt;i&gt;Well, I guess that could have multiple meanings.&lt;/i&gt;) Basically, address the pillars that have become the foundation of this blog and not only can I go back to more date nights with my beloved Buttercup but also we all end up with an efficient Microsoft with well compensated and empowered employees along with delighted, happy shareholders, customers, and partners. Win. Win. Win. Win.&lt;/p&gt;&lt;p&gt;(3) DerekDB, a wonderful Ex-Microsoftie (&lt;i&gt;bad attrition again&lt;/i&gt;), has landed a one-two punch with a couple of recent posts. In &lt;a href="http://nothing-more.blogspot.com/2006/04/more-developers-more-features.html"&gt; More Developers != More Features&lt;/a&gt; he discusses the mis-middle-management going ons with Longhon / Vista, including this snippet:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;Vista isn't neutered and delayed because of any lack of people. It is a mess because of middle management. [...] At least at the time I left (6 months ago), I saw very little evidence that the management of these failed projects was getting any kind of a slap on the wrist. The problem is that in an org that large with that my dependencies, it was impossible to tell which team was actually mismanaged, and which team just was dragged down by the other mismanaged teams.&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;And while still running hot off of this, Visual Studio (&lt;i&gt;perhaps in some sort of revenge&lt;/i&gt;) starts letting loose the grief upon Derek: &lt;a href="http://nothing-more.blogspot.com/2006/04/visualstudio-oh-my.html"&gt; VisualStudio ...oh my...&lt;/a&gt;. I've mentioned woes people have had with VS before (&lt;i&gt;VS2005 specifically&lt;/i&gt;). Derek's thoughts here:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;What developer wants to waste time with this crap? It is embarrassing (for Microsoft) that I've had such better experiences with Sun's JDK and Eclipse. Sure, VS is faster, but what good is faster, when it doesn't work?&lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;How are the VS service packs coming, anyways? Anyone in VS-land willing to reach-out to Derek and pick him up as a buddy as we fix VS bugs and work towards Orcas? I think you'd have a wonderful time.&lt;/p&gt;&lt;p&gt;(4) Dare has a couple of interesting posts, too: &lt;a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=df0329a8-0fa5-4afe-b822-3d5b6ede43bb"&gt;New Features aren't Innovation&lt;/a&gt; and &lt;a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=c9eb688c-ab0d-4fec-a970-0169b55d5f10"&gt;Our Org Chart is %@&amp;amp;$'d Up&lt;/a&gt; (&lt;i&gt;sorry... prude here&lt;/i&gt;). Plus a &lt;a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=84590654-672d-4085-986a-d1a82e8425bf"&gt;goodbye to Gretchen&lt;/a&gt; (&lt;i&gt;hmm, that one has some whispering in Scoble's ear&lt;/i&gt;).&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;&lt;span style="font-size:85%;"&gt;&lt;i&gt;&lt;a title="http://technorati.com/tag/mini-microsoft" rel="tag" href="http://technorati.com/tag/mini-microsoft"&gt;Mini-Microsoft&lt;/a&gt;&lt;/i&gt; &lt;i&gt;&lt;a title="http://technorati.com/tag/microsoft" rel="tag" href="http://technorati.com/tag/microsoft"&gt;Microsoft&lt;/a&gt;&lt;/i&gt; &lt;i&gt;&lt;a title="http://technorati.com/tag/scoble" rel="tag" href="http://technorati.com/tag/scoble"&gt;Scoble&lt;/a&gt;&lt;/i&gt; &lt;/span&gt;&lt;/p&gt;</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114559051241371901" rel="service.edit" title="MS Poll 06 and Happy Booming Brains" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-04-20T20:31:00-07:00</issued>
+<modified>2006-05-07T18:55:00Z</modified>
+<created>2006-04-21T03:35:12Z</created>
+<link href="http://minimsft.blogspot.com/2006/04/ms-poll-06-and-happy-booming-brains.html" rel="alternate" title="MS Poll 06 and Happy Booming Brains" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114559051241371901</id>
+<title mode="escaped" type="text/html">MS Poll 06 and Happy Booming Brains</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>So, have you filled out your MS Poll for the year? It doesn't take long, especially if you don't have any extra comments to throw into the mix. I guess if you're a Partner you get the special leadership questions. So put a reminder on your Outlook calendar to spend five to ten minutes going through the poll and let loose what what you truly feel.</p>
+<p>And expect that I'm the only that's going to be harassing you to do so. Strangely, in LisaB's kick-off email about the poll to the managers, she asked for management <b>not</b> to harangue people into filling out the poll. Maybe pressured people are negative? Is it a stealth poll? It will be interesting to see what the participation statistics are.</p>
+<p>The poll seemed the same-old-same-old to me. Any interesting comments you're putting in there? I'd be exceptionally excited if VPs had their group's MS Poll numbers made public to help other people move around. Those with high numbers should at least brag about it as a way of attracting the best and brightest looking for new challenges (<i>or to get out of their sinking ship</i>).</p>
+<p>You know, a bigger point about MS Poll is that it's a reflection on you and where you are in your career. Do you feel valued? Are unnecessary rules getting in your way? Are we going in the right direction as a company? Is it a great place to work? Do you have a good deal? Does your group act upon MS Poll feedback? Are you paid well?</p>
+<p>Listen, Good Looking: if you're saying <i>
+<b>strongly disagree</b>
+</i> to a lot of those questions, you've got to hit the reality check button and decide either to find new work digs in Microsoft or a new company altogether. Think about it after you submit it. You have to take advantage of the times in our economy when you're most valued and now is one of them. Computer Software Engineer is the #1 hot job. The <a href="http://money.cnn.com/magazines/fortune/fortune_archive/2006/05/01/8375405/index.htm">boom is back</a>. Ride the wave, either at Microsoft or someplace where you are happy.</p>
+<p>Speaking of happiness, there's been a lot of talking about deciding to be happy:</p>
+<ul>
+<li>
+<a href="http://scobleizer.wordpress.com/2006/04/15/halfway-through-my-blog-vacation-change-in-comment-policy">Scobleizer - Halfway through my blog vacation (change in comment policy)</a>
+</li>
+<li>
+<a href="http://scobleizer.wordpress.com/2006/04/18/dont-worry-be-happy/">Bubba-leizer - Don’t Worry, Be Happy</a>
+</li>
+<li>
+<a href="http://headrush.typepad.com/creating_passionate_users/2006/04/angrynegative_p.html">Creating Passionate Users Angry-negative people can be bad for your brain</a> (<i>the best read</i>)</li>
+<li>
+<a href="http://www.25hoursaday.com/weblog/PermaLink.aspx?guid=c88cd703-2ae7-4bef-a712-22a28d87d690">Dare Obasanjo aka Carnage4Life - Simplifying Your Life</a> (<i>surprise - I thought it would be "Your happiness underwhelms me..."</i>)</li>
+<li>
+<a href="http://www.proudlyserving.com/archives/2006/01/choosing_to_be.html">Proudly Serving My Corporate Masters Choosing To Be Happy</a>
+</li>
+</ul>
+<p>And then it sort of bounced around the net even more.</p>
+<p>I'm sure <a href="http://jobsyntax.com/blogs/jobgals/default.aspx">Gretchen and Zoe</a> are quite happy to be doing what they are doing at <a href="http://jobsyntax.com/default.aspx">JobSyntax</a>:</p>
+<blockquote>
+<p>
+<i>Thanks for the mention, Mini! I have started a <a href="http://www.jobsyntax.com/blogs/jobgals" rel="nofollow" title="http://www.jobsyntax.com/blogs/jobgals">new blog </a>with my new company. I plan to be even more direct and honest than before. :) </i>
+</p>
+</blockquote>
+<p>So Gretchen would never, ever say: if, as you ponder the poll and your happiness, you decide now's the time to test the waters outside of Microsoft, get in contact with us over at <a href="http://jobsyntax.com/default.aspx">JobSyntax</a> to see how we can help you find your way through the talent landscape and build your confidence to find the company that best suits you.</p>
+<p>She's just too cool for that.</p>
+<p>I'm not! Strike while the hiring iron is hot, baby! Fundamental truth: the best way to advance your career is to change companies. Not jobs. Companies. And, as you ponder those experiences required to advance at Microsoft in the CSP and wonder when you'll ever be able to meet the challenges let alone ever be given those opportunities, just realize the best way is to leave and grow, and then see how far up the ladder you can climb should you return.</p>
+<p>I know, a slick Mephistopheles I'm not.</p>
+<p>Other random notes...</p>
+<p>* Mark the calendar: <a href="http://www.microsoft.com/msft/default.mspx">April 27th, 2:30 PM PST Microsoft 3rd Quarter results</a>. Sure would be nice if that coincides with the day that anyone who wants to can buy an Xbox 360. You know, four months after the Christmas rush. Does <a href="http://blog.seattlepi.nwsource.com/microsoft/archives/101342.asp?source=rss">Bryan Lee</a> with his <a href="http://www.microsoft.com/msft/speech/FY05/BryanLee110805.mspx">amazing abilities to mis-predict</a> still work for Microsoft? Yes, of course.</p>
+<p>* AdamBa's latest post, <a href="http://www.proudlyserving.com/archives/2006/04/a_former_micros.html">A Former Microsoftie Kapenda Thomas</a>, reminds me of that dev vs. test vs. PM post I promised. Yes, yes, y'all, it will come but I'm still getting over that whole mess of negativity I kicked off with that little "<a href="http://minimsft.blogspot.com/2006/03/vista-2007-fire-leadership-now.html">fire da bums</a>" post. I've got to see how I can fold that future post into a happy, pro-active piece before getting it up. This post from Mr. Barr is at least an example of a happy ending with pro-active people.</p>
+<p>* This past week, Slashdot discovered an essay from last year: <a href="http://www.qbrundage.com/michaelb/pubs/essays/working_at_microsoft.html">Working at Microsoft</a>. I'll <a href="http://minimsft.blogspot.com/2005/02/lets-fire-all-middle-managers.html">once again highlight</a> my favorite snippet:</p>
+<blockquote>
+<p>
+<i>In contrast, most of the middle management should be tossed. [...] Of the six-seven managers I've had, I'd relish working for (or with) only two of them again. Two were so awful that if they were hired into my current organization (even on another team), I'd quit on the spot. The other two-three were "nngh" -- no significant impact on my life one way or another. I'd love to think this is some kind of fluke, that I've just been unlucky, but many other Microsoft employees have shared similar experiences with me.</i>
+</p>
+</blockquote>
+<p>* Finally: is it Sinofsky + Ray Ozzie to save Microsoft from itself? An Ozzie focused feature appears in Fortune magazine: <a href="http://money.cnn.com/magazines/fortune/fortune_archive/2006/05/01/8375454/index.htm">Microsoft's new brain</a>. It's a good read and has some length to it. Near the end:</p>
+<blockquote>
+<p>
+<i>Now comes the hard slog of reinvigorating a 70,000-employee business. Many of the new services the company is coming up with cut across multiple parts of the organization and will require much closer cooperation than has been common in the past. That makes for tension.</i>
+</p>
+</blockquote>
+<p>You could really simplify the reinvigoration by having less employees. Just throwing that out there. </p>
+<hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i>
+</span>
+</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114515622378392697" rel="service.edit" title="Scoble's Moderation and That Old Time Conspiracy Reward Challenge" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-04-15T19:54:00-07:00</issued>
+<modified>2006-05-18T11:00:32Z</modified>
+<created>2006-04-16T02:57:03Z</created>
+<link href="http://minimsft.blogspot.com/2006/04/scobles-moderation-and-that-old-time.html" rel="alternate" title="Scoble's Moderation and That Old Time Conspiracy Reward Challenge" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114515622378392697</id>
+<title mode="escaped" type="text/html">Scoble's Moderation and That Old Time Conspiracy Reward Challenge</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>Quick blog-technology-centric post for something near and dear to the Mini-Microsoft blog: <b>comments</b>.</p>
+<p>I've said it. Lots of other people have said it (<i>lots... said it so much I wonder if I should just put up one word posts some time</i>).  So it must be true: comments by the readers of this blog are what truly make it unique and perhaps even important for some moment of time.</p>
+<p>I felt bad about moderating when I first did it. Not anymore. I only feel bad about the precious personal time I have to burn getting the comments scanned and approved and how it can slow down the conversation. But I'm really glad Blogger has comment moderation. This blog would have either died or moved onto another host long ago without it.</p>
+<p>So now, given my personal context, I've had a Neo-ish "<span style="color:#000080;">whoa!</span>" to hear that <a href="http://scobleizer.wordpress.com/2006/04/15/halfway-through-my-blog-vacation-change-in-comment-policy/">Robert Scoble has started comment moderation on his Scobleizer blog</a>. Whoa! </p>
+<p>Moderation. So I know you have <a href="http://radar.oreilly.com/archives/2006/03/etech_clay_shirky.html">Clay Shirky talking about it</a> and folks like me and Scoble living it, but what is the solution? It seems that blogging as a communication medium is prone to entropy the more successful a blog becomes... perhaps comments should be tiered so that there is always a secondary page one can go to for all submitted comments and elevated comments (<i>either by the owner or readers</i>) can make their way onto the main blog page to ascend next to the main post's text. Kind of like Slashdot, just without the one-liner noise of each filtered message.</p>
+<p>In the meantime, while showering after another fun day weeding between rain clouds, I just contemplate the amount of vile-infused comment hatred I was gobsmacked with as of late. Well, not directed at me. At Microsoft. It's freaking irrational. You might point to past sins, but that doesn't add up. There is plenty of choice out there and this caricature that has been foisted up of Microsoft does not match the passionate, corporate company I work with. Nor each person I work with. But a whole generation seems to have bought into it, and it comes as a price of "<span style="color:#000080;">anything but Microsoft</span>" when indeed Microsoft would have been the best and obvious choice. Add onto that a new immergence of nationalism associated with software and more and more people are finding reasons to hate Microsoft that don't add up.</p>
+<p>So I don't let those comments go through, but they do stick to my conscience. I'd like a solution to that, too. And a milkshake.</p>
+<p>(<i>and I see Bubba Murarka will be making an appearance on Scoble's blog - good luck, Bubba!</i>)</p>
+<p>Oh, and rather than adding a comment for <a href="http://minimsft.blogspot.com/2006/04/gretchen-moves-on-mspoll-and-un.html#c114511405389761950">this theme again</a>:</p>
+<blockquote>
+<p>
+<i>Thus, I have concluded you are not the independent blogger you say you are but are rather a paid foil of the executives, with the mission of extracting feedback that would seldom be expressed through the sycophantic MS Poll.</i>
+</p>
+<p>
+<i>Not that that's such a bad thing, of course. The comments keep things in perspective and help people let off a little anonymous steam. </i>
+</p>
+</blockquote>
+<p>Well, please step up to the mic for the next town-hall with Ballmer and ask him yourself, "<span style="color:#000080;">Does Microsoft control or direct the Mini-Microsoft blog?</span>" Or some other fun question like that to put the leadership on record about this recurrent topic (<i>hey, I'm a Mulder fan, I like my conspiracies, too</i>). Tell you what, if you do then I'll route you a nice dining giftcard to a fine Eastside restaurant for you and your sweetheart. But in the meantime: no, it's just me doing my thing when I have spare time. I work hard during the day to make money for Microsoft and our shareholders, and I steal as much spare time away from my non-work life to put up the occasional post and moderate the comments. Sometimes it's too much and I go on break. Just like me, it's all pretty simple.</p>
+<p>My only compensation is when our leadership gets asked the hard questions or when it seems change is enacted to address the serious issues brought up within the conversation here. As for you "<span style="color:#000080;">sleeping with the enemy</span>" and all that... well, do you think change is needed? Looks like the call for change has received attention. Will that change happen if you silently go back to your keyboard, or will it happen if we all work together to discuss what's not working and how to arise to the occasion and do better. Well, not just better. To do the absolute best. As we know we all can.</p>
+<p>Silence solves nothing.</p>
+<hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/Scoble" rel="tag" title="http://technorati.com/tag/Scoble">Scoble</a>
+</i> <i>
+<a href="http://technorati.com/tag/Moderation" rel="tag" title="http://technorati.com/tag/Moderation">Moderation</a>
+</i>
+</span>
+</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114507026838468608" rel="service.edit" title="Gretchen Moves On, MSPoll, and un-Breaking" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-04-14T20:01:00-07:00</issued>
+<modified>2006-05-16T06:06:02Z</modified>
+<created>2006-04-15T03:04:28Z</created>
+<link href="http://minimsft.blogspot.com/2006/04/gretchen-moves-on-mspoll-and-un.html" rel="alternate" title="Gretchen Moves On, MSPoll, and un-Breaking" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114507026838468608</id>
+<title mode="escaped" type="text/html">Gretchen Moves On, MSPoll, and un-Breaking</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>As I slowly transition from un-break mode, just a few interesting notes:</p>
+<p>Gretchen over at Microsoft's Jobs Blog is <a href="http://blogs.msdn.com/jobsblog/archive/2006/04/11/573455.aspx">moving on</a>. Gretchen hit the fan (<i>and I became a fan</i>) with her break-out rant <b>
+<a href="http://blogs.msdn.com/jobsblog/archive/2005/06/01/423909.aspx">The talent landscape, and why I'm ready to lose it</a>
+</b> which was so honest and 100% Microsoftie. Around work, I used it as a little litmus test to get people's opinions. Some managers thought she should be outright fired (<i>hmm, strip color: <span style="color: rgb(255, 0, 0);">Bozo</span>
+</i>) others thought she was right on and checked in to make sure we were doing the right thing in our relationship with recruiting (<i>strip color: <span style="color: rgb(0, 128, 0);">Keeper</span>
+</i>).</p>
+<p>She even mentioned this blog a few times, especially noted in the post <b>
+<a href="http://blogs.msdn.com/jobsblog/archive/2005/09/16/469262.aspx">Microsoft, the media, and Mini</a>
+</b>. I'd love to be an NSA operative listening in on Microsoft's recruiting when a hard questioned is asked about ratings or reviews or other issues brought up here and in other blogs. Anyway, I really enjoyed how she took on describing working for Microsoft in a straight-forward, honest way. It was as if she was looking you straight in the eye as she wrote. Our PR folks could learn a lot from that.</p>
+<p>Staying on my message about a smaller Microsoft and not hiring people and gettin' on with the firing of people, well, allow me to unjoyously lick my finger and mark the air above me to score one for the Mini side of life. Bad attrition is still attrition.</p>
+<p>Other going ons... the MSPoll is upon us! I haven't opened it up yet myself. Oh, the ranting I will do. But, I always ensure to throw in lots of kudos about some of the life of the Microsoftie that I don't want to go away in absence of praise: our medical plan is outstanding, we still have free cola, while stationary supplies are harder to find we still don't have to grovel for a pad of Post-Its, and the ball-fields are staying where they are. Remember that upper management does read the comments, but if you just have pronouns and no aliases, your direct praises and criticisms are non-actionable. </p>
+<p>Praise the <span style="color: rgb(0, 128, 0);">Keepers</span>. Rail against the <span style="color: rgb(255, 0, 0);">Bozos</span>.</p>
+<p>Lastly... usually I summarize interesting comments as of late. Especially ones to old posts. I'm blown away right now with all the comments. When I moderate, I scan and approve, promising to re-read in detail later and elevate interesting ones into the discussion (<i>like this one about <a href="http://minimsft.blogspot.com/2006/02/microsoft-campus-expansion-foo.html#c114481673143543999">trying to get permission to interview and insights for others</a>
+</i>). Let's see, how many of those do I have... 1,108. Looks like I need another break, though <a href="http://www.thebloggingjournalist.com/2006/04/when_will_who_d.html">Mr. Umrani might rip me a new one if I do that</a>. I'll go through and try to find the gems in there but, if you don't read the comments, you might want to wade through the last few posts for your own enjoyment.
+</p> <p>
+<span style="font-style: italic;">Updated</span>: s/tongue/finger/. Ahem.
+</p> <hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i>
+</span>
+</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114369996519627131" rel="service.edit" title="Mini Blog Break" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-03-29T22:23:00-08:00</issued>
+<modified>2006-03-30T06:26:05Z</modified>
+<created>2006-03-30T06:26:05Z</created>
+<link href="http://minimsft.blogspot.com/2006/03/mini-blog-break.html" rel="alternate" title="Mini Blog Break" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114369996519627131</id>
+<title mode="escaped" type="text/html">Mini Blog Break</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>I'm going to take a bit of a blog break and let things cool down here. It's  been a heck of a couple of weeks and I, for one, need to recharge. I'll check-in  occasionally to moderate, but I'll be far more focused on the deeper meaning of <a href="http://www.redhook.com/">Red Hook</a> than blogging. Cheers to you.</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+<entry xmlns="http://purl.org/atom/ns#">
+<link href="https://www.blogger.com/atom/7555958/114352263699856094" rel="service.edit" title="Passionate Microsofties" type="application/atom+xml"/>
+<author>
+<name>Who da'Punk</name>
+</author>
+<issued>2006-03-27T21:08:00-08:00</issued>
+<modified>2006-04-14T19:50:24Z</modified>
+<created>2006-03-28T05:10:36Z</created>
+<link href="http://minimsft.blogspot.com/2006/03/passionate-microsofties.html" rel="alternate" title="Passionate Microsofties" type="text/html"/>
+<id>tag:blogger.com,1999:blog-7555958.post-114352263699856094</id>
+<title mode="escaped" type="text/html">Passionate Microsofties</title>
+<content type="application/xhtml+xml" xml:base="http://minimsft.blogspot.com" xml:space="preserve">
+<div xmlns="http://www.w3.org/1999/xhtml">
+<p>The most interesting perspective I've seen on the conversation carried on here at Mini-Microsoft, especially given the <a href="http://minimsft.blogspot.com/2006/03/vista-2007-fire-leadership-now.html">Vista 2007 tirade</a> (<i>how's that for an example of <a href="http://www.roughtype.com/archives/2006/03/seven_rules_for.php">quality corporate blogging</a>?</i>), came today from <a href="http://merrymadmonk.blogspot.com/">Musings of a Merry Mad Monk</a> in the post <a href="http://merrymadmonk.blogspot.com/2006/03/microsoft-your-slip-is-showing-passion.html">Microsoft, Your Slip Is Showing (Passion)</a>... a snippet:</p>
+<blockquote>
+<p>
+<i>[...] Skewering the Microsoft leadership. Calling for heads to roll. Frustration. Disgust. Dark humor. Cynicism. Optimism. Pessimism. Rage. Love. Hate.</i>
+</p>
+<p>
+<i>Another reason -- big reason -- why the Microsoft commenters are so passionate: They give a damn. Whatever else you may think about their comments, their Give-A-Damn meter is registering in the <span style="color:#009900;">
+<b>Green</b>
+</span>. Sure, it may seem like I've got it ass backwards and they're pegged out in the dreaded <span style="color:#ff3300;">
+<b>Red</b>
+</span> zone.</i>
+</p>
+<p>
+<i>I'm sure a few are indeed red-zoning, but what I see mostly are folks who want to to be the best. They want their team to be the best. They are proud people. They are winners. They hate the thought of losing -- in any endeavor... to any person or thing.</i>
+</p>
+<p>
+<i>The people who work for Microsoft are not only some of the best minds in the computer industry, they give a damn about what they do. That is a good thing. </i>
+</p>
+</blockquote>
+<p>The particular post is well worth the full read.</p>
+<p>So don't get me confused with the hate-ridden Microsoft bashers of the world (<i>of whom I've been greased over with over the past week... oy</i>). I know Microsoft can turn it around and the incoming generation of Microsofties will get the company back on track and make it a lean, mean, efficient customer pleasing profit making machine. Because we want things done right. If Microsofties didn't care about doing a good job and making Microsoft as good as it can be - forget comparing Microsoft to other corporate beasts, I'm comparing Microsoft to the best Microsoft it's capable of being - Mini-Microsoft wouldn't be at almost 7,000 comments.</p>
+<p>(<i>Okay, okay, not all of those comments are from Microsofties or ex-Microsofties... but it's a good chunk.</i>)</p>
+<p>There are problems. I feel it important to shine a public light on them so that they can be addressed and prioritized higher than figuring out which business group's features can be innovatingly entangled into another business group's upcoming release... it's also sort of a yodel from one business group to another, "<span style="color:#000080;">
+<i>Yodel-lay-dee-hoooo!</i> Automation is kicking out useless, time-consuming issues and I can't check-in my security comments without failing 20 feature tests! How now for you out there?</span>"</p>
+<p>And my one final dream is that the shareholders will start putting their collective foot down and demanding effective change.</p>
+<p>As for <i>my</i> passion check: either </p>
+<p>(a) I'm extremely passionate about Microsoft for doing this blogging intervention to put it back on track and live up to its potential, or... </p>
+<p>(b) I'm one heck of a corporate psychological study. </p>
+<p>I'm betting on passion.</p>
+<hr/>
+<p>
+<i>Administrivia</i>: I've <u>really</u> cranked up the bar for moderating comments. About one third are being thrown into the bit-bucket coz I'm just plain not interested in hosting your anti-Microsoft negativity. I'm one cranky blogger... who only has himself to blame for his predicament. I still feel bad for (<i>most</i>) every comment I decline to post because I know someone spent a lot of time typing that up.</p>
+<p>Don't let this happen to you. Save yourself some time if you're not adding signal to help suss-out solutions to the problems Microsoft is facing. There are plenty of other places looking to party with your bad self.</p>
+<hr/>
+<p>
+<span style="font-size:85%;">
+<i>
+<a href="http://technorati.com/tag/mini-microsoft" rel="tag" title="http://technorati.com/tag/mini-microsoft">Mini-Microsoft</a>
+</i> <i>
+<a href="http://technorati.com/tag/microsoft" rel="tag" title="http://technorati.com/tag/microsoft">Microsoft</a>
+</i>
+</span>
+</p>
+</div>
+</content>
+<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+</entry>
+</feed>

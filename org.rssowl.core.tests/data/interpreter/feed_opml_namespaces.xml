@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+<opml xmlns:csn="http://custom.org/ext/1.0" csn:custom="custom_formatAttribute">
+	<csn:custom>head_leveld</csn:custom>
+	<head csn:custom="custom_headAttribute">
+		<csn:custom>sub_head_leveld</csn:custom>
+		<title csn:custom="custom_titleAttribute">opml_title</title>
+		<dateCreated>2005-26-12T20:00:00Z</dateCreated>
+		<dateModified>2005-26-12T20:00:00Z</dateModified>
+		<ownerName>opml_ownername</ownerName>
+		<ownerEmail>opml_owneremail</ownerEmail>
+	</head>
+	
+	<body csn:custom="custom_bodyAttribute">
+		<csn:custom>outline_leveld</csn:custom>
+		<outline
+			title="opml_outline1.title"
+			url="opml_outline1.url"
+			text="opml_outline1.text" 
+			csn:custom="custom_outlineAttribute"/>
+	</body>
+</opml>

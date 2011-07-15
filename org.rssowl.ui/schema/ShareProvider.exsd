@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.rssowl.ui" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="org.rssowl.ui" id="ShareProvider" name="Share Provider"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+This extension point allows to contribute communities that are used to share feeds and news with others.
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appInfo>
+            <meta.element />
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence minOccurs="1" maxOccurs="unbounded">
+            <element ref="shareProvider"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="shareProvider">
+      <complexType>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The unique ID of this contribution.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A human readable name for the community.
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+         <attribute name="icon" type="string">
+            <annotation>
+               <documentation>
+                  An icon for the community.
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="resource"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+         <attribute name="url" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The URL to the service to share links with. Add a &quot;[L]&quot; into the URL to where the link should be inserted and &quot;[T]&quot; for the title of the news to share.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="maxTitleLength" type="string">
+            <annotation>
+               <documentation>
+                  If the community has a length restriction on the title, you can configure the limit here and RSSOwl will automatically perform the necessary truncation before sharing the information.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="enabled" type="boolean">
+            <annotation>
+               <documentation>
+                  A flag indicating if this community should be enabled by default.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         2.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+The following is an example for using the extension point for a Delicious share provider:
+&lt;pre&gt;&lt;extension
+         point=&quot;org.rssowl.ui.ShareProvider&quot;&gt;
+      &lt;shareProvider
+            enabled=&quot;true&quot;
+            icon=&quot;icons/obj16/share_delicious.gif&quot;
+            id=&quot;org.rssowl.ui.DeliciousShareProvider&quot;
+            name=&quot;Delicious&quot;
+            url=&quot;http://delicious.com/save?url=[L]&amp;amp;title=[T]&quot;&gt;
+      &lt;/shareProvider&gt;
+&lt;/extension&gt;&lt;/pre&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appInfo>
+         <meta.section type="copyright"/>
+      </appInfo>
+      <documentation>
+         Copyright notice (c) 2005-2011 RSSOwl Development Team.                            
+All rights reserved´. This program and the accompanying 
+materials are made available under the terms of the Eclipse 
+Public License v1.0 which accompanies this distribution, and 
+is available at: &lt;a href=&quot;http://www.rssowl.org/legal/epl-v10.html&quot;&gt;http://www.rssowl.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

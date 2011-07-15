@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.computerworld.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Computerworld Security News</title>
+    <link>http://www.computerworld.com</link>
+    <description>Computerworld.com&amp;apos;s award-winning Web site offers IT pros continually updated news stories, as well as features, analysis pieces, opinions and research/resource materials on important technology issues. With a heavy focus on technology users, the site serves as a resource for IT professionals looking to improve business operations -- and their own careers -- by successfully deploying and managing technology.</description>
+    <language>en-us</language>
+    <dc:language>en-us</dc:language>
+    <image>
+      <title>Computerworld.com</title>
+      <url>http://www.computerworld.com/rss/computerworld_logo_sm.gif</url>
+      <link>http://www.computerworld.com</link>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.computerworld.com/Computerworld/Security/News" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+      <title>Settlement ends Sony rootkit case</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/News?m=769</link>
+      <description>A federal judge has given final approval to a class action lawsuit brought against Sony after it included a pair of invasive and potentially dangerous copy protection programs on an estimated 15 million music CDs.&lt;img src="http://feeds.computerworld.com/Computerworld/Security/News?g=769"/&gt;</description>
+      <pubDate>Tue, 23 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000687&amp;source=rss_topic17</guid>
+      <dc:date>2006-05-23T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000687&amp;source=rss_topic17</feedburner:origLink></item>
+    <item>
+      <title>Microsoft promises patch for Word flaw by June</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/News?m=770</link>
+      <description>The vulnerability affects Microsoft Word XP and Word 2003 and is linked to attacks on government agencies in the U.S. and European Union, as well as U.S. government defense contractors.&lt;img src="http://feeds.computerworld.com/Computerworld/Security/News?g=770"/&gt;</description>
+      <pubDate>Tue, 23 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000688&amp;source=rss_topic17</guid>
+      <dc:date>2006-05-23T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000688&amp;source=rss_topic17</feedburner:origLink></item>
+    <item>
+      <title>Desktop Defenses</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/News?m=764</link>
+      <description>Organizations are adding host-based intrusion prevention to their desktops to stop the threats that get through network- and server-based systems.&lt;img src="http://feeds.computerworld.com/Computerworld/Security/News?g=764"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111332&amp;source=rss_topic17</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111332&amp;source=rss_topic17</feedburner:origLink></item>
+    <item>
+      <title>What Is HIPS?</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/News?m=765</link>
+      <description>A quick review of the many approaches to HIPS.&lt;img src="http://feeds.computerworld.com/Computerworld/Security/News?g=765"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111333&amp;source=rss_topic17</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111333&amp;source=rss_topic17</feedburner:origLink></item>
+    <item>
+      <title>Protected Territory</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/News?m=766</link>
+      <description>A list of areas protected by HIPS.&lt;img src="http://feeds.computerworld.com/Computerworld/Security/News?g=766"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111334&amp;source=rss_topic17</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=111334&amp;source=rss_topic17</feedburner:origLink></item>
+    <item>
+      <title>Yahoo messaging worm installs bogus browser</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/News?m=768</link>
+      <description>Malware writers have created a new messaging worm that installs a new browser and plays screeching music.&lt;img src="http://feeds.computerworld.com/Computerworld/Security/News?g=768"/&gt;</description>
+      <pubDate>Mon, 22 May 2006 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000660&amp;source=rss_topic17</guid>
+      <dc:date>2006-05-22T13:00:00Z</dc:date>
+    <feedburner:origLink>http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9000660&amp;source=rss_topic17</feedburner:origLink></item>
+    <item>
+      <title>More Security News...</title>
+      <link>http://feeds.computerworld.com/Computerworld/Security/News?m=731</link>
+      <description>View more Security news and analysis from Computerworld.com.&lt;img src="http://feeds.computerworld.com/Computerworld/Security/News?g=731"/&gt;</description>
+      <guid isPermaLink="false">http://www.computerworld.com/taxonomy/000/000/000//taxonomy_000000017_index.jsp</guid>
+    <feedburner:origLink>http://www.computerworld.com/taxonomy/000/000/000//taxonomy_000000017_index.jsp</feedburner:origLink></item>
+  </channel>
+</rss>

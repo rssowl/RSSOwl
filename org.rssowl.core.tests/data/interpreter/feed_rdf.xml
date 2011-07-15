@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns="http://my.netscape.com/rdf/simple/0.9/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>rdf_title</title>
+    	<link>rdf_link</link>
+    	<description>rdf_description</description>
+    	<dc:date>2005-26-12T20:00:00Z</dc:date>
+    	<dc:language>en-us</dc:language>
+    	<dc:publisher>rdf_publisher</dc:publisher>
+    	<dc:rights>rdf_rights</dc:rights>
+	</channel>
+	<image>
+		<url>rdf_image.url</url>
+		<title>rdf_image.title</title>
+		<link>rdf_image.link</link>
+	</image>
+	<textinput>
+		<title>rdf_textinput.title</title>
+		<description>rdf_textinput.description</description>
+		<name>rdf_textinput.name</name>
+		<link>rdf_textinput.link</link>
+	</textinput>
+	
+	<item>
+		<title>rdf_item1.title</title>
+    	<link>rdf_item1.link</link>
+    	<description>rdf_item1.description</description>
+    	<dc:date>2005-26-12T20:00:00Z</dc:date>
+    	<dc:publisher>rdf_item1.publisher</dc:publisher>
+    	<dc:source>rdf_item1.source</dc:source>
+    	<dc:identifier>rdf_item1.identifier</dc:identifier>
+	</item>
+	
+	<item>
+		<title>rdf_item2.title</title>
+    	<link>rdf_item2.link</link>
+    	<description>rdf_item2.description</description>
+	</item>
+	
+	<item>
+		<title>rdf_item3.title</title>
+    	<link>rdf_item3.link</link>
+    	<description>rdf_item3.description</description>
+	</item>
+	
+	<item>
+		<dc:title>rdf_item4.title</dc:title>
+    	<link>rdf_item4.link</link>
+    	<dc:description>rdf_item4.description</dc:description>
+	</item>
+</rdf:RDF> 

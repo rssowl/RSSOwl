@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://my.netscape.com/rdf/simple/0.9/">
+
+<channel>
+<title>MacSlash</title>
+<link>http://macslash.org/</link>
+<description>A daily dose of Macintosh News and Discussion</description>
+</channel>
+
+<image>
+<title>MacSlash</title>
+<url>http://macslash.org/images/topics/topicslash.gif</url>
+<link>http://macslash.org/</link>
+</image>
+
+<item>
+<title>American Idol Dialer For Mac</title>
+<link>http://macslash.org/article.pl?sid=06/05/23/1439253</link>
+</item>
+
+<item>
+<title>Xcode 2.3 Released</title>
+<link>http://macslash.org/article.pl?sid=06/05/23/1137225</link>
+</item>
+
+<item>
+<title>To Dream The Impossible Dream</title>
+<link>http://macslash.org/article.pl?sid=06/05/22/1259229</link>
+</item>
+
+<item>
+<title>iTunes Library (Damaged)</title>
+<link>http://macslash.org/article.pl?sid=06/05/17/1515258</link>
+</item>
+
+<item>
+<title>Karelia Releases Sandvox 1.0</title>
+<link>http://macslash.org/article.pl?sid=06/05/17/0812254</link>
+</item>
+
+<item>
+<title>How Apple's Retail Strategy Beat The Odds</title>
+<link>http://macslash.org/article.pl?sid=06/05/17/088214</link>
+</item>
+
+<item>
+<title>Aperture Users Pissed About New Requirements</title>
+<link>http://macslash.org/article.pl?sid=06/05/16/2351204</link>
+</item>
+
+<item>
+<title>Google Donates Google Earth And Sketchup To Maine Schools</title>
+<link>http://macslash.org/article.pl?sid=06/05/17/083233</link>
+</item>
+
+<item>
+<title>Apple Releases Intel iBook, er, I mean MacBook</title>
+<link>http://macslash.org/article.pl?sid=06/05/16/0933217</link>
+</item>
+
+<item>
+<title>YouTube Content For Video iPods</title>
+<link>http://macslash.org/article.pl?sid=06/05/15/1116215</link>
+</item>
+
+<textinput>
+<title>Search MacSlash</title>
+<description>Search MacSlash stories</description>
+<name>query</name>
+<link>http://macslash.org/search.pl</link>
+</textinput>
+
+</rdf:RDF>

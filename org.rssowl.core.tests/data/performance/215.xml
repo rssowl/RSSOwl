@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+ "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+
+<channel>
+<title>GrokLaw</title>
+<link>http://www.groklaw.net</link>
+<description>Digging for Truth</description>
+<language>en-us</language>
+
+<item>
+<title>The Curious Incident of Sun in the Night-Time, by Richard Stallman</title>
+<link>http://www.groklaw.net/article.php?story=20060524112209579</link>
+<description>The Curious Incident of Sun in the Night-Time~ by Richard Stallman        Our community has been abuzz with the rumor that Sun has made its implementation Java free software (or &quot;open source&quot;). Community leaders even publicly thanked Sun for its contribution. What is Sun's new contribution to the FLOSS community? Nothing. Absolutely nothing--and that's what makes the response to this non-incident so curious.Sun's Java implementation remains proprietary software, just as before. It doesn't come close to meeting the criteria for free software, or the similar but slightly looser criteria for open source. Its source code is available only under an NDA.</description>
+</item>
+
+<item>
+<title>IBM Files Expert Reports</title>
+<link>http://www.groklaw.net/article.php?story=200605222135005</link>
+<description>IBM has served its Expert Reports on SCO on Friday the 19th and filed it with the Court Clerk electronically on the 22nd. Here's the certificate of service [PDF]. There is a new expert on IBM's side.  Yes,   not only does IBM have the world-renowned MIT Professor of Computer Science Dr. Randall Davis on its side as an expert,   but now they have served SCO with a Report and  Declaration of Professor J. R. Kearl and a Report and  Declaration of Brian W. Kernighan, who has appeared for IBM before. Dr. Kernighan is the expert who helped to persuade Judge Dale Kimball that there was an astonishing lack of evidence of copyright infringement, earlier in this case. He is a Professor at Princeton, but that barely begins to list is credentials, some of which are listed here.   And who is Professor Kearl?  He is an expert in economics.  He went to both Harvard and MIT and now teaches at BYU.   SCO is no doubt throwing chairs at the wall.  Oh, wait. That's Microsoft.</description>
+</item>
+
+<item>
+<title>OIN Gets More Patents to Protect Linux Environment</title>
+<link>http://www.groklaw.net/article.php?story=20060523104247514</link>
+<description>Here's an important development. The Open Invention Network has bought some new patents, with the express purpose of protecting Linux. Here they are:     * No. 5,764,989 - Interactive Software Development System    * No. 5,848,274 - Incremental Byte Code Compilation System    * No. 6,067,413 - Data Representation for Mixed-Language Program DevelopmentAnyone can license them royalty-free, so long as they agree not to assert patents against &quot;the Linux environment.&quot;  These three are added to the 39 valuable web services patents that OIN got from Commerce One last December, and there are two more patents announced that have issued from that purchase:  * No. 6,993,506 for a &quot;Method and Device Utilizing Polymorphic Date in E-Commerce&quot; and * No. 7,036,072 for a &quot;Method and Apparatus for Declarative Updating of Self-Describing, Structured Documents.&quot; And, I personally might add that in addition to being available for royalty-free license, these patents are available for a rainy day, should anyone get any funny ideas about using the courts to try to destroy one's main competition with patent infringement lawsuits.  Not that anyone would stoop that low, of course.  But just saying. Here's the press release.</description>
+</item>
+
+<item>
+<title>When you come to a fork in the road...</title>
+<link>http://www.groklaw.net/article.php?story=2006052118043526</link>
+<description>Yogi Berra said once, &quot;When you come to a fork in the road, take it.&quot;  It's funny, until someone actually takes that advice literally and tries to go down two conflicting roads at once.  For example, take SCO's Reply to Novell's Counterclaims.  In paragraph 50, SCO tells the court this: Admits that SCO, through its SCOsource division, entered into agreements related to UNIX and UnixWare with Sun Microsystems, Inc., and Microsoft Corporation (in that order) and that the Microsoft agreement covered UNIX compatibility products; but denies each and every other allegation of ¶ 50, including the allegation that the Sun and Microsoft agreements were part of the SCOsource licensing program. Say, what?</description>
+</item>
+
+<item>
+<title>A Chart of Novell's Counterclaims and SCO's Reply</title>
+<link>http://www.groklaw.net/article.php?story=20060519104014721</link>
+<description>Here's the chart I told you I was working on of Novell's Counterclaims matched with SCO's Reply to Novell's Counterclaims [PDF], paragraph by paragraph. The Counterclaims are taken from Novell's Answer to SCO's Second Amended Complaint and Counterclaims, and they are found after paragraph 149.  The numbering then begins again with 1 for the counterclaims.   I see a couple of interesting things, and I'm only up to paragraph 7. As you will see, I think Novell is saying that the USL to Novell deal was not a 100% transfer.  This might impact on SCO's right to sue over the Sequent license.  It's a bit complicated to explain but if you hang in there for the complete explanation, I'll try to explain what I think I see.    You know how we've seen that Boies Schiller fights hard over every little detail?  I see that Novell's attorneys are the same. They raise every possible issue, missing no detail whatsoever. Lawyers have a choice. They can choose to battle over what they think matters most and let some lesser points slide, or they can sink their teeth into everything and give up nothing at all without a fight.  Here I'm seeing two bulldogs.  So this should be  some battle of the titans.  The SCO litigation is endlessly fascinating to me. Just when I think everything's been said -- with the exception of what specific code SCO is talking about, of course, which we never seem to get to --  something new pops up.</description>
+</item>
+
+<item>
+<title>Canopy Reorganizes - Updated</title>
+<link>http://www.groklaw.net/article.php?story=20060519110119495</link>
+<description>The Salt Lake Tribune informs us that Canopy has reorganized, with former Novell executive and chairman of Helius Inc. Ron Heinz as Executive Manager. Helius is a Canopy company.  The new general counsel and director of finance is Brandon Tidwell, who was with Ballard Spahr Andrews &amp;amp; Ingersoll, the law firm that so ably represented the Noorda family in the litigation with the former head of Canopy, Ralph Yarro et al.  Evidently, the predictions of Canopy's doom by analysts Rob Enderle and Laura DiDio were misguided. See? That's why I always say, I want to be an analyst when I grow up.  As I have observed repeatedly, it's the only job  where you can have huge gaps in your knowledge, get  vital facts utterly wrong, say the opposite of what is observably true, and nobody sues you.  In fact, they actually pay you good money, and the next time they want to know something, they forget you got it all wrong the last time and ask you for your opinion all over again.  UPDATED: The Daily Herald has more details, including a list of all Canopy companies, including the ex-companies, and this quotation from the new executive manager: &quot;Our No. 1 objective is to continue investing in our existing portfolio, and evaluate future investments in other information technology companies, with a bias toward Utah County,&quot; he said. &quot;For now we can't comment on the amount of investment to be made, but we do have access to a significant amount of capital. . . .We're also looking to be more active in trade groups such as the Utah Technology Council, and to co-invest with other venture capital companies such as vSpring,&quot; Heinz said.&quot;  You remember vSpring Capital. As for the Utah Technology Council, there's a little water under that bridge too.</description>
+</item>
+
+<item>
+<title>SCO Files Reply to Novell's Counterclaims in SCO v. Novell</title>
+<link>http://www.groklaw.net/article.php?story=20060518232039480</link>
+<description>Here's SCO's Reply to Novell's Counterclaims [PDF].  It almost feelsa little irrelevant, since May 19th is SCO's deadline to respond toNovell's Motion to Stay Claims Raising Issues Subject to Arbitration and Novell's Motion for a More Definite Statement.  Somehow that feels like the main event, and this Answer feels more like a side show.  Here's the order [PDF]  giving SCO until today to file, signed by Judge Dale Kimball.</description>
+</item>
+
+<item>
+<title>Ah! The Joys of Answering SCO's  FUD</title>
+<link>http://www.groklaw.net/article.php?story=20060517141053523</link>
+<description>You know how things look very different at 3 AM than they do later in the cold light of dawn?I think that must be the explanation for poor &quot;Paul Murphy&quot;  --  né   Rudy de Haas, author of &quot;The Unix Guide to Defenestration,&quot; who has been known to be critical of IBM and who once tried to assert in public, ADTI-like,  that Linux was a derivative of Minix,  until Linus, Minix author Andrew Tanenbaum, Eric Raymond and others shut their mouths --  posting at 3:22 AM an article on &quot;The Joys of SCO.&quot;  It probably seemed like a good idea at the time.  There are two other possible explanations I can imagine:1. he wants lots of hits so he can show his boss (and advertisers) that he is a popular blogger, which I don't believe is the case; or2. maybe he's actually a SCOfolk guy, and this is a way to send a message to IBM, with plausible deniability that it comes from SCO, and see if, when they run it up the flagpole, anybody salutes.  The message?  &quot;Please settle. If you buy our Unix &quot;rights&quot; from us, you can claim victory,  release it for Linux use, and we still get some of your money.&quot; If that's SCO's message, here's IBM's probable answer:  Hahahahaha.I hope you don't click on his article, because I'd hate to mislead his boss. And with his background, I think he already has to know that what he wrote in this article is downright silly.  So why bother to &quot;educate&quot; him?  But for the rest of you, who may have read it already and have questions, I'll untie his knotted shoelaces.</description>
+</item>
+
+<item>
+<title>Novell's Announces Device Driver &amp;quot;Breakthrough&amp;quot; - Updated</title>
+<link>http://www.groklaw.net/article.php?story=20060517165019850</link>
+<description>Linux Electrons tells the story: Novell Offers New Linux Device Driver ProcessNovell has said that the company has developed a new process that solves Linux® device driver compatibility issues. The new driver process allows customers to obtain drivers independently of Novell® kernel updates and supplies a straightforward approach third parties can use when developing device drivers for Novell's SUSE® Linux Enterprise products. The new Linux driver process developed by Novell allows hardware and software vendors to provide Linux drivers and driver updates for their products to customers directly and transparently, in a way that is completely integrated with SUSE Linux Enterprise delivery and support.  Novell spokesperson Kurt Garloff, head Linux architect for Novell,  says in the press release, &quot;We will continue to support third parties delivering open source drivers to kernel.org for release directly with our Linux products, but this new process fills the driver gap between releases that can be critical to customer and partner success.&quot;   Here's the FAQ for the Partner Linux Driver Process&quot;, which I haven't read yet myself.   Here's Novell's press release.  I also now have a statement from Novell.</description>
+</item>
+
+<item>
+<title>eBay Inc. v. MercExchange - An Analysis by Theodore C. McCullough, Esq.</title>
+<link>http://www.groklaw.net/article.php?story=20060516110223249</link>
+<description>Theodore C. McCullough, the patent attorney who earlier provided a primer on finding prior art, &quot;PriorArt and Its Uses: A Primer&quot; for Groklaw, has agreed to explain to us today what yesterday's US Supreme Court decision in eBay Inc., et al. v. MercExchange L.L.C. means, analyzing it from the standpoint of the numerous friend of the court briefs submitted.  He also explains the opening words of the decision by Justice Clarence Thomas: Ordinarily, a federal court considering whether to award permanent injunctive relief to a prevailing plaintiff applies the four-factor test historically employed by courts of equity. Petitioners eBay Inc. and Half.com, Inc., argue that this traditional test applies to disputes arising under the Patent Act. We agree and, accordingly, vacate the judgment of the Court of Appeals.  I really enjoy being able to understand these things, and I thank him very much for this article, and I know you join me.   If there are other attorneys out there who would like to explain an area of IP law in the context of a case in the news, please feel free to contact me any time. Just click on the little yellow envelope on the left of the page.  We have a large audience very eager to understand.</description>
+</item>
+
+</channel>
+</rss>

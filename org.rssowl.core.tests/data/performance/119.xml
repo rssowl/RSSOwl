@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- generator="HPE/1.1" -->
+<!-- This file Copyright (C) 2000-2006 NewsIsFree. It is licenced under a http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Licence -  Terms Of Service http://www.newsisfree.com/content/termsofservice/ -->
+
+<rss version="0.91">
+<channel>
+<title>New York Times: International News</title>
+<link>http://www.nytimes.com/pages/world/</link>
+<description>Find breaking news, world news, multimedia &amp; opinion on the US, Africa, Canada, Mexico, South &amp; Central Americas, Asia, Europe, the Middle East and Iraq. (By http://www.newsisfree.com/syndicate.php - FOR PERSONAL AND NON COMMERCIAL USE ONLY!)</description>
+<language>en</language>
+<webMaster>contact@newsisfree.com</webMaster>
+<lastBuildDate>Wed, 24 May 2006 16:31:00 +0200</lastBuildDate>
+<image>
+	<link>http://www.newsisfree.com/sources/info/164/</link>
+	<url>http://www.newsisfree.com/HPE/Images/button.gif</url>
+	<title>Powered by NewsIsFree</title>
+	<width>88</width>
+	<height>31</height>
+</image>
+
+<item>
+	<title>Contractors: Rights Group Criticizes U.S. Over 'Outsourcing' in Iraq</title>
+	<link>http://www.newsisfree.com/iclick/i,142360170,164,f/</link>
+</item>
+<item>
+	<title>Somali in The Hague Faces a More Personal Attack</title>
+	<link>http://www.newsisfree.com/iclick/i,142431824,164,f/</link>
+</item>
+<item>
+	<title>NewsIsFree: Advanced News Reader and Feed Publisher</title>
+	<link>http://www.newsisfree.com/about.php?ts=21.060524</link>
+	<description>
+		Read news from thousands of news sources updated every 15 minutes on the most powerful news aggregator.&lt;br /&gt;
+		Create custom feeds with more items, descriptions, select your version of RSS... &lt;br /&gt;
+		&lt;font color='red'&gt;New: NewsIsFree and the &lt;a href='http://www.hivegroup.com/'&gt;Hive Group&lt;/a&gt;
+		bring you &lt;a href='http://www.newsisfree.com/newsmap/'&gt;News Maps&lt;/a&gt;...&lt;/font&gt;&lt;br /&gt;
+		&lt;b&gt;Check out NewsIsFree's services!&lt;/b&gt;&lt;br /&gt;
+	</description>
+</item>
+<item>
+	<title>Grozny Journal: A Whirling Sufi Revival With Unclear Implications</title>
+	<link>http://www.newsisfree.com/iclick/i,142431825,164,f/</link>
+</item>
+<item>
+	<title>Armed Groups Propel Iraq Toward Chaos</title>
+	<link>http://www.newsisfree.com/iclick/i,142349997,164,f/</link>
+</item>
+<item>
+	<title>U.S. Plan to Lure Nurses May Hurt Poor Nations</title>
+	<link>http://www.newsisfree.com/iclick/i,142349996,164,f/</link>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl Subscriptions</title>
+    <dateModified>Di, 04 Aug 2009 11:53:12 CEST</dateModified>
+  </head>
+  <body>
+    <outline text="Set 1" rssowl:isSet="true" rssowl:id="194" />
+    <outline text="Set 2" rssowl:isSet="true" rssowl:id="422" />
+    <outline text="Set 3" rssowl:isSet="true" rssowl:id="424" />
+  </body>
+</opml>

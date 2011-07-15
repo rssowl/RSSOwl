@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+            "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+
+<rss version="0.91">
+
+  <channel>
+  
+    <title>The Wall Street Transcript</title>
+    <link>http://www.twst.com/?netscape</link>
+    <description>What is the word on Wall Street. The Wall Street Transcript helps you to understand the financial markets. Each week prominent analyst, money managers and CEOs analyze market trends, discuss industry issues and rate management performance.</description>
+    <language>en-us</language>
+      
+    <image>
+      <title>TWST.com</title>
+      <link>http://www.twst.com/?netscape</link>
+      <url>http://archive.twst.com/mynetscape/logo.gif</url>
+      <width>123</width>
+      <height>31</height>
+    </image>
+  
+    <item>
+      <title>Company Interview Excerpt: Dave Schaeffer - Cogent Communications Group Inc (CCOI)</title>
+      <link>http://archive.twst.com/notes/articles/aea602.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Robert Stearns - Quepasa Corporation (QPSA)</title>
+      <link>http://archive.twst.com/notes/articles/aea605.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Kelvyn Cullimore Jr. - Dynatronics Corporation (DYNT)</title>
+      <link>http://archive.twst.com/notes/articles/adz600.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Lawrence Pemble - Chindex International Inc (CHDX)</title>
+      <link>http://archive.twst.com/notes/articles/adz601.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Donald Gallent - Gameznflix Inc (GZFX)</title>
+      <link>http://archive.twst.com/notes/articles/ady601.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Manuel Perez DE LA Mesa - Scp Pool Corporation (POOL)</title>
+      <link>http://archive.twst.com/notes/articles/ady602.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Richard Altomare - Universal Express Inc (USXP)</title>
+      <link>http://archive.twst.com/notes/articles/adw605.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Mike Welch - Segmentz Inc (SZI)</title>
+      <link>http://archive.twst.com/notes/articles/aea600.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Lon Dolber - American Portfolio Financial Services Inc</title>
+      <link>http://archive.twst.com/notes/articles/aea611.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Jim Henderson - Brown &amp; Brown Inc (BRO)</title>
+      <link>http://archive.twst.com/notes/articles/adz605.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: David Werklund - Ccs Income Trust (CCR_UN:TSX)</title>
+      <link>http://archive.twst.com/notes/articles/ady626.html?netscape</link>
+    </item><item>
+      <title>Company Interview Excerpt: Philip Ackerman - National Fuel Gas Company (NFG)</title>
+      <link>http://archive.twst.com/notes/articles/tar207.html?netscape</link>
+    </item><item>
+      <title>Money Manager Interview Excerpt: David Tice - David W. Tice &amp; Associates Llc</title>
+      <link>http://archive.twst.com/notes/articles/zcd500.html?netscape</link>
+    </item><item>
+      <title>Money Manager Interview Excerpt: David Clark - Sheets, Smith &amp; Associates Inc</title>
+      <link>http://archive.twst.com/notes/articles/zcd501.html?netscape</link>
+    </item>
+
+
+    <textinput>
+      <title>Send</title>
+      <description>Search</description>
+      <name>search</name>
+      <link>http://archive.twst.com/cgi/txt_search.cgi</link>
+    </textinput>
+  
+  </channel>
+    
+</rss>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+>
+
+  <channel rdf:about="http://lwn.net/headlines/rss">
+    <title>LWN.net</title>
+    <link>http://lwn.net</link>
+    <description>
+	LWN.net is a comprehensive source of news and opinions from
+        and about the Linux community.
+    </description>
+
+    <syn:updatePeriod>hourly</syn:updatePeriod>
+    <syn:updateFrequency>2</syn:updateFrequency>
+    <items>
+      <rdf:Seq>
+	<rdf:li resource="http://lwn.net/Articles/184964/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184948/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184886/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184899/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184845/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184866/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184862/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184861/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184630/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184771/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184722/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184779/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184775/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184747/rss" />
+	<rdf:li resource="http://lwn.net/Articles/184760/rss" />
+      
+      </rdf:Seq>
+    </items>
+
+  </channel>
+    <item rdf:about="http://lwn.net/Articles/184964/rss">
+      <title>$100 laptop gets working prototype (ZDNet)</title>
+      <link>http://lwn.net/Articles/184964/rss</link>
+      <dc:date>2006-05-24T15:38:18+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      ZDNet &lt;a href=&quot;http://news.zdnet.com/2100-1040_22-6076351.html&quot;&gt;looks at the latest OLPC prototype&lt;/a&gt;. &quot;&lt;span&gt;Other details about progress on the systems appeared on the OLPC site over the weekend. For instance, a team from Linux vendor Red Hat has trimmed the software distribution from 400MB to about 250MB, uncompressed. 'There is still low-hanging fruit left to pull out of the image, including bitmap fonts we don't use (7MB), the X font server (1MB) and Perl (30MB),' the site says.&lt;/span&gt;&quot;
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184948/rss">
+      <title>Battling DRM outside Seattle WinHEC conference (NewsForge)</title>
+      <link>http://lwn.net/Articles/184948/rss</link>
+      <dc:date>2006-05-24T15:34:19+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      NewsForge has &lt;a href=&quot;http://trends.newsforge.com/article.pl?sid=06/05/24/1855255&amp;from=rss&quot;&gt;a report and pictures&lt;/a&gt; from the anti-DRM protest at WinHEC.  &quot;&lt;span&gt;As chilly Seattle rain drifted down, the 'DRM Elimination Crew' marched back and forth in their suits, handing out brochures like 'Microsoft Vista - DRM'd and Defective By Design,' 'DRM IS Digital Restrictions Management,' and 'Restricting you the User,' to curious passers-by.&lt;/span&gt;&quot;
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184886/rss">
+      <title>The Curious Incident of Sun in the Night-Time (Groklaw)</title>
+      <link>http://lwn.net/Articles/184886/rss</link>
+      <dc:date>2006-05-24T12:33:04+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Groklaw has &lt;a href=&quot;http://www.groklaw.net/article.php?story=20060524112209579&quot;&gt;Richard Stallman's article&lt;/a&gt; about the change in Java licensing.  &quot;&lt;span&gt;Why did this non-incident generate a large and confused reaction? Perhaps because people do not read these announcements carefully. Ever since the term 'open source' was coined, we have seen companies find ways to use it and their product name in the same sentence. (They don't seem to do this with 'free software', though they could if they wanted to.) The careless reader may note the two terms in proximity and falsely assume that one talks about the other.&lt;/span&gt;&quot;
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184899/rss">
+      <title>Wednesday's security updates</title>
+      <link>http://lwn.net/Articles/184899/rss</link>
+      <dc:date>2006-05-24T12:11:05+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      &lt;b&gt;Debian&lt;/b&gt; has updated &lt;a href=&quot;/Articles/184915/&quot;&gt;mpg123&lt;/a&gt; (buffer
+overflows).
+&lt;p&gt;
+
+&lt;b&gt;Fedora&lt;/b&gt; has updated postgresql (&lt;a href=&quot;/Articles/184907/&quot;&gt;FC4&lt;/a&gt;,
+&lt;a href=&quot;/Articles/184902/&quot;&gt;FC5&lt;/a&gt;: SQL injection).
+
+&lt;p&gt;
+&lt;b&gt;Red Hat&lt;/b&gt; has updated &lt;a href=&quot;/Articles/184909/&quot;&gt;xscreensaver&lt;/a&gt;
+(password disclosure and temporary file problems), 
+&lt;a href=&quot;/Articles/184910/&quot;&gt;php&lt;/a&gt; (RHEL2: several vulnerabilities),
+&lt;a href=&quot;/Articles/184912/&quot;&gt;postgresql&lt;/a&gt; (SQL injection),
+and &lt;a href=&quot;/Articles/184913/&quot;&gt;the kernel&lt;/a&gt; (a long list of
+vulnerabilities). 
+
+&lt;p&gt;
+
+
+&lt;b&gt;rPath&lt;/b&gt; has updated &lt;a href=&quot;/Articles/184901/&quot;&gt;the kernel&lt;/a&gt;
+(multiple SCTP vulnerabilities).
+&lt;p&gt;
+
+&lt;b&gt;Ubuntu&lt;/b&gt; has updated &lt;a href=&quot;/Articles/184914/&quot;&gt;dia&lt;/a&gt; (format
+string vulnerabilities).
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184845/rss">
+      <title>Nokia releases 'Web Browser for S60' code</title>
+      <link>http://lwn.net/Articles/184845/rss</link>
+      <dc:date>2006-05-24T09:52:07+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Nokia has &lt;a href=&quot;http://www.prnewswire.com/cgi-bin/stories.pl?ACCT=104&amp;STORY=/www/story/05-24-2006/0004367777&amp;EDATE=&quot;&gt;announced&lt;/a&gt; the release of its &quot;S60 WebKit&quot; under the BSD license.  &quot;&lt;span&gt;Nokia's open sourcing of the engine to its high-performance S60 mobile
+browser, which replicates on handheld devices the true web-page rendering
+of complete desktop browsers, marks the start of a collaborative open
+source effort that will enable smartphone users industry-wide to push
+beyond the millions of mobile-friendly pages currently on the web and begin
+to experience full web browsing of the estimated 25 billion pages on the
+Internet today.&lt;/span&gt;&quot;
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184866/rss">
+      <title>Xara Xtreme LX 0.5 released</title>
+      <link>http://lwn.net/Articles/184866/rss</link>
+      <dc:date>2006-05-24T09:43:24+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      Version 0.5 of the Xara Xtreme drawing tool (&lt;a
+href=&quot;http://lwn.net/Articles/176321/&quot;&gt;briefly reviewed here&lt;/a&gt; last
+March) is now out.  &quot;&lt;span&gt;There has been substantial progress since the previous 0.4 stable release.
+All tools are now fully functional with most menu options and some galleries
+also completed. Xara recently passed build number 1000, representing more
+than 1000 patches, submissions and fixes to the public code repository.&lt;/span&gt;&quot;
+
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184862/rss">
+      <title>FFII: European Commission says software is not patentable</title>
+      <link>http://lwn.net/Articles/184862/rss</link>
+      <dc:date>2006-05-24T09:13:25+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      FFII has sent out a press release on a seemingly obscure (but important)
+ruling by the European Commission.  &quot;&lt;span&gt;In a reply to a question from Polish MEP and  
+inventor Adam Gierek, the European Commission has confirmed that the  
+European Patent Office's (EPO) case law is not binding for member  
+states, nor (under the proposed Community Patent regulation) for the  
+European Court of Justice (ECJ). For the first time, the Commission  
+has also clearly stated that computer programs are not patentable  
+subject matter, without hiding behind the infamous 'as such'
+cop-out.&lt;/span&gt;&quot;
+
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184861/rss">
+      <title>The first Schroedinger Dirac alpha release</title>
+      <link>http://lwn.net/Articles/184861/rss</link>
+      <dc:date>2006-05-24T09:04:33+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      The first alpha release of the Dirac codec - a free, high-quality video
+codec developed by the BBC - is available.  &quot;&lt;span&gt;Be aware that the files
+created by the encoder is not 100% valid Dirac 
+files so any files created at this point might not work with future
+versions of the decoder or with other decoder implementations like the 
+C++ one from the BBC. Be also aware that performance is slow at this
+point as very little optimization work is done so only high performance
+computers will be able to playback created files smoothly.&lt;/span&gt;&quot;  The
+codec is licensed under the MPL, the GPL, the LGPL, and the MIT license, so
+there should be a satisfactory choice for almost anybody.
+
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184630/rss">
+      <title>Coming soon: GnuCash 2.0</title>
+      <link>http://lwn.net/Articles/184630/rss</link>
+      <dc:date>2006-05-23T15:28:50+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      &lt;a href=&quot;/Articles/184630/&quot;&gt;&lt;img src=&quot;/images/ns/gnucash-1.9.6-sm.png&quot;
+width=179 height=153 alt=&quot;[Screenshot]&quot; border=0 align=&quot;right&quot;
+hspace=4&gt;&lt;/a&gt; 
+The long-awaited GnuCash 2.0 release is near.  Your editor, whose desperate
+attempts to balance the family budget are made on a system running the
+Fedora development tree, got a rather unplanned opportunity to try out 
+GnuCash&amp;nbsp;1.9 (the pre-2.0 test release) when the Fedora hackers quietly slipped
+it in as a replacement for the stable version.  A few months of financial
+firefighting later, it's time for a quick review.
+&lt;br clear=&quot;all&quot;&gt;
+
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184771/rss">
+      <title>Fedora Weekly News Issue 47</title>
+      <link>http://lwn.net/Articles/184771/rss</link>
+      <dc:date>2006-05-23T14:35:36+00:00</dc:date>
+      <dc:creator>ris</dc:creator>
+      <description>
+      This week the &lt;a
+href=&quot;http://fedoranews.org/wiki/Fedora_Weekly_News_Issue_47&quot;&gt;Fedora Weekly
+News&lt;/a&gt; covers Red Hat Magazine May 2006, Changing the way that
+Development lands, New ticketing system for the Fedora Project, Fedora
+Board chair looks ahead, Documentation leadership grows, The gift that
+keeps on giving, Unofficial FAQ Update: 2006-05-11, Phoronix: Fedora
+Rawhide 2006-05-16, and several other topics.
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184722/rss">
+      <title>Speedo Dives Into Supercomputing</title>
+      <link>http://lwn.net/Articles/184722/rss</link>
+      <dc:date>2006-05-23T14:18:26+00:00</dc:date>
+      <dc:creator>ris</dc:creator>
+      <description>
+      SGI has &lt;a
+href=&quot;http://www.prnewswire.com/cgi-bin/stories.pl?ACCT=104&amp;STORY=/www/story/05-23-2006/0004367145&amp;EDATE=&quot;&gt;announced&lt;/a&gt;
+that an SGI Altix high-performance computing system is helping to create a
+better swimsuit.
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184779/rss">
+      <title>FSF launches DefectiveByDesign.org</title>
+      <link>http://lwn.net/Articles/184779/rss</link>
+      <dc:date>2006-05-23T14:00:04+00:00</dc:date>
+      <dc:creator>ris</dc:creator>
+      <description>
+      The Free Software Foundation has launched DefectiveByDesign.org, a
+direct-action campaign that will target Big Media and corporations
+peddling Digital Restrictions Management (DRM).  &quot;&lt;span&gt;An initiative of
+the Free Software Foundation (FSF), Defective By Design is urging all
+technologists to get involved at the start of the campaign. &quot;Technologists
+are very aware of the dangers of DRM,&quot; said Peter Brown, Executive Director
+of the FSF.&lt;/span&gt;&quot;
+
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184775/rss">
+      <title>Small step for NASA, giant leap for Linux (Salt Lake Tribune)</title>
+      <link>http://lwn.net/Articles/184775/rss</link>
+      <dc:date>2006-05-23T13:30:46+00:00</dc:date>
+      <dc:creator>ris</dc:creator>
+      <description>
+      The Salt Lake Tribune &lt;a
+href=&quot;http://www.sltrib.com/business/ci_3854161&quot;&gt;covers Linux Networx&lt;/a&gt;.
+&quot;&lt;span&gt;Over the past month, [Linux Networx] has contracted with NASA and
+now ATK Launch Systems for customized editions of some of its most advanced
+creations. Terms, including expected installation dates and costs, were not
+disclosed. But the deals likely run into the millions of dollars.&lt;/span&gt;&quot;
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184747/rss">
+      <title>Tuesday's security updates</title>
+      <link>http://lwn.net/Articles/184747/rss</link>
+      <dc:date>2006-05-23T13:30:28+00:00</dc:date>
+      <dc:creator>ris</dc:creator>
+      <description>
+      &lt;b&gt;OpenPKG&lt;/b&gt; has updated &lt;a href=&quot;/Articles/184748/&quot;&gt;openldap&lt;/a&gt;
+(boundary error).
+&lt;p&gt;
+&lt;b&gt;Slackware&lt;/b&gt; has updated &lt;a href=&quot;/Articles/184749/&quot;&gt;bin&lt;/a&gt; (zoo
+archive problem), &lt;a href=&quot;/Articles/184751/&quot;&gt;tetex&lt;/a&gt; (xpdf buffer
+overflows).
+&lt;p&gt;
+&lt;b&gt;Ubuntu&lt;/b&gt; has updated &lt;a href=&quot;/Articles/184752/&quot;&gt;awstats&lt;/a&gt; (missing
+input sanitizing).
+      </description>
+    </item>
+    <item rdf:about="http://lwn.net/Articles/184760/rss">
+      <title>PostgreSQL security releases</title>
+      <link>http://lwn.net/Articles/184760/rss</link>
+      <dc:date>2006-05-23T12:24:18+00:00</dc:date>
+      <dc:creator>corbet</dc:creator>
+      <description>
+      The PostgreSQL team has put out a set of &quot;urgent updates&quot; closing a
+newly-discovered set of SQL injection issues.  Details about the problem
+can be found on &lt;a href=&quot;http://www.postgresql.org/docs/techdocs.50&quot;&gt;the
+technical information page&lt;/a&gt;; in short: multi-byte encodings can be used
+to defeat normal string sanitizing techniques.  The update fixes one problem
+related to invalid multi-byte characters, but punts on another by simply
+disallowing the old, unsafe technique of escaping single quotes with a
+backslash.
+
+      </description>
+    </item>
+</rdf:RDF>

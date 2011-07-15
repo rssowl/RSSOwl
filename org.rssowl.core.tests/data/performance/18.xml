@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="http://www.nbc11.com/css/4025676/style.css" type="text/css"?>
+
+<!-- This is a data file meant to be read by an RSS reader. See http://www.nbc11.com/rss/index.html for more information. -->
+<rss xmlns:ibsys="http://www.ibsys.com/rss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd">
+<ibsys:annotation>This is a data file meant to be read by an RSS reader. See http://www.nbc11.com/rss/index.html for more information.</ibsys:annotation>
+<title>NBC11.com - Local Sports</title>
+<description>Local Sports</description>
+<category>Sports</category>
+<link>http://www.nbc11.com/sports/index.html?rss=bay&amp;psp=sports</link>
+<language>en-us</language>
+<copyright>Copyright 2006, Internet Broadcasting Systems, Inc</copyright>
+<itunes:summary>Local Sports</itunes:summary>
+<itunes:author>NBC11.com</itunes:author>
+<itunes:category>Sports</itunes:category>
+<ttl>60</ttl>
+<item>
+<title>A's Owner Will Look To South Bay 1st For Soccer Team </title>
+<link>http://www.nbc11.com/sports/9267553/detail.html?rss=bay&amp;psp=sports</link>
+<description>The owners of the Oakland A's could bring professional soccer back to the Bay Area. Lew Wolff and John Fisher have three years to buy a team and develop a stadium solely for soccer.</description>
+<pubDate>Wed, 24 May 2006 14:20:35 PDT</pubDate>
+</item>
+<item>
+<title>Cards Close Out Series In San Fran</title>
+<link>http://www.nbc11.com/sports/9266569/detail.html?rss=bay&amp;psp=sports</link>
+<description>Albert Pujols is having an excellent season and will lead the St. Louis Cardinals in the finale of a three-game series today against Barry Bonds and the San Francisco Giants at AT&amp;T Park.</description>
+<pubDate>Wed, 24 May 2006 11:09:05 PDT</pubDate>
+</item>
+<item>
+<title>ChiSox Go For Sweep Of A's</title>
+<link>http://www.nbc11.com/sports/9266582/detail.html?rss=bay&amp;psp=sports</link>
+<description>The Chicago White Sox will attempt to record their first sweep of the Oakland Athletics in nine years when the teams wrap up a three- game series tonight at U.S. Cellular Field.</description>
+<pubDate>Wed, 24 May 2006 08:06:16 PDT</pubDate>
+</item>
+<item>
+<title>Pujols Continues Tear As Cards Top Giants</title>
+<link>http://www.nbc11.com/sports/9264741/detail.html?rss=bay&amp;psp=sports</link>
+<description>Albert Pujols belted his major league- leading 23rd home run of the season to lead St. Louis past San Francisco, 8-5, in the second leg of a three-game set at AT&amp;T Park.</description>
+<pubDate>Tue, 23 May 2006 22:23:08 PDT</pubDate>
+</item>
+<item>
+<title>Thome, White Sox Push Past A's</title>
+<link>http://www.nbc11.com/sports/9264579/detail.html?rss=bay&amp;psp=sports</link>
+<description>Jim Thome went 3-for-4 with a homer, two RBI and three runs scored to lead the Chicago White Sox over the Oakland Athletics, 9-3, at U.S. Cellular Field.</description>
+<pubDate>Tue, 23 May 2006 21:27:06 PDT</pubDate>
+</item>
+<item>
+<title>Barbaro's Owners Could Have Euthanized Him, Collected Millions</title>
+<link>http://www.nbc11.com/sports/9266539/detail.html?rss=bay&amp;psp=sports</link>
+<description>Another sign that the effort to save Kentucky Derby winner Barbaro isn't just a matter of dollars-and-cents.</description>
+<pubDate>Wed, 24 May 2006 08:18:01 PDT</pubDate>
+</item>
+<item>
+<title>NBA Playoffs: Heat Smother Pistons, Win Game 1</title>
+<link>http://www.nbc11.com/sports/9264819/detail.html?rss=bay&amp;psp=sports</link>
+<description>Dwyane Wade made the most of his limited time on the floor with 25 points, and Miami used a suffocating defense to top the Detroit Pistons, 91-86, in the opener of the Eastern Conference finals. Wade played less than 27 minutes, but shot 9-of-11 from the field and went 7- of-9 at the foul line. His minutes were shaved after being charged with three fouls in the first half, but Antoine Walker picked up the scoring slack with 17 points. Shaquille O'Neal added 14 points and eight boards, while Gary Payton also scored 14 for Miami, which shot 56.3 percent from the field and held Detroit to 37.8 percent. Richard Hamilton tallied 22 points for Detroit, while Chauncey Billups added 19 points, but the guard tandem combined to go 15-of-41 from the field. Tayshaun Prince contributed 16 points for the Pistons, who struggled by shooting 5-of-21 from three-point range. Rasheed Wallace was held to seven points. Game 2 of the best-of-seven series is Thursday night at the Palace.</description>
+<pubDate>Tue, 23 May 2006 23:21:55 PDT</pubDate>
+</item>
+<item>
+<title>MLB Scoreboard: Beltran's Blast Ends Shea Marathon</title>
+<link>http://www.nbc11.com/sports/9264844/detail.html?rss=bay&amp;psp=sports</link>
+<description/>
+<pubDate>Wed, 24 May 2006 06:33:05 PDT</pubDate>
+</item>
+<item>
+<title>The Baseball Column: Oh, Danny Boy!</title>
+<link>http://www.nbc11.com/sports/9245979/detail.html?rss=bay&amp;psp=sports</link>
+<description>This week's baseball zingers from our baseball guy, David Zingler.</description>
+<pubDate>Fri, 19 May 2006 12:06:45 PDT</pubDate>
+</item>
+<item>
+<title>NHL Playoffs: Oilers Take 3-0 Series Lead Over Ducks</title>
+<link>http://www.nbc11.com/sports/9264817/detail.html?rss=bay&amp;psp=sports</link>
+<description>Oilers goaltender Dwayne Roloson sealed a 5-4 victory over the Mighty Ducks of Anaheim with key saves in the waning minutes of an eight-goal third period in Game 3 of the Western Conference finals.</description>
+<pubDate>Tue, 23 May 2006 23:05:46 PDT</pubDate>
+</item>
+</channel>
+</rss>

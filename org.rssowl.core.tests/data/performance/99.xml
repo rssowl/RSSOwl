@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.makezine.com/blog/">
+<title>MAKE: Blog</title>
+<link>http://www.makezine.com/blog/</link>
+<description>MAKE is a quarterly publication from O&apos;Reilly for those  who just can&apos;t stop tinkering, disassembling, re-creating, and inventing cool new uses for the technology in our lives.  It&apos;s the first do-it-yourself magazine dedicated to the incorrigible and chronically incurable technology enthusiast in all of us.  MAKE celebrates your right to tweak, hack, and bend technology any way you want.</description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2006-05-23T19:33:19-08:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.2" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/make_a_square_watermelon.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/water_balloon_launcher.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/state_of_the_ds_homebrew.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/color_orb_audiosynchronized_la.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/cheap_n_easy_digital_picture_f.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/how_to_stealth_ddr_pad.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/diy_mosquito_trap.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/bang_olufsen_900k_boombox_mod.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/crewel_embroidery.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/make_podcast_the_crucible_fire.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/laser_scissors.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/automatic_cat_feeder_and_water.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/shoe_customization.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/hacking_your_prius.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/diy_coincase.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/diy_bicycle_mounted_steady_cam.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/build_your_own_electronic_game.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/diy_50_sensortousb_board.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/light_bulb_aquarium.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_keyglove.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/open_source_atmel_avr_microcon.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/hacking_led_christmas_lights_f.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/howto_refashion_an_old_chair.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/build_a_home_ceilingmounted_ki.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/homebrew_through_plating_machi.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_garage_monitor.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/how_to_drive_a_lot_of_leds_fro.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/concept_bling_binary_led_watch.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/walkman_guitar_distortion_peda.html?CMP=OTC-0D6B48984890" />
+<rdf:li rdf:resource="http://www.makezine.com/blog/archive/2006/05/make_a_shade_tarp.html?CMP=OTC-0D6B48984890" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/make_a_square_watermelon.html?CMP=OTC-0D6B48984890">
+<title>Make a square watermelon</title>
+<link>http://www.makezine.com/blog/archive/2006/05/make_a_square_watermelon.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/squaremelon.jpg" height="359" width="498" border="0" hspace="4" vspace="4" alt="Squaremelon" /><br />
+BF5man writes writes - <em>"Don't have more info than this picture but it's quite self explanatory. Put a small watermelon from you garden inside a box and let it grow. Garden Art!"</em> - <a href="http://www.ces.purdue.edu/ces/vanderburgh/horticulture/weird/squaremelon.jpg">Link.</a></p>
+
+<p><b>Related:</b><br />
+The Weird World of Weeds and Other Hilarious Horticultural Hijinks - <a href="http://www.ces.purdue.edu/vanderburgh/horticulture/weird.htm">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/make_a_square_watermelon.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/make_a_square_watermelon.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Art</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T19:33:19-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/water_balloon_launcher.html?CMP=OTC-0D6B48984890">
+<title>Water balloon launcher</title>
+<link>http://www.makezine.com/blog/archive/2006/05/water_balloon_launcher.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/assembly.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="Assembly" /><br />
+Soakermedia has a really impressive water balloon launcher made from PVC - <em>"Want to shoot an object at 140 MPH over 500ft? Then this launcher is for you! This article will teach you how to build one of the cheapest, easiest, and most powerful water balloon launchers ever invented. The launcher will shoot anything from a golf ball to a tennis ball at extremely high speed and extremely far. For wadding, a tennis ball can works best. For the valve, use a solenoid or metal ball valve at least 1 1/4" in size."</em> [<a href="http://hackedgadgets.com/2006/05/23/douchenator-water-balloon-launcher/">via</a>] - <a href="http://www.soakermedia.sscentral.org/water_balloon_launcher.php">Link</a> & <a href="http://www.soakermedia.sscentral.org/water_balloon_launcher2.php">video.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/water_balloon_launcher.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/water_balloon_launcher.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T18:25:01-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/state_of_the_ds_homebrew.html?CMP=OTC-0D6B48984890">
+<title>State of the DS homebrew</title>
+<link>http://www.makezine.com/blog/archive/2006/05/state_of_the_ds_homebrew.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/DSC06657-1.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="Dsc06657-1" /><br />
+Mitch over at 4 color rebellion has a good Nintendo DS homebew round up - <em>"It's been a long time running, and finally, the DS's homebrew has matured into a beautiful, flourishing technical scene - instead of the fringe experimental field it was back with the gigantic home-made passthru devices. Thanks to the hard work of the scene's programmers, with a little work, the DS can play games, check your email, listen to Internet radios, be a virtual sketchpad and even go so far as to act as a recording sample tracker!"</em> [<a href="http://www.kotaku.com/gaming/nintendo/whats-happening-in-ds-homebrew-175390.php">via</a>] - <a href="http://www.4colorrebellion.com/archives/2006/05/21/state-of-the-homebrew-may-2006/">Link.</a></p>
+
+<p><b>Related:</b><br />
+DS hacks, mods and projects - <a href="http://www.google.com/custom?domains=makezine.com&amp;sitesearch=makezine.com&amp;q=ds&amp;sa.x=0&amp;sa.y=0&amp;cof=GALT%3A%23008000%3BGL%3A1%3BDIV%3A%23336699%3BVLC%3A663399%3BAH%3Acenter%3BBGC%3AFFFFFF%3BLBGC%3A336699%3BALC%3A0000FF%3BLC%3A0000FF%3BT%3A000000%3BGFNT%3A0000FF%3BGIMP%3A0000FF%3BFORID%3A1%3B&amp;client=pub-1711976718738240&amp;forid=1&amp;ie=ISO-8859-1&amp;oe=ISO-8859-1&amp;hl=en">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/state_of_the_ds_homebrew.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/state_of_the_ds_homebrew.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Gaming</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T17:50:34-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/color_orb_audiosynchronized_la.html?CMP=OTC-0D6B48984890">
+<title>Color orb audio-synchronized lamp and POV watch</title>
+<link>http://www.makezine.com/blog/archive/2006/05/color_orb_audiosynchronized_la.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/color_orb_2.jpg" height="498" width="498" border="0" hspace="4" vspace="4" alt="Color Orb 2" /><br />
+<img src="http://www.makezine.com/blog/pov_watch_proto_2.jpg" height="498" width="498" border="0" hspace="4" vspace="4" alt="Pov Watch Proto 2" /><br />
+Joe, who did the <a href="http://www.makezine.com/blog/archive/2006/05/build_your_own_electronic_game.html">electronic game kit</a> that's in our <a href="http://www.makezine.com/store/">MAKE store</a>, has some portfolio projects he just put online. A <a href="http://www.grandideastudio.com/portfolio/index.php?id=1&amp;prod=44">color orb audio-synchronized lamp</a> and a <a href="http://www.grandideastudio.com/portfolio/index.php?id=1&amp;prod=45">persistence of vision watch</a> - good stuff, the lamp project has a few videos. Have projects you want to share? Send'em in - <a href="http://makezine.com/cs/user/create/link?x-t=suggestasite.form">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/color_orb_audiosynchronized_la.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/color_orb_audiosynchronized_la.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Electronics</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T16:38:05-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/cheap_n_easy_digital_picture_f.html?CMP=OTC-0D6B48984890">
+<title>Cheap &apos;n easy digital picture frame under $100</title>
+<link>http://www.makezine.com/blog/archive/2006/05/cheap_n_easy_digital_picture_f.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/11e6c3679b340edbd2cfff18.medium.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="11E6C3679B340Edbd2Cfff18.Medium" /><br />
+Joedog86's Instructable on an under $100 photo frame - <em>"I basically made this as a birthday present for my girlfriend. Looking for an awesome gift idea? This is it! Total cost was under $100, and could be substantially less if you're savvy. I know I'm not the first one to come up with the idea of a homemade digital picture frame. I'm not even the one to come up with the idea of using the particular lcd screen and digital photo viewer that I chose. But I can write a darn good how-to about it, and there's no stopping me!"</em> - <a href="http://www.instructables.com/ex/i/E910621E39D71029AC23001143E7E506/?ALLSTEPS">Link.</a></p>
+
+<p><b>Related:</b><br />
+Tons and tons of DIY digital photo frame projects - <a href="http://www.google.com/custom?domains=makezine.com&amp;sitesearch=makezine.com&amp;q=photo+frame&amp;sa.x=0&amp;sa.y=0&amp;cof=GALT%3A%23008000%3BGL%3A1%3BDIV%3A%23336699%3BVLC%3A663399%3BAH%3Acenter%3BBGC%3AFFFFFF%3BLBGC%3A336699%3BALC%3A0000FF%3BLC%3A0000FF%3BT%3A000000%3BGFNT%3A0000FF%3BGIMP%3A0000FF%3BFORID%3A1%3B&amp;client=pub-1711976718738240&amp;forid=1&amp;ie=ISO-8859-1&amp;oe=ISO-8859-1&amp;hl=en">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/cheap_n_easy_digital_picture_f.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/cheap_n_easy_digital_picture_f.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Art</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T15:41:43-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/how_to_stealth_ddr_pad.html?CMP=OTC-0D6B48984890">
+<title>HOW TO - Stealth DDR pad</title>
+<link>http://www.makezine.com/blog/archive/2006/05/how_to_stealth_ddr_pad.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/tmb-hpim1413.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="Tmb-Hpim1413" /><br />
+Erik writes - <em>"Looking for a way to play DDR on your own computer? This DIY pad is cheap, interfaces with your computer and invisible so it doesn't annoy you with those flashy colors when you don't use it."</em> - <a href="http://sprite.student.utwente.nl/~jeroen/projects/ddr-mat/">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_stealth_ddr_pad.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_stealth_ddr_pad.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T14:35:31-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/diy_mosquito_trap.html?CMP=OTC-0D6B48984890">
+<title>DIY mosquito trap</title>
+<link>http://www.makezine.com/blog/archive/2006/05/diy_mosquito_trap.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/_52_151675034_9652a8b384-1.jpg" height="448" width="500" border="0" hspace="4" vspace="4" alt=" 52 151675034 9652A8B384-1" /><br />
+DIY:Happy has a homemade mosquito trap from China with translated instructions, it's made from a 2 liter coke bottle, sugar and yeast - [<a href="http://www.diyhappy.com/quick-and-dirty-mosquito-trap/">Instructions</a>] - <a href="http://www.flickr.com/photos/naruwan/151675034/in/photostream/">photos</a></p>
+
+<p><b>Previous:</b><br />
+DIY Yellow jacket trap - <a href="http://www.makezine.com/blog/archive/2006/05/homemade_yellow_jacket_trap.html">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_mosquito_trap.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_mosquito_trap.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject></dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T13:52:00-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/bang_olufsen_900k_boombox_mod.html?CMP=OTC-0D6B48984890">
+<title>Bang &amp; Olufsen 900k boombox mod</title>
+<link>http://www.makezine.com/blog/archive/2006/05/bang_olufsen_900k_boombox_mod.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/d2fe7a55e4192185d9bd311f.medium.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="D2Fe7A55E4192185D9Bd311F.Medium" /><br />
+Dar303 writes - <em>"I was given an old B&O stereo radio and decided to do something interesting with it. This is a conversion of a B&O radio/amplifier from ca 1964 to a portable, battery powered boombox for stylish picknicks in the park!"</em> - <a href="http://www.instructables.com/ex/i/AEADA18A3AF51029AC23001143E7E506/?ALLSTEPS">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/bang_olufsen_900k_boombox_mod.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/bang_olufsen_900k_boombox_mod.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T12:31:45-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/crewel_embroidery.html?CMP=OTC-0D6B48984890">
+<title>Crewel Embroidery</title>
+<link>http://www.makezine.com/blog/archive/2006/05/crewel_embroidery.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<img src="http://www.makezine.com/blog/thenewcrewel.jpg" height="239" width="500" border="0" hspace="4" vspace="4" alt="Thenewcrewel" />
+<br />This book, "<a href="http://www.woolandhoop.com/thenewcrewel.html">The New Crewel</a>" by Katherine Shaughnessy was at <a href="http://www.knitgrrl.com">Shannon Okey's</a> booth at Bazaar Bizarre at the Maker Faire but was sold out by the time I got to the booth on Sunday afternoon.  I ended up buying one of her <a href="http://www.woolandhoop.com/5007.html">kits</a> and just bought the book recently on Amazon.  I couldn't put the book down and read it from cover to cover the moment I opened it out of the box.  Not only are the patterns modern, colorful, and fresh, I loved reading about the history of crewel embroidery and how Katherine herself got started. There are lots of tips and ideas on cool projects you can make with your finished embroidered piece. <a href="http://www.woolandhoop.com/">Link.</a>
+</p><p>
+If you are in the NY area, Katherine will be teaching a crewel embroidery workshop at the make workshop on Thursday, 5/24 at 6:30pm to 8:30 (195 Chrystie Street #502, NYC 212-533-9955). <a href="http://www.makeworkshop.com/make_classes/workshops.htm#crewel"> Link.</a>
+<br /><br /><br />]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/crewel_embroidery.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/crewel_embroidery.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Crafts</dc:subject>
+<dc:creator>nataliezee</dc:creator>
+<dc:date>2006-05-23T11:04:58-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/make_podcast_the_crucible_fire.html?CMP=OTC-0D6B48984890">
+<title>Make Podcast: The Crucible Fires It Up At Maker Faire.</title>
+<link>http://www.makezine.com/blog/archive/2006/05/make_podcast_the_crucible_fire.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p>
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/LHKb-xbt4aE"></param><embed src="http://www.youtube.com/v/LHKb-xbt4aE" type="application/x-shockwave-flash" width="600" height="350"></embed></object> 
+</p><p>
+At the Maker Faire, Michael Sturtz, brought in his "Fire" truck complete with all sorts of resources to make things out of fire.  The Crucible is a special place and community centered around the fire arts.  
+</p><p>
+<img src="http://www.makezine.com/blog/crucible2.jpg" height="307" width="487" border="1" hspace="4" vspace="4" alt="Crucible2" />   
+</p><p>
+Skylar Fell is one of the teachers at The Crucible and shows us how she uses a mig welder.    
+</p><p>
+<img src="http://www.makezine.com/blog/crucible1.jpg" height="307" width="487" border="1" hspace="4" vspace="4" alt="Crucible1" />  
+</p><p>
+Tara Murray showed the crowds at Maker Faire how to do lampworking.  She's wearing kevlar wrist warmers.  One of the things that I noticed is that they had set up red gels and welding goggle "peep shows" so that the crowds could watch without burning their retinas.
+</p><p>
+I was very impressed by the teachers at The Crucible. Their passion for their work burns bright!
+</p><p>
+If you're into fire and in the San Francisco area, The Crucible is putting on <a href="http://thecrucible.org/fireartsfestival/index.php">a fire festival</a> on July 11-16, that looks like a blast!
+</p><p>
+<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=74069835&s=143441">Click here</a> to get the video (<a href="http://downloads.oreilly.com/make/make_crucible.mp4">MP4</a>) delivered automatically with <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=74069835&s=143441">iTunes</a>. This video will play on PC/Mac/Linux/PSPs and iPod video devices - <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=74069835&s=143441">Link</a>.
+</p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/make_podcast_the_crucible_fire.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/make_podcast_the_crucible_fire.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>MAKE Podcast</dc:subject>
+<dc:creator>Bre</dc:creator>
+<dc:date>2006-05-23T06:52:11-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/laser_scissors.html?CMP=OTC-0D6B48984890">
+<title>Laser scissors</title>
+<link>http://www.makezine.com/blog/archive/2006/05/laser_scissors.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/p29748_500.jpg" height="498" width="498" border="0" hspace="4" vspace="4" alt="P29748 500" /><br />
+Nat sent this around, and I think we're going to review them, laser scissors - if it's at all a good idea, mounting a cheap laser point on normal scissors might be handy. But for the most part, it was important to have a post up called laser scissors. <a href="http://www.shopgetorganized.com/prodetail~itemNo~24910~ID~.asp">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/laser_scissors.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/laser_scissors.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Toolbox</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T02:32:02-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/automatic_cat_feeder_and_water.html?CMP=OTC-0D6B48984890">
+<title>Automatic cat feeder and waterer</title>
+<link>http://www.makezine.com/blog/archive/2006/05/automatic_cat_feeder_and_water.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/110345635_704ecdb8f7.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="110345635 704Ecdb8F7" /><br />
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/GaxfaMcnAow"></param><embed src="http://www.youtube.com/v/GaxfaMcnAow" type="application/x-shockwave-flash" width="425" height="350"></embed></object><br />
+The pr0fess0r is cranking away on his automatic cat feeder and waterer, the latest - solving how to get the correct amount of food dispensed - <a href="http://www.gogglemarks.net/index.php?action=blog&amp;id=109">Link.</a></p>
+
+<p><strong>Related:</strong><br />
+<ul><li>Automatic Cat Feeder/Waterer - <a href="http://www.gogglemarks.net/index.php?action=display&amp;tag=foodget">Link.</a></li><li><a href="http://makezine.com/03/catfeeder/">VCR Cat Feeder.</a> Liberate a motor from an old VHS deck, attach it to a food chopper, and program the deck's recording timer to fill Fluffy's bowl on schedule. Voila! Your own programmable pet food dispenser. <a href="http://www.make-digital.com/make/vol03/?pg=102">MAKE 03 - Page 98.</a></li></ul></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/automatic_cat_feeder_and_water.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/automatic_cat_feeder_and_water.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T01:38:27-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/shoe_customization.html?CMP=OTC-0D6B48984890">
+<title>Shoe customization</title>
+<link>http://www.makezine.com/blog/archive/2006/05/shoe_customization.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/151393193_a5f83f6bb7_o.jpg" height="373" width="498" border="0" hspace="4" vspace="4" alt="151393193 A5F83F6Bb7 O" /><br />
+Drew customized his shoes and added a Duncan Yo-Yo panel - not a bad idea, you can get shoes at the thrift store for cheap and do all sorts of neat panels on them. One thing, if you make <a href="http://www.adidas-shop.co.uk/rf-adidas/navigation/product.do?Ntx=mode+matchallpartial&amp;SNtt=tron&amp;groupId=338175553&amp;Nu=this_product&amp;SNtk=littlewoods_search&amp;Np=1&amp;SN=105+85&amp;Ntt=338175553&amp;D=338175553&amp;Ntk=group_search&amp;Dx=mode%2Bmatchall&amp;thisprod=338175553&amp;N=105+85&amp;Nty=1&amp;Mis_item_id=15&amp;Mis_item_loc_id=1&amp;product=338175553">TRON shoes</a>, please make them light up with EL wire or something, ok? - <a href="http://www.flickr.com/photos/87489611@N00/sets/72057594140556691/">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/shoe_customization.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/shoe_customization.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Art</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-23T00:51:19-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/hacking_your_prius.html?CMP=OTC-0D6B48984890">
+<title>Hacking your Prius</title>
+<link>http://www.makezine.com/blog/archive/2006/05/hacking_your_prius.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/calcars1-1.jpg" height="347" width="500" border="0" hspace="4" vspace="4" alt="Calcars1-1" /><br />
+CNET News.com has a round of some of the Prius hacking going on at the moment, if there's more or you have other resources, post them on up in the comments! - <a href="http://news.com.com/2102-11389_3-6074671.html?tag=st.util.print">Link.</a></p>
+
+<p>Pictured here, <a href="http://www.makezine.com/blog/archive/2006/03/calcarsorg_to_modify_toyota_pr.html">modded / extended range Prius</a> from Maker Faire.</p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/hacking_your_prius.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/hacking_your_prius.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Transportation</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T22:21:46-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/diy_coincase.html?CMP=OTC-0D6B48984890">
+<title>DIY Coincase</title>
+<link>http://www.makezine.com/blog/archive/2006/05/diy_coincase.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/151524800_2a2f76185a.jpg" height="349" width="500" border="0" hspace="4" vspace="4" alt="151524800 2A2F76185A" /><br />
+<img src="http://www.makezine.com/blog/151524895_5e0b224e69.jpg" height="400" width="500" border="0" hspace="4" vspace="4" alt="151524895 5E0B224E69" /><br />
+MAKE Flickr photo pool member s_h_i_r_o_u_t_o has plans and a set of build photos for making your own leather coin case - <a href="http://www.flickr.com/photos/shirouto/tags/coincase/">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_coincase.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_coincase.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T21:21:02-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/diy_bicycle_mounted_steady_cam.html?CMP=OTC-0D6B48984890">
+<title>DIY Bicycle mounted steady cam</title>
+<link>http://www.makezine.com/blog/archive/2006/05/diy_bicycle_mounted_steady_cam.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/7c1a939fe12df20a6206671b.medium.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="7C1A939Fe12Df20A6206671B.Medium" /><br />
+Laurus has an Instructable and video of a DIY Bicycle mounted steady cam project - <em>"I wanted to shoot some video while riding my road bike, but didn't want to deal with a helmet mounted camera and of course I didn't want to hold the camera in my hand. An initial attempt at mounting the DV camera was totally unsatisfactory, so my next step was to build a camera mount that would absorb some of the shock providing a better quality video."</em> - <a href="http://www.instructables.com/ex/i/CF13FDB034F71029BC6B001143E7E506/?ALLSTEPS">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_bicycle_mounted_steady_cam.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_bicycle_mounted_steady_cam.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T20:29:08-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/build_your_own_electronic_game.html?CMP=OTC-0D6B48984890">
+<title>Build your own electronic game kit by Joe Grand</title>
+<link>http://www.makezine.com/blog/archive/2006/05/build_your_own_electronic_game.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/DSC04714-1.jpg" height="373" width="498" border="0" hspace="4" vspace="4" alt="Dsc04714-1" /><br />
+Originally designed for Maker Faire workshops by Joe Grand, the "Build Your Own Electronic Game Kit" is a custom-created kit intended to introduce folks to the world of electronics and soldering. When successfully assembled, the kit becomes a version of the popular memory game, Simon, with a few optional twists, including no LEDs, no sound, reverse order, and fast play. The kit includes all the necessary components, including a pre-programmed microprocessor, custom circuit board, and battery. The only other materials you will need are a soldering iron, solder, and wire snips. Assembly instructions, parts list, and game instructions are all printed on the back of the circuit board. A schematic of the design is available here (<a href="http://www.grandideastudio.com/files/hobbyist/electronic_game_kit_schematic.pdf">PDF</a>). The kit is available for just $39.95 and in stock in the MAKE store - <a href="http://makezine.com/store/">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/build_your_own_electronic_game.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/build_your_own_electronic_game.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Announcements</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T18:59:50-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/diy_50_sensortousb_board.html?CMP=OTC-0D6B48984890">
+<title>DIY $50 Sensor-to-USB board</title>
+<link>http://www.makezine.com/blog/archive/2006/05/diy_50_sensortousb_board.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/CUIv10small.jpg" height="263" width="500" border="0" hspace="4" vspace="4" alt="Cuiv10Small" /><br />
+Peter writes - <em>"The Create USB Interface (which you can build from scratch or buy premade for $50) lets you hook sensors right into USB, meaning you can use them with any software that supports the HUI standard (like games, for instance), without drivers. Also a great option for DIY art, gaming, music, and visual projects."</em> - <a href="http://createdigitalmusic.com/2006/05/22/diy-day-create-usb-interface-50-sensor-to-usb-board/">Link</a> & <a href="http://www.create.ucsb.edu/~dano/CUI/">CREATE USB Interface.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_50_sensortousb_board.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/diy_50_sensortousb_board.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Art</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T15:51:08-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/light_bulb_aquarium.html?CMP=OTC-0D6B48984890">
+<title>Light bulb aquarium</title>
+<link>http://www.makezine.com/blog/archive/2006/05/light_bulb_aquarium.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/7e2df40d.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="7E2Df40D" /><br />
+A little follow up to the light bulb project we posted, MAKE commenter Terc made a small fish bowl for a beta fish out of a g40 lightbulb.  The fish (named Edison) seems to like it - <a href="http://www.makezine.com/blog/archive/2006/05/how_to_hollow_out_a_light_bulb.html">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/light_bulb_aquarium.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/light_bulb_aquarium.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Crafts</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T14:56:15-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_keyglove.html?CMP=OTC-0D6B48984890">
+<title>HOW TO - Make a Key-Glove</title>
+<link>http://www.makezine.com/blog/archive/2006/05/how_to_make_a_keyglove.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/keyglove_worn.jpg" height="261" width="500" border="0" hspace="4" vspace="4" alt="Keyglove Worn" /><br />
+Here's how to make a super-cheap wearable "key-glove" using nickel snap ons, a leather glove and a keyboard - [<a href="http://www.diyhappy.com/key-glove/">via</a>] - <a href="http://wearables.blu.org/keyglove.html">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_keyglove.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_keyglove.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T13:21:28-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/open_source_atmel_avr_microcon.html?CMP=OTC-0D6B48984890">
+<title>Open source Atmel AVR microcontroller kits...</title>
+<link>http://www.makezine.com/blog/archive/2006/05/open_source_atmel_avr_microcon.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/linuxavrcd.jpg" height="467" width="360" border="0" hspace="4" vspace="4" alt="Linuxavrcd" /><br />
+Wow, check out these Atmel AVR Microcontroller kits for Linux - USB and parallel port versions, the best (I think) is they come with bootable CDs <a href="http://shop.tuxgraphics.org/electronic/microcontroller.html?id=2b93dd">Link.</a></p>
+
+<p><b>Related:</b><br />
+AVR projects - <a href="http://www.google.com/custom?domains=makezine.com&amp;sitesearch=makezine.com&amp;q=avr&amp;sa.x=0&amp;sa.y=0&amp;cof=GALT%3A%23008000%3BGL%3A1%3BDIV%3A%23336699%3BVLC%3A663399%3BAH%3Acenter%3BBGC%3AFFFFFF%3BLBGC%3A336699%3BALC%3A0000FF%3BLC%3A0000FF%3BT%3A000000%3BGFNT%3A0000FF%3BGIMP%3A0000FF%3BFORID%3A1%3B&amp;client=pub-1711976718738240&amp;forid=1&amp;ie=ISO-8859-1&amp;oe=ISO-8859-1&amp;hl=en">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/open_source_atmel_avr_microcon.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/open_source_atmel_avr_microcon.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T12:27:53-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/hacking_led_christmas_lights_f.html?CMP=OTC-0D6B48984890">
+<title>Hacking LED Christmas lights for low voltage use</title>
+<link>http://www.makezine.com/blog/archive/2006/05/hacking_led_christmas_lights_f.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/DSCI0018a.jpg" height="300" width="400" border="0" hspace="4" vspace="4" alt="Dsci0018A" /><br />
+<a href="http://www.teamdroid.com">John</a> writes - <em>"I saw this and just had to share. You know those very neat LED Christmas lights that you could find on the clearance tables a few months ago, you remember them now because your going to kick yourself for not buying a crap load of them. Anyway, Joe has a tutorial on how you can hack them to run on low voltages, like 12VDC. Just like the voltage you get from your computers power supply. I think you can see where this is going..."</em> - <a href="http://www.breskin.com/writing/intro1.htm">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/hacking_led_christmas_lights_f.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/hacking_led_christmas_lights_f.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T11:43:19-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/howto_refashion_an_old_chair.html?CMP=OTC-0D6B48984890">
+<title>HOWTO - Refashion an Old Chair</title>
+<link>http://www.makezine.com/blog/archive/2006/05/howto_refashion_an_old_chair.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<img src="http://www.makezine.com/blog/chair_refashion.jpg" height="205" width="500" border="0" hspace="4" vspace="4" alt="Chair Refashion" />
+<br />Sarah from the <a href="http://www.pinkofperfection.com/">Pink of Perfection</a> has just posted up a video on how to refashion an old chair -- this one, found abandoned along the side of the road.  From Sarah, "<em>I knew a slap of paint and a fresh, modern fabric would transport this classic frame to any left bank sidewalk cafe.</em>" <a href="http://www.pinkofperfection.com/2006/05/one_womans_trash.php">Link.</a>
+<br /><br /><br />]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/howto_refashion_an_old_chair.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/howto_refashion_an_old_chair.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>Crafts</dc:subject>
+<dc:creator>nataliezee</dc:creator>
+<dc:date>2006-05-22T11:15:25-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/build_a_home_ceilingmounted_ki.html?CMP=OTC-0D6B48984890">
+<title>Build a home ceiling-mounted kids gym and climbing wall</title>
+<link>http://www.makezine.com/blog/archive/2006/05/build_a_home_ceilingmounted_ki.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/hkggym.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="Hkggym" /><br />
+Creatrope has another fun project, a home kid's gym - <em>"This ceiling-mounted kids gym and climbing wall has seen a lot of use, and was easy to build once I figured out a strategy. It was around $125 worth of parts. It was inspired by a friend who has an even more elaborate one. It uses standard backyard playground equipment and the parts are interchangeable to give the kids some variation. There's little rare-earth magnets placed on the beam to allow for hanging 'targets'. It fits into the theme of home organization and decluttering because there's nothing to put away and nothing to clean up. "</em> - <a href="http://www.creatrope.com/index.php?entry=entry060522-075018">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/build_a_home_ceilingmounted_ki.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/build_a_home_ceilingmounted_ki.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T10:50:42-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/homebrew_through_plating_machi.html?CMP=OTC-0D6B48984890">
+<title>Homebrew through plating machine</title>
+<link>http://www.makezine.com/blog/archive/2006/05/homebrew_through_plating_machi.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/tps_small.jpg" height="373" width="498" border="0" hspace="4" vspace="4" alt="Tps Small" /><br />
+M writes - <em>"I got sick of waiting for my PCB's to be made externaly and therefore wanted to be able to produce PCB's for my prototypting needs by myself. Now, it is not too difficult to create even double sided PCB's at home. However, having the vias conect the two layers by hand is a real pain. More advanced layouts also can't be made with doulbe sided PCB's and that's then usually the end of the rope when it comes to homebrew PCB's. Unless you have a through plating station of course! Having such a machine put's you in the position to create real multilayer PCB's on your own - something I was dreaming of for long. This page is intended to give you ideas on how to build your own station. "</em> - <a href="http://www.myhome.ch/mzingg/pcbstuff/tps/">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/homebrew_through_plating_machi.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/homebrew_through_plating_machi.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T09:58:27-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_garage_monitor.html?CMP=OTC-0D6B48984890">
+<title>HOW TO - Make a garage monitor</title>
+<link>http://www.makezine.com/blog/archive/2006/05/how_to_make_a_garage_monitor.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/5091cd0e75c6077076524272.medium.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="5091Cd0E75C6077076524272.Medium" /><br />
+Joe writes - <em>"Need to know if the garage door is open? Need to know if you pulled in far enough for the door to close without hitting your bike? Need to know all this with web access... I present the garage monitor 3000. When the car reaches the right spot, the LED turns from green to red."</em> - <a href="http://www.instructables.com/ex/i/92FC605639D41029AC23001143E7E506/?ALLSTEPS">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_garage_monitor.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_garage_monitor.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T08:40:22-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/how_to_drive_a_lot_of_leds_fro.html?CMP=OTC-0D6B48984890">
+<title>HOW TO - Drive a lot of LEDs from a few microcontroller pins</title>
+<link>http://www.makezine.com/blog/archive/2006/05/how_to_drive_a_lot_of_leds_fro.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/15163abb887994b8277ea697.large.jpg" height="399" width="498" border="0" hspace="4" vspace="4" alt="15163Abb887994B8277Ea697.Large" /><br />
+Westfw writes - <em>"Using the fact that many microcontroller pins have three states (+V, GND, or "high impedence", you can drive N*(N-1) LEDs from N pins.  So the little 8 pin microcontroller like a PIC12Fxxx or an ATtiny11 can drive 20 LEDs on its five available output pins, and still have one pin left for some kind of input."</em> - <a href="http://www.instructables.com/ex/i/FA846F483AAB1029AC23001143E7E506/?ALLSTEPS">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_drive_a_lot_of_leds_fro.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/how_to_drive_a_lot_of_leds_fro.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T07:50:03-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/concept_bling_binary_led_watch.html?CMP=OTC-0D6B48984890">
+<title>Concept = Bling binary LED watch</title>
+<link>http://www.makezine.com/blog/archive/2006/05/concept_bling_binary_led_watch.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/watch.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="Watch" /><br />
+<img src="http://www.makezine.com/blog/watchpcb.jpg" height="425" width="341" border="0" hspace="4" vspace="4" alt="Watchpcb" /><br />
+Todd Bailey has made the coolest watch ever, it's a clear binary LED watch, all on a rainbow ribbon cable - <a href="http://www.chicagoreader.com/pdf/050722/050722_ot_srilanka.pdf">PDF Link.</a></p>
+
+<p><b>Related:</b><br />
+HOW TO - Make a binary watch - The 01/\/atch - <a href="http://www.makezine.com/blog/archive/2006/05/how_to_make_a_inary_watch_the.html">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/concept_bling_binary_led_watch.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/concept_bling_binary_led_watch.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T06:57:17-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/walkman_guitar_distortion_peda.html?CMP=OTC-0D6B48984890">
+<title>Walkman guitar distortion pedal</title>
+<link>http://www.makezine.com/blog/archive/2006/05/walkman_guitar_distortion_peda.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/Bild(207).jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="Bild(207)" /><br />
+Johan made a guitar distortion pedal from an old walkman, there are not a ton of details, but looks like it would be fun to build - <em>"..I've taken a walkman and converted it to a guitar distortion pedal. This was pretty easy actually, and I got the idea from the net and I wanted to try it out myself. The theory is that you use the amplification part of the walkman to aplificate another signal then the zeros and ones stored on a casette tape."</em> - <a href="http://www.larsby.com/johan/tokhuedist/">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/walkman_guitar_distortion_peda.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/walkman_guitar_distortion_peda.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T05:03:44-08:00</dc:date>
+</item>
+<item rdf:about="http://www.makezine.com/blog/archive/2006/05/make_a_shade_tarp.html?CMP=OTC-0D6B48984890">
+<title>Make a shade tarp</title>
+<link>http://www.makezine.com/blog/archive/2006/05/make_a_shade_tarp.html?CMP=OTC-0D6B48984890</link>
+<description>
+<![CDATA[<p><img src="http://www.makezine.com/blog/150075325_4d60f4a37f.jpg" height="375" width="500" border="0" hspace="4" vspace="4" alt="150075325 4D60F4A37F" /><br />
+MAKE Flickr photo pool member Franionmuncher writes - <em>"This is how we made a highly wind resistant shade tarp for a reasonable amount of money. Total cost about $130. Most of that is due to the SUPER heavy duty tarp we bought. (Almost $90) I didn't include dimensions, because the plan could be adapted for any size tarp."</em> - <a href="http://www.flickr.com/photos/71649199@N00/sets/72057594140509188/">Link.</a></p>]]>
+[&lt;a href="http://www.makezine.com/blog/archive/2006/05/make_a_shade_tarp.html?CMP=OTC-0D6B48984890" /&gt;Read this article&lt;/a&gt;] [&lt;a href="http://www.makezine.com/blog/archive/2006/05/make_a_shade_tarp.html?CMP=OTC-0D6B48984890#comments" /&gt;Comment on this article&lt;/a&gt;]
+</description>
+<dc:subject>DIY Projects</dc:subject>
+<dc:creator>philliptorrone</dc:creator>
+<dc:date>2006-05-22T04:16:30-08:00</dc:date>
+</item>
+
+
+</rdf:RDF>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://purl.org/rss/1.0/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+>
+<channel rdf:about="http://www.dpreview.com/news/dpr.rdf">
+  <title>Digital Photography Review (dpreview.com)</title>
+  <link>http://www.dpreview.com/</link>
+  <description>Digital Photography Review, Latest digital camera news, camera reviews, galleries, technology and comparisons</description>
+  <syn:updatePeriod>hourly</syn:updatePeriod>
+  <syn:updateFrequency>1</syn:updateFrequency>
+  <syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<image rdf:resource="http://img.dpreview.com/images/dprlogo_white_free.gif" />
+<items>
+  <rdf:Seq>
+
+    <rdf:li resource="http://www.dpreview.com/news/0605/06052205pentaxk100d.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06052201ricohr40.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06052001breezeremote.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06051901canonS3ISreview.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06051602adobeupdates.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06051601lumlandmf.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06050803pentaxoptioa10review.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06050802sonypicturestation.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06050801ricoh500g.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06050401casioexz5.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0605/06050201acdsee.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0604/06042701kodakZ650review.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0604/06042601casioexz1000.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0604/06042503kodakeasyshare.asp" />
+    <rdf:li resource="http://www.dpreview.com/news/0604/06042502kodakv610.asp" />
+  </rdf:Seq>
+</items>
+
+</channel>
+
+<image rdf:about="http://img.dpreview.com/images/dprlogo_white_free.gif">
+  <title>Digital Photography Review (dpreview.com)</title>
+  <link>http://www.dpreview.com/</link>
+  <url>http://img.dpreview.com/images/dprlogo_white_free.gif</url>
+</image>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06052205pentaxk100d.asp">
+  <title>Pentax K100D and K110D</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-22T23:01:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06052205pentaxk100d.asp</link>
+  <description>Today sees the announcement of two new 6.1 million pixel DSLRs from Pentax, the K100D and the K110D. Both cameras offer high precision 11-point wide frame AF, ISO sensitivity up to 3200, a large 2.5-inch screen and a top shutter speed of 1/4000 sec as well as being compatible with existing Pentax lenses. The K100D is also Pentax&apos;s first DSLR to feature a CCD-shift Shake Reduction system.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06052201ricohr40.asp">
+  <title>Ricoh Caplio R40</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-22T14:22:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06052201ricohr40.asp</link>
+  <description>Ricoh has announced a 6 megapixel compact digicam with a 28-160mm lens packed into a slim 26mm thick black finish body. The Caplio R40 is a more affordable version of the Caplio R4 camera (announced in February) and sports a 5.7x zoom, 2.5-inch LCD and a skew correction function.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06052001breezeremote.asp">
+  <title>Breeze Systems DSLR Remote Pro v1.2</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-20T08:13:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06052001breezeremote.asp</link>
+  <description>Breeze Systems has announced DSLR Remote Pro v1.2, which adds support for the Canon EOS 30D. This software enables control of Canon DSLR camera settings and the ability to view large high res images in seconds on a Windows PC or laptop using USB or Firewire cables.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06051901canonS3ISreview.asp">
+  <title>Just posted! Canon PowerShot S3 IS review</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-19T12:06:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06051901canonS3ISreview.asp</link>
+  <description>Just posted! Our concise review of the latest incarnation of Canon&apos;s popular big zoom PowerShot, the S3 IS. Like the S2 IS before it (and for that matter the original S1 IS), the S3 IS has been one of the most popular cameras on dpreview (measured by clicks) since the day it was announced, and one of the most requested reviews. Unlike the S2, the PowerShot S3 IS is a relatively minor upgrade to it&apos;s predecessor, upping the resolution to 6MP and adding a couple of features. So is it enough to keep up in 2006?. Find out what we thought after the link...</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06051602adobeupdates.asp">
+  <title>Adobe CS2 and Camera Raw updates</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-16T19:10:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06051602adobeupdates.asp</link>
+  <description>Adobe has announced updates to its Camera Raw plug-in and Photoshop CS2. Camera Raw 3.4 adds support for the Canon EOS 30D, Olympus EVOLT 330 and Pentax *ist DL2 amongst others. The Photoshop 9.0.1 update fixes a number of problems present in version 9.0.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06051601lumlandmf.asp">
+  <title>Luminous Landscape with big megapixels</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-16T17:32:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06051601lumlandmf.asp</link>
+  <description>The Luminous Landscape has published an article titled &apos;Measuring Megabytes&apos; which compares a range of high end digital SLRs, medium format backs and 4x5 medium format film drum scanned. The medium format backs range from 22 to 39 megapixels, digital SLRs are represented by the 16.6 megapixel Canon EOS 1Ds Mark II, 12.7 megapixel Canon EOS 5D and the 11 megapixel Canon EOS 1Ds. If you want the ultimate resolution and money is no object there will be plenty of interest here.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06050803pentaxoptioa10review.asp">
+  <title>Just posted! Pentax Optio A10 review</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-08T16:25:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06050803pentaxoptioa10review.asp</link>
+  <description>Just posted! Our concise review of the Pentax Optio A10, the new &apos;flagship&apos; in Pentax&apos;s long-running Optio range. The 8MP, 3x zoom A10 may look unremarkable, but it does have a couple of tricks up its sleeve, including a CCD-shift image stabilization system, in-camera effects and frames, and the ability to record movies in the highly efficient (and widely used) MPEG-4 DivX format. Find out what we thought after the link...</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06050802sonypicturestation.asp">
+  <title>2 new Sony PictureStation photo printers</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-08T16:03:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06050802sonypicturestation.asp</link>
+  <description>Sony has launched today two new ultra-compact PictureStation dye-sub photo printers, the DPP-FP55 and the DPP-FP35. Designed to be portable and totally PC-free, the DPP-FP55 features SD and MS slots and a built-in 2-inch display so photo cropping, color adjustment and removing red-eye are all possible without hooking up to a computer. The FP35 is a direct connect PictBridge-compatible model that allows pictures to printed directly from a Cyber-Shot or other PictBridge compliant camera or using a USB cable, from a pc.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06050801ricoh500g.asp">
+  <title>Ricoh Caplio 500G wide</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-08T13:15:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06050801ricoh500g.asp</link>
+  <description>Today Ricoh announced the Caplio 500G wide, an 8-megapixel camera housed in a durable water resistant (to a depth of 1m), dust and shock resistant body (withstanding drops of up to 1m) and capable of working in temperatures of -10 oC. The 500G wide sports a 28-85mm equivalent lens, 3x optical zoom, camera-shake blur reduction and a 2.5-inch screen. This tough little cookie also features an optical viewfinder, up to ISO 1600 and has an optional wide angle conversion lens.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06050401casioexz5.asp">
+  <title>Casio Exilim Zoom EX-Z5</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-04T14:34:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06050401casioexz5.asp</link>
+  <description>Casio has announced a 5 megapixel camera, the Exilim Zoom EX-Z5, offering a 3x zoom, 2.5-inch screen and Anti Shake DSP packaged in a neat matt-brushed black body. The EX-Z5 will be available in the US and continental Europe only, from the end of May.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0605/06050201acdsee.asp">
+  <title>ACDSee updates</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-05-02T15:13:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0605/06050201acdsee.asp</link>
+  <description>ACD Systems has announced updates to its two flagship products, ACDSee 8 Photo Manager and ACDSee Pro Photo Manager. ACDSee 8.1 Photo Manager includes more than 50 feature improvements, increasing performance and productivity and RAW support, and the Pro Photo Manager update offers improved speed and performance in RAW processing. Free upgrades are available now.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0604/06042701kodakZ650review.asp">
+  <title>Just posted! Kodak Z650 review</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-04-27T10:26:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0604/06042701kodakZ650review.asp</link>
+  <description>Just posted! Our concise review of the Kodak EasyShare Z650. the Z650 replaces the Z740 at the top of the Kodak&apos;s affordable super zoom range. The changes over the previous model are fairly modest; the pixel count increases from 5 to 6MP and the lens is now a Schneider Variogon (as opposed to the Z740&apos;s Kodak Retinar). The new model also gets a bigger (though lower resolution) LCD screen, a few new scene modes and a live histogram. Find out what we thought after the link...</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0604/06042601casioexz1000.asp">
+  <title>Casio Exilim Zoom EX-Z1000</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-04-26T06:05:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0604/06042601casioexz1000.asp</link>
+  <description>Proof - if it were needed - that the megapixel war is far from over comes today in the shape of the first (and we&apos;re sure it won&apos;t be the last) 10.1 megapixel compact, the Casio Exilim EX-Z1000, which joins the EX-Z850 at the top of the range. Built around a new 1/1.8 inch, 10.1 MP CCD, the EX-Z1000 boasts a large, bright 2.8-inch LCD screen, 3x zoom and 37 Best Shot modes. It also features Casio&apos;s &apos;Anti Shake&apos; DSP (digital stabilization) and an ISO 3200 High Sensitivity mode. We&apos;ve got a few exclusive hands-on images after the link too.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0604/06042503kodakeasyshare.asp">
+  <title>Kodak EasyShare V6.0</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-04-25T13:49:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0604/06042503kodakeasyshare.asp</link>
+  <description>Kodak&apos;s EasyShare digital camera and docking system is celebrating its fifth birthday this month. So along with the announcement of Kodak&apos;s new EasyShare V610 dual lens camera comes version 6.0 of its EasyShare software. Version 6.0 comes with a new user interface and a photo card printing feature. Available in May to download for free.</description>
+</item>
+
+<item rdf:about="http://www.dpreview.com/news/0604/06042502kodakv610.asp">
+  <title>Kodak EasyShare V610</title>
+  <dc:creator>dpreview</dc:creator>
+  <dc:date>2006-04-25T13:05:00+00:00</dc:date>
+  <link>http://www.dpreview.com/news/0604/06042502kodakv610.asp</link>
+  <description>Kodak has today announced the EasyShare V610 dual lens camera. The 6.1 MP compact has the same sleek styling - and dual lens system - as the V570, announced in January. This time Kodak are using two Schneider-Kreuznach C-Variogon all-glass prism zooms (and two CCDs) to cover a much wider 10x range (equivalent of 38-380mm). The V610 also features a large 2.8-inch LCD, Bluetooth wireless technology and sensitivity up to ISO 800. Looks like an interesting (and much slimmer) alternative to the Panasonic TZ1 - though without the benefit of optical image stabilization.</description>
+</item>
+
+<textinput rdf:about="http://www.dpreview.com/misc/search.asp">
+  <title>Search</title>
+  <description>Search Our News Archive</description>
+  <name>newsquery</name>
+  <link>http://www.dpreview.com/news/search.asp</link>
+</textinput>
+</rdf:RDF>
+

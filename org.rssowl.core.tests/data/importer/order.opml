@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml xmlns:rssowl="http://www.rssowl.org" version="1.1">
+  <head>
+    <title>RSSOwl Subscriptions</title>
+    <dateModified>Mo, 03 Aug 2009 22:25:39 CEST</dateModified>
+  </head>
+  <body>
+  	<outline text="Bookmarks" rssowl:isSet="true" rssowl:id="5290">
+      <outline text="RSSOwl News" xmlUrl="http://www.rssowl.org/newsfeed" />
+      <outline text="Engadget" xmlUrl="http://www.engadget.com/rss.xml" />
+      <rssowl:savedsearch name="Search A" matchAllConditions="true" rssowl:id="576">
+        <rssowl:searchcondition>
+          <rssowl:searchspecifier id="11" />
+          <rssowl:searchvalue type="0" value="foo" />
+          <rssowl:searchfield id="-1" entity="org.rssowl.core.persist.INews" />
+        </rssowl:searchcondition>
+      </rssowl:savedsearch>
+      <outline text="MarketWatch" xmlUrl="http://feeds.marketwatch.com/marketwatch/topstories" />
+      <outline text="New York Times" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" />
+      <outline text="Bins" rssowl:isSet="false" rssowl:id="529" />
+      <outline text="Techcrunch" xmlUrl="http://feedproxy.google.com/Techcrunch" />
+      <rssowl:newsbin name="Bin A" rssowl:id="530" />
+      <outline text="Wired Top Stories" xmlUrl="http://feeds.wired.com/wired/index" />
+    </outline>
+  </body>
+</opml>

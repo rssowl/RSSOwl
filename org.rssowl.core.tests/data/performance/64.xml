@@ -1,0 +1,887 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Yahoo! Games</title>
+    <link>http://games.yahoo.com</link>
+    <description>Yahoo! Games Description</description>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2005 Yahoo! Inc. All rights reserved.</copyright>
+    <pubDate>Tue, 23 May 2006 17:07:26 GMT</pubDate>
+    <lastBuildDate>Tue, 23 May 2006 17:07:26 GMT</lastBuildDate>
+    <image>
+      <url>http://games.yahoo.com/main.gif</url>
+      <title>Yahoo! Games</title>
+      <link>http://games.yahoo.com</link>
+      <width>142</width>
+      <height>18</height>
+    </image>
+    <item>
+      <title>Disney's Trivia Time (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=triviatime</link>
+      <description>Master Disney trivia</description>
+      <guid>yahoogames/guid/triviatime</guid>
+      <pubDate>Mon, 22 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mahjong Escape (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=mahjongescape</link>
+      <description>Escape today</description>
+      <guid>yahoogames/guid/mahjongescape</guid>
+      <pubDate>Mon, 22 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>7 Wonders (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=7wonders</link>
+      <description>Discover the 7 wonders</description>
+      <guid>yahoogames/guid/sevenwonders</guid>
+      <pubDate>Mon, 22 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bonnie's Bookstore (web)</title>
+      <link>http://games.yahoo.com/games/downloads/bonnie.html?a=b</link>
+      <description>Help an aspiring writer fulfill her dreams</description>
+      <guid>yahoogames/guid/bonnie</guid>
+      <pubDate>Fri, 19 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beetle Bomp (web)</title>
+      <link>http://games.yahoo.com/games/downloads/beetlebomp.html?a=b</link>
+      <description>Try to solve the buggy mystery</description>
+      <guid>yahoogames/guid/beetlebomp</guid>
+      <pubDate>Fri, 19 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Saints and Sinners Bowling (web)</title>
+      <link>http://games.yahoo.com/games/downloads/ssbowling.html?a=b</link>
+      <description>Bowling with a twist</description>
+      <guid>yahoogames/guid/ssbowling</guid>
+      <pubDate>Fri, 19 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Da Vinci Code (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=davinci</link>
+      <description>Decipher the mystery</description>
+      <guid>yahoogames/guid/davinci</guid>
+      <pubDate>Mon, 15 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Diner Dash 2 (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=dinerdash2</link>
+      <description>Sling grits, earn tips</description>
+      <guid>yahoogames/guid/dinerdash2</guid>
+      <pubDate>Mon, 08 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MCF: Prime Suspects (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=primesuspects</link>
+      <description>Discover hidden clues</description>
+      <guid>yahoogames/guid/primesuspects</guid>
+      <pubDate>Mon, 01 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Harvest Mania (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=harvest</link>
+      <description>Hop on your tractor</description>
+      <guid>yahoogames/guid/harvest</guid>
+      <pubDate>Mon, 01 May 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fish Tycoon (web)</title>
+      <link>http://games.yahoo.com/games/downloads/fishtycoon.html?a=b</link>
+      <description>Master your aquarium</description>
+      <guid>yahoogames/guid/fishtycoon</guid>
+      <pubDate>Mon, 24 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mosaic (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=mosaic</link>
+      <description>Venture to Ancient Egypt!</description>
+      <guid>yahoogames/guid/mosaic</guid>
+      <pubDate>Mon, 24 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Feeding Frenzy 2 (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=feedingfrenzy2</link>
+      <description>Be the big fish!</description>
+      <guid>yahoogames/guid/feedingfrenzy2</guid>
+      <pubDate>Mon, 24 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Saints and Sinners Bowling (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=ssbowling</link>
+      <description>Bowling with a twist</description>
+      <guid>yahoogames/guid/ssbowling</guid>
+      <pubDate>Mon, 17 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ocean Express (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=oceanexpress</link>
+      <description>Pack puzzle pieces perfectly</description>
+      <guid>yahoogames/guid/oceanexpress</guid>
+      <pubDate>Mon, 17 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>InSpheration (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=inspheration</link>
+      <description>Brain-bending fun</description>
+      <guid>yahoogames/guid/inspheration</guid>
+      <pubDate>Mon, 10 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Spacebound (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=spacebound</link>
+      <description>Save the adorable Picolytes</description>
+      <guid>yahoogames/guid/spacebound</guid>
+      <pubDate>Mon, 10 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Poker Superstars II (web)</title>
+      <link>http://games.yahoo.com/games/downloads/pokersuperstars2.html?a=b</link>
+      <description>Beware the dead man's hand...</description>
+      <guid>yahoogames/guid/pokersuperstars2</guid>
+      <pubDate>Mon, 03 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MCF: Huntsville (web)</title>
+      <link>http://games.yahoo.com/games/downloads/huntsville.html?a=b</link>
+      <description>Locate hidden clues</description>
+      <guid>yahoogames/guid/huntsville</guid>
+      <pubDate>Mon, 03 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tradewinds Legends (web)</title>
+      <link>http://games.yahoo.com/games/downloads/tradewindslegends.html?a=b</link>
+      <description>Sail, trade, battle</description>
+      <guid>yahoogames/guid/tradewindslegends</guid>
+      <pubDate>Mon, 03 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pirate Poppers (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=piratepoppers</link>
+      <description>Pirate popping fun</description>
+      <guid>yahoogames/guid/piratepoppers</guid>
+      <pubDate>Mon, 03 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Inca Quest (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=incaquest</link>
+      <description>A color-popping puzzle journey</description>
+      <guid>yahoogames/guid/incaquest</guid>
+      <pubDate>Mon, 03 Apr 2006 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cake Mania (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=cakemania</link>
+      <description>Fast-paced culinary delight</description>
+      <guid>yahoogames/guid/cakemania</guid>
+      <pubDate>Mon, 27 Mar 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Poker Superstars II (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=pokersuperstars2</link>
+      <description>Beware the dead man's hand...</description>
+      <guid>yahoogames/guid/pokersuperstars2</guid>
+      <pubDate>Mon, 20 Mar 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Puppy Luv (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=puppyluv</link>
+      <description>Fall in love with your pup</description>
+      <guid>yahoogames/guid/puppyluv</guid>
+      <pubDate>Mon, 13 Mar 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Garden Dreams (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=gardendreams</link>
+      <description>An extreme gardening adventure</description>
+      <guid>yahoogames/guid/gardendreams</guid>
+      <pubDate>Mon, 13 Mar 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Strike Ball 2 (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=strikeball2</link>
+      <description>The block-busting fun continues</description>
+      <guid>yahoogames/guid/strikeball2</guid>
+      <pubDate>Mon, 06 Mar 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Plantasia (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=plantasia</link>
+      <description>Watch your gardens bloom</description>
+      <guid>yahoogames/guid/plantasia</guid>
+      <pubDate>Mon, 06 Mar 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LEGO Builder Bots (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=legobuilderbots</link>
+      <description>Catch falling LEGO bricks</description>
+      <guid>yahoogames/guid/legobuilderbots</guid>
+      <pubDate>Tue, 28 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Karu (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=karu</link>
+      <description>Stop a slithering menace</description>
+      <guid>yahoogames/guid/karu</guid>
+      <pubDate>Mon, 27 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jewel Thief (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=jewelthief</link>
+      <description>Liberate jewels for The Agency</description>
+      <guid>yahoogames/guid/jewelthief</guid>
+      <pubDate>Tue, 21 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Apprentice (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=apprentice</link>
+      <description>Climb the corporate ladder</description>
+      <guid>yahoogames/guid/apprentice</guid>
+      <pubDate>Tue, 21 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hotel Solitaire (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=hotelsolitaire</link>
+      <description>Book yourself into Hotel Solitaire</description>
+      <guid>yahoogames/guid/hotelsolitaire</guid>
+      <pubDate>Mon, 13 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wonderlines (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=wonderlines</link>
+      <description>Experience the beauty of the jungle</description>
+      <guid>yahoogames/guid/wonderlines</guid>
+      <pubDate>Mon, 13 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Arctic Quest (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=arctic</link>
+      <description>Defeat the evil Snow King</description>
+      <guid>yahoogames/guid/arctic</guid>
+      <pubDate>Mon, 06 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Legend of Aladdin (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=legendofaladdin</link>
+      <description>Go on an exotic trip</description>
+      <guid>yahoogames/guid/legendofaladdin</guid>
+      <pubDate>Mon, 06 Feb 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Funkiball (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=funkiball</link>
+      <description>Rescue the stolen paintings</description>
+      <guid>yahoogames/guid/funkiball</guid>
+      <pubDate>Mon, 30 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Egg vs. Chicken (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=eggvschicken</link>
+      <description>Which came first?</description>
+      <guid>yahoogames/guid/eggvschicken</guid>
+      <pubDate>Mon, 30 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mirror Magic (web)</title>
+      <link>http://games.yahoo.com/games/downloads/mirrormagic.html?a=b</link>
+      <description>Test your observation skills</description>
+      <guid>yahoogames/guid/mirrormagic</guid>
+      <pubDate>Mon, 23 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zulu Gems (web)</title>
+      <link>http://games.yahoo.com/games/downloads/zulugems.html?a=b</link>
+      <description>Smash gems, uncover treasure</description>
+      <guid>yahoogames/guid/zulugems</guid>
+      <pubDate>Mon, 23 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cinema Tycoon (web)</title>
+      <link>http://games.yahoo.com/games/downloads/cinematycoon.html?a=b</link>
+      <description>Manage your own movie theater</description>
+      <guid>yahoogames/guid/cinematycoon</guid>
+      <pubDate>Tue, 17 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gem Shop (web)</title>
+      <link>http://games.yahoo.com/games/downloads/gemshop.html?a=b</link>
+      <description>Make jewelry and keep customers happy</description>
+      <guid>yahoogames/guid/gemshop</guid>
+      <pubDate>Tue, 17 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bonnie's Bookstore (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=bonnie</link>
+      <description>Help an aspiring writer fulfill her dreams</description>
+      <guid>yahoogames/guid/bonnie</guid>
+      <pubDate>Tue, 17 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rainbow Web (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=rainbowweb</link>
+      <description>Get caught in a web of puzzle fun</description>
+      <guid>yahoogames/guid/rainbowweb</guid>
+      <pubDate>Tue, 17 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mah Jong Adventures (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=mahjongadventures</link>
+      <description>Start your adventure today!</description>
+      <guid>yahoogames/guid/mahjongadventures</guid>
+      <pubDate>Mon, 09 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wheel of Fortune (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=wheeloffortune</link>
+      <description>Take the wheel for a spin!</description>
+      <guid>yahoogames/guid/wheeloffortune</guid>
+      <pubDate>Mon, 09 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Five Card Deluxe (web)</title>
+      <link>http://games.yahoo.com/games/downloads/fivecard.html?a=b</link>
+      <description>Solitaire meets poker</description>
+      <guid>yahoogames/guid/fivecard</guid>
+      <pubDate>Wed, 04 Jan 2006 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>King Kong (web)</title>
+      <link>http://games.yahoo.com/games/downloads/kong.html?a=b</link>
+      <description>A world of mystery and action</description>
+      <guid>yahoogames/guid/kong</guid>
+      <pubDate>Wed, 21 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Crime Puzzle (web)</title>
+      <link>http://games.yahoo.com/games/downloads/crimepuzzle.html?a=b</link>
+      <description>A mysterious twist to the classic puzzle game</description>
+      <guid>yahoogames/guid/crimepuzzle</guid>
+      <pubDate>Wed, 21 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hexalot (web)</title>
+      <link>http://games.yahoo.com/games/downloads/hexalot.html?a=b</link>
+      <description>The mind-bending puzzle game</description>
+      <guid>yahoogames/guid/hexalot</guid>
+      <pubDate>Wed, 21 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Aloha TriPeaks (web)</title>
+      <link>http://games.yahoo.com/games/downloads/alohatripeaks.html?a=b</link>
+      <description>Tripeaks solitaire in a Hawaiian setting</description>
+      <guid>yahoogames/guid/alohatripeaks</guid>
+      <pubDate>Wed, 21 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>TriJinx (web)</title>
+      <link>http://games.yahoo.com/games/downloads/trijinx.html?a=b</link>
+      <description>Unlock the ancient gates of TriJinx</description>
+      <guid>yahoogames/guid/trijinx</guid>
+      <pubDate>Wed, 21 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tradewinds Legends (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=tradewindslegends</link>
+      <description>Sail, trade, battle</description>
+      <guid>yahoogames/guid/tradewindslegends</guid>
+      <pubDate>Wed, 21 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MCF: Huntsville (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=huntsville</link>
+      <description>Locate hidden clues</description>
+      <guid>yahoogames/guid/huntsville</guid>
+      <pubDate>Mon, 19 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>King Kong (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=kong</link>
+      <description>A world of mystery and action</description>
+      <guid>yahoogames/guid/kong</guid>
+      <pubDate>Thu, 15 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Loco: Christmas Edition (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=locoxmas</link>
+      <description>Save Christmas!</description>
+      <guid>yahoogames/guid/locoxmas</guid>
+      <pubDate>Sun, 11 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>JEOPARDY! (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=jeopardy</link>
+      <description>Test your knowledge</description>
+      <guid>yahoogames/guid/jeopardy</guid>
+      <pubDate>Sun, 11 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bricks of Atlantis (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=bricksofatlantis</link>
+      <description>The lost world of Atlantis</description>
+      <guid>yahoogames/guid/bricksofatlantis</guid>
+      <pubDate>Mon, 05 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bone (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=bone</link>
+      <description>Enter a magical world</description>
+      <guid>yahoogames/guid/bone</guid>
+      <pubDate>Mon, 05 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mah Jong Towers Eternity (web)</title>
+      <link>http://games.yahoo.com/games/downloads/mahjongtowerseternity.html?a=b</link>
+      <description>Three unique mahjong modes</description>
+      <guid>yahoogames/guid/mahjongtowerseternity</guid>
+      <pubDate>Fri, 02 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bricks of Egypt (web)</title>
+      <link>http://games.yahoo.com/games/downloads/egypt.html?a=b</link>
+      <description>Go brick-breaking in Egypt</description>
+      <guid>yahoogames/guid/egypt</guid>
+      <pubDate>Fri, 02 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>JigWords (web)</title>
+      <link>http://games.yahoo.com/games/downloads/jigwords.html?a=b</link>
+      <description>Make words to reveal photos</description>
+      <guid>yahoogames/guid/jigwords</guid>
+      <pubDate>Fri, 02 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chicken Invaders 2 (web)</title>
+      <link>http://games.yahoo.com/games/downloads/chickeninvaders2.html?a=b</link>
+      <description>The chickens have returned</description>
+      <guid>yahoogames/guid/chickeninvaders2</guid>
+      <pubDate>Fri, 02 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chicken Invaders 2 Christmas (web)</title>
+      <link>http://games.yahoo.com/games/downloads/chickeninvaders2xmas.html?a=b</link>
+      <description>Save Christmas!</description>
+      <guid>yahoogames/guid/chickeninvaders2xmas</guid>
+      <pubDate>Fri, 02 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Holiday Express (web)</title>
+      <link>http://games.yahoo.com/games/downloads/holidayexpress.html?a=b</link>
+      <description>Reveal festive holiday photos</description>
+      <guid>yahoogames/guid/holidayexpress</guid>
+      <pubDate>Fri, 02 Dec 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roller Rush (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=rollerrush</link>
+      <description>Manage your own drive-in</description>
+      <guid>yahoogames/guid/rollerrush</guid>
+      <pubDate>Tue, 29 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fairies (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=fairies</link>
+      <description>Save the fairies from evil</description>
+      <guid>yahoogames/guid/fairies</guid>
+      <pubDate>Mon, 28 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chicken Invaders 2 Christmas (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=chickeninvaders2xmas</link>
+      <description>Save Christmas!</description>
+      <guid>yahoogames/guid/chickeninvaders2xmas</guid>
+      <pubDate>Tue, 22 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Family Feud&amp;#153; Holiday (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=familyfeudholiday</link>
+      <description>Let's play Family Feud&amp;#0153;</description>
+      <guid>yahoogames/guid/familyfeudholiday</guid>
+      <pubDate>Tue, 22 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Holiday Express (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=holidayexpress</link>
+      <description>Reveal festive holiday photos</description>
+      <guid>yahoogames/guid/holidayexpress</guid>
+      <pubDate>Tue, 22 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bewitched (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=bewitched</link>
+      <description>A truly bewitching game</description>
+      <guid>yahoogames/guid/bewitched</guid>
+      <pubDate>Mon, 21 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luxor 2 (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=luxoramunrising</link>
+      <description>Glory and Adventure await you</description>
+      <guid>yahoogames/guid/luxoramunrising</guid>
+      <pubDate>Mon, 14 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Reader's Digest Super Word Power (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=wordpower</link>
+      <description>Increase your brain power</description>
+      <guid>yahoogames/guid/wordpower</guid>
+      <pubDate>Mon, 14 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tradewinds 2 (web)</title>
+      <link>http://games.yahoo.com/games/downloads/tradewinds2.html?a=b</link>
+      <description>Create a vast trading empire</description>
+      <guid>yahoogames/guid/tradewinds2</guid>
+      <pubDate>Fri, 11 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fortune Tiles (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=fortunetiles</link>
+      <description>Seek the path to enlightenment</description>
+      <guid>yahoogames/guid/fortunetiles</guid>
+      <pubDate>Mon, 07 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hexalot (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=hexalot</link>
+      <description>The mind-bending puzzle game</description>
+      <guid>yahoogames/guid/hexalot</guid>
+      <pubDate>Mon, 07 Nov 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Aloha TriPeaks (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=alohatripeaks</link>
+      <description>Tripeaks solitaire in a Hawaiian setting</description>
+      <guid>yahoogames/guid/alohatripeaks</guid>
+      <pubDate>Mon, 31 Oct 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Phlinx (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=phlinx</link>
+      <description>Experience glorious Egypt</description>
+      <guid>yahoogames/guid/phlinx</guid>
+      <pubDate>Mon, 31 Oct 2005 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ball 7 (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=ball7</link>
+      <description>An exciting new block busting experience</description>
+      <guid>yahoogames/guid/ball7</guid>
+      <pubDate>Tue, 25 Oct 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Magic Match (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=magicmatch</link>
+      <description>An enchanting fantasy matching game</description>
+      <guid>yahoogames/guid/magicmatch</guid>
+      <pubDate>Tue, 25 Oct 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beetle Bomp (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=beetlebomp</link>
+      <description>Try to solve the buggy mystery</description>
+      <guid>yahoogames/guid/beetlebomp</guid>
+      <pubDate>Fri, 14 Oct 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gem Shop (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=gemshop</link>
+      <description>Make jewelry and keep customers happy</description>
+      <guid>yahoogames/guid/gemshop</guid>
+      <pubDate>Fri, 14 Oct 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ancient Tri-Jong (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=trijong</link>
+      <description>Mah Jong and Tripeaks Solitaire in one</description>
+      <guid>yahoogames/guid/trijong</guid>
+      <pubDate>Thu, 06 Oct 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Crystalix (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=crystalix</link>
+      <description>A challenging action-puzzle adventure</description>
+      <guid>yahoogames/guid/crystalix</guid>
+      <pubDate>Thu, 06 Oct 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cubis 2 (web)</title>
+      <link>http://games.yahoo.com/games/downloads/cubis2.html?a=b</link>
+      <description>A new dimension of fun</description>
+      <guid>yahoogames/guid/cubis2</guid>
+      <pubDate>Fri, 30 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Splash (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=splash</link>
+      <description>Embark on a splish splashy quest</description>
+      <guid>yahoogames/guid/splash</guid>
+      <pubDate>Fri, 30 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fireworks Extravaganza (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=fireworks</link>
+      <description>Create your own fireworks show</description>
+      <guid>yahoogames/guid/fireworks</guid>
+      <pubDate>Fri, 30 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Incrediball (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=incrediball</link>
+      <description>Break bricks and collect treasure </description>
+      <guid>yahoogames/guid/incrediball</guid>
+      <pubDate>Fri, 23 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zoo Vet (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=zoovet</link>
+      <description>Become the vet at your own zoo</description>
+      <guid>yahoogames/guid/zoovet</guid>
+      <pubDate>Fri, 23 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quest Bundle (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=jqmqbundle</link>
+      <description>Two amazing quest games for one low price</description>
+      <guid>yahoogames/guid/jqmqbundle</guid>
+      <pubDate>Thu, 15 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cactus Bruce (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=cactusbruce</link>
+      <description>Defeat the corporate monkeys</description>
+      <guid>yahoogames/guid/cactusbruce</guid>
+      <pubDate>Thu, 15 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>TriJinx (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=trijinx</link>
+      <description>Unlock the ancient gates of TriJinx</description>
+      <guid>yahoogames/guid/trijinx</guid>
+      <pubDate>Thu, 15 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Five Card Deluxe (web)</title>
+      <link>http://games.yahoo.com/games/downloads/fivecard.html?a=b</link>
+      <description>Solitaire meets poker</description>
+      <guid>yahoogames/guid/fivecard</guid>
+      <pubDate>Fri, 09 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cinema Tycoon (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=cinematycoon</link>
+      <description>Manage your own movie theater</description>
+      <guid>yahoogames/guid/cinematycoon</guid>
+      <pubDate>Fri, 09 Sep 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mah Jong Towers Eternity (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=mahjongtowerseternity</link>
+      <description>Three unique mahjong modes</description>
+      <guid>yahoogames/guid/mahjongtowerseternity</guid>
+      <pubDate>Wed, 31 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fate (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=fate</link>
+      <description>Adventure and mystery abound</description>
+      <guid>yahoogames/guid/fate</guid>
+      <pubDate>Wed, 31 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Crime Puzzle (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=crimepuzzle</link>
+      <description>A mysterious twist to the classic puzzle game</description>
+      <guid>yahoogames/guid/crimepuzzle</guid>
+      <pubDate>Thu, 25 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Atlantis (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=atlantisbf</link>
+      <description>Unlock the secrets of the lost city</description>
+      <guid>yahoogames/guid/atlantisbf</guid>
+      <pubDate>Tue, 23 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Word Island (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=wordisland</link>
+      <description>Guide your monkeys through the jungle</description>
+      <guid>yahoogames/guid/wordisland</guid>
+      <pubDate>Fri, 19 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bricks of Camelot (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=camelot</link>
+      <description>Join the epic adventures of Camelot</description>
+      <guid>yahoogames/guid/camelot</guid>
+      <pubDate>Fri, 19 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Groove-O-Matic (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=grooveomatic</link>
+      <description>Get your groove on in this all new dance game</description>
+      <guid>yahoogames/guid/grooveomatic</guid>
+      <pubDate>Fri, 19 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twistingo (web)</title>
+      <link>http://games.yahoo.com/games/downloads/tw.html?a=b</link>
+      <description>It's bingo ... with a twist</description>
+      <guid>yahoogames/guid/tw</guid>
+      <pubDate>Thu, 11 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mah Jong Jade Expedition (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=mje</link>
+      <description>Embark on a Mah Jong adventure</description>
+      <guid>yahoogames/guid/mje</guid>
+      <pubDate>Thu, 11 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Magic Ball 2: New Worlds (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=magicball2nw</link>
+      <description>More Magic Mayhem</description>
+      <guid>yahoogames/guid/magicball2nw</guid>
+      <pubDate>Thu, 11 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Maui Wowee (web)</title>
+      <link>http://games.yahoo.com/games/downloads/mw.html?a=b</link>
+      <description>Turn the tiles from dirt to gold</description>
+      <guid>yahoogames/guid/mw</guid>
+      <pubDate>Fri, 05 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Subway Scramble (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=subway</link>
+      <description>A rapid transit romp</description>
+      <guid>yahoogames/guid/subway</guid>
+      <pubDate>Thu, 04 Aug 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Aloha Solitaire (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=alohasolitaire</link>
+      <description>A mix of card games and mahjong</description>
+      <guid>yahoogames/guid/alohasolitaire</guid>
+      <pubDate>Wed, 27 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chuzzle (web)</title>
+      <link>http://games.yahoo.com/games/downloads/cz.html?a=b</link>
+      <description>Adorably fuzzy giggling Chuzzles</description>
+      <guid>yahoogames/guid/cz</guid>
+      <pubDate>Thu, 21 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chicken Rush (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=chickenrush</link>
+      <description>Watch the feathers fly</description>
+      <guid>yahoogames/guid/chickenrush</guid>
+      <pubDate>Thu, 21 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Family Feud&amp;#153; (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=familyfeud</link>
+      <description>It's time to play the Family Feud&amp;#0153;</description>
+      <guid>yahoogames/guid/familyfeud</guid>
+      <pubDate>Thu, 14 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Twistingo (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=twistingo</link>
+      <description>It's bingo ... with a twist</description>
+      <guid>yahoogames/guid/tw</guid>
+      <pubDate>Thu, 14 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gold Fever (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=goldfever</link>
+      <description>Explore the great American Gold Rush</description>
+      <guid>yahoogames/guid/goldfever</guid>
+      <pubDate>Fri, 08 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Betty's Beer Bar (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=betty</link>
+      <description>Hours of fun bartending action</description>
+      <guid>yahoogames/guid/betty</guid>
+      <pubDate>Fri, 08 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chicken Invaders 2 (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=chickeninvaders2</link>
+      <description>The chickens have returned</description>
+      <guid>yahoogames/guid/chickeninvaders2</guid>
+      <pubDate>Fri, 01 Jul 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mah Jong Medley (web)</title>
+      <link>http://games.yahoo.com/games/downloads/mm.html?a=b</link>
+      <description>Four unique Mah Jong game modes</description>
+      <guid>yahoogames/guid/mm</guid>
+      <pubDate>Fri, 24 Jun 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Slyder Adventures (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=slyder</link>
+      <description>The spherical hero returns</description>
+      <guid>yahoogames/guid/slyder</guid>
+      <pubDate>Fri, 24 Jun 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bricks of Egypt (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=egypt</link>
+      <description>Go brick-breaking in Egypt</description>
+      <guid>yahoogames/guid/egypt</guid>
+      <pubDate>Wed, 15 Jun 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>JigWords (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=jigwords</link>
+      <description>Make words to reveal photos</description>
+      <guid>yahoogames/guid/jigwords</guid>
+      <pubDate>Thu, 09 Jun 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tumblebugs (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=tumblebugs</link>
+      <description>Save your beetle buddies</description>
+      <guid>yahoogames/guid/tumblebugs</guid>
+      <pubDate>Thu, 09 Jun 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wild West Wendy (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=wendy</link>
+      <description>Open your saloon in the Wild West</description>
+      <guid>yahoogames/guid/wendy</guid>
+      <pubDate>Tue, 31 May 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chuzzle (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=chuzzle</link>
+      <description>Adorably fuzzy giggling Chuzzles</description>
+      <guid>yahoogames/guid/cz</guid>
+      <pubDate>Tue, 31 May 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dominoes (mobile)</title>
+      <link>http://mobile.yahoo.com/fungames/appdl/product?pid=y3</link>
+      <description>Play Dominoes on the go</description>
+      <guid>yahoogames/guid/mobiledominoes</guid>
+      <pubDate>Tue, 31 May 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Spin and Win (download)</title>
+      <link>http://get.games.yahoo.com/proddesc?gamekey=spin</link>
+      <description>Spin the wheel, play the games</description>
+      <guid>yahoogames/guid/spin</guid>
+      <pubDate>Mon, 25 Apr 2005 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mah Jong Quest (web)</title>
+      <link>http://games.yahoo.com/games/downloads/mq.html?a=b</link>
+      <description>An epic tale of tile matching</description>
+      <guid>yahoogames/guid/mq</guid>
+      <pubDate>Mon, 25 Apr 2005 07:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<rss version="0.91">
+ <channel>
+  <pubDate>Wed, 24 May 2006 21:35:51 GMT</pubDate>
+  <description>Newest Articles and How-To's on PHPBuilder.com</description>
+  <link>http://phpbuilder.com</link>
+  <title>PHPBuilder.com New Articles</title>
+  <webMaster>staff@phpbuilder.com</webMaster>
+  <language>en-us</language>
+  <item>
+   <title>In Case You Missed It...The Week of May 15th, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060515.php3</link>
+   <description>In Case You Missed It...The Week of May 15th, 2006</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of May 8th, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060508.php3</link>
+   <description>In Case You Missed It...The Week of May 8th, 2006</description>
+  </item>
+  <item>
+   <title>An Introduction to Graphs Using PEAR's Image_Graph Package</title>
+   <link>http://www.phpbuilder.com/columns/ian_gilfillan20060503.php3</link>
+   <description>An Introduction to Graphs Using PEAR's Image_Graph Package</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of May 1st, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060501.php3</link>
+   <description>In Case You Missed It...The Week of May 1st, 2006</description>
+  </item>
+  <item>
+   <title>Using XML, a PHP Developer's Primer: XML-RPC, PHP and Javascript, Part 2</title>
+   <link>http://www.phpbuilder.com/columns/adam_delves20060417_Part2.php3</link>
+   <description>Using XML, a PHP Developer's Primer: XML-RPC, PHP and Javascript, Part 2</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of April 24, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060424.php3</link>
+   <description>In Case You Missed It...The Week of April 24, 2006</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of April 17, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060417.php3</link>
+   <description>In Case You Missed It...The Week of April 17, 2006</description>
+  </item>
+  <item>
+   <title>Using XML, a PHP Developer's Primer, Part 4: XML-RPC, PHP and Javascript</title>
+   <link>http://www.phpbuilder.com/columns/adam_delves20060417.php3</link>
+   <description>Using XML, a PHP Developer's Primer, Part 4: XML-RPC, PHP and Javascript</description>
+  </item>
+  <item>
+   <title>Preventing Spam When Using PHP's Mail Function</title>
+   <link>http://www.phpbuilder.com/columns/ian_gilfillan20060412.php3</link>
+   <description>Preventing Spam When Using PHP's Mail Function</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of April 10, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060410.php3</link>
+   <description>In Case You Missed It...The Week of April 10, 2006</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of April 3rd, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060403.php3</link>
+   <description>In Case You Missed It...The Week of April 3rd, 2006</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of March 26, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060326.php3</link>
+   <description>In Case You Missed It...The Week of March 26, 2006</description>
+  </item>
+  <item>
+   <title>Using XML: A PHP Developer's Primer, Part 3</title>
+   <link>http://www.phpbuilder.com/columns/adam_delves20060322.php3</link>
+   <description>Using XML: A PHP Developer's Primer, Part 3</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of March 19, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060319.php3</link>
+   <description>In Case You Missed It...The Week of March 19, 2006</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of March 12, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060312.php3</link>
+   <description>In Case You Missed It...The Week of March 12, 2006</description>
+  </item>
+  <item>
+   <title>phpwiki - The Wiki for PHP Developers</title>
+   <link>http://www.phpbuilder.com/columns/ian_gilfillan20060309.php3</link>
+   <description>phpwiki - The Wiki for PHP Developers</description>
+  </item>
+  <item>
+   <title>Visual Verification in PHP</title>
+   <link>http://www.phpbuilder.com/columns/patterson20060301.php3</link>
+   <description>Visual Verification in PHP</description>
+  </item>
+  <item>
+   <title>Using XML: A PHP Developer's Primer, Part 2</title>
+   <link>http://www.phpbuilder.com/columns/adam_delves20060224.php3</link>
+   <description>Using XML: A PHP Developer's Primer, Part 2</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of February 20, 2006</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060220.php3</link>
+   <description>In Case You Missed It...The Week of February 20, 2006</description>
+  </item>
+  <item>
+   <title>In Case You Missed It...The Week of February 13, 2005</title>
+   <link>http://www.phpbuilder.com/columns/weeklyroundup20060213.php3</link>
+   <description>In Case You Missed It...The Week of February 13, 2005</description>
+  </item>
+</channel>
+</rss>

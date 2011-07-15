@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss1full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:cc="http://web.resource.org/cc/" xmlns="http://purl.org/rss/1.0/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="http://www.boingboing.net/">
+<title>Boing Boing</title>
+<link>http://www.boingboing.net/</link>
+<description />
+<dc:language>en-us</dc:language>
+<dc:creator />
+<dc:date>2006-05-24T13:18:36-08:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.661" />
+
+
+<items>
+<rdf:Seq><rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/tomorrow_is_towel_da.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/howto_operate_disney.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/hilarious_column_on_.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/animal_overpasses_en.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/gam3r_7h30ry_a_netwo.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/canadian_students_as.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/bmw_distributes_free.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/24/new_story_on_corys_p.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/grease_monkey_indie_.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/crybaby_kazaa_sues_p.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/tmbg_ringtone_call_c.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/is_highfructose_corn.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/nike_sneakers_commun.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/gaiman_on_the_myth_o.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/demographics_of_nycs.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/antidrm_demonstrator.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/orphan_works_bill_in.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/dinosaur_species_nam.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/sacrelicious_porny_b.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/wtf_is_going_on_with.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/zoom_forever_into_th.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/grow_a_square_waterm.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/old_panama_photos_fr.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/seeing_machine_for_t.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/chronicles_of_narnia.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/smartfilter_censors_.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/domino_run_video_in_.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/circuit_board_busine.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/scottish_rite_real_t.html" />
+<rdf:li rdf:resource="http://www.boingboing.net/2006/05/23/help_make_a_rtfm_on_.html" />
+</rdf:Seq>
+</items>
+
+<feedburner:awareness>http://api.feedburner.com/awareness/1.0/GetFeedData?uri=boingboing/iBag</feedburner:awareness><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/boingboing/iBag" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly></channel>
+
+<item rdf:about="http://www.boingboing.net/2006/05/24/tomorrow_is_towel_da.html">
+<title>Tomorrow is Towel Day, for Douglas Adams</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1566</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Tomorrow is Towel Day, a day of remembrance for Douglas Adams, author of the Hitchhikers' Guide to the Galaxy. Observe it by carrying a towel all day.
+
+&lt;a href="http://www.towelday.kojv.net/"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;Thanks, &lt;a href="http://bluemoonrising.com/"&gt;Jeff&lt;/a&gt;!&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=5t4o8i"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=5t4o8i" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T13:18:36-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/tomorrow_is_towel_da.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/24/howto_operate_disney.html">
+<title>HOWTO operate Disney's Pirates ride, circa 1976</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1565</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+&lt;img src="http://craphound.com/images/potc1876sop.jpg" width="405" height="241"&gt;&lt;br&gt;
+Here's a link to the 1976 edition of the standard operating procedures for Disneyland's Pirates of the Caribbean.
+&lt;p&gt;
+My favorite Disney-geek reading is the old operating-procedure manuals for the rides. These docs are all one-of-a-kind Rube Goldberg machines, intended to be operated by large crews of semi-skilled, lightly trained individuals who spend 8-12 hours per day loading the richest children on Earth into modified threshing machines. Therefore, the manuals tend to be wonderfully lucid and down-to-earth, the Hemingway of documentation.
+
+&lt;a href=http://tinselman.typepad.com/tinselman/2006/05/pirates_of_the_.html"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;via &lt;a href="http://thedisneyblog.typepad.com/tdb/"&gt;The Disney Blog&lt;/a&gt;&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=7vgFe5"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=7vgFe5" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T12:47:22-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/howto_operate_disney.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/24/hilarious_column_on_.html">
+<title>Hilarious column on rental-car tech</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1564</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Lore Sj&amp;ouml;berg continues to write laugh-aloud-funny columns in Wired News -- this one is about the great, useless technology that crowds the dashboards of rental cars. I've never owned a car, so pretty much every ride I've ever piloted has been a hertzmobile, and I love getting all those knobs and buttons to endanger myself with:
+
+&lt;blockquote&gt;
+Satellite radio is very dangerous, because I'm really not qualified to make aesthetic decisions at 70 mph. It generally takes me three near misses to give up and go with the station that most resembles my own record collection. It's nice to know that at least one other person, or perhaps algorithm, out there likes "One Night in Bangkok."
+&lt;p&gt;
+Rental cars these days also have buttons all over the steering wheel, which makes me very happy. This is because like all rational, mature adults, I want to be Speed Racer. All I need is a child and his chimp in the trunk and I'm ready to rock. It's not precisely totally 100 percent the same, though, because Speed's buttons transformed the car into a boat and launched a robot homing pigeon, while my buttons engage cruise control. In all honesty, I'm about 400 times more likely to use cruise control as I am to need a robot pigeon, but it would be nice to have both.
+&lt;p&gt;
+I think the point of having the buttons on the steering wheel is that it's supposed to be safer, but it's actually more dangerous for the first 15 minutes, because that's when I'm experimenting. I'm pressing all the buttons to see what they do. I'd make a terrible James Bond. Two minutes after I pulled into traffic the streets would be covered in oil slicks and smoke screens, and I'd be trailing a grappling hook.
+&lt;/blockquote&gt;
+
+&lt;a href="http://www.wired.com/news/columns/1,70968-0.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=Qgd6ah"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=Qgd6ah" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T12:33:23-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/hilarious_column_on_.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/24/animal_overpasses_en.html">
+<title>Animal overpasses enable critters' "sex across the highway"</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1563</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+&lt;img src="http://craphound.com/images/animaloverpassinfographic.jpg" width="397" height="288"&gt;&lt;br&gt;
+
+Y2Y is an ambitious project to create safe freeway crossings for animals from the Yukon to Yellowstone, in the form of overpasses and underpasses designed to lure animals into crossing away from traffic. That's good news for animals -- who are dying in increasing numbers from traffic fatalities -- and good news for drivers. As Clive Thompson &lt;a href="http://www.collisiondetection.net/mt/archives/2006/05/the_blackbear_o.html#001491"&gt;reports&lt;/a&gt;, "slamming into an enormous black bear at 60 miles an hour is kinetically equivalent to driving into a brick wall."
+
+
+&lt;blockquote&gt;
+ Their goal is not just a wolf pack surviving here and there, or a few scattered grizzly bears or elk or bighorn sheep, but a landscape in which animals can thrive, roaming and reproducing widely and avoiding the genetic perils of small populations trapped in shrinking habitats.
+&lt;p&gt;
+When the researchers write up their findings for scientific journals, they call this goal "functional connectivity," said Michael Proctor, a zoologist and postdoctoral researcher at the University of Alberta. He calls it "sex across the highway."
+
+
+&lt;/blockquote&gt;
+
+&lt;a href="http://www.nytimes.com/2006/05/23/science/earth/23corr.html?ex=1306036800&amp;en=c14250c88bdf3eb8&amp;ei=5090&amp;partner=rssuserland&amp;emc=rss"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;via &lt;a href="http://collisiondetection.net/"&gt;Collission Detection&lt;/a&gt;&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=9lyXx5"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=9lyXx5" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T09:48:48-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/animal_overpasses_en.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/24/gam3r_7h30ry_a_netwo.html">
+<title>GAM3R 7H30RY: a networked book on games</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1561</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Ben of the Institute for the Future of the Book writes in about his latest project, "an open online book from Hacker Manifesto author McKenzie Wark entitled GAM3R 7H30RY (gamer theory). The subject: video games (as allegories of the world we live in).
+&lt;p&gt;
+"GAM3R 7H30RY 1.1 is an experiment in networked publishing. The Institute designed a web site that would enable McKenzie to engage with readers before the book is fully cooked, to see how a larger conversation might impact its development. Each individual paragraph has its own comment stream allowing for fine-grained response to the text. There's also a free-fire discussion forum where people can start their own conversations about the meaning of games and the propositions ventured in the book. It's all published under a CC license.
+&lt;p&gt;
+"All in all, an envelope-pushing endeavor, in both form and content. Eventually, GAM3R 7H30RY will be published by a conventional press, but between now and then we're trying to investigate new creative strategies in the peer-to-peer environment. We call this a 'networked book' — the book as social software. We're hoping to spark discussion about that as well."
+&lt;p&gt;
+
+&lt;a href="http://www.futureofthebook.org/gamertheory/"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;Thanks, &lt;a href="http://www.futureofthebook.org"&gt;Ben&lt;/a&gt;!&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=bHmMMs"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=bHmMMs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T08:34:54-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/gam3r_7h30ry_a_netwo.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/24/canadian_students_as.html">
+<title>Canadian students ask govt to save them from copyright</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1562</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Michael sez, "The Canadian Federation of Students, which represents more than 500,000 university and college students across Canada, has released a public letter to Ministers Oda and Bernier on copyright reform. The CFS identifies five issues of concern."
+
+&lt;blockquote&gt;
+* Anti-circumvention legislation - the CFS recognizes the dangers associated with DRM and argues that if the government is to legislate in the area, that it adopt a minimalist approach&lt;p&gt;
+* ISP liabiliity - the CFS supports the "notice and notice" approach&lt;p&gt;
+* Fair use - the CFS calls for an expansion of fair dealing toward a U.S. style fair use system&lt;p&gt;
+* Digital Loans and Learning - the CFS advocates for provisions that support the use of the network without the additional burdens imposed by Bill C-60 that would have turned librarians into digital locksmiths&lt;p&gt;
+* Statutory Damages - the CFS wants the statutory damages reformed so that educators and students are not forced into settlements due to risk of enormous liability arising from the statutory damages provisions
+&lt;/blockquote&gt;
+
+&lt;a href="http://action.web.ca/home/cfs/en_alerts.shtml?x=88910&amp;AA_EX_Session=d56bebd39174d9839ec3ee5fa6fe93a4"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;Thanks, &lt;a href="http://michaelgeist.ca/component/option,com_content/task,view/id,1263/Itemid,85/nsub,/"&gt;Michael&lt;/a&gt;!&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=TQU4BU"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=TQU4BU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T08:32:46-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/canadian_students_as.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/24/bmw_distributes_free.html">
+<title>BMW distributes free audiobooks featuring their cars</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1560</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+BMW has commissioned four short stories that feature their cars and produced audiobooks of them, which are available as free, non-DRMed MP3s on their site (you do have to give them an unverified email address to get access, though). Presently, they're featuring stories by Don Winslow, James Flint, Simon Kernick and Karin Slaughter.
+
+&lt;a href="http://www.bmw-audiobooks.com/default.aspx"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;Thanks, &lt;a href="http://www.dead-channel.net"&gt;Tim&lt;/a&gt;!&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=OusNUg"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=OusNUg" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T08:27:16-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/bmw_distributes_free.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/24/new_story_on_corys_p.html">
+<title>New story on Cory's podcast: "Super-Man and the Bugout"</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1559</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+
+
+I've just posted the first of three installments of the podcast of my story &lt;a href="http://craphound.com/?p=126"&gt;The Super-Man and the Bugout,&lt;/a&gt; a superhero story that asks what would have happened if Kal-el had landed in suburban Toronto and been raised by an old Jewish couple. It's the conclusion of the triad of stories comprised by &lt;a href="http://craphound.com/000133.html"&gt;Shadow of the Mothaship&lt;/a&gt; and &lt;a href="http://craphound.com/000135.html"&gt;Home Again, Home Again&lt;/a&gt;, about the Canadian response to the invasion of benevolent Scientologist aliens.
+&lt;p&gt;
+&lt;a href="http://craphound.com/?p=1648"&gt;Link&lt;/a&gt;, &lt;a href="http://feeds.feedburner.com/doctorow_podcast"&gt;Podcast feed&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=EPZWlv"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=EPZWlv" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-24T05:01:21-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/24/new_story_on_corys_p.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/grease_monkey_indie_.html">
+<title>Grease Monkey: indie space-station comic collection</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1558</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+&lt;img src="http://craphound.com/images/greasemoneycomicbookcover.jpg" width="214" height="299" align="left"&gt;
+
+Tim Eldred's indie comic book Grease Monkey -- a great, funny space adventure comic -- has been collected by Tor and has just hit the shelves. Grease Monkey is the story of a post-alien-invasion space-station where crack pilots drill ceaselessly to train for the rematch with the aliens -- like Ender's Game, but wicked funny. 
+&lt;p&gt;
+The Barbarian squadron are the all-woman leaders of the fleet, thanks in no small part to their mechanic Mac, who is an uplifted gibbon (part of a tribe of sentient apes that mixes with human society). The story is told from the PoV of Robin, Mac's young assistant, who is taken under Mac's hairy arm and treated to a crash-course in beating the system.
+&lt;p&gt;
+It's got space-battles, human-gorilla political clashes, and military humor: part Catch 22, part Planet of the Apes, and charming as hell. This is one of the rare fine comics that is a truly satisfying read for adults, but which contains nothing too racy for the average precocious twelve-year-old (said twelve-year-old will surely love this as much as her parents, by the way).
+&lt;p&gt;
+Kitchen Sink press published the first couple issues of this, but regrettably cancelled it. Eldred finished the series anyway, it being the sort of thing that you have to finish writing once you get started, and with the Tor edition, we get to read the whole story.
+
+&lt;a href="http://www.amazon.com/exec/obidos/ASIN/0765313251/downandoutint-20"&gt;Link&lt;/a&gt;
+
+&lt;p&gt;
+&lt;Font color="red"&gt;Update:&lt;/font&gt; Jim points out that the &lt;a href="http://www.greasemonkeybook.com"&gt;author's site&lt;/a&gt; has the first chapter up for free.
+&lt;br clear="all"&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=291aQz"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=291aQz" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:38:53-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/grease_monkey_indie_.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/crybaby_kazaa_sues_p.html">
+<title>Crybaby Kazaa sues P2PNet for libel</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1557</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Kazaa is suing P2P news-site P2Pnet for libel over a comment &lt;s&gt;left by a poster&lt;/s&gt; reprinted from a post on one of P2Pnet's message-boards. This is about as bogus as it comes -- real crybaby stuff, wah, someone said something nasty about me, I'll sue the site on which it appears -- and P2PNet deserves better. They're raising funds for their defense, and I'll pitch in a hundred bucks once it's live. Kazaa should know better -- this is an embarrassment to the company, far more damning than anything that could possibly have been said about them on the board itself.
+
+&lt;a href="http://p2pnet.net/story/8835"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;via &lt;a href="http://recordingindustryvspeople.blogspot.com/"&gt;Recording Industry vs the People&lt;/a&gt;&lt;/i&gt;)
+&lt;p&gt;
+&lt;font color="red"&gt;Update:&lt;/font&gt; An anonymous reader points out that the post was subsequently &lt;a href="http://66.218.69.11/search/cache?p=http%3A%2F%2Fwww.p2pnet.net%2Fstory%2F8699&amp;ei=UTF-8&amp;rls=org.mozilla%3Aen-US%3Aunofficial&amp;u=p2pnet.net/story/8699&amp;d=HtrOBkaqMyTm&amp;icp=1&amp;.intl=us"&gt;reprinted in the body of a P2Pnet article&lt;/a&gt; -- but I don't buy it. If allegation is false, correct it. This kind of libel suit is the last refuge of the coward, for people who don't believe that the answer to bad speech is more speech.
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=JnG70i"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=JnG70i" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:36:14-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/crybaby_kazaa_sues_p.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/tmbg_ringtone_call_c.html">
+<title>TMBG ringtone: "Call connected through the NSA"</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1556</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Brian sez, "They Might Be Giants is offering up a few ringtones for purchase. The first two are amusing, but the third in particular is great, and is titled 'Call connected thru the NSA', with lyrics as follows:"
+
+&lt;blockquote&gt;
+"Call connected through the NSA/Complete transmission through the NSA/Suspending your rights through the duration of the permanent war"
+&lt;/blockquote&gt;
+
+"It is sung rather pleasantly and has some nice piano accompaniment with the lyrics. It's available as a $1.50 purchase (through xingtone.com), but there is also a direct link to the freely-provided MP3 for those who prefer to make their own ringtones or who'd just like to use this as, say, a connecting sound for an IM client or an 'Email received' alert, etc."
+
+&lt;a href="http://www.theymightbegiants.com/"&gt;Link&lt;/a&gt;, &lt;a href="http://www.theymightbegiants.com/mp3/NSA.mp3"&gt;Direct MP3 link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=8QH08u"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=8QH08u" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:31:38-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/tmbg_ringtone_call_c.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/is_highfructose_corn.html">
+<title>Is high-fructose corn syrup the devil? Yup.</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1553</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Since reading Greg Critser's &lt;a href="http://www.amazon.com/exec/obidos/ASIN/0618380604/downandoutint-20"&gt;Fat Land: How Americans Became the Fattest People in the World&lt;/a&gt;, I've regarded high-fructose corn syrup as a kind of toxic waste, present in an unbelievable amount of processed/packaged food. But as with all issues related to commerce and obesity, HFCS is a controversial subject, with woo-woo UFOlogist pseudoscientists on both sides inventing virtues or flaws with HFCS. 
+&lt;p&gt;
+This Accidental Hedonist post does a pretty good job of digging into the reputable research on HFCS and concludes that avoiding this stuff (if you can) is a pretty good idea. I'm game: the last time I binged on sweet food laden with HFCS, I found myself miserable, tired, and hung-over for days afterwards.
+
+&lt;blockquote&gt;
+The one part of the HFCS debate which bugs me is the one that surrounds personal responsibility in regard to sugar intake. According to "An Omnivore's Dilemma", HFCS has not replaced sugar consumption in the US, it has merely added to it. In other words, not only are we consuming the same amount of sugars we did 20 years ago, we've added HFCS consumption on top of it. Before we can say "HFCS causes obesity", we have to be honest with ourselves and say "Too much sweeteners cause obesity", because the consumption of both absolutely plays into our weight gains.
+&lt;p&gt;
+It'd be nice to restrict HFCS intake, if it wasn't for the fact that it's in more foods than many people realize. From ketchups to soups to even cough syrups, HFCS has been made a staple of the processed food revolution. Avoiding HFCS has been made a difficult proposition that many people, including myself, are too undisciplined to address on a daily basis.
+&lt;p&gt;
+In addressing the above e-mails, it should be said that banning HFCS is an unlikely possibility, at least not until we recognize our own culpability in its consumption. But its excessive usage needs to be addressed and reduced. I would love to see food processors explain their addiction to the stuff, and in the process of this confrontation, we find out just how bad (or not) the stuff is for people. 
+&lt;/blockquote&gt;
+
+&lt;a href="http://www.accidentalhedonist.com/index.php/2006/05/22/more_on_hfcs_unanswered_questions_1"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;via &lt;a href="http://megnut.com/"&gt;the all-new, all-food Megnut&lt;/a&gt;&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=bI3h7b"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=bI3h7b" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:28:46-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/is_highfructose_corn.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/nike_sneakers_commun.html">
+<title>Nike sneakers communicate wirelessly with iPod Nanos</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1554</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+&lt;img src="http://craphound.com/images/nikeipodthingy.jpg" width="301" height="173" align="left"&gt;
+
+The Nike+ running shoes contain a pedometer sensor and a wireless transmitter that talks to a receiver you plug into your iPod Nano. You program your workout routine (and music) into your Nano, and it collaborates with the sensor to deliver messages like "two miles to go" to your headphones as you go, and tracks your workout for upload to your PC's fitness-tracking app. I'm no runner, but I'm fascinated to see what the hardware hackers make of a wireless sensor that connects to the most popular portable player on the market.
+
+&lt;a href="http://www.nike.com/nikeplus/#overview"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;via &lt;a href="http://warrenellis.com/"&gt;Warren Ellis&lt;/a&gt;&lt;/i&gt;)
+
+&lt;br clear="all"&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=4p2LdH"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=4p2LdH" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:21:56-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/nike_sneakers_commun.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/gaiman_on_the_myth_o.html">
+<title>Gaiman on "the myth of Superman"</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1555</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Neil Gaiman and Wired's Adam Rogers have a brief editorial on the "Myth of Superman" in this month's Wired Magazine -- always fascinating to see Gaiman (whose Sandman comics are very far from traditional underwear pervert super-funnybooks) tackling the subject of underwear-pervdom's number-one icon:
+
+&lt;blockquote&gt;
+What’s important, though, is how Superman uses these powers. Compared to most A-list comic characters, he has almost no memorable villains. Think of Batman, locked in eternal combat with nocturnal freaks like the Joker – or Spider-Man, battling megalomaniacal weirdos like Dr. Octopus. For Superman, there’s pretty much only bitter, bald Lex Luthor, forever being reinvented by writers and artists in an effort to make him a worthy foe. Superman’s true enemies are disasters like earthquakes and hurricanes, jet planes tumbling from the sky, enormous meteors that would crush cities. Superman stands between humanity and a capricious universe.
+
+
+&lt;/blockquote&gt;
+
+&lt;a href="http://www.wired.com/wired/archive/14.06/myth.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=N68QkZ"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=N68QkZ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:16:14-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/gaiman_on_the_myth_o.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/demographics_of_nycs.html">
+<title>Demographics of NYC's subway in the morning, hour-by-hour</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1551</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+A blogger spent a morning on the NYC subway, making simple demographic notes on who rides, when -- fascinating stuff:
+
+&lt;blockquote&gt;
+3:00-4:00 AM:
+Drunks of all sorts, club kids, and winos. Late night workers, busboys, getting off their shifts. Only a handful of people per car. 6:1 male/female ratio.
+&lt;p&gt;
+4:00-5:00 AM:
+Transit workers changing shifts. Maybe 6 people per car. All male.
+&lt;p&gt;
+5:00 AM - 6:00 AM:
+Blue-collar laborers, minorities, immigrants. Half the car is asleep. Maybe 20 or 25 people per car. 9:1 male/female ratio.
+&lt;p&gt;
+6:00 AM - 7:00 AM:
+Construction workers, blue-collar laborers, hospital workers. 75% of seats in car are taken. 7:3 male/female ratio.
+&lt;/blockquote&gt;
+
+&lt;a href="http://www.graphpaper.com/2006/05-22_morning-subway-demographics"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;via &lt;a href="http://kottke.org"&gt;Kottke&lt;/a&gt;&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=lKg4Gs"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=lKg4Gs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:13:10-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/demographics_of_nycs.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/antidrm_demonstrator.html">
+<title>Anti-DRM demonstrators in hazmat suits storm Bill Gates keynote</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1552</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Protestors from the Free Software Foundation's excellent &lt;a href="http://defectivebydesign.org/"&gt;Defective By Design&lt;/a&gt; anti-DRM campaign staged a surprise demonstration yesterday at Seattle's WinHEC conference, disrupting Bill Gates's keynote. The demonstrators swarmed the entrance to the conference center in bright yellow hazmat (hazardous material) suits as attendees filed in to see Gates describe the new DRM features in Vista, the next Windows operating system. The message was that adding technologies designed to restrict the freedom of computer owners turned our beloved PCs into hazardous materials -- technology that harms us instead of making our lives better.
+&lt;p&gt;
+Defective By Design promises lots more grassroots activism, street theater, and direct action against DRM.
+
+&lt;blockquote&gt;
+&lt;img src="http://craphound.com/images/defectivewinhec.jpg" width="334" height="254"&gt;&lt;br&gt;
+Brown's case is simple: the computers, high-definition screens, phones, music players and video players that are currently being sold are "defective by design". These products don't respect the user's right to make private copies of their digital media. These devices make no provision that would allow art, literature, music or film to ever fall into the public domain. Effectively, the media purchased for these devices does not belong to the user -- rather, the networking of these DRM'd devices means that as the user watches a film, reads an e-book or switches channels on their HDTV, their habits can be recorded and actions monitored. The result is that over time, DRM technology will negate, if not completely eliminate, the rights of the individual.
+&lt;p&gt;
+"In any other industry, such limitations or invasions would be considered major flaws. A media player that restricts what you can play is like a car that you won't let you steer," said Brown. "Products containing DRM are defective -- only, unlike other products, these defects are deliberately created by an industry that has long stopped caring about us."
+
+&lt;/blockquote&gt;
+
+
+&lt;a href="http://www.fsf.org/news/vista-hazmat"&gt;Link&lt;/a&gt;, &lt;a href="http://flickr.com/photos/tags/defectivebydesign"&gt;Flickr Photos&lt;/a&gt;
+
+(&lt;i&gt;Thanks, &lt;a href="http://www.fsf.org"&gt;John&lt;/a&gt; and &lt;a href="http://www.civicactions.com"&gt;Henri&lt;/a&gt;!&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=xTwaOC"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=xTwaOC" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:11:24-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/antidrm_demonstrator.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/orphan_works_bill_in.html">
+<title>Orphan works bill introduced: could give old creativity a new life</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1550</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+Texas Rep Lamar Smith has introduced a bill to clear the way for the re-use of "orphan works" whose authors are unknown or unlocatable. This wasn't a big problem until 1976, when the US changed its rules and did away with copyright registration, so that everyone who created anything got an automatic lifetime-plus-decades copyright on it, from the lowliest napkin doodle to the most trivial Usenet post. This created the present situation where, according to the Supreme Court in Eldred v Ashcroft, &lt;em&gt;98 percent&lt;/em&gt; of the works in copyright are orphan works, and liable to disappear long before their copyrights expire. 
+&lt;p&gt;
+The bill looks like a pretty good compromise, but the devil is in the details -- it requires petitioners to undertake "best practice" searches for missing copyright holders, but leaves those best practices up to the Copyright Office. Depending on the procedure established, this could either be the savior of American cultural history, or its downfall.
+
+&lt;blockquote&gt;
+"The orphan works issue arises when someone who wants to use a copyrighted work cannot find the owner, no matter how diligently they search," said Chairman Smith. "The owner may have moved several times, died, or in the case of businesses, changed their name or gone bankrupt."
+&lt;p&gt;
+"For example, a local civic association may want to include old photographs from the local library archive in their monthly newsletter, but there are no identifying marks on the photo," explained Smith. "Under current law, the civic association must locate the owner to ask permission and in many cases may not be able to find the owner. Under the Orphan Works Act, they could follow guidelines posted by the Copyright Office as a show of due diligence to reduce the threat of litigation for simply doing the right thing."
+&lt;p&gt;
+The Orphan Works Act is the product of over 20 hours of negotiations among various interested parties and the Subcommittee on Courts, the Internet, and Intellectual Property, chaired by Smith. It incorporates language from a year-long study conducted by the United States Copyright Office. &lt;/blockquote&gt;
+
+&lt;a href="http://www.copybites.com/2006/05/chairman_lamar_.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=WB5UmR"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=WB5UmR" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T23:00:57-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/orphan_works_bill_in.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/dinosaur_species_nam.html">
+<title>Dinosaur species named after Hogwarts</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1549</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+A dragon-like dinosaur unearthed in South Dakota has been named "Dracorex hogwartsia" (Dragon King of Hogwarts) with the help of a group of kids at the Children's Museum of Indianapolis. The name has received the blessing of JK Rowling, who says it will give her more cred with her "science-loving family."
+
+
+
+&lt;blockquote&gt;
+&lt;img src="http://craphound.com/images/hogwartsdino.jpg" width="167" height="311" align="left"&gt;
+
+The newly described horny-headed dinosaur Dracorex hogwartsia  lived about 66 million years ago in South Dakota, just a million years short of the extinction of all dinosaurs. But its flat, almost storybook-style dragon head has overturned everything paleontologists thought they knew about the dome-head dinos called pachycephalosaurs.
+
+
+
+
+&lt;br clear="all"&gt;
+
+&lt;/blockquote&gt;
+
+&lt;a href="http://dsc.discovery.com/news/briefs/20060522/hogwartsdino_din.html?source=rss"&gt;Link&lt;/a&gt;	
+
+(&lt;i&gt;Thanks, &lt;a href="http://www.daisychurch.com"&gt;Daisy&lt;/a&gt;!&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=7ldhde"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=7ldhde" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T22:53:34-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/dinosaur_species_nam.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/sacrelicious_porny_b.html">
+<title>Sacrelicious porny "brothel badges" mock historic "pilgrims' badges"</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1548</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+&lt;img src="http://craphound.com/images/brothelbadge.jpg" width="149" height="177" align="left"&gt;
+
+"Brothel badges" were pornographic (by Victorian standards, anyway) badges that parodied the "pilgrim badges" sold at shrines to religious pilgrims in earlier times.  Historic Games sells replicas of the badges for $6/each, noting that historians differ on whether they were naughty Mardi Gras souvenirs or brothel tokens. Of this badge, "Lady," the site notes that it's a "lady... off on pilgrimage, carrying a pilgrim's staff with a phallus-shaped head, and carrying a rosary. Similar badges were popular in the Low Countries from the 13th through the 16th centuries."
+
+&lt;a href="http://historicgames.com/elleshcart/badges.html"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;Thanks, &lt;a href="http://www.chateaubizarre.com"&gt;Chateau Bizarre&lt;/a&gt;!&lt;/i&gt;)
+&lt;p&gt;
+&lt;font color="red"&gt;Update:&lt;/font&gt; A reader sez, "These  are suspiciously similar to the &lt;a href="http://fetteredcockpewters.com/page_naughty_bits.htm"&gt;badges made by a friend of mine at Fettered Cock&lt;/a&gt;."
+&lt;p&gt;
+&lt;font color="red"&gt;Update 2:&lt;/font&gt; Charles from Historic Games confirms that they're the same thing -- Fettered Cock is his supplier.
+&lt;br clear="all"&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=6SG98b"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=6SG98b" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T22:49:08-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/sacrelicious_porny_b.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/wtf_is_going_on_with.html">
+<title>WTF is going on with "Courtney Gidts" comment spam?</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1547</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+I allow comments on my other blog, Mad Professor, but I have set it up so that I get to review each comment before I release it to be posted. In the last few months, I've been getting some weird comments like this:
+
+&lt;blockquote&gt;IP Address: 66.81.23.78
+&lt;P&gt;Name: Courtney Gidts
+&lt;BR&gt;Email Address: eastcoast@microsoft.com
+&lt;BR&gt;URL: 
+&lt;BR&gt;Comments:
+&lt;BR&gt;I've managed to save up roughly $16804 in my bank account, but I'm not sure if I should buy a house or not.  Do you think the market is stable or do you think that home prices will decrease by a lot?&lt;/blockquote&gt;
+
+Note that there's no URL, so how can this be profitable for the spammer? Is it part of a larger scheme? The number (in this case, $16804) is different each time. Is it a code number used by spies?
+
+&lt;p&gt;I googled "Do you think the market is stable or do you think that home prices will decrease by a lot?" and it returned 13,300 results. Most of them were from sites that allowed these weird comments to go through (&lt;a href="http://user.wangjianshuo.com/Courtney%20Gidts.htm"&gt;example&lt;/a&gt;). I also found that Peter Kaminski has been getting the same type of comments and is just as  mystified as I am. What's going on?
+
+&lt;a href="http://peterkaminski.com/2005/11/fivedigit_blog_spam.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=d87vpa"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=d87vpa" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T20:39:04-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/wtf_is_going_on_with.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/zoom_forever_into_th.html">
+<title>Zoom forever into this photomosaic</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1546</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+
+&lt;img src="http://www.boingboing.net/zoomforever.jpg" height="169" width="186" border="0" align="left" hspace="4" vspace="4" alt="Zoom forever" title="Zoom forever" /&gt;
+
+
+
+The photo on this page is made up of tiny photos. Click on the photo to zoom in. More tiny photos. Forever. &lt;a href="http://interact10ways.com/usa/information_interactive.htm"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=ipVUpp"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=ipVUpp" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T16:17:44-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/zoom_forever_into_th.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/grow_a_square_waterm.html">
+<title>Grow a square watermelon</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1545</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+
+&lt;img src="http://www.boingboing.net/200605231556.jpg" height="169" width="233" border="0" align="left" hspace="4" vspace="4" alt="200605231556" /&gt;
+Grow a square watermelon by putting it into a box. If my wife and I have another baby, we'll see if we can grow a square kid. &lt;a href="http://www.ces.purdue.edu/ces/vanderburgh/horticulture/weird/squaremelon.jpg"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=8IUIVE"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=8IUIVE" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T15:57:25-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/grow_a_square_waterm.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/old_panama_photos_fr.html">
+<title>Old Panama photos from Swapatorium</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1544</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+Yesterday I wrote about &lt;a href="http://www.boingboing.net/2006/05/22/macys_thanksgiving_d.html"&gt;Swapatorium's excellent estate sale score&lt;/a&gt; of old photos. Today, she wrote a little more about the sale. Included in the photo albums are a bunch of pictures of Darien and Kuna Indians taken in the 1940s.
+
+&lt;blockquote&gt;&lt;img src="http://www.boingboing.net/_blogger_1046_493_1600_panama7-1.jpg" height="169" width="274" border="0" align="left" hspace="4" vspace="4" alt=" Blogger 1046 493 1600 Panama7-1" /&gt;
+It was the cleanest and most organized sale I have ever seen. Not a speck of dust and odor free. Even the old photos have no hint of smell so they were stored well over the years. Turns out the dad was a dentist and the mom a nurse. Maybe that&amp;#8217;s why the place seemed sterile. I learned that they traveled all over the world and during the war, were stationed in Panama. I have amazing photos from there, as well as fantastic dental images. I have only gone through a fraction of the images, so no telling what I will find. Apart from the photos, we also purchased some cool old things like toys, a painting, old watches, decorative glass, vintage fabrics, and numerous other objects. We completely stuffed our vehicle. We had to go to the ATM so we left the ladies to price our goods while we were gone. When we came back, I heard the calculator going for at least a couple of minutes while she added our massive pile. Nothing was priced, so there was no telling what the amount would be. When she told us, I was shocked! She practically gave us the stuff, literally! She told us to make an offer for all the photos and we gave her a very fair price which was a bit padded to make up for the other items. I think she was very happy with our offer. To give you an example, we purchased a fabulous 1930&amp;#8217;s lamp which was $1.50 and all the old toys for $1. Not $1 each, but a buck for all. They just wanted to clean everything out. It really was one of those once in a lifetime sales. The fun doesn&amp;#8217;t end there because this sale did not include the items in the house. This was just for the things in the garage. They are having another sale in a few months for the rest of the household. They have our phone number and they said they will call us. You can bet we will be there early!&lt;br clear="all"&gt;&lt;/blockquote&gt;
+&lt;a href="http://swapatorium.blogspot.com/2006/05/floating-on-air-part-2.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=D9h1x3"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=D9h1x3" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T15:15:48-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/old_panama_photos_fr.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/seeing_machine_for_t.html">
+<title>Seeing Machine for the blind</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1543</link>
+<description>&lt;strong&gt;David Pescovitz&lt;/strong&gt;:
+MIT researchers have developed a portable Seeing Machine, a system that could aid some blind people by projecting images directly onto the retina of the eye. Project leader Elizabeth Goldring first conceived of the device ten years ago when she was blind in both eyes due to hemorrhages in her retinas. (Surgery has since enabled her to see with one eye.) A physician examined Goldring with a scanning laser opthalmoscope (SLO), a $100,000 diagnostic medical device that uses a laser to project an image on the retina and detect damage. The Seeing Machine is based on similar technology but the prototype cost just $4,000. (The image here depicts Goldring looking at "an image she created to approximate what she sees when she looks through her seeing machine at an image of a staircase.") From MIT News Office:
+
+
+&lt;blockquote&gt;
+&lt;img src="http://www.boingboing.net/images/_newsoffice_2006_seeing-machine-enlarged.jpg" height="200" width="266" border="1" align="left" hspace="4" vspace="4" alt=" Newsoffice 2006 Seeing-Machine-Enlarged" /&gt;
+Recently the machine received positive feedback from 10 visually challenged people with a range of causes for their vision loss who tested it in a pilot clinical trial...&lt;br&gt;&lt;br&gt;
+Participants used the machine to view 10 examples of Goldring's visual language. A majority -- six -- interpreted all 10 "word-images" correctly. "They responded really well to the visual language," Goldring said. "One woman told me she would love to see recipes written that way."&lt;br&gt;&lt;br&gt;
+They also used the machine to navigate through a virtual environment, raising the potential for "previewing" unfamiliar buildings a person wants to visit...&lt;br&gt;&lt;br&gt;
+All of the participants reported that the machine "may have the potential to assist their mobility in unfamiliar environments," according to the Optometry article. Concluded Goldring: "A couple of them said they'd tried every seeing aid available (magnifying devices, etc.), and this was by far the best, even in this rough, rough shape."&lt;br clear="all"&gt;&lt;/blockquote&gt;
+&lt;a href="http://web.mit.edu/newsoffice/2006/seeing-machine.html"&gt;
+Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=XTboMG"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=XTboMG" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>David Pescovitz</dc:creator>
+<dc:date>2006-05-23T14:28:36-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/seeing_machine_for_t.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/chronicles_of_narnia.html">
+<title>Chronicles of Narnia is a good movie for folks with faceblindness</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1542</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+Prosopagnosia is the scientific term for faceblindness. As Beware of the Blog's Iowa Firecracker describes it, "for some reason, my fusiform gyrus isn&amp;#8217;t hooked up properly and I can&amp;#8217;t recognize human faces." &lt;span style="text-decoration: line-through;"&gt;He&lt;/span&gt; She goes on to mention that she has been interviewed for an upcoming documentary about this rare condition, and that she met another faceblind for the first time, a guy named Glenn, who administers an email list for faceblind people.
+
+&lt;blockquote&gt;I was really nervous about it, but it turned out to be okay. Whether it&amp;#8217;s because he&amp;#8217;s the list admin, or because he lives in Boston where prosopagnosiacs go to get studied by Scientists and Experts at Harvard, Glenn has met plenty of other faceblind folks, so it wasn&amp;#8217;t a big deal for him. That helped me calm down a little. Mostly I just wanted to thank Glenn in person for running the faceblind list, because I like knowing there are some other people out there who see the world a little bit the way I do. I like knowing they have the same problems I do at parties, and they don&amp;#8217;t see any point in having photos of their loved ones around, and they call people who aren&amp;#8217;t faceblind NTs (for Neuro Typicals). I like getting recommendations for movies based on the fact that they have characters I&amp;#8217;ll be able to identify all the way through the story. (&amp;#8220;Chronicles of Narnia&amp;#8221; got good marks for that.)
+
+&lt;P&gt;So Glenn and I met in a coffee shop, and drank some coffee, and he was very nice and a very interesting guy. When I try to remember what he looked like, I think of a sea captain on an old whaling vessel, I guess because of his facial hair or because of what he was wearing that day, and I wonder what he remembers of me.&lt;/blockquote&gt;&lt;a href="http://blog.wfmu.org/freeform/2006/05/travels_with_sl.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=odokdZ"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=odokdZ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T14:25:56-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/chronicles_of_narnia.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/smartfilter_censors_.html">
+<title>SmartFilter censors Worth1000 photoshopping site</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1541</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+
+SmartFilter has added Worth1000, the photoshopping competition site, to its hit-list of sites that can be censored by its customers (who include several repressive governments that use SmartFilter's carelessly constructed blacklists to filter their entire countries). They've listed Worth1000 as "tasteless/gross." How delightfully arbitrary.
+
+&lt;a href="http://www.boingboing.net/censorroute.html"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;Thanks, Toby!&lt;/i&gt;)
+&lt;p&gt;
+&lt;font color="Red"&gt;Update:&lt;/font&gt; And now they've reversed it. Capricious and arbitrary and unpredictable! Just the traits we love in our self-appointed universal media censors. I wonder what they do when the person who needs to complain about a miscategorization is a political dissident in one of the repressive countries SmartFilter takes money from?
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=wy0a41"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=wy0a41" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T11:08:00-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/smartfilter_censors_.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/domino_run_video_in_.html">
+<title>Domino run video in a gothic 3D role-playing game</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1540</link>
+<description>&lt;strong&gt;Cory Doctorow&lt;/strong&gt;:
+&lt;img src="http://craphound.com/images/obliviondominos.jpg" width="294" height="221" align="left"&gt;
+
+This youtube is an astounding three-minute domino run constructed out of books, swords, corpses, silver balls and many other props in the 3D game The Elder Scrolls: Oblivion. This has been done in other 3D worlds (such as Second Life), but this one is particularly nice.
+
+&lt;a href="http://www.youtube.com/watch?v=UyHiIeBsc9E"&gt;Link&lt;/a&gt;
+
+(&lt;i&gt;via &lt;a href="http://"&gt;Waxy&lt;/a&gt;&lt;/i&gt;)
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=plD6Ag"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=plD6Ag" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Cory Doctorow</dc:creator>
+<dc:date>2006-05-23T11:06:10-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/domino_run_video_in_.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/circuit_board_busine.html">
+<title>Circuit board business cards</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1539</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+Gareth says:
+
+
+&lt;img src="http://www.boingboing.net/200605231102.jpg" height="157" width="240" border="0" align="left" hspace="4" vspace="4" alt="200605231102" /&gt;
+How freakin' deep geek are these!? I found them on &lt;a href="http://www.ladyada.net/rant/?p=9"&gt;Lady Ada&lt;/a&gt;'s wonderful site (which you have to check out if you haven't already -- she has lots of cool DIY projects there). When she asked Todd about the grid of solder pads in the lower right, he said: "That's the prototyping area." On the back it says "electronic design &amp;#38; embedded systems." I MUST have a card like this! &lt;a href="http://www.streettech.com/modules.php?op=modload&amp;#38;name=News&amp;#38;file=article&amp;#38;sid=1160&amp;#38;mode=flat&amp;#38;order=0&amp;#38;thold=0"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=QinDC6"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=QinDC6" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T11:03:01-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/circuit_board_busine.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/scottish_rite_real_t.html">
+<title>Scottish Rite real time solar power performance</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1538</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+
+&lt;img src="http://www.boingboing.net/ScottishRiteSolar.jpg" height="169" width="428" border="0" align="left" hspace="4" vspace="4" alt="Scottish Rite Solar Panels" title="Scottish Rite Solar Panels" /&gt;&lt;br clear="all"&gt;
+&lt;a href="http://ukulelia.com/"&gt;Gary&lt;/a&gt; says: "The Oakland Scottish Rite building has a full battery of solar panels on the roof. Now they have a link to a page where you can watch they system&amp;#8217;s performance in real time."
+
+&lt;p&gt;When I checked at 10:30am PT, the panels were producing 31 kW, and the building was consuming only 23.2 kW, which means the Scottish Rite building's meter was running backwards. &lt;a href="http://www.esunspot.com/oscottishrite.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=2gfqVS"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=2gfqVS" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T10:35:19-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/scottish_rite_real_t.html</feedburner:origLink></item>
+<item rdf:about="http://www.boingboing.net/2006/05/23/help_make_a_rtfm_on_.html">
+<title>Help make a RTFM on global warming</title>
+<link>http://feeds.feedburner.com/boingboing/iBag?m=1537</link>
+<description>&lt;strong&gt;Mark Frauenfelder&lt;/strong&gt;:
+Alex Steffen of WorldChanging says: "Given that &lt;a href="http://www.climatecrisis.net/"&gt;An Inconvenient Truth&lt;/a&gt; opens this week, and that it appears that the president just acknowledged that climate change is real, and that there's been an uptick of "climate skeptics" leaving disruptive, if not downright trolling comments on environmental and science blogs recently, we thought it would be useful to come up with a way of signaling that the debate is really over on these subjects, and its time to move on."
+
+&lt;P&gt;So WorldChanging has started a discussion about developing "a page which can become shorthand in blog comment threads and online discussions for 'we've already gone over this,' a sort of RTFM message for climate change science." &lt;a href="http://www.worldchanging.com/archives/004469.html"&gt;Link&lt;/a&gt;
+&lt;p&gt;&lt;a href="http://feeds.feedburner.com/~a/boingboing/iBag?a=iktot1"&gt;&lt;img src="http://feeds.feedburner.com/~a/boingboing/iBag?i=iktot1" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;</description>
+<dc:subject />
+<dc:creator>Mark Frauenfelder</dc:creator>
+<dc:date>2006-05-23T10:30:19-08:00</dc:date>
+<feedburner:origLink>http://www.boingboing.net/2006/05/23/help_make_a_rtfm_on_.html</feedburner:origLink></item>
+
+
+</rdf:RDF>

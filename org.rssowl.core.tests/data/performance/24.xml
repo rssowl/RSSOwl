@@ -1,0 +1,44 @@
+<rss version="2.0">
+	<channel>
+		<title><![CDATA[ Forbes.com Business News ]]></title>
+		<link><![CDATA[ http://www.forbes.com/business/?partner=rss ]]></link>
+		<description><![CDATA[ Business news and reports from Forbes.com ]]></description>
+		<language>en-us</language>
+		<copyright>Copyright 2006 Forbes.com Inc.</copyright>
+		<item>
+			<title><![CDATA[ Are You An Innovator? ]]></title>
+			<link><![CDATA[ http://www.forbes.com/business/2006/05/23/innovation-column-christensen-cx_cc_0524ruaninnovator.html?partner=rss ]]></link>
+			<pubDate>Tue, 23 May 2006 19:00:00 GMT</pubDate>
+			<description><![CDATA[ Innovation expert Clayton Christensen on what you need to know to shake things up. ]]></description>
+			<author><![CDATA[ Clayton Christensen ]]></author>
+		</item>
+		<item>
+			<title><![CDATA[ Jilted In Germany ]]></title>
+			<link><![CDATA[ http://www.forbes.com/business/2006/05/22/deutsche-boerse-merger-cx_lm_0523deutsche.html?partner=rss ]]></link>
+			<pubDate>Mon, 22 May 2006 20:30:00 GMT</pubDate>
+			<description><![CDATA[ Deutsche Boerse could find itself left at the altar again. ]]></description>
+			<author><![CDATA[ Liz Moyer ]]></author>
+		</item>
+		<item>
+			<title><![CDATA[ World's Worst Waste ]]></title>
+			<link><![CDATA[ http://www.forbes.com/business/2006/05/23/waste-worlds-worst-cx_rm_0524waste.html?partner=rss ]]></link>
+			<pubDate>Tue, 23 May 2006 22:00:00 GMT</pubDate>
+			<description><![CDATA[ Western nations and the U.S. lead the world in waste production, and the problem is far from being under control. ]]></description>
+			<author><![CDATA[ Robert Malone ]]></author>
+		</item>
+		<item>
+			<title><![CDATA[ Fannie's Flayed ]]></title>
+			<link><![CDATA[ http://www.forbes.com/business/2006/05/23/fannie-mae-regulators-fine-cx_lm_0524fannie.html?partner=rss ]]></link>
+			<pubDate>Tue, 23 May 2006 20:00:00 GMT</pubDate>
+			<description><![CDATA[ Regulators slap the mortgage giant with a $400 million fine and tough language. ]]></description>
+			<author><![CDATA[ Liz Moyer ]]></author>
+		</item>
+		<item>
+			<title><![CDATA[ The Vioxx Maelstrom ]]></title>
+			<link><![CDATA[ http://www.forbes.com/business/2006/05/22/merck-vioxx-approve-cx_mh_0522mrk.html?partner=rss ]]></link>
+			<pubDate>Mon, 22 May 2006 10:53:16 GMT</pubDate>
+			<description><![CDATA[ Two words sum up the recent data on Merck's disastrous drug: insufficient and depressing. ]]></description>
+			<author><![CDATA[ Matthew Herper ]]></author>
+		</item>
+	</channel>
+</rss>

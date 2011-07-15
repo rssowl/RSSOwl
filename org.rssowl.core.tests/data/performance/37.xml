@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom" >
+<channel>
+  <title>Jonathan Schwartz's Weblog</title>
+  <link>http://blogs.sun.com/roller/page/jonathan</link>
+  <description>Jonathan Schwartz&#39;s Weblog</description>
+  <language>en-us</language>
+  <copyright>Copyright 2006</copyright>
+  <lastBuildDate>Tue, 23 May 2006 14:30:00 -0700</lastBuildDate>
+  <generator>Roller Weblogger 2.3-incubating (20060429013204:ag92114)</generator>
+      <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=busy_week1</guid>
+    <title>Busy Week...</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=busy_week1</link>
+        <pubDate>Tue, 23 May 2006 14:30:00 -0700</pubDate>
+    <category>General</category>
+            <description>          Last week was a busy week - with &lt;A HREF=&quot;http://java.sun.com/javaone/sf/index.jsp&quot;&gt;JavaOne&lt;/A&gt;, and a flood of customers in town.
+&lt;P&gt;
+I started the week previewing the week&#39;s announcements at the &lt;A HREF=&quot;http://www.netbeans.org&quot;&gt;NetBeans&lt;/A&gt; tools community gathering. Here&#39;s a little known secret: I used to run developer tools for Sun - and as I said then, and I&#39;ll say now, you need only two documents to understand a technology company&#39;s corporate strategy: their end-user tools roadmap, and their sales force comp plan. Given that the former is public knowledge, inquiring minds can wonder about the latter.
+&lt;P&gt;
+&lt;A HREF=&quot;http://webcast-west.sun.com/ramgen/archives/06D00627/06D00627_11_300.rm&quot;&gt;This is my JavaOne keynote&lt;/A&gt; - which was a ton of fun. We broke a bunch of attendance records, with something near 15,000 attendees in the room (my favorite comment came from a reporter I spoke to after the event, who said: &quot;I was amazed at the number of languages being spoken in the audience!&quot;). Great buzz, tons of new stuff (capped off with a &lt;A HREF=&quot;http://webcast-west.sun.com/ramgen/archives/06D00627/06D00627_21_300.rm&quot;&gt;real-time Java roadrace&lt;/A&gt; after &lt;A HREF=&quot;http://webcast-west.sun.com/ramgen/archives/06D00627/06D00627_20_300.rm&quot;&gt;Scott&#39;s keynote&lt;/A&gt;). Another reporter said, &quot;it&#39;s like a social movement.&quot; Well, yes.
+&lt;P&gt;
+I got a chance to talk with Ed Zander, CEO of Motorola (go buy a &lt;A HREF=&quot;http://www.joinred.com/red.asp&quot;&gt;RED&lt;/A&gt; phone!); and two of the world&#39;s most vocal advocates of free and open source software, Mark Shuttleworth (the guy behind Ubuntu/Debian GNU/Linux who flew up from &lt;A HREF=&quot;http://debconf6.debconf.org/&quot;&gt;DebConf&lt;/A&gt; just for this event), and Marc Fleury (CEO, JBoss, Inc. - the company bringing Red Hat into the Java community). Definitely watch the video - you&#39;ll see the symbolic passing of the pickle to Rich Green, Sun&#39;s newly minted (but refreshingly familiar) Executive Vice President, Software.
+&lt;P&gt;
+After JavaOne, I spoke with Darrell Plummer and Paul McGuckin from Gartner at their conference (&lt;A HREF=&quot;http://zdnet.com.com/1606-2_2-6073463.html&quot;&gt;video here&lt;/A&gt;). David Berlind, as usual, had &lt;A HREF=&quot;http://blogs.zdnet.com/BTL/?p=3063&quot;&gt;a thoughtful analysis of the hour&lt;/A&gt;. Frankly, I was a little disappointed in their questioning, as well - it seemed like so many of their questions had been hashed out in &lt;A HREF=&quot;http://www.redmonk.com/jgovernor/archives/001643.html&quot;&gt;blogs&lt;/A&gt; and user generated analysis.
+&lt;P&gt;
+But all in all, a really great week - we&#39;re now making serious progress on open sourcing Java (and despite the cynics, using a GPL license is very much *on* the table), while focusing the debate on what matters most: not access to lines of code (that&#39;s already &lt;A HREF=&quot;http://java.sun.com/developer/technicalArticles/J2SE/peabody/&quot;&gt;widely available&lt;/A&gt;), but ensuring compatibility. Compatibility is what brought a record number of people to JavaOne this year (making it the world&#39;s largest free software conference), it&#39;s what&#39;s behind nearly 3 billion+ Java enabled devices. And for those that missed the subtlety, that compatibility is what creates the market Sun, and others, can monetize with network innovations, from software to hardware and services.
+&lt;P&gt;
+Seems like an obvious connection to me...
+&lt;P&gt;
+[update: fixed broken link]
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=busy_week1</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=survival_of_the_most_adaptable</guid>
+    <title>Java, and Survival of the Most Adaptable</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=survival_of_the_most_adaptable</link>
+        <pubDate>Mon, 15 May 2006 09:10:00 -0700</pubDate>
+    <category>General</category>
+            <description>          Change is a constant at Sun. So long as the market&#39;s changing - or so long as we can change the market - we&#39;re going to evolve. As Darwin said, it&#39;s not the strongest organisms that win, it&#39;s the most adaptable. 
+&lt;P&gt;
+To that end, today we &lt;A HREF=&quot;http://www.sun.com/smi/Press/sunflash/2006-05/sunflash.20060515.3.xml&quot;&gt;announced a series of changes&lt;/A&gt; designed to prepare us for the next wave of system challenges and market opportunities. I want to thank Mark Canepa for years of extraordinary commitment and devotion to Sun, and welcome John Fowler (who will lead Sun&#39;s Systems businesses) and David Yen (who will lead Sun&#39;s Storage businesses) to their new roles. 
+&lt;P&gt;
+Speaking of changes, tomorrow morning, I get to deliver my favorite speech of the year, my keynote at Java One. I get to do so wearing my fancy new title, &quot;Chief Java Evangelist,&quot; a title I now share with our Chairman.
+&lt;P&gt;
+I&#39;m still amazed when I hear folks wondering &lt;A HREF=&quot;http://www.cincomsmalltalk.com/blog/blogView?showComments=true&amp;entry=3325167496&quot;&gt;how Sun monetizes Java&lt;/a&gt;. So at the risk of repetition, I&#39;d like to share a few thoughts.
+&lt;P&gt;
+When Thomas Edison first introduced the lightbulb, he held patents he tried to wield against potential competitors - he wanted to own the client (the bulb) and the server (the dynamo). He failed. Standards emerged around voltage and plugs, and &lt;A HREF=&quot;http://www.gepower.com/home/index.htm&quot;&gt;GE Energy&lt;/A&gt; (formerly, Edison General Electric), to this day, remains one of the most profitable and interesting businesses around. How big would the power business be today if you could only buy bulbs and appliances from one company? A far sight smaller, I&#39;d imagine. Standards grew markets and value.
+&lt;P&gt;
+Then there was the civil war era in the US, when locomotive companies all had their own railroad widths and shapes - designed only to work with their rail cars and steam engines. How&#39;d they fare? They failed, standards emerged that unified railways and rail lines, and that era created massive wealth, connecting economies within economies. Standards grew markets and value.
+&lt;P&gt;
+To get to the impact on a global scale, you should really read &lt;A HREF=&quot;http://www.amazon.com/gp/product/0691123241/sr=8-1/qid=1147751063/ref=pd_bbs_1/102-9770567-0649735?%5Fencoding=UTF8&quot;&gt;Mark Levinson&#39;s The Box&lt;/A&gt;. Which talks to the extraordinary impact the standard shipping container had on global commerce. No, I&#39;m not joking. It democratized global commerce. And it ain&#39;t even done.
+&lt;P&gt;
+So if you want to know how I feel about Java, my view is it&#39;s changing the world - standardizing the plugs and rail gauges and containers used by global internet players. Its momentum, in my view, is unstoppable. What&#39;s that worth to Sun? Give it your best shot. When I do, I say most of our revenue is derived from Java. Just like most of Verizon&#39;s revenue comes from handsets. Even though the economics of the handset look baffling (but I dare you to recommend to Verizon that they stop selling them). Those that believe free software or service yields lower revenue don&#39;t understand the economics or dynamics of the software industry. Think Google or Yahoo!, not &lt;A HREF=&quot;http://www.characterweb.com/MaytagOriginal.html&quot;&gt;Maytag&lt;/a&gt;.
+&lt;P&gt;
+So for those in attendance tomorrow, thank you for joining us - at what&#39;s become the world&#39;s largest free and open source software developer conference. Believe me, there&#39;s a huge tent waiting for you - I just walked the main hall, and you could fit a few Space Shuttles in the place.
+&lt;P&gt;
+And somewhat off topic, a family member of mine once asked if I ever got nervous before keynotes - when I mentioned having nearly 20,000 folks in the audience this year, they nearly passed out. My response was simple - what&#39;s it like talking to your family about their accomplishments, no matter how big a family gathering? It&#39;s easy, it&#39;s what comes naturally, it&#39;s called being a member of a community, and feeling pride. Talking about what you know and love is like falling off a log (vs. rehearsing a keynote you don&#39;t care about, my worst nightmare - second only to &lt;A href=&quot;http://adds.aviationweather.noaa.gov/pireps/java/&quot;&gt;extreme turbulence&lt;/A&gt;).
+&lt;P&gt;
+So I&#39;ll see you tomorrow morning, on-line, or in person. Like I said, it&#39;s my favorite part of the year, like spending time with family (and just wait until you see who joins the family tomorrow...).
+&lt;P&gt;
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=survival_of_the_most_adaptable</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=the_geeks_are_in_charge</guid>
+    <title>Announcing Greg Papadopoulos, CTO and EVP, R&amp;D</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=the_geeks_are_in_charge</link>
+        <pubDate>Sat, 6 May 2006 07:30:00 -0700</pubDate>
+    <category>General</category>
+            <description>          &lt;A HREF=&quot;http://www.sun.com/aboutsun/media/ceo/mgt_papadopoulos.html&quot;&gt;Greg Papadopoulos&lt;/A&gt; (Sun&#39;s Chief Technology Officer) and I made a joint customer call recently, to the COO of one of the world&#39;s largest on-line companies. The customer made an interesting point - his job was getting more technical. A change from a few years ago, when his priority was big web traffic deals and traditional business development. The customer was a technologist to start, so he was in his comfort zone, but it had become increasingly obvious that the next generation of differentiation on the web was going to come from technology innovation - not just good BD or branding. 
+&lt;P&gt;
+Now as you may have heard, I gave Greg a new title recently. In addition to being Sun&#39;s CTO, he&#39;s now Executive Vice President of Research and Development. Why&#39;s that important?
+&lt;P&gt;
+Well, Sun is a company built for engineers, by engineers. I know that probably rubs some folks the wrong way, who want to hear me say we&#39;re a &quot;transformative value solutions&quot; company (I can&#39;t keep a straight face saying it). But let&#39;s face it: value in information technology is coming down to how efficiently you can get something done. Whether it&#39;s building a 30 teraflop grid or a web services infrastructure; powering a Java handset or an entire datacenter. From what and who I see, the folks who measure that efficiency are getting more technical, not less.
+&lt;P&gt;
+When the tools are chosen or the RFP&#39;s are written, when the benchmarks are done or the operators take over, technologists are playing a more prominent role in our industry, not less. At least for our key customers, who live and die by technology (vs. those that should be shutting down their datacenters to buy network services from our &lt;A HREF=&quot;http://www.salesforce.com&quot;&gt;core customers&lt;/A&gt;). Nick is right, IT Doesn&#39;t Matter to those for whom IT isn&#39;t a differentiator - but those aren&#39;t Sun&#39;s customers. &lt;A HREF=&quot;http://www.ebay.com&quot;&gt;Our customers&lt;/A&gt; live and die by IT.
+&lt;P&gt;
+So as a part of this change, the product group CTO&#39;s, the sentinels supporting the line executives who run our businesses, will also report to Greg. In the world of human resources, that&#39;s known as a &quot;dual hard line&quot; reporting structure. On the one hand, that&#39;s only a symbolic change.
+&lt;P&gt;
+On the other, it is a very clear indication of where we&#39;re heading. You cannot build a house by motivating sub-contractors with compelling visions of the future. That&#39;s why you hire an architect. Similarly, you can&#39;t build a network computing company without a chief architect to coordinate nearly $2 billion in R&amp;D. And as a systems company, we now have a chief systems architect (and a fellow &lt;A HREF=&quot;http://blogs.sun.com/gregp&quot;&gt;blogger&lt;/A&gt;).
+&lt;P&gt;
+This is also a signal inside and outside Sun: I am redoubling Sun&#39;s commitment to the primacy of the systems technologist, the systems innovator and the systems engineer. And not just in engineering - but across Sun as a system itself (more on that in a later blog). Our core customers, those who develop systems and services, who operate, administer - and pay for - them, need thought partners and system (not component) suppliers. Most business problems, in our world, have &lt;A HREF=&quot;http://www.sun.com/software/products/identity/magic_quadrant_user_provisioning_1h06.pdf&quot;&gt;solutions rooted in innovation - and primarily technical innovation&lt;/A&gt;. That&#39;s our history, and our future.
+&lt;P&gt;
+I&#39;m thrilled to have Greg assist me in driving focus and simplicity throughout Sun. From our &lt;A HREF=&quot;http://www.netbeans.org/community/articles/javaone/2006/nb-day.html&quot;&gt;great new developer tools&lt;/A&gt;, all the way up to &lt;A HREF=&quot;http://www.sun.com/storagetek/white-papers/identity_enabled_ilm.pdf&quot;&gt;identity enabled encrypted tape&lt;/A&gt;.
+&lt;P&gt;
+There are an ever smaller number of true systems innovators - those that can bring together the software, the hardware, the network and services layers, to form a coherent and compelling platform for the future of network computing. In your datacenter or in your pocket. We&#39;re committed to be exactly that: an innovator that delivers value as measured by those who live or die by innovation.
+&lt;P&gt;
+Please join me in congratulating Greg as he helps to define a new era of technical leadership at Sun.
+&lt;P&gt;
+___________
+&lt;P&gt;
+ps. For those interested, here&#39;s &lt;A HREF=&quot;http://www.forbes.com/work/management/2006/05/04/sun-microsystems-schwartz-cz_ec_0504schwartz.html&quot;&gt;a Q&amp;A I just did&lt;/A&gt; with Forbes. And &lt;A HREF=&quot;http://www.theinquirer.net/?article=31501&quot;&gt;yet more focus on the things that really matter&lt;/A&gt; (at least the Inquirer has a sense of humor).
+&lt;P&gt;
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=the_geeks_are_in_charge</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=sunlight_is_the_best_disinfectant</guid>
+    <title>On Blogging as CEO</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=sunlight_is_the_best_disinfectant</link>
+        <pubDate>Sun, 30 Apr 2006 20:11:00 -0700</pubDate>
+    <category>General</category>
+            <description>          It&#39;s been a busy week. My heart rate seems to have slowed just to the point where I can taste food again. 
+&lt;P&gt;
+I want to start by thanking Sun&#39;s global &lt;A HREF=&quot;http://www.sun.com/2006-0426/wwvw/index.jsp&quot;&gt;volunteers&lt;/A&gt; - 
+who every day work to improve the communities in which Sun operates around the world. I had the option of cancelling my volunteer commitments given this week&#39;s events, but decided to keep it - and had the privilege to visit &lt;A HREF=&quot;http://www.fremont.k12.ca.us/blacow/&quot;&gt;Blacow elementary school&lt;/A&gt;, and talk to a group of 1st grade students and their teacher about the internet. They showed me their StarOffice skills (no, I&#39;m not joking), and when I asked how many of them had email accounts, about a quarter of the room raised their hand. These are first graders, mind you. (I asked one student who sent her email, and she said her Mom, but only when she travelled.)
+&lt;P&gt;
+So I&#39;d like to thank the folks that organized my visit, Mrs. Lorenz for putting up with my questions about how many of her friends knew that &lt;A HREF=&quot;http://www.openoffice.org&quot;&gt;OpenOffice&lt;/A&gt; was free (on Windows, too!) for all schools throughout the world, and the terrific first grade class for their outstanding presentations.
+&lt;P&gt;
+Earlier in the week, I hosted my first Leadership Conference as CEO. Sun&#39;s Leadership Conferences bring together our global leaders twice a year to exchange ideas, discuss priorities, and share best practices. This year was a little unusual - Scott and I communicated his stepping up to Chairman, and my stepping up to CEO. We did so in front of a global town hall on the first day - we had nearly 20,000 (!) employees on-line to watch the event. You&#39;ve already seen the speech I gave - it&#39;s my &lt;A HREF=&quot;http://blogs.sun.com/roller/page/jonathan/20060425&quot;&gt;last blog entry&lt;/A&gt;. 
+&lt;P&gt;
+Emotionally, it was one of the toughest speeches I&#39;ve ever given - and I want to thank those of you that added comments, and supported Scott on your own blogs, and throughout the media.
+&lt;P&gt;
+After my speech and a fairly thorough question and answer session, Scott left the auditorium - handing the keys to me, and saying, &quot;I&#39;m going to spend the next 90 days opening every door on the planet. Call me if you need me.&quot; And then it was my Leadership Conference. It happened that fast.
+&lt;P&gt;
+The theme of this year&#39;s event was simple: Growing. Through Pace and Transparency - it&#39;s not just our products that are &lt;A HREF=&quot;http://biz.yahoo.com/prnews/060421/sff024.html?.v=47&amp;printer=1&quot;&gt;speeding up&lt;/A&gt; this year. We&#39;re going to be driving unparalleled transparency into everything we do, precisely because it&#39;s the most efficient mechanism to accelerate change throughout Sun. Transparency enables everything to go faster, invites accountability (to which most folks in large organizations aspire), and &lt;A HREF=&quot;http://joyeur.com/2006/03/20/the-sun-doesnt-shine-on-me&quot;&gt;drives dialogue&lt;/a&gt; between Sun and the communities we serve.
+&lt;P&gt;
+So to answer the obvious, for those that have asked the question, &quot;as CEO, will you continue blogging?&quot;
+&lt;P&gt;
+Absolutely yes - count on it. (We&#39;ll now be the only Fortune 500 company with a CEO that blogs - the first of many firsts to come.) It&#39;s just one of many ways we&#39;re going to turn Sun inside out - on our path to growing value (not just revenue or earnings).
+&lt;P&gt;
+And if you want to know who committed to redefining Sun Microsystems, it&#39;s these folks, the global leadership team at Sun.
+&lt;P&gt;
+&lt;A HREF=&quot;http://blogs.sun.com/roller/resources/jonathan/smilc_1500.jpg&quot;&gt; 
+ &lt;IMG src=&quot;http://blogs.sun.com/roller/resources/jonathan/smilc_1500_small.JPG&quot;&gt; 
+&lt;/A&gt;
+&lt;P&gt;
+I&#39;m the guy in the center wearing the tie - and before you ask, no, the dress code isn&#39;t changing (and if you were going to be in a photo your mother would see (not this one, she doesn&#39;t read my blog), you&#39;d wear a tie, too).
+&lt;P&gt;
+In upcoming blogs, I&#39;ll cover Greg Papadopoulos&#39;s new role at Sun; and my priorities in the next 30 days.
+&lt;P&gt;
+
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=sunlight_is_the_best_disinfectant</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=on_me_and_scott</guid>
+    <title>When I First Met Scott...</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=on_me_and_scott</link>
+        <pubDate>Tue, 25 Apr 2006 10:45:00 -0700</pubDate>
+    <category>General</category>
+            <description>          I remember the first time I met Scott McNealy - I&#39;m sure he doesn&#39;t remember it. It was in the board room in our old headquarters in Palo Alto. I was with one of the folks from the startup I ran, and we were meeting on the advice of a &lt;A HREF=&quot;http://www-tech.mit.edu/archives/VOL_108/TECH_V108_S0686_P008.pdf&quot;&gt;mutual customer&lt;/A&gt;. I think it was 1992 or &#39;93. Before you could actually explain the internet to your parents. 
+&lt;P&gt;
+I remember he talked about network computing in a very strange way - he just assumed the future, he&#39;d already moved his entire mindset, and his lifestyle, to the network. He looked at the world through the network. And remember, the network didn&#39;t really exist back then. It was a &lt;A HREF=&quot;http://lynx.isc.org/&quot;&gt;twinkle in a terminal window&lt;/A&gt;.
+&lt;P&gt;
+We were talking about the state of the industry - he viewed it in terms of a world that hadn&#39;t been built. I viewed it (remember I was at a startup) in terms of what business I could close next quarter. I had payroll to make. And I can honestly say I&#39;d never met anyone so plainspoken about the future. Or so facile with soundbites to describe it. He was confident in a cheshire cat kind of way, not arrogant or professorial. He was in on a secret: the network is the computer.
+&lt;P&gt;
+You may not remember what it was like in 1992, but Wall Street had Sun in its sights - Scott was getting all kinds of flak for not following the rest of the industry. He&#39;d refused to endorse one particular technology, known then as the &lt;A HREF=&quot;http://en.wikipedia.org/wiki/Microsoft_codenames&quot;&gt;Chicago Project&lt;/A&gt;. A few of the pundits said, &quot;The Chicago Project is the future, and Sun&#39;s fighting it.&quot; Scott didn&#39;t think so. They said he was religious.
+&lt;P&gt;
+But he wasn&#39;t making a bet. He was fulfilling a vision. A vision that was obvious to him, and a vision in which the Chicago Project would play a bit part - we had bigger things to focus on.
+&lt;P&gt;
+If you don&#39;t remember the Chicago Project it was the code name to Microsoft&#39;s Windows 95. The companies that adopted it - and replaced their own innovation - well, you can&#39;t name them any more. They lost their &lt;A HREF=&quot;http://blogs.sun.com/roller/page/jonathan/20040801&quot;&gt;ability to participate&lt;/a&gt; in the future, to &lt;A HREF=&quot;http://www.theregister.co.uk/2006/04/20/szulik_oracle_jboss/&quot;&gt;differentiate&lt;/A&gt;.
+&lt;P&gt;
+What happened to Sun? Scott, and leaders across Sun, changed the world - by making an unpopular, but wildly successful bet on the internet as a driver of demand for systems innovation. The network is the computer.
+&lt;P&gt;
+A few years after that meeting, &lt;A HREF=&quot;http://wp.netscape.com/newsref/pr/newsrelease25.html&quot;&gt;Netscape licensed&lt;/A&gt; the &lt;A HREF=&quot;http://www.sun.com/java&quot;&gt;Java&lt;/A&gt; platform, my company was &lt;A HREF=&quot;http://web.archive.org/web/19961219151652/http://lighthouse.com/&quot;&gt;acquired by Sun&lt;/a&gt;, and I began working for Scott&#39;s then CTO, &lt;A HREF=&quot;http://www.google.com/corporate/execs.html#eric&quot;&gt;Dr. Eric Schmidt&lt;/a&gt;. I saw the vision, the concept behind &quot;the network is the computer,&quot; wasn&#39;t just Scott&#39;s - everyone that worked at Sun thought his vision was obvious. And back in 1996, it was becoming more true, but not the certainty it is today - the world back then was fundamentally changing. Capital was shifting. Huge numbers of companies were being started and staffed, all over the world. Businesses were being transformed, started from nothing and becoming global titans. Enormous wealth was being created - durable wealth, not the donut franchises or sock puppets folks love to hate. Companies like eBay, AOL, Amazon, Yahoo! and Google.
+&lt;P&gt;
+And it has been, since that time, a wild ride for me, and for all of us at Sun. We&#39;ve seen a massive global buildout, that took a pause in 2001 - remember, bubbles always precede buildouts. And Scott, back in 2001, when our revenue - given how focused we were on startups, on financial services and on telco customers - was on its way from 18 billion down to around 11... Scott was far more focused on what was going to happen in 2006 than worried about that quarter. He had that same confidence in the future I first saw in 1992. Bet on innovation and innovators. Stick to your vision and your visionaries.
+&lt;P&gt;
+Which is why he preserved R&amp;D, and jobs, when the world told him otherwise. Why we preserved our relationships with the developer community. Why we redoubled our investment in systems innovation. Why we increased our attention on key customers and partners. Even broadened it to include some unfamiliar faces.
+&lt;P&gt;
+And nearly two years ago, Scott forwarded me something a journalist had written about Sun, and about Scott personally. It wasn&#39;t the most positive note, and it was criticizing us for the bets we&#39;d made, and for a vision that at that point, didn&#39;t square with the reality in front of us - the new Chicago Project of the day looked more attractive.
+&lt;P&gt;
+And I sent a note back to Scott. Every once in a while you end up as the morale officer for your boss, and it was one of the rare days at Sun where I was more enthusiastic than Scott. 
+&lt;P&gt;
+And what I told him then - is what I&#39;ll tell you now. 
+&lt;P&gt;
+There is no single individual who has created more jobs around the world than you. And unlike Henry Ford and some of the industrialists that preceded you, not all of those folks just work for Sun - I&#39;m not talking hundreds or thousands of jobs, I&#39;m talking millions. They ended up in America and India, Indonesia and Antarctica, Madagascar, Mexico, Brazil and Finland. They ended up everywhere. Everywhere the network travels. 
+&lt;P&gt;
+No single individual has spawned so many startups, fueled so much venture investment, or raised so much capital without actually trying - just with a vision of the future that gets more obvious by the day.
+&lt;P&gt;
+No single individual has so effectively created and promoted the technologies at the heart of a new world emerging around us. A world in which the demand for network computing technology will never decline - as we share more family photos, watch more digital movies, do more banking on-line, build more communities on line, run our supply chains, automate our governments or educate our kids.
+&lt;P&gt;
+And no single individual, outside my family, has been a greater influence on my life - I am quite confident the same is true for millions of network consumers across the world. It&#39;s probably less obvious to them as it is to me. You have defined for me what tenacity means. What integrity, courage and commitment mean. Inside of work, and outside.
+&lt;P&gt;
+Which is why I&#39;m thrilled you&#39;re sticking around for the next twenty years. To lend that confidence to the decisions I make, to help spot the next Chicago Project, and to send me the email boosts I&#39;ve needed in the past, and I know I&#39;ll need in the future. It&#39;s not your fingerprints that will be all over our return to prominence, it&#39;ll be your footprints right underneath it.
+&lt;P&gt;
+As I said before, we are in a rare industry - in which demand for what we build, for the technologies that power the network, will never cease. Not even the oil industry can count on that. We have the same vision today as we did back in 1992 - a vision that only gets more true as each day passes, and only gets easier to describe to your parents, and to an ever younger population that seems to know that vision in their hearts.
+&lt;P&gt;
+The network is the computer. 
+&lt;P&gt;
+Thank you, Scott, you are a hero to us all.
+&lt;P&gt;
+
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=on_me_and_scott</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=brazil</guid>
+    <title>The Brazilian Effect</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=brazil</link>
+        <pubDate>Sun, 16 Apr 2006 23:05:00 -0700</pubDate>
+    <category>General</category>
+            <description>          I was honored to meet the President of Brazil last week.
+&lt;P&gt;
+&lt;IMG src=&quot;http://blogs.sun.com/roller/resources/jonathan/PresidentLula_Small.JPG&quot;&gt;
+&lt;P&gt;
+I&#39;m not one to name drop, but this is &lt;A HREF=&quot;http://blogs.sun.com/roller/page/jonathan?entry=sharing&quot;&gt;one of those extraordinary interactions&lt;/A&gt; I had to put in a first sentence - I&#39;ll return to why I met with him in a moment, but I was having a hard time with a graceful segue later in this post. So with that done...
+&lt;P&gt;
+I&#39;ve given keynotes at Java One for many years, and one of the things I&#39;ve grown to expect is what I&#39;ll call the &quot;Brazilian effect.&quot;
+&lt;P&gt;
+Having just returned from a trip to &lt;A HREF=&quot;http://gc.kls2.com/cgi-bin/gc?PATH=sfo-sbsp%0D%0A&amp;RANGE=&amp;PATH-COLOR=red&amp;PATH-UNITS=mi&amp;SPEED-GROUND=&amp;SPEED-UNITS=kts&amp;RANGE-STYLE=best&amp;RANGE-COLOR=navy&amp;MAP-STYLE=&quot;&gt;Sao Paulo&lt;/A&gt; and Brasilia, I can confirm Brazil&#39;s one of the more progressive nations in the world when it comes to the use of free and open source software. It&#39;s got one of the largest, and &lt;A HREF=&quot;http://www.soujava.org.br/jsp/index.jsp&quot;&gt;most vibrant developer communities&lt;/a&gt; (great to see the OpenSolaris community putting down roots!), 
+&lt;P&gt;
+&lt;IMG src=&quot;http://blogs.sun.com/roller/resources/jonathan/OpenSolaris.JPG&quot;&gt;
+&lt;P&gt;
+and as a result, there&#39;s never a shortage of interesting projects for me or &lt;A HREF=&quot;http://blogs.sun.com/roller/page/jag&quot;&gt;James&lt;/A&gt; to reference during our talks.
+&lt;P&gt;
+But whenever you mention Brazil or a Brazilian project, you have to watch out for the &lt;A HREF=&quot;http://www.google.com/search?q=bruno+souza&quot;&gt;Brazilian effect&lt;/A&gt;, the total disruption of your speech by a contingent of flag waving (and wearing) Brazilians that, upon hearing their nation mentioned, break into hoots and hollers and whistles and applause. It takes a few minutes to die down, and the enthusiasm&#39;s contagious. And it drives a bit of competitiveness from folks all around the world who want to know why the Brazilians get to have all the fun. (Let&#39;s see more flags this year!)
+&lt;P&gt;
+Brazil&#39;s very focused on making Brazil a better place - and an open network is playing a big role. There are nearly as many mobile handsets in the market as there are credit card holders (the former are well on their way to being default micro-payment, as well as application platforms), and the number of Brazilians with broadband access is skyrocketing. There&#39;s a move to drive all of Brazil on-line, as a means of connecting Brazil to Brazil, and to the global market - and free and open source software is playing an instrumental role.
+&lt;P&gt;
+So I&#39;d now like to say, &quot;I understand the Brazilian effect.&quot; There is a distinct sense that Brazilians want a better Brazil, that there&#39;s a pride in its progress and evolution. There&#39;s a palpable energy, even and maybe especially within the halls of its government institutions (where it&#39;s sometimes harder to find energy in other nations). I had an opportunity to travel to the seat of power in Brazil, to Brasilia, a city with an &lt;A HREF=&quot;http://www.aboutbrasilia.com/facts/&quot;&gt;interesting history&lt;/A&gt;.
+&lt;P&gt;
+And once there, I met with the Congressional President, and with President Lula himself. We talked about free and open source software, the future of the network, and how Sun could help bring more Brazilians on-line, while transferring the skills and technologies that create jobs and export opportunities. And not because Sun&#39;s a charity, but because it&#39;s good for our business, too - more Brazilians on-line drives more business for Sun, as a connected citizenry participates, with media companies, government agencies, financial institutions and one another. But Brazil knows it can&#39;t afford a connected society without the competition and opportunities brought about by free and open source software.
+&lt;P&gt;
+The Brazilian government is aggressively focused on digital inclusion, on bringing every segment of society to the &#39;net. They&#39;re making some of the world&#39;s largest investments in free software, leveraging it to deploy next generation network platforms spanning traditional telecommunication infrastructure to digital television. (One of the lead government IT folks was walking me through the lobby of their Congress, showing me their voting systems, and proudly said, &quot;we&#39;re only running open source software now. We run Solaris.&quot;) The IPTV projects are really interesting - in scale alone (there are more TV&#39;s in Brazil than mobile phones, and go take a look at &lt;A HREF=&quot;http://www.mongabay.com/igapo/world_statistics_by_area.htm&quot;&gt;the size of the country&lt;/A&gt; if you&#39;re interested in network topology problems).
+&lt;P&gt;
+But the rollout of digital TV, and the internet itself, is threatened in Brazil by licensing authorities and patent holders, who are holding Brazil, and every other developing nation, hostage to royalty claims and licensing fees. Claiming that open source software isn&#39;t safe (it is, we indemnify our open source customers just like we did when our software was closed source), or that the foundation technologies will obligate Brazil to pay extraordinary royalties for each citizen or citizen access (not true, either).
+&lt;P&gt;
+Those threats are simple - patent holders (who have names very familiar in the IT world) and licensing authorities (sponsored by the same companies) are impeding the rollout of the network to developing nations. We were there to present an alternative, as we&#39;re doing across the world. Presenting those alternatives to drive progress, transparency, and ultimately demand for what we build.
+&lt;P&gt;
+Because bridging the digital divide is what gets us out of our seats, hooting and hollering. The &lt;A HREF=&quot;http://en.wikipedia.org/wiki/Network_effect&quot;&gt;network effect&lt;/A&gt;, after all, is Sun&#39;s Brazilian effect. And stay tuned on our progress - we&#39;re hoping to have some interesting things to announce shortly.
+&lt;P&gt;
+And once again, during a town hall in Sao Paulo, I was asked, &quot;what are you going to write in your blog about your visit to Brazil?&quot; My response, &quot;I&#39;m going to write about how great our team is.&quot; A great team, doing important work, not just important for our customers, but witness the meeting with President Lula, important for Brazil.
+&lt;P&gt;
+Congrats, Cleber and team - keep it up!
+&lt;P&gt;
+&lt;IMG src=&quot;http://blogs.sun.com/roller/resources/jonathan/All_Hands.bmp&quot;&gt;&lt;P&gt;
+(with apologies for the folks who got cut off on the edges - next time, I&#39;ll be sure we&#39;ve got a far wider lens...)
+&lt;P&gt;
+
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=brazil</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=the_network_is_the_computer</guid>
+    <title>The Network is the Computer</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=the_network_is_the_computer</link>
+        <pubDate>Mon, 20 Mar 2006 00:13:00 -0800</pubDate>
+    <category>General</category>
+            <description>          Allow me to once again apologize in advance for a lack of brevity. This is one of those blogs you wait a career to write. 
+&lt;P&gt;
+A few years ago, I was sitting across from a Wall Street CIO, one of many I was visiting in New York. I was asking them all the same question, &quot;do you feel the grid you&#39;re building is delivering a competitive advantage to your business?&quot; (For those that don&#39;t know what a grid is, it&#39;s a collection of low cost network, storage, computing and software elements, lashed together to do work that historically required very expensive dedicated proprietary technologies). I asked the same question of CIO&#39;s in the energy industry, using grids to find oil. In the life sciences industry, using grids to discover drugs or model proteins. In the movie industry, using grids to render movies. 
+&lt;P&gt;
+The answers I received, typically delivered by an impassioned CTO that had spent a year building a grid, was always the same: &quot;absolutely yes. Our grid is way better than any of our competitors&#39;.&quot;
+&lt;P&gt;
+I haven&#39;t stopped asking that question. But about a year ago, after Sun outlined plans to build a public, multi-tenant grid (just like the power companies run), and make it available for &lt;A HREF=&quot;http://en.wikipedia.org/wiki/Time_Sharing_Option&quot;&gt;$1/cpu-hr&lt;/A&gt;, and after a few &lt;A HREF=&quot;http://www.roughtype.com/&quot;&gt;industry notables&lt;/A&gt; began suggesting change was afoot, I started hearing a different tune. &quot;Um... maybe my grid&#39;s no different than anyone else&#39;s.&quot;
+&lt;P&gt;
+Now, since &lt;A HREF=&quot;http://en.wikipedia.org/wiki/John_Gage&quot;&gt;John Gage&lt;/a&gt; first uttered the phrase, Sun has been saying &quot;The Network is the Computer.&quot; It&#39;s one of those rare vision statements that only becomes more true over time. And next week, we&#39;re going to prove the point by unveiling the world&#39;s first &lt;A HREF=&quot;http://www.network.com&quot;&gt;on demand supercomputer&lt;/A&gt;. And by on demand, I mean accessible through your browser, with a credit card. This isn&#39;t &lt;A HREF=&quot;http://www-03.ibm.com/servers/eserver/about/cod/solutions/hardware.html&quot;&gt;yesterday&#39;s definition of On Demand&lt;/A&gt;, involving custom financing contracts, prepositioned inventory and a sales rep in a crisp blue suit ready to negotiate. Nope, our definition is just like eBay&#39;s: you bring a browser and a credit card, we offer the service. No fuss, no muss. We believe the simplicity, accessibility and affordability of this service changes the face of computing for all organizations, large and small, public or private.
+&lt;P&gt;
+The Sun Grid (which will be officially unveiled in a few days) is an offering we and our partners will be expanding over the months and years to come - like any good product, there&#39;s no end to the innovation possible. This represents not only the future of product development at Sun, but like the Java platform and the internet itself, it really represents the future of computing.
+&lt;P&gt;
+As strange as it may sound, consumers are way ahead of most enterprises when it comes to using grids (and paying for them). Most of us live on the grid at home - we use Google and Yahoo!, we love eBay, we upload and share &lt;A HREF=&quot;http://www.flickr.com&quot;&gt;photos&lt;/A&gt; and &lt;A HREF=&quot;http://www.youtube.com&quot;&gt;movies&lt;/A&gt;, and gather our 
+&lt;A HREF=&quot;http://www.theregister.com&quot;&gt;news&lt;/A&gt; 
+&lt;A HREF=&quot;http://www.news.com&quot;&gt;from&lt;/A&gt; 
+&lt;A HREF=&quot;http://www.theinquirer.net&quot;&gt;various&lt;/a&gt; 
+&lt;A HREF=&quot;http://www.nytimes.com&quot;&gt;sources&lt;/A&gt; 
+&lt;A HREF=&quot;http://www.cnn.com&quot;&gt;on&lt;/A&gt; 
+&lt;A HREF=&quot;http://blogs.sun.com&quot;&gt;the&lt;/A&gt; 
+&lt;A HREF=&quot;http://www.slashdot.com&quot;&gt;web&lt;/A&gt;. Most of us bank from home, we leverage network email services - and if you think about it, that transformation all occurred within the last decade. In the &lt;A HREF=&quot;http://www.gladwell.com/blink/index.html&quot;&gt;blink&lt;/a&gt; of an eye.
+&lt;P&gt;
+But behind the corporate firewall, the transformation toward multi-tenant grids has been slower. Frankly, it&#39;s been tough to convince the largest enterprises that a public grid represents an attractive future. Just as I&#39;m sure George Westinghouse was confounded by the Chief Electricity Officers of the time that resisted buying power from a grid, rather than building their own internal utilities. But that&#39;s not to suggest it hasn&#39;t been happening in the business world.
+&lt;P&gt;
+Witness the meteoric rise of &lt;A HREF=&quot;http://www.salesforce.com&quot;&gt;Salesforce.com&lt;/A&gt; - or &lt;A HREF=&quot;http://www.rightnow.com&quot;&gt;RightNow&lt;/A&gt;, or &lt;A HREF=&quot;www.PayPal.com&quot;&gt;PayPal&lt;/A&gt; - or any of a number of other services designed to replace traditional infrastructure behind the corporate firewall. Smaller businesses especially have flocked to the grid to spare themselves the headaches of architecting and owning their own datacenters.
+&lt;P&gt;
+But larger enterprises have been tougher to convince. As an example, for the past 15 months, we&#39;ve been negotiating with one financial institution interested in leveraging our grid for spike loads of portfolio simulations. When their procurement team held up the contract to start negotiating the gauge of chain link we&#39;d use around the grid, and which vendors were approved to supply network cables, we gingerly passed them back to our traditional sales channels - this was clearly a customer that would prefer to build their own infrastructure (can you imagine arguing with PayPal over chain link?). So be it, that&#39;s where most IT is purchased today, and will likely be purchased for decades to come.
+&lt;P&gt;
+But there&#39;s no denying there&#39;s a change occurring.
+&lt;P&gt;
+A good friend of mine, a bioinformatician (love that title), once described how frustrated he was at having to wait for his university&#39;s supercomputing facility. &quot;If you had a grid available on line, I&#39;d bring my whole budget to you.&quot; Granted his budget was something like $10,000 a quarter, but rumor has it there&#39;s a good business in &lt;A HREF=&quot;http://longtail.typepad.com/the_long_tail/&quot;&gt;the long tail&lt;/A&gt;. My view - most computing will be purchased by that tail. There are, after all, far more small financial institutions than large. The same applies to movie studios, pharmaceutical companies, academic institutions, and nearly every other industry on earth. I&#39;m very comfortable betting on the &lt;A HREF=&quot;http://blogs.sun.com/roller/page/jonathan?entry=the_world_changes_this_week&quot;&gt;value in volume&lt;/A&gt; - and the willingness of those smaller firms to change culture, process and lifestyle to get a competitive advantage through network services. Just think back ten years - when most enterprises I met laughed at the idea of putting business systems on the internet. Now you&#39;re an anomaly if you&#39;re &quot;off the grid.&quot;
+&lt;P&gt;
+But getting to this week hasn&#39;t been without hiccups. After we announced it, we started working with a number of companies interested in negotiating the equivalent of chain link fencing, as above - we saw IBM Global Services (and HP&#39;s equivalent) in every one of the deals. We learned a lot, but mainly that most enterprises today define On Demand computing as hosting - they want to give their computers, software, networking and storage to a third party, and rent them back for a fixed price. But that&#39;d be like an electricity company collecting generators and unique power requirements, and trying to build a grid out of them. That&#39;s not a business we&#39;re in (nor one in which technology plays much of a role - it&#39;s all about managing real estate and call centers, as far as we can tell). Grids are all about standardization and transparency - and building economies of scale.
+&lt;P&gt;
+Building a secure, publicly available multi-tenant grid also turned out to be exceptionally complex - there&#39;s a reason no one had ever done it before. Most grids are application specific - for search, or auctions or payment. A general purpose computing grid was ploughing new ground - and we wanted to ensure availability and security would be as high as possible. To stress the grid, I actually sent mail to all of Sun&#39;s employees challenging them (with the promise of a new workstation) to see if they could bring it down. On the theory I&#39;d rather have a Sun employee, especially a Sun engineer with deep insight into our products, show us how to break it, than a rogue user.
+&lt;P&gt;
+After disappointing a huge swath of our employees who couldn&#39;t participate in the contest (our export control policies constrain which elements of our global workforce can be exposed to the grid), we surfaced several vulnerabilities in the very high-scale interaction of hardware, networking and software platforms (again, given that no one&#39;s ever done this before, it wasn&#39;t all that surprising). We also engaged with the folks who monitor technology export control for the US Government (if there&#39;s a harder civil service job in the government, I&#39;d like to know it) - who helped us ensure the grid wouldn&#39;t be accessible to people with nefarious intent. They understood we wanted to make this as simple as applying for an eBay account - we&#39;ll be close, but we&#39;ve got to have a higher level of scrutiny (which is why, when you apply for an account, it&#39;ll take a few hours, and won&#39;t be instantaenous - but that&#39;s our goal).
+&lt;P&gt;
+Those are just a few of the hurdles we faced, but now we&#39;re ready - ready to release the first, publicly accessible instantiation of the future of computing. And here are a few things to be aware of:
+&lt;P&gt;
+&lt;b&gt;First, in this first release, the Sun Grid will be available only to customers inside the US&lt;/b&gt;. Why? Export constraints. Stay tuned for international availability. And yes, we will be doing this globally.
+&lt;P&gt;
+&lt;b&gt;
+Second, don&#39;t expect instant account provisioning.&lt;/b&gt; We&#39;re shooting for a few hours, depending upon demand, and no worse than 24 hours. But please be patient. We are focused on ease of provisioning, but we&#39;re also conscious of the risk and security requirements.
+&lt;P&gt;
+&lt;b&gt;Third, we&#39;re opening on day 1 with less than 5,000 cpu sockets (both Opteron and UltraSPARC) - the &lt;A HREF=&quot;http://www.sun.com/servers/index.jsp&quot;&gt;world&#39;s most power efficient servers&lt;/a&gt;.&lt;/b&gt; As demand emerges, we&#39;ll be adding to that capacity - without limitation. 
+&lt;P&gt;
+&lt;b&gt;And finally, stay tuned for the web service API&#39;s&lt;/b&gt;. What you&#39;ll see this week is relatively simple, and a version 1.0 foundation for what&#39;s in store. Where are we headed? To release computing as a service, to be &lt;A HREF=&quot;http://www.mashupcamp.com/index.cgi?MashupCamp2&quot;&gt;mashed up&lt;/A&gt; with other services (I can hear VC&#39;s around the world offering a standing ovation - &#39;no more having to build one datacenter per startup!&#39;)
+&lt;P&gt;
+If you&#39;re read this far, here&#39;s a final bit of color on the incredibly fortuitous domain name for the future of computing: &lt;A HREF=&quot;http://www.network.com&quot;&gt;Network.com&lt;/A&gt;.
+&lt;P&gt;
+As it turns out, midway through Sun&#39;s due dilligence in the &lt;A HREF=&quot;http://www.sun.com/smi/Press/sunflash/2005-06/sunflash.20050602.1.xml&quot;&gt;acquisition of StorageTek&lt;/A&gt;, we learned they were the owners of Network.com. They hadn&#39;t really ever used it - a hidden gem. In hindsight, it may end up being one of the most valuable domain names in the history of computing. And we&#39;re certainly going to do what we can to burnish that value...
+&lt;P&gt;
+So have at it! Go to &lt;A HREF=&quot;http://www.network.com&quot;&gt;network.com&lt;/A&gt; later this week, grab a &lt;A HREF=&quot;http://www.paypal.com&quot;&gt;PayPal account&lt;/A&gt;, and experience for yourself what it&#39;s like to use one of the world&#39;s largest supercomputers. Without having to house it, manage it, power it, administer it, provision it... or buy it. 
+&lt;P&gt;
+&lt;A HREF=&quot;http://en.wikipedia.org/wiki/John_Gage&quot;&gt;The Network is the Computer.&lt;/A&gt; 
+&lt;P&gt;
+Once again, more true by the day.
+&lt;P&gt;&lt;P&gt;
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=the_network_is_the_computer</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=why_odf_matters</guid>
+    <title>Why Free Standards Matter</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=why_odf_matters</link>
+        <pubDate>Thu, 9 Mar 2006 23:59:00 -0800</pubDate>
+    <category>General</category>
+            <description>          Imagine you live on a sleepy street in a coastal town, say Rio de Janeiro. And a hurricane or tsunami hits your shores. And the government agency responsible for telling you how and where to get relief, for provisioning aid and emergency services, sends out a curious message: if you can&#39;t afford a copy of Microsoft Windows, we&#39;re sorry, we can&#39;t help you. 
+&lt;P&gt;
+That&#39;s exactly &lt;A HREF=&quot;http://arstechnica.com/news.ars/post/20050906-5278.html&quot;&gt;what happened in New Orleans&lt;/A&gt; a few months back. Which led many folks to see the convergence of telecommunications, technology and media in a very personal, and dissatisfying way - while demonstrating the vanishing distinction between web services, social services and emergency services. The network is all about moving data around, whether purchase orders, tax forms or storm paths.
+&lt;P&gt;
+Last weekend, I had a similar personal experience. I was on my way to show my kids what snow looked like, taking them to &lt;A HREF=&quot;http://maps.yahoo.com/beta/index.php#tp=1&amp;tt=lake%2520tahoe%252C%2520california&amp;maxp=search&amp;trf=0&amp;lon=-120.180130004883&amp;lat=39.3465116183134&amp;mag=6&quot;&gt;Lake Tahoe&lt;/A&gt;, in the Sierra mountains. If you know Northern California, you know that means crossing Donner Pass. A place that makes me think of that great Andy Grove quote, &quot;only the paranoid survive.&quot; During winter storms, you don&#39;t drive through that area lightly - there are even police at checkpoints to make sure you&#39;re well equipped - with chains for your tires, or a four wheel drive vehicle. City-folks like me even pack water, food and blankets. &lt;A HREF=&quot;http://www.pbs.org/wgbh/amex/donner/&quot;&gt;Just in case&lt;/A&gt;.
+&lt;P&gt;
+Before leaving, I checked the weather. A winter storm was approaching, and knowing the State of California places web cameras in key locations to help monitor traffic, I went off to a search engine, and typed &quot;&lt;A HREF=&quot;http://www.google.com/search?q=california+highway+video&amp;sourceid=mozilla-search&amp;start=0&amp;start=0&amp;ie=utf-8&amp;oe=utf-8&amp;client=firefox&amp;rls=org.mozilla:en-US:official&quot;&gt;California highway video&lt;/A&gt;&quot; to get a real time view of road conditions.
+&lt;P&gt;
+And what did I see? 
+&lt;P&gt;
+&lt;A HREF=&quot;http://video.dot.ca.gov/&quot;&gt;A California State Agency web site that &lt;b&gt;required&lt;/B&gt; Windows Media 9&lt;/a&gt;. I happened to be running my Solaris laptop at the time. So I couldn&#39;t receive the video. &lt;b&gt;As a tax paying citizen of the state, my government was inadvertently telling me I could not receive state emergency services without buying a Microsoft product&lt;/b&gt;. Governor Schwarzenegger, I don&#39;t want my or my employer&#39;s tax dollars going to promote a monopoly in California. (Love them though I do as a business partner.)
+&lt;P&gt;
+So now you know why the &lt;A HREF=&quot;http://www.odfalliance.org/&quot;&gt;Open Document Format Alliance&lt;/A&gt; is important - in a democratic society, agencies, corporations or individuals that serve the public&#39;s interest should be free to do so without burdening their constituents with an obligation to purchase one company&#39;s product. That&#39;s what the ODF Alliance will help achieve - by creating and making freely available to anyone that wants it, a standard for representing document based information. 
+&lt;P&gt;
+It seems plainly wrong for a government to suggest that citizens purchase Microsoft Word before reading a storm warning or ballot initiative. Or that they abandon their Macintosh to run Internet Explorer before applying for disaster relief. Or that they buy a Windows Mobile phone before requesting 911. Or that they have Solaris installed to pay their taxes.
+&lt;P&gt;
+And rather than sit by and complain, &lt;A HREF=&quot;http://www.odfalliance.org/about.html&quot;&gt;several of us&lt;/A&gt; - competitors and partners alike, along with a broad cross section of global industry and &lt;A HREF=&quot;http://www.ala.org/&quot;&gt;library associations&lt;/a&gt; - are all banded together to promote a standard for the free interchange of document based information. A standard that doesn&#39;t require any one company&#39;s technology, or a royalty check or fear of patent litigation. A standard that leverages a common interest in having a free, open and neutral standard to which any company, individual or government can subscribe. 
+&lt;P&gt;
+A standard that serves the public&#39;s interest. 
+&lt;P&gt;
+And to put our money where our mouths are, the first application to fully support ODF is the world&#39;s most popular free/open source office productivity suite, &lt;A HREF=&quot;http://www.openoffice.org&quot;&gt;OpenOffice&lt;/A&gt; - which we encourage governments to distribute to their citizens. There&#39;s no better way to serve the public&#39;s interest than to give them freedom. 
+&lt;P&gt;
+And choice.
+&lt;P&gt;
+
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=why_odf_matters</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=the_future_of_unix</guid>
+    <title>The Future of HP's UNIX...</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=the_future_of_unix</link>
+        <pubDate>Wed, 1 Mar 2006 23:23:00 -0800</pubDate>
+    <category>General</category>
+            <description>          This morning we sent an open letter to HP&#39;s CEO, Mark Hurd. You can find the text of it &lt;A HREF=&quot;http://www.sun.com/aboutsun/media/features/converge.html&quot;&gt;here&lt;/a&gt;.
+&lt;P&gt;
+I&#39;m not necessarily the biggest fan of open letters - but every once in a while, they help explain our position, or motivate customers to engage in driving the industry. And customer involvement has led to some remarkable innovation (my favorite example being &lt;A HREF=&quot;http://projectliberty.org/membership/current_members.php&quot;&gt;here&lt;/A&gt;).
+&lt;P&gt;
+With full disclosure, we&#39;ve been trying for a while to engage HP in a dialog around converging our Unix efforts - their Unix, called HP-UX, was the second most popular Unix behind our offering, Solaris. But HP&#39;s customers are increasingly moving away from HP-UX - not because they don&#39;t love it (many do, and there are a lot of folks that have a deep respect for it at Sun, as well) - but because HP has limited where customers can use it. As the exclusive OS for HP&#39;s Precision Architecture, HP has built up an installed base of more than $100 billion - for a reason. It was a great platform.
+&lt;P&gt;
+But then HP decided to &lt;A HREF=&quot;http://www.informationweek.com/story/showArticle.jhtml?articleID=164302278&quot;&gt;end of life PA-RISC&lt;/A&gt; - and in so doing, left their user community with a very tough choice: if you want to preserve your investment in HP-UX, you have to rearchitect your entire datacenter to adopt Intel&#39;s troubled Itanium project. &lt;b&gt;But if you want to enjoy HP&#39;s high volume Proliant line of x86/x64 computers, you can&#39;t run HP-UX&lt;/b&gt; - unlike Sun, HP elected not to invest in supporting their Unix, HP-UX, on their own x86/x64 servers.
+&lt;P&gt;
+So we&#39;d like to offer HP, and the HP user community, a third option: &lt;b&gt;to converge Solaris 10 with HP-UX, running on HP&#39;s very own Proliant product line.&lt;/b&gt; We&#39;ve spoken to HP about it, thought we saw a glimmer of interest, and now we want to get their customers and partners involved.
+&lt;P&gt;
+To build up to this point, we&#39;ve been doing our best to faithfully support Solaris 10 on HP&#39;s &lt;A HREF=&quot;http://www.sun.com/bigadmin/hcl/data/sol/systems/views/all_servers_all_results.mfg.page2.html&quot;&gt;entire Proliant family of servers&lt;/A&gt;. They&#39;re all qualified - try the download, &lt;a href=&quot;http://www.sun.com/solaris&quot;&gt;here&lt;/a&gt;.
+&lt;P&gt;
+And we&#39;re going to continue extending the olive branch to the HP-UX user community, with tools, technologies and partner support. But we&#39;d like HP to contribute to the effort, on behalf of and in concert with their customers and developers.
+&lt;P&gt;
+So now it&#39;s up to you - the HP user and developer community. Talk to your HP sales rep or management contact if you&#39;re interested in seeing such a project flourish. You have all the power in this dialog. And Sun would be very supportive - I commit that. You shouldn&#39;t have to abandon HP-UX, and we&#39;ll gladly work to ensure it.
+&lt;P&gt;
+At bottom, a converged Solaris/HP-UX roadmap would offer our joint customers choice, innovation, and a broad spectrum of qualified hardware - while preserving your investment in skills, your confidence in the underlying intellectual property and technology... and most importantly, given that &lt;A HREF=&quot;http://www.opensolaris.org&quot;&gt;Solaris is open source&lt;/A&gt;, your choices going forward. That&#39;s all upside, as far as we&#39;re concerned.
+&lt;P&gt;
+Now we just need to get HP on board...
+&lt;P&gt;
+
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=the_future_of_unix</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=niagara_free_trial_update</guid>
+    <title>Niagara FREE TRIAL - Update</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=niagara_free_trial_update</link>
+        <pubDate>Fri, 24 Feb 2006 21:14:00 -0800</pubDate>
+    <category>General</category>
+            <description>          Given the volume of email I&#39;m getting... if you&#39;re looking for the Niagara FREE Trial offer, &lt;A HREF=&quot;https://www.sun.com/secure/servers/coolthreads/tnb/qualify.jsp&quot;&gt;click here&lt;/a&gt;.
+&lt;P&gt;
+The terms and conditions are now updated to reflect the fact that &lt;b&gt;Sun pays the postage if you return the system we sent you&lt;/b&gt;. There&#39;s always been a free packing slip in the box when you received it - our legal agreement was just out of sync (and no, I don&#39;t think the agreement is poetically simple, either - that&#39;s next week&#39;s challenge). If after 60 days you don&#39;t like the system we sent, just call the 1-800 number, and someone will come out to pick it up. 
+&lt;P&gt;
+We&#39;re obviously good at the &lt;A HREF=&quot;http://developers.sun.com/prodtech/javatools/jscreator/index.jsp&quot;&gt;free software&lt;/A&gt; thing. Looks like free systems/hardware might be a bit tougher - but we&#39;re going to get it right, and we promise to fulfill every request. Give us credit for running the experiment transparently - warts and all.
+&lt;P&gt;
+And to answer a few of the comment questions - the offer &lt;em&gt;applies to anyone interested&lt;/em&gt; - not just corporate customers. We don&#39;t care if you&#39;re an educator or a park ranger or a blogger or a physicist or a CIO - so long as you&#39;re in the market for the fastest/most efficient server on earth. &lt;P&gt;
+And just to reiterate - once you receive the system, run your own benchmarks - post them publicly (positive or negative - points earned for thorough and complete), and our marketing team will decide who gets to keep their Niagara systems for free. Free.
+&lt;P&gt;
+ps. to the folks at slashdot, send me your contact data, we&#39;re happy to send a Niagara system for you to take a look at. Something tells me you fit the target demographic perfectly... (no floating point, heavy threading, etc.)
+&lt;P&gt;
+pps. just in case you lost track of the promo, it&#39;s &lt;A HREF=&quot;https://www.sun.com/secure/servers/coolthreads/tnb/qualify.jsp&quot;&gt;here&lt;/a&gt;.
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=niagara_free_trial_update</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=er</guid>
+    <title>Er...</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=er</link>
+        <pubDate>Thu, 23 Feb 2006 12:28:00 -0800</pubDate>
+    <category>General</category>
+            <description>          To those that provided comments highlighting the inconsistency in our Try and Buy terms and conditions (which seem to preclude the very benchmarking that earns a free Niagara, and suggests the recipient is on the hook for return postage (which they&#39;re not)) - please stay tuned. 
+&lt;P&gt;
+Change is coming to the pdf (which I agree, isn&#39;t an ideal format for the T&#39;s and C&#39;s, &lt;A HREF=&quot;http://cafe.elharo.com/web/sun-loses-a-sale/&quot;&gt;Elliotte&lt;/a&gt; - bear with us...)
+&lt;P&gt;
+My apologies for the confusion (and thanks for the attentiveness).
+&lt;P&gt;
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=er</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=niagara_benchmarks</guid>
+    <title>FREE SERVER (v2.0) - Honest!</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=niagara_benchmarks</link>
+        <pubDate>Tue, 21 Feb 2006 23:39:00 -0800</pubDate>
+    <category>General</category>
+            <description>          &lt;P&gt;
+A while back, I announced we&#39;d start making servers &lt;A HREF=&quot;http://blogs.sun.com/roller/page/jonathan/20051218&quot;&gt;available for free&lt;/A&gt; trial - the objective wasn&#39;t to terrify financial analysts, although I&#39;m certain a few gripped their chest, but instead to drive awareness among customers that hadn&#39;t been exposed to Sun. And free seemed like the right price to drive adoption among developers (honestly, we&#39;re not too worried about folks who elect not to buy failing to return a $5,000 server (we cover postage both ways)).
+&lt;P&gt;
+The program started off slowly - partly due to internal disbelief (there&#39;s a long story, there), but secondarily, our focus group feedback suggested no one believed we&#39;d actually send them a free Niagara. So let me reiterate: go to &lt;A HREF=&quot;http://www.sun.com/&quot;&gt;sun.com&lt;/A&gt;, fill out &lt;A HREF=&quot;https://www.sun.com/secure/servers/coolthreads/tnb/qualify.jsp&quot;&gt;the form&lt;/A&gt;, we&#39;ll send you the fastest server on earth, absolutely free. If you don&#39;t like it, we&#39;ll send someone to pick it up.
+&lt;P&gt;
+We were also serious about the following: &lt;b&gt;if you write a blog that fairly assesses the machine&#39;s performance (positively or negatively), send us a pointer, we&#39;re likely to let you keep the machine&lt;/b&gt;. (And before you ask, the marketing team makes the decision about what qualifies for the promotion, not I - although I know they love drama, charts, and compelling competitive analyses.)
+&lt;P&gt;
+The first reaction most folks have to the performance is, frankly, disbelief. A while back I got into a spat with the technologists that built the machine about whether we could fairly call them 9.6Ghz machines (as a measure of clock frequency of the chip). Paul Murphy has an &lt;A HREF=&quot;http://blogs.zdnet.com/Murphy/index.php?p=524&quot;&gt;interesting analysis&lt;/A&gt; of whether that&#39;s a fair descriptor (I say interesting because he says we&#39;re underhyping the performance - a first for the industry!).
+&lt;P&gt;
+Here&#39;s a sample &lt;A HREF=&quot;http://milek.blogspot.com/2006/02/t2000-real-web-performance.html&quot;&gt;benchmark&lt;/A&gt;, (and &lt;A HREF=&quot;http://www.osnews.com/comment.php?news_id=13737&quot;&gt;discussion&lt;/a&gt;, too). If you look at the &lt;A HREF=&quot;http://www.spec.org/web2005/results/web2005.html&quot;&gt;SPEC benchmarks&lt;/A&gt; (the column titled &quot;Result&quot;), it&#39;s also validated by a neutral body. I&#39;m thinking we should rename Sun to AAA_Sun so our name appears first in the SPEC list.
+&lt;P&gt;
+I had the privilege of making a cameo appearance today at David Berlind&#39;s MashUp Unconference - a fascinating experiment to invite a bunch of people interested in a given topic to a conference, charge them nothing, let them create the agenda on the fly at the conference, and have folks like Sun (and other companies) pick up the tab - an inversion of the traditional conference business model. I got to give a Niagara (without obligation to return) to what was voted the most popular Mashup - &lt;A HREF=&quot;http://podbop.org/&quot;&gt;podbop.org&lt;/A&gt;. Taylor McKnight, the individual &lt;A HREF=&quot;http://blogs.zdnet.com/BTL/?p=2617&quot;&gt;who received the machine&lt;/A&gt;, looked quite pleased - but asked a legitimate question: &quot;how do I get this on the plane?&quot; 
+&lt;P&gt;
+Given that the machine is classified as a munition by the US Government, it was a perfectly legitimate question. It probably wouldn&#39;t make it past airport security (or into an overhead cabin). So yes, we&#39;re covering postage.
+&lt;P&gt;
+Taylor, I&#39;m hoping you&#39;ll write a blog about your experience with the system (once it arrives :)... you are, after all, the target demographic.
+&lt;P&gt;
+
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=niagara_benchmarks</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=coffee_and_keynotes</guid>
+    <title>Coffee, Keynotes and Linux on Intel vs. Solaris on Opteron</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=coffee_and_keynotes</link>
+        <pubDate>Fri, 17 Feb 2006 22:00:00 -0800</pubDate>
+    <category>General</category>
+            <description>          Webcast of a keynote I just delivered at the Open Source Business Conference (OSBC) can be &lt;A HREF=&quot;http://webcast-east.sun.com/ramgen/archives/VIP-2257/VIP-2257_01_032.rm&quot;&gt;found here&lt;/a&gt;. I did have a fair amount of coffee before the speech, which someone in the audience suggested was evident in the pace at which the speech was delivered. Listen for yourself.
+&lt;P&gt;
+There were quite a few startups in the audience - and given that we&#39;re beginning to turn our focus to recruiting those startups back to Sun, I thought I&#39;d live up to my (now delinquent) commitment to publish an email I received from Marc Andreesen about &lt;A HREF=&quot;http://www.ning.com&quot;&gt;his startup&lt;/A&gt;&#39;s experience with &quot;Linux on Intel&quot; vs. Solaris. Here you go:
+&lt;P&gt; 
+-------- Original Message --------&lt;P&gt;
+Subject: followup&lt;br&gt;
+Date: Thu, 02 Feb 2006 15:51:28 -0800&lt;br&gt;
+From: Marc Andreessen &lt; &gt;&lt;br&gt;
+Organization: Ning Inc.&lt;br&gt;
+To: Jonathan Schwartz &lt; &gt;, Anil Gadre &lt; &gt;&lt;br&gt;
+&lt;P&gt;
+Hi guys -- below is the writeup of the data I spoke about on stage yesterday. 
+&lt;P&gt;
+We (Ning) are fine with you all using this however you want.
+&lt;P&gt;
+Marc
+&lt;P&gt;
+Ning Server Platform Analysis
+&lt;P&gt;
+The following data is based on an analysis we did in support of the 
+implementation of our production environment. Ning had deployed a beta system 
+based on a commercial Linux distribution running on whitebox (aka local system 
+integrator PC clone) AMD Opteron servers. This infrastructure is hosted in our 
+own cage at a commercial co-location facility. We pay a monthly fee based on 
+the total sqft of the cage as well as the total power delivered to the cage 
+(measured in amps).
+&lt;P&gt;
+The space and power costs are blended averages for our area (San Jose, CA):
+&lt;P&gt;
+Monthly space cost:    $27.00 per sqft&lt;br&gt;
+Monthly power cost:    $17.00 per amp&lt;br&gt;
+&lt;P&gt;
+A 4-post rack (or cabinet) occupies approximately 20sqft. Each rack/cabinet 
+has approximately 40 rack units (RU; 1RU = 1.75&quot;) of useable space. Thus:
+&lt;P&gt;
+Monthly cost per rack: 20 sqft * $27/sqft = $540&lt;br&gt;
+Monthly cost per RU: $540/40 = $13.50&lt;br&gt;
+&lt;P&gt;
+For purposes of our analysis, let&#39;s assume all servers are of equal cost:
+&lt;P&gt;
+Server price: $3,000.00
+&lt;P&gt;
+Next we need to consider the operating system for the server, so we need to 
+include the purchase price plus any maintenance fees. We compared a commercial 
+Linux distribution (enterprise class) vs Solaris:
+&lt;P&gt;
+Commercial Linux annual subscription fee:    $900.00&lt;br&gt;
+Commercial Linux per-incident charge:    $380.00&lt;br&gt;
+Total:    $1,280.00&lt;br&gt;
+&lt;P&gt;
+Sun Solaris subscription fee:    $120.00&lt;br&gt;
+Sun Solaris per-incident fee:    $0.00&lt;br&gt;
+Total: $120.00&lt;br&gt;
+&lt;P&gt;
+Given that we are in a hosted environment which imposes certain constraints 
+(total space and power available), the acquisition cost is only a part of the 
+equation. As Paul Harvey would say &quot;this is the rest of the story&quot;.
+&lt;P&gt;
+Our co-location provider imposes a per-rack limit as to how much power they 
+will provide. In our case this is 60A. The rule of thumb is to only load a 
+circuit to 80% of the total capacity. Thus:
+&lt;P&gt;
+
+    60A * 80% = 48A useable per rack
+&lt;P&gt;
+Now we need to determine how many systems we can fit in a rack. We know we 
+have 40RU available and 48A of power available per rack. But how much power do 
+the systems require? Let&#39;s see:
+&lt;P&gt;
+Sun x2100 (model 175; dual-core Opteron):        1A&lt;br&gt;
+Whitebox AMD (2x AMD Opteron 248):    2A&lt;br&gt;
+Intel dual Xeon:    &gt;3A&lt;br&gt;
+&lt;P&gt;
+To determine the maximum number of systems we can deploy per rack:
+&lt;P&gt;
+Intel:        48A per rack / 3A per system = 16 systems per rack&lt;br&gt;
+Whitebox AMD:        48A per rack / 2A per system = 24 systems per rack&lt;br&gt;
+Sun x2100:        48A per rack / 1A per system = 48 systems per rack.&lt;br&gt;
+&lt;P&gt;
+Given there are only 40 RU in a rack, the real limit for the Sun systems is 40 
+systems per rack. Next we need to determine the monthly cost of operating the 
+systems:
+&lt;P&gt;
+60A per rack * $17 per A per month = $1,020.00 per month&lt;br&gt;
+Monthly rack cost: $540.00&lt;br&gt;
+&lt;P&gt;
+&lt;b&gt;Intel&lt;/b&gt; (@ 16 systems per rack):&lt;br&gt;
+    power:    $1,020 / 16 = $63.75 per month&lt;br&gt;
+    space:    $540 / 16 = $33.75 per month&lt;br&gt;
+    total:    $97.50 per month&lt;br&gt;
+&lt;P&gt;
+&lt;b&gt;whitebox AMD&lt;/b&gt; (@ 24 systems per rack):&lt;br&gt;
+    power:    $1,020 / 24 = $42.50 per month&lt;br&gt;
+    space:    $540 / 24 = $22.50 per month&lt;br&gt;
+    total:    $65.00 per month&lt;br&gt;
+&lt;P&gt;
+&lt;b&gt;Sun AMD&lt;/b&gt;:
+    power:    $1,020 / 40 = $25.50 per month&lt;br&gt;
+    space:    $540 / 40 = $13.50 per month&lt;br&gt;
+    total:    $39.00 per month&lt;br&gt;
+&lt;P&gt;
+Looking at a straight line analysis of the combined costs of server + OS + 
+space + power over 36 months we end up with:
+&lt;P&gt;
+&lt;b&gt;Intel + commercial Linux&lt;/b&gt;:&lt;br&gt;
+    $3,000 + (3 * $1,280) + (36 * $97.50) = $10,350.00 over 3 years&lt;br&gt;
+&lt;P&gt;
+&lt;b&gt;whitebox AMD + commercial Linux&lt;/b&gt;:&lt;br&gt; 
+   $3,000 + (3 * $1,280) + (36 * $65.00) = $9,180.00 over 3 years&lt;br&gt;
+&lt;P&gt;
+&lt;b&gt;whitebox AMD + Solaris&lt;/b&gt;:&lt;br&gt;
+    $3,000 + (3 * $120) + (36 * $65.00) = $5,700.00&lt;br&gt;
+&lt;P&gt;
+&lt;b&gt;Sun AMD + Solaris&lt;/b&gt;:
+&lt;br&gt;    $3,000 + (3 * $120) + (36 * $39.00) = $4,764.00&lt;br&gt;
+&lt;P&gt;
+Based on this analysis &lt;b&gt;the Sun solution is less than half the cost of running 
+Linux on Intel hardware&lt;/b&gt;.
+&lt;P&gt;
+A key consideration: data center space is a limited commodity over which we 
+have minimal control. We can &quot;reserve&quot; space for expansion, but this requires 
+additional expenses. A solution that allows us to maximize the space we 
+purchase is a significant advantage, as this allows for much more cost 
+effective growth.
+&lt;P&gt;
+------------------
+&lt;P&gt;
+ps. note comments have been turned on.
+&lt;P&gt;
+pps. And to that point, &lt;A HREF=&quot;http://www.theregister.com&quot;&gt;The Register&lt;/A&gt; just published &lt;A HREF=&quot;http://www.theregister.co.uk/2006/02/17/itanic_oracle_idc/&quot;&gt;an excellent analysis&lt;/a&gt; - and given the &lt;A HREF=&quot;http://www.informationweek.com/story/showArticle.jhtml?articleID=178601879&quot;&gt;increasing scrutiny&lt;/a&gt; under which Gartner and IDC now find themselves, it&#39;d probably help their credibility if they, like the financial analyst community, started disclosing revenues they receive from the vendors they cover. At their scale, vs. the smaller boutiques, I think it&#39;s going to become an imperative. 
+&lt;P&gt;
+And personally, it may end up being a determinant of whether we&#39;re willing to do business with such firms. Transparency&#39;s a good thing.
+&lt;P&gt;
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=coffee_and_keynotes</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=recommended_reading</guid>
+    <title>Recommended Reading</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=recommended_reading</link>
+        <pubDate>Fri, 10 Feb 2006 06:42:00 -0800</pubDate>
+    <category>General</category>
+            <description>          &lt;A HREF=&quot;http://www.amazon.com/gp/product/0385503865/103-9534732-3256619?v=glance&amp;n=283155&quot;&gt;The Wisdom of Crowds&lt;/A&gt;. It&#39;s a quick read, quite good.
+&lt;P&gt;
+Once you&#39;ve read that, &lt;A HREF=&quot;http://radar.oreilly.com/archives/2006/02/whats_up_with_netbeans.html&quot;&gt;this is interesting reading&lt;/a&gt;, too...
+&lt;P&gt;
+Both for its content, and the context. Thanks for the pointer, &lt;A HREF=&quot;http://radar.oreilly.com/tim/&quot;&gt;Tim&lt;/A&gt;.
+&lt;P&gt;
+
+
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=recommended_reading</comments>
+      </item>
+    <item>
+    <guid isPermaLink="true">http://blogs.sun.com/roller/page/jonathan?entry=customers_you_never_meet</guid>
+    <title>The Death of the Cold Call</title>
+    <dc:creator>Jonathan Schwartz</dc:creator>
+    <link>http://blogs.sun.com/roller/page/jonathan?entry=customers_you_never_meet</link>
+        <pubDate>Sat, 4 Feb 2006 22:57:00 -0800</pubDate>
+    <category>General</category>
+            <description>          I started my technology career at a startup, running sales. Now &quot;running&quot; is probably generous, given that I was the only sales guy (my &lt;A HREF=&quot;http://www.langreiter.com/space/Lighthouse+Design&quot;&gt;partners&lt;/A&gt; were busy creating products). But every morning, I&#39;d get up, roll out of bed to my desk (which was in my bedroom - this was before raising venture capital became like raising your hand), and start down my call list. We&#39;d get leads from anywhere we could - but at a startup, all sales are basically &lt;A HREF=&quot;http://www.microsoft.com/smallbusiness/resources/marketing/customer_service_acquisition/7_tips_for_turning_cold_calls_into_hot_leads.mspx&quot;&gt;cold calls&lt;/A&gt;. And in all honesty, I hate cold calls. But hold that thought.
+&lt;P&gt;
+We just finished up &lt;A HREF=&quot;http://www.sun.com/aboutsun/media/analyst/sas2006/&quot;&gt;Sun&#39;s annual Analyst Conference&lt;/A&gt; - where we bring financial and industry analysts together (they never seem to sit on the same side of the room), and present our updates and perspectives on the marketplace. (The above link is video and slides.)
+&lt;P&gt;
+The central topic of &lt;A HREF=&quot;http://www.sun.com/aboutsun/media/analyst/sas2006/player/video2.html&quot;&gt;my presentation&lt;/A&gt; was &lt;A HREF=&quot;http://blog.sun.com/roller/page/jonathan?entry=free_like_a_puppy&quot;&gt;free software&lt;/A&gt; - trying to answer the questions, especially from among the financial community, surrounding its impact on our financial results. Some still believe &quot;free&quot; can&#39;t be good for business - despite a rush of businesses predicated upon &lt;A HREF=&quot;http://www.opentable.com&quot;&gt;free&lt;/A&gt;. My point was that free software doesn&#39;t decrease revenue - it &lt;a href=&quot;http://blogs.sun.com/roller/page/jonathan/20050616&quot;&gt;amplifies adoption&lt;/A&gt;. And radically simplifies customer acquisition and qualification.
+&lt;P&gt;
+To make the point, I invited &lt;A HREF=&quot;http://en.wikipedia.org/wiki/Marc_Andreesen&quot;&gt;Marc Andreesen&lt;/A&gt; to join me on stage - to talk about one of his (&lt;A HREF=&quot;http://www.opsware.com&quot;&gt;many&lt;/a&gt;) companies, &lt;A HREF=&quot;http://www.ning.com&quot;&gt;Ning&lt;/A&gt;. Ning is all about accelerating the emergence of social software through the delivery of its infrastructure as a service (with some really inspired thinking about cloning and tipping effects). It&#39;s a very cool idea, run by some very smart people. And Ning is ground zero of the coming revolution in the IT marketplace: social software will drive more infrastructure and transactional volumes than the entirety of last decade&#39;s ERP build out. To prove the point, Sun runs its ERP implementation on a partially used 5 year old computer - vs. our developer communities and customer portals, which serve millions of users 24 hours a day requiring far more infrastructure.
+&lt;P&gt;
+But what&#39;s interesting to me about our relationship with Ning is that &lt;b&gt;no one from Sun had ever paid them a visit&lt;/b&gt;. No one had ever made a sales call, cold or otherwise. Marc assumed he&#39;d simply run Linux on a whitebox platform - yet it turned out to be &lt;b&gt;twice&lt;/b&gt; as expensive as running Solaris on a SunFire server (a point many customers find surprising, which is both a good, and a bad, problem to have). See C|Net&#39;s coverage, &lt;A href=&quot;http://news.com.com/1606-2-6034378.html?tag=st.rb&quot;&gt;here&lt;/a&gt;. And now he&#39;s become a Sun customer (I&#39;ll post his email to me detailing the math next week).
+&lt;p&gt;
+It&#39;s my view that the growth in front of Sun won&#39;t simply be from stabilizing and growing our existing customers. It&#39;ll be from acquiring new customers. Large customers as well as small. The important point is we won&#39;t be able to meet most of them - there aren&#39;t enough sales executives on the planet to call on each of the &lt;A HREF=&quot;http://www.sun.com/smi/Press/sunflash/2006-01/sunflash.20060131.4.html&quot;&gt;4 million Solaris licenses&lt;/A&gt; we&#39;ve distributed to the world. But so long as the internet connects us to them, the distribution of free software allows them to discover us - and for us to invest in building a bi-directional link, ultimately driving revenue from &lt;em&gt;only those who want added services and infrastructure&lt;/em&gt; (vs. those who don&#39;t).
+&lt;P&gt;
+Which allows me to believe (perhaps hope) that the days of cold calling are numbered...
+&lt;P&gt;
+  </description>            <comments>http://blogs.sun.com/roller/page/jonathan?anchor=customers_you_never_meet</comments>
+      </item>
+  </channel>
+</rss>

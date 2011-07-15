@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss version="2.0"><channel>
+	<title>BBC News | News Front Page | World Edition</title>
+	<link>http://news.bbc.co.uk/go/rss/-/2/hi/default.stm</link>
+	<description>Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives. Also entertainment, business, science, technology and health news.</description>
+	<language>en-gb</language>
+	<lastBuildDate>Wed, 24 May 2006 21:07:54 GMT</lastBuildDate>
+	<copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse</copyright>
+	<docs>http://www.bbc.co.uk/syndication/</docs>
+	<ttl>15</ttl>
+		
+		<image>
+			<title>BBC News</title>
+			<url>http://news.bbc.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+			<link>http://news.bbc.co.uk/go/rss/-/2/hi/default.stm</link>
+		</image>
+		
+			
+				
+				
+					<item>
+        <title>Olmert urges Palestinian action</title>
+        <description>Israel's prime minister uses a speech to the US Congress to urge the Palestinians to be a willing peace partner.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/middle_east/5013466.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/middle_east/5013466.stm</guid>
+		<pubDate>Wed, 24 May 2006 18:35:56 GMT</pubDate>
+		<category>Middle East</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Turkey airport fire under control</title>
+        <description>A fire that engulfed the cargo area of Istanbul international airport is under control, Turkish officials say.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/europe/5012706.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/europe/5012706.stm</guid>
+		<pubDate>Wed, 24 May 2006 20:46:23 GMT</pubDate>
+		<category>Europe</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>US shares up while market jitters</title>
+        <description>US shares finish ahead while European markets slide further amid concerns about inflationary pressures.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/5011530.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/business/5011530.stm</guid>
+		<pubDate>Wed, 24 May 2006 20:38:15 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>US immigration bill clears hurdle</title>
+        <description>The US Senate clears the way for controversial immigration reform but tough talks lie ahead before it becomes law.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/americas/5013232.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/americas/5013232.stm</guid>
+		<pubDate>Wed, 24 May 2006 16:59:32 GMT</pubDate>
+		<category>Americas</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Russia plans wide military reform</title>
+        <description>Russia's defence minister announces widespread reform of the military including the axing of 300 senior posts.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/europe/5013936.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/europe/5013936.stm</guid>
+		<pubDate>Wed, 24 May 2006 18:14:56 GMT</pubDate>
+		<category>Europe</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Iran nuclear offer bid 'progress'</title>
+        <description>Major world powers report &quot;good progress&quot; progress in talks on incentives for Iran to end its nuclear programme.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/middle_east/5011176.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/middle_east/5011176.stm</guid>
+		<pubDate>Wed, 24 May 2006 18:26:10 GMT</pubDate>
+		<category>Middle East</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Elusive Uganda rebel in war plea</title>
+        <description>The elusive head of Uganda's Lord's Resistance Army calls for an end to 20 years of war in a DVD appearance.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/africa/5014520.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/africa/5014520.stm</guid>
+		<pubDate>Wed, 24 May 2006 20:58:50 GMT</pubDate>
+		<category>Africa</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Aziz testifies for Saddam defence</title>
+        <description>Iraqi former Deputy Prime Minister Tariq Aziz appears as a defence witness in Saddam Hussein's trial.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/middle_east/5011164.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/middle_east/5011164.stm</guid>
+		<pubDate>Wed, 24 May 2006 13:11:53 GMT</pubDate>
+		<category>Middle East</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Stones postpone Europe concerts</title>
+        <description>The Rolling Stones postpone 15 European concerts following guitarist Keith Richards's brain surgery.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/5011654.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/entertainment/5011654.stm</guid>
+		<pubDate>Wed, 24 May 2006 10:42:39 GMT</pubDate>
+		<category>Entertainment</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Tennis: Roddick on injury list</title>
+        <description>Andy Roddick joins Lleyton Hewitt  on the list of casualties ahead of the French Open.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/sport2/hi/tennis/5006984.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/sport2/hi/tennis/5006984.stm</guid>
+		<pubDate>Wed, 24 May 2006 13:38:38 GMT</pubDate>
+		<category>Tennis</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Football: Vieira robbery probed</title>
+        <description>Gas was pumped into Patrick Vieira's house before intruders stole jewellery and fled in his Mercedes.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/sport2/hi/football/europe/5011676.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/sport2/hi/football/europe/5011676.stm</guid>
+		<pubDate>Wed, 24 May 2006 10:43:02 GMT</pubDate>
+		<category>Europe</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Gun battle breaks Somalia truce</title>
+        <description>Fighting between warlords and Islamic militia resumes in the Somali capital, Mogadishu, despite a recent truce.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/africa/5012916.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/africa/5012916.stm</guid>
+		<pubDate>Wed, 24 May 2006 14:18:57 GMT</pubDate>
+		<category>Africa</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Aristocrat denies Kenyan murder</title>
+        <description>A UK aristocrat denies killing a man on his farm in Kenya, the second time in a year he has faced such a charge.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/africa/5012772.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/africa/5012772.stm</guid>
+		<pubDate>Wed, 24 May 2006 14:35:04 GMT</pubDate>
+		<category>Africa</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>GM to top up drivers' fuel bills</title>
+        <description>Problem-hit General Motors offers petrol price subsidies for people driving its vehicles in California and Florida.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/5011794.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/business/5011794.stm</guid>
+		<pubDate>Wed, 24 May 2006 11:02:03 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Mexico president in US for talks</title>
+        <description>Mexico wants to be part of the solution in the immigration debate, says the Mexican leader on a US visit.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/americas/5010824.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/americas/5010824.stm</guid>
+		<pubDate>Wed, 24 May 2006 15:22:38 GMT</pubDate>
+		<category>Americas</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Alarm at human bird flu cluster</title>
+        <description>The WHO says it is very worried about a cluster of recent human deaths from bird flu in Indonesia.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/asia-pacific/5011210.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/asia-pacific/5011210.stm</guid>
+		<pubDate>Wed, 24 May 2006 10:47:18 GMT</pubDate>
+		<category>Asia-Pacific</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Relief force answers E Timor call</title>
+        <description>International troops head to East Timor to try to quell unrest blamed on 600 soldiers sacked in April.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/asia-pacific/5011098.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/asia-pacific/5011098.stm</guid>
+		<pubDate>Wed, 24 May 2006 15:13:14 GMT</pubDate>
+		<category>Asia-Pacific</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>EU bid to end 'asylum-shopping'</title>
+        <description>EU officials fail to agree on a list of countries from where asylum applications will be presumed to be unfounded.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/europe/5011022.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/europe/5011022.stm</guid>
+		<pubDate>Wed, 24 May 2006 14:13:42 GMT</pubDate>
+		<category>Europe</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Jail for scandal-hit Skandia boss</title>
+        <description>A former chief executive at Swedish insurance firm Skandia is jailed for handing out millions of pounds in bonuses without permission.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/5014522.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/business/5014522.stm</guid>
+		<pubDate>Wed, 24 May 2006 20:30:12 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Iraqi PM optimistic over security</title>
+        <description>Iraq's PM says his forces will be ready to take over all security responsibilities in the country within 18 months.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/middle_east/5014376.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/middle_east/5014376.stm</guid>
+		<pubDate>Wed, 24 May 2006 20:04:54 GMT</pubDate>
+		<category>Middle East</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Four die in Israeli W Bank raid</title>
+        <description>Four Palestinians are killed in Ramallah by Israeli troops during an incursion to arrest Palestinian militants.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/middle_east/5012784.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/middle_east/5012784.stm</guid>
+		<pubDate>Wed, 24 May 2006 15:29:59 GMT</pubDate>
+		<category>Middle East</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Afghan clash 'kills 60 Taleban'</title>
+        <description>Sixty Taleban fighters and five Afghan security personnel die in a clash in the south, an Afghan general says.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/south_asia/5011502.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/south_asia/5011502.stm</guid>
+		<pubDate>Wed, 24 May 2006 11:32:26 GMT</pubDate>
+		<category>South Asia</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Grenade attack amid Kashmir talks</title>
+        <description>Four people are injured in an attack in Kashmir as the Indian PM begins talks with officials and politicians.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/south_asia/5007616.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/south_asia/5007616.stm</guid>
+		<pubDate>Wed, 24 May 2006 11:59:17 GMT</pubDate>
+		<category>South Asia</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Reid 'furious' over wrong figures</title>
+        <description>John Reid is understood to be furious after he had to admit giving MPs the wrong figures on foreign prisoners.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/politics/5013510.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/uk_news/politics/5013510.stm</guid>
+		<pubDate>Wed, 24 May 2006 17:42:45 GMT</pubDate>
+		<category>UK Politics</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Nike and Apple join up for runs</title>
+        <description>Nike and Apple, two of the world's best-known brands,  join forces and make equipment for runners.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/5010832.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/business/5010832.stm</guid>
+		<pubDate>Wed, 24 May 2006 05:54:05 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>UN report flags up India drug use</title>
+        <description>A UN report highlights concern over rising drug abuse and its impact on the spread of HIV in north-eastern India.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/south_asia/5010684.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/south_asia/5010684.stm</guid>
+		<pubDate>Tue, 23 May 2006 21:08:50 GMT</pubDate>
+		<category>South Asia</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Planet shine 'to aid life search'</title>
+        <description>Telescope technologies are being developed that will probe the very faint light from distant  planets for tell-tale signs of life.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/science/nature/5010936.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/science/nature/5010936.stm</guid>
+		<pubDate>Wed, 24 May 2006 10:12:53 GMT</pubDate>
+		<category>Science/Nature</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Social sites wrestle for top spot</title>
+        <description>Bebo and MySpace are fighting for dominance of the online social networking scene, research shows.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5012194.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/technology/5012194.stm</guid>
+		<pubDate>Wed, 24 May 2006 12:14:36 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Sir Elton vampire musical closes</title>
+        <description>Sir Elton John's vampire musical Lestat is to close on New York's Broadway after just 39 shows.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/5013218.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/2/hi/entertainment/5013218.stm</guid>
+		<pubDate>Wed, 24 May 2006 16:14:10 GMT</pubDate>
+		<category>Entertainment</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+
+	
+	
+	
+</channel>
+</rss>
+

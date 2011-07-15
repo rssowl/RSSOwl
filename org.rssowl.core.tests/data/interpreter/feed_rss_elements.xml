@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*   **********************************************************************  **
+ **   Copyright notice                                                       **
+ **                                                                          **
+ **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   http://www.rssowl.org/                                                 **
+ **                                                                          **
+ **   All rights reserved                                                    **
+ **                                                                          **
+ **   This program and the accompanying materials are made available under   **
+ **   the terms of the Eclipse Public License v1.0 which accompanies this    **
+ **   distribution, and is available at:                                     **
+ **   http://www.rssowl.org/legal/epl-v10.html                               **
+ **                                                                          **
+ **   A copy is found in the file epl-v10.html and important notices to the  **
+ **   license from the team is found in the textfile LICENSE.txt distributed **
+ **   in this package.                                                       **
+ **                                                                          **
+ **   This copyright notice MUST APPEAR in all copies of the file!           **
+ **                                                                          **
+ **   Contributors:                                                          **
+ **     RSSOwl Development Team - initial API and implementation             **
+ **                                                                          **
+ **  **********************************************************************  */
+-->
+<rss version="2.0" custom="custom_formatAttribute">
+	<custom>sub_rss_leveld</custom>
+	<channel custom="custom_channelAttribute">
+		<custom>sub_channel_leveld</custom>
+		<title custom="custom_titleAttribute">rss_title</title>
+	  	<link>rss_link</link>
+	  	<description>rss_description</description>
+	  	<language>rss_language</language>
+	  	<pubDate>2005-26-12T20:00:00Z</pubDate>
+	  	<lastBuildDate>2005-26-12T20:00:00Z</lastBuildDate>
+	  	<docs>rss_docs</docs>
+	  	<generator>rss_generator</generator>
+	  	<managingEditor>rss_managingeditor</managingEditor>
+	  	<webMaster>rss_webmaster</webMaster>
+	  	<copyright>rss_copyright</copyright>
+	  	<rating>rss_rating</rating>
+	  	<ttl>120</ttl>
+		<cloud domain="rss_cloud.domain" path="rss_cloud.path" port="8080" registerProcedure="rss_cloud.registerprocedure" protocol="rss_cloud.protocol" custom="custom_cloudAttribute" />
+	  	<skiphours custom="custom_skipHoursAttribute">
+	  		<hour>0</hour>
+	  		<hour>8</hour>
+	  		<hour>16</hour>
+	  	</skiphours>
+	  	<skipdays custom="custom_skipDaysAttribute">
+	  		<day>Monday</day>
+	  		<day>Wednesday</day>
+	  		<day>Friday</day>
+	  	</skipdays>
+	  	<category domain="rss_category.domain" custom="custom_categoryAttribute">rss_category</category>
+	  	<image custom="custom_imageAttribute">
+	  		<custom>sub_image_leveld</custom>
+			<url>rss_image.url</url>
+			<title custom="custom_imageTitleAttribute">rss_image.title</title>
+			<link>rss_image.link</link>
+			<description>rss_image.description</description>
+			<width>200</width>
+			<height>100</height>
+		</image>
+		<textinput custom="custom_textInputAttribute">
+			<custom>sub_textinput_leveld</custom>
+			<title custom="custom_textInputTitleAttribute">rss_textinput.title</title>
+			<description>rss_textinput.description</description>
+			<name>rss_textinput.name</name>
+			<link>rss_textinput.link</link>
+		</textinput>
+		
+		<item custom="custom_itemAttribute">
+			<custom>sub_item_leveld</custom>
+			<title custom="custom_titleAttribute">rss_item1.title</title>
+	        <link>rss_item1.link</link>
+	        <author>rss_item1.author</author>
+	        <description>rss_item1.description</description>
+	        <pubDate>2005-26-12T20:00:00Z</pubDate>
+	        <guid>rss_item1.guid</guid>
+	        <comments>rss_item1.comments</comments>
+	        <enclosure url="rss_item1.enclosure.url" type="rss_item1.enclosure.type" length="2500000" custom="custom_enclosureAttribute"/>
+	        <category domain="rss_item1.category.domain" custom="custom_categoryAttribute">rss_item1.category</category>
+	        <source url="rss_item1.source.url" custom="custom_sourceAttribute">rss_item1.source</source>
+		</item>
+	</channel>
+</rss>

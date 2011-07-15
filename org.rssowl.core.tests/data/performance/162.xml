@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="0.91">
+   <channel>
+    <title>Quotes of the Day</title>
+    <link>http://www.quotationspage.com/qotd.html</link>
+    <description>Four humorous quotations each day from The Quotations Page</description>
+    <language>en-us</language>
+    <webMaster>rss@quotationspage.com</webMaster>
+    <managingEditor>rss@quotationspage.com (Quotes of the Day)</managingEditor>
+    <pubDate>24 May 2006 01:25:02 -0000</pubDate>
+    <lastBuildDate>24 May 2006 01:25:02 -0000</lastBuildDate>
+    <image>
+        <title>Quotes of the Day</title>
+        <url>http://www.tqpage.com/qotd-button.gif</url>
+        <link>http://www.quotationspage.com/qotd.html</link>
+        <width>88</width>
+        <height>31</height>
+        <description>logo</description>
+    </image>
+	
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://www.quotationspage.com/data/qotd.rss" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+<title>Dave Barry</title>
+<description>"You can only be young once. But you can always be immature."</description>
+<link>http://www.quotationspage.com/quotes/Dave_Barry</link>
+</item>
+<item>
+<title>Henry James</title>
+<description>"She was a woman who, between courses, could be graceful with her elbows on the table."</description>
+<link>http://www.quotationspage.com/quotes/Henry_James</link>
+</item>
+<item>
+<title>Martin Mull</title>
+<description>"The trouble with jogging is that the ice falls out of your glass."</description>
+<link>http://www.quotationspage.com/quotes/Martin_Mull</link>
+</item>
+<item>
+<title>Unknown</title>
+<description>"Eat a live toad the first thing in the morning and nothing worse will happen to you the rest of the day."</description>
+<link>http://www.quotationspage.com/quotes/Unknown</link>
+</item>
+<item>
+<title>Mark Twain</title>
+<description>"The fact that man knows right from wrong proves his intellectual superiority to other creatures; but the fact that he can do wrong proves his moral inferiority to any creature that cannot."</description>
+<link>http://www.quotationspage.com/quotes/Mark_Twain</link>
+</item>
+<item>
+<title>Yogi Berra</title>
+<description>"This is like deja vu all over again."</description>
+<link>http://www.quotationspage.com/quotes/Yogi_Berra</link>
+</item>
+<item>
+<title>Oscar Wilde</title>
+<description>"We have really everything in common with America nowadays except, of course, language."</description>
+<link>http://www.quotationspage.com/quotes/Oscar_Wilde</link>
+</item>
+<item>
+<title>Heinrich Heine</title>
+<description>"There are more fools in the world than there are people."</description>
+<link>http://www.quotationspage.com/quotes/Heinrich_Heine</link>
+</item>
+<item>
+<title>William James</title>
+<description>"There is only one thing a philosopher can be relied upon to do, and that is to contradict other philosophers."</description>
+<link>http://www.quotationspage.com/quotes/William_James</link>
+</item>
+<item>
+<title>Jules Renard</title>
+<description>"Laziness is nothing more than the habit of resting before you get tired."</description>
+<link>http://www.quotationspage.com/quotes/Jules_Renard</link>
+</item>
+<item>
+<title>Jeannette Rankin</title>
+<description>"You can no more win a war than you can win an earthquake."</description>
+<link>http://www.quotationspage.com/quotes/Jeannette_Rankin</link>
+</item>
+<item>
+<title>Elbert Hubbard</title>
+<description>"Life is just one damned thing after another."</description>
+<link>http://www.quotationspage.com/quotes/Elbert_Hubbard</link>
+</item>
+</channel></rss>

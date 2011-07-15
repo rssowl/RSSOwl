@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.macosxhints.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?><?xml-stylesheet href="http://feeds.macosxhints.com/~d/styles/itemcontent.css" type="text/css" media="screen"?><!-- All trademarks and copyrights on this page are the property of their respective owners. --><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+	<title>macosxhints</title>
+	<link>http://www.macosxhints.com</link>
+	<description>Get the most from X!</description>
+	<language>en-gb</language>
+	<copyright>Copyright 2006 macosxhints</copyright>
+	<lastBuildDate>Wed, 24 May 2006 14:17:56 -0700</lastBuildDate>
+	<webMaster>contact@macosxhints.com</webMaster>
+	<docs>http://backend.userland.com/rss</docs>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.macosxhints.com/macosxhints/recent" type="application/rss+xml" /><item>
+		<title>Select files in Finder from Terminal</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=183</link>
+		<pubDate>Wed, 24 May 2006 07:30:05 -0700</pubDate>
+		<description>I wanted to be able, from the Terminal, to select files in the Finder. That is, to use a command like this...
+
+showinfinder /Developer/Tools/GetFileInfo /Developer/Tools/SetFile
+
+...and have Terminal open the Finder, with the specified file(s) selected.
+
+The command open wasn't useful in this case, because I wanted the files to be selected. And sometimes I have the complete path file in the clipboard, and it annoys me to have to strip the name off, and then in the Finder, look for this file.
+
+My solution is an AppleScript called via a function in the shell. This way, you can also use completions from the shell to specify one or several files. If you call it normally, you will have to give the arguments with an absolute path. But, if the first argument is Current_path:path, then the script will look in the folder path to find files.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=crsgwe"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=crsgwe" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=b2NLeQem"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=b2NLeQem" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=TrWULRkj"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=TrWULRkj" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=UiTvGfQq"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=UiTvGfQq" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=183"/&gt;</description>
+		<category>UNIX</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060519105305580&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Simple versioned backups with RsyncX</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=184</link>
+		<pubDate>Wed, 24 May 2006 07:30:04 -0700</pubDate>
+		<description>I recently bought a 300gb external hard drive for backup and storage purposes, and I was looking for a tool for versioned backups that doesn't use too much space, using hardlinks, preferably. In short: RsyncX (some documentation) is just what I was looking for, but there are some glitches and stuff you should know to make it work as it should.
+
+Read on for an explanation of what versioned backups and hardlinks are, why they are good, and what you have to do to make RsyncX do what it should.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=w3YcRA"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=w3YcRA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=dGwLKpeb"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=dGwLKpeb" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=QUJ4H2Cg"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=QUJ4H2Cg" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=onMsyWMW"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=onMsyWMW" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=184"/&gt;</description>
+		<category>Apps</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=2006051913572885&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Bring back minimized Safari windows via a hotkey</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=185</link>
+		<pubDate>Wed, 24 May 2006 07:30:03 -0700</pubDate>
+		<description>I sometimes find myself having Safari open, and the only browser window is minimized. Usually you use the mouse to bring back the minimized window, or hit Control-F3 (Move focus to the Dock) and the arrow keys. But here's a much quicker way:
+
+Just make sure Safari is the active app, then hit Command-L -- this is the shortcut for File: Open Location, and it will restore the minimized window from the Dock, instead of opening a new window.
+
+[robg adds: This also works for Camino, but not OmniWeb or Firefox. OmniWeb opens a new window, and Firefox does nothing.]
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=xioNMp"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=xioNMp" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=D4Wc6w5P"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=D4Wc6w5P" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=Doys90H0"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=Doys90H0" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=4CRAkLze"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=4CRAkLze" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=185"/&gt;</description>
+		<category>Web Browsers</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060521101921188&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>How to get Now Up-To-Date calendars onto phones</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=186</link>
+		<pubDate>Wed, 24 May 2006 07:30:02 -0700</pubDate>
+		<description>I followed some advice from this hint to sync my Motorola v710 phone. I use Now Up-To-Date, and wanted to sync the calendar file to my v710 (CDMA) and v551 (GSM) Motorola phones. The latest version of Now Up-to-Date (v5.2) allows syncing only to Palm devices, and moreover, does not allow exporting the calendar in any formats that can be read by iCal.
+
+So here's the workaround I used, which makes use of the free Palm Desktop (v. 4.2):
+
+Export your calendar as a text file from Now Up-To-Date with Export Template 'Calendar Archive' and the following settings:
+
+Item 1:  Date
+Item 2:  Start Time
+Item 3:  End time
+Item 4:  Title
+Items 5-10:  "None"
+
+Import your calendar into Palm Desktop v. 4.2 with these settings:
+
+Fields:  Now-Up-To-Date
+Delimeters:  Tab &amp; Return
+
+Export your calendar from Palm Desktop in vCal format.
+Use iSync to upload the calendar to the Motorola phones.
+
+It's a bit of work, but at least I now have calendars on my phones.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=3bWh10"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=3bWh10" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=PSen9c2U"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=PSen9c2U" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=PWqWnCK3"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=PWqWnCK3" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=kwk7VRKS"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=kwk7VRKS" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=186"/&gt;</description>
+		<category>Apps</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060520194052128&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Thin out Universal binaries via a shell script</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=187</link>
+		<pubDate>Wed, 24 May 2006 07:30:00 -0700</pubDate>
+		<description>This is a shell command to convert universal binaries to thin. Before you use it, here are a couple things to look out for:
+
+The lipo tool strips setuid and setgid bits.
+Frameworks and other linked code needs to be universal to support Rosetta.
+
+The overall savings for this script is probably a few hundred megabytes, which probably would not matter to most people. If you're even thinking about trying this, back up your complete system first.
+
+function strip_to_architecture() {
+find "&amp;#36;{1:-.}" -type f -perm +111 -not -perm +7000 -not -name '*.*' -exec lipo {} -thin "&amp;#36;{2:-`arch`}" -output {} &amp;#092;; -print 2&amp;gt;/dev/null
+}
+
+The first argument to the function is the directory to search, if not the current directory. After that, the architecture could be specified (but defaults to the system architecture). The code must be run as root to affect most system directories. Here's a list of likely directories to thin:
+
+/bin /sbin /usr/bin /usr/sbin /usr/libexec /Applications...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=NTHqmI"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=NTHqmI" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=p6oUAAnB"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=p6oUAAnB" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=B3PIzG7q"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=B3PIzG7q" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=xEXpLIf2"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=xEXpLIf2" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=187"/&gt;</description>
+		<category>UNIX</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060519142400789&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Easily create 128x128 PNGs from icons</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=177</link>
+		<pubDate>Tue, 23 May 2006 07:30:05 -0700</pubDate>
+		<description>I was attempting to make some new icons recently, and I wanted to start with an existing one, but modify it in a graphics program. I thought there was a way to copy the icon into the clipboard in previous versions of OS X, but each time I tried (Get Info, select icon, copy), I would only get a small version of the icon (about 32x32), and without transparency. But I wanted the larger version and with the transparency. I do realize there are some shareware utilities out there for this, but this should be do-able by the system itself. Turns out, it is.
+
+So, here's the tip I found -- perhaps this has been reported before, but I couldn't find it.
+
+Drag the item which has the icon you want to use into the Dock, then activate OS X's window capture screenshot feature -- press Shift-Command-4, then press the Space Bar. Now position the camera icon over the icon in your Dock and click. On your desktop will be a PNG file of the full-sized icon (128x128), with its transparency and nothing else...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=5Bw9e7"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=5Bw9e7" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=tCcLaWFm"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=tCcLaWFm" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=SvEKbdEj"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=SvEKbdEj" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=flPSqRRd"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=flPSqRRd" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=177"/&gt;</description>
+		<category>Desktop</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060520032310365&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>A workaround to use advanced features in iWeb 1.1</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=178</link>
+		<pubDate>Tue, 23 May 2006 07:30:03 -0700</pubDate>
+		<description>The recent 1.1 update for iWeb seems to causing a lot of problems for people, with comments not appearing, publishing errors being reported and the advanced slideshow not working. This may be due to attempting to upload too much at once. It seems that iWeb may be timing out before the upload is complete.
+
+Try stripping back your site to the bare minimum, publishing that, then gradually adding more pages/photos. Publishing 12 photos at a time seems to be okay, after which photo pages can be updated with more photos, then published again. By doing this, I now have a .Mac site with a blog and several photo galleries, with all new features working.
+
+See this thread in the Apple discussion forums for a few more details.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=GKe4N6"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=GKe4N6" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=MQpRMYnk"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=MQpRMYnk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=n8ZmbMQ2"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=n8ZmbMQ2" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=SHa9yNyj"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=SHa9yNyj" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=178"/&gt;</description>
+		<category>Apps</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060519060917152&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>10.4: Version Cue / Intel Mac / latest updates woes</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=179</link>
+		<pubDate>Tue, 23 May 2006 07:30:02 -0700</pubDate>
+		<description>I have seven Macs, including two Intel Macs. On May 11, 2006, Apple released 'Security Update 2006 003' and 'QuickTime 7.1' through Software Update. After installing the update, the Intel Macs would no longer boot. Dead. Nada.  I called Apple Care, but they could not fix it.
+
+After some futzing, I managed to fix them this way:
+
+Cold reboot and hold the Shift key after the tone (Safe Boot...)
+Go to /Library/StartupItems, and remove Adobe Version Cue if it is there
+Reboot
+
+
+[robg adds: I don't have Version Cue, so I can't confirm this one (my Intel mini handled the update just fine).]
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=jD8v1L"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=jD8v1L" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=NpkL9v3s"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=NpkL9v3s" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=VsjGrGkH"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=VsjGrGkH" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=NhzrDEwb"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=NhzrDEwb" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=179"/&gt;</description>
+		<category>Install</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060518195305900&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Tidy up your HTML with ... tidy!</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=180</link>
+		<pubDate>Tue, 23 May 2006 07:30:01 -0700</pubDate>
+		<description>I was messing around in the /usr/bin folder and found a binary called tidy, which is installed by default on OS X. Immediately curious, I looked up the function of this program. Its purpose is to generate cleaned-up versions of HTML, XML, and XHTML files, and it can even convert them. This is useful if you code web pages by hand, as I do. It fixes your mistakes, like the following, and many more:
+
+&amp;lt;h1&amp;gt;heading
+&amp;lt;h2&amp;gt;subheading&amp;lt;/h3&amp;gt;
+
+tidy will tell you the errors and then spit out a fixed version, which you can optionally save to a new file. Here are some examples:
+
+Convert HTML to well-formed XML and output to a new file (hit control-D after the output is finished):
+
+tidy -asxml test.html -output fixed.xml
+
+Just show the errors and quit:
+
+tidy -errors test.html
+
+Use upper case tags for output:
+
+tidy -upper test.html
+
+For more options, try man tidy or tidy -h. One use for tidy I can think of is cleaning up those horribly formatted Word webpages. tidy do...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=sfv3Gc"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=sfv3Gc" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=dlK1JdSJ"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=dlK1JdSJ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=VFUxjIZ9"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=VFUxjIZ9" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=Y1ZHYYIk"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=Y1ZHYYIk" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=180"/&gt;</description>
+		<category>UNIX</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060518123322675&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Another fix for error -5000 on Windows 2003 Server</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=181</link>
+		<pubDate>Tue, 23 May 2006 07:30:00 -0700</pubDate>
+		<description>Just to post a follow-up for people who were trying to connect to a standard install of WinServer 2003, and were unable to do so, due to error -5000. I was getting errors every time, regardless of the user settings.
+
+The referenced hint above requires you to downgrade the security settings on the server. Instead, I changed one line in the file /etc/smb.conf/. Change the line that reads:
+
+  client ntlmv2 auth = no
+
+to this:
+
+  client ntlmv2 auth = yes
+
+After making this change, it works again. No need to restart or anything. This may not work for everyone, but it does solve the issue for me.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=9ZrtM8"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=9ZrtM8" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=2fQnrVke"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=2fQnrVke" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=FYmwC07M"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=FYmwC07M" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=0ygjv3WM"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=0ygjv3WM" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=181"/&gt;</description>
+		<category>Network</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060518035327596&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Use a Windows emergency CD on Intel Macs</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=182</link>
+		<pubDate>Tue, 23 May 2006 07:29:59 -0700</pubDate>
+		<description>If you are enjoying your new iMac, MacBook, or Mini, but are afraid that all of your emergency software won't work on the platform, you may want to test some of the free CDs designed for Windows Users.
+
+A few weeks ago at the local user group meeting (MUGOO - Ottawa Ontario), as part of a presentation on Boot Camp and Parallels, the presenter asked the question: Who here thinks I can boot this Intel-based Mac using an emergency CD designed for Windows machines?
+
+We were pretty dubious, but in the end we saw it happen. As I recall, it was the "Ultimate Boot CD for Windows" that we actually saw demoed. Of course, like any time you boot off CD, it was very slow. It was pretty amazing that it worked at all, though. Here's a bit more info on the Windows emergency CDs. I don't know of the state of Intel-compatible disaster recovery software for the Mac -- the market may be difficult with good free competition.
+
+The designers of these packages don't seem to know that they might work on ...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=bi73HQ"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=bi73HQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=Pkv6s52w"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=Pkv6s52w" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=CgzZz7Y3"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=CgzZz7Y3" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=MeFbFlYl"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=MeFbFlYl" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=182"/&gt;</description>
+		<category>System</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060519094041102&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>CamiTools - Add useful features to Camino</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=170</link>
+		<pubDate>Mon, 22 May 2006 07:30:10 -0700</pubDate>
+		<description>The macosxhints Rating:
+
+[Score: 9 out of 10]
+
+ Developer: nadamac/ Product page
+ Price: Free
+
+
+Note: This is the Pick of the Week for May 22nd.
+
+Although I still switch between three browsers (Camino, Firefox, and Safari) with some regularity, I've found lately that Camino gets used more often than the others. Camino itself was a Pick of the Week way back when (November 2002, when it was still called Chimera), and I wrote about verion 1.0 when it was released in February. The articles detail some of the reasons I prefer Camino, one of which is the subject of this week's Pick of the Week -- CamiTools.
+
+CamiTools extends Camino in many interesting and useful ways. After installation (there's an easy-to-use removal tool, too), CamiTools shows up as an additional Preferences tab within Camino. This new preferences tab gives you a ton of additional features; here are some of the most useful:
+
+
+Enable HTTP pipelining (for quicker page loading).
+Immediate type-and-find, ala...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=8OltxA"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=8OltxA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=jZT4DKc1"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=jZT4DKc1" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=bAyyoLJQ"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=bAyyoLJQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=9x7z68fQ"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=9x7z68fQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=170"/&gt;</description>
+		<category>Apps</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060522065604895&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Skype - Internet telephony app with free LD calls</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=171</link>
+		<pubDate>Mon, 22 May 2006 07:30:08 -0700</pubDate>
+		<description>The macosxhints Rating:
+
+[Score: 8 out of 10]
+
+ Developer: Skype Limited/ Product page
+ Price: Free
+
+
+Note: This is the Pick of the Week for May 15th
+
+Skype is one of a number of Internet-based phone services, and it's been out for quite a while. I've never featured it as a Pick of the Week because, well, I hadn't used it much and saw no need for it -- we don't make a lot of long distance calls, given that the whole widely-flung family is iChat (or AIM) enabled. But two recent changes have given me another reason to use Skype. The first change is that I've been doing more interviews -- for both Macworld podcasts and Gene Steinberg's Mac Night Owl. Skype is the tool of choice for both of these shows, so I've had an excuse to play around with the app -- and I've come away impressed.
+
+While not technically perfect (there are occasional connection issues, and sometimes the sound will dropout for a brief period of time), Skype works very well. There's a built-in chat client, t...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=grIv5k"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=grIv5k" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=GRxHWC4m"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=GRxHWC4m" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=JmRNNNxP"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=JmRNNNxP" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=mY21tdpn"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=mY21tdpn" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=171"/&gt;</description>
+		<category>Pick of the Week</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060522065329620&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>10.4: Use serial Wacom tablets in Mac OS X</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=172</link>
+		<pubDate>Mon, 22 May 2006 07:30:06 -0700</pubDate>
+		<description>Wacom doesn't provide a driver for "obsolete" serial tablets in Mac OS X. Nature abhors a vacuum. So an open source project emerged to fill the void. TabletMagic is a free, open source driver and preference pane for Wacom serial tablets.
+
+Supported model numbers start with PL, SD, UD, KT, and CT, and end in -R. It has been tested with tablet models UD-1212-R, UD-1218-R, CT-0045-R, PL-300, and PL-400. Intuos (GD) is not yet supported. ADB tablets are not supported. The updated preference pane provides an improved interface to control the driver, configure low-level tablet parameters, set mapping options and presets, and test the tablet.
+
+TabletMagic 2 includes full source code under the General Public License.
+
+[robg adds: I have a newer tablet, so I can't test this one -- but I know there are a fair number of serial tablets out there, so perhaps this will help someone...]
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=aYv2G0"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=aYv2G0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=6DzdTAYa"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=6DzdTAYa" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=AjUfQ07k"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=AjUfQ07k" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=j1sAYgcx"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=j1sAYgcx" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=172"/&gt;</description>
+		<category>System 10.4</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060518000107179&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>10.4: Hide all low UID users from the login window</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=173</link>
+		<pubDate>Mon, 22 May 2006 07:30:04 -0700</pubDate>
+		<description>In the days before 10.4, a user with a user ID lower than 500 would be hidden from the login window. This was especially practical when creating server administration users like postgres. For some reason, 10.4 didn't preserve this behaviour. This hint explains one method of hiding such users by defining each of them in a list. Here's a solution that will simply hide all the users with IDs below 500, as previous OS X releases did by default.
+
+Open Terminal, and type this command:
+
+sudo defaults write /Library/Preferences/com.apple.loginwindow &amp;#092;
+Hide500Users -boolean true
+
+This takes care of the login window, as well as the Fast User Switching menu. It also does not add the "Other..." option to the login window.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=6Eksxr"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=6Eksxr" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=c7iHxhKE"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=c7iHxhKE" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=sDge8362"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=sDge8362" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=65Q7ZoPJ"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=65Q7ZoPJ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=173"/&gt;</description>
+		<category>System 10.4</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060517092406353&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>10.4: Alias individual Yojimbo items</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=174</link>
+		<pubDate>Mon, 22 May 2006 07:30:02 -0700</pubDate>
+		<description>I use Bare Bones' Yojimbo as an information repository, as well as to store my next actions and other notes that I consult regularly. But rather than switching to Yojimbo each time I want to view one of these items, I found an easy way to access them by creating an alias of the metadata file for the individual items. 
+ 
+Do a Spotlight search for the item you want to use, then select it and press Command-Return (from the Spotlight results drop-down, not the standalone Results window). This displays the metadata item (the file that Yojimbo creates for Spotlight searches) in the Finder. Make an alias of this file, then rename it; you won't want to keep the funny name it uses. In my case, I stuck it on the desktop, but you can put it anyplace. When you double-click the alias, the item opens in Yojimbo in its own window.
+ 
+With this in mind, you can create aliases for other metadata files for any application that works this way. You'll find these in ~/Library -&gt; Caches -&gt; Metadata, then...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=HsMPAC"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=HsMPAC" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=pEG7I6b0"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=pEG7I6b0" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=M39rVkN5"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=M39rVkN5" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=JaVPjPJu"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=JaVPjPJu" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=174"/&gt;</description>
+		<category>Apps</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060516091316209&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Reply above quoted material in Thunderbird</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=175</link>
+		<pubDate>Mon, 22 May 2006 07:30:01 -0700</pubDate>
+		<description>Would you like to control where your reply appears (above or below the quoted text) in Thunderbird?. Here's how...
+
+First choose Thunderbird -&gt; Preferences -&gt; Advanced -&gt; Configuration Editor. In the list that appears, select mail.identity.default.reply_on_top. Set the value to 0 to have your reply at the bottom. Set the value to 1 to have the reply on top. You can change the default behaviour on a per-identity basis by adding a new line. For example:
+
+mail.identity.id1.reply_on_top
+
+Set the Status to User, Type to Integer, and add the preferred value, either 0 or 1.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=FFz7pu"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=FFz7pu" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=8XbmhJ7G"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=8XbmhJ7G" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=BWHkTLED"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=BWHkTLED" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=eo92Ovv8"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=eo92Ovv8" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=175"/&gt;</description>
+		<category>Apps</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=2006051605271325&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Display pop-up calendar for blog dates in iWeb 1.1</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=176</link>
+		<pubDate>Mon, 22 May 2006 07:30:00 -0700</pubDate>
+		<description>As of iWeb 1.1, you can double-click on the date in a blog entry to display a new pop-up calendar interface, to easily modify the publication date.
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=v4ANfg"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=v4ANfg" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=kxMmfhMa"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=kxMmfhMa" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=dVLqTMUq"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=dVLqTMUq" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=DTXMX0u0"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=DTXMX0u0" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=176"/&gt;</description>
+		<category>Apps</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060517223014220&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Install an enhanced SMART monitoring package</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=164</link>
+		<pubDate>Fri, 19 May 2006 07:30:07 -0700</pubDate>
+		<description>Unfortunately, I've recently had reason to want to check the SMART status of my PowerBook's internal disk. Apple's Disk Utility will tell you a simple pass/fail summary of the SMART status of the disk, but it won't go into any detail, show you logs, or details of particular errors. What's more, I believe that it only looks at certain classes of errors to determing the Verified of Failing status, and so if the drive is experiencing errors, such as its firmware silently remapping sectors, it's still shown as A-OK.
+
+I decided to go hunting for some more useful utilities, and first discovered SMARTReporter which displays an icon in the menu bar showing you a visual status of the disk. This utility, however, appears to use the same criteria as Disk Utility for determining as simple pass/fail status, so in this particular case isn't that useful to me. It is handy in a more general sense as it can monitor multiple disks, and upon a SMART failure it can do any combination of: pop up an alert...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=xHh4M7"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=xHh4M7" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=lVUkaBfB"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=lVUkaBfB" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=5avcZUFD"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=5avcZUFD" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=rnQoO33r"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=rnQoO33r" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=164"/&gt;</description>
+		<category>UNIX</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060516171818393&amp;lsrc=osxh</feedburner:origLink></item>
+	<item>
+		<title>Toggle trackpad clicking via an AppleScript</title>
+		<link>http://feeds.macosxhints.com/macosxhints/recent?m=165</link>
+		<pubDate>Fri, 19 May 2006 07:30:06 -0700</pubDate>
+		<description>Occasionally, I let other people (my partner, co-workers) hop on my PowerBook to look something up, or write a quick email, etc. My practice of keeping the trackpad on clicking mode can be annoying (and confusing) to those who don't use it, or who don't even know it's possible, as they inadvertentlly click on something they didn't mean to. Yet for me, drilling down into the Keyboard &amp; Mouse preference pane and unchecking the "Clicking" box was more time consuming and than I'd like.
+
+The following AppleScript was for me an elegant solution, hope others may fine it useful. It's especially useful with Quicksilver, since I can just invoke Quicksilver, hit t-o-g-Return (which finds the script I've named "Toggle Trackpad Clicking"), and it's done.
+
+How to use:
+
+Copy the script:
+
+tell application "System Preferences"
+  activate
+end tell
+tell application "System Events"
+  tell process "System Preferences"
+    click the menu item "Keyboard &amp; Mouse" of the menu "View" of menu bar 1
+...
+&lt;p&gt;&lt;a href="http://feeds.macosxhints.com/~a/macosxhints/recent?a=ckQB44"&gt;&lt;img src="http://feeds.macosxhints.com/~a/macosxhints/recent?i=ckQB44" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=dmDiC7Bq"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=dmDiC7Bq" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=c5VA5T1O"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=c5VA5T1O" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.macosxhints.com/~f/macosxhints/recent?a=DAEdOX3m"&gt;&lt;img src="http://feeds.macosxhints.com/~f/macosxhints/recent?i=DAEdOX3m" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.macosxhints.com/macosxhints/recent?g=165"/&gt;</description>
+		<category>System</category>
+	<feedburner:origLink>http://www.macosxhints.com/article.php?story=20060516085755886&amp;lsrc=osxh</feedburner:origLink></item>
+</channel>
+</rss>

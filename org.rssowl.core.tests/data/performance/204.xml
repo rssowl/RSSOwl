@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss version="2.0"><channel>
+	<title>BBC News | Technology | World Edition</title>
+	<link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/default.stm</link>
+	<description>Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives. Also entertainment, business, science, technology and health news.</description>
+	<language>en-gb</language>
+	<lastBuildDate>Wed, 24 May 2006 20:49:06 GMT</lastBuildDate>
+	<copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse</copyright>
+	<docs>http://www.bbc.co.uk/syndication/</docs>
+	<ttl>15</ttl>
+		
+		<image>
+			<title>BBC News</title>
+			<url>http://news.bbc.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+			<link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/default.stm</link>
+		</image>
+		
+			
+				
+				
+					<item>
+        <title>Social sites wrestle for top spot</title>
+        <description>Bebo and MySpace are fighting for dominance of the online social networking scene, research shows.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5012194.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5012194.stm</guid>
+		<pubDate>Wed, 24 May 2006 12:14:36 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Smart sites to power semantic web</title>
+        <description>The big talk at the WWW2006 conference is about the semantic web with its promise of an &quot;intelligent&quot; net.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5013146.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5013146.stm</guid>
+		<pubDate>Wed, 24 May 2006 14:48:36 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Nike and Apple join up for runs</title>
+        <description>Nike and Apple, two of the world's best-known brands,  join forces and make equipment for runners.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/5010832.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/business/5010832.stm</guid>
+		<pubDate>Wed, 24 May 2006 05:54:05 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Privacy worries over web's future</title>
+        <description>An &quot;intelligent&quot; web could pose serious privacy issues, a senior UK researcher has warned.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5009774.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5009774.stm</guid>
+		<pubDate>Wed, 24 May 2006 09:14:08 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Web inventor warns of 'dark' net</title>
+        <description>The inventor of the web, Tim Berners-Lee, has warned of the dangers of introducing a two-tier internet.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5009250.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5009250.stm</guid>
+		<pubDate>Tue, 23 May 2006 14:12:40 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Vonage flotation to raise $531m</title>
+        <description>Vonage, the loss-making internet phone company, is set to raise more than $530m in its first public share sale.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/5012588.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/business/5012588.stm</guid>
+		<pubDate>Wed, 24 May 2006 14:39:13 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Free music ends Sony CD saga</title>
+        <description>A US judge has approved a deal to settle lawsuits against Sony's record label over the use of anti-piracy software.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5007578.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5007578.stm</guid>
+		<pubDate>Tue, 23 May 2006 09:57:55 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Police act on German file-sharing</title>
+        <description>German police charge 3,500 users of a file-sharing network with illegally offering music for download.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/5009224.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/entertainment/5009224.stm</guid>
+		<pubDate>Tue, 23 May 2006 14:52:51 GMT</pubDate>
+		<category>Entertainment</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Call to target UK software piracy</title>
+        <description>More than a quarter of all the PC software used in the UK is pirated, reveals a report.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5005848.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5005848.stm</guid>
+		<pubDate>Tue, 23 May 2006 04:04:04 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>US challenged over .xxx decision</title>
+        <description>The backer of the .xxx domain is trying to find out if the US government blocked its plan for an internet home for porn.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5003852.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5003852.stm</guid>
+		<pubDate>Mon, 22 May 2006 09:19:32 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Downloads boosts EMI profit</title>
+        <description>Strong demand for music downloads helps EMI unveil a 13% rise in full year profits to £159.3m.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/business/5007418.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/business/5007418.stm</guid>
+		<pubDate>Tue, 23 May 2006 07:26:30 GMT</pubDate>
+		<category>Business</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Sky HDTV runs into trouble</title>
+        <description>A set-top box shortage means 17,000 Sky HDTV subscribers cannot watch the service, which launches on Monday.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/5003728.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/entertainment/5003728.stm</guid>
+		<pubDate>Mon, 22 May 2006 13:57:10 GMT</pubDate>
+		<category>Entertainment</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Invitation for 'silver surfers'</title>
+        <description>Older people across the UK are being given the chance to try out the internet as part of Silver Surfer Week.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/5004584.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/5004584.stm</guid>
+		<pubDate>Mon, 22 May 2006 12:03:19 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Microsoft reveals Vista checklist</title>
+        <description>Microsoft has unveiled hardware specifications for Vista - the next version of Windows.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4996998.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4996998.stm</guid>
+		<pubDate>Fri, 19 May 2006 10:46:39 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>User-generated future for gaming</title>
+        <description>Gamers are creating their own environments in new games such as Spore, created by guru Will Wright.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/programmes/click_online/4997036.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/programmes/click_online/4997036.stm</guid>
+		<pubDate>Fri, 19 May 2006 16:17:49 GMT</pubDate>
+		<category>Click</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>War vets debut in US army game</title>
+        <description>The US Army is putting soldiers who fought in Iraq into its game in a bid to put a human face on its operations.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4991306.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4991306.stm</guid>
+		<pubDate>Thu, 18 May 2006 07:57:58 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Satellite radio in recordings row</title>
+        <description>US satellite broadcaster XM is being sued over a gadget that lets people record what they are listening to.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4989498.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4989498.stm</guid>
+		<pubDate>Wed, 17 May 2006 10:34:37 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Football fever boosts Fifa game</title>
+        <description>Catch up with the latest news from the world of video gaming.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/2207229.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/2207229.stm</guid>
+		<pubDate>Tue, 23 May 2006 09:22:24 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+			
+				
+				
+					<item>
+        <title>Top spin tennis courts success</title>
+        <description>Top Spin 2 for the Xbox 360 does a competent job of bringing the game to life in your hands.</description>
+        <link>http://news.bbc.co.uk/go/rss/-/2/hi/technology/4955138.stm</link>
+	
+		<guid isPermaLink="false">http://news.bbc.co.uk/1/hi/technology/4955138.stm</guid>
+		<pubDate>Fri, 28 Apr 2006 15:55:01 GMT</pubDate>
+		<category>Technology</category>
+		
+	
+	
+</item>
+				
+			
+			
+       		
+
+	
+	
+	
+</channel>
+</rss>
+

@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.rssowl.ui" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="org.rssowl.ui" id="entityPropertyPage" name="Entity Property Page"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+This extension point allows to contribute property pages to the property dialog being used for
+all entities in RSSOwl. Pages can be registered for any entity and will show up in the dialog
+as separate tabs.
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appInfo>
+            <meta.element />
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="entityPropertyPage" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="entityPropertyPage">
+      <annotation>
+         <appInfo>
+            <meta.element labelAttribute="name"/>
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="targetEntity" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The unique ID of the entity property page.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A class that implements &lt;samp&gt;org.rssowl.ui.dialogs.properties.IEntityPropertyPage&lt;/samp&gt;.
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="java" basedOn="org.rssowl.ui.dialogs.properties.IEntityPropertyPage"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The name of the property page that will show up in the title of the tab.
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+         <attribute name="order" type="string" use="required">
+            <annotation>
+               <documentation>
+                  Enter any number from 0 to N. Property pages are sorted by their number. If you want to show your page in the beginning, use a small value here.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="handlesMultipleEntities" type="boolean" use="default" value="false">
+            <annotation>
+               <documentation>
+                  Defines whether the contributed property page should be shown for a selection of multiple entities. Some property pages might only want to show up when a single entity is selected. In this case, leave this option set to &lt;samp&gt;false&lt;/samp&gt;.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="targetEntity">
+      <annotation>
+         <appInfo>
+            <meta.element labelAttribute="class"/>
+         </appInfo>
+         <documentation>
+            The entityTarget is the fully qualified class name of the entity this property page is being used for. The class has to be a subclass of &lt;samp&gt;org.rssowl.core.model.persist.IEntity&lt;/samp&gt;
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="class" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A class that implements &lt;samp&gt;org.rssowl.core.model.persist.IEntity&lt;/samp&gt;.
+               </documentation>
+               <appInfo>
+                  <meta.attribute kind="java" basedOn="org.rssowl.core.model.persist.IEntity"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         2.0
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         &lt;p&gt;
+The following is an example of the extension point that registers a property
+page for the entities &lt;samp&gt;IFolder&lt;/samp&gt; and &lt;samp&gt;IBookMark&lt;/samp&gt;: 
+&lt;pre&gt;&lt;extension point=&quot;org.rssowl.ui.entityPropertyPage&quot;&gt; 
+      &lt;entityPropertyPage
+          class=&quot;org.rssowl.ui.internal.dialogs.properties.GeneralPropertyPage&quot;
+          handlesMultipleEntities=&quot;true&quot;
+          id=&quot;org.rssowl.ui.internal.dialogs.properties.GeneralPropertyPage&quot;
+          name=&quot;General&quot;
+          order=&quot;0&quot;&gt;
+      
+         &lt;targetEntity
+            class=&quot;org.rssowl.core.persist.IFolder&quot;&gt;
+         &lt;/targetEntity&gt;
+         
+         &lt;targetEntity
+            class=&quot;org.rssowl.core.persist.IBookMark&quot;&gt;
+         &lt;/targetEntity&gt;
+      &lt;/entityPropertyPage&gt;
+&lt;/extension&gt; 
+&lt;/pre&gt;
+&lt;/p&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appInfo>
+         <meta.section type="copyright"/>
+      </appInfo>
+      <documentation>
+         Copyright notice (c) 2005-2011 RSSOwl Development Team.                            
+All rights reserved´. This program and the accompanying 
+materials are made available under the terms of the Eclipse 
+Public License v1.0 which accompanies this distribution, and 
+is available at: &lt;a href=&quot;http://www.rssowl.org/legal/epl-v10.html&quot;&gt;http://www.rssowl.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>
