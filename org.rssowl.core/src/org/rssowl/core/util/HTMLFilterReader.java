@@ -112,7 +112,7 @@ public class HTMLFilterReader extends Reader {
       fgEntityTable.put(entityName[i], new Character(entityVal[i]));
 
     /* Special-case nbsp to a simple space instead of 0xa0 */
-    fgEntityTable.put("nbsp", new Character(' ')); //$NON-NLS-1$
+    fgEntityTable.put("nbsp", Character.valueOf(' ')); //$NON-NLS-1$
   }
 
   /**

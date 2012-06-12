@@ -1374,7 +1374,7 @@ public class JSONObject {
    * @throws JSONException If the value is or contains an invalid number.
    */
   public static String valueToString(Object value) throws JSONException {
-    if (value == null || value.equals(null)) {
+    if (value == null) {
       return "null"; //$NON-NLS-1$
     }
     if (value instanceof JSONString) {
