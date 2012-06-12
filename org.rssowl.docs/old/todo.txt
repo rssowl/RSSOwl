@@ -1,0 +1,225 @@
+
+	Features' n Bugfixes for the Eclipse Magazin Release (1. Dezember)
+	------------------------------------------------------------------
+
+
+        	- Grouping and Filtering in Explorer and FeedView!
+		
+		o Select N Folders, change Properties and Hit "Delete": only 1 folder removed!
+
+		o Setting Reload-Interval and Open on Startup
+
+		o M4: IStatus Errors need more meaningful messages
+
+		o Decide on disabling the indexer / searchmarks
+
+		o Show status of News in News-Browser left to Title
+
+		o Optional: DND support in the Bookmark Explorer
+
+		 o Ask for HTML Layout for News in SF-Job-Board
+
+
+
+	Preferences / Properties / Retention
+	------------------------------------
+
+		o Policy should first try to delete read News and then really care about the
+		  other ones. Discuss with ijuma!
+
+		o Retention Policy:
+			- Run on marking News read (via Global Actions)
+
+		o Preferences Store (central) that works on PrefDAO and with default values
+        	- What about the settings related fields in BookMark?
+        		> Move into Properties?
+
+        o Automatically remove a Property from the Scope when it matches the parents one?
+
+
+	Other Stuff:
+	------------
+
+	- FeedView Column Polish
+      	o Allow to add/remove columns (dropdown on Column / Filterbar?)
+       	o Remember Column Widths, Order and SortColumn
+
+    - Eclipse M4: Investigate using TreeAdapter for dynamic Layout
+		o Also use for BookMark Explorer to avoid horizontal scrollbar?
+		o https://bugs.eclipse.org/bugs/show_bug.cgi?id=163074
+
+	- Preferences Page in Dialog for first global stuff
+
+	- View Menu (Status, ToolBar and so on) + Favicon Setting
+
+	- Remove Max/Min button from Browser and have a toggle in bottom line like "Newspaper View"
+
+	- Have a toggle to show/hide BrowserBar?
+
+	- investigate providing Back/Forward button in Editor to nav in history of displayed feeds
+		> Could be shared with the Browser back/forward buttons
+
+	- test new compress feature of h2 in terms of performance
+	
+	- Podcast contributions by christophe@kualasoft.com
+
+	- Consider Field Assist: http://www.eclipsezone.com/eclipse/forums/t83426.rhtml
+
+	- Eclipse M4: Adapt the final FilteredTree performance improvements to our own implementation
+
+	- Eclipse M4: Test Bug 159586 Need a way to expand TreeItems without causing scrolling and avoid
+	  anti-scroll hacks if thix bug is still present in a API final build of Eclipse
+
+	- Usability
+
+		o Consider resetting Input if user groups/filters while being on any website
+
+		o Find a better location for the Toggle-Browser-Layout Button
+
+	- Check wether its possible to hide close button from Editors?
+
+	- Consider having sticky-views solution with single view for Feeds as Perspective?
+
+	- Implement a toggle to show Description of News in Multiline Widget
+
+	- New Submenu on NewsItems/ViewerGroups for News
+        	- Mark > Read (Toggle?)
+        	- Mark > Unread
+        	-----------------------
+        	- Mark > All Read
+
+    - leverage some application listeners that track controller-events, e.g. loading of a Feed start / stop
+
+    - Adding a Mark should Suggest the name of the Feed as Title
+		
+	
+	[ Toplink JPA ]
+		> Proposal for new contribution-friendly structure:
+		
+		1.) org.rssowl.lib.jpa
+				- is a library plugin containing JPA libraries
+				- is a fragment with org.rssowl.core.model as host
+				
+		2.) org.rssowl.contrib.h2
+				- is a plugin containing H2 library
+				- is a fragment with org.rssowl.core.model as host
+				- Implements IDatabase which provides Properties to JPA <- TODO!
+				
+		3.) org.rssowl.core.model
+				- gets an explicit classpath dependancy to libs of JPA
+				  from the org.rssowl.lib.jpa fragment
+				- provides the persistence.xml
+						+ check out <exclude-unlisted-classes>false</exclude-unlisted-classes>
+						  to allow any @Entity to be persisted in JPA
+						  
+		4.) Test building the app and see if its still running. Also try a model
+		    contribution that relies on using the JPA library. See RCP Book for
+		    details on how fragments are able to export packages to their hosts.
+		    
+		5.) Consider moving DAO Impl and persistence.xml into JPA plugin and have
+		    it as real plugin and not fragment?
+		
+		> Investigate a new Strategy to avoid refresh() calls
+			+ Check out StructuredViewer#reveal()
+			+ If: Filter == 0 && Grouping == 0 use add() and remove()
+				Else: Pass Object into Helper that perform the requied operation (e.g. reparenting
+				      using a combination of add() and remove()
+				      
+	[ Misc. ]
+	
+		- User Interface
+		
+			+ Investigate what is possible currently with the single org.eclipse.help plugin
+			+ Keep in mind that its possible to switch Perspectives programmatically, thereby hiding the perspective switcher?
+			+ Keep "DND with Editors": 16.4 in mind! 
+			+ Show animated label on CTabItem when opening a feed (compare with firefox). Opening Editor triggers
+			  reloading and registeres as listener for new News of that feed.
+			  
+		- Extensibility of Contextual Menus. Follow this Structure:
+				"group.new" separator="true"
+				"group.goto"
+				"group.open" separator="true"
+				"group.openWith"
+				"group.show" separator="true"
+				"group.edit" separator="true"
+				"group.reorganize" "group.port"
+				"group.generate" separator="true"
+				"group.search" separator="true"
+				"group.build" separator="true"
+				"additions" separator="true"
+				"group.properties" separator="true" 
+
+	
+	FUTURE:
+	-------
+	
+	- Think about what is public API and what not!
+		+ EventRunnables in db.internal might move to model public API
+	 		
+		
+	WORKFLOW CONCEPT FOLLOWS:
+	-------------------------
+		
+		a) JUnit triggers the method core.Manager#reload(Feed feed)
+		
+		b) Manager creates a Job. He receives any Exception coming up in the following
+		   proces.
+		
+		c) Job is asking core.connection to retrieve an InputStream for the Feed
+		
+		d) core.connection extracts the protocol out of the Link of the Feed
+		
+		e) core.connection looks for a protocol handler. HTTP is contributed
+		   by core.connection itself. The Interface IProtocolHandler provides a
+		   method like getStream(URL url). Also add the IAuthenticationRequiredException
+		   as return point to indicate authentication is required.
+		   
+		f) core.connection uses HttpClient to retrieve the InputStream out of the
+		   URL as done in RSSOwl Classic.
+		   
+		g) core.Manager is retriving the InputStream and pipes it to the Interpreter
+		   plugin. Also handle the IAuthenticationRequired exception here somehow.
+		   
+		h) core.Interpreter is asked to handle the InputStream. Use the contributed
+		   parser to create a jdom.Document out of it.
+		   
+		i) core.Interpreter looks at the root element and looks for contributed Interpreters.
+		   RSS, RDF, Atom and OPML are contributed by the interpreter itself. Implement an Interface
+		   like IFormatHandler with a method like "Feed interpret(Document document)".
+		   
+		j) core.Interpreter interprets the given Document and creates a Feed Model object.
+		   Question: How to handle custom namespaces? Any extension possible here? Use Dictionary
+		   in Feed to handle that? Serialize in DB?
+		   
+		k) core.Interpreter returns the Model Feed to the Manager. Now, the Model should have
+		   a method to store itself to the DB. Maybe Feed.store()?
+		
+		l) The Feed containing a list of News is now talking to the contrib.jdbc asking to store all
+		   the News. A Method like store(News#Array) is required. 
+		   
+		m) The Manager's Job is done and the rest is now simply waiting for some Event being
+		   sent from the Model.
+		   
+	Done:
+	----------
+	+ From SWT to Swing: Remove heavyweight constructors and add package private setTypeXY
+	  methods which are automatically being called when a link is est. from the other
+	  side --> Done this for Feed -> News and News -> Attachment. At the moment it is a
+	  bit ugly due to the package private setXXX, so we need to check the concrete type
+	  and cast it. If this is not desired, we need to have the setXXX in the interface.
+	+ add "createFeed" to ITypesFactory --> It was added to IDBTypesFactory. Do we also
+	  need it in ITypesFactory?
+	  
+	How to add the progress view:
+	
+	<view
+            allowMultiple="false"
+            category="org.eclipse.ui"
+            class="org.eclipse.ui.ExtensionFactory:progressView"
+            fastViewWidthRatio="0.5"
+            icon="icons/eview16/pview.gif"
+            id="org.eclipse.ui.views.ProgressView"
+            name="Progress"/>
+      <category
+            id="org.rssowl.ui.category"
+            name="RSSOwl"/>

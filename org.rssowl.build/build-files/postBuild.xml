@@ -1,0 +1,84 @@
+<project name="Run as part of postBuild" default="main">
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties" classpath="${buildHome}/build-files/ant-contrib.jar" />
+	<taskdef resource="org/pluginbuilder/anttasks/pluginbuildertasks.properties" classpath="${buildHome}/build-files/pluginbuilder-anttasks.jar" />
+	
+	
+    <target name="main">
+
+    	<property name="UpdateSiteStagingLocation" value="${buildDirectory}/tmpUpdateSite/updateSite"/>
+    	<property name="UpdateSiteFinalLocation" value="${buildResultsDirectory}/../updateSite"/>
+    	<property name="siteXmlFile" value="${UpdateSiteStagingLocation}/site.xml"/>
+    	
+        <antcall target="-generateUpdateSite"/>
+    	<antcall target="-createNightlyBuildSiteXml"/>
+    	<zip destfile="${buildResultsDirectory}/updateSite-${version.full}.zip" basedir="${UpdateSiteStagingLocation}"/>
+    	<antcall target="deleteSiteXml"/>
+    	<copy todir="${UpdateSiteFinalLocation}">
+    		<fileset dir="${UpdateSiteStagingLocation}" includes="**"/>
+    	</copy>
+    	<delete dir="${UpdateSiteStagingLocation}/../.." includes="tmpUpdateSite/**" includeemptydirs="true"/>
+    	<delete dir="${UpdateSiteFinalLocation}/plugins"/>
+    	<delete dir="${UpdateSiteFinalLocation}/features"/>
+    </target>
+	
+	<target name="deleteSiteXml" unless="isNightlyBuild">
+		<!-- in release builds the site.xml should not be overwritten, so older version can survive -->
+		<delete file="${siteXmlFile}"/>
+	</target>
+    
+    <!--======================================================-->
+    <!-- UpdateSite Export target, to be called from allElements  -->
+    <!-- ==================================================== -->
+    <target name="updateSiteExport">
+        <ant antfile="build.xml" dir="${buildDirectory}/features/${id}/" target="build.update.jar">
+            <property name="feature.destination" value="${UpdateSiteStagingLocation}/features"/>
+            <property name="plugin.destination" value="${UpdateSiteStagingLocation}/plugins"/>
+        </ant>
+    </target>
+    
+    <target name="-generateUpdateSite">
+        <!-- Create the directory structure -->
+        <mkdir dir="${UpdateSiteStagingLocation}"/>
+        <mkdir dir="${UpdateSiteStagingLocation}/features"/>
+        <mkdir dir="${UpdateSiteStagingLocation}/plugins"/>
+    	<condition property="jarProcessor.sign" value="true">
+    		<istrue value="${signJars}"/>
+    	</condition>
+        <!-- Build the jar files -->
+        <ant antfile="${builder}/customTargets.xml" target="allElements">
+            <property name="genericTargets" value="${builder}/postBuild.xml"/>
+            <property name="target" value="updateSiteExport"/>
+        </ant>
+        <!-- site.xml files for integration and release builds are handled elsewhere -->
+        <antcall target="-createNightlyBuildSiteXml"/>
+        <delete dir="${buildDirectory}/temp.updatesite"/>
+    </target>
+	
+    <target name="-createNightlyBuildSiteXml">
+    	<echo>${siteXmlFile}</echo>
+        <echo file="${siteXmlFile}">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;site&gt;
+		&lt;description&gt;${updateSiteDescription}&lt;/description&gt;
+</echo>
+    	<foreach list="${pluginbuilder.features}" delimiter="," target="-appendFeatureElement" param="featureId" inheritall="true"/> 
+        <echo file="${siteXmlFile}" append="true">		&lt;category-def name=&quot;${updateSiteCategoryName}&quot;
+            label=&quot;${updateSiteCategoryLabel}&quot;&gt;
+		&lt;/category-def&gt;
+&lt;/site&gt;</echo>
+    </target>
+
+	<target name="-appendFeatureElement">
+		<!-- we can not rely on ${version.full} at this point since people could use
+			a fix feature id like 0.5.0.qualifier. ${version.full} would only work if
+			the feature were set to 0.0.0 --> 
+		<loadfile property="featurexml" srcfile="${buildDirectory}/features/${featureId}/feature.xml"/>
+		<SetRegex input="${featurexml}" match="^.*&lt;feature.+?version=&quot;(.+?)&quot;.*$" property="realFeatureVersion" value="\1" />
+    	<echo file="${siteXmlFile}" append="true">		&lt;feature 
+		url=&quot;features/${featureId}_${realFeatureVersion}.jar&quot; 
+		id=&quot;${featureId}&quot; 
+		version=&quot;${realFeatureVersion}&quot;&gt; 
+    	&lt;category name=&quot;${updateSiteCategoryName}&quot;/&gt; 
+		&lt;/feature&gt;
+</echo>    	
+    </target>
+</project>

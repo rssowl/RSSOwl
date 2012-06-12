@@ -1,0 +1,255 @@
+<project name="Run automated Tests" default="run" basedir=".">
+	<taskdef resource="org/pluginbuilder/anttasks/pluginbuildertasks.properties" classpath="../pluginbuilder-anttasks.jar" />
+	<typedef resource="org/pluginbuilder/anttasks/pluginbuildertypes.properties" classpath="../pluginbuilder-anttasks.jar" />
+
+	<GetHostName />
+	<property file="../../build_${hostname}.properties" />
+	<property file="../../build_local.properties" />
+	<property file="run-tests.properties" />
+	<property name="test.eclipse.host.eclipse" value="${test.eclipse.host}/eclipse" />
+
+	<import file="../build_shared.xml" />
+	
+	<condition property="is.emma">
+		<equals arg1="${pluginbuilder.is.runcoverage}" arg2="true"/>
+	</condition>
+	
+	<target name="-init" depends="-emmaInit">
+		<antcall target="-unpackEclipse"/>
+		<antcall target="-installEclipseExtensionLocation"/>
+		<antcall target="umAddSite" />
+		<!-- Useful for debugging 
+		<antcall target="umListFeaturesSite" />
+		-->
+	</target>
+
+	<target name="-installEclipseExtensionLocation">
+		<echo message="Installing plug-ins for testing into eclipse extension location" />
+		<mkdir dir="${test.eclipseExtensionDirectory}"/>
+		<condition property="buildResultZipDest" value="${test.eclipseExtensionDirectory}/.." else="${test.eclipseExtensionDirectory}">
+			<equals arg1="${archivePrefix}" arg2="eclipse" />
+		</condition>
+		<unzip dest="${buildResultZipDest}">
+			<fileset dir="${buildDirectory}" includes="${buildType}-**/*.zip" excludes="**/${archiveNamePrefix}-*"/>
+		</unzip>
+		<antcall target="-emmaInstrument"/>
+		<unzip dest="${test.eclipseExtensionDirectory}/..">
+			<fileset dir="." includes="eclipse-test-framework*.zip" />
+		</unzip>
+		<unzip dest="${test.eclipseExtensionDirectory}">
+			<fileset dir="." includes="org.pluginbuilder.autotestsuite*.zip" />
+		</unzip>
+		<echo file="${test.eclipseExtensionDirectory}/.eclipseextension">id=org.eclipse.platform
+name=Eclipse Platform
+version=3.1.0</echo>
+	</target>
+
+	<target name="-unpackEclipse" unless="isEclipseInstallationAvailable">
+	 	<antcall target="unpack.eclipse">
+			<param name="eclipse.installation.dir" value="${test.eclipse.host.eclipse}"/>
+			<param name="eclipse.local.tar.non.server" value="${test.eclipse.zip}"/>
+		</antcall>
+	</target>
+
+	<!-- Example target which demonstrates how to run a test suite with the Eclipse test fwk.
+		Note that it is not needed if you use the autotestsuite
+
+	<target name="-runTestSuite" description="Should be called from allTests.xml only">
+		<ant target="core-test" antfile="${test.library.xml}" dir="${test.eclipse.host.eclipse}">
+			--><!-- inject additional properties for Eclipse startup with data-dir property --><!--
+			<property name="data-dir" value="${test.workspace} -clean -dev ${basedir}/emma.jar" />
+    		<property name="plugin-name" value="org.rssowl.core.tests" />
+    		<property name="classname" value="org.rssowl.core.tests.AllTests" />
+			<property name="eclipse-home" value="${test.eclipse.host.eclipse}" />
+			<property name="extraVMargs" value="-Demma.coverage.out.file=${emma.coverage.output}" />
+		</ant>
+	</target>
+	
+	<target name="run" depends="-init,-runTestSuite,-emmaReport" description="Run manually defined tests and create a report.">
+		<antcall target="umRemoveSite" />
+		<delete dir="${test.result.dir}" />
+		<mkdir dir="${test.result.dir}/xml" />
+		--><!-- collect creates an aggregated report file in ${test.eclipse.host} --><!--
+		<ant target="collect" antfile="${test.library.xml}" dir="${test.eclipse.host.eclipse}">
+			<property name="includes" value="*.xml" />
+			<property name="output-file" value="${test.aggregated.report}" />
+		</ant>
+		<copy file="${test.eclipse.host.eclipse}/${test.aggregated.report}" todir="${test.result.dir}/xml" />
+		
+		<BundleFileLocator eclipseInstallationRoot="${test.eclipseExtensionDirectory}" bundleId="org.pluginbuilder.autotestsuite.application" filePath="JUNIT.XSL" property="junit.xsl.file" />
+		<style style="${junit.xsl.file}" basedir="${test.result.dir}/xml" destdir="${test.result.dir}/html" />
+
+		<antcall target="-checkTestResultFileForErrors"/>
+	</target>
+	-->
+	
+	<target name="run" depends="-init,-runAutoTests,-emmaReport" description="Run all tests using the autotestsuite and create xml and html reports.">
+		<antcall target="umRemoveSite" />
+		<junitreport todir="${test.result.dir}/xml" tofile="${test.aggregated.report}">
+			<fileset dir="${test.result.dir}/xml">
+				<include name="*.xml" />
+			</fileset>
+		</junitreport>
+
+		<BundleFileLocator eclipseInstallationRoot="${test.eclipseExtensionDirectory}" bundleId="org.pluginbuilder.autotestsuite.application" filePath="JUNIT.XSL" property="junit.xsl.file" />
+
+		<style style="${junit.xsl.file}" basedir="${test.result.dir}/xml" includes="${test.aggregated.report}" destdir="${test.result.dir}/html" />
+	</target>
+	
+	<target name="-markErrorOrFailure" if="isErrorOrFailure">
+		<!-- Write Message to stderr and continue the build. Do not let the build fail so that 
+		     other tasks which come afterwards can be completed. E.g. packaging might take place
+		     after test execution -->
+		<echo level="error" message="TESTS FAILED"/>
+	</target>
+	
+	<target name="-checkTestResultFileForErrors" unless="isErrorOrFailure" description="Check test result file for errors. Not needed for autotestsuite where the return status is used to signal a failed build.">	
+		<echo message="Checke auf Fehler: ${test.aggregated.report}"/>
+
+        <condition property="isErrorOrFailure">
+                <hasErrorOrFailure reportFile="${test.result.dir}/xml/${test.aggregated.report}" />
+        </condition>
+
+        <antcall target="-markErrorOrFailure" />        
+	</target>
+
+	<target name="-runAutoTests">
+		<mkdir dir="${test.result.dir}/xml"/>
+		<BundleFileLocator eclipseInstallationRoot="${test.eclipse.host.eclipse}" bundleId="org.eclipse.equinox.launcher" property="equinoxjar" />
+		<condition property="optJvmArg" else="-DdummyVar=NotOnMac" value="-XstartOnFirstThread">
+			<os family="mac"/>
+		</condition>
+		<condition property="testApplication" else="" value="-testApplication ${autotest.testapplication}">
+			<isset property="autotest.testapplication"/>
+		</condition>
+		<java fork="true" dir="." logError="true" classname="org.eclipse.core.launcher.Main" resultproperty="autotestsuite.result"> 
+
+			<arg line="-application org.pluginbuilder.autotestsuite.application.autoTestApplication ${testApplication}" />
+			<arg line="-data ${test.workspace}" />
+			<arg line="-os ${os}" />
+			<arg line="-ws ${ws}" />
+			<arg line="-arch ${arch}" />
+			<arg line="-clean" />
+			<arg line="-consolelog" />
+			<arg line="-dev ${basedir}/emma.jar" />
+			
+			<jvmarg value="-Demma.coverage.out.file=${emma.coverage.output}"/>
+			<jvmarg value="${optJvmArg}"/>
+			<jvmarg value="-Xmx512m"/>
+			
+			<sysproperty key="autotestsuite.results.directory" value="${test.result.dir}/xml" />
+			<sysproperty key="autotest.debug" value="${autotestsuite.trace}" />
+			<sysproperty key="autotestsuite.headless" value="${autotestsuite.headless}" />
+			<sysproperty key="autotestsuite.plugin.inclusions" value="${autotestsuite.plugin.inclusions}" />
+			<sysproperty key="autotestsuite.plugin.exclusions" value="${autotestsuite.plugin.exclusions}|^org.eclipse.test$" />
+			<sysproperty key="autotestsuite.class.inclusions" value="${autotestsuite.class.inclusions}" />
+			<sysproperty key="autotestsuite.class.exclusions" value="${autotestsuite.class.exclusions}" />
+			
+			<classpath>
+				<pathelement location="${equinoxjar}" />
+			</classpath>
+		</java>
+		<condition property="isErrorOrFailure">
+			<not>
+				<equals arg1="${autotestsuite.result}" arg2="0"/>
+			</not>
+		</condition>
+	
+		<antcall target="-markErrorOrFailure"/>
+	</target>
+
+	<target name="umAddSite">
+		<echo message="Adding Extension Site to ${test.eclipse.host}. Might fail if extension already exists."/>
+		<!-- the addSite calls fails if the extension site already exists (for example because it was not removed properly
+		     from a previous build. Nonetheless the tests can proceed --> 
+		<antcall target="updateManager">	
+			<param name="updateManagerCommand" value="addSite"/>
+			<param name="updateManagerCommandParam" value="-from"/>
+			<param name="updateManagerCommandSiteUrl" value="${test.eclipseExtensionDirectory}"/>
+			<param name="updateManagerCommandFailOnError" value="false"/>
+		</antcall>
+	</target>
+	
+	<target name="umRemoveSite">
+		<!--  This command might fail if the Extension Site has never been added or was properly removed before. -->
+		<echo message="Removing Extension Site from ${test.eclipse.host}."/>
+		
+		<antcall target="updateManager">	
+			<param name="updateManagerCommand" value="removeSite"/>
+			<param name="updateManagerCommandParam" value="-to"/>
+			<param name="updateManagerCommandSiteUrl" value="${test.eclipseExtensionDirectory}"/>
+			<param name="updateManagerCommandFailOnError" value="false"/>
+		</antcall>
+	</target>
+	
+	<target name="umListFeaturesSite">
+		<antcall target="updateManager">	
+			<param name="updateManagerCommand" value="listFeatures"/>
+			<param name="updateManagerCommandParam" value="-from"/>
+			<param name="updateManagerCommandSiteUrl" value="${test.eclipseExtensionDirectory}"/>
+			<param name="updateManagerCommandFailOnError" value="false"/>
+		</antcall>
+
+	</target>
+	
+	<target name="updateManager">
+		<BundleFileLocator eclipseInstallationRoot="${test.eclipse.host.eclipse}" bundleId="org.eclipse.equinox.launcher" property="equinoxjar" />	
+		<java classname="org.eclipse.equinox.launcher.Main" fork="true" failonerror="${updateManagerCommandFailOnError}">
+			<arg value="-ws" />
+			<arg value="${ws}" />
+			<arg value="-os" />
+			<arg value="${os}" />			
+			<arg value="-application" />
+			<arg value="org.eclipse.update.core.standaloneUpdate" />
+			<arg value="-command" />
+			<arg value="${updateManagerCommand}" />
+			<arg value="${updateManagerCommandParam}" />
+			<arg value="${updateManagerCommandSiteUrl}" />
+
+			<classpath>
+				<pathelement location="${equinoxjar}" />
+			</classpath>
+			
+		</java>
+	</target>
+	
+	
+	
+	<target name="-emmaInit" if="is.emma">
+		<path id='emma.lib' >
+			<fileset dir='.' includes='*.jar' />
+		</path>
+		<taskdef resource='emma_ant.properties' classpathref='emma.lib' />
+	</target>
+	
+	<target name="-emmaReport" if="is.emma">		
+		<mkdir dir="${test.result.dir}/coverage" />
+		<emma enabled="${pluginbuilder.is.runcoverage}">
+			<report encoding="UTF-8">
+				<fileset dir="${buildDirectory}" includes="*.emma"/>
+				<fileset file="${emma.coverage.output}"/>
+			    <html outfile="${test.result.dir}/coverage/coverage.html" />
+
+				<sourcepath>
+					<dirset dir="${buildDirectory}/plugins">
+					</dirset>
+				</sourcepath>
+				
+			</report>
+		</emma>
+	</target>
+
+	<target name="-emmaInstrument" if="is.emma">
+		<!-- <emma enabled="${pluginbuilder.is.runcoverage}"> -->
+		<emma>
+			<instr verbosity="info" metadatafile="${buildDirectory}/metadata.emma" mode="overwrite">
+				<instrpath>
+					<fileset dir="${test.eclipseExtensionDirectory}" includes="**/*.jar" excludes="**/emma*.jar"/>
+					<dirset dir="${test.eclipseExtensionDirectory}/plugins" includes="*" />
+				</instrpath>
+				<!-- http://emma.sourceforge.net/reference/ch02s06s02.html#filtersyntax.ANT -->
+		        <filter includes="${pluginbuilder.coverage.inclusionfilter}" excludes="${pluginbuilder.coverage.exclusionfilter}" />
+			</instr>
+		</emma>	
+	</target>
+</project>

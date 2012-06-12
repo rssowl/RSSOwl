@@ -1,0 +1,141 @@
+<project name="allElements delegation and assemble customTargets.xml">
+<!-- FILE WILL BE OVERWRITTEN WHEN GENERATED -->
+  	<target name="allElementsExceptSvnFetch" unless="is.svn.fetch">
+  		<antcall target="norcpbuild"/>
+  		<antcall target="rcpbuild"/>
+    </target>
+	
+	<target name="norcpbuild" unless="build.container.feature">
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.rssowl" />
+		</ant>
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.rssowl.contrib.nntp" />
+		</ant>
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.rssowl.tests" />
+		</ant>
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.rssowl.dependencies" />
+		</ant>
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.rssowl.contrib.notes" />
+		</ant>
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.rssowl.feature.contrib.feedhandler" />
+		</ant>
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.rssowl.feature.contrib.tools" />
+		</ant>
+		
+	</target>
+
+	<target name="rcpbuild" if="build.container.feature">
+		<ant antfile="${genericTargets}" target="${target}">
+			<property name="type" value="feature" />
+			<property name="id" value="org.eclipse.pde.build.container.feature" />
+		</ant>
+	</target>
+	
+	<!-- generated assemble targets -->	     
+	<target name="assemble.org.rssowl">
+		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">
+			<property name="zipargs" value="" />
+		</ant>
+	</target>
+	<target name="assemble.org.rssowl.contrib.nntp">
+		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">
+			<property name="zipargs" value="" />
+		</ant>
+	</target>
+	<target name="assemble.org.rssowl.tests">
+		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">
+			<property name="zipargs" value="" />
+		</ant>
+	</target>
+	<target name="assemble.org.rssowl.dependencies">
+		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">
+			<property name="zipargs" value="" />
+		</ant>
+	</target>
+	<target name="assemble.org.rssowl.contrib.notes">
+		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">
+			<property name="zipargs" value="" />
+		</ant>
+	</target>
+	<target name="assemble.org.rssowl.feature.contrib.feedhandler">
+		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">
+			<property name="zipargs" value="" />
+		</ant>
+	</target>
+	<target name="assemble.org.rssowl.feature.contrib.tools">
+		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">
+			<property name="zipargs" value="" />
+		</ant>
+	</target>
+
+	
+	<!-- assmble targets for RCP build -->	
+	<target name="assemble.org.eclipse.pde.build.container.feature.win32.win32.x86">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-win32.win32.x86.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.linux.gtk.x86">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-linux.gtk.x86.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.linux.gtk.ppc">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-linux.gtk.ppc.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.linux.gtk.x86_64">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-linux.gtk.x86_64.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.linux.motif.x86">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-linux.motif.x86.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.solaris.motif.sparc">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-solaris.motif.sparc.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.solaris.gtk.sparc">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-solaris.gtk.sparc.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.aix.motif.ppc">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-aix.motif.ppc.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.hpux.motif.PA_RISC">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-hpux.motif.PA_RISC.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.macosx.carbon.ppc">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-macosx.carbon.ppc.zip"/>
+		</ant>
+	</target>
+	<target name="assemble.org.eclipse.pde.build.container.feature.macosx.carbon.x86">
+ 		<ant antfile="${assembleScriptName}" dir="${buildDirectory}">			
+ 			<property name="archiveName" value="${archiveNamePrefix}-macosx.carbon.x86.zip"/>
+		</ant>
+	</target>	
+</project>

@@ -35,11 +35,11 @@ C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g -G org.eclipse.update.core.win32_3.
 C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g -G org.eclipse.update.core_3.2.202.R34x_v20081128.jar.pack org.eclipse.update.core_3.2.202.R34x_v20081128.jar
 C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g -G org.eclipse.update.ui_3.2.101.R34x_v20081128.jar.pack org.eclipse.update.ui_3.2.101.R34x_v20081128.jar
 
-C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.core_2.0.6.201010031459.jar.pack org.rssowl.core_2.0.6.201010031459.jar
-C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.db4o_2.0.6.201010031459.jar.pack org.rssowl.lib.db4o_2.0.6.201010031459.jar
-C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.httpclient_2.0.6.201010031459.jar.pack org.rssowl.lib.httpclient_2.0.6.201010031459.jar
-C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.jdom_2.0.6.201010031459.jar.pack org.rssowl.lib.jdom_2.0.6.201010031459.jar
-C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.lucene_2.0.6.201010031459.jar.pack org.rssowl.lib.lucene_2.0.6.201010031459.jar
-C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.ui_2.0.6.201010031459.jar.pack org.rssowl.ui_2.0.6.201010031459.jar
+C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.core_2.1.0.201107151120.jar.pack org.rssowl.core_2.1.0.201107151120.jar
+C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.db4o_2.1.0.201107151120.jar.pack org.rssowl.lib.db4o_2.1.0.201107151120.jar
+C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.httpclient_2.1.0.201107151120.jar.pack org.rssowl.lib.httpclient_2.1.0.201107151120.jar
+C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.jdom_2.1.0.201107151120.jar.pack org.rssowl.lib.jdom_2.1.0.201107151120.jar
+C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.lib.lucene_2.1.0.201107151120.jar.pack org.rssowl.lib.lucene_2.1.0.201107151120.jar
+C:\Programme\Java\jdk1.5.0_22\bin\pack200 -g org.rssowl.ui_2.1.0.201107151120.jar.pack org.rssowl.ui_2.1.0.201107151120.jar
 
 del *.jar

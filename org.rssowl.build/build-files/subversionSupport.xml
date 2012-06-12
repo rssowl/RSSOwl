@@ -1,0 +1,26 @@
+<project name="to be included into customTargets.xml">
+
+	<import file="fetchSvnAll.xml"/>
+
+	<path id="project.classpath">
+		<pathelement location="${buildHome}/build-files/svn/svnant.jar"/>
+		<pathelement location="${buildHome}/build-files/svn/svnClientAdapter.jar"/>
+		<pathelement location="${buildHome}/build-files/svn/svnjavahl.jar"/>
+		<pathelement location="${buildHome}/build-files/svn/svnkit.jar"/>
+		<pathelement location="${buildHome}/build-files/svn/ganymed.jar"/>
+	</path>
+	
+  	<target name="fetchSubversion" if="is.svn.fetch">
+  		 <taskdef resource="svntask.properties" classpathref="project.classpath"/>
+  		 <property name="fetchTag" value="HEAD"/>
+  		 <antcall target="fetch.svn.all"/>
+  	</target>
+    
+    <target name="svn.co">
+    	<property name="target.dir" value="${element.id}"/>
+     	<svn failonerror="true" svnkit="true" javahl="false" username="${pluginbuilder.svn.user}" password="${pluginbuilder.svn.password}">
+  			<checkout revision="${fetchTag}" url="${url}/${project.name}" destPath="${buildDirectory}/${target}/${target.dir}" />
+  		</svn> 
+	</target>    
+
+</project>

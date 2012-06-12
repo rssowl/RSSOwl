@@ -1,0 +1,237 @@
+<!--  This script will not be uploaded to the server.
+      PLEASE DO NOT MODIFY 
+      If you modify this script it is likely that the build will not work on the server
+-->
+<project name="Build Facade" default="main">
+	<taskdef resource="org/pluginbuilder/anttasks/pluginbuildertasks.properties" classpath="build-files/pluginbuilder-anttasks.jar" />
+	
+	<GetHostName />
+	<property file="build_${hostname}.properties" />
+	<property file="build_local.properties" />
+	<property name="eclipse.installation.dir" value="${eclipseDir}"/>
+	<import file="build-files/build_shared.xml"/>
+	
+	<target name="-properties">		
+		
+		<!-- versioning -->
+		<property name="build.version" value="HEAD"/>
+		<property file="releases/${build.version}.properties" />
+		<tstamp>
+		      <format property="version.qualifier" pattern="yyyyMMddHHmm" timezone="GMT" unit="minute"/>
+		</tstamp>
+		
+		<property name="buildTypePresentation" value=""/>
+		<property name="version.full" value="${version}.${version.qualifier}${buildTypePresentation}"/>
+
+		<!-- includes -->
+		<GetHostName />
+		<property file="build_${hostname}.properties" />
+		<property file="build_local.properties" />
+		<property file="pluginbuilder.config" />
+		
+		<!-- set defaults -->
+		<property name="buildTarget" value="main"/>
+		<property name="verboseAnt" value="-Ddummy=true"/>
+		
+		<!-- check if clean should be called -->
+		<condition property="is.clean">
+			<or>
+				<equals arg1="main" arg2="${buildTarget}" trim="true"/>
+		   		<equals arg1="fetch" arg2="${buildTarget}" trim="true"/>
+			</or>
+		</condition>
+		
+		<condition property="no.rcp.build" value="true">
+			<not>
+				<equals arg1="${pluginbuilder.is.rcpbuild}" arg2="true"/>
+			</not>
+		</condition>
+				
+	</target>
+		
+	<target name="-prepare.build.host">
+
+		<antcall target="unpack.eclipse"/>
+		
+		<available type="dir" file="${eclipseDir}/plugins" property="eclipseDir.plugins.exists"/>
+		<fail message="Could not find directory ${eclipseDir}/plugins. Please check eclipseDir in build_local.properties" unless="eclipseDir.plugins.exists"/>
+		
+		<!-- determine buildfiles -->
+		<BundleFileLocator eclipseInstallationRoot="${eclipseDir}" bundleId="org.eclipse.pde.build" filePath="scripts/build.xml" property="regularbuildfile" />		
+		<dirname file="${regularbuildfile}" property="scriptdir"/>
+		<property name="productbuildfile" value="${scriptdir}/productBuild/productBuild.xml"/>
+	
+		<!-- determine launcher -->
+		<BundleFileLocator eclipseInstallationRoot="${eclipseDir}" bundleId="org.eclipse.equinox.launcher" property="equinoxjar" />		
+
+	</target>
+	
+	<target name="-clean" if="is.clean">
+		<echo level="info" message="Cleaning directory ${buildDirectory}"/>
+		<delete dir="${buildDirectory}" verbose="false"/>
+		<mkdir dir="${buildDirectory}"/>
+	</target>
+	
+	<target name="-build" depends="-properties,-clean,-prepare.build.host">
+		<condition property="no.rcp.build" value="true">
+			<not>
+				<equals arg1="${pluginbuilder.is.rcpbuild}" arg2="true"/>
+			</not>
+		</condition>
+		<antcall target="-build.internal">
+			<param name="buildfile" value="${regularbuildfile}"/>
+	    </antcall>
+		<!-- build rcp omitting fetch -->
+		<property name="buildSystemProperty.skipFetch" value="true"/>
+		<antcall target="-build.rcp.internal"/>
+	</target>
+	
+	<target name="-build.rcp.internal" unless="no.rcp.build">
+		<property prefix="buildSystemProperty." file="${buildHome}/build-files/build_rcp.properties"/>
+		<antcall target="-checkProductProperty"/>
+		<antcall target="-build.internal"> 
+			<param name="buildfile" value="${productbuildfile}"/>
+		</antcall>
+	</target>
+
+	<target name="-checkProductProperty">
+		<condition property="isProductSet">
+			<and>
+				<isset property="buildSystemProperty.product"/>
+				<not><equals arg1="${product}" arg2=""/></not>
+			</and>
+		</condition>
+		<fail message="Building an RCP application requires a Product Configuration file to be specified ('product' property)." unless="isProductSet"/>
+	</target>
+	
+	<target name="rcp" depends="-properties,-clean,-prepare.build.host" description="Build RCP only">
+		<fail message="Please enable and configure an RCP build in the Plug-in Builder Editor before calling this target." if="no.rcp.build"/>
+		<antcall target="-build.rcp.internal"/>
+	</target>
+
+	<target name="-build.internal">
+		<property name="buildResultsDirectory" value="${buildDirectory}/results" />
+		
+		<java classname="org.eclipse.equinox.launcher.Main" fork="true" 
+			failonerror="true" errorproperty="build.stderr">
+			<arg value="-ws" />
+			<arg value="${ws}" />
+			<arg value="-os" />
+			<arg value="${os}" />
+			<arg value="-application" />
+			<arg value="org.eclipse.ant.core.antRunner" />
+			<arg value="-buildfile" />
+			<arg value="${buildfile}" />
+			<arg value="${buildTarget}" />
+			<arg value="-data" />
+			<arg value="${buildDirectory}/workspace" />
+			<arg value="${verboseAnt}"/>
+			<jvmarg value="-Dbasews=${ws}" />
+			<jvmarg value="-Dbaseos=${os}" />
+			<jvmarg value="-Dbasearch=${arch}" />
+			<jvmarg value="-Dbuilder=${buildHome}/build-files" />
+			<jvmarg value="-DjavacFailOnError=true"/>
+			<jvmarg value="-DbuildDirectory=${buildDirectory}"/>
+			<jvmarg value="-DbuildResultsDirectory=${buildResultsDirectory}"/>
+			<jvmarg value="-DbaseLocation=${eclipseDir}"/>
+			<jvmarg value="-DbuildHome=${buildHome}"/>
+			<jvmarg value="-Dversion.full=${version.full}"/>
+			<jvmarg value="-Dversion.qualifier=${version.qualifier}${buildTypePresentation}"/>
+			<jvmarg value="-DbuildType=${buildType}"/>
+			<jvmarg value="-DfetchTag=${fetchTag}"/>
+			<jvmarg value="-DbuildProperties=${buildHome}/build-files/build.properties"/>
+
+			<classpath>
+				<pathelement location="${equinoxjar}" />
+			</classpath>
+			
+			<syspropertyset>
+				<propertyset>
+					<propertyref prefix="buildSystemProperty"/>
+					<mapper type="glob" from="buildSystemProperty.*" to="*"/>
+				</propertyset>
+			</syspropertyset>
+		</java>
+		
+		<!-- save stderr for scrutinizing later -->
+		<echo file="${buildDirectory}/stderr.txt" append="true">${build.stderr}</echo>
+		
+		<echo taskname="stderr">${build.stderr}</echo>
+		
+		<condition property="is.build.error" value="true">
+			<contains string="${build.stderr}" substring="BUILD FAILED"/>
+		</condition>
+		<!-- Note that the fail task throws an exception which will be intercepted
+		     from calling antcalls. During that processing the status will 
+		     be lost and set to 1. Therefor ethe processing of TESTS FAILED which should 
+		     return an exit status of 2 can only take place in main targets. --> 
+		<fail message="PDE Build failed" if="is.build.error" status="1"/>
+
+	</target>
+	
+	<target name="main-cc"
+			description="This target is suited to be run from cruisecontrol. The property 'label' is expected to be set from cruisecontrol.">
+		<!-- Note that pluginbuilder also provides an EclipseLabelIncrementer which creates Eclipse version labels.
+			see http://www.pluginbuilder.org/faq.html -->
+		<property name="version.full" value="${label}"/> 
+		<SetRegex input="${label}" match=".+\..+\..+\.(.*)" property="version.qualifier" value="\1" />
+		<antcall target="-build"/>
+	</target>
+	
+	<target name="main" description="Run the main target of customTargets.xml. Return status 0,1,2 for Success, Build Failure and Test Failure">
+		<property name="buildTarget" value="main"/>
+		<antcall target="-build"/>
+
+		<!-- this must be done in a top level target because otherwise the 
+		     status would not get throuhg. If fail is called somewhere within
+		     an antcall the created exception will be caught which would result
+		     in a return status of 1 -->
+		<loadfile srcFile="${buildDirectory}/stderr.txt" property="build.stderr"/>
+		<condition property="is.tests.failed" value="true">
+			<contains string="${build.stderr}" substring="TESTS FAILED"/>
+		</condition>
+		<fail message="Tests failed" if="is.tests.failed" status="2"/>		
+	</target>
+
+	<target name="fetch" description="Run the fetch target of customTargets.xml.">
+		<property name="buildTarget" value="fetch"/>
+		<antcall target="-build"/>
+	</target>	
+	
+	<target name="generate" description="Run the generate target of customTargets.xml.">
+		<property name="buildTarget" value="generate"/>
+		<antcall target="-build"/>
+	</target>
+	
+	<target name="process" description="Run the process target of customTargets.xml.">
+		<property name="buildTarget" value="process"/>
+		<antcall target="-build"/>
+	</target>
+			
+	<target name="assemble" description="Run the assemble target of customTargets.xml.">
+		<property name="buildTarget" value="assemble"/>
+		<antcall target="-build"/>
+	</target>
+	
+	<target name="postBuild" description="Run the postBuild target of customTargets.xml.">
+		<property name="buildTarget" value="postBuild"/>
+		<antcall target="-build"/>
+		<!-- see main for a description why this must take place here. It is very ugly -->
+		<loadfile srcFile="${buildDirectory}/stderr.txt" property="build.stderr"/>
+		<condition property="is.tests.failed" value="true">
+			<contains string="${build.stderr}" substring="TESTS FAILED"/>
+		</condition>
+		<fail message="Tests failed" if="is.tests.failed" status="2"/>
+	</target>
+	
+	<target name="buildProperties" description="Print out derived properties for the current build." depends="-properties">
+		<fail message="You have to set the property 'buildPropertiesFile' if calling buildProperties" unless="buildPropertiesFile"/>
+		<condition property="subdir" value="nightly" else="releases">
+			<equals arg1="${buildType}" arg2="N"/>
+		</condition>
+		<echo file="${buildPropertiesFile}">relativeServerResultsDir: ${subdir}
+version.full: ${version.full}
+version.qualifier: ${version.qualifier}</echo>
+	</target>
+
+</project>

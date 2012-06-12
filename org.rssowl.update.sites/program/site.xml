@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site pack200="true">
+   <description url="http://boreal.rssowl.org">
+      The main update site of RSSOwl.
+   </description>
+   <feature url="features/org.rssowl_2.1.0.qualifier.jar" id="org.rssowl" version="2.1.0.qualifier">
+      <category name="rssowl.program"/>
+   </feature>
+   <category-def name="rssowl.program" label="RSSOwl Program Update">
+      <description>
+         RSSOwl 2.1 is a major update with many new features, performance improvements and bugfixes. Some of the highlights include Google Reader synchronization, new layouts and news archiving.
+      </description>
+   </category-def>
+</site>

@@ -1,0 +1,195 @@
+
+	Real DAO Implementation Proposal:
+	---------------------------------
+	---------------------------------
+	
+	This proposal is trying to describe a real DAO Implementation of RSSOwl2's Model. The idea is
+	to let the Model work as closely as possible on the DB, to avoid a Model that is becoming out
+	of sync with the persistance layer.
+	
+
+	1. Changes to the Model-Types
+	-----------------------------
+	
+	1.1 New org.rssowl.core.model.reference
+	
+		The reference package contains potential leightweight references to the types of the model.
+		These references are used to built relations between heavyweight model types.
+		
+		Example: FolderReference (should implement or extend some common super-reference-type)
+		
+		Field: long fId = IExtendableType.NO_ID
+		Field: Folder fType = null;
+		
+		Constructor A: public FolderReference (long id)
+		
+			-> Assert the case that IExtendableType.NO_ID is passed in
+		
+		Constructor B: public FolderReference (Folder folder)
+		
+			-> Assert the case that NULL is passed in
+		
+		Method: IFolder resolve()
+		
+			-> IF id != NO_ID RETURN IModelDAO.loadFolder(id): Type loaded from the DB
+			-> ELSE RETURN folder: Type was passed into the Constructor
+			
+			-> The case id == NO_ID and folder == NULL should be made impossible using asserts in the
+			   constructors. A reference has to be resolvable in any case.
+		   
+		Method: long getId()
+		
+			-> Returns the ID of the type
+			-> Caution: A call to that method is not telling any truth if ID is NO_ID, but a new type given
+			-> This method should never be called by the DB, but it can be used in the UI to decide wether
+			   an Event with a certain type-id is affecting the viewer.
+	
+	
+	1.2 org.rssowl.core.model.types.*
+	
+		Change any getParent / getChildren Method such as:
+		
+		-> A Reference of the type is returned, e.g. getParent() of a Folder returning a FolderReference
+		-> If NULL is returned, or an empty Array, the Type is considered to have no relation
+		
+	
+	1.3 org.rssowl.core.model.events
+	
+		The various Events pretty much behave like a Reference. They should be changed to include a getter
+		for the reference that is affected.
+		
+			
+	
+	2. Changes to the Interpreter
+	-----------------------------
+	
+	2.1. 
+	
+		The Interpreter is using the new API of References such as it uses Constructor B, passing in the
+		type that was just interpreted from the Feed.
+		
+		Example of an Attachment being interpreted in a News:
+		
+			news.addAttachment(new AttachmentReference(attachment1));
+		
+	
+	
+	3. Changes to the DB which implements IModelDAO
+	-----------------------------------------------
+	
+	3.1 Loading Types
+	
+		When loading types, the DB is not resolving relations deeply. For example, when a Feed is to be loaded,
+		its child-relation to a List of News is filled by NewsReferences having the right ID of the related
+		News. In the same way, the parent of the loaded Folder is set to a FolderReference containing the ID
+		of the parent Folder, like:
+		
+			folder.setParent(new FolderReference(45));
+	
+	
+	3.2 Saving Types
+	
+		When saving types, it depends on the kind of operation, either SHALLOW or DEEP, what is to be done.
+		In case of a DEEP save, the DB is iterating through the child-relations, resolving all of them. Most
+		likely, the resolve-call will not result in a DB-operation, because the types are already there, e.g.
+		if created by the interpreter, that knows about the child-relations (see the above example where a
+		concrete type is passed into the reference-constructor).
+		
+		
+		
+	4. Workflow in the UI
+	---------------------
+	
+	4.1 Viewers
+	
+		Viewers contain the heavyweight models in the items of the widget, e.g. Table or Tree. In ALL cases
+		have these models to contain references, that make a DB-roundtrip on calling resolve. That makes sure,
+		that the viewer is always in sync with the DB.
+	
+		
+	
+	5. Use Cases
+	------------
+	
+	5.1 A News is deleted from a Feed
+	
+		a) IModelDAO.deleteNews is called passing in the INews to delete
+		
+		b) The DB is deleting the News from the News-Relation and creates a new NewsReference
+		   with the ID of the deleted News
+		
+		c) One Feed-Event is sent out containing a List with a single NewsEvent included
+		
+		d) One News-Event is sent out that contains the NewsReference
+		
+		e) A Viewer is listening and receives the NewsEvent
+		
+		f) The NewsEvent is containing a NewsReference containing the ID of the deleted News
+		
+		g) A TreeViewer showing BookMarks: Has to update the unread-count of the BookMark
+		
+			g.a) Load the IFeed with newsEvent.resolve().getFeedRef().resolve();
+			
+			g.b) Call update() on the loaded IFeed
+		
+		h) A Table showing News of a Feed: Has to update the Table to reflect the deleted News
+		
+			h.a) Load the INews with newsEvent.resolve()
+			
+			h.b) Call remove() on the loaded INews
+			
+			
+		-> Contra: It seems that with the references, a Viewer has to resolve the type in anycase,
+		   even if it is not containing the Type. Maybe it would be smarter to use the ID of the
+		   reference and first check out if any item of the Viewer is having the same ID. Maybe
+		   we could introduce an Viewer#update(long id)-Method that handles with this case. That method
+		   would be smart enough to resolve the type and call an update(Object type), once it has 
+		   made sure that the type is a part of an item in the Viewer.
+			
+			
+	5.2 A Folder is added to a Folder
+	
+		a) IModelDAO.saveFolder is called passing in the IFolder to add
+		
+		b) The DB is adding the Folder into the Folder-Relation and creates a new FolderReference
+		   with the ID of the added Folder
+		
+		c) One Folder-Event is sent out containing the FolderReference
+		
+		d) A Viewer is listening and receives the FolderEvent
+		
+		e) The FolderEvent is containing a FolderReference containing the ID of the added Folder
+		
+		f) A TreeViewer showing Folders: Has to update the parent Folder of the added one to show
+		   the new Folder.
+		   
+		g) The TreeViewer is calling folderEvent.resolve().getParent() to get the ID of the parent Folder
+		
+		h) A call to refresh(parentFolder) is updating the branch of the parent folder from the DB
+	
+	
+	5.3 A Folder is renamed
+	
+		a) IModelDAO.saveFolder is called passing in the IFolder to update
+		
+		b) The DB is updating the Folder from the Folder-Relation with the new values and creates a new FolderReference
+		   with the ID of the updated Folder
+		
+		c) One Folder-Event is sent out containing a FolderReference
+		
+		d) A Viewer is listening and receives the FolderEvent
+		
+		f) Load the IFolder with folderEvent.resolve()
+		
+		g) Call update() on the loaded IFolder
+		
+		
+		-> Same contra as above!
+		
+	
+	5.4 A Folder is removed from a Folder
+	
+		a) See 5.2, its roughly the same.
+		
+	
+			
