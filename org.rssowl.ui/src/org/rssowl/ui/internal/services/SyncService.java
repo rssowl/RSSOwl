@@ -81,6 +81,9 @@ public class SyncService implements Receiver<SyncItem> {
   /* Sync scheduler interval in Millies */
   private static final int SYNC_SCHEDULER = 300000; // 5 minutes
 
+  /* Maximum sync items per call to google reader API */
+  private static final int SYNC_PAGE_SIZE = 150;
+
   /* HTTP Constants */
   private static final String REQUEST_HEADER_CONTENT_TYPE = "Content-Type"; //$NON-NLS-1$
   private static final String REQUEST_HEADER_AUTHORIZATION = "Authorization"; //$NON-NLS-1$
@@ -393,96 +396,102 @@ public class SyncService implements Receiver<SyncItem> {
         if (equivalentItems.isEmpty())
           continue;
 
-        /* Connection Headers */
-        Map<String, String> headers = new HashMap<String, String>();
-        headers.put(REQUEST_HEADER_CONTENT_TYPE, CONTENT_TYPE_FORM_ENCODED);
-        headers.put(REQUEST_HEADER_AUTHORIZATION, SyncUtils.getGoogleAuthorizationHeader(authToken));
+        for (int syncPage = 0; syncPage <= equivalentItems.size() / SYNC_PAGE_SIZE; syncPage++) {
+          int fromIndex = syncPage * SYNC_PAGE_SIZE;
+          int toIndex = Math.min((syncPage + 1) * SYNC_PAGE_SIZE, equivalentItems.size());
+          List<SyncItem> equivalentItemsPage = equivalentItems.subList(fromIndex, toIndex);
 
-        /* POST Parameters */
-        Map<String, String[]> parameters = new HashMap<String, String[]>();
-        parameters.put(SyncUtils.API_PARAM_TOKEN, new String[] { token });
+          /* Connection Headers */
+          Map<String, String> headers = new HashMap<String, String>();
+          headers.put(REQUEST_HEADER_CONTENT_TYPE, CONTENT_TYPE_FORM_ENCODED);
+          headers.put(REQUEST_HEADER_AUTHORIZATION, SyncUtils.getGoogleAuthorizationHeader(authToken));
 
-        List<String> identifiers = new ArrayList<String>();
-        List<String> streamIds = new ArrayList<String>();
-        Set<String> tagsToAdd = new HashSet<String>();
-        Set<String> tagsToRemove = new HashSet<String>();
-        for (SyncItem item : equivalentItems) {
-          identifiers.add(item.getId());
-          streamIds.add(item.getStreamId());
+          /* POST Parameters */
+          Map<String, String[]> parameters = new HashMap<String, String[]>();
+          parameters.put(SyncUtils.API_PARAM_TOKEN, new String[] { token });
 
-          if (item.isMarkedRead()) {
-            tagsToAdd.add(SyncUtils.CATEGORY_READ);
-            tagsToRemove.add(SyncUtils.CATEGORY_UNREAD);
-          }
+          List<String> identifiers = new ArrayList<String>();
+          List<String> streamIds = new ArrayList<String>();
+          Set<String> tagsToAdd = new HashSet<String>();
+          Set<String> tagsToRemove = new HashSet<String>();
+          for (SyncItem item : equivalentItemsPage) {
+            identifiers.add(item.getId());
+            streamIds.add(item.getStreamId());
 
-          if (item.isMarkedUnread()) {
-            tagsToAdd.add(SyncUtils.CATEGORY_UNREAD);
-            tagsToAdd.add(SyncUtils.CATEGORY_TRACKING_UNREAD);
-            tagsToRemove.add(SyncUtils.CATEGORY_READ);
-          }
+            if (item.isMarkedRead()) {
+              tagsToAdd.add(SyncUtils.CATEGORY_READ);
+              tagsToRemove.add(SyncUtils.CATEGORY_UNREAD);
+            }
 
-          if (item.isStarred())
-            tagsToAdd.add(SyncUtils.CATEGORY_STARRED);
+            if (item.isMarkedUnread()) {
+              tagsToAdd.add(SyncUtils.CATEGORY_UNREAD);
+              tagsToAdd.add(SyncUtils.CATEGORY_TRACKING_UNREAD);
+              tagsToRemove.add(SyncUtils.CATEGORY_READ);
+            }
 
-          if (item.isUnStarred())
-            tagsToRemove.add(SyncUtils.CATEGORY_STARRED);
+            if (item.isStarred())
+              tagsToAdd.add(SyncUtils.CATEGORY_STARRED);
 
-          List<String> addedLabels = item.getAddedLabels();
-          if (addedLabels != null) {
-            for (String label : addedLabels) {
-              tagsToAdd.add(SyncUtils.CATEGORY_LABEL_PREFIX + label);
+            if (item.isUnStarred())
+              tagsToRemove.add(SyncUtils.CATEGORY_STARRED);
+
+            List<String> addedLabels = item.getAddedLabels();
+            if (addedLabels != null) {
+              for (String label : addedLabels) {
+                tagsToAdd.add(SyncUtils.CATEGORY_LABEL_PREFIX + label);
+              }
+            }
+
+            List<String> removedLabels = item.getRemovedLabels();
+            if (removedLabels != null) {
+              for (String label : removedLabels) {
+                tagsToRemove.add(SyncUtils.CATEGORY_LABEL_PREFIX + label);
+              }
             }
           }
 
-          List<String> removedLabels = item.getRemovedLabels();
-          if (removedLabels != null) {
-            for (String label : removedLabels) {
-              tagsToRemove.add(SyncUtils.CATEGORY_LABEL_PREFIX + label);
+          parameters.put(SyncUtils.API_PARAM_IDENTIFIER, identifiers.toArray(new String[identifiers.size()]));
+          parameters.put(SyncUtils.API_PARAM_STREAM, streamIds.toArray(new String[streamIds.size()]));
+
+          if (!tagsToAdd.isEmpty())
+            parameters.put(SyncUtils.API_PARAM_TAG_TO_ADD, tagsToAdd.toArray(new String[tagsToAdd.size()]));
+
+          if (!tagsToRemove.isEmpty())
+            parameters.put(SyncUtils.API_PARAM_TAG_TO_REMOVE, tagsToRemove.toArray(new String[tagsToRemove.size()]));
+
+          /* Connection Properties */
+          Map<Object, Object> properties = new HashMap<Object, Object>();
+          properties.put(IConnectionPropertyConstants.HEADERS, headers);
+          properties.put(IConnectionPropertyConstants.POST, Boolean.TRUE);
+          properties.put(IConnectionPropertyConstants.PARAMETERS, parameters);
+          properties.put(IConnectionPropertyConstants.CON_TIMEOUT, getConnectionTimeout());
+
+          /* Return on cancellation */
+          if (isCanceled(monitor))
+            return itemCount;
+
+          /* Perform POST */
+          URI uri = URI.create(SyncUtils.GOOGLE_EDIT_TAG_URL);
+          IProtocolHandler handler = Owl.getConnectionService().getHandler(uri);
+          InputStream inS = null;
+          try {
+            inS = handler.openStream(uri, new NullProgressMonitor(), properties); //Do not allow to cancel this outgoing request for transactional reasons
+            fSyncItemsManager.removeUncommitted(equivalentItemsPage);
+            itemCount += equivalentItemsPage.size();
+          } finally {
+            if (inS != null) {
+              try {
+                inS.close();
+              } catch (IOException e) {
+                throw new ConnectionException(Activator.getDefault().createErrorStatus(e.getMessage(), e));
+              }
             }
           }
+
+          /* Return on cancellation */
+          if (isCanceled(monitor))
+            return itemCount;
         }
-
-        parameters.put(SyncUtils.API_PARAM_IDENTIFIER, identifiers.toArray(new String[identifiers.size()]));
-        parameters.put(SyncUtils.API_PARAM_STREAM, streamIds.toArray(new String[streamIds.size()]));
-
-        if (!tagsToAdd.isEmpty())
-          parameters.put(SyncUtils.API_PARAM_TAG_TO_ADD, tagsToAdd.toArray(new String[tagsToAdd.size()]));
-
-        if (!tagsToRemove.isEmpty())
-          parameters.put(SyncUtils.API_PARAM_TAG_TO_REMOVE, tagsToRemove.toArray(new String[tagsToRemove.size()]));
-
-        /* Connection Properties */
-        Map<Object, Object> properties = new HashMap<Object, Object>();
-        properties.put(IConnectionPropertyConstants.HEADERS, headers);
-        properties.put(IConnectionPropertyConstants.POST, Boolean.TRUE);
-        properties.put(IConnectionPropertyConstants.PARAMETERS, parameters);
-        properties.put(IConnectionPropertyConstants.CON_TIMEOUT, getConnectionTimeout());
-
-        /* Return on cancellation */
-        if (isCanceled(monitor))
-          return itemCount;
-
-        /* Perform POST */
-        URI uri = URI.create(SyncUtils.GOOGLE_EDIT_TAG_URL);
-        IProtocolHandler handler = Owl.getConnectionService().getHandler(uri);
-        InputStream inS = null;
-        try {
-          inS = handler.openStream(uri, new NullProgressMonitor(), properties); //Do not allow to cancel this outgoing request for transactional reasons
-          fSyncItemsManager.removeUncommitted(equivalentItems);
-          itemCount += equivalentItems.size();
-        } finally {
-          if (inS != null) {
-            try {
-              inS.close();
-            } catch (IOException e) {
-              throw new ConnectionException(Activator.getDefault().createErrorStatus(e.getMessage(), e));
-            }
-          }
-        }
-
-        /* Return on cancellation */
-        if (isCanceled(monitor))
-          return itemCount;
       }
     }
 
