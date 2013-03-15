@@ -104,7 +104,7 @@ public class MakeNewsStickyAction extends Action implements IWorkbenchWindowActi
    */
   @Override
   public boolean isChecked() {
-    return !fMarkSticky;
+    return !fMarkSticky && !fSelection.isEmpty();
   }
 
   private void init() {

@@ -801,8 +801,7 @@ public class DBManager {
       try {
         reader = new BufferedReader(new FileReader(getOldDBFormatFile()));
         String text = reader.readLine();
-        if (text != null)
-          DBHelper.writeToFile(formatFile, text);
+        DBHelper.writeToFile(formatFile, text);
         formatFileExists = true;
       } catch (IOException e) {
         throw new PersistenceException(e);

@@ -38,6 +38,7 @@ import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.core.runtime.SafeRunner;
 import org.eclipse.core.runtime.Status;
+import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.IStructuredSelection;
@@ -49,6 +50,7 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.commands.ICommandService;
+import org.eclipse.update.ui.UpdateJob;
 import org.rssowl.core.IApplicationService;
 import org.rssowl.core.Owl;
 import org.rssowl.core.connection.AuthenticationRequiredException;
@@ -72,6 +74,7 @@ import org.rssowl.core.persist.IFolder;
 import org.rssowl.core.persist.ILabel;
 import org.rssowl.core.persist.IModelFactory;
 import org.rssowl.core.persist.INews;
+import org.rssowl.core.persist.INewsMark;
 import org.rssowl.core.persist.ISearchCondition;
 import org.rssowl.core.persist.ISearchMark;
 import org.rssowl.core.persist.dao.DynamicDAO;
@@ -209,6 +212,9 @@ public class Controller {
 
   /* Flag for an Out of Memory Exception and Emergency Shutdown */
   private static final AtomicBoolean OOM_EMERGENCY_SHUTDOWN = new AtomicBoolean(false);
+
+  /* Flag to turn RSSOwl into Offline Mode */
+  private static final AtomicBoolean IS_OFFLINE = new AtomicBoolean(false);
 
   /* Queue for reloading Feeds */
   private final JobQueue fReloadFeedQueue;
@@ -741,6 +747,10 @@ public class Controller {
     Assert.isNotNull(bookmark);
     CoreException ex = null;
 
+    /* Ignore Reload in Offline Mode */
+    if (isOffline())
+      return Status.OK_STATUS;
+
     /* Keep URL and Homepage of Feed as final var */
     final URI feedLink = bookmark.getFeedLinkReference().getLink();
     URI feedHomepage = null;
@@ -844,8 +854,18 @@ public class Controller {
             if (otherMonitor.isCanceled() || !shouldProceedReloading(monitor, bookmark))
               return Status.CANCEL_STATUS;
 
+            /* Find out if retention required or not */
+            INewsMark activeFeedViewNewsMark = OwlUI.getActiveFeedViewNewsMark();
+            boolean runRetention = true;
+            if (activeFeedViewNewsMark != null) {
+              if (activeFeedViewNewsMark.equals(bookmark))
+                runRetention = false; //Avoid clean up on feed the user is reading on
+              else if (activeFeedViewNewsMark instanceof FolderNewsMark && ((FolderNewsMark) activeFeedViewNewsMark).contains(bookmark))
+                runRetention = false; //Avoid clean up on folder the user is reading on if feed contained
+            }
+
             /* Handle Feed Reload */
-            fAppService.handleFeedReload(bookmark, result.getFirst(), finalConditionalGet, finalDeleteConditionalGet, otherMonitor);
+            fAppService.handleFeedReload(bookmark, result.getFirst(), finalConditionalGet, finalDeleteConditionalGet, runRetention, otherMonitor);
             return Status.OK_STATUS;
           }
 
@@ -855,7 +875,7 @@ public class Controller {
           }
         });
       } else {
-        fAppService.handleFeedReload(bookmark, result.getFirst(), conditionalGet, deleteConditionalGet, new NullProgressMonitor());
+        fAppService.handleFeedReload(bookmark, result.getFirst(), conditionalGet, deleteConditionalGet, true, new NullProgressMonitor());
       }
     }
 
@@ -1405,6 +1425,10 @@ public class Controller {
     /* Unregister Listeners */
     unregisterListeners();
 
+    /* Cancel any pending Update Jobs */
+    if (!Application.IS_ECLIPSE && !fDisableUpdate)
+      Job.getJobManager().cancel(UpdateJob.FAMILY);
+
     /* Stop the Download Service */
     if (fDownloadService != null)
       fDownloadService.stopService();
@@ -1625,6 +1649,22 @@ public class Controller {
    */
   public boolean isStarted() {
     return fIsStarted;
+  }
+
+  /**
+   * @return <code>true</code> if RSSOwl is currently in offline modus and
+   * <code>false</code> otherwise.
+   */
+  public boolean isOffline() {
+    return IS_OFFLINE.get();
+  }
+
+  /**
+   * @param offline <code>true</code> to set RSSOwl into offline mode and
+   * <code>false</code> otherwise.
+   */
+  public void setOffline(boolean offline) {
+    IS_OFFLINE.set(offline);
   }
 
   /**

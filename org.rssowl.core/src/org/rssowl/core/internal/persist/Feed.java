@@ -673,15 +673,15 @@ public class Feed extends AbstractEntity implements IFeed {
    */
   public synchronized MergeResult mergeAndCleanUp(IFeed objectToMerge) {
     Assert.isNotNull(objectToMerge);
-    Assert.isLegal(this != objectToMerge, "Trying to merge the same feed. This is most likely a mistake: " + objectToMerge); //$NON-NLS-1$
+    if (this == objectToMerge)
+      Assert.isLegal(this != objectToMerge, "Trying to merge the same feed. This is most likely a mistake: " + objectToMerge); //$NON-NLS-1$
     synchronized (objectToMerge) {
       return merge(objectToMerge, true);
     }
   }
 
   private MergeResult merge(IFeed objectToMerge, boolean cleanUp) {
-    Assert.isLegal(getLink().toString().equals(objectToMerge.getLink().toString()),
-        "Only feeds with the same link can be merged."); //$NON-NLS-1$
+    Assert.isLegal(getLink().toString().equals(objectToMerge.getLink().toString()), "Only feeds with the same link can be merged."); //$NON-NLS-1$
 
     MergeResult result = new MergeResult();
     boolean updated = processListMergeResult(result, mergeNews(objectToMerge.getNews(), cleanUp));

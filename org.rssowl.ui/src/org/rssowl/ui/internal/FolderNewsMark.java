@@ -292,6 +292,28 @@ public class FolderNewsMark extends Mark implements INewsMark {
   }
 
   /**
+   * @param mark the {@link INewsMark} to search in this folder.
+   * @return <code>true</code> if this folder contains the given
+   * {@link INewsMark} and <code>false</code> otherwise.
+   */
+  public boolean contains(INewsMark mark) {
+    return contains(fFolder, mark);
+  }
+
+  private boolean contains(IFolder folder, INewsMark mark) {
+    List<IFolderChild> children = folder.getChildren();
+    for (IFolderChild child : children) {
+      if (child instanceof IFolder && contains((IFolder) child, mark))
+        return true;
+
+      if (child.equals(mark))
+        return true;
+    }
+
+    return false;
+  }
+
+  /**
    * @param searchMark the search to find out if its contained in this folder.
    * @return <code>true</code> if the given Search is contained in the
    * {@link IFolder} of this news mark and <code>false</code> otherwise.

@@ -100,7 +100,8 @@ public final class Preference extends AbstractEntity implements IPreference {
   }
 
   private void checkType(Type type) {
-    Assert.isLegal(fType == type, "The type of the Preference is not of the expected " + "type. It should be: " + fType + ", but it is: " + type); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+    if (fType != type)
+      Assert.isLegal(fType == type, "The type of the Preference is not of the expected " + "type. It should be: " + fType + ", but it is: " + type); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
   }
 
   private boolean[] copyOf(boolean[] original) {

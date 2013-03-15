@@ -756,7 +756,7 @@
                value="icons/product/16x16.png,icons/product/32x32.png,icons/product/48x48.png,icons/product/64x64.png,icons/product/128x128.png"/>
          <property
                name="aboutText"
-               value="RSSOwl&#x0D;&#x0A;&#x0D;&#x0A;Version: 2.1&#x0D;&#x0A;Build Id: 2011-07-15&#x0D;&#x0A;&#x0D;&#x0A;RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.&#x0D;&#x0A;http://www.rssowl.org/legal/epl-v10.html&#x0D;&#x0A;&#x0D;&#x0A;(c) Copyright RSSOwl contributors and others 2005, 2011.  All rights reserved."/>
+               value="RSSOwl&#x0D;&#x0A;&#x0D;&#x0A;Version: 2.1.6&#x0D;&#x0A;Build Id: 2012-12-08&#x0D;&#x0A;&#x0D;&#x0A;RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.&#x0D;&#x0A;http://www.rssowl.org/legal/epl-v10.html&#x0D;&#x0A;&#x0D;&#x0A;(c) Copyright RSSOwl contributors and others 2005, 2011.  All rights reserved."/>
          <property
                name="preferenceCustomization"
                value="preferences.ini"/>
@@ -1326,14 +1326,14 @@
             id="org.rssowl.ui.ShowNotifierNewsAction"
             name="%newsAction.name"
             forcable="false"
-            sortKey="52">
+            sortKey="53">
       </newsAction>
       <newsAction
             class="org.rssowl.ui.internal.filter.PlaySoundAction"
             id="org.rssowl.ui.PlaySoundAction"
             name="%newsAction.name.0"
             forcable="false"
-            sortKey="51">
+            sortKey="52">
       </newsAction>
       <newsAction
             class="org.rssowl.ui.internal.filter.OpenNewsAction"
@@ -1341,7 +1341,7 @@
             forcable="false"
             id="org.rssowl.ui.OpenNewsAction"
             name="%newsAction.name.2"
-            sortKey="50">
+            sortKey="51">
       </newsAction>
       <newsAction
             class="org.rssowl.ui.internal.filter.DownloadAttachmentsNewsAction"

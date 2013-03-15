@@ -34,6 +34,7 @@ import org.rssowl.core.persist.INews;
 import org.rssowl.core.util.ITreeNode;
 import org.rssowl.core.util.TreeTraversal;
 import org.rssowl.ui.internal.EntityGroup;
+import org.rssowl.ui.internal.OwlUI;
 import org.rssowl.ui.internal.util.WidgetTreeNode;
 
 import java.util.ArrayList;
@@ -95,6 +96,12 @@ public class NewsTableViewer extends TreeViewer {
 
     /* Nothing to do, since no selection */
     if (oldSelection.length == 0) {
+      runnable.run();
+      return;
+    }
+
+    /* Return if deletion is automated and prevent update of selection */
+    if (OwlUI.isMinimized()) {
       runnable.run();
       return;
     }

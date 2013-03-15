@@ -44,10 +44,7 @@ import org.rssowl.core.internal.persist.pref.DefaultPreferences;
 import org.rssowl.core.persist.pref.IPreferenceScope;
 import org.rssowl.ui.internal.Application;
 import org.rssowl.ui.internal.OwlUI;
-import org.rssowl.ui.internal.editors.feed.FeedView;
 import org.rssowl.ui.internal.util.LayoutUtils;
-
-import java.util.List;
 
 /**
  * Container for all Preferences that have not yet been categorized.
@@ -295,8 +292,6 @@ public class MiscPreferencePage extends PreferencePage implements IWorkbenchPref
    */
   @Override
   public boolean performOk() {
-    boolean layoutChanged = false;
-
     if (!Application.IS_ECLIPSE)
       fGlobalScope.putBoolean(DefaultPreferences.UPDATE_ON_STARTUP, fUpdateOnStartup.getSelection());
 
@@ -314,14 +309,6 @@ public class MiscPreferencePage extends PreferencePage implements IWorkbenchPref
       fGlobalScope.putBoolean(DefaultPreferences.TRAY_ON_START, fMoveToTrayOnStart.getSelection());
       fGlobalScope.putBoolean(DefaultPreferences.TRAY_ON_CLOSE, fMoveToTrayOnExit.getSelection());
       fGlobalScope.putBoolean(DefaultPreferences.RESTORE_TRAY_DOUBLECLICK, fDoubleClickRestore.getSelection());
-    }
-
-    /* Update Visible Feedviews */
-    if (layoutChanged) {
-      List<FeedView> feedViews = OwlUI.getFeedViews();
-      for (FeedView feedView : feedViews) {
-        feedView.updateLayout();
-      }
     }
 
     return super.performOk();

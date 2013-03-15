@@ -2,7 +2,7 @@
 <feature
       id="org.rssowl"
       label="RSSOwl"
-      version="2.1.0.qualifier"
+      version="2.1.6.qualifier"
       provider-name="RSSOwl.org"
       plugin="org.rssowl.ui">
 

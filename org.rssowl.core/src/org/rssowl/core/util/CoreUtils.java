@@ -469,7 +469,9 @@ public class CoreUtils {
   public static String getHeadline(INews news, boolean replaceEntities) {
 
     /* Title provided */
-    String title = StringUtils.stripTags(news.getTitle(), replaceEntities);
+    String title = news.getTitle();
+    if (shouldStripTags(title, replaceEntities))
+      title = StringUtils.stripTags(title, replaceEntities);
     title = StringUtils.normalizeString(title);
     if (StringUtils.isSet(title))
       return title;
@@ -477,7 +479,8 @@ public class CoreUtils {
     /* Try Content instead */
     String content = news.getDescription();
     if (StringUtils.isSet(content)) {
-      content = StringUtils.stripTags(content, replaceEntities);
+      if (shouldStripTags(content, replaceEntities))
+        content = StringUtils.stripTags(content, replaceEntities);
       content = StringUtils.normalizeString(content);
       content = StringUtils.smartTrim(content, 50);
 
@@ -486,6 +489,13 @@ public class CoreUtils {
     }
 
     return Messages.CoreUtils_NO_HEADLINE;
+  }
+
+  private static boolean shouldStripTags(String str, boolean replaceEntities) {
+    if (StringUtils.isSet(str))
+      return str.contains("<") || (replaceEntities && str.contains("&")); //$NON-NLS-1$ //$NON-NLS-2$
+
+    return false;
   }
 
   /**
@@ -1789,7 +1799,7 @@ public class CoreUtils {
        * such as a TCP error
        */
       if (cause instanceof SocketException)
-        return Messages.CoreUtils_UNNABLE_CONNECT;
+        return Messages.CoreUtils_UNABLE_CONNECT;
     }
 
     return ex.getMessage();

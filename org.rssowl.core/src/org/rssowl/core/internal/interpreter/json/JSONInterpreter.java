@@ -167,8 +167,13 @@ public class JSONInterpreter {
           IAttachment att = factory.createAttachment(null, news);
           att.setLink(new URI(attachment.getString(HREF)));
 
-          if (attachment.has(LENGTH))
-            att.setLength(attachment.getInt(LENGTH));
+          if (attachment.has(LENGTH)) {
+            try {
+              att.setLength(attachment.getInt(LENGTH));
+            } catch (JSONException e) {
+              // Can happen if the length is larger than Integer.MAX_VALUE, in that case just ignore
+            }
+          }
 
           if (attachment.has(TYPE))
             att.setType(attachment.getString(TYPE));

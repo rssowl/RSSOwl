@@ -250,6 +250,9 @@ public class DefaultPreferences {
   /** Global: Always reuse Browser */
   public static final String ALWAYS_REUSE_BROWSER = Preference.ALWAYS_REUSE_BROWSER.id();
 
+  /** Global: Open Links in New Tab */
+  public static final String OPEN_LINKS_IN_NEW_TAB = Preference.OPEN_LINKS_NEW_TAB.id();
+
   /** Global: Clean Up: Delete BMs by last visit (state) */
   public static final String CLEAN_UP_BM_BY_LAST_VISIT_STATE = Preference.CLEAN_UP_BM_BY_LAST_VISIT_STATE.id();
 

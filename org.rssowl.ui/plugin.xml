@@ -406,6 +406,43 @@
                style="push">
          </action>
       </actionSet>
+      <actionSet
+            id="org.rssowl.ui.LanguageActionSet"
+            label="%actionSet.label.8"
+            visible="true">
+         <action
+               class="org.rssowl.ui.internal.actions.DownloadLanguagesAction"
+               icon="icons/elcl16/languages.gif"
+               id="org.rssowl.ui.DownloadLanguagesAction"
+               label="%action.label.38"
+               menubarPath="tools/languages/downloadLanguages"
+               style="push">
+         </action>
+         <action
+               class="org.rssowl.ui.internal.actions.TranslateRSSOwlAction"
+               id="org.rssowl.ui.ProvideTranslationAction"
+               label="%action.label.39"
+               menubarPath="tools/languages/translateRSSOwl"
+               style="push">
+         </action>
+         <menu
+               id="languages"
+               label="%menu.label.4"
+               path="tools/addons">
+            <groupMarker
+                  name="languagesBegin">
+            </groupMarker>
+            <groupMarker
+                  name="downloadLanguages">
+            </groupMarker>
+            <separator
+                  name="translateRSSOwl">
+            </separator>
+            <groupMarker
+                  name="languagesEnd">
+            </groupMarker>
+         </menu>
+      </actionSet>
    </extension>
    <extension
          point="org.eclipse.ui.views">
@@ -923,7 +960,7 @@
                value="icons/product/16x16.png,icons/product/32x32.png,icons/product/48x48.png,icons/product/64x64.png,icons/product/128x128.png"/>
          <property
                name="aboutText"
-               value="RSSOwl&#x0D;&#x0A;&#x0D;&#x0A;Version: 2.1&#x0D;&#x0A;Build Id: 2011-07-15&#x0D;&#x0A;&#x0D;&#x0A;RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.&#x0D;&#x0A;http://www.rssowl.org/legal/epl-v10.html&#x0D;&#x0A;&#x0D;&#x0A;(c) Copyright RSSOwl contributors and others 2005, 2011.  All rights reserved."/>
+               value="RSSOwl&#x0D;&#x0A;&#x0D;&#x0A;Version: 2.1.6&#x0D;&#x0A;Build Id: 2012-12-08&#x0D;&#x0A;&#x0D;&#x0A;RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.&#x0D;&#x0A;http://www.rssowl.org/legal/epl-v10.html&#x0D;&#x0A;&#x0D;&#x0A;(c) Copyright RSSOwl contributors and others 2005, 2011.  All rights reserved."/>
          <property
                name="preferenceCustomization"
                value="preferences.ini"/>
@@ -1652,7 +1689,7 @@
             icon="icons/obj16/fav_live.gif"
             id="org.rssowl.ui.LiveKeywordFeed"
             name="%keywordFeed.name.2"
-            url="http://api.bing.com/rss.aspx?Source=Web&amp;Query=[:]">
+            url="http://www.bing.com/search?format=rss&amp;q=[:]">
       </keywordFeed>
       <keywordFeed
             icon="icons/obj16/fav_digg.gif"
@@ -1676,7 +1713,7 @@
             icon="icons/obj16/fav_youtube.gif"
             id="org.rssowl.ui.YoutubeKeywordFeed"
             name="%keywordFeed.name.6"
-            url="http://www.youtube.com/rss/tag/[:].rss">
+            url="http://gdata.youtube.com/feeds/base/videos?q=[:]">
       </keywordFeed>
       <keywordFeed
             icon="icons/obj16/fav_flickr.gif"
@@ -1712,14 +1749,14 @@
             id="org.rssowl.ui.ShowNotifierNewsAction"
             name="%newsAction.name"
             forcable="false"
-            sortKey="52">
+            sortKey="53">
       </newsAction>
       <newsAction
             class="org.rssowl.ui.internal.filter.PlaySoundAction"
             id="org.rssowl.ui.PlaySoundAction"
             name="%newsAction.name.0"
             forcable="false"
-            sortKey="51">
+            sortKey="52">
       </newsAction>
       <newsAction
             class="org.rssowl.ui.internal.filter.OpenNewsAction"
@@ -1727,7 +1764,7 @@
             forcable="false"
             id="org.rssowl.ui.OpenNewsAction"
             name="%newsAction.name.2"
-            sortKey="50">
+            sortKey="51">
       </newsAction>
       <newsAction
             class="org.rssowl.ui.internal.filter.DownloadAttachmentsNewsAction"
@@ -1935,10 +1972,10 @@
       </shareProvider>
       <shareProvider
             enabled="true"
-            icon="icons/obj16/share_readitlater.gif"
+            icon="icons/obj16/share_pocket.gif"
             id="org.rssowl.ui.ReadItLaterShareProvider"
             name="%shareProvider.name.22"
-            url="http://readitlaterlist.com/save?url=[L]&amp;title=[T]">
+            url="http://getpocket.com/edit.php?url=[L]&amp;title=[T]">
       </shareProvider>
       <shareProvider
             enabled="false"

@@ -26,6 +26,8 @@ package org.rssowl.core.internal;
 
 import org.apache.commons.logging.Log;
 import org.eclipse.core.runtime.IStatus;
+import org.rssowl.core.util.CoreUtils;
+import org.rssowl.core.util.StringUtils;
 
 /**
  * Implementation of <code>Log</code> that writes error and fatal messages to
@@ -35,15 +37,44 @@ import org.eclipse.core.runtime.IStatus;
  */
 public class LogBridge implements Log {
 
+  /* System Properties to Control Logging Levels */
+  private static final String DEBUG_PROPERTY = "rssowl.http.debug"; //$NON-NLS-1$
+  private static final String TRACE_PROPERTY = "rssowl.http.trace"; //$NON-NLS-1$
+  private static final String INFO_PROPERTY = "rssowl.http.info"; //$NON-NLS-1$
+  private static final String WARN_PROPERTY = "rssowl.http.warn"; //$NON-NLS-1$
+
+  private final boolean fDebug;
+  private final boolean fTrace;
+  private final boolean fInfo;
+  private final boolean fWarn;
+  private final String fNl;
+
+  private enum Level {
+    INFO, WARNING, ERROR
+  }
+
   /** Keep for reflection */
-  public LogBridge() {}
+  public LogBridge() {
+    this(null);
+  }
 
   /**
    * Keep for reflection
    *
    * @param str the class using this log
    */
-  public LogBridge(String str) {}
+  public LogBridge(String str) {
+    fDebug = System.getProperty(DEBUG_PROPERTY) != null;
+    fTrace = System.getProperty(TRACE_PROPERTY) != null;
+    fInfo = System.getProperty(INFO_PROPERTY) != null;
+    fWarn = System.getProperty(WARN_PROPERTY) != null;
+
+    String nl = System.getProperty("line.separator"); //$NON-NLS-1$
+    if (!StringUtils.isSet(nl))
+      nl = "\n"; //$NON-NLS-1$
+
+    fNl = nl;
+  }
 
   /*
    * @see org.apache.commons.logging.impl.NoOpLog#error(java.lang.Object,
@@ -75,7 +106,19 @@ public class LogBridge implements Log {
     logError(message, null);
   }
 
+  private void logInfo(Object message, Throwable t) {
+    logStatus(message, t, Level.INFO);
+  }
+
+  private void logWarning(Object message, Throwable t) {
+    logStatus(message, t, Level.WARNING);
+  }
+
   private void logError(Object message, Throwable t) {
+    logStatus(message, t, Level.ERROR);
+  }
+
+  private void logStatus(Object message, Throwable t, Level level) {
     if (message instanceof String || t instanceof Exception) {
       String msg = null;
       if (message instanceof String)
@@ -88,10 +131,21 @@ public class LogBridge implements Log {
       if (msg == null && e != null && e.getMessage() != null)
         msg = e.getMessage();
 
-      Activator activator = Activator.getDefault();
-      if (activator != null) {
-        IStatus status = activator.createErrorStatus(msg, e);
-        activator.getLog().log(status);
+      /* Write Info and Warning to Log Directly */
+      if (level == Level.INFO || level == Level.WARNING) {
+        if (StringUtils.isSet(msg)) {
+          CoreUtils.appendLogMessage(msg);
+          CoreUtils.appendLogMessage(fNl);
+        }
+      }
+
+      /* Log Error Status for Errors */
+      else {
+        Activator activator = Activator.getDefault();
+        if (activator != null) {
+          IStatus status = activator.createErrorStatus(msg, e);
+          activator.getLog().log(status);
+        }
       }
     }
   }
@@ -99,52 +153,76 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#debug(java.lang.Object)
    */
-  public void debug(Object message) {}
+  public void debug(Object message) {
+    if (isDebugEnabled())
+      logInfo(message, null);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#debug(java.lang.Object,
    * java.lang.Throwable)
    */
-  public void debug(Object message, Throwable t) {}
+  public void debug(Object message, Throwable t) {
+    if (isDebugEnabled())
+      logInfo(message, t);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#info(java.lang.Object)
    */
-  public void info(Object message) {}
+  public void info(Object message) {
+    if (isInfoEnabled())
+      logInfo(message, null);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#info(java.lang.Object,
    * java.lang.Throwable)
    */
-  public void info(Object message, Throwable t) {}
+  public void info(Object message, Throwable t) {
+    if (isInfoEnabled())
+      logInfo(message, t);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#warn(java.lang.Object)
    */
-  public void warn(Object message) {}
+  public void warn(Object message) {
+    if (isWarnEnabled())
+      logWarning(message, null);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#warn(java.lang.Object,
    * java.lang.Throwable)
    */
-  public void warn(Object message, Throwable t) {}
+  public void warn(Object message, Throwable t) {
+    if (isWarnEnabled())
+      logWarning(message, t);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#trace(java.lang.Object)
    */
-  public void trace(Object message) {}
+  public void trace(Object message) {
+    if (isTraceEnabled())
+      logInfo(message, null);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#trace(java.lang.Object,
    * java.lang.Throwable)
    */
-  public void trace(Object message, Throwable t) {}
+  public void trace(Object message, Throwable t) {
+    if (isTraceEnabled())
+      logInfo(message, t);
+  }
 
   /*
    * @see org.apache.commons.logging.Log#isDebugEnabled()
    */
   public boolean isDebugEnabled() {
-    return false;
+    return fDebug;
   }
 
   /*
@@ -165,20 +243,20 @@ public class LogBridge implements Log {
    * @see org.apache.commons.logging.Log#isInfoEnabled()
    */
   public boolean isInfoEnabled() {
-    return false;
+    return fInfo;
   }
 
   /*
    * @see org.apache.commons.logging.Log#isTraceEnabled()
    */
   public boolean isTraceEnabled() {
-    return false;
+    return fTrace;
   }
 
   /*
    * @see org.apache.commons.logging.Log#isWarnEnabled()
    */
   public boolean isWarnEnabled() {
-    return false;
+    return fWarn;
   }
 }

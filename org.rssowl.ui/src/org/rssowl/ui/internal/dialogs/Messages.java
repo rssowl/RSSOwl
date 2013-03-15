@@ -230,13 +230,9 @@ public class Messages extends NLS {
   public static String SearchNewsDialog_SHOW_PREVIEW;
   public static String SearchNewsDialog_SHOW_SAVED_SEARCH;
   public static String SearchNewsDialog_VISIBLE_COLUMNS;
-  public static String StartupErrorDialog_CRASH_ADVISE;
-  public static String StartupErrorDialog_CRASH_DIAGNOSE;
   public static String StartupErrorDialog_ERROR_DETAILS;
-  public static String StartupErrorDialog_QUIT_RSSOWL;
   public static String StartupErrorDialog_HELP;
   public static String StartupErrorDialog_RSSOWL_CRASH_REPORTER;
-  public static String StartupErrorDialog_RSSOWL_CRASHED;
   public static String StartupErrorDialog_WE_SORRY;
   public static String StartupProgressDialog_PROGRESS_INFO;
   public static String StartupProgressDialog_PROGRESS_MESSAGE;

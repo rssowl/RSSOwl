@@ -12,5 +12,8 @@
    <feature url="features/org.rssowl.feature.contrib.tools_1.0.0.jar" id="org.rssowl.feature.contrib.tools" version="1.0.0">
       <category name="rssowl.addons"/>
    </feature>
+   <feature url="features/org.rssowl.feature.contrib.offline_1.0.0.jar" id="org.rssowl.feature.contrib.offline" version="1.0.0">
+      <category name="rssowl.addons"/>
+   </feature>
    <category-def name="rssowl.addons" label="RSSOwl Add-ons"/>
 </site>

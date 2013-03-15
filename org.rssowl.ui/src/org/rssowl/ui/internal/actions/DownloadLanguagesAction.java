@@ -1,7 +1,7 @@
 /*   **********************************************************************  **
  **   Copyright notice                                                       **
  **                                                                          **
- **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   (c) 2005-2011 RSSOwl Development Team                                  **
  **   http://www.rssowl.org/                                                 **
  **                                                                          **
  **   All rights reserved                                                    **
@@ -22,36 +22,45 @@
  **                                                                          **
  **  **********************************************************************  */
 
-package org.rssowl.core.util;
+package org.rssowl.ui.internal.actions;
 
-import org.eclipse.osgi.util.NLS;
+import org.eclipse.jface.action.IAction;
+import org.eclipse.jface.viewers.ISelection;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 
-public class Messages extends NLS {
-  private static final String BUNDLE_NAME = "org.rssowl.core.util.messages"; //$NON-NLS-1$
-  public static String CoreUtils_ALL_IN_N;
-  public static String CoreUtils_AND;
-  public static String CoreUtils_CONNECTION_TIMEOUT;
-  public static String CoreUtils_IN_N;
-  public static String CoreUtils_INVALID_FEED;
-  public static String CoreUtils_LABEL_ASSIGNED;
-  public static String CoreUtils_N_DAY;
-  public static String CoreUtils_N_DAYS;
-  public static String CoreUtils_N_HOUR;
-  public static String CoreUtils_N_HOURS;
-  public static String CoreUtils_N_MINUTE;
-  public static String CoreUtils_N_MINUTES;
-  public static String CoreUtils_NO_HEADLINE;
-  public static String CoreUtils_OR;
-  public static String CoreUtils_UNABLE_CONNECT;
-  public static String CoreUtils_UNABLE_RESOLVE_HOST;
-  public static String CoreUtils_UNSUPPORTED_FORMAT;
-  public static String CoreUtils_UNSUPPORTED_PROTOCOL;
-  public static String JobQueue_TASK_NAME;
+/**
+ * An action to download additional languages to RSSOwl.
+ *
+ * @author bpasero
+ */
+public class DownloadLanguagesAction implements IWorkbenchWindowActionDelegate {
+  private IWorkbenchWindow fWindow;
 
-  private Messages() {}
-
-  static {
-    // initialize resource bundle
-    NLS.initializeMessages(BUNDLE_NAME, Messages.class);
+  /*
+   * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
+   */
+  public void init(IWorkbenchWindow window) {
+    fWindow = window;
   }
+
+  /*
+   * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
+   */
+  public void run(IAction action) {
+    FindExtensionsAction addonAction = new FindExtensionsAction();
+    addonAction.init(fWindow);
+    addonAction.setFindTranslations(true);
+    addonAction.run();
+  }
+
+  /*
+   * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
+   */
+  public void selectionChanged(IAction action, ISelection selection) {}
+
+  /*
+   * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
+   */
+  public void dispose() {}
 }

@@ -247,6 +247,9 @@ public enum Preference {
   /** Global: Always reuse Browser */
   ALWAYS_REUSE_BROWSER("org.rssowl.pref.AlwaysReuseBrowser", IPreferenceType.BOOLEAN), //$NON-NLS-1$
 
+  /** Global: Open Links in New Tab */
+  OPEN_LINKS_NEW_TAB("org.rssowl.pref.OpenLinksInNewTab", IPreferenceType.BOOLEAN), //$NON-NLS-1$
+
   /** Global: Clean Up: Delete BMs by last visit (state) */
   CLEAN_UP_BM_BY_LAST_VISIT_STATE("org.rssowl.pref.CleanUpBMByLastVisitState", IPreferenceType.BOOLEAN), //$NON-NLS-1$
 

@@ -31,12 +31,14 @@ import org.eclipse.jface.viewers.IStructuredSelection;
 import org.eclipse.swt.dnd.TextTransfer;
 import org.eclipse.swt.dnd.Transfer;
 import org.eclipse.ui.IActionDelegate;
+import org.rssowl.core.persist.IAttachment;
 import org.rssowl.core.persist.IBookMark;
 import org.rssowl.core.persist.INews;
 import org.rssowl.core.util.CoreUtils;
 import org.rssowl.core.util.URIUtils;
 import org.rssowl.ui.internal.OwlUI;
 
+import java.net.URI;
 import java.util.List;
 
 /**
@@ -51,6 +53,7 @@ public class CopyLinkAction extends Action implements IActionDelegate {
   public static final String ID = "org.rssowl.ui.CopyLinkAction"; //$NON-NLS-1$
 
   private ISelection fSelection;
+  private boolean fIgnoreActiveSelection;
 
   /**
    * Set ID and Action Definition ID.
@@ -63,6 +66,15 @@ public class CopyLinkAction extends Action implements IActionDelegate {
     setDisabledImageDescriptor(OwlUI.getImageDescriptor("icons/dlcl16/copy_link.gif")); //$NON-NLS-1$
   }
 
+  /**
+   * @param ignoreActiveSelection if <code>true</code>, the action will operate
+   * on the provided selection and otherwise looks for the current active
+   * selection.
+   */
+  public void setIgnoreActiveSelection(boolean ignoreActiveSelection) {
+    fIgnoreActiveSelection = ignoreActiveSelection;
+  }
+
   /*
    * @see org.eclipse.jface.action.Action#isEnabled()
    */
@@ -72,7 +84,7 @@ public class CopyLinkAction extends Action implements IActionDelegate {
     if (selection != null && !selection.isEmpty() && selection instanceof IStructuredSelection) {
       List<?> list = ((IStructuredSelection) selection).toList();
       for (Object entry : list) {
-        if (entry instanceof IBookMark || entry instanceof INews)
+        if (entry instanceof IBookMark || entry instanceof INews || entry instanceof IAttachment)
           return true;
       }
     }
@@ -85,7 +97,7 @@ public class CopyLinkAction extends Action implements IActionDelegate {
    */
   @Override
   public void run() {
-    ISelection selection = getSelection();
+    ISelection selection = (fIgnoreActiveSelection && fSelection != null) ? fSelection : getSelection();
     if (selection != null && !selection.isEmpty() && selection instanceof IStructuredSelection) {
       IStructuredSelection structuredSelection = (IStructuredSelection) selection;
       StringBuilder str = new StringBuilder();
@@ -95,12 +107,27 @@ public class CopyLinkAction extends Action implements IActionDelegate {
         List<?> list = structuredSelection.toList();
         int i = 0;
         for (Object element : list) {
+
+          /* Bookmark */
           if (element instanceof IBookMark) {
             str.append(i > 0 ? "\n" : "").append(URIUtils.toHTTP(((IBookMark) element).getFeedLinkReference().getLinkAsText())); //$NON-NLS-1$ //$NON-NLS-2$
             i++;
-          } else if (element instanceof INews) {
+          }
+
+          /* News */
+          else if (element instanceof INews) {
             INews news = (INews) element;
             String link = CoreUtils.getLink(news);
+            if (link != null) {
+              str.append(i > 0 ? "\n" : "").append(link); //$NON-NLS-1$ //$NON-NLS-2$
+              i++;
+            }
+          }
+
+          /* Attachment */
+          else if (element instanceof IAttachment) {
+            IAttachment attachment = (IAttachment) element;
+            URI link = attachment.getLink();
             if (link != null) {
               str.append(i > 0 ? "\n" : "").append(link); //$NON-NLS-1$ //$NON-NLS-2$
               i++;

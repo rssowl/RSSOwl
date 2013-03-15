@@ -79,8 +79,11 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class CBrowser {
 
-  /* Delay before a URL is set in a IE/Mozilla Browser (guess) */
-  private static final int BROWSER_URL_DELAY = 500;
+  /* Delay before a URL is set in a IE Browser (guess) */
+  private static final int IE_BROWSER_URL_DELAY = 800;
+
+  /* Delay before a URL is set in a Mozilla Browser (guess) */
+  private static final int MOZILLA_BROWSER_URL_DELAY = 2000;
 
   /* JavaScript: print() Method */
   private static final String JAVA_SCRIPT_PRINT = "window.print();"; //$NON-NLS-1$
@@ -95,7 +98,7 @@ public class CBrowser {
   /* Local XULRunner Runtime Constants */
   private static final String XULRUNNER_PATH_PROPERTY = "org.eclipse.swt.browser.XULRunnerPath"; //$NON-NLS-1$
   private static final String XULRUNNER_DIR = "xulrunner"; //$NON-NLS-1$
-  private static boolean fgXulrunnerRuntimeSet = false;
+  private static boolean fgXulrunnerRuntimeTested = false;
 
   /* Delay in millies after a refresh until to allow ext. navigation again (see Bug 1429) */
   private static final long REFRESH_NAVIGATION_DELAY = 3000;
@@ -125,15 +128,17 @@ public class CBrowser {
   private static final int SET_FEATURE_ON_PROCESS = 0x2;
 
   /* Blacklist of common iframes that cause external window opening */
-  private static final List<String> EXTERNAL_BLACKLIST = Arrays.asList("/plugins/like.php", "scribd.com/embeds", "youtube.com/embed/"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+  private static final List<String> EXTERNAL_BLACKLIST = Arrays.asList("ipv6/exp/iframe.html", "/plugins/like.php", "scribd.com/embeds", "youtube.com/embed/"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$ //$NON-NLS-4$
 
   /* Count failing JS executions and log as appropiate */
-  private static final AtomicInteger fgFailingJSCounter = new AtomicInteger();
+  private static final AtomicInteger FAILING_JS_COUNTER = new AtomicInteger();
   private static final int MAX_FAILING_JS_LOGS = 5;
+  private static final int MAX_FAILING_JS_LOG_LENGTH = 500;
 
   private Browser fBrowser;
   private boolean fAllowExternalNavigation;
   private boolean fDisableXulrunner;
+  private boolean fCanOpenLinksInTabs;
   private long fLastRefresh;
   private long fLastUrlChange;
   private IPreferenceScope fPreferences;
@@ -164,12 +169,21 @@ public class CBrowser {
     hookListeners();
 
     /* Add custom Context Menu on OS where this is not supported */
-    if (Application.IS_LINUX || (useMozilla()))
+    if (Application.IS_LINUX || (useMozillaOnWindows()))
       hookMenu();
   }
 
-  private boolean useMozilla() {
+  private boolean useMozillaOnWindows() {
     return Application.IS_WINDOWS && fgMozillaAvailable && !fDisableXulrunner;
+  }
+
+  /**
+   * @param canOpenLinksInTabs if <code>true</code>, enables links selected from
+   * the user to open in new tabs instead of the same browser instance or
+   * externally.
+   */
+  public void setCanOpenLinksInTabs(boolean canOpenLinksInTabs) {
+    fCanOpenLinksInTabs = canOpenLinksInTabs;
   }
 
   /**
@@ -187,7 +201,7 @@ public class CBrowser {
     Browser browser = null;
 
     /* Properly configure Proxy for Firefox/XULRunner if required */
-    if (Application.IS_LINUX || (useMozilla())) {
+    if (Application.IS_LINUX || (useMozillaOnWindows())) {
       String proxyHost = fEclipsePreferences.getString(DefaultPreferences.ECLIPSE_PROXY_HOST);
       String proxyPort = fEclipsePreferences.getString(DefaultPreferences.ECLIPSE_PROXY_PORT);
       if (useProxy() && StringUtils.isSet(proxyHost) && StringUtils.isSet(proxyPort)) {
@@ -197,7 +211,7 @@ public class CBrowser {
     }
 
     /* Try Mozilla over IE on Windows */
-    if (useMozilla()) {
+    if (useMozillaOnWindows()) {
       try {
         browser = new Browser(parent, style | SWT.MOZILLA);
         fgMozillaRunningOnWindows = true;
@@ -209,13 +223,46 @@ public class CBrowser {
       }
     }
 
-    /* Linux: Check for deployed XULRunner runtime and use */
-    if (Application.IS_LINUX && System.getProperty(XULRUNNER_PATH_PROPERTY) == null && !fgXulrunnerRuntimeSet) {
-      File xulRunnerRuntimeDir = getXULRunnerRuntimeDir();
-      if (xulRunnerRuntimeDir != null)
-        System.setProperty(XULRUNNER_PATH_PROPERTY, xulRunnerRuntimeDir.toString());
+    /* Linux: Multiple approaches to get XULRunner right */
+    if (Application.IS_LINUX && !fgXulrunnerRuntimeTested) {
+      boolean xulrunnerPathSpecified = (System.getProperty(XULRUNNER_PATH_PROPERTY) != null);
 
-      fgXulrunnerRuntimeSet= true; //Avoid redundant lookup if XULRunner runtime not found
+      /* 1.) User has XULRunner path explicitly set, try it first */
+      if (xulrunnerPathSpecified) {
+        try {
+          browser = new Browser(parent, styleForLinux(style));
+        } catch (SWTError e) {
+          Activator.safeLogInfo(NLS.bind("Error loading XULRunner from system property (''{0}'')", System.getProperty(XULRUNNER_PATH_PROPERTY))); //Ignored (we continue trying) //$NON-NLS-1$
+        }
+      }
+
+      /* 2.) Fallback to default OS XULRunner runtime */
+      if (browser == null) {
+        if (xulrunnerPathSpecified)
+          System.clearProperty(XULRUNNER_PATH_PROPERTY);
+
+        try {
+          browser = new Browser(parent, styleForLinux(style));
+        } catch (SWTError e) {
+          Activator.safeLogInfo("Error loading system default XULRunner"); //Ignored (we continue trying) //$NON-NLS-1$
+        }
+      }
+
+      /* 3.) Try with deployed XULRunner runtime */
+      if (browser == null) {
+        File xulRunnerRuntimeDir = getXULRunnerRuntimeDir();
+        if (xulRunnerRuntimeDir != null) {
+          System.setProperty(XULRUNNER_PATH_PROPERTY, xulRunnerRuntimeDir.toString());
+
+          try {
+            browser = new Browser(parent, styleForLinux(style));
+          } catch (SWTError e) {
+            Activator.safeLogInfo("Error loading XULRunner from bundled version"); //Ignored (we continue trying) //$NON-NLS-1$
+          }
+        }
+      }
+
+      fgXulrunnerRuntimeTested = true; //Avoid redundant lookup if XULRunner runtime found
     }
 
     /* Any other OS, or Mozilla unavailable, use default */
@@ -290,7 +337,7 @@ public class CBrowser {
   }
 
   private Method callCoInternetSetFeatureEnabled(Method method, int feature, int scope, boolean enable) {
-    if (!fgCoInternetSetFeatureError && Application.IS_WINDOWS && !useMozilla()) {
+    if (!fgCoInternetSetFeatureError && Application.IS_WINDOWS && !useMozillaOnWindows()) {
       try {
         Class<?> clazz = Class.forName("org.eclipse.swt.internal.win32.OS"); //$NON-NLS-1$
 
@@ -416,6 +463,10 @@ public class CBrowser {
     setUrl(url, false);
   }
 
+  private boolean supportExternalNavigation() {
+    return OwlUI.useExternalBrowser() || (fCanOpenLinksInTabs && fPreferences.getBoolean(DefaultPreferences.OPEN_LINKS_IN_NEW_TAB));
+  }
+
   /**
    * Browse to the given URL.
    *
@@ -434,7 +485,7 @@ public class CBrowser {
        * actually external (non local) and the user has choosen to open
        * links in the external Browser.
        */
-      if (StringUtils.isSet(url) && !URIUtils.ABOUT_BLANK.equals(url) && !ApplicationServer.getDefault().isNewsServerUrl(url) && OwlUI.useExternalBrowser())
+      if (StringUtils.isSet(url) && !URIUtils.ABOUT_BLANK.equals(url) && !ApplicationServer.getDefault().isNewsServerUrl(url) && supportExternalNavigation())
         fAllowExternalNavigation = true;
       else
         fLastUrlChange = System.currentTimeMillis();
@@ -538,9 +589,12 @@ public class CBrowser {
   private boolean internalExecute(String js, String context) {
     boolean res = fBrowser.execute(js);
     if (!res) {
-      if (fgFailingJSCounter.incrementAndGet() < MAX_FAILING_JS_LOGS) {
+      if (FAILING_JS_COUNTER.incrementAndGet() < MAX_FAILING_JS_LOGS) {
         if (!StringUtils.isSet(context))
           context = "Unknown Context"; //$NON-NLS-1$
+
+        if (js.length() > MAX_FAILING_JS_LOG_LENGTH)
+          js = js.substring(0, MAX_FAILING_JS_LOG_LENGTH);
 
         boolean isMozilla = isMozillaRunningOnWindows();
         if (!isMozilla)
@@ -559,13 +613,14 @@ public class CBrowser {
       public void open(WindowEvent event) {
 
         /* Special handle external Browser */
+        boolean useMozilla = useMozillaOnWindows();
         if (OwlUI.useExternalBrowser()) {
 
           /* Avoid IE being loaded from SWT on Windows */
-          final Browser tempBrowser = new Browser(fBrowser.getShell(), useMozilla() ? SWT.MOZILLA : styleForLinux(SWT.NONE));
+          final Browser tempBrowser = new Browser(fBrowser.getShell(), useMozilla ? SWT.MOZILLA : styleForLinux(SWT.NONE));
           tempBrowser.setVisible(false);
           event.browser = tempBrowser;
-          tempBrowser.getDisplay().timerExec(BROWSER_URL_DELAY, new Runnable() {
+          tempBrowser.getDisplay().timerExec(useMozilla ? MOZILLA_BROWSER_URL_DELAY : IE_BROWSER_URL_DELAY, new Runnable() {
             public void run() {
               if (!tempBrowser.isDisposed() && PlatformUI.isWorkbenchRunning()) {
                 String url = tempBrowser.getUrl();
@@ -588,10 +643,10 @@ public class CBrowser {
 
         /* Open internal Browser in same Browser */
         else {
-          final Browser tempBrowser = new Browser(fBrowser.getShell(), useMozilla() ? SWT.MOZILLA : styleForLinux(SWT.NONE));
+          final Browser tempBrowser = new Browser(fBrowser.getShell(), useMozilla ? SWT.MOZILLA : styleForLinux(SWT.NONE));
           tempBrowser.setVisible(false);
           event.browser = tempBrowser;
-          tempBrowser.getDisplay().timerExec(BROWSER_URL_DELAY, new Runnable() {
+          tempBrowser.getDisplay().timerExec(useMozilla ? MOZILLA_BROWSER_URL_DELAY : IE_BROWSER_URL_DELAY, new Runnable() {
             public void run() {
               if (!tempBrowser.isDisposed() && PlatformUI.isWorkbenchRunning()) {
                 String url = tempBrowser.getUrl();
@@ -620,7 +675,7 @@ public class CBrowser {
    * <code>false</code> as long as a Browser has not been created.
    */
   public static boolean isMozillaRunningOnWindows() {
-    return fgMozillaRunningOnWindows;
+    return Application.IS_WINDOWS && fgMozillaRunningOnWindows;
   }
 
   /**
@@ -629,17 +684,30 @@ public class CBrowser {
    */
   public void setScriptDisabled(Boolean disabled) {
 
-    /* Only supported on Windows IE */
-    if (!Application.IS_WINDOWS || (fBrowser.getStyle() & SWT.MOZILLA) != 0)
+    /* Not Supported on Windows XULRunner */
+    if (isMozillaRunningOnWindows())
       return;
 
-    /* Toggle via Reflection due to patched SWT */
-    try {
-      Method method = fBrowser.getClass().getMethod("setScriptDisabled", Boolean.class); //$NON-NLS-1$
-      if (method != null)
-        method.invoke(fBrowser, disabled);
-    } catch (Exception e) {
-      /* Ignore Silently */
+    /* Windows */
+    if (Application.IS_WINDOWS) {
+      try {
+        Method method = fBrowser.getClass().getMethod("setScriptDisabled", Boolean.class); //$NON-NLS-1$
+        if (method != null)
+          method.invoke(fBrowser, disabled);
+      } catch (Exception e) {
+        /* Ignore Silently */
+      }
+    }
+
+    /* Linux / Mac */
+    else {
+      try {
+        Method method = fBrowser.getClass().getMethod("setJavascriptEnabled", boolean.class); //$NON-NLS-1$
+        if (method != null)
+          method.invoke(fBrowser, !disabled);
+      } catch (Exception e) {
+        /* Ignore Silently */
+      }
     }
   }
 
@@ -717,7 +785,7 @@ public class CBrowser {
         }
 
         /* Support opening Links in External Browser */
-        if (OwlUI.useExternalBrowser()) {
+        if (supportExternalNavigation()) {
 
           /* The URL must not be empty or about:blank (Problem on Linux) */
           if (!StringUtils.isSet(event.location) || URIUtils.ABOUT_BLANK.equals(event.location))
@@ -753,7 +821,11 @@ public class CBrowser {
 
           /* Finally, cancel event and open URL external */
           event.doit = false;
-          BrowserUtils.openLinkExternal(URIUtils.toUnManaged(event.location));
+
+          if (fCanOpenLinksInTabs && fPreferences.getBoolean(DefaultPreferences.OPEN_LINKS_IN_NEW_TAB))
+            BrowserUtils.openLinkInternal(URIUtils.toUnManaged(event.location), null);
+          else
+            BrowserUtils.openLinkExternal(URIUtils.toUnManaged(event.location));
         }
       }
     });

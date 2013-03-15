@@ -56,11 +56,13 @@ import org.rssowl.core.internal.persist.pref.DefaultPreferences;
 import org.rssowl.core.persist.IBookMark;
 import org.rssowl.core.persist.IFolder;
 import org.rssowl.core.persist.IMark;
+import org.rssowl.core.persist.INewsMark;
 import org.rssowl.core.persist.pref.IPreferenceScope;
 import org.rssowl.core.persist.service.PersistenceException;
 import org.rssowl.core.util.CoreUtils;
 import org.rssowl.core.util.RetentionStrategy;
 import org.rssowl.ui.internal.Controller;
+import org.rssowl.ui.internal.FolderNewsMark;
 import org.rssowl.ui.internal.LinkTransformer;
 import org.rssowl.ui.internal.OwlUI;
 import org.rssowl.ui.internal.OwlUI.Layout;
@@ -816,8 +818,10 @@ public class FeedsPreferencePage extends PreferencePage implements IWorkbenchPre
     if (columnChange)
       EditorUtils.updateColumns();
 
-    /* Peform clean-up on all BookMarks */
+
+    /* Perform clean-up on all BookMarks */
     if (runCleanup) {
+      final INewsMark activeFeedViewNewsMark = OwlUI.getActiveFeedViewNewsMark();
       Job retentionJob = new Job(Messages.FeedsPreferencePage_PERFORMNG_CLEANUP) {
 
         @Override
@@ -831,6 +835,14 @@ public class FeedsPreferencePage extends PreferencePage implements IWorkbenchPre
             for (IBookMark bookmark : bookmarks) {
               if (Controller.getDefault().isShuttingDown() || monitor.isCanceled())
                 break;
+
+              /* Check if retention should run or not */
+              if (activeFeedViewNewsMark != null) {
+                if (activeFeedViewNewsMark.equals(bookmark))
+                  continue; //Avoid clean up on feed the user is reading on
+                else if (activeFeedViewNewsMark instanceof FolderNewsMark && ((FolderNewsMark) activeFeedViewNewsMark).contains(bookmark))
+                  continue; //Avoid clean up on folder the user is reading on if feed contained
+              }
 
               monitor.subTask(bookmark.getName());
               RetentionStrategy.process(bookmark);

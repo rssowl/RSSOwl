@@ -25,6 +25,7 @@
 package org.rssowl.core.util;
 
 import org.eclipse.core.runtime.Assert;
+import org.rssowl.core.internal.persist.News;
 import org.rssowl.core.persist.INews;
 
 import java.text.DateFormat;
@@ -90,13 +91,7 @@ public class DateUtils {
    * are NULL.
    */
   public static Date getRecentDate(INews news) {
-    if (news.getModifiedDate() != null)
-      return news.getModifiedDate();
-
-    if (news.getPublishDate() != null)
-      return news.getPublishDate();
-
-    return news.getReceiveDate();
+    return ((News)news).fastGetRecentDate();
   }
 
   /**

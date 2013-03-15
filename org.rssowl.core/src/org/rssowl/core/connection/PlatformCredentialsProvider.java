@@ -39,6 +39,8 @@ import org.rssowl.core.internal.Activator;
 import org.rssowl.core.internal.InternalOwl;
 import org.rssowl.core.internal.persist.pref.DefaultPreferences;
 import org.rssowl.core.persist.pref.IPreferenceScope;
+import org.rssowl.core.util.Pair;
+import org.rssowl.core.util.StringUtils;
 import org.rssowl.core.util.URIUtils;
 
 import java.io.IOException;
@@ -50,6 +52,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.StringTokenizer;
 
 /**
  * The default implementation of the ICredentialsProvider retrieves
@@ -83,6 +86,15 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
 
   /* Unique Key to store Domains */
   private static final String DOMAIN = "org.rssowl.core.connection.auth.Domain"; //$NON-NLS-1$
+
+  /* Separator between Domain and Username */
+  private static final String DOMAIN_SEPARATOR = "\\"; //$NON-NLS-1$
+
+  /* System Property to enable NTLM Proxy support */
+  private static final String ENABLE_NTLM_PROXY = "enableNtlmProxy"; //$NON-NLS-1$
+
+  /* Flag for NTLM Proxy Support controlled through System Property */
+  private static final boolean NTLM_PROXY_ENABLED = (System.getProperty(ENABLE_NTLM_PROXY) != null);
 
   /* Default Realm being used to store credentials */
   private static final String REALM = ""; //$NON-NLS-1$
@@ -273,31 +285,62 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
     /* Retrieve Proxy Data */
     final IProxyData proxyData = proxyService.getProxyDataForHost(host, isSSL ? IProxyData.HTTPS_PROXY_TYPE : IProxyData.HTTP_PROXY_TYPE);
     if (proxyData != null) {
+
+      /* Look for Domain as part of Username to support NTLM Proxy */
+      final String proxyHost = proxyData.getHost();
+      final int proxyPort = proxyData.getPort();
+      final Pair<String /* Username */, String /* Domain */> proxyUserAndDomain = splitUserAndDomain(proxyData.getUserId());
+      final String proxyPassword = proxyData.getPassword();
+
+      /* Return as IProxyCredentials Object */
       return new IProxyCredentials() {
         public String getHost() {
-          return proxyData.getHost();
+          return proxyHost;
         }
 
         public int getPort() {
-          return proxyData.getPort();
-        }
-
-        public String getDomain() {
-          return null;
-        }
-
-        public String getPassword() {
-          return proxyData.getPassword();
+          return proxyPort;
         }
 
         public String getUsername() {
-          return proxyData.getUserId();
+          return proxyUserAndDomain.getFirst();
+        }
+
+        public String getPassword() {
+          return proxyPassword;
+        }
+
+        public String getDomain() {
+          return proxyUserAndDomain.getSecond();
         }
       };
     }
 
     /* Feed does not require Proxy or Credentials not supplied */
     return null;
+  }
+
+  private Pair<String /* Username */, String /* Domain */> splitUserAndDomain(String username) {
+    if (NTLM_PROXY_ENABLED && StringUtils.isSet(username) && username.contains(DOMAIN_SEPARATOR)) {
+      String user = null;
+      String domain = null;
+
+      StringTokenizer tokenizer = new StringTokenizer(username, DOMAIN_SEPARATOR);
+      while (tokenizer.hasMoreTokens()) {
+        String token = tokenizer.nextToken();
+        if (StringUtils.isSet(token)) {
+          if (domain == null)
+            domain = token;
+          else if (user == null)
+            user = token;
+        }
+      }
+
+      if (StringUtils.isSet(user) && StringUtils.isSet(domain))
+        return Pair.create(user, domain);
+    }
+
+    return Pair.create(username, null);
   }
 
   /*

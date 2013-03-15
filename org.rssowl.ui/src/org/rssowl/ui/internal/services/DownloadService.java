@@ -245,6 +245,12 @@ public class DownloadService {
   }
 
   private IStatus internalDownload(final DownloadRequest request, Job job, final IProgressMonitor monitor) {
+
+    /* Do not download in Offline Mode */
+    if (Controller.getDefault().isOffline())
+      return Status.OK_STATUS;
+
+    /* Find Download Name */
     String downloadFileName;
     if (StringUtils.isSet(request.getUserChosenFilename()))
       downloadFileName = request.getUserChosenFilename();

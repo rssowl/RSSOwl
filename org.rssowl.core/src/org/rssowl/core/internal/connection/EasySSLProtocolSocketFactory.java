@@ -124,7 +124,7 @@ public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory
    */
   @Override
   public boolean equals(Object obj) {
-    return ((obj != null) && obj.getClass().equals(this.getClass()));
+    return ((obj != null) && obj.getClass().equals(EasySSLProtocolSocketFactory.class));
   }
 
   /*

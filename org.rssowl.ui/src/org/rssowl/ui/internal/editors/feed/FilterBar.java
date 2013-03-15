@@ -106,12 +106,15 @@ public class FilterBar {
   /* Action to Group News */
   private static final String GROUP_ACTION = "org.rssowl.ui.internal.editors.feed.GroupAction"; //$NON-NLS-1$
 
+  /* Action to Layout News */
+  private static final String LAYOUT_ACTION = "org.rssowl.ui.internal.editors.feed.LayoutAction"; //$NON-NLS-1$
+
   /* Action to Quicksearch */
   private static final String QUICKSEARCH_ACTION = "org.rssowl.ui.internal.editors.feed.QuickSearchAction"; //$NON-NLS-1$
 
   private Composite fParent;
   private Composite fContainer;
-  private ToolBarManager fFilterGroupingToolBarManager;
+  private ToolBarManager fFilterGroupingLayoutToolBarManager;
   private ToolBarManager fClearQuicksearchToolBar;
   private ToolBarManager fHighlightToolBarManager;
   private IAction fHighlightSearchAction;
@@ -145,14 +148,15 @@ public class FilterBar {
   }
 
   private boolean isListLayout() {
-    FeedViewInput input = ((FeedViewInput) fFeedView.getEditorInput());
-    Layout layout = null;
-    if (input != null)
-      layout = OwlUI.getLayout(Owl.getPreferenceService().getEntityScope(input.getMark()));
-    else
-      layout = OwlUI.getLayout(fGlobalPreferences);
+    return (getLayout() == Layout.LIST);
+  }
 
-    return (layout == Layout.LIST);
+  private Layout getLayout() {
+    FeedViewInput input = ((FeedViewInput) fFeedView.getEditorInput());
+    if (input != null)
+      return OwlUI.getLayout(Owl.getPreferenceService().getEntityScope(input.getMark()));
+
+    return OwlUI.getLayout(fGlobalPreferences);
   }
 
   private boolean isSearchMark() {
@@ -192,12 +196,13 @@ public class FilterBar {
     fContainer.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
     updateVisibility();
 
-    /* Left Toolbar with Filter and Grouping */
-    fFilterGroupingToolBarManager = new ToolBarManager(SWT.FLAT | SWT.RIGHT);
+    /* Left Toolbar with Filter, Grouping and Layout */
+    fFilterGroupingLayoutToolBarManager = new ToolBarManager(SWT.FLAT | SWT.RIGHT);
     createFilterBar();
     createGrouperBar();
-    fFilterGroupingToolBarManager.createControl(fContainer);
-    fFilterGroupingToolBarManager.getControl().setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, true));
+    createLayoutBar();
+    fFilterGroupingLayoutToolBarManager.createControl(fContainer);
+    fFilterGroupingLayoutToolBarManager.getControl().setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, true));
 
     /* Quick Search */
     createQuickSearch(fContainer);
@@ -583,7 +588,7 @@ public class FilterBar {
 
         /* Show Menu */
         else
-          OwlUI.positionDropDownMenu(this, fFilterGroupingToolBarManager);
+          OwlUI.positionDropDownMenu(this, fFilterGroupingLayoutToolBarManager);
       }
 
       @Override
@@ -604,7 +609,7 @@ public class FilterBar {
     ActionContributionItem item = new ActionContributionItem(newsFilterAction);
     item.setMode(ActionContributionItem.MODE_FORCE_TEXT);
 
-    fFilterGroupingToolBarManager.add(item);
+    fFilterGroupingLayoutToolBarManager.add(item);
 
     newsFilterAction.setMenuCreator(new ContextMenuCreator() {
 
@@ -859,7 +864,7 @@ public class FilterBar {
 
     /* Apply Type */
     fFeedView.getFilter().setType(type);
-    fFilterGroupingToolBarManager.find(FILTER_ACTION).update();
+    fFilterGroupingLayoutToolBarManager.find(FILTER_ACTION).update();
 
     /* Refresh if set */
     if (refresh) {
@@ -959,7 +964,7 @@ public class FilterBar {
 
         /* Show Menu */
         else
-          OwlUI.positionDropDownMenu(this, fFilterGroupingToolBarManager);
+          OwlUI.positionDropDownMenu(this, fFilterGroupingLayoutToolBarManager);
       }
 
       @Override
@@ -1109,12 +1114,93 @@ public class FilterBar {
     ActionContributionItem item = new ActionContributionItem(newsGroup);
     item.setMode(ActionContributionItem.MODE_FORCE_TEXT);
 
-    fFilterGroupingToolBarManager.add(item);
+    fFilterGroupingLayoutToolBarManager.add(item);
+  }
+
+  /* Layout */
+  private void createLayoutBar() {
+    final IAction newsLayout = new Action("", IAction.AS_DROP_DOWN_MENU) { //$NON-NLS-1$
+      @Override
+      public void run() {
+        OwlUI.positionDropDownMenu(this, fFilterGroupingLayoutToolBarManager);
+      }
+
+      @Override
+      public ImageDescriptor getImageDescriptor() {
+        Layout currentLayout = getLayout();
+        switch (currentLayout) {
+          case CLASSIC:
+            return OwlUI.getImageDescriptor("icons/obj16/classic_layout.gif"); //$NON-NLS-1$
+          case VERTICAL:
+            return OwlUI.getImageDescriptor("icons/obj16/vertical_layout.gif"); //$NON-NLS-1$
+          case LIST:
+            return OwlUI.getImageDescriptor("icons/obj16/list_layout.gif"); //$NON-NLS-1$
+          case NEWSPAPER:
+            return OwlUI.getImageDescriptor("icons/obj16/newspaper_layout.gif"); //$NON-NLS-1$
+          case HEADLINES:
+            return OwlUI.getImageDescriptor("icons/obj16/headlines_layout.gif"); //$NON-NLS-1$
+        }
+
+        return OwlUI.getImageDescriptor("icons/obj16/classic_layout.gif"); //$NON-NLS-1$
+      }
+
+      @Override
+      public String getText() {
+        Layout currentLayout = getLayout();
+        return currentLayout.getName();
+      }
+    };
+
+    newsLayout.setId(LAYOUT_ACTION);
+    newsLayout.setMenuCreator(new ContextMenuCreator() {
+
+      @Override
+      public Menu createMenu(Control parent) {
+        Layout currentLayout = getLayout();
+        Menu menu = new Menu(parent);
+
+        Layout[] layouts = new Layout[] { Layout.CLASSIC, Layout.VERTICAL, Layout.LIST, Layout.NEWSPAPER, Layout.HEADLINES };
+        for (final Layout layout : layouts) {
+          final MenuItem layoutMenuItem = new MenuItem(menu, SWT.RADIO);
+          layoutMenuItem.setText(layout.getName());
+          layoutMenuItem.setSelection(layout == currentLayout);
+          layoutMenuItem.addSelectionListener(new SelectionAdapter() {
+            @Override
+            public void widgetSelected(SelectionEvent e) {
+              if (layoutMenuItem.getSelection())
+                onLayout(layout);
+            }
+          });
+        }
+
+        return menu;
+      }
+    });
+
+    ActionContributionItem item = new ActionContributionItem(newsLayout);
+    item.setMode(ActionContributionItem.MODE_FORCE_TEXT);
+
+    fFilterGroupingLayoutToolBarManager.add(item);
   }
 
   private void onGrouping(NewsGrouping.Type type) {
     doGrouping(type, true, true);
     EditorUtils.updateFilterAndGrouping(fFeedView);
+  }
+
+  private void onLayout(Layout layout) {
+    doLayout(layout, true);
+    EditorUtils.updateLayout();
+  }
+
+  void doLayout(final Layout layout, boolean saveSettings) {
+
+    /* Update Settings */
+    if (saveSettings)
+      saveIntegerValue(DefaultPreferences.FV_LAYOUT, layout.ordinal());
+
+    /* Update Toolbar */
+    fFilterGroupingLayoutToolBarManager.find(LAYOUT_ACTION).update();
   }
 
   void doGrouping(final NewsGrouping.Type type, boolean refresh, boolean saveSettings) {
@@ -1126,7 +1212,7 @@ public class FilterBar {
       fLastGroupType = fFeedView.getGrouper().getType();
 
     fFeedView.getGrouper().setType(type);
-    fFilterGroupingToolBarManager.find(GROUP_ACTION).update();
+    fFilterGroupingLayoutToolBarManager.find(GROUP_ACTION).update();
 
     /* No need to refresh or save settings if nothing changed */
     if (noChange)

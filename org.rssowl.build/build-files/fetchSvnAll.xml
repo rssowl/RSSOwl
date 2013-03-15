@@ -3,43 +3,43 @@
     <antcall target="svn.co">
       <param name="target" value="features"/>
       <param name="element.id" value="org.rssowl"/>
-      <param name="project.name" value="/trunk/org.rssowl.feature"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.feature"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="plugins"/>
       <param name="element.id" value="org.rssowl.lib.jdom"/>
-      <param name="project.name" value="/trunk/org.rssowl.lib.jdom"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.lib.jdom"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="plugins"/>
       <param name="element.id" value="org.rssowl.ui"/>
-      <param name="project.name" value="/trunk/org.rssowl.ui"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.ui"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="plugins"/>
       <param name="element.id" value="org.rssowl.lib.db4o"/>
-      <param name="project.name" value="/trunk/org.rssowl.lib.db4o"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.lib.db4o"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="plugins"/>
       <param name="element.id" value="org.rssowl.core"/>
-      <param name="project.name" value="/trunk/org.rssowl.core"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.core"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="plugins"/>
       <param name="element.id" value="org.rssowl.lib.httpclient"/>
-      <param name="project.name" value="/trunk/org.rssowl.lib.httpclient"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.lib.httpclient"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="plugins"/>
       <param name="element.id" value="org.rssowl.lib.lucene"/>
-      <param name="project.name" value="/trunk/org.rssowl.lib.lucene"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.lib.lucene"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
@@ -57,19 +57,19 @@
     <antcall target="svn.co">
       <param name="target" value="features"/>
       <param name="element.id" value="org.rssowl.tests"/>
-      <param name="project.name" value="/trunk/org.rssowl.feature.tests"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.feature.tests"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="plugins"/>
       <param name="element.id" value="org.rssowl.core.tests"/>
-      <param name="project.name" value="/trunk/org.rssowl.core.tests"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.core.tests"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">
       <param name="target" value="features"/>
       <param name="element.id" value="org.rssowl.dependencies"/>
-      <param name="project.name" value="/trunk/org.rssowl.feature.dependencies"/>
+      <param name="project.name" value="/branches/2.1.x/org.rssowl.feature.dependencies"/>
       <param name="url" value="https://rssowl.svn.sourceforge.net/svnroot/rssowl"/>
     </antcall>
     <antcall target="svn.co">

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.rssowl.feature.nls.de_1.0.0.jar" id="org.rssowl.feature.nls.de" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.zhcn_1.0.0.jar" id="org.rssowl.feature.nls.zhcn" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.zhtw_1.0.0.jar" id="org.rssowl.feature.nls.zhtw" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.es_1.0.0.jar" id="org.rssowl.feature.nls.es" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.pt_1.0.0.jar" id="org.rssowl.feature.nls.pt" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.it_1.0.0.jar" id="org.rssowl.feature.nls.it" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.pl_1.0.0.jar" id="org.rssowl.feature.nls.pl" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.sr_1.0.0.jar" id="org.rssowl.feature.nls.sr" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.da_1.0.0.jar" id="org.rssowl.feature.nls.da" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <feature url="features/org.rssowl.feature.nls.fr_1.0.0.jar" id="org.rssowl.feature.nls.fr" version="1.0.0">
+      <category name="rssowl.nls"/>
+   </feature>
+   <category-def name="rssowl.nls" label="RSSOwl Languages"/>
+</site>

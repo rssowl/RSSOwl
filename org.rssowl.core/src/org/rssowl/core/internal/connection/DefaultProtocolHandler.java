@@ -145,6 +145,9 @@ public class DefaultProtocolHandler implements IProtocolHandler {
   /* Timeout for loading a Favicon */
   private static final int FAVICON_CON_TIMEOUT = 5000;
 
+  /* Set a limit for titles that are looked up from feeds */
+  private static final int MAX_DETECTED_TITLE_LENGTH = 1024;
+
   private static final String USER_AGENT = CoreUtils.getUserAgent();
   private static boolean fgSSLInitialized;
   private static boolean fgFeedProtocolInitialized;
@@ -899,7 +902,12 @@ public class DefaultProtocolHandler implements IProtocolHandler {
       closeStream(inS, true); //Abort the stream to avoid downloading the full content
     }
 
-    return StringUtils.stripTags(title.trim(), true);
+    // Have an upper maximum of title length to protect against issues
+    String result = StringUtils.stripTags(title.trim(), true);
+    if (result.length() > MAX_DETECTED_TITLE_LENGTH)
+      result = result.substring(0, MAX_DETECTED_TITLE_LENGTH);
+
+    return result;
   }
 
   /* Tries to read the encoding information from the given InputReader */

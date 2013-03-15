@@ -375,7 +375,7 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
 
   private void createInfobar(final Composite parent) {
     final IPreferenceScope preferences = Owl.getPreferenceService().getGlobalScope();
-    if (Application.IS_WINDOWS && !preferences.getBoolean(DefaultPreferences.JS_INFOBAR_CLOSED) && preferences.getBoolean(DefaultPreferences.DISABLE_JAVASCRIPT)) {
+    if (!preferences.getBoolean(DefaultPreferences.JS_INFOBAR_CLOSED) && preferences.getBoolean(DefaultPreferences.DISABLE_JAVASCRIPT)) {
 
       /* Separator */
       fJSInfoSeparator = new Label(parent, SWT.SEPARATOR | SWT.HORIZONTAL);
@@ -816,7 +816,7 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
     /* Ask user for File */
     FileDialog dialog = new FileDialog(getSite().getShell(), SWT.SAVE);
     dialog.setOverwrite(true);
-    dialog.setFilterExtensions(new String[] { ".html" }); //$NON-NLS-1$
+    dialog.setFilterExtensions(new String[] { "*.html" }); //$NON-NLS-1$
     dialog.setFileName("site.html"); //$NON-NLS-1$
 
     String fileName = dialog.open();

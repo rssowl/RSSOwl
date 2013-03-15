@@ -727,7 +727,7 @@ public class ConnectionTests {
    */
   @Test
   public void testNewsTransformerEmbedded() throws Exception {
-    String link = "http://www.rssowl.org/node/258";
+    String link = "http://www.rssowl.org/help";
     String transformedUrl = Controller.getDefault().getEmbeddedTransformedUrl(link);
 
     InputStream inS = Owl.getConnectionService().getHandler(new URI(transformedUrl)).openStream(new URI(transformedUrl), null, new HashMap<Object, Object>());

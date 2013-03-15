@@ -61,6 +61,9 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
   /* RSSOwl.org Update Site */
   private static final String UPDATE_SITE = "http://boreal.rssowl.org/update/addons/"; //$NON-NLS-1$
 
+  /* RSSOwl.org Translations Update Site */
+  private static final String NLS_UPDATE_SITE = "http://boreal.rssowl.org/update/nls/"; //$NON-NLS-1$
+
   /* System Property to Control Sites for Extensions to look for */
   private static final String EXTENSION_SITES_PROPERTY = "addonSites"; //$NON-NLS-1$
 
@@ -68,9 +71,18 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
   private static final String EXTENSION_SITES_DIVIDER = "\\|"; //$NON-NLS-1$
 
   private Shell fShell;
+  private boolean fFindTranslations;
 
   /** Keep default constructor for reflection. */
   public FindExtensionsAction() {}
+
+  /**
+   * @param findTranslations if set to <code>true</code> this action will show
+   * translations available for RSSOwl and otherwise add-ons.
+   */
+  public void setFindTranslations(boolean findTranslations) {
+    fFindTranslations = findTranslations;
+  }
 
   /*
    * @see org.eclipse.jface.action.Action#run()
@@ -107,7 +119,7 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
     /* Add RSSOwl.org if user did not define any other sites */
     if (scope.getSearchSites().length == 0) {
       try {
-        URL url = new URL(UPDATE_SITE);
+        URL url = new URL(fFindTranslations ? NLS_UPDATE_SITE : UPDATE_SITE);
         scope.addSearchSite("RSSOwl.org", url, null); //$NON-NLS-1$
       } catch (MalformedURLException e) {
         // skip bad URLs

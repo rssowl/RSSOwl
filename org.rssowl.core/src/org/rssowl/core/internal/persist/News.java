@@ -721,6 +721,23 @@ public class News extends AbstractEntity implements INews {
     }
   }
 
+  /**
+   * Provides lock free fast access to the date of this news so that algorithms
+   * with O(n^2) are scaling well.
+   *
+   * @return Either Modified-Date, Publish-Date or Received-Date if the formers
+   * are NULL.
+   */
+  public Date fastGetRecentDate() {
+    if (fModifiedDate != null)
+      return fModifiedDate;
+
+    if (fPublishDate != null)
+      return fPublishDate;
+
+    return fReceiveDate;
+  }
+
   /*
    * @see org.rssowl.core.model.types.INews#addCategory(org.rssowl.core.model.types.ICategory)
    */
@@ -1045,7 +1062,8 @@ public class News extends AbstractEntity implements INews {
    */
   public MergeResult merge(INews news) {
     Assert.isNotNull(news, "news cannot be null"); //$NON-NLS-1$
-    Assert.isLegal(this != news, "Trying to merge the same news, this is most likely a mistake, news: " + news); //$NON-NLS-1$
+    if (this == news)
+      Assert.isLegal(this != news, "Trying to merge the same news, this is most likely a mistake, news: " + news); //$NON-NLS-1$
 
     News n = (News) news;
     n.fLock.acquireReadLock();

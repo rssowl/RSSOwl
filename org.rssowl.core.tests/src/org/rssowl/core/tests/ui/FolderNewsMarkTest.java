@@ -33,6 +33,7 @@ import org.junit.Test;
 import org.rssowl.core.Owl;
 import org.rssowl.core.internal.persist.News;
 import org.rssowl.core.internal.persist.service.PersistenceServiceImpl;
+import org.rssowl.core.persist.IBookMark;
 import org.rssowl.core.persist.IFeed;
 import org.rssowl.core.persist.IFolder;
 import org.rssowl.core.persist.ILabel;
@@ -91,7 +92,7 @@ public class FolderNewsMarkTest {
     news.setState(INews.State.READ);
     DynamicDAO.save(feed);
 
-    fFactory.createBookMark(null, childFolder, new FeedLinkReference(feed.getLink()), "Mark");
+    IBookMark bookMark = fFactory.createBookMark(null, childFolder, new FeedLinkReference(feed.getLink()), "Mark");
     folder = DynamicDAO.save(folder);
 
     FolderNewsMark mark = new FolderNewsMark(childFolder);
@@ -99,6 +100,7 @@ public class FolderNewsMarkTest {
     assertEquals(childFolder, mark.getFolder());
     assertEquals("bar", mark.getProperty("foo"));
     assertTrue(Long.valueOf(mark.toReference().getId()).equals(childFolder.getId()));
+    assertTrue(mark.contains(bookMark));
 
     waitForIndexer();
     mark.resolve(NewsFilter.Type.SHOW_ALL, null);
@@ -123,7 +125,7 @@ public class FolderNewsMarkTest {
     news3.setState(INews.State.READ);
     DynamicDAO.save(feed);
 
-    fFactory.createBookMark(null, childFolder, new FeedLinkReference(feed.getLink()), "Mark");
+    IBookMark bookMark1 = fFactory.createBookMark(null, childFolder, new FeedLinkReference(feed.getLink()), "Mark");
 
     IFeed otherFeed = fFactory.createFeed(null, new URI("otherfeed"));
     INews othernews1 = fFactory.createNews(null, otherFeed, new Date());
@@ -134,7 +136,7 @@ public class FolderNewsMarkTest {
     othernews3.setState(INews.State.READ);
     DynamicDAO.save(otherFeed);
 
-    fFactory.createBookMark(null, folder, new FeedLinkReference(otherFeed.getLink()), "Other Mark");
+    IBookMark bookMark2 = fFactory.createBookMark(null, folder, new FeedLinkReference(otherFeed.getLink()), "Other Mark");
 
     INewsBin bin = fFactory.createNewsBin(null, childFolder, "bin");
     DynamicDAO.save(bin);
@@ -156,6 +158,8 @@ public class FolderNewsMarkTest {
     Controller.getDefault().getSavedSearchService().updateSavedSearches(true);
 
     FolderNewsMark mark = new FolderNewsMark(childFolder);
+    assertTrue(mark.contains(bookMark1));
+    assertFalse(mark.contains(bookMark2));
     mark.resolve(NewsFilter.Type.SHOW_ALL, null);
 
     {

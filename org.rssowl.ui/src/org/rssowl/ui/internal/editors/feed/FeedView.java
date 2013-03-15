@@ -56,6 +56,7 @@ import org.eclipse.swt.widgets.FileDialog;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.widgets.Tree;
+import org.eclipse.swt.widgets.TreeColumn;
 import org.eclipse.swt.widgets.TreeItem;
 import org.eclipse.ui.IEditorInput;
 import org.eclipse.ui.IEditorPart;
@@ -168,6 +169,9 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
   /* Millies before the next clean up is allowed to run again */
   private static final int CLEAN_UP_BLOCK_DELAY = 1000;
+
+  /* System Property indicating the separator to use for CSV files */
+  private static final String CSV_SEPARATOR_PROPERTY = "csvSeparator"; //$NON-NLS-1$
 
   /* The last visible Feedview */
   private static FeedView fgLastVisibleFeedView = null;
@@ -288,10 +292,17 @@ public class FeedView extends EditorPart implements IReusableEditor {
     /* Ask user for File */
     FileDialog dialog = new FileDialog(getSite().getShell(), SWT.SAVE);
     dialog.setOverwrite(true);
+
+    List<String> extensions = new ArrayList<String>();
+    extensions.add("*.html"); //$NON-NLS-1$
+
     if (fInput.getMark() instanceof IBookMark)
-      dialog.setFilterExtensions(new String[] { ".html", ".xml" }); //$NON-NLS-1$ //$NON-NLS-2$
-    else
-      dialog.setFilterExtensions(new String[] { ".html" }); //$NON-NLS-1$
+      extensions.add("*.xml"); //$NON-NLS-1$
+
+    if (isTableViewerVisible())
+      extensions.add("*.csv"); //$NON-NLS-1$
+
+    dialog.setFilterExtensions(extensions.toArray(new String[extensions.size()]));
 
     String proposedName = Application.IS_WINDOWS ? CoreUtils.getSafeFileNameForWindows(fInput.getName()) : fInput.getName();
     proposedName += ".html"; //$NON-NLS-1$
@@ -303,6 +314,8 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
     if (fileName.endsWith(".xml")) //$NON-NLS-1$
       saveAsXml(fileName);
+    else if(fileName.endsWith(".csv")) //$NON-NLS-1$
+      saveAsCsv(fileName);
     else
       saveAsHtml(fileName);
   }
@@ -445,6 +458,90 @@ public class FeedView extends EditorPart implements IReusableEditor {
     /* Write into File */
     if (content.length() > 0)
       CoreUtils.write(fileName, content);
+  }
+
+  private void saveAsCsv(final String fileName) {
+    StringBuilder content = new StringBuilder();
+
+    String separator = System.getProperty(CSV_SEPARATOR_PROPERTY);
+    if (separator == null || separator.length() == 0)
+      separator = ";"; //$NON-NLS-1$
+    else if (separator.equals("\\t")) //$NON-NLS-1$
+      separator = "\t"; //$NON-NLS-1$
+
+    Tree tree = fNewsTableControl.getViewer().getTree();
+    TreeItem[] items = tree.getItems();
+    if (items.length > 0) {
+      List<TreeItem> itemsToSave = new ArrayList<TreeItem>();
+
+      /* Ungrouped */
+      if (items[0].getItemCount() == 0) {
+        for (TreeItem item : items) {
+          if (item.getData() instanceof INews)
+            itemsToSave.add(item);
+        }
+      }
+
+      /* Grouped */
+      else {
+        for (TreeItem parentItem : items) {
+          TreeItem[] childItems = parentItem.getItems();
+          for (TreeItem item : childItems) {
+            if (item.getData() instanceof INews)
+              itemsToSave.add(item);
+          }
+        }
+      }
+
+      /* Get header */
+      for (int order : tree.getColumnOrder()) {
+        TreeColumn column = tree.getColumn(order);
+        String text = column.getText();
+        if (text.length() > 0)
+          content.append(toCSVEntry(text, separator)).append(separator);
+      }
+
+      if (content.length() > 0) {
+        content.delete(content.length() - separator.length(), content.length());
+        content.append('\n');
+      }
+
+      /* Get contents */
+      for (TreeItem item : itemsToSave) {
+        boolean lineAdded = false;
+        for (int order : tree.getColumnOrder()) {
+          if (tree.getColumn(order).getText().length() > 0) {
+            String text = item.getText(order);
+            content.append(toCSVEntry(text, separator)).append(separator);
+            lineAdded = true;
+          }
+        }
+
+        if (lineAdded) {
+          content.delete(content.length() - separator.length(), content.length());
+          content.append('\n');
+        }
+      }
+    }
+
+    /* Write into File */
+    if (content.length() > 0)
+      CoreUtils.write(fileName, content);
+  }
+
+  private String toCSVEntry(String value, String separator) {
+    if (value.contains(separator)) {
+
+      /* Values that contain the separator and quotes need to escape quotes */
+      if (value.contains("\"")) { //$NON-NLS-1$
+        value = StringUtils.replaceAll(value, "\"", "\"\""); //$NON-NLS-1$ //$NON-NLS-2$
+      }
+
+      /* Values that contain the separator needs to be surrounded by quotes */
+      return "\"" + value + "\""; //$NON-NLS-1$ //$NON-NLS-2$
+    }
+
+    return value;
   }
 
   /*
@@ -1320,8 +1417,20 @@ public class FeedView extends EditorPart implements IReusableEditor {
           }
 
           /* Retention Strategy */
-          if (inputMark instanceof IBookMark)
+          if (inputMark instanceof IBookMark) {
+
+            /* Ignore currently selected news from retention if changing feeds or minimizing */
+            if (event == UIEvent.FEED_CHANGE || event == UIEvent.MINIMIZE) {
+              if (lastSelection != null && !lastSelection.isEmpty()) {
+                Object obj = lastSelection.getFirstElement();
+                if (obj instanceof INews)
+                  news.remove(obj);
+              }
+            }
+
+            /* Perform Clean Up */
             performCleanUp((IBookMark) inputMark, news);
+          }
 
           /* Also remember the last selected News */
           if (event == UIEvent.TAB_CLOSE)
@@ -1660,6 +1769,9 @@ public class FeedView extends EditorPart implements IReusableEditor {
     /* Return early if layout already up to date */
     if (fLayout == layout)
       return;
+
+    /* Notify Toolbar */
+    fFilterBar.doLayout(layout, false);
 
     /* Notify Controls */
     fNewsTableControl.onLayoutChanged(layout);

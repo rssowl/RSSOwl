@@ -1426,6 +1426,24 @@ public class OwlUI {
   }
 
   /**
+   * @return the {@link INewsMark} currently showing in the active feed view if
+   * any or <code>null</code> otherwise.
+   */
+  public static INewsMark getActiveFeedViewNewsMark() {
+    try {
+      FeedView activeFeedView = getActiveFeedView();
+      if (activeFeedView != null) {
+        FeedViewInput input = (FeedViewInput) activeFeedView.getEditorInput();
+        return input.getMark();
+      }
+    } catch (Error e) {
+      /* Since this method might be called from any thread, protect fully */
+    }
+
+    return null;
+  }
+
+  /**
    * Attempts to find the first active <code>FeedView</code> from the PlatformUI
    * facade and then will return the feed view input preferences. Otherwise,
    * returns <code>NULL</code> if none.

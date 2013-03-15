@@ -30,6 +30,7 @@ import org.eclipse.jface.bindings.TriggerSequence;
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
+import org.eclipse.jface.viewers.StructuredSelection;
 import org.eclipse.osgi.util.NLS;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.IWorkbenchWindowActionDelegate;
@@ -63,7 +64,9 @@ public class ToggleReadStateAction extends Action implements IWorkbenchWindowAct
   private boolean fMarkRead;
 
   /** Leave for reflection */
-  public ToggleReadStateAction() {}
+  public ToggleReadStateAction() {
+    this(StructuredSelection.EMPTY);
+  }
 
   /**
    * @param selection
@@ -108,7 +111,7 @@ public class ToggleReadStateAction extends Action implements IWorkbenchWindowAct
    */
   @Override
   public boolean isChecked() {
-    return !fMarkRead;
+    return !fMarkRead && !fSelection.isEmpty();
   }
 
   /*

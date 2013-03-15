@@ -133,7 +133,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
     DynamicDAO.addEntityListener(ISearchFilter.class, listener);
 
     try {
-      fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+      fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
       assertTrue(listenerCalled.get());
 
@@ -174,7 +174,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, bm.getNewsCount(EnumSet.of(INews.State.UNREAD)));
@@ -210,7 +210,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, bm.getNewsCount(EnumSet.of(INews.State.NEW)));
@@ -250,7 +250,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -288,7 +288,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -329,7 +329,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -379,7 +379,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -430,7 +430,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -495,7 +495,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
       DynamicDAO.save(filter);
     }
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -558,7 +558,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
       DynamicDAO.save(filter);
     }
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -619,7 +619,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
       DynamicDAO.save(filter);
     }
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -726,7 +726,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
     DynamicDAO.addEntityListener(ISearchFilter.class, listener);
 
     try {
-      fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+      fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
     } finally {
       DynamicDAO.removeEntityListener(ISearchFilter.class, listener);
     }
@@ -836,7 +836,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -899,7 +899,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -943,7 +943,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -987,7 +987,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());
@@ -1037,7 +1037,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm2, feed2, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm2, feed2, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm2.getFeedLinkReference().resolve().getNews();
     assertEquals(1, news.size());
@@ -1081,7 +1081,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm1, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm1, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm1.getFeedLinkReference().resolve().getNews();
     assertEquals(3, bm1.getNewsCount(EnumSet.of(INews.State.READ)));
@@ -1122,7 +1122,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm1, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm1, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm1.getFeedLinkReference().resolve().getNews();
     assertEquals(0, bm1.getNewsCount(EnumSet.of(INews.State.READ)));
@@ -1162,7 +1162,7 @@ public class NewsFilterTest extends LargeBlockSizeTest {
 
     DynamicDAO.save(filter);
 
-    fAppService.handleFeedReload(bm, feed, null, false, new NullProgressMonitor());
+    fAppService.handleFeedReload(bm, feed, null, false, true, new NullProgressMonitor());
 
     List<INews> news = bm.getFeedLinkReference().resolve().getNews();
     assertEquals(3, news.size());

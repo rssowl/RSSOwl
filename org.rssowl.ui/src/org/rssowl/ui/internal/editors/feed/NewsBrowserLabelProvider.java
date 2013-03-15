@@ -52,6 +52,8 @@ import org.eclipse.swt.graphics.Font;
 import org.eclipse.swt.graphics.FontData;
 import org.eclipse.swt.graphics.RGB;
 import org.eclipse.ui.PlatformUI;
+import org.rssowl.core.Owl;
+import org.rssowl.core.internal.persist.pref.DefaultPreferences;
 import org.rssowl.core.persist.IAttachment;
 import org.rssowl.core.persist.IBookMark;
 import org.rssowl.core.persist.ILabel;
@@ -228,7 +230,7 @@ public class NewsBrowserLabelProvider extends LabelProvider {
   private NewsBrowserLabelProvider(NewsBrowserViewer viewer, boolean isIE) {
     fViewer = viewer;
     fIsIE = isIE;
-    fManageLinks = OwlUI.useExternalBrowser();
+    fManageLinks = OwlUI.useExternalBrowser() || Owl.getPreferenceService().getGlobalScope().getBoolean(DefaultPreferences.OPEN_LINKS_IN_NEW_TAB);
     fShowFooter = true;
     fTodayInMillies = DateUtils.getToday().getTimeInMillis();
 
@@ -1327,13 +1329,13 @@ public class NewsBrowserLabelProvider extends LabelProvider {
       email = name;
 
     if (withLinks && StringUtils.isSet(name) && email != null)
-      link(builder, email, NLS.bind(Messages.NewsBrowserLabelProvider_BY_AUTHOR, StringUtils.htmlEscape(name)), "author"); //$NON-NLS-1$
+      link(builder, email, StringUtils.stripTags(name, false), "author"); //$NON-NLS-1$
     else if (StringUtils.isSet(name))
-      builder.append(NLS.bind(Messages.NewsBrowserLabelProvider_BY_AUTHOR, StringUtils.htmlEscape(name)));
+      builder.append(StringUtils.stripTags(name, false));
     else if (withLinks && email != null)
-      link(builder, email, NLS.bind(Messages.NewsBrowserLabelProvider_BY_AUTHOR, StringUtils.htmlEscape(email)), "author"); //$NON-NLS-1$
+      link(builder, email, StringUtils.stripTags(email, false), "author"); //$NON-NLS-1$
     else if (email != null)
-      builder.append(StringUtils.htmlEscape(email));
+      builder.append(StringUtils.stripTags(email, false));
     else
       builder.append(Messages.NewsBrowserLabelProvider_UNKNOWN);
   }

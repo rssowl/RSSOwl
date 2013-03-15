@@ -630,7 +630,10 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 
     /* Restore Shell */
     shell.setVisible(true);
-    shell.setActive();
+    if (Application.IS_MAC)
+      shell.forceActive();
+    else
+      shell.setActive();
 
     /* Non Mac: Un-Minimize if minimized */
     if (!Application.IS_MAC && shell.getMinimized())

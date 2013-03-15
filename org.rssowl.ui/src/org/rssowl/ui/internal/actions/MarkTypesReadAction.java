@@ -163,9 +163,18 @@ public class MarkTypesReadAction extends Action implements IWorkbenchWindowActio
     }
 
     /* See if Retention is required for each BookMark */
+    final INewsMark activeFeedViewNewsMark = OwlUI.getActiveFeedViewNewsMark();
     Set<Entry<IBookMark, Collection<INews>>> entries = retentionHelperMap.entrySet();
     for (Entry<IBookMark, Collection<INews>> entry : entries) {
       IBookMark bookmark = entry.getKey();
+
+      /* Check if retention should run or not */
+      if (activeFeedViewNewsMark != null) {
+        if (activeFeedViewNewsMark.equals(bookmark))
+          continue; //Avoid clean up on feed the user is reading on
+        else if (activeFeedViewNewsMark instanceof FolderNewsMark && ((FolderNewsMark) activeFeedViewNewsMark).contains(bookmark))
+          continue; //Avoid clean up on folder the user is reading on if feed contained
+      }
 
       /* Delete News that are now marked as Read */
       List<INews> deletedNews = RetentionStrategy.process(bookmark, entry.getValue());

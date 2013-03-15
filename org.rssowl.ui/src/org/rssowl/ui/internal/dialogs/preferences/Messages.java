@@ -38,6 +38,7 @@ public class Messages extends NLS {
   public static String BrowserPreferencePage_INTERNET_OPTIONS;
   public static String BrowserPreferencePage_OPEN_IN_BACKGROUND;
   public static String BrowserPreferencePage_OPEN_IN_SAME_TAB;
+  public static String BrowserPreferencePage_OPEN_LINKS_IN_TABS;
   public static String BrowserPreferencePage_REOPEN_WEBSITE;
   public static String BrowserPreferencePage_TABBED_BROWSING;
   public static String BrowserPreferencePage_USE_EMBEDDED_BROWSER;

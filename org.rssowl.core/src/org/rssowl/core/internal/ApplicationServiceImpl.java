@@ -160,10 +160,10 @@ public class ApplicationServiceImpl implements IApplicationService {
    * @see
    * org.rssowl.core.IApplicationService#handleFeedReload(org.rssowl.core.persist
    * .IBookMark, org.rssowl.core.persist.IFeed,
-   * org.rssowl.core.persist.IConditionalGet, boolean,
+   * org.rssowl.core.persist.IConditionalGet, boolean, boolean,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
-  public final void handleFeedReload(final IBookMark bookMark, IFeed interpretedFeed, IConditionalGet conditionalGet, boolean deleteConditionalGet, final IProgressMonitor monitor) {
+  public final void handleFeedReload(final IBookMark bookMark, IFeed interpretedFeed, IConditionalGet conditionalGet, boolean deleteConditionalGet, boolean runRetention, final IProgressMonitor monitor) {
     fWriteLock.lock();
     MergeResult mergeResult = null;
     try {
@@ -326,7 +326,7 @@ public class ApplicationServiceImpl implements IApplicationService {
         return;
 
       /* Retention Policy */
-      final List<INews> deletedNews = RetentionStrategy.process(bookMark, feed);
+      final List<INews> deletedNews = runRetention ? RetentionStrategy.process(bookMark, feed) : Collections.<INews>emptyList();
       for (INews news : deletedNews)
         mergeResult.addUpdatedObject(news);
 

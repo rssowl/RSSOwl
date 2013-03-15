@@ -72,6 +72,7 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
   private Button fUseInternalBrowser;
   private Button fCustomBrowserSearchButton;
   private Button fReOpenBrowserTabs;
+  private Button fOpenLinksInNewTab;
   private Button fLoadBrowserTabInBackground;
   private Button fAlwaysReuseBrowser;
   private Button fEnablePopupBlockerCheck;
@@ -222,6 +223,11 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
       ((GridLayout) group.getLayout()).marginBottom = 5;
       group.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
 
+      fOpenLinksInNewTab = new Button(group, SWT.CHECK);
+      fOpenLinksInNewTab.setText(Messages.BrowserPreferencePage_OPEN_LINKS_IN_TABS);
+      fOpenLinksInNewTab.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, false, false));
+      fOpenLinksInNewTab.setSelection(fGlobalScope.getBoolean(DefaultPreferences.OPEN_LINKS_IN_NEW_TAB));
+
       fReOpenBrowserTabs = new Button(group, SWT.CHECK);
       fReOpenBrowserTabs.setText(Messages.BrowserPreferencePage_REOPEN_WEBSITE);
       fReOpenBrowserTabs.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, false, false));
@@ -238,8 +244,8 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
       fAlwaysReuseBrowser.setSelection(fGlobalScope.getBoolean(DefaultPreferences.ALWAYS_REUSE_BROWSER));
     }
 
-    /* Block Popups on Windows / Disable JavaScript in Browser */
-    if (Application.IS_WINDOWS && !CBrowser.isMozillaRunningOnWindows()) {
+    /* Disable JavaScript in Browser / Popup Blocker */
+    if (!Application.IS_WINDOWS || !CBrowser.isMozillaRunningOnWindows()) {
       Label label = new Label(browserGroup, SWT.NONE);
       label.setText(Messages.BrowserPreferencePage_CONTENT);
       label.setFont(JFaceResources.getFontRegistry().getBold(JFaceResources.DIALOG_FONT));
@@ -249,10 +255,12 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
       group.setLayout(LayoutUtils.createGridLayout(2, 7, 3));
       group.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
 
-      fEnablePopupBlockerCheck = new Button(group, SWT.CHECK);
-      fEnablePopupBlockerCheck.setText(Messages.BrowserPreferencePage_BLOCK_POPUPS);
-      fEnablePopupBlockerCheck.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, false, false, 2, 1));
-      fEnablePopupBlockerCheck.setSelection(fGlobalScope.getBoolean(DefaultPreferences.ENABLE_IE_POPUP_BLOCKER));
+      if (Application.IS_WINDOWS) {
+        fEnablePopupBlockerCheck = new Button(group, SWT.CHECK);
+        fEnablePopupBlockerCheck.setText(Messages.BrowserPreferencePage_BLOCK_POPUPS);
+        fEnablePopupBlockerCheck.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, false, false, 2, 1));
+        fEnablePopupBlockerCheck.setSelection(fGlobalScope.getBoolean(DefaultPreferences.ENABLE_IE_POPUP_BLOCKER));
+      }
 
       Composite jsContainer = new Composite(group, SWT.NONE);
       jsContainer.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, false, false, 2, 1));
@@ -283,24 +291,26 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
       });
 
       /* Info Container to Link to Internet Options */
-      Composite infoContainer = new Composite(group, SWT.None);
-      infoContainer.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false, 2, 1));
-      infoContainer.setLayout(LayoutUtils.createGridLayout(2, 0, 0));
-      ((GridLayout)infoContainer.getLayout()).marginTop = 5;
+      if (Application.IS_WINDOWS) {
+        Composite infoContainer = new Composite(group, SWT.None);
+        infoContainer.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false, 2, 1));
+        infoContainer.setLayout(LayoutUtils.createGridLayout(2, 0, 0));
+        ((GridLayout) infoContainer.getLayout()).marginTop = 5;
 
-      Label infoImg = new Label(infoContainer, SWT.NONE);
-      infoImg.setImage(OwlUI.getImage(fResources, "icons/obj16/info.gif")); //$NON-NLS-1$
-      infoImg.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, false, false));
+        Label infoImg = new Label(infoContainer, SWT.NONE);
+        infoImg.setImage(OwlUI.getImage(fResources, "icons/obj16/info.gif")); //$NON-NLS-1$
+        infoImg.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, false, false));
 
-      Link infoText = new Link(infoContainer, SWT.WRAP);
-      infoText.setText(Messages.BrowserPreferencePage_INTERNET_OPTIONS);
-      infoText.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
-      infoText.addSelectionListener(new SelectionAdapter() {
-        @Override
-        public void widgetSelected(SelectionEvent e) {
-          Program.launch("inetcpl.cpl"); //$NON-NLS-1$
-        }
-      });
+        Link infoText = new Link(infoContainer, SWT.WRAP);
+        infoText.setText(Messages.BrowserPreferencePage_INTERNET_OPTIONS);
+        infoText.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
+        infoText.addSelectionListener(new SelectionAdapter() {
+          @Override
+          public void widgetSelected(SelectionEvent e) {
+            Program.launch("inetcpl.cpl"); //$NON-NLS-1$
+          }
+        });
+      }
     }
 
     updateEnablement();
@@ -370,18 +380,20 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
    */
   @Override
   public boolean performOk() {
+    fGlobalScope.putBoolean(DefaultPreferences.OPEN_LINKS_IN_NEW_TAB, fOpenLinksInNewTab.getSelection());
     fGlobalScope.putBoolean(DefaultPreferences.REOPEN_BROWSER_TABS, fReOpenBrowserTabs.getSelection());
     fGlobalScope.putBoolean(DefaultPreferences.ALWAYS_REUSE_BROWSER, fAlwaysReuseBrowser.getSelection());
     fGlobalScope.putBoolean(DefaultPreferences.OPEN_BROWSER_IN_BACKGROUND, fLoadBrowserTabInBackground.getSelection());
-    if (Application.IS_WINDOWS && !CBrowser.isMozillaRunningOnWindows()) {
-      fGlobalScope.putBoolean(DefaultPreferences.ENABLE_IE_POPUP_BLOCKER, fEnablePopupBlockerCheck.getSelection());
+    if (fDisableJavaScriptCheck != null) {
       fGlobalScope.putBoolean(DefaultPreferences.DISABLE_JAVASCRIPT, fDisableJavaScriptCheck.getSelection());
       fDisableJavaScriptExceptionsButton.setEnabled(fDisableJavaScriptCheck.getSelection());
     }
+    if (fEnablePopupBlockerCheck != null)
+      fGlobalScope.putBoolean(DefaultPreferences.ENABLE_IE_POPUP_BLOCKER, fEnablePopupBlockerCheck.getSelection());
 
-    boolean wasUseDefaultExternalBrowser= fGlobalScope.getBoolean(DefaultPreferences.USE_DEFAULT_EXTERNAL_BROWSER);
-    boolean wasUseCustomExternalBrowser= fGlobalScope.getBoolean(DefaultPreferences.USE_CUSTOM_EXTERNAL_BROWSER);
-    boolean updateForEmbeddedBrowser= (wasUseDefaultExternalBrowser != fUseDefaultExternalBrowser.getSelection()) || (wasUseCustomExternalBrowser != fUseCustomExternalBrowser.getSelection());
+    boolean wasUseDefaultExternalBrowser = fGlobalScope.getBoolean(DefaultPreferences.USE_DEFAULT_EXTERNAL_BROWSER);
+    boolean wasUseCustomExternalBrowser = fGlobalScope.getBoolean(DefaultPreferences.USE_CUSTOM_EXTERNAL_BROWSER);
+    boolean updateForEmbeddedBrowser = (wasUseDefaultExternalBrowser != fUseDefaultExternalBrowser.getSelection()) || (wasUseCustomExternalBrowser != fUseCustomExternalBrowser.getSelection());
 
     fGlobalScope.putBoolean(DefaultPreferences.USE_DEFAULT_EXTERNAL_BROWSER, fUseDefaultExternalBrowser.getSelection());
     fGlobalScope.putBoolean(DefaultPreferences.USE_CUSTOM_EXTERNAL_BROWSER, fUseCustomExternalBrowser.getSelection());
@@ -411,14 +423,16 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
 
     IPreferenceScope defaultScope = Owl.getPreferenceService().getDefaultScope();
 
+    fOpenLinksInNewTab.setSelection(defaultScope.getBoolean(DefaultPreferences.OPEN_LINKS_IN_NEW_TAB));
     fReOpenBrowserTabs.setSelection(defaultScope.getBoolean(DefaultPreferences.REOPEN_BROWSER_TABS));
     fAlwaysReuseBrowser.setSelection(defaultScope.getBoolean(DefaultPreferences.ALWAYS_REUSE_BROWSER));
     fLoadBrowserTabInBackground.setSelection(defaultScope.getBoolean(DefaultPreferences.OPEN_BROWSER_IN_BACKGROUND));
-    if (Application.IS_WINDOWS && !CBrowser.isMozillaRunningOnWindows()) {
-      fEnablePopupBlockerCheck.setSelection(defaultScope.getBoolean(DefaultPreferences.ENABLE_IE_POPUP_BLOCKER));
+    if (fDisableJavaScriptCheck != null) {
       fDisableJavaScriptCheck.setSelection(defaultScope.getBoolean(DefaultPreferences.DISABLE_JAVASCRIPT));
       fDisableJavaScriptExceptionsButton.setEnabled(fDisableJavaScriptCheck.getSelection());
     }
+    if (fEnablePopupBlockerCheck != null)
+      fEnablePopupBlockerCheck.setSelection(defaultScope.getBoolean(DefaultPreferences.ENABLE_IE_POPUP_BLOCKER));
 
     fUseDefaultExternalBrowser.setSelection(defaultScope.getBoolean(DefaultPreferences.USE_DEFAULT_EXTERNAL_BROWSER));
     fUseCustomExternalBrowser.setSelection(defaultScope.getBoolean(DefaultPreferences.USE_CUSTOM_EXTERNAL_BROWSER));
@@ -445,6 +459,7 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
     fAlwaysReuseBrowser.setEnabled(enable);
     fLoadBrowserTabInBackground.setEnabled(enable);
     fReOpenBrowserTabs.setEnabled(enable);
+    fOpenLinksInNewTab.setEnabled(enable);
   }
 
   /*

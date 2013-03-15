@@ -258,9 +258,12 @@ public class RDFInterpreter extends BasicInterpreter {
 
       /* Link */
       else if ("link".equals(name)) { //$NON-NLS-1$
-        URI uri = URIUtils.createURI(child.getText());
-        if (uri != null)
-          news.setLink(uri);
+        if (child.getText().length() > 0) {
+          URI uri = URIUtils.createURI(child.getText());
+          if (uri != null)
+            news.setLink(uri);
+        }
+
         processNamespaceAttributes(child, news);
       }
 

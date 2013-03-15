@@ -57,7 +57,9 @@ public interface IApplicationService {
    * @param deleteConditionalGet if <code>true</code> an existing
    * IConditionalGet object associated with the IFeed will be deleted as part of
    * this operation.
+   * @param runRetention if <code>true</code> causes the method to perform clean
+   * up of the feed and false otherwise.
    * @param monitor a monitor to show progress and react on cancellation.
    */
-  void handleFeedReload(IBookMark bookMark, IFeed interpretedFeed, IConditionalGet conditionalGet, boolean deleteConditionalGet, IProgressMonitor monitor);
+  void handleFeedReload(IBookMark bookMark, IFeed interpretedFeed, IConditionalGet conditionalGet, boolean deleteConditionalGet, boolean runRetention, IProgressMonitor monitor);
 }

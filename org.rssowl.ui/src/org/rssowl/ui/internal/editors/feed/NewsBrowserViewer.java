@@ -338,6 +338,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
    */
   public NewsBrowserViewer(Composite parent, int style, IFeedViewSite site) {
     fBrowser = new CBrowser(parent, style);
+    fBrowser.setCanOpenLinksInTabs(true);
     fViewModel = new NewsBrowserViewModel(this);
     fSite = site;
     fIsEmbedded = (fSite != null);

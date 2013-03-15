@@ -1822,6 +1822,8 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
         }
       }
 
+      boolean separate = true;
+
       /* Offer Open Action for each downloaded */
       if (!openActions.isEmpty()) {
         attachmentMenu.add(new Separator());
@@ -1830,8 +1832,19 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
         }
       }
 
+      /* Offer Copy Action for Attachment Link */
+      else if (attachments.size() == 1) {
+        separate = false;
+        attachmentMenu.add(new Separator());
+        CopyLinkAction action = new CopyLinkAction();
+        action.setIgnoreActiveSelection(true);
+        action.selectionChanged(action, new StructuredSelection(attachments.iterator().next().getFirst()));
+        attachmentMenu.add(action);
+      }
+
       /* Offer to Automize Downloading */
-      attachmentMenu.add(new Separator());
+      if (separate)
+        attachmentMenu.add(new Separator());
       attachmentMenu.add(new AutomateFilterAction(PresetAction.DOWNLOAD, selection));
     }
   }
