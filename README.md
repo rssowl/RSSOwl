@@ -4,6 +4,11 @@ RSS Owl is a powerful application to organize, search and read your RSS, RDF & A
 Highlights are saved searches, google reader sync, notifications, filters, fast fulltext search and a flexible, clean user interface.
 http://rssowl.org/
 
+Build RSSOwl:
+-------------
+
+Please refer to the description at https://github.com/bpasero/rssowl-target
+
 RSSOwl links:
 -------------
 * SVN: https://rssowl.svn.sourceforge.net/svnroot/rssowl (browse online at http://rssowl.svn.sourceforge.net/viewvc/rssowl/ )
