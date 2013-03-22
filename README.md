@@ -15,14 +15,10 @@ RSSOwl links:
 * Web: http://rssowl.org/
 * FAQ: http://www.rssowl.org/help
 * Forum: https://sourceforge.net/projects/rssowl/forums
-* Site for 2.0 release: http://boreal.rssowl.org/
 * Wiki: http://wiki.rssowl.org/index.php/Main_Page
 * Tutorials: http://tutorial.rssowl.org/ now obsolete since integrated to RSSOwl under "Help | Tutorial"
-* Auto-generated latest/nightly builds: http://rssowl.pluginbuilder.org/ (usage?)
-* Translations HowTo: http://wiki.rssowl.org/index.php/Translation
-* Build HowTo: http://wiki.rssowl.org/index.php/Build_RSSOwl_2.0
+* Build HowTo: https://github.com/bpasero/rssowl-target
 * Eclipse Marketplace: http://marketplace.eclipse.org/content/rssowl-powerful-rss-rdf-atom-news-feed-reader-google-reader-synchronization
-* obsolete RSSOwl 1.* Docs: http://rssowl.org/docs/api/index.html
 * Freecode.com: http://freecode.com/projects/rssowl
 
 related projects:
