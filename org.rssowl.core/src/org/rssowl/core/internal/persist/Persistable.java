@@ -65,7 +65,7 @@ public abstract class Persistable implements IPersistable {
     try {
       return new URI(uri);
     } catch (URISyntaxException e) {
-      throw new IllegalStateException("Somehow an invalid URI was stored", e); //$NON-NLS-1$
+      throw new IllegalStateException("Somehow an invalid URI was stored with the value of '" + uri + "'", e); //$NON-NLS-1$ //$NON-NLS-2$
     }
   }
 

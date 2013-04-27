@@ -53,6 +53,7 @@ import org.rssowl.core.persist.dao.IPersonDAO;
 import org.rssowl.core.persist.pref.IPreferenceScope;
 import org.rssowl.core.util.Pair;
 import org.rssowl.core.util.StringUtils;
+import org.rssowl.core.util.SyncUtils;
 import org.rssowl.core.util.URIUtils;
 import org.rssowl.ui.internal.OwlUI;
 import org.rssowl.ui.internal.dialogs.welcome.WelcomeWizard;
@@ -125,7 +126,7 @@ public class ImportSourcePage extends WizardPage {
     if (fImportFromResourceRadio.getSelection())
       return Source.RESOURCE;
 
-    if (fImportGoogleReaderRadio.getSelection())
+    if (SyncUtils.ENABLED && fImportGoogleReaderRadio.getSelection())
       return Source.GOOGLE;
 
     if (fImportFromKeywordRadio.getSelection())
@@ -197,7 +198,9 @@ public class ImportSourcePage extends WizardPage {
       createImportRecommendedControls(container);
 
       /* Import from Google Reader */
-      createImportGoogleReaderControls(container);
+      if (SyncUtils.ENABLED) {
+        createImportGoogleReaderControls(container);
+      }
 
       /* Import from File or Website */
       createImportResourceControls(container);
@@ -219,7 +222,9 @@ public class ImportSourcePage extends WizardPage {
       createImportKeywordControls(container);
 
       /* Import from Google Reader */
-      createImportGoogleReaderControls(container);
+      if (SyncUtils.ENABLED) {
+        createImportGoogleReaderControls(container);
+      }
 
       /* Import from Recommended Feeds */
       createImportRecommendedControls(container);
@@ -449,7 +454,7 @@ public class ImportSourcePage extends WizardPage {
       setPageComplete(true);
 
     /* Import Google Reader */
-    if (fImportGoogleReaderRadio.getSelection())
+    if (SyncUtils.ENABLED && fImportGoogleReaderRadio.getSelection())
       setPageComplete(true);
 
     /* Import None */

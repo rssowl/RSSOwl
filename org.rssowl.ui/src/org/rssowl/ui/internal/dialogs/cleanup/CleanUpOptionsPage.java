@@ -192,7 +192,7 @@ public class CleanUpOptionsPage extends WizardPage {
     }
 
     /* 5.) Delete Feeds that are no longer used in Google Reader */
-    if (SyncUtils.hasSyncCredentials()){
+    if (SyncUtils.ENABLED && SyncUtils.hasSyncCredentials()){
       fDeleteFeedBySynchronizationCheck = new Button(container, SWT.CHECK);
       fDeleteFeedBySynchronizationCheck.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false, 3, 1));
       fDeleteFeedBySynchronizationCheck.setText(Messages.CleanUpOptionsPage_DELETE_UNSUBSCRIBED_FEEDS);

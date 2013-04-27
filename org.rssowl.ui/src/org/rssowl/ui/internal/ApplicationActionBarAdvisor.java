@@ -88,6 +88,7 @@ import org.rssowl.core.persist.pref.IPreferenceScope;
 import org.rssowl.core.util.CoreUtils;
 import org.rssowl.core.util.Pair;
 import org.rssowl.core.util.StringUtils;
+import org.rssowl.core.util.SyncUtils;
 import org.rssowl.core.util.URIUtils;
 import org.rssowl.ui.internal.OwlUI.Layout;
 import org.rssowl.ui.internal.OwlUI.PageSize;
@@ -1431,13 +1432,15 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
     });
 
     /* Google Reader Synchronization */
-    helpMenu.add(new Action(Messages.ApplicationActionBarAdvisor_GOOGLE_READER_SYNC) {
-      @Override
-      public void run() {
-        TutorialWizard wizard = new TutorialWizard(Chapter.SYNCHRONIZATION);
-        OwlUI.openWizard(getActionBarConfigurer().getWindowConfigurer().getWindow().getShell(), wizard, false, false, null);
-      }
-    });
+    if (SyncUtils.ENABLED) {
+      helpMenu.add(new Action(Messages.ApplicationActionBarAdvisor_GOOGLE_READER_SYNC) {
+        @Override
+        public void run() {
+          TutorialWizard wizard = new TutorialWizard(Chapter.SYNCHRONIZATION);
+          OwlUI.openWizard(getActionBarConfigurer().getWindowConfigurer().getWindow().getShell(), wizard, false, false, null);
+        }
+      });
+    }
 
     /* Link to Help */
     helpMenu.add(new Action(Messages.ApplicationActionBarAdvisor_FAQ) {

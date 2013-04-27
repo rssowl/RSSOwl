@@ -374,14 +374,14 @@
             id="org.rssowl.ui.ShowActivitySet"
             label="%actionSet.label.6"
             visible="true">
-         <action
+         <!--<action
                class="org.rssowl.ui.internal.actions.ShowSynchronizationStatusAction"
                icon="icons/elcl16/reader.gif"
                id="org.rssowl.ui.ShowSynchronizationStatusAction"
                label="%action.label.34"
                menubarPath="tools/end"
                style="push">
-         </action>
+         </action>-->
          <action
                class="org.rssowl.ui.internal.actions.ShowActivityAction"
                definitionId="org.rssowl.ui.ShowActivityAction"
@@ -1997,6 +1997,20 @@
             id="org.rssowl.ui.BufferShareProvider"
             name="%shareProvider.name.25"
             url="http://bufferapp.com/add?url=[L]&amp;text=[T]">
+      </shareProvider>
+      <shareProvider
+            enabled="false"
+            icon="icons/obj16/share_google_plus.gif"
+            id="org.rssowl.ui.GooglePlusShareProvider"
+            name="%shareProvider.name.26"
+            url="https://plus.google.com/share?url=[L]">
+      </shareProvider>
+      <shareProvider
+            enabled="false"
+            icon="icons/obj16/share_readability.gif"
+            id="org.rssowl.ui.ReadabilityShareProvider"
+            name="%shareProvider.name.27"
+            url="http://www.readability.com/read?url=[L]">
       </shareProvider>
    </extension>
    <extension

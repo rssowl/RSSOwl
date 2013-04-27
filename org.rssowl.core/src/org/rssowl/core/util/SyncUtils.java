@@ -52,6 +52,9 @@ import java.util.Map;
  */
 public class SyncUtils {
 
+  /** Flag to control enablement of Google Reader Sync */
+  public static final boolean ENABLED = false;
+
   /** Google Client Login Site */
   public static final String GOOGLE_LOGIN_URL = "https://www.google.com/accounts/ClientLogin"; //$NON-NLS-1$
 
