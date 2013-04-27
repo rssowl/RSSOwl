@@ -131,6 +131,11 @@ public class Messages extends NLS {
 
   public static String ToggleReadStateAction_NEWS_READ;
   public static String ToggleReadStateAction_NEWS_READ_BINDING;
+  public static String UnsubscribeGoogleReaderAction_0;
+  public static String UnsubscribeGoogleReaderAction_1;
+  public static String UnsubscribeGoogleReaderAction_2;
+  public static String UnsubscribeGoogleReaderAction_3;
+  public static String UnsubscribeGoogleReaderAction_4;
 
   private Messages() {}
 

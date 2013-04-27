@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site pack200="true">
-   <feature url="features/org.rssowl.eclipse_2.1.6.qualifier.jar" id="org.rssowl.eclipse" version="2.1.6.qualifier">
+   <feature url="features/org.rssowl.eclipse_2.2.0.qualifier.jar" id="org.rssowl.eclipse" version="2.2.0.qualifier">
       <category name="rssowl.eclipse"/>
    </feature>
    <category-def name="rssowl.eclipse" label="RSSOwl for Eclipse"/>

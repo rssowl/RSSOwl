@@ -30,14 +30,14 @@
  */
 
 ;#####	 Variables	######
-!define VER_DISPLAY "2.1.6"
+!define VER_DISPLAY "2.2.0"
 
 ;#####   Include Modern UI   ######
 !include "MUI.nsh"
 
 ;#####   Installer Configuration   ######
 Name "RSSOwl"
-OutFile "RSSOwl Setup 2.1.6.exe"
+OutFile "RSSOwl Setup 2.2.exe"
 InstallDir $PROGRAMFILES\RSSOwl
 InstallDirRegKey HKCU "Software\RSSOwl" ""
 AllowRootDirInstall true

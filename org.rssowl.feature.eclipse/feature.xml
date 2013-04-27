@@ -2,7 +2,7 @@
 <feature
       id="org.rssowl.eclipse"
       label="RSSOwl in Eclipse"
-      version="2.1.6.qualifier"
+      version="2.2.0.qualifier"
       provider-name="RSSOwl.org"
       plugin="org.rssowl.ui">
 

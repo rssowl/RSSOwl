@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.rssowl.lib.httpclient
-Bundle-Version: 2.1.6.qualifier
+Bundle-Version: 2.2.0.qualifier
 Eclipse-BuddyPolicy: registered
 Export-Package: org.apache.commons.codec,
  org.apache.commons.codec.binary,

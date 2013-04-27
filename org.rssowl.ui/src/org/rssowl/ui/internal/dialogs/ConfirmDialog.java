@@ -84,6 +84,7 @@ public class ConfirmDialog extends TitleAreaDialog {
    */
   public ConfirmDialog(Shell parentShell, String title, String dialogHeaderMessage, String dialogMessage, String okButtonName, String confirmPrefKey) {
     super(parentShell);
+
     fTitle = title;
     fDialogMessage = dialogMessage;
     fDialogHeaderMessage = dialogHeaderMessage;
@@ -131,6 +132,13 @@ public class ConfirmDialog extends TitleAreaDialog {
     return "/icons/wizban/trash.gif"; //$NON-NLS-1$
   }
 
+  /**
+   * @return the title label to use
+   */
+  protected String getTitleLabel() {
+    return Messages.ConfirmDialog_DELETE;
+  }
+
   /*
    * @see org.eclipse.jface.dialogs.TitleAreaDialog#createDialogArea(org.eclipse.swt.widgets.Composite)
    */
@@ -143,7 +151,7 @@ public class ConfirmDialog extends TitleAreaDialog {
     composite.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
 
     /* Title */
-    setTitle(Messages.ConfirmDialog_DELETE);
+    setTitle(this.getTitleLabel());
 
     /* Title Image */
     setTitleImage(OwlUI.getImage(fResources, getTitleImage()));

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="RSSOwl" uid="2.1.6" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" useFeatures="true" includeLaunchers="true">
+<product name="RSSOwl" uid="2.2.0" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.rssowl.ui/icons/product/about.gif"/>
       <text>
          RSSOwl
 
-Version: 2.1.6
+Version: 2.2.0
 Build Id: 2012-12-08
 
 RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.
@@ -74,7 +74,7 @@ RSSOwl Development Team - initial API and implementation
    <features>
       <feature id="org.eclipse.rcp" version="3.4.200.R342_v20090122-989JESTEbig-SVaL8UJHcYBr4A63"/>
       <feature id="org.rssowl.dependencies" version="2.0.0"/>
-      <feature id="org.rssowl" version="2.1.6.qualifier"/>
+      <feature id="org.rssowl" version="2.2.0.qualifier"/>
    </features>
 
 

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.rssowl.ui; singleton:=true
-Bundle-Version: 2.1.6.qualifier
+Bundle-Version: 2.2.0.qualifier
 Bundle-Activator: org.rssowl.ui.internal.Activator
 Bundle-Vendor: %Bundle-Vendor
 Require-Bundle: org.eclipse.ui,
