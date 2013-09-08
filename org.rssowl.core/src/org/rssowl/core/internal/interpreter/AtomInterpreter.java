@@ -80,7 +80,7 @@ public class AtomInterpreter extends BasicInterpreter {
       Attribute attribute = (Attribute) iter.next();
       String name = attribute.getName();
 
-      /* Check wether this Attribute is to be processed by a Contribution */
+      /* Check whether this Attribute is to be processed by a Contribution */
       if (processAttributeExtern(attribute, feed))
         continue;
 
@@ -99,7 +99,7 @@ public class AtomInterpreter extends BasicInterpreter {
       Element child = (Element) iter.next();
       String name = child.getName().toLowerCase();
 
-      /* Check wether this Element is to be processed by a Contribution */
+      /* Check whether this Element is to be processed by a Contribution */
       if (processElementExtern(child, feed))
         continue;
 
