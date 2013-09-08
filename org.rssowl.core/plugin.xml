@@ -58,6 +58,9 @@
             class="org.rssowl.core.internal.interpreter.DublinCoreNamespaceHandler"
             namespaceURI="http://purl.org/dc/elements/1.1/"/>
       <namespaceHandler
+            class="org.rssowl.core.internal.interpreter.AtomNamespaceHandler"
+            namespaceURI="http://purl.org/atom/ns#"/>
+      <namespaceHandler
             class="org.rssowl.core.internal.interpreter.SyndicationNamespaceHandler"
             namespaceURI="http://purl.org/rss/1.0/modules/syndication/"/>
       <namespaceHandler
