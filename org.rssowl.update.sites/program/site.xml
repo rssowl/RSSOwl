@@ -3,7 +3,7 @@
    <description url="http://boreal.rssowl.org">
       The main update site of RSSOwl.
    </description>
-   <feature url="features/org.rssowl_2.2.0.qualifier.jar" id="org.rssowl" version="2.2.0.qualifier">
+   <feature url="features/org.rssowl_2.2.1.qualifier.jar" id="org.rssowl" version="2.2.1.qualifier">
       <category name="rssowl.program"/>
    </feature>
    <category-def name="rssowl.program" label="RSSOwl Program Update">

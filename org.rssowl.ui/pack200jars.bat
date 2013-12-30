@@ -35,12 +35,12 @@ del *.pack
 "C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g -G org.eclipse.update.core_3.2.202.R34x_v20081128.jar.pack org.eclipse.update.core_3.2.202.R34x_v20081128.jar
 "C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g -G org.eclipse.update.ui_3.2.101.R34x_v20081128.jar.pack org.eclipse.update.ui_3.2.101.R34x_v20081128.jar
 
-"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.core_2.1.6.201212081830.jar.pack org.rssowl.core_2.1.6.201212081830.jar
-"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.db4o_2.1.6.201212081830.jar.pack org.rssowl.lib.db4o_2.1.6.201212081830.jar
-"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.httpclient_2.1.6.201212081830.jar.pack org.rssowl.lib.httpclient_2.1.6.201212081830.jar
-"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.jdom_2.1.6.201212081830.jar.pack org.rssowl.lib.jdom_2.1.6.201212081830.jar
-"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.lucene_2.1.6.201212081830.jar.pack org.rssowl.lib.lucene_2.1.6.201212081830.jar
-"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.ui_2.1.6.201212081830.jar.pack org.rssowl.ui_2.1.6.201212081830.jar
+"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.core_2.2.1.201312301314.jar.pack org.rssowl.core_2.2.1.201312301314.jar
+"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.db4o_2.2.1.201312301314.jar.pack org.rssowl.lib.db4o_2.2.1.201312301314.jar
+"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.httpclient_2.2.1.201312301314.jar.pack org.rssowl.lib.httpclient_2.2.1.201312301314.jar
+"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.jdom_2.2.1.201312301314.jar.pack org.rssowl.lib.jdom_2.2.1.201312301314.jar
+"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.lib.lucene_2.2.1.201312301314.jar.pack org.rssowl.lib.lucene_2.2.1.201312301314.jar
+"C:\Program Files\Java\jdk1.5.0_22\bin\pack200" -g org.rssowl.ui_2.2.1.201312301314.jar.pack org.rssowl.ui_2.2.1.201312301314.jar
 
 del com.ibm.icu.base_3.8.1.v20080530.jar
 del org.eclipse.core.commands_3.4.0.I20080509-2000.jar
@@ -77,9 +77,9 @@ del org.eclipse.update.core.win32_3.2.100.v20080107.jar
 del org.eclipse.update.core_3.2.202.R34x_v20081128.jar
 del org.eclipse.update.ui_3.2.101.R34x_v20081128.jar
 
-del org.rssowl.core_2.1.6.201212081830.jar
-del org.rssowl.lib.db4o_2.1.6.201212081830.jar
-del org.rssowl.lib.httpclient_2.1.6.201212081830.jar
-del org.rssowl.lib.jdom_2.1.6.201212081830.jar
-del org.rssowl.lib.lucene_2.1.6.201212081830.jar
-del org.rssowl.ui_2.1.6.201212081830.jar
+del org.rssowl.core_2.2.1.201312301314.jar
+del org.rssowl.lib.db4o_2.2.1.201312301314.jar
+del org.rssowl.lib.httpclient_2.2.1.201312301314.jar
+del org.rssowl.lib.jdom_2.2.1.201312301314.jar
+del org.rssowl.lib.lucene_2.2.1.201312301314.jar
+del org.rssowl.ui_2.2.1.201312301314.jar

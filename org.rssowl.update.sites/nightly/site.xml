@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.rssowl_2.2.0.qualifier.jar" id="org.rssowl" version="2.2.0.qualifier">
+   <feature url="features/org.rssowl_2.2.1.qualifier.jar" id="org.rssowl" version="2.2.1.qualifier">
       <category name="rssowl.nightly.update"/>
    </feature>
    <category-def name="rssowl.nightly.update" label="RSSOwl Nightly Update">

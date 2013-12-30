@@ -28,6 +28,7 @@ import static junit.framework.Assert.assertEquals;
 
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.rssowl.core.Owl;
 import org.rssowl.core.internal.persist.service.PersistenceServiceImpl;
@@ -974,6 +975,7 @@ public class CleanUpTests {
    * @throws Exception
    */
   @Test
+  @Ignore
   public void testCleanUpBookmarksBySynchronization() throws Exception {
     IFolder rootFolder = fFactory.createFolder(null, null, "Root");
     DynamicDAO.save(rootFolder);

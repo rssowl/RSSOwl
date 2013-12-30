@@ -28,7 +28,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 import org.rssowl.core.tests.connection.ConnectionTests;
-import org.rssowl.core.tests.connection.SyncConnectionTests;
 import org.rssowl.core.tests.controller.ControllerTestNetwork;
 
 /**
@@ -40,7 +39,6 @@ import org.rssowl.core.tests.controller.ControllerTestNetwork;
 @RunWith(Suite.class)
 @SuiteClasses({
   ConnectionTests.class,
-  SyncConnectionTests.class,
   ControllerTestNetwork.class
 })
 public class NetworkTests {}

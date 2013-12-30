@@ -2,7 +2,7 @@
 <feature
       id="org.rssowl.tests"
       label="RSSOwl Tests Feature"
-      version="2.2.0.qualifier"
+      version="2.2.1.qualifier"
       provider-name="RSSOwl.org">
 
    <description url="http://www.example.com/description">

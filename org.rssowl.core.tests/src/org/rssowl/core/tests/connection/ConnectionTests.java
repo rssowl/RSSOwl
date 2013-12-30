@@ -37,6 +37,7 @@ import org.eclipse.core.runtime.IExtensionRegistry;
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.core.runtime.Platform;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.rssowl.core.Owl;
 import org.rssowl.core.connection.AuthenticationRequiredException;
@@ -667,6 +668,7 @@ public class ConnectionTests {
    * @throws Exception
    */
   @Test
+  @Ignore
   public void testGoogleReaderSync() throws Exception {
     String authToken = SyncUtils.getGoogleAuthToken("rssowl@mailinator.com", "rssowl.org", true, new NullProgressMonitor());
     assertNotNull(authToken);

@@ -91,6 +91,14 @@ public class DublinCoreNamespaceHandler implements INamespaceHandler {
         ((INews) type).setPublishDate(DateUtils.parseDate(element.getText()));
     }
 
+    /* Modified date */
+    else if ("modified".equals(name)) { //$NON-NLS-1$
+      if (type instanceof IFeed)
+        ((IFeed) type).setLastModifiedDate(DateUtils.parseDate(element.getText()));
+      else if (type instanceof INews)
+        ((INews) type).setModifiedDate(DateUtils.parseDate(element.getText()));
+    }
+
     /* Creator */
     else if ("creator".equals(name)) { //$NON-NLS-1$
       IPerson person = Owl.getModelFactory().createPerson(null, type);

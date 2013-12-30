@@ -141,6 +141,10 @@ public class NewsBrowserLabelProvider extends LabelProvider {
     HEADER("header"), //$NON-NLS-1$
     CONTENT("content"), //$NON-NLS-1$
     FOOTER("footer"), //$NON-NLS-1$
+    FOOTER_STICKY_LINK("footerStickyLink"), //$NON-NLS-1$
+    FOOTER_ARCHIVE_LINK("footerArchiveLink"), //$NON-NLS-1$
+    FOOTER_LABEL_MENU_LINK("footerLabelMenuLink"), //$NON-NLS-1$
+    FOOTER_SHARE_MENU_LINK("footerShareMenuLink"), //$NON-NLS-1$
     FIND_RELATED_MENU_LINK("findRelatedMenuLink"), //$NON-NLS-1$
     FOOTER_NEWS_MENU_LINK("footerNewsMenuLink"), //$NON-NLS-1$
     ATTACHMENTS_MENU_LINK("attachmentsMenuLink"), //$NON-NLS-1$
@@ -1119,9 +1123,49 @@ public class NewsBrowserLabelProvider extends LabelProvider {
           builder.append("</td>"); //$NON-NLS-1$
         }
 
+        /* Mark Sticky */
+        builder.append("<td class=\"footerline\">"); //$NON-NLS-1$
+        String link = HANDLER_PROTOCOL + TOGGLE_STICKY_HANDLER_ID + "?" + news.getId(); //$NON-NLS-1$
+        imageLink(builder, link, Messages.NewsBrowserLabelProvider_STICKY, Messages.NewsBrowserLabelProvider_STICKY, null, "/icons/obj16/mono_sticky.gif", "mono_sticky.gif", Dynamic.FOOTER_STICKY_LINK.getId(news), null, null); //$NON-NLS-1$ //$NON-NLS-2$
+        builder.append("</td>"); //$NON-NLS-1$
+
+        builder.append("<td class=\"footerlineseparator\">"); //$NON-NLS-1$
+        builder.append("|"); //$NON-NLS-1$
+        builder.append("</td>"); //$NON-NLS-1$
+
+        /* Apply Label */
+        builder.append("<td class=\"footerline\">"); //$NON-NLS-1$
+        link = HANDLER_PROTOCOL + LABELS_MENU_HANDLER_ID + "?" + news.getId(); //$NON-NLS-1$
+        imageLink(builder, link, Messages.NewsBrowserLabelProvider_LABEL, Messages.NewsBrowserLabelProvider_LABEL, null, "/icons/obj16/mono_label.gif", "mono_label.gif", Dynamic.FOOTER_LABEL_MENU_LINK.getId(news), null, null); //$NON-NLS-1$ //$NON-NLS-2$
+        builder.append("</td>"); //$NON-NLS-1$
+
+        builder.append("<td class=\"footerlineseparator\">"); //$NON-NLS-1$
+        builder.append("|"); //$NON-NLS-1$
+        builder.append("</td>"); //$NON-NLS-1$
+
+        /* Archive */
+        builder.append("<td class=\"footerline\">"); //$NON-NLS-1$
+        link = HANDLER_PROTOCOL + ARCHIVE_HANDLER_ID + "?" + news.getId(); //$NON-NLS-1$
+        imageLink(builder, link, Messages.NewsBrowserLabelProvider_ARCHIVE, Messages.NewsBrowserLabelProvider_ARCHIVE_NEWS, null, "/icons/obj16/mono_archive.gif", "mono_archive.gif", Dynamic.FOOTER_ARCHIVE_LINK.getId(news), null, null); //$NON-NLS-1$ //$NON-NLS-2$
+        builder.append("</td>"); //$NON-NLS-1$
+
+        builder.append("<td class=\"footerlineseparator\">"); //$NON-NLS-1$
+        builder.append("|"); //$NON-NLS-1$
+        builder.append("</td>"); //$NON-NLS-1$
+
+        /* Share Menu */
+        builder.append("<td class=\"footerline\">"); //$NON-NLS-1$
+        link = HANDLER_PROTOCOL + SHARE_NEWS_MENU_HANDLER_ID + "?" + news.getId(); //$NON-NLS-1$
+        imageLink(builder, link, Messages.NewsBrowserLabelProvider_SHARE, Messages.NewsBrowserLabelProvider_SHARE_NEWS, null, "/icons/obj16/mono_share.gif", "mono_share.gif", Dynamic.FOOTER_SHARE_MENU_LINK.getId(news), null, null); //$NON-NLS-1$ //$NON-NLS-2$
+        builder.append("</td>"); //$NON-NLS-1$
+
+        builder.append("<td class=\"footerlineseparator\">"); //$NON-NLS-1$
+        builder.append("|"); //$NON-NLS-1$
+        builder.append("</td>"); //$NON-NLS-1$
+
         /* News Menu */
         builder.append("<td class=\"footerline\">"); //$NON-NLS-1$
-        String link = HANDLER_PROTOCOL + NEWS_MENU_HANDLER_ID + "?" + news.getId(); //$NON-NLS-1$
+        link = HANDLER_PROTOCOL + NEWS_MENU_HANDLER_ID + "?" + news.getId(); //$NON-NLS-1$
         imageLink(builder, link, Messages.NewsBrowserLabelProvider_MENU, Messages.NewsBrowserLabelProvider_NEWS_MENU, null, "/icons/obj16/mono_menu.gif", "mono_menu.gif", Dynamic.FOOTER_NEWS_MENU_LINK.getId(news), null, null); //$NON-NLS-1$ //$NON-NLS-2$
         builder.append("</td>"); //$NON-NLS-1$
 

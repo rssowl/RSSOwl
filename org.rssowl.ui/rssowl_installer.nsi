@@ -26,18 +26,18 @@
  * The NSIS-Script to create the RSSOwl installer.
  * 
  * @author bpasero
- * @version 2.1
+ * @version 2.2.1
  */
 
 ;#####	 Variables	######
-!define VER_DISPLAY "2.2.0"
+!define VER_DISPLAY "2.2.1"
 
 ;#####   Include Modern UI   ######
 !include "MUI.nsh"
 
 ;#####   Installer Configuration   ######
 Name "RSSOwl"
-OutFile "RSSOwl Setup 2.2.exe"
+OutFile "RSSOwl Setup 2.2.1.exe"
 InstallDir $PROGRAMFILES\RSSOwl
 InstallDirRegKey HKCU "Software\RSSOwl" ""
 AllowRootDirInstall true
@@ -265,23 +265,23 @@ Section ""
   DetailPrint "$(^Extract) org.eclipse.update.ui_3.2.101.R34x_v20081128.jar"
   nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.eclipse.update.ui_3.2.101.R34x_v20081128.jar.pack plugins\org.eclipse.update.ui_3.2.101.R34x_v20081128.jar'
   
-  DetailPrint "$(^Extract) org.rssowl.core_2.1.6.201212081830.jar"
-  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.core_2.1.6.201212081830.jar.pack plugins\org.rssowl.core_2.1.6.201212081830.jar'
+  DetailPrint "$(^Extract) org.rssowl.core_2.2.1.201312301314.jar"
+  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.core_2.2.1.201312301314.jar.pack plugins\org.rssowl.core_2.2.1.201312301314.jar'
   
-  DetailPrint "$(^Extract) org.rssowl.lib.db4o_2.1.6.201212081830.jar"
-  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.db4o_2.1.6.201212081830.jar.pack plugins\org.rssowl.lib.db4o_2.1.6.201212081830.jar'
+  DetailPrint "$(^Extract) org.rssowl.lib.db4o_2.2.1.201312301314.jar"
+  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.db4o_2.2.1.201312301314.jar.pack plugins\org.rssowl.lib.db4o_2.2.1.201312301314.jar'
   
-  DetailPrint "$(^Extract) org.rssowl.lib.httpclient_2.1.6.201212081830.jar"
-  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.httpclient_2.1.6.201212081830.jar.pack plugins\org.rssowl.lib.httpclient_2.1.6.201212081830.jar'
+  DetailPrint "$(^Extract) org.rssowl.lib.httpclient_2.2.1.201312301314.jar"
+  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.httpclient_2.2.1.201312301314.jar.pack plugins\org.rssowl.lib.httpclient_2.2.1.201312301314.jar'
   
-  DetailPrint "$(^Extract) org.rssowl.lib.jdom_2.1.6.201212081830.jar"
-  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.jdom_2.1.6.201212081830.jar.pack plugins\org.rssowl.lib.jdom_2.1.6.201212081830.jar'
+  DetailPrint "$(^Extract) org.rssowl.lib.jdom_2.2.1.201312301314.jar"
+  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.jdom_2.2.1.201312301314.jar.pack plugins\org.rssowl.lib.jdom_2.2.1.201312301314.jar'
   
-  DetailPrint "$(^Extract) org.rssowl.lib.lucene_2.1.6.201212081830.jar"
-  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.lucene_2.1.6.201212081830.jar.pack plugins\org.rssowl.lib.lucene_2.1.6.201212081830.jar'
+  DetailPrint "$(^Extract) org.rssowl.lib.lucene_2.2.1.201312301314.jar"
+  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.lib.lucene_2.2.1.201312301314.jar.pack plugins\org.rssowl.lib.lucene_2.2.1.201312301314.jar'
   
-  DetailPrint "$(^Extract) org.rssowl.ui_2.1.6.201212081830.jar"
-  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.ui_2.1.6.201212081830.jar.pack plugins\org.rssowl.ui_2.1.6.201212081830.jar'
+  DetailPrint "$(^Extract) org.rssowl.ui_2.2.1.201312301314.jar"
+  nsExec::ExecToStack '"plugins\unpack200.exe" -r plugins\org.rssowl.ui_2.2.1.201312301314.jar.pack plugins\org.rssowl.ui_2.2.1.201312301314.jar'
   
   Delete "$INSTDIR\plugins\unpack200.exe"
   
