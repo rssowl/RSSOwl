@@ -41,12 +41,13 @@ import org.rssowl.core.persist.INews;
 import org.rssowl.core.persist.dao.DynamicDAO;
 import org.rssowl.core.persist.reference.FeedLinkReference;
 import org.rssowl.core.util.DateUtils;
-import org.rssowl.ui.internal.dialogs.cleanup.BookMarkTask;
-import org.rssowl.ui.internal.dialogs.cleanup.CleanUpGroup;
-import org.rssowl.ui.internal.dialogs.cleanup.CleanUpModel;
-import org.rssowl.ui.internal.dialogs.cleanup.CleanUpOperations;
-import org.rssowl.ui.internal.dialogs.cleanup.CleanUpTask;
-import org.rssowl.ui.internal.dialogs.cleanup.NewsTask;
+import org.rssowl.ui.internal.dialogs.cleanup.CleanUpSummaryModel;
+import org.rssowl.ui.internal.dialogs.cleanup.operations.AbstractCleanUpOperation;
+import org.rssowl.ui.internal.dialogs.cleanup.operations.ICleanUpOperation;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.DeleteBookMarkTask;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.CleanUpTaskGroup;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.AbstractCleanUpTask;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.DeleteNewsTask;
 
 import java.net.URI;
 import java.util.ArrayList;
@@ -108,12 +109,12 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Last Visit Date = 3 days */
-    CleanUpOperations ops = new CleanUpOperations(true, 3, false, 0, false, false, false, false, 0, false, 0, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(true, 3, false, 0, false, false, false, false, 0, false, 0, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> tasks = model.getTasks();
+      List<CleanUpTaskGroup> tasks = model.getTasks();
 
       /* Assert Empty (except default ops) */
       assertEquals(1, tasks.size());
@@ -122,27 +123,27 @@ public class CleanUpTests {
     bm3.setCreationDate(new Date(System.currentTimeMillis() - 5 * DAY));
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm3, ((BookMarkTask) tasks.get(0)).getMark());
+      assertEquals(bm3, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
     }
 
     bm3.setCreationDate(new Date(System.currentTimeMillis() - 2 * DAY));
     bm1.setLastVisitDate(new Date(System.currentTimeMillis() - 2 * DAY));
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> tasks = model.getTasks();
+      List<CleanUpTaskGroup> tasks = model.getTasks();
 
       /* Assert Empty (except default ops) */
       assertEquals(1, tasks.size());
@@ -151,9 +152,9 @@ public class CleanUpTests {
     bm1.setLastVisitDate(new Date(System.currentTimeMillis() - 3 * DAY));
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> tasks = model.getTasks();
+      List<CleanUpTaskGroup> tasks = model.getTasks();
 
       /* Assert Empty (except default ops) */
       assertEquals(1, tasks.size());
@@ -162,37 +163,37 @@ public class CleanUpTests {
     bm1.setLastVisitDate(new Date(System.currentTimeMillis() - 4 * DAY));
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm1, ((BookMarkTask) tasks.get(0)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
     }
 
     bm2.setLastVisitDate(new Date(System.currentTimeMillis() - 40 * DAY));
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(2, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
-      assertEquals(true, tasks.get(1) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
+      assertEquals(true, tasks.get(1) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm1, ((BookMarkTask) tasks.get(0)).getMark());
-      assertEquals(bm2, ((BookMarkTask) tasks.get(1)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
+      assertEquals(bm2, ((DeleteBookMarkTask) tasks.get(1)).getBookmarkMark());
     }
   }
 
@@ -242,23 +243,23 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Last Update Date = 3 days */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, true, 3, false, false, false, false, 0, false, 0, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, true, 3, false, false, false, false, 0, false, 0, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(2, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
-      assertEquals(true, tasks.get(1) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
+      assertEquals(true, tasks.get(1) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm1, ((BookMarkTask) tasks.get(0)).getMark());
-      assertEquals(bm2, ((BookMarkTask) tasks.get(1)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
+      assertEquals(bm2, ((DeleteBookMarkTask) tasks.get(1)).getBookmarkMark());
     }
   }
 
@@ -295,21 +296,21 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Last Update Date = 3 days */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, true, false, false, false, 0, false, 0, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, true, false, false, false, 0, false, 0, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm3, ((BookMarkTask) tasks.get(0)).getMark());
+      assertEquals(bm3, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
     }
   }
 
@@ -362,22 +363,22 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Delete Duplicates */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, true, false, false, 0, false, 0, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, true, false, false, 0, false, 0, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(2, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm1, ((BookMarkTask) tasks.get(0)).getMark());
-      assertEquals(bmMostRecentDuplicate, ((BookMarkTask) tasks.get(1)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
+      assertEquals(bmMostRecentDuplicate, ((DeleteBookMarkTask) tasks.get(1)).getBookmarkMark());
     }
   }
 
@@ -428,47 +429,47 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Last Update Date = 3 days, Last Visit = 3 days */
-    CleanUpOperations ops = new CleanUpOperations(true, 3, true, 3, false, false, false, false, 0, false, 0, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(true, 3, true, 3, false, false, false, false, 0, false, 0, false, false, false);
 
     bm3.setLastVisitDate(new Date(System.currentTimeMillis() - 4 * DAY));
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(3, groups.size());
 
-      List<CleanUpTask> tasks1 = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks1 = groups.get(1).getTasks();
       assertEquals(1, tasks1.size());
-      assertEquals(true, tasks1.get(0) instanceof BookMarkTask);
+      assertEquals(true, tasks1.get(0) instanceof DeleteBookMarkTask);
 
-      List<CleanUpTask> tasks2 = groups.get(2).getTasks();
+      List<AbstractCleanUpTask> tasks2 = groups.get(2).getTasks();
       assertEquals(1, tasks2.size());
-      assertEquals(true, tasks2.get(0) instanceof BookMarkTask);
+      assertEquals(true, tasks2.get(0) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm1, ((BookMarkTask) tasks2.get(0)).getMark());
-      assertEquals(bm3, ((BookMarkTask) tasks1.get(0)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks2.get(0)).getBookmarkMark());
+      assertEquals(bm3, ((DeleteBookMarkTask) tasks1.get(0)).getBookmarkMark());
     }
 
     bm1.setLastVisitDate(new Date(System.currentTimeMillis() - 4 * DAY));
     bm2.setLastVisitDate(new Date(System.currentTimeMillis() - 4 * DAY));
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks1 = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks1 = groups.get(1).getTasks();
       assertEquals(3, tasks1.size());
 
-      assertEquals(bm1, ((BookMarkTask) tasks1.get(0)).getMark());
-      assertEquals(bm2, ((BookMarkTask) tasks1.get(1)).getMark());
-      assertEquals(bm3, ((BookMarkTask) tasks1.get(2)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks1.get(0)).getBookmarkMark());
+      assertEquals(bm2, ((DeleteBookMarkTask) tasks1.get(1)).getBookmarkMark());
+      assertEquals(bm3, ((DeleteBookMarkTask) tasks1.get(2)).getBookmarkMark());
     }
   }
 
@@ -512,30 +513,30 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Max News Count: 1 */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, false, false, true, 1, false, 0, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, true, 1, false, 0, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof NewsTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteNewsTask);
 
-      assertEquals(news, ((NewsTask) tasks.get(0)).getNews().iterator().next().resolve());
+      assertEquals(news, ((DeleteNewsTask) tasks.get(0)).getNews().iterator().next().resolve());
     }
 
     /* Max News Count: 2 */
-    ops = new CleanUpOperations(false, 0, false, 0, false, false, false, true, 2, false, 0, false, false, false);
+    ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, true, 2, false, 0, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Empty */
       assertEquals(1, groups.size());
@@ -583,39 +584,39 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Max News Age = 3 days */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, false, false, false, 0, true, 3, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, false, 0, true, 3, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof NewsTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteNewsTask);
 
-      assertEquals(news1, ((NewsTask) tasks.get(0)).getNews().iterator().next().resolve());
+      assertEquals(news1, ((DeleteNewsTask) tasks.get(0)).getNews().iterator().next().resolve());
     }
 
     /* Max News Age = 1 days */
-    ops = new CleanUpOperations(false, 0, false, 0, false, false, false, false, 0, true, 1, false, false, false);
+    ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, false, 0, true, 1, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(3, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof NewsTask);
-      assertEquals(true, tasks.get(1) instanceof NewsTask);
-      assertEquals(true, tasks.get(2) instanceof NewsTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteNewsTask);
+      assertEquals(true, tasks.get(1) instanceof DeleteNewsTask);
+      assertEquals(true, tasks.get(2) instanceof DeleteNewsTask);
     }
   }
 
@@ -660,12 +661,12 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Max News Age = 3 days and keep unread */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, false, false, false, 0, true, 3, false, true, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, false, 0, true, 3, false, true, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Empty */
       assertEquals(1, groups.size());
@@ -675,18 +676,18 @@ public class CleanUpTests {
     DynamicDAO.save(news1);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof NewsTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteNewsTask);
 
-      assertEquals(news1, ((NewsTask) tasks.get(0)).getNews().iterator().next().resolve());
+      assertEquals(news1, ((DeleteNewsTask) tasks.get(0)).getNews().iterator().next().resolve());
     }
   }
 
@@ -732,12 +733,12 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Max News Age = 3 days and keep unread */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, false, false, false, 0, true, 3, false, false, true);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, false, 0, true, 3, false, false, true);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Empty */
       assertEquals(1, groups.size());
@@ -749,18 +750,18 @@ public class CleanUpTests {
     DynamicDAO.save(news2);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof NewsTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteNewsTask);
 
-      assertEquals(news1, ((NewsTask) tasks.get(0)).getNews().iterator().next().resolve());
+      assertEquals(news1, ((DeleteNewsTask) tasks.get(0)).getNews().iterator().next().resolve());
     }
   }
 
@@ -805,12 +806,12 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Max News Age = 3 days and keep unread */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, false, false, false, 0, true, 3, false, false, true);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, false, 0, true, 3, false, false, true);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Empty */
       assertEquals(1, groups.size());
@@ -822,18 +823,18 @@ public class CleanUpTests {
     DynamicDAO.save(news2);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(1, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof NewsTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteNewsTask);
 
-      assertEquals(news1, ((NewsTask) tasks.get(0)).getNews().iterator().next().resolve());
+      assertEquals(news1, ((DeleteNewsTask) tasks.get(0)).getNews().iterator().next().resolve());
     }
   }
 
@@ -884,23 +885,23 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Max Last Visit Age = 3 days && Max News Age = 3 days */
-    CleanUpOperations ops = new CleanUpOperations(true, 3, false, 0, false, false, false, false, 0, true, 3, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(true, 3, false, 0, false, false, false, false, 0, true, 3, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(2, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
-      assertEquals(true, tasks.get(1) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
+      assertEquals(true, tasks.get(1) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm1, ((BookMarkTask) tasks.get(0)).getMark());
-      assertEquals(bm2, ((BookMarkTask) tasks.get(1)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
+      assertEquals(bm2, ((DeleteBookMarkTask) tasks.get(1)).getBookmarkMark());
     }
   }
 
@@ -948,26 +949,26 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Max News Age = 3 days and Max Count = 1 */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, false, false, true, 1, true, 3, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, false, true, 1, true, 3, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(3, groups.size());
 
-      List<CleanUpTask> tasks1 = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks1 = groups.get(1).getTasks();
       assertEquals(1, tasks1.size());
-      assertEquals(true, tasks1.get(0) instanceof NewsTask);
+      assertEquals(true, tasks1.get(0) instanceof DeleteNewsTask);
 
-      List<CleanUpTask> tasks2 = groups.get(2).getTasks();
+      List<AbstractCleanUpTask> tasks2 = groups.get(2).getTasks();
       assertEquals(1, tasks1.size());
-      assertEquals(true, tasks2.get(0) instanceof NewsTask);
+      assertEquals(true, tasks2.get(0) instanceof DeleteNewsTask);
 
-      assertEquals(news4, ((NewsTask) tasks1.get(0)).getNews().iterator().next().resolve());
-      assertEquals(news1, ((NewsTask) tasks2.get(0)).getNews().iterator().next().resolve());
+      assertEquals(news4, ((DeleteNewsTask) tasks1.get(0)).getNews().iterator().next().resolve());
+      assertEquals(news1, ((DeleteNewsTask) tasks2.get(0)).getNews().iterator().next().resolve());
     }
   }
 
@@ -1002,23 +1003,23 @@ public class CleanUpTests {
     marks.add(bm3);
 
     /* Last Update Date = 3 days */
-    CleanUpOperations ops = new CleanUpOperations(false, 0, false, 0, false, false, true, false, 0, false, 0, false, false, false);
+    ICleanUpOperation ops = new AbstractCleanUpOperation(false, 0, false, 0, false, false, true, false, 0, false, 0, false, false, false);
 
     {
-      CleanUpModel model = new CleanUpModel(ops, marks);
+      CleanUpSummaryModel model = new CleanUpSummaryModel(ops, marks);
       model.generate(new NullProgressMonitor());
-      List<CleanUpGroup> groups = model.getTasks();
+      List<CleanUpTaskGroup> groups = model.getTasks();
 
       /* Assert Filled */
       assertEquals(2, groups.size());
 
-      List<CleanUpTask> tasks = groups.get(1).getTasks();
+      List<AbstractCleanUpTask> tasks = groups.get(1).getTasks();
       assertEquals(2, tasks.size());
-      assertEquals(true, tasks.get(0) instanceof BookMarkTask);
-      assertEquals(true, tasks.get(1) instanceof BookMarkTask);
+      assertEquals(true, tasks.get(0) instanceof DeleteBookMarkTask);
+      assertEquals(true, tasks.get(1) instanceof DeleteBookMarkTask);
 
-      assertEquals(bm1, ((BookMarkTask) tasks.get(0)).getMark());
-      assertEquals(bm2, ((BookMarkTask) tasks.get(1)).getMark());
+      assertEquals(bm1, ((DeleteBookMarkTask) tasks.get(0)).getBookmarkMark());
+      assertEquals(bm2, ((DeleteBookMarkTask) tasks.get(1)).getBookmarkMark());
     }
   }
 }

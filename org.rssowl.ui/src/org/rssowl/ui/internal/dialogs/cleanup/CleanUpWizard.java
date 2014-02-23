@@ -24,33 +24,31 @@
 
 package org.rssowl.ui.internal.dialogs.cleanup;
 
+// eclipse
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.operation.IRunnableWithProgress;
 import org.eclipse.jface.window.Window;
 import org.eclipse.jface.wizard.Wizard;
 import org.eclipse.osgi.util.NLS;
+// rssowl core
 import org.rssowl.core.Owl;
-import org.rssowl.core.internal.persist.pref.DefaultPreferences;
-import org.rssowl.core.persist.IBookMark;
-import org.rssowl.core.persist.INews;
-import org.rssowl.core.persist.ISearchFilter;
-import org.rssowl.core.persist.ISearchMark;
 import org.rssowl.core.persist.dao.DynamicDAO;
-import org.rssowl.core.persist.dao.INewsDAO;
-import org.rssowl.core.persist.pref.IPreferenceScope;
-import org.rssowl.core.persist.reference.NewsReference;
-import org.rssowl.core.util.CoreUtils;
 import org.rssowl.core.util.StringUtils;
-import org.rssowl.core.util.SyncUtils;
+// rssowl UI
 import org.rssowl.ui.internal.Activator;
 import org.rssowl.ui.internal.Controller;
 import org.rssowl.ui.internal.OwlUI;
 import org.rssowl.ui.internal.dialogs.ConfirmDialog;
+import org.rssowl.ui.internal.dialogs.cleanup.pages.EntitySelectionPage;
+import org.rssowl.ui.internal.dialogs.cleanup.pages.OperationsPage;
+import org.rssowl.ui.internal.dialogs.cleanup.pages.SummaryPage;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.AbstractCleanUpTask;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.BookMarkDeleteTask;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.NewsDeleteTask;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.SearchMarkDeleteOrphanedTask;
 
 import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -58,9 +56,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @author bpasero
  */
 public class CleanUpWizard extends Wizard {
-  private CleanUpOptionsPage fCleanUpOptionsPage;
-  private FeedSelectionPage fFeedSelectionPage;
-  private CleanUpSummaryPage fCleanUpSummaryPage;
+  private OperationsPage fCleanUpOptionsPage;
+  private EntitySelectionPage fFeedSelectionPage;
+  private SummaryPage fCleanUpSummaryPage;
 
   /*
    * @see org.eclipse.jface.wizard.Wizard#addPages()
@@ -71,15 +69,15 @@ public class CleanUpWizard extends Wizard {
     setHelpAvailable(false);
 
     /* Choose Feeds for Clean-Up */
-    fFeedSelectionPage = new FeedSelectionPage(Messages.CleanUpWizard_CHOOSE_BOOKMARKS);
+    fFeedSelectionPage = new EntitySelectionPage(Messages.CleanUpWizard_CHOOSE_BOOKMARKS);
     addPage(fFeedSelectionPage);
 
     /* Clean Up Options */
-    fCleanUpOptionsPage = new CleanUpOptionsPage(Messages.CleanUpWizard_CLEANUP_OPS);
+    fCleanUpOptionsPage = new OperationsPage(Messages.CleanUpWizard_CLEANUP_OPS);
     addPage(fCleanUpOptionsPage);
 
     /* Clean Up Summary */
-    fCleanUpSummaryPage = new CleanUpSummaryPage(Messages.CleanUpWizard_SUMMARY);
+    fCleanUpSummaryPage = new SummaryPage(Messages.CleanUpWizard_SUMMARY);
     addPage(fCleanUpSummaryPage);
   }
 
@@ -88,152 +86,56 @@ public class CleanUpWizard extends Wizard {
    */
   @Override
   public boolean performFinish() {
-    final INewsDAO newsDao = DynamicDAO.getDAO(INewsDAO.class);
-    final CleanUpOperations operations = fCleanUpOptionsPage.getOperations();
     final AtomicBoolean askForRestart = new AtomicBoolean(false);
 
     /* Receive Tasks */
-    final List<CleanUpTask> tasks = fCleanUpSummaryPage.getTasks();
+    final List<AbstractCleanUpTask> tasks = fCleanUpSummaryPage.getTasks();
 
-    /* Show final confirmation prompt */
-    StringBuilder smNames= new StringBuilder();
-    int bmCounter = 0;
-    int smCounter = 0;
-    int newsCounter = 0;
-    for (CleanUpTask task : tasks) {
-      if (task instanceof BookMarkTask)
-        bmCounter++;
-      else if (task instanceof NewsTask)
-        newsCounter += ((NewsTask) task).getNews().size();
-      else if (task instanceof DeleteOrphanedSearchMarkTask) {
-        List<ISearchMark> searches = ((DeleteOrphanedSearchMarkTask) task).getSearchMarks();
-        smCounter += searches.size();
-        for (ISearchMark search : searches) {
-          smNames.append(search.getName()).append(", "); //$NON-NLS-1$
-        }
-
-        if (smNames.length() != 0)
-          smNames.delete(smNames.length() - 2, smNames.length());
-      }
-    }
-
-    if (bmCounter != 0 || newsCounter != 0 || smCounter != 0) {
-      StringBuilder msg = new StringBuilder(Messages.CleanUpWizard_PLEASE_CONFIRM_DELETE).append("\n\n"); //$NON-NLS-1$
-
-      if (bmCounter == 1)
-        msg.append(Messages.CleanUpWizard_ONE_FEED).append("\n"); //$NON-NLS-1$
-      else if (bmCounter > 1)
-        msg.append(NLS.bind(Messages.CleanUpWizard_N_FEEDS, bmCounter)).append("\n"); //$NON-NLS-1$
-
-      if (newsCounter != 0)
-        msg.append(NLS.bind(Messages.CleanUpWizard_N_NEWS, newsCounter)).append("\n"); //$NON-NLS-1$
-
-      if (smCounter == 1)
-        msg.append(NLS.bind(Messages.CleanUpWizard_ONE_SEARCH, StringUtils.replaceAll(smNames.toString(), "&", "&&"))).append("\n"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-      else if (smCounter > 1)
-        msg.append(NLS.bind(Messages.CleanUpWizard_N_SEARCHES, smCounter, StringUtils.replaceAll(smNames.toString(), "&", "&&"))).append("\n"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-
-      ConfirmDialog dialog = new ConfirmDialog(getShell(), Messages.CleanUpWizard_CONFIRM_DELETE, Messages.CleanUpWizard_NO_UNDO, msg.toString(), null);
-      if (dialog.open() != Window.OK)
-        return false;
-    }
-
-    /* Restore Editors if Bookmarks are to be deleted */
-    if (bmCounter > 0)
-      OwlUI.getFeedViews();
+    // Show final confirmation prompt
+    if (!showConfirmDialog(tasks))
+      return false;
 
     /* Runnable that performs the tasks */
     IRunnableWithProgress runnable = new IRunnableWithProgress() {
       public void run(IProgressMonitor monitor) {
-        IPreferenceScope preferences = Owl.getPreferenceService().getGlobalScope();
-        boolean optimizeSearch = false;
-        monitor.beginTask(Messages.CleanUpWizard_WAIT_CLEANUP, IProgressMonitor.UNKNOWN);
+
+        // this is Hash for return boolean flags
+        PostProcessingWork work = new PostProcessingWork();
+
+        // start progress monitor
+        int units = 0;
+        units += 1; // from optimize search index
+        for (AbstractCleanUpTask task : tasks)
+          units += task.getWorkUnits();
+
+        monitor.beginTask(Messages.CleanUpWizard_WAIT_CLEANUP, units);
 
         /* Perform Tasks */
-        List<IBookMark> bookmarks = new ArrayList<IBookMark>();
-        for (CleanUpTask task : tasks) {
-
-          /* Delete Bookmark Task */
-          if (task instanceof BookMarkTask)
-            bookmarks.add(((BookMarkTask) task).getMark());
-
-          /* Delete News Task */
-          else if (task instanceof NewsTask) {
-            Collection<NewsReference> news = ((NewsTask) task).getNews();
-            List<INews> resolvedNews = new ArrayList<INews>(news.size());
-            for (NewsReference newsRef : news) {
-              INews resolvedNewsItem = newsRef.resolve();
-              if (resolvedNewsItem != null && resolvedNewsItem.isVisible())
-                resolvedNews.add(resolvedNewsItem);
-              else
-                CoreUtils.reportIndexIssue();
-            }
-
-            newsDao.setState(resolvedNews, INews.State.DELETED, false, false);
-          }
-
-          /* Delete Orphaned Searches */
-          else if (task instanceof DeleteOrphanedSearchMarkTask) {
-            List<ISearchMark> searches = ((DeleteOrphanedSearchMarkTask) task).getSearchMarks();
-            DynamicDAO.deleteAll(searches);
-          }
-
-          /* Disable Orphaned News Filters */
-          else if (task instanceof DisableOrphanedNewsFiltersTask) {
-            List<ISearchFilter> filters = ((DisableOrphanedNewsFiltersTask) task).getFilters();
-            for (ISearchFilter filter : filters) {
-              filter.setEnabled(false);
-            }
-            DynamicDAO.saveAll(filters);
-          }
-
-          /* Optimize Lucene Index */
-          else if (task instanceof OptimizeSearchTask)
-            optimizeSearch = true;
-
-          /* Clean-Up Lucene Index */
-          else if (task instanceof CleanUpIndexTask) {
-            preferences.putBoolean(DefaultPreferences.CLEAN_UP_INDEX, false);
-            Owl.getPersistenceService().getModelSearch().cleanUpOnNextStartup();
-            askForRestart.set(true);
-          }
-
-          /* Defrag Database */
-          else if (task instanceof DefragDatabaseTask) {
-            Owl.getPersistenceService().defragmentOnNextStartup();
-            askForRestart.set(true);
-          }
+        for (AbstractCleanUpTask task : tasks) {
+          monitor.subTask(task.getLabel());
+          task.perform(work);
+          monitor.worked(task.getActualWorkUnits());
         }
 
+        // if we should restart
+        askForRestart.set(work.needRestart());
+
         /* Delete BookMarks */
-        Controller.getDefault().getSavedSearchService().forceQuickUpdate();
-        DynamicDAO.deleteAll(bookmarks);
+        {
+          monitor.subTask("Deleting Bookmarks"); //$NON-NLS-1$
+          Controller.getDefault().getSavedSearchService().forceQuickUpdate();
+          int taskUnits = work.bookmarksToDelete().size();
+          DynamicDAO.deleteAll(work.bookmarksToDelete());
+          monitor.worked(taskUnits);
+        }
 
         /* Optimize Search */
-        if (optimizeSearch)
+
+        if (work.isOptimizeSearch()) {
+          monitor.subTask("Optimizing Search Index"); //$NON-NLS-1$
           Owl.getPersistenceService().getModelSearch().optimize();
-
-        /* Save Operations */
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_BM_BY_LAST_VISIT_STATE, operations.deleteFeedByLastVisit());
-        preferences.putInteger(DefaultPreferences.CLEAN_UP_BM_BY_LAST_VISIT_VALUE, operations.getLastVisitDays());
-
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_BM_BY_LAST_UPDATE_STATE, operations.deleteFeedByLastUpdate());
-        preferences.putInteger(DefaultPreferences.CLEAN_UP_BM_BY_LAST_UPDATE_VALUE, operations.getLastUpdateDays());
-        if (SyncUtils.hasSyncCredentials())
-          preferences.putBoolean(DefaultPreferences.CLEAN_UP_BM_BY_SYNCHRONIZATION, operations.deleteFeedsBySynchronization());
-
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_BM_BY_CON_ERROR, operations.deleteFeedsByConError());
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_BM_BY_DUPLICATES, operations.deleteFeedsByDuplicates());
-
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_NEWS_BY_AGE_STATE, operations.deleteNewsByAge());
-        preferences.putInteger(DefaultPreferences.CLEAN_UP_NEWS_BY_AGE_VALUE, operations.getMaxNewsAge());
-
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_NEWS_BY_COUNT_STATE, operations.deleteNewsByCount());
-        preferences.putInteger(DefaultPreferences.CLEAN_UP_NEWS_BY_COUNT_VALUE, operations.getMaxNewsCountPerFeed());
-
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_READ_NEWS_STATE, operations.deleteReadNews());
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_NEVER_DEL_UNREAD_NEWS_STATE, operations.keepUnreadNews());
-        preferences.putBoolean(DefaultPreferences.CLEAN_UP_NEVER_DEL_LABELED_NEWS_STATE, operations.keepLabeledNews());
+          monitor.worked(1);
+        }
 
         monitor.done();
       }
@@ -241,18 +143,72 @@ public class CleanUpWizard extends Wizard {
 
     /* Perform Runnable in separate Thread and show progress */
     try {
-      getContainer().run(true, false, runnable);
+      getContainer().run(true, false, runnable); // runs in another thread?
     } catch (InvocationTargetException e) {
       Activator.getDefault().logError(e.getMessage(), e);
     } catch (InterruptedException e) {
       Activator.getDefault().logError(e.getMessage(), e);
     }
 
-    /* Ask to restart if Task was used */
+    /* Save Operations Preferences in case clean up was performed */
+    fCleanUpOptionsPage.savePreferences(Owl.getPreferenceService().getGlobalScope());
+
+    /* Ask to restart if necessay */
     if (askForRestart.get()) {
       boolean restart = MessageDialog.openQuestion(getShell(), Messages.CleanUpWizard_RESTART_RSSOWL, Messages.CleanUpWizard_RESTART_TO_CLEANUP);
-      if (restart)
+      if (restart) {
         Controller.getDefault().restart();
+      }
+    }
+
+    return true;
+  }
+
+  /* Show final confirmation prompt */
+  private boolean showConfirmDialog(List<AbstractCleanUpTask> tasks) {
+    // SearchMarks info
+    String searchmarksNames = null;
+    int searchmarksCounter = 0;
+    int bookmarksCounter = 0;
+    int newsCounter = 0;
+    for (AbstractCleanUpTask task : tasks) {
+      if (task instanceof BookMarkDeleteTask) {
+        bookmarksCounter++;
+      } else if (task instanceof NewsDeleteTask) {
+        newsCounter += ((NewsDeleteTask) task).getNews().size();
+      } else if (task instanceof SearchMarkDeleteOrphanedTask) {
+        searchmarksNames = ((SearchMarkDeleteOrphanedTask) task).getSearchesNames();
+        searchmarksCounter += ((SearchMarkDeleteOrphanedTask) task).getSearchesCount();
+      }
+    }
+
+    if (bookmarksCounter != 0 || newsCounter != 0 || searchmarksCounter != 0) {
+      StringBuilder msg = new StringBuilder(Messages.CleanUpWizard_PLEASE_CONFIRM_DELETE).append("\n\n"); //$NON-NLS-1$
+
+      if (bookmarksCounter == 1) {
+        msg.append(Messages.CleanUpWizard_ONE_FEED).append("\n"); //$NON-NLS-1$
+      } else if (bookmarksCounter > 1) {
+        msg.append(NLS.bind(Messages.CleanUpWizard_N_FEEDS, bookmarksCounter)).append("\n"); //$NON-NLS-1$
+      }
+
+      if (newsCounter != 0) {
+        msg.append(NLS.bind(Messages.CleanUpWizard_N_NEWS, newsCounter)).append("\n"); //$NON-NLS-1$
+      }
+
+      if (searchmarksCounter == 1) {
+        msg.append(NLS.bind(Messages.CleanUpWizard_ONE_SEARCH, StringUtils.replaceAll(searchmarksNames, "&", "&&"))).append("\n"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+      } else if (searchmarksCounter > 1) {
+        msg.append(NLS.bind(Messages.CleanUpWizard_N_SEARCHES, searchmarksCounter, StringUtils.replaceAll(searchmarksNames, "&", "&&"))).append("\n"); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+      }
+
+      ConfirmDialog dialog = new ConfirmDialog(getShell(), Messages.CleanUpWizard_CONFIRM_DELETE, Messages.CleanUpWizard_NO_UNDO, msg.toString(), null);
+      if (dialog.open() != Window.OK)
+        return false;
+    }
+
+    /* Restore Editors if Bookmarks are to be deleted */
+    if (bookmarksCounter > 0) {
+      OwlUI.getFeedViews();
     }
 
     return true;
