@@ -1436,6 +1436,24 @@
             </or>
          </visibility>
       </objectContribution>
+      <objectContribution
+            adaptable="false"
+            id="org.rssowl.ui.EditSavedSearchContribution"
+            objectClass="java.lang.Object">
+         <action
+               class="org.rssowl.ui.internal.actions.EditSavedSearchAction"
+               definitionId="org.rssowl.ui.EditSavedSearchAction"
+               enablesFor="1"
+               id="org.rssowl.ui.EditSavedSearchAction"
+               label="%action.label.41"
+               menubarPath="properties">
+         </action>
+         <visibility>
+            <objectClass
+                  name="org.rssowl.core.persist.ISearchMark">
+            </objectClass>
+         </visibility>
+      </objectContribution>
    </extension>
    <extension
          point="org.eclipse.ui.editors">
