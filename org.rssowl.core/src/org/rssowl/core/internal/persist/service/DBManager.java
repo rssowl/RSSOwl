@@ -1009,19 +1009,36 @@ public class DBManager {
     ObjectSet<Label> allLabels = sourceDb.query(Label.class);
     int available = DEFRAG_SUB_WORK_LABELS;
     if (!allLabels.isEmpty()) {
-      int chunk = available / allLabels.size();
+      // TODO make sure labels orders are unique and compact
+      // TODO TEST MuxaJIbI4
+      // TODO log if found duplicate labels
+      // retain only labels with uniquie ids
+      Set<Long> ids = new HashSet<Long>();
       for (Label label : allLabels) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
-          return;
-
+        Long id = label.getId();
+        if (ids.contains(id)) {
+          continue; // duplicate label id
+        }
+        ids.add(id);
         labels.add(label);
+      }
+      allLabels = null;
+
+      int chunk = available / labels.size();
+      int i = 1;
+      for (Label label : labels) {
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+          return;
+        }
+        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_LABELS, i, labels.size()));
+        i++;
         sourceDb.activate(label, Integer.MAX_VALUE);
         destinationDb.ext().set(label, Integer.MAX_VALUE);
         monitor.worked(chunk);
       }
-      allLabels = null;
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
@@ -1032,13 +1049,19 @@ public class DBManager {
     available = DEFRAG_SUB_WORK_FOLDERS;
     if (!allFolders.isEmpty()) {
       int chunk = available / allFolders.size();
-      for (Folder type : allFolders) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+      int i = 1;
+      monitor.subTask("Processing Folders"); //$NON-NLS-1$
+      for (Folder folder : allFolders) {
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return;
+        }
+        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_FOLDERS, i, allFolders.size()));
+        i++;
 
-        sourceDb.activate(type, Integer.MAX_VALUE);
-        if (type.getParent() == null)
-          destinationDb.ext().set(type, Integer.MAX_VALUE);
+        sourceDb.activate(folder, Integer.MAX_VALUE);
+        if (folder.getParent() == null) {
+          destinationDb.ext().set(folder, Integer.MAX_VALUE);
+        }
 
         monitor.worked(chunk);
       }
@@ -1059,15 +1082,21 @@ public class DBManager {
     available = DEFRAG_SUB_WORK_BINS;
     if (!allBins.isEmpty()) {
       int chunk = available / allBins.size();
+      int i = 1;
+      monitor.subTask("Processing NewsBins"); //$NON-NLS-1$
       for (NewsBin newsBin : allBins) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return;
+        }
+        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSBINS, i, allBins.size()));
+        i++;
 
         destinationDb.activate(newsBin, Integer.MAX_VALUE);
         List<NewsReference> staleNewsRefs = new ArrayList<NewsReference>(0);
         for (NewsReference newsRef : newsBin.getNewsRefs()) {
-          if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+          if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
             return;
+          }
 
           Query query = sourceDb.query();
           query.constrain(News.class);
@@ -1144,6 +1173,8 @@ public class DBManager {
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
       return;
 
+    // updating news counters
+    monitor.subTask(Messages.DBManager_UPDATING_NEWS_COUNTERS);
     destinationDb.ext().set(newsCounter, Integer.MAX_VALUE);
 
     /* User might have cancelled the operation */
@@ -1156,16 +1187,19 @@ public class DBManager {
     ObjectSet<Description> allDescriptions = sourceDb.query(Description.class);
     if (!allDescriptions.isEmpty()) {
       int chunk = Math.max(1, available / allDescriptions.size());
-
+      int i = 1;
       for (Description description : allDescriptions) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return;
+        }
+        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_DESCRIPTIONS, i, allDescriptions.size()));
+        i++;
 
         sourceDb.activate(description, Integer.MAX_VALUE);
         destinationDb.ext().set(description, Integer.MAX_VALUE);
 
         ++descriptionCounter;
-        if (descriptionCounter % 600 == 0) {
+        if (descriptionCounter % 1000 == 0) {
           destinationDb.commit();
           System.gc();
         }
@@ -1188,10 +1222,13 @@ public class DBManager {
     ObjectSet<Preference> allPreferences = sourceDb.query(Preference.class);
     if (!allPreferences.isEmpty()) {
       int chunk = available / allPreferences.size();
-
+      int i = 1;
       for (Preference pref : allPreferences) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return;
+        }
+        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_PREFERENCES, i, allPreferences.size()));
+        i++;
 
         sourceDb.activate(pref, Integer.MAX_VALUE);
         destinationDb.ext().set(pref, Integer.MAX_VALUE);
@@ -1212,10 +1249,13 @@ public class DBManager {
     ObjectSet<SearchFilter> allFilters = sourceDb.query(SearchFilter.class);
     if (!allFilters.isEmpty()) {
       int chunk = available / allFilters.size();
-
+      int i = 1;
       for (ISearchFilter filter : allFilters) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return;
+        }
+        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFILTERS, i, allFilters.size()));
+        i++;
 
         sourceDb.activate(filter, Integer.MAX_VALUE);
         destinationDb.ext().set(filter, Integer.MAX_VALUE);
@@ -1231,6 +1271,7 @@ public class DBManager {
       return;
 
     /* Counter */
+    monitor.subTask("Processing News Counters"); //$NON-NLS-1$
     List<Counter> counterSet = sourceDb.query(Counter.class);
     Counter counter = counterSet.iterator().next();
     sourceDb.activate(counter, Integer.MAX_VALUE);
@@ -1243,6 +1284,7 @@ public class DBManager {
       return;
 
     /* Entity Id By Event Type */
+    monitor.subTask("Processing Events"); //$NON-NLS-1$
     EntityIdsByEventType entityIdsByEventType = sourceDb.query(EntityIdsByEventType.class).iterator().next();
     sourceDb.activate(entityIdsByEventType, Integer.MAX_VALUE);
     destinationDb.ext().set(entityIdsByEventType, Integer.MAX_VALUE);
@@ -1258,9 +1300,13 @@ public class DBManager {
     ObjectSet<ConditionalGet> allConditionalGets = sourceDb.query(ConditionalGet.class);
     if (!allConditionalGets.isEmpty()) {
       int chunk = available / allConditionalGets.size();
+      int i = 1;
       for (ConditionalGet conditionalGet : allConditionalGets) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return;
+        }
+        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_CONDITIONAL_GETS, i, allConditionalGets.size()));
+        i++;
 
         sourceDb.activate(conditionalGet, Integer.MAX_VALUE);
         destinationDb.ext().set(conditionalGet, Integer.MAX_VALUE);
@@ -1274,6 +1320,7 @@ public class DBManager {
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
       return;
 
+    monitor.subTask("Close old DB"); //$NON-NLS-1$
     sourceDb.close();
     monitor.worked(DEFRAG_SUB_WORK_CLOSE_SOURCE);
 
@@ -1283,6 +1330,7 @@ public class DBManager {
       return;
     }
 
+    monitor.subTask("Commit new DB"); //$NON-NLS-1$
     destinationDb.commit();
     monitor.worked(DEFRAG_SUB_WORK_COMMITT_DESTINATION);
 
@@ -1299,6 +1347,7 @@ public class DBManager {
     if (monitor.isCanceled())
       return;
 
+    monitor.subTask("Garbage Collection"); //$NON-NLS-1$
     System.gc();
     monitor.worked(DEFRAG_SUB_WORK_FINISH);
   }
