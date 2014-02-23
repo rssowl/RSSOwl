@@ -84,6 +84,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.EnumSet;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -158,8 +159,9 @@ public class DBManager {
    * @return The Singleton Instance.
    */
   public static DBManager getDefault() {
-    if (fInstance == null)
+    if (fInstance == null) {
       fInstance = new DBManager();
+    }
 
     return fInstance;
   }
@@ -248,15 +250,11 @@ public class DBManager {
         if (!defragmentIfNecessary(progressMonitor, subMonitor)) {
 
           /* Defragment */
-          if (migrationResult.isDefragmentDatabase())
+          if (migrationResult.isDefragmentDatabase()) {
             defragment(false, progressMonitor, subMonitor);
-
-          /*
-           * We only run the time-based back-up if a defragment has not taken
-           * place because we always back-up during defragment.
-           */
-          else if (PERFORM_SCHEDULED_BACKUPS)
+          } else if (PERFORM_SCHEDULED_BACKUPS) {
             scheduledBackup(progressMonitor);
+          }
         }
       }
 
@@ -294,8 +292,9 @@ public class DBManager {
               try {
 
                 /* Create Marker that Reindexing is Performed */
-                if (!marker.exists())
+                if (!marker.exists()) {
                   safeCreate(marker);
+                }
 
                 /* Reindex Search Index */
                 reindexed = true;
@@ -307,8 +306,9 @@ public class DBManager {
                  * upon next start the reindexing is started again if it failed
                  * prior.
                  */
-                if (reIndexFile.exists())
+                if (reIndexFile.exists()) {
                   safeDelete(reIndexFile);
+                }
               } finally {
                 safeDelete(marker);
               }
@@ -364,8 +364,9 @@ public class DBManager {
               }
 
               /* Store Next Backup Time */
-              if (!Owl.isShuttingDown() && !monitor.isCanceled())
+              if (!Owl.isShuttingDown() && !monitor.isCanceled()) {
                 schedule(ONLINE_BACKUP_SCHEDULE_INTERVAL);
+              }
             }
 
             return Status.OK_STATUS;
@@ -378,8 +379,9 @@ public class DBManager {
         fNextOnlineBackup.set(System.currentTimeMillis() + getOnlineBackupDelay(true));
       }
     } finally {
-      if (subMonitor != null) //If we perform the migration, the subMonitor is not null. Otherwise we don't show progress.
+      if (subMonitor != null) {
         progressMonitor.done();
+      }
     }
   }
 
@@ -391,15 +393,17 @@ public class DBManager {
     boolean delay = System.currentTimeMillis() >= (fNextOnlineBackup.get() + ONLINE_BACKUP_DELAY_THRESHOLD);
 
     /* Re-Schedule to the future if delay threshold is hit */
-    if (delay)
+    if (delay) {
       fNextOnlineBackup.set(System.currentTimeMillis() + ONLINE_BACKUP_SHORT_INTERVAL);
+    }
 
     return delay;
   }
 
   private long getOnlineBackupDelay(boolean initial) {
-    if (initial)
+    if (initial) {
       return ONLINE_BACKUP_SHORT_INTERVAL;
+    }
 
     return getLongProperty("rssowl.onlinebackup.interval", ONLINE_BACKUP_LONG_INTERVAL); //$NON-NLS-1$
   }
@@ -421,15 +425,17 @@ public class DBManager {
   }
 
   public void addEntityStoreListener(DatabaseListener listener) {
-    if (listener instanceof EventManager)
+    if (listener instanceof EventManager) {
       fEntityStoreListeners.add(0, listener);
-    else if (listener instanceof DB4OIDGenerator) {
-      if (!fEntityStoreListeners.isEmpty() && fEntityStoreListeners.get(0) instanceof EventManager)
+    } else if (listener instanceof DB4OIDGenerator) {
+      if (!fEntityStoreListeners.isEmpty() && fEntityStoreListeners.get(0) instanceof EventManager) {
         fEntityStoreListeners.add(1, listener);
-      else
+      } else {
         fEntityStoreListeners.add(0, listener);
-    } else
+      }
+    } else {
       fEntityStoreListeners.add(listener);
+    }
   }
 
   private void fireDatabaseEvent(DatabaseEvent event, boolean storeOpened) {
@@ -449,8 +455,9 @@ public class DBManager {
       fObjectContainer = Db4o.openFile(config, forRestore ? getDBRestoreFilePath() : getDBFilePath());
 
       /* Handle Fatal Error while opening DB */
-      if (fObjectContainer == null)
+      if (fObjectContainer == null) {
         throw new PersistenceException(Messages.DBManager_UNABLE_TO_OPEN_PROFILE);
+      }
 
       /* Keep date of last successfull profile opened */
       storeProfileLastUsed();
@@ -460,26 +467,31 @@ public class DBManager {
     catch (Throwable e) {
 
       /* Generic Error */
-      if (e instanceof Error)
+      if (e instanceof Error) {
         throw (Error) e;
+      }
 
       /* Persistence Exception */
-      if (e instanceof PersistenceException)
+      if (e instanceof PersistenceException) {
         throw (PersistenceException) e;
+      }
 
       /* Profile locked by another running instance */
-      if (e instanceof DatabaseFileLockedException)
+      if (e instanceof DatabaseFileLockedException) {
         throw new ProfileLockedException(e.getMessage(), e);
+      }
 
       File file = new File(getDBFilePath());
 
       /* Disk Full Error */
-      if (!file.exists())
+      if (!file.exists()) {
         throw new DiskFullException(Messages.DBManager_DISK_FULL_ERROR, e);
+      }
 
       /* Permission Error */
-      if (!file.canRead() || (!file.canWrite()))
+      if (!file.canRead() || (!file.canWrite())) {
         throw new InsufficientFilePermissionException(NLS.bind(Messages.DBManager_FILE_PERMISSION_ERROR, file), null);
+      }
 
       /* Any other Error */
       throw new PersistenceException(e);
@@ -488,8 +500,9 @@ public class DBManager {
 
   private void checkDirPermissions() {
     File dir = new File(Activator.getDefault().getStateLocation().toOSString());
-    if (!dir.canRead() || (!dir.canWrite()))
+    if (!dir.canRead() || (!dir.canWrite())) {
       throw new InsufficientFilePermissionException(NLS.bind(Messages.DBManager_DIRECTORY_PERMISSION_ERROR, dir), null);
+    }
   }
 
   private boolean shouldReindex(MigrationResult migrationResult) {
@@ -498,8 +511,9 @@ public class DBManager {
     boolean shouldReindex = migrationResult.isReindex();
 
     /* Second look if the reindex file exists */
-    if (!shouldReindex && getReIndexFile().exists())
+    if (!shouldReindex && getReIndexFile().exists()) {
       shouldReindex = true;
+    }
 
     if (shouldReindex) { //Need to set system property as model search relies on it
       System.setProperty("rssowl.reindex", "true"); //$NON-NLS-1$ //$NON-NLS-2$
@@ -514,8 +528,9 @@ public class DBManager {
     File file = new File(getDBFilePath());
 
     /* No database file exists, so no back-up can exist */
-    if (!file.exists())
+    if (!file.exists()) {
       return null;
+    }
 
     final BackupService onlineBackupService = new BackupService(file, ONLINE_BACKUP_NAME, MAX_ONLINE_BACKUPS_COUNT);
     onlineBackupService.setBackupStrategy(new BackupService.BackupStrategy() {
@@ -525,17 +540,20 @@ public class DBManager {
         try {
 
           /* Handle Shutdown and Cancellation */
-          if (Owl.isShuttingDown() || monitor.isCanceled())
+          if (Owl.isShuttingDown() || monitor.isCanceled()) {
             return;
+          }
 
           /* Create Marker that Onlinebackup is Performed */
-          if (!marker.exists())
+          if (!marker.exists()) {
             safeCreate(marker);
+          }
 
           /* Use a tmp file to guard against RSSOwl shutdown while backing up */
           tmpBackupFile = new File(backupFile.getParentFile(), TMP_BACKUP_NAME);
-          if (tmpBackupFile.exists() && !tmpBackupFile.delete())
+          if (tmpBackupFile.exists() && !tmpBackupFile.delete()) {
             throw new PersistenceException("Failed to delete file: " + tmpBackupFile); //$NON-NLS-1$
+          }
 
           /* Relies on fObjectContainer being set before calling backup */
           fObjectContainer.ext().backup(tmpBackupFile.getAbsolutePath());
@@ -543,10 +561,11 @@ public class DBManager {
           /* Store Backup as Weekly Backup if necessary */
           File weeklyBackup = onlineBackupService.getWeeklyBackupFile();
           boolean renameToWeekly = false;
-          if (!weeklyBackup.exists()) //First Weekly
+          if (!weeklyBackup.exists()) {
             renameToWeekly = true;
-          else if (weeklyBackup.lastModified() < (System.currentTimeMillis() - MAX_ONLINE_BACKUP_AGE)) //Weekly older 1 Week
+          } else if (weeklyBackup.lastModified() < (System.currentTimeMillis() - MAX_ONLINE_BACKUP_AGE)) {
             renameToWeekly = true;
+          }
 
           /* Atomic Rename */
           DBHelper.rename(tmpBackupFile, renameToWeekly ? weeklyBackup : backupFile);
@@ -554,8 +573,9 @@ public class DBManager {
           throw new PersistenceException(e);
         } finally {
           safeDelete(marker);
-          if (tmpBackupFile != null && tmpBackupFile.exists()) //Cleanup if something went wrong
+          if (tmpBackupFile != null && tmpBackupFile.exists()) {
             safeDelete(tmpBackupFile);
+          }
         }
       }
     });
@@ -665,8 +685,9 @@ public class DBManager {
   }
 
   private void scheduledBackup(IProgressMonitor monitor) {
-    if (!new File(getDBFilePath()).exists())
+    if (!new File(getDBFilePath()).exists()) {
       return;
+    }
 
     long sevenDays = getLongProperty("rssowl.offlinebackup.interval", OFFLINE_BACKUP_INTERVAL); //$NON-NLS-1$
     try {
@@ -704,8 +725,9 @@ public class DBManager {
   private void storeProfileLastUsed() {
     File file = getDBLastUsedFile();
     try {
-      if (!file.exists())
+      if (!file.exists()) {
         file.createNewFile();
+      }
       DBHelper.writeToFile(file, String.valueOf(System.currentTimeMillis()));
     } catch (Exception e) {
       /* Ignore */
@@ -739,8 +761,9 @@ public class DBManager {
         List<File> backupFiles = new ArrayList<File>(3);
         for (int i = workspaceFormat; i >= 0; --i) {
           File file = new File(dbFile.getAbsoluteFile() + backupFileSuffix + i);
-          if (file.exists())
+          if (file.exists()) {
             backupFiles.add(file);
+          }
         }
         return backupFiles;
       }
@@ -778,8 +801,9 @@ public class DBManager {
     DBHelper.rename(migDbFile, dbFile);
 
     /* Pre 2.0 M9 (inclusive) Code Path */
-    if (getOldDBFormatFile().exists())
+    if (getOldDBFormatFile().exists()) {
       getOldDBFormatFile().delete();
+    }
 
     return migrationResult;
   }
@@ -812,8 +836,9 @@ public class DBManager {
 
     if (dbFileExists) {
       /* Assume that it's M5a if no format file exists, but a db file exists */
-      if (!formatFileExists)
+      if (!formatFileExists) {
         return 0;
+      }
 
       String versionText = DBHelper.readFirstLineFromFile(formatFile);
       try {
@@ -858,18 +883,21 @@ public class DBManager {
        * defragmentation
        */
       File defragmentFile = getDefragmentFile();
-      if (defragmentFile.exists())
+      if (defragmentFile.exists()) {
         defragmentFile.delete();
+      }
     }
 
     /* Second: Check if the user asked for defragmentation */
     else {
       File defragmentFile = getDefragmentFile();
-      if (!defragmentFile.exists())
+      if (!defragmentFile.exists()) {
         return false;
+      }
 
-      if (!defragmentFile.delete())
+      if (!defragmentFile.delete()) {
         Activator.getDefault().logError("Failed to delete defragment file", null); //$NON-NLS-1$
+      }
     }
 
     defragment(defragmentToLargeBlockSize, progressMonitor, subMonitor);
@@ -877,8 +905,9 @@ public class DBManager {
   }
 
   private boolean defragmentToLargerBlockSize() {
-    if (getLargeBlockSizeMarkerFile().exists())
+    if (getLargeBlockSizeMarkerFile().exists()) {
       return false;
+    }
 
     File database = new File(getDBFilePath());
     long length = database.exists() ? database.length() : 0;
@@ -908,8 +937,9 @@ public class DBManager {
     BackupService backupService = createScheduledBackupService(null);
     File database = new File(getDBFilePath());
     File defragmentedDatabase = new File(database.getParentFile(), TMP_BACKUP_NAME);
-    if (defragmentedDatabase.exists() && !defragmentedDatabase.delete())
+    if (defragmentedDatabase.exists() && !defragmentedDatabase.delete()) {
       throw new PersistenceException("Failed to delete file: " + defragmentedDatabase); //$NON-NLS-1$
+    }
 
     /* User might have cancelled the operation */
     if (!useLargeBlockSize && monitor.isCanceled()) {
@@ -949,8 +979,9 @@ public class DBManager {
     File largeBlockSizeMarkerFile = getLargeBlockSizeMarkerFile();
     if (useLargeBlockSize && !largeBlockSizeMarkerFile.exists()) {
       try {
-        if (!largeBlockSizeMarkerFile.createNewFile())
+        if (!largeBlockSizeMarkerFile.createNewFile()) {
           Activator.getDefault().logError("Failed to create large blocksize marker file", null); //$NON-NLS-1$
+        }
       } catch (IOException e) {
         Activator.getDefault().logError("Failed to create large blocksize marker file", e); //$NON-NLS-1$
       }
@@ -981,8 +1012,9 @@ public class DBManager {
       sourceDb = Db4o.openFile(createConfiguration(true), source.getAbsolutePath());
 
       Configuration destinationDbConfiguration = createConfiguration(true);
-      if (useLargeBlockSize)
+      if (useLargeBlockSize) {
         destinationDbConfiguration.blockSize(LARGE_DB_BLOCK_SIZE);
+      }
 
       /* Open Destination DB */
       destinationDb = Db4o.openFile(destinationDbConfiguration, destination.getAbsolutePath());
@@ -990,19 +1022,22 @@ public class DBManager {
       /* Copy (Defragment) */
       internalCopyDatabase(sourceDb, destinationDb, useLargeBlockSize, monitor);
     } finally {
-      if (sourceDb != null)
+      if (sourceDb != null) {
         sourceDb.close();
+      }
 
-      if (destinationDb != null)
+      if (destinationDb != null) {
         destinationDb.close();
+      }
     }
   }
 
   public final static void internalCopyDatabase(ObjectContainer sourceDb, ObjectContainer destinationDb, boolean useLargeBlockSize, IProgressMonitor monitor) {
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Labels (keep in memory to avoid duplicate copies when cascading feed) */
     List<Label> labels = new ArrayList<Label>();
@@ -1041,8 +1076,9 @@ public class DBManager {
     }
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Folders */
     ObjectSet<Folder> allFolders = sourceDb.query(Folder.class);
@@ -1066,12 +1102,14 @@ public class DBManager {
         monitor.worked(chunk);
       }
       allFolders = null;
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /*
      * We use destinationDb for the query here because we have already copied
@@ -1113,8 +1151,9 @@ public class DBManager {
         }
 
         if (!staleNewsRefs.isEmpty()) {
-          if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+          if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
             return;
+          }
 
           newsBin.removeNewsRefs(staleNewsRefs);
           destinationDb.ext().set(newsBin, Integer.MAX_VALUE);
@@ -1123,12 +1162,14 @@ public class DBManager {
         monitor.worked(chunk);
       }
       allBins = null;
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Feeds */
     available = DEFRAG_SUB_WORK_FEEDS;
@@ -1141,8 +1182,9 @@ public class DBManager {
 
       int i = 1;
       for (Feed feed : allFeeds) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return;
+        }
 
         /* Introduce own label as feed copying can be very time consuming */
         monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFEEDS, i, allFeedsSize));
@@ -1163,23 +1205,26 @@ public class DBManager {
       allFeeds = null;
       destinationDb.commit();
       System.gc();
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* Back to normal subtask label */
     monitor.subTask(Messages.DBManager_IMPROVING_APP_PERFORMANCE);
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     // updating news counters
     monitor.subTask(Messages.DBManager_UPDATING_NEWS_COUNTERS);
     destinationDb.ext().set(newsCounter, Integer.MAX_VALUE);
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Description */
     available = DEFRAG_SUB_WORK_DESCRIPTIONS;
@@ -1210,12 +1255,14 @@ public class DBManager {
       allDescriptions = null;
       destinationDb.commit();
       System.gc();
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Preferences */
     available = DEFRAG_SUB_WORK_PREFERENCES;
@@ -1237,12 +1284,14 @@ public class DBManager {
       }
 
       allPreferences = null;
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Filter */
     available = DEFRAG_SUB_WORK_FILTERS;
@@ -1263,12 +1312,14 @@ public class DBManager {
       }
 
       allFilters = null;
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Counter */
     monitor.subTask("Processing News Counters"); //$NON-NLS-1$
@@ -1280,8 +1331,9 @@ public class DBManager {
     monitor.worked(DEFRAG_SUB_WORK_COUNTERS);
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Entity Id By Event Type */
     monitor.subTask("Processing Events"); //$NON-NLS-1$
@@ -1292,8 +1344,9 @@ public class DBManager {
     monitor.worked(DEFRAG_SUB_WORK_EVENTS);
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     /* Conditional Get */
     available = DEFRAG_SUB_WORK_CONDITIONAL_GET;
@@ -1313,12 +1366,14 @@ public class DBManager {
         monitor.worked(chunk);
       }
       allConditionalGets = null;
-    } else
+    } else {
       monitor.worked(available);
+    }
 
     /* User might have cancelled the operation */
-    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb))
+    if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return;
+    }
 
     monitor.subTask("Close old DB"); //$NON-NLS-1$
     sourceDb.close();
@@ -1340,12 +1395,14 @@ public class DBManager {
       return;
     }
 
+    monitor.subTask("Close new DB"); //$NON-NLS-1$
     destinationDb.close();
     monitor.worked(DEFRAG_SUB_WORK_CLOSE_DESTINATION);
 
     /* User might have cancelled the operation */
-    if (monitor.isCanceled())
+    if (monitor.isCanceled()) {
       return;
+    }
 
     monitor.subTask("Garbage Collection"); //$NON-NLS-1$
     System.gc();
@@ -1399,14 +1456,16 @@ public class DBManager {
     //to include a file when we need to evolve the schema or something similar
     //config.detectSchemaChanges(false)
 
-    if (getLargeBlockSizeMarkerFile().exists())
+    if (getLargeBlockSizeMarkerFile().exists()) {
       config.blockSize(LARGE_DB_BLOCK_SIZE); //The DB has been migrated to a larger block size
+    }
 
     config.setOut(new PrintStream(new ByteArrayOutputStream()) {
       @Override
       public void write(byte[] buf, int off, int len) {
-        if (buf != null && len >= 0 && off >= 0 && off <= buf.length - len)
+        if (buf != null && len >= 0 && off >= 0 && off <= buf.length - len) {
           CoreUtils.appendLogMessage(new String(buf, off, len));
+        }
       }
     });
 
@@ -1430,8 +1489,9 @@ public class DBManager {
     config.objectClass(Preference.class).objectField("fKey").indexed(true); //$NON-NLS-1$
     config.objectClass(SearchFilter.class).objectField("fActions").cascadeOnDelete(true); //$NON-NLS-1$
 
-    if (isIBM_VM_1_6()) //See defect 733
+    if (isIBM_VM_1_6()) {
       config.objectClass("java.util.MiniEnumSet").translate(new com.db4o.config.TSerializable()); //$NON-NLS-1$
+    }
 
     return config;
   }
@@ -1484,8 +1544,11 @@ public class DBManager {
     fLock.writeLock().lock();
     try {
       fireDatabaseEvent(new DatabaseEvent(fObjectContainer, fLock), false);
-      if (fObjectContainer != null)
-        while (!fObjectContainer.close());
+      if (fObjectContainer != null) {
+        while (!fObjectContainer.close()) {
+          ;
+        }
+      }
     } finally {
       fLock.writeLock().unlock();
     }
@@ -1508,25 +1571,30 @@ public class DBManager {
 
     /* Locate Online Backups */
     File onlineWeeklyBackup = new File(backupDir, DB_NAME + ONLINE_BACKUP_NAME + ".weekly"); //$NON-NLS-1$
-    if (onlineWeeklyBackup.exists())
+    if (onlineWeeklyBackup.exists()) {
       backups.add(onlineWeeklyBackup);
+    }
 
     File onlineDailyBackup = new File(backupDir, DB_NAME + ONLINE_BACKUP_NAME);
-    if (onlineDailyBackup.exists())
+    if (onlineDailyBackup.exists()) {
       backups.add(onlineDailyBackup);
+    }
 
     File onlineDailyBackupOlder = new File(backupDir, DB_NAME + ONLINE_BACKUP_NAME + ".0"); //$NON-NLS-1$
-    if (onlineDailyBackupOlder.exists())
+    if (onlineDailyBackupOlder.exists()) {
       backups.add(onlineDailyBackupOlder);
+    }
 
     /* Locate Offline Backups */
     File offlineBackup = new File(backupDir, DB_NAME + OFFLINE_BACKUP_NAME);
-    if (offlineBackup.exists())
+    if (offlineBackup.exists()) {
       backups.add(offlineBackup);
+    }
 
     File offlineBackupOlder = new File(backupDir, DB_NAME + OFFLINE_BACKUP_NAME + ".0"); //$NON-NLS-1$
-    if (offlineBackupOlder.exists())
+    if (offlineBackupOlder.exists()) {
       backups.add(offlineBackupOlder);
+    }
 
     Collections.sort(backups, new Comparator<File>() {
       public int compare(File f1, File f2) {
@@ -1547,10 +1615,11 @@ public class DBManager {
     /* Handle Large Block Size properly */
     try {
       File largeBlockSizeMarkerFile = getLargeBlockSizeMarkerFile();
-      if (largeBlockSizeMarkerFile.exists() && db.length() < LARGE_DB_STARTING_SIZE)
+      if (largeBlockSizeMarkerFile.exists() && db.length() < LARGE_DB_STARTING_SIZE) {
         largeBlockSizeMarkerFile.delete();
-      else if (!largeBlockSizeMarkerFile.exists() && db.length() > LARGE_DB_STARTING_SIZE)
+      } else if (!largeBlockSizeMarkerFile.exists() && db.length() > LARGE_DB_STARTING_SIZE) {
         largeBlockSizeMarkerFile.createNewFile();
+      }
     } catch (IOException e) {
       Activator.getDefault().logError(e.getMessage(), e);
     }
@@ -1568,8 +1637,9 @@ public class DBManager {
        * Object Container might be opened, so try to close (only for testing,
        * not in production)
        */
-      if (InternalOwl.TESTING)
+      if (InternalOwl.TESTING) {
         shutdown();
+      }
 
       /* Find Suitable Backup Name */
       int i = 0;
@@ -1595,8 +1665,9 @@ public class DBManager {
 
         /* Delete DB */
         File dbFile = new File(getDBFilePath());
-        if (dbFile.exists() && !dbFile.delete())
+        if (dbFile.exists() && !dbFile.delete()) {
           Activator.getDefault().logError("Failed to delete db file", null); //$NON-NLS-1$
+        }
 
         /* Delete other marker files */
         delete(getDBFormatFile(), getDefragmentFile(), getReIndexFile(), getCleanUpIndexFile());
@@ -1606,8 +1677,9 @@ public class DBManager {
 
   private void delete(File... files) {
     for (File file : files) {
-      if (file.exists())
+      if (file.exists()) {
         file.delete();
+      }
     }
   }
 }
