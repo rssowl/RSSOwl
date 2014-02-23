@@ -1159,8 +1159,8 @@ public class DBManager {
       ids.add(id);
       labels.add(label);
     }
-    int count = allLabels.size()-labels.size();
-    if (count>0) {
+    int count = allLabels.size() - labels.size();
+    if (count > 0) {
       Activator.getDefault().logInfo(String.format("Found %1 labels with duplicate ids", count)); //$NON-NLS-1$
     }
     allLabels = null;
@@ -1194,28 +1194,29 @@ public class DBManager {
     int available;
     ObjectSet<Folder> allFolders = sourceDb.query(Folder.class);
     available = DEFRAG_SUB_WORK_FOLDERS;
-    if (!allFolders.isEmpty()) {
-      int chunk = available / allFolders.size();
-      int i = 1;
-      monitor.subTask("Processing Folders"); //$NON-NLS-1$
-      for (Folder folder : allFolders) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-          return false;
-        }
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_FOLDERS, i, allFolders.size()));
-        i++;
-
-        sourceDb.activate(folder, Integer.MAX_VALUE);
-        if (folder.getParent() == null) {
-          destinationDb.ext().set(folder, Integer.MAX_VALUE);
-        }
-
-        monitor.worked(chunk);
-      }
-      allFolders = null;
-    } else {
+    if (allFolders.isEmpty()) {
       monitor.worked(available);
+      return true;
     }
+
+    int chunk = available / allFolders.size();
+    int i = 1;
+    for (Folder folder : allFolders) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_FOLDERS, i, allFolders.size()));
+      i++;
+
+      sourceDb.activate(folder, Integer.MAX_VALUE);
+      if (folder.getParent() == null) {
+        // adding root folder
+        destinationDb.ext().set(folder, Integer.MAX_VALUE);
+      }
+
+      monitor.worked(chunk);
+    }
+    allFolders = null;
 
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
