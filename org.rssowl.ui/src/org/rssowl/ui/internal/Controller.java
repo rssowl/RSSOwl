@@ -1825,7 +1825,7 @@ public class Controller {
     return entry;
   }
 
-  /*
+  /**
    * Registeres a command per Label to assign key-bindings. Should be called
    * when {@link ILabel} get added, updated or removed and must be called once
    * after startup.
