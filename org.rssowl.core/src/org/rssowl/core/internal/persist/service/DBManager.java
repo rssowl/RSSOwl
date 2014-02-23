@@ -1140,40 +1140,44 @@ public class DBManager {
    * @param monitor
    */
   private static boolean processLabels(ObjectContainer sourceDb, ObjectContainer destinationDb, boolean useLargeBlockSize, List<Label> labels, IProgressMonitor monitor) {
-    ObjectSet<Label> allLabels = sourceDb.query(Label.class);
     int available = DEFRAG_SUB_WORK_LABELS;
-    if (!allLabels.isEmpty()) {
-      // TODO make sure labels orders are unique and compact
-      // TODO TEST MuxaJIbI4
-      // TODO log if found duplicate labels
-      // retain only labels with uniquie ids
-      Set<Long> ids = new HashSet<Long>();
-      for (Label label : allLabels) {
-        Long id = label.getId();
-        if (ids.contains(id)) {
-          continue; // duplicate label id
-        }
-        ids.add(id);
-        labels.add(label);
-      }
-      allLabels = null;
-  
-      int chunk = available / labels.size();
-      int i = 1;
-      for (Label label : labels) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-          return false;
-        }
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_LABELS, i, labels.size()));
-        i++;
-        sourceDb.activate(label, Integer.MAX_VALUE);
-        destinationDb.ext().set(label, Integer.MAX_VALUE);
-        monitor.worked(chunk);
-      }
-    } else {
+
+    ObjectSet<Label> allLabels = sourceDb.query(Label.class);
+
+    if (allLabels.isEmpty()) {
       monitor.worked(available);
+      return true;
     }
-  
+
+    // deleting labels with duplicate ids
+    Set<Long> ids = new HashSet<Long>();
+    for (Label label : allLabels) {
+      Long id = label.getId();
+      if (ids.contains(id)) {
+        continue; // duplicate label id
+      }
+      ids.add(id);
+      labels.add(label);
+    }
+    int count = allLabels.size()-labels.size();
+    if (count>0) {
+      Activator.getDefault().logInfo(String.format("Found %1 labels with duplicate ids", count)); //$NON-NLS-1$
+    }
+    allLabels = null;
+
+    int chunk = available / labels.size();
+    int i = 1;
+    for (Label label : labels) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_LABELS, i, labels.size()));
+      i++;
+      sourceDb.activate(label, Integer.MAX_VALUE);
+      destinationDb.ext().set(label, Integer.MAX_VALUE);
+      monitor.worked(chunk);
+    }
+
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
@@ -1200,19 +1204,19 @@ public class DBManager {
         }
         monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_FOLDERS, i, allFolders.size()));
         i++;
-  
+
         sourceDb.activate(folder, Integer.MAX_VALUE);
         if (folder.getParent() == null) {
           destinationDb.ext().set(folder, Integer.MAX_VALUE);
         }
-  
+
         monitor.worked(chunk);
       }
       allFolders = null;
     } else {
       monitor.worked(available);
     }
-  
+
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
@@ -1227,7 +1231,7 @@ public class DBManager {
    */
   private static boolean processNewsBins(ObjectContainer sourceDb, ObjectContainer destinationDb, boolean useLargeBlockSize, IProgressMonitor monitor) {
     int available;
-  
+
     /*
      * We use destinationDb for the query here because we have already copied
      * the NewsBins at this stage and we may need to fix the NewsBin in case it
@@ -1245,14 +1249,14 @@ public class DBManager {
         }
         monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSBINS, i, allBins.size()));
         i++;
-  
+
         destinationDb.activate(newsBin, Integer.MAX_VALUE);
         List<NewsReference> staleNewsRefs = new ArrayList<NewsReference>(0);
         for (NewsReference newsRef : newsBin.getNewsRefs()) {
           if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
             return false;
           }
-  
+
           Query query = sourceDb.query();
           query.constrain(News.class);
           query.descend("fId").constrain(newsRef.getId()); //$NON-NLS-1$
@@ -1266,27 +1270,27 @@ public class DBManager {
           sourceDb.activate(news, Integer.MAX_VALUE);
           destinationDb.ext().set(news, Integer.MAX_VALUE);
         }
-  
+
         if (!staleNewsRefs.isEmpty()) {
           if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
             return false;
           }
-  
+
           newsBin.removeNewsRefs(staleNewsRefs);
           destinationDb.ext().set(newsBin, Integer.MAX_VALUE);
         }
-  
+
         monitor.worked(chunk);
       }
       allBins = null;
     } else {
       monitor.worked(available);
     }
-  
+
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
-  
+
     return true;
   }
 
@@ -1305,27 +1309,27 @@ public class DBManager {
     if (!allFeeds.isEmpty()) {
       int allFeedsSize = allFeeds.size();
       int chunk = available / allFeedsSize;
-  
+
       int i = 1;
       for (Feed feed : allFeeds) {
         if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return false;
         }
-  
+
         /* Introduce own label as feed copying can be very time consuming */
         monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFEEDS, i, allFeedsSize));
         i++;
-  
+
         sourceDb.activate(feed, Integer.MAX_VALUE);
         addNewsCounterItem(newsCounter, feed);
         destinationDb.ext().set(feed, Integer.MAX_VALUE);
-  
+
         ++feedCounter;
         if (feedCounter % 40 == 0) {
           destinationDb.commit();
           System.gc();
         }
-  
+
         monitor.worked(chunk);
       }
       allFeeds = null;
@@ -1334,7 +1338,7 @@ public class DBManager {
     } else {
       monitor.worked(available);
     }
-  
+
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
@@ -1375,26 +1379,26 @@ public class DBManager {
         }
         monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_DESCRIPTIONS, i, allDescriptions.size()));
         i++;
-  
+
         sourceDb.activate(description, Integer.MAX_VALUE);
         destinationDb.ext().set(description, Integer.MAX_VALUE);
-  
+
         ++descriptionCounter;
         if (descriptionCounter % 1000 == 0) {
           destinationDb.commit();
           System.gc();
         }
-  
+
         monitor.worked(chunk);
       }
-  
+
       allDescriptions = null;
       destinationDb.commit();
       System.gc();
     } else {
       monitor.worked(available);
     }
-  
+
     /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
@@ -1421,18 +1425,18 @@ public class DBManager {
         }
         monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_PREFERENCES, i, allPreferences.size()));
         i++;
-  
+
         sourceDb.activate(pref, Integer.MAX_VALUE);
         destinationDb.ext().set(pref, Integer.MAX_VALUE);
-  
+
         monitor.worked(chunk);
       }
-  
+
       allPreferences = null;
     } else {
       monitor.worked(available);
     }
-  
+
     /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
@@ -1459,17 +1463,17 @@ public class DBManager {
         }
         monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFILTERS, i, allFilters.size()));
         i++;
-  
+
         sourceDb.activate(filter, Integer.MAX_VALUE);
         destinationDb.ext().set(filter, Integer.MAX_VALUE);
         monitor.worked(chunk);
       }
-  
+
       allFilters = null;
     } else {
       monitor.worked(available);
     }
-  
+
     /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
@@ -1489,9 +1493,9 @@ public class DBManager {
     Counter counter = counterSet.iterator().next();
     sourceDb.activate(counter, Integer.MAX_VALUE);
     destinationDb.ext().set(counter, Integer.MAX_VALUE);
-  
+
     monitor.worked(DEFRAG_SUB_WORK_COUNTERS);
-  
+
     /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
@@ -1510,9 +1514,9 @@ public class DBManager {
     EntityIdsByEventType entityIdsByEventType = sourceDb.query(EntityIdsByEventType.class).iterator().next();
     sourceDb.activate(entityIdsByEventType, Integer.MAX_VALUE);
     destinationDb.ext().set(entityIdsByEventType, Integer.MAX_VALUE);
-  
+
     monitor.worked(DEFRAG_SUB_WORK_EVENTS);
-  
+
     /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
