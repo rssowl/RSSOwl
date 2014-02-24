@@ -1040,8 +1040,6 @@ public class DBManager {
     }
 
     // processing labels
-    int available;
-    /* keep in memory to avoid duplicate copies when cascading feed) */
     List<Label> labels = new ArrayList<Label>();
     if (!processLabels(sourceDb, destinationDb, useLargeBlockSize, labels, monitor)) {
       return;
@@ -1129,6 +1127,12 @@ public class DBManager {
     monitor.worked(DEFRAG_SUB_WORK_FINISH);
   }
 
+//  private static void checkNewsCount(ObjectContainer destinationDb) {
+//    Query query = destinationDb.query();
+//    query.constrain(News.class);
+//    Activator.safeLogInfo(((Integer) query.execute().size()).toString());
+//  }
+
   /**
    * Processing Labels entities (keep in memory to avoid duplicate copies when
    * cascading feed)
@@ -1161,9 +1165,8 @@ public class DBManager {
     }
     int count = allLabels.size() - labels.size();
     if (count > 0) {
-      Activator.getDefault().logInfo(String.format("Found %1 labels with duplicate ids", count)); //$NON-NLS-1$
+      Activator.safeLogInfo(String.format("Found %1 labels with duplicate ids", count)); //$NON-NLS-1$
     }
-    allLabels = null;
 
     int chunk = available / labels.size();
     int i = 1;
@@ -1181,6 +1184,11 @@ public class DBManager {
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
+
+    // DEBUG
+//    Activator.safeLogInfo(Messages.DBManager_OPTIMIZING_LABELS);
+//    checkNewsCount(destinationDb);
+
     return true;
   }
 
@@ -1221,6 +1229,11 @@ public class DBManager {
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
+
+    // DEBUG
+//    Activator.safeLogInfo(Messages.DBManager_OPTIMIZING_FOLDERS);
+//    checkNewsCount(destinationDb);
+
     return true;
   }
 
@@ -1240,58 +1253,77 @@ public class DBManager {
      */
     ObjectSet<NewsBin> allBins = destinationDb.query(NewsBin.class);
     available = DEFRAG_SUB_WORK_BINS;
-    if (!allBins.isEmpty()) {
-      int chunk = available / allBins.size();
-      int i = 1;
-      monitor.subTask("Processing NewsBins"); //$NON-NLS-1$
-      for (NewsBin newsBin : allBins) {
+    if (allBins.isEmpty()) {
+      monitor.worked(available);
+      return true;
+    }
+
+    int chunk = available / allBins.size();
+    int i = 1;
+    int count = 0;
+    for (NewsBin newsBin : allBins) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSBINS, i, allBins.size()));
+      i++;
+
+      destinationDb.activate(newsBin, Integer.MAX_VALUE);
+      List<NewsReference> deleteNewsRefs = new ArrayList<NewsReference>(0);
+
+      // check NewsBin for missing and deleted news
+      for (NewsReference newsRef : newsBin.getNewsRefs()) {
         if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return false;
         }
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSBINS, i, allBins.size()));
-        i++;
 
-        destinationDb.activate(newsBin, Integer.MAX_VALUE);
-        List<NewsReference> staleNewsRefs = new ArrayList<NewsReference>(0);
-        for (NewsReference newsRef : newsBin.getNewsRefs()) {
-          if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-            return false;
-          }
-
-          Query query = sourceDb.query();
-          query.constrain(News.class);
-          query.descend("fId").constrain(newsRef.getId()); //$NON-NLS-1$
-          Iterator<?> newsIt = query.execute().iterator();
-          if (!newsIt.hasNext()) {
-            Activator.getDefault().logError("NewsBin " + newsBin + " has reference to news with id: " + newsRef.getId() + ", but that news does not exist.", null); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
-            staleNewsRefs.add(newsRef);
-            continue;
-          }
-          Object news = newsIt.next();
-          sourceDb.activate(news, Integer.MAX_VALUE);
-          destinationDb.ext().set(news, Integer.MAX_VALUE);
+        Query query = sourceDb.query();
+        query.constrain(News.class);
+        query.descend("fId").constrain(newsRef.getId()); //$NON-NLS-1$
+        Iterator<?> newsIt = query.execute().iterator();
+        if (!newsIt.hasNext()) {
+          Activator.safeLogError("NewsBin " + newsBin + " has reference to news with id: " + newsRef.getId() + ", but that news does not exist.", null); //$NON-NLS-1$ //$NON-NLS-2$ //$NON-NLS-3$
+          deleteNewsRefs.add(newsRef);
+          continue;
         }
 
-        if (!staleNewsRefs.isEmpty()) {
-          if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-            return false;
-          }
-
-          newsBin.removeNewsRefs(staleNewsRefs);
-          destinationDb.ext().set(newsBin, Integer.MAX_VALUE);
+        // actually delete news marked as DELETED or hidden
+        INews news = (INews) newsIt.next();
+        if (!news.isVisible()) {
+          deleteNewsRefs.add(newsRef);
+          continue;
         }
 
-        monitor.worked(chunk);
+        // activate news from news bins
+        sourceDb.activate(news, Integer.MAX_VALUE);
+        destinationDb.ext().set(news, Integer.MAX_VALUE);
       }
-      allBins = null;
-    } else {
-      monitor.worked(available);
+
+      if (!deleteNewsRefs.isEmpty()) {
+        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+          return false;
+        }
+
+        newsBin.removeNewsRefs(deleteNewsRefs);
+        destinationDb.ext().set(newsBin, Integer.MAX_VALUE);
+
+        count += deleteNewsRefs.size();
+      }
+
+      monitor.worked(chunk);
+    }
+
+    if (count > 0) {
+      Activator.safeLogInfo("Deleted " + count + " deleted or staled news from NewsBins"); //$NON-NLS-1$ //$NON-NLS-2$
     }
 
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
 
+    // DEBUG
+//    Activator.safeLogInfo(Messages.DBManager_OPTIMIZING_NEWSBINS);
+//    checkNewsCount(destinationDb);
     return true;
   }
 
@@ -1307,42 +1339,69 @@ public class DBManager {
     available = DEFRAG_SUB_WORK_FEEDS;
     int feedCounter = 0;
     ObjectSet<Feed> allFeeds = sourceDb.query(Feed.class);
-    if (!allFeeds.isEmpty()) {
-      int allFeedsSize = allFeeds.size();
-      int chunk = available / allFeedsSize;
+    if (allFeeds.isEmpty()) {
+      monitor.worked(available);
+    }
 
-      int i = 1;
-      for (Feed feed : allFeeds) {
+    int allFeedsSize = allFeeds.size();
+    int chunk = available / allFeedsSize;
+    int i = 1;
+
+    int count = 0;
+    for (Feed feed : allFeeds) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+
+      /* Introduce own label as feed copying can be very time consuming */
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFEEDS, i, allFeedsSize));
+      i++;
+
+      sourceDb.activate(feed, Integer.MAX_VALUE);
+      addNewsCounterItem(newsCounter, feed);
+
+      // check feed before copying
+      List<INews> deleteNews = feed.getNewsByStates(EnumSet.of(INews.State.DELETED, INews.State.HIDDEN));
+      if (!deleteNews.isEmpty()) {
         if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
           return false;
         }
 
-        /* Introduce own label as feed copying can be very time consuming */
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFEEDS, i, allFeedsSize));
-        i++;
-
-        sourceDb.activate(feed, Integer.MAX_VALUE);
-        addNewsCounterItem(newsCounter, feed);
-        destinationDb.ext().set(feed, Integer.MAX_VALUE);
-
-        ++feedCounter;
-        if (feedCounter % 40 == 0) {
-          destinationDb.commit();
-          System.gc();
+        for (INews news : deleteNews) {
+          // TODO correctly delete News and it's persistable fields from DB ????
+          sourceDb.delete(news);
+          feed.removeNews(news);
         }
-
-        monitor.worked(chunk);
+        count += deleteNews.size();
       }
-      allFeeds = null;
-      destinationDb.commit();
-      System.gc();
-    } else {
-      monitor.worked(available);
+
+      // recreate fields base on news (Category, Author??
+
+      // copy feed to new db
+      destinationDb.ext().set(feed, Integer.MAX_VALUE);
+      ++feedCounter;
+      if (feedCounter % 40 == 0) {
+        destinationDb.commit();
+        System.gc();
+      }
+
+      monitor.worked(chunk);
+    }
+    destinationDb.commit();
+    System.gc();
+
+    if (count > 0) {
+      Activator.safeLogInfo("Deleted " + count + " HIDDEN or DELETED news from feeds"); //$NON-NLS-1$ //$NON-NLS-2$
     }
 
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
+
+    // DEBUG
+//    Activator.safeLogInfo(Messages.DBManager_OPTIMIZING_NEWSFEEDS);
+//    checkNewsCount(destinationDb);
+
     return true;
   }
 
@@ -1367,43 +1426,65 @@ public class DBManager {
    * @param monitor
    */
   private static boolean processDescriptions(ObjectContainer sourceDb, ObjectContainer destinationDb, boolean useLargeBlockSize, IProgressMonitor monitor) {
-    int available;
-    available = DEFRAG_SUB_WORK_DESCRIPTIONS;
+    int available = DEFRAG_SUB_WORK_DESCRIPTIONS;
     int descriptionCounter = 0;
     ObjectSet<Description> allDescriptions = sourceDb.query(Description.class);
-    if (!allDescriptions.isEmpty()) {
-      int chunk = Math.max(1, available / allDescriptions.size());
-      int i = 1;
-      for (Description description : allDescriptions) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-          return false;
-        }
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_DESCRIPTIONS, i, allDescriptions.size()));
-        i++;
-
-        sourceDb.activate(description, Integer.MAX_VALUE);
-        destinationDb.ext().set(description, Integer.MAX_VALUE);
-
-        ++descriptionCounter;
-        if (descriptionCounter % 1000 == 0) {
-          destinationDb.commit();
-          System.gc();
-        }
-
-        monitor.worked(chunk);
-      }
-
-      allDescriptions = null;
-      destinationDb.commit();
-      System.gc();
-    } else {
+    if (allDescriptions.isEmpty()) {
       monitor.worked(available);
+      return true;
     }
 
-    /* User might have cancelled the operation */
+    int chunk = Math.max(1, available / allDescriptions.size());
+    int i = 1;
+    int count = 0;
+    for (Description description : allDescriptions) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_DESCRIPTIONS, i, allDescriptions.size()));
+      i++;
+
+      sourceDb.activate(description, Integer.MAX_VALUE);
+
+      // check for deleted news
+      // TODO: first check in for static deleted news id variable
+      NewsReference newsRef = description.getNews();
+
+      Query query = sourceDb.query();
+      query.constrain(News.class);
+      query.descend("fId").constrain(newsRef.getId()); //$NON-NLS-1$
+      Iterator<?> newsIt = query.execute().iterator();
+      if (!newsIt.hasNext()) {
+        // skip this description
+        count++;
+        continue;
+      }
+
+      destinationDb.ext().set(description, Integer.MAX_VALUE);
+
+      ++descriptionCounter;
+      if (descriptionCounter % 10000 == 0) {
+        destinationDb.commit();
+        System.gc();
+      }
+
+      monitor.worked(chunk);
+    }
+    destinationDb.commit();
+    System.gc();
+
+    if (count > 0) {
+      Activator.safeLogInfo("Deleted " + count + " desciptions with missing news entries"); //$NON-NLS-1$ //$NON-NLS-2$
+    }
+
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
+
+    // DEBUG
+//    Activator.safeLogInfo(Messages.DBManager_OPTIMIZING_DESCRIPTIONS);
+//    checkNewsCount(destinationDb);
+
     return true;
   }
 
@@ -1417,28 +1498,26 @@ public class DBManager {
     int available;
     available = DEFRAG_SUB_WORK_PREFERENCES;
     ObjectSet<Preference> allPreferences = sourceDb.query(Preference.class);
-    if (!allPreferences.isEmpty()) {
-      int chunk = available / allPreferences.size();
-      int i = 1;
-      for (Preference pref : allPreferences) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-          return false;
-        }
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_PREFERENCES, i, allPreferences.size()));
-        i++;
-
-        sourceDb.activate(pref, Integer.MAX_VALUE);
-        destinationDb.ext().set(pref, Integer.MAX_VALUE);
-
-        monitor.worked(chunk);
-      }
-
-      allPreferences = null;
-    } else {
+    if (allPreferences.isEmpty()) {
       monitor.worked(available);
+      return true;
     }
 
-    /* User might have cancelled the operation */
+    int chunk = available / allPreferences.size();
+    int i = 1;
+    for (Preference pref : allPreferences) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_PREFERENCES, i, allPreferences.size()));
+      i++;
+
+      sourceDb.activate(pref, Integer.MAX_VALUE);
+      destinationDb.ext().set(pref, Integer.MAX_VALUE);
+
+      monitor.worked(chunk);
+    }
+
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
@@ -1452,30 +1531,27 @@ public class DBManager {
    * @param monitor
    */
   private static boolean processNewsFilters(ObjectContainer sourceDb, ObjectContainer destinationDb, boolean useLargeBlockSize, IProgressMonitor monitor) {
-    int available;
-    available = DEFRAG_SUB_WORK_FILTERS;
+    int available = DEFRAG_SUB_WORK_FILTERS;
     ObjectSet<SearchFilter> allFilters = sourceDb.query(SearchFilter.class);
-    if (!allFilters.isEmpty()) {
-      int chunk = available / allFilters.size();
-      int i = 1;
-      for (ISearchFilter filter : allFilters) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-          return false;
-        }
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFILTERS, i, allFilters.size()));
-        i++;
-
-        sourceDb.activate(filter, Integer.MAX_VALUE);
-        destinationDb.ext().set(filter, Integer.MAX_VALUE);
-        monitor.worked(chunk);
-      }
-
-      allFilters = null;
-    } else {
+    if (allFilters.isEmpty()) {
       monitor.worked(available);
+      return true;
     }
 
-    /* User might have cancelled the operation */
+    int chunk = available / allFilters.size();
+    int i = 1;
+    for (ISearchFilter filter : allFilters) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_NEWSFILTERS, i, allFilters.size()));
+      i++;
+
+      sourceDb.activate(filter, Integer.MAX_VALUE);
+      destinationDb.ext().set(filter, Integer.MAX_VALUE);
+      monitor.worked(chunk);
+    }
+
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
@@ -1489,7 +1565,7 @@ public class DBManager {
    * @param monitor
    */
   private static boolean processCounters(ObjectContainer sourceDb, ObjectContainer destinationDb, boolean useLargeBlockSize, IProgressMonitor monitor) {
-    monitor.subTask("Processing Counters"); //$NON-NLS-1$
+    monitor.subTask("Processing Counter"); //$NON-NLS-1$
     List<Counter> counterSet = sourceDb.query(Counter.class);
     Counter counter = counterSet.iterator().next();
     sourceDb.activate(counter, Integer.MAX_VALUE);
@@ -1497,7 +1573,6 @@ public class DBManager {
 
     monitor.worked(DEFRAG_SUB_WORK_COUNTERS);
 
-    /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
@@ -1518,7 +1593,6 @@ public class DBManager {
 
     monitor.worked(DEFRAG_SUB_WORK_EVENTS);
 
-    /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
       return false;
     }
@@ -1532,27 +1606,27 @@ public class DBManager {
    * @param monitor
    */
   private static boolean processConditionalGet(ObjectContainer sourceDb, ObjectContainer destinationDb, boolean useLargeBlockSize, IProgressMonitor monitor) {
-    int available;
-    available = DEFRAG_SUB_WORK_CONDITIONAL_GET;
+    int available = DEFRAG_SUB_WORK_CONDITIONAL_GET;
     ObjectSet<ConditionalGet> allConditionalGets = sourceDb.query(ConditionalGet.class);
-    if (!allConditionalGets.isEmpty()) {
-      int chunk = available / allConditionalGets.size();
-      int i = 1;
-      for (ConditionalGet conditionalGet : allConditionalGets) {
-        if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
-          return false;
-        }
-        monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_CONDITIONAL_GETS, i, allConditionalGets.size()));
-        i++;
-
-        sourceDb.activate(conditionalGet, Integer.MAX_VALUE);
-        destinationDb.ext().set(conditionalGet, Integer.MAX_VALUE);
-        monitor.worked(chunk);
-      }
-      allConditionalGets = null;
-    } else {
+    if (allConditionalGets.isEmpty()) {
       monitor.worked(available);
+      return true;
     }
+
+    int chunk = available / allConditionalGets.size();
+    int i = 1;
+    for (ConditionalGet conditionalGet : allConditionalGets) {
+      if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
+        return false;
+      }
+      monitor.subTask(NLS.bind(Messages.DBManager_OPTIMIZING_CONDITIONAL_GETS, i, allConditionalGets.size()));
+      i++;
+
+      sourceDb.activate(conditionalGet, Integer.MAX_VALUE);
+      destinationDb.ext().set(conditionalGet, Integer.MAX_VALUE);
+      monitor.worked(chunk);
+    }
+    allConditionalGets = null;
 
     /* User might have cancelled the operation */
     if (isCanceled(monitor, useLargeBlockSize, sourceDb, destinationDb)) {
