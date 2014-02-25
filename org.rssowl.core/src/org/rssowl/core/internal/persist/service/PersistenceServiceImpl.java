@@ -34,7 +34,6 @@ import org.rssowl.core.util.LongOperationMonitor;
 import org.rssowl.core.util.Pair;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.List;
 
 /**
@@ -130,7 +129,7 @@ public class PersistenceServiceImpl extends AbstractPersistenceService {
    * last successfully used.
    */
   public Pair<File, Long> getProfile() {
-    return DBManager.getDefault().getProfile();
+    return ProfileFileManager.getProfile();
   }
 
   /**
@@ -141,7 +140,7 @@ public class PersistenceServiceImpl extends AbstractPersistenceService {
    * an unrecoverable error.
    */
   public List<File> getProfileBackups() {
-    return DBManager.getDefault().getProfileBackups();
+    return BackupHelper.getProfileBackups();
   }
 
   /**
@@ -153,7 +152,7 @@ public class PersistenceServiceImpl extends AbstractPersistenceService {
    * execute this operation.
    */
   public void restoreProfile(File backup) throws PersistenceException {
-    DBManager.getDefault().restoreProfile(backup);
+    BackupHelper.restoreProfile(backup);
   }
 
   /**
@@ -170,16 +169,20 @@ public class PersistenceServiceImpl extends AbstractPersistenceService {
     Activator.safeLogInfo(needsEmergencyStartup ? "Start: Recreate Profile with OPML Import" : "Start: Start Over with Fresh Profile"); //$NON-NLS-1$ //$NON-NLS-2$
 
     /* First check to delete the "rssowl.db.restore" file that is being used */
-    File restoreDBFile = new File(DBManager.getDBRestoreFilePath());
+    File restoreDBFile = new File(ProfileFileManager.getDBRestoreFilePath());
     if (restoreDBFile.exists())
       restoreDBFile.delete();
 
-    /* Delete the large blocksize marker if present because we start with an empty profile again */
-    File largeBlockSizeMarkerFile = DBManager.getLargeBlockSizeMarkerFile();
-    if (largeBlockSizeMarkerFile.exists())
-      largeBlockSizeMarkerFile.delete();
+    /*
+     * Delete the large blocksize marker if present because we start with an
+     * empty profile again
+     */
+    ConfigurationHelper.deleteLargeBlockSizeMarker();
 
-    /* Communicate shutdown to listeners (mandatory before reopening for restore) */
+    /*
+     * Communicate shutdown to listeners (mandatory before reopening for
+     * restore)
+     */
     DBManager.getDefault().shutdown();
 
     /* Open new empty DB for restore */
