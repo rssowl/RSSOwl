@@ -1,7 +1,7 @@
 /*   **********************************************************************  **
  **   Copyright notice                                                       **
  **                                                                          **
- **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   (c) 2005-2011 RSSOwl Development Team                                  **
  **   http://www.rssowl.org/                                                 **
  **                                                                          **
  **   All rights reserved                                                    **
@@ -25,44 +25,32 @@
 package org.rssowl.core.internal.persist.migration;
 
 import org.eclipse.core.runtime.IProgressMonitor;
-import org.rssowl.core.internal.persist.service.BackupHelper;
 import org.rssowl.core.internal.persist.service.ConfigurationFactory;
 
-import java.io.File;
-
 /**
- * Migration from version 4 (nightly of 17-Jan-2008) to version 5 (builds from
- * nightly of 03-Feb-2008 to 2.0M8).
+ * used when one need to create migration betweeen 2 database formats
+ *
+ * @author MuxaJIbI4
  */
-public class Migration4To5 implements IMigration {
+public interface IMigration {
 
-  /*
-   * @see
-   * org.rssowl.core.internal.persist.migration.IMigration#getDestinationFormat
-   * ()
+  /**
+   * @return the format version that the implementation can migrate to.
    */
-  public int getDestinationFormat() {
-    return 5;
-  }
+  int getDestinationFormat();
 
-  /*
-   * @see
-   * org.rssowl.core.internal.persist.migration.IMigration#getOriginFormat()
+  /**
+   * @return the format version that the implementation can migrate from.
    */
-  public int getOriginFormat() {
-    return 4;
-  }
+  int getOriginFormat();
 
-  /*
-   * @see
-   * org.rssowl.core.internal.persist.migration.IMigration#migrate(org.rssowl
-   * .core.internal.persist.service.ConfigurationFactory, java.lang.String,
-   * org.eclipse.core.runtime.IProgressMonitor)
+  /**
+   * Perform the migration. Implementations are responsible for making sure that
+   * all object containers are closed at the end of the script.
+   *
+   * @param configFactory
+   * @param dbFileName
+   * @param progressMonitor
    */
-  public void migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
-
-    File dbLastBackUpFile = BackupHelper.getDBLastBackUpFile();
-
-    dbLastBackUpFile.delete();
-  }
+  void migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor);
 }

@@ -1,7 +1,7 @@
 /*   **********************************************************************  **
  **   Copyright notice                                                       **
  **                                                                          **
- **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   (c) 2005-2011 RSSOwl Development Team                                  **
  **   http://www.rssowl.org/                                                 **
  **                                                                          **
  **   All rights reserved                                                    **
@@ -24,38 +24,56 @@
 
 package org.rssowl.core.internal.persist.migration;
 
+import org.eclipse.core.runtime.IProgressMonitor;
+import org.rssowl.core.internal.persist.service.ConfigurationFactory;
+
+import java.util.Collections;
+import java.util.List;
+
 /**
- * Some flags to control what should happen after Migration.
+ * Aggregates list of <code>IMigration</code> migrations that will be performed
+ * one by another
  */
-public final class MigrationResult {
-  private final boolean reindex;
-  private final boolean optimizeIndex;
-  private final boolean defragmentDatabase;
+public class ChainedMigration implements IMigration {
+  private final List<IMigration> fMigrations;
+  private final int fDestinationFormat;
+  private final int fOriginFormat;
 
-  public MigrationResult(boolean reindex, boolean optimizeIndex, boolean defragmentDatabase) {
-    this.reindex = reindex;
-    this.optimizeIndex = optimizeIndex;
-    this.defragmentDatabase = defragmentDatabase;
+  public ChainedMigration(int originFormat, int destinationFormat, List<IMigration> migrations) {
+    fOriginFormat = originFormat;
+    fDestinationFormat = destinationFormat;
+    fMigrations = migrations;
   }
 
-  /**
-   * @return <code>true</code> if the lucene index should be reindexed.
+  /*
+   * @see
+   * org.rssowl.core.internal.persist.migration.IMigration#getDestinationFormat
+   * ()
    */
-  public final boolean isReindex() {
-    return reindex;
+  public int getDestinationFormat() {
+    return fDestinationFormat;
   }
 
-  /**
-   * @return <code>true</code> if the lucene index should be optimized.
+  /*
+   * @see
+   * org.rssowl.core.internal.persist.migration.IMigration#getOriginFormat()
    */
-  public final boolean isOptimizeIndex() {
-    return optimizeIndex;
+  public int getOriginFormat() {
+    return fOriginFormat;
   }
 
-  /**
-   * @return <code>true</code> if the database should be defragmented.
+  /*
+   * @see org.rssowl.core.internal.persist.service.Migration#migrate(org.rssowl
+   * .core.internal.persist.service.ConfigurationFactory, java.lang.String,
+   * org.eclipse.core.runtime.IProgressMonitor)
    */
-  public final boolean isDefragmentDatabase() {
-    return defragmentDatabase;
+  public void migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
+    for (IMigration migration : fMigrations) {
+      migration.migrate(configFactory, dbFileName, progressMonitor);
+    }
+  }
+
+  public List<IMigration> getMigrations() {
+    return Collections.unmodifiableList(fMigrations);
   }
 }

@@ -28,7 +28,6 @@ import org.eclipse.core.runtime.IProgressMonitor;
 import org.rssowl.core.internal.persist.Description;
 import org.rssowl.core.internal.persist.News;
 import org.rssowl.core.internal.persist.service.ConfigurationFactory;
-import org.rssowl.core.internal.persist.service.Migration;
 
 import com.db4o.Db4o;
 import com.db4o.ObjectContainer;
@@ -38,18 +37,20 @@ import java.util.List;
 /**
  * Migration from version 2 (2.0M7) to version 3 (nightly from 13-Jan-2008).
  */
-public class Migration2To3 implements Migration {
+public class Migration2To3 implements IMigration {
 
   /*
    * @see
-   * org.rssowl.core.internal.persist.service.Migration#getDestinationFormat()
+   * org.rssowl.core.internal.persist.migration.IMigration#getDestinationFormat
+   * ()
    */
   public int getDestinationFormat() {
     return 3;
   }
 
   /*
-   * @see org.rssowl.core.internal.persist.service.Migration#getOriginFormat()
+   * @see
+   * org.rssowl.core.internal.persist.migration.IMigration#getOriginFormat()
    */
   public int getOriginFormat() {
     return 2;
@@ -57,11 +58,11 @@ public class Migration2To3 implements Migration {
 
   /*
    * @see
-   * org.rssowl.core.internal.persist.service.Migration#migrate(org.rssowl.core
-   * .internal.persist.service.ConfigurationFactory, java.lang.String,
+   * org.rssowl.core.internal.persist.migration.IMigration#migrate(org.rssowl
+   * .core.internal.persist.service.ConfigurationFactory, java.lang.String,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
-  public MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
+  public void migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
     final int totalProgress = 100;
     int totalProgressIncremented = 0;
     progressMonitor.beginTask(Messages.Migration2To3_MIGRATING_DATA, totalProgress);
@@ -73,8 +74,6 @@ public class Migration2To3 implements Migration {
     oc.close();
 
     progressMonitor.worked(totalProgress - totalProgressIncremented);
-
-    return new MigrationResult(false, false, false);
   }
 
   static int migrate(IProgressMonitor progressMonitor, final int totalProgress, int totalProgressIncremented, ObjectContainer oc) {

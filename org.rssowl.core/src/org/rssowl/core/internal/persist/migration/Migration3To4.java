@@ -28,7 +28,6 @@ import org.eclipse.core.runtime.IProgressMonitor;
 import org.rssowl.core.internal.persist.News;
 import org.rssowl.core.internal.persist.NewsBin;
 import org.rssowl.core.internal.persist.service.ConfigurationFactory;
-import org.rssowl.core.internal.persist.service.Migration;
 import org.rssowl.core.persist.INewsBin;
 import org.rssowl.core.persist.reference.NewsReference;
 
@@ -42,18 +41,20 @@ import java.util.List;
  * Migration from version 3 (nightly from 13-Jan-2008) to 4 (nightly of
  * 17-Jan-2008).
  */
-public class Migration3To4 implements Migration {
+public class Migration3To4 implements IMigration {
 
   /*
    * @see
-   * org.rssowl.core.internal.persist.service.Migration#getDestinationFormat()
+   * org.rssowl.core.internal.persist.migration.IMigration#getDestinationFormat
+   * ()
    */
   public int getDestinationFormat() {
     return 4;
   }
 
   /*
-   * @see org.rssowl.core.internal.persist.service.Migration#getOriginFormat()
+   * @see
+   * org.rssowl.core.internal.persist.migration.IMigration#getOriginFormat()
    */
   public int getOriginFormat() {
     return 3;
@@ -61,11 +62,11 @@ public class Migration3To4 implements Migration {
 
   /*
    * @see
-   * org.rssowl.core.internal.persist.service.Migration#migrate(org.rssowl.core
-   * .internal.persist.service.ConfigurationFactory, java.lang.String,
+   * org.rssowl.core.internal.persist.migration.IMigration#migrate(org.rssowl
+   * .core.internal.persist.service.ConfigurationFactory, java.lang.String,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
-  public MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
+  public void migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
     final int totalProgress = 100;
     int totalProgressIncremented = 0;
     progressMonitor.beginTask(Messages.Migration3To4_MIGRATING_DATA, totalProgress);
@@ -92,7 +93,5 @@ public class Migration3To4 implements Migration {
     oc.close();
 
     progressMonitor.worked(totalProgress - totalProgressIncremented);
-
-    return new MigrationResult(true, false, true);
   }
 }
