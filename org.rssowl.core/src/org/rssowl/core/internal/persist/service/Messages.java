@@ -32,7 +32,7 @@ public class Messages extends NLS {
   public static String DBManager_DIRECTORY_PERMISSION_ERROR;
   public static String DBManager_DISK_FULL_ERROR;
   public static String DBManager_FILE_PERMISSION_ERROR;
-  public static String DBManager_IMPROVING_APP_PERFORMANCE;
+  public static String DEFRAGMENT_IMPROVING_APP_PERFORMANCE;
   public static String DBManager_OPTIMIZING_DESCRIPTIONS;
   public static String DBManager_OPTIMIZING_CONDITIONAL_GETS;
   public static String DBManager_OPTIMIZING_FOLDERS;

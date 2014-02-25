@@ -119,11 +119,7 @@ public class PersistenceServiceImpl extends AbstractPersistenceService {
    * schedule this operation.
    */
   public void defragmentOnNextStartup() throws PersistenceException {
-    try {
-      DBManager.getDefault().getDefragmentFile().createNewFile();
-    } catch (IOException e) {
-      throw new PersistenceException(e);
-    }
+    DefragmentHelper.defragmentOnNextStartup();
   }
 
   /**
