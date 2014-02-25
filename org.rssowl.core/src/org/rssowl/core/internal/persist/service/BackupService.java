@@ -46,7 +46,7 @@ public final class BackupService {
     void backup(File originFile, File destinationFile, IProgressMonitor monitor);
   }
 
-  interface BackupLayoutStrategy {
+  public interface BackupLayoutStrategy {
     List<File> findBackupFiles();
 
     /**
