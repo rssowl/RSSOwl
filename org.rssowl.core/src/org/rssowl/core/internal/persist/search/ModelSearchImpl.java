@@ -48,7 +48,6 @@ import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.rssowl.core.internal.Activator;
 import org.rssowl.core.internal.InternalOwl;
-import org.rssowl.core.internal.persist.service.DBManager;
 import org.rssowl.core.persist.IGuid;
 import org.rssowl.core.persist.INews;
 import org.rssowl.core.persist.ISearch;
@@ -79,7 +78,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * The central interface for searching types from the persistence layer. The
  * implementation is contributable via extension-point mechanism.
- *
+ * 
  * @author ijuma
  * @author bpasero
  */
@@ -115,8 +114,9 @@ public class ModelSearchImpl implements IModelSearch {
         /*
          * Delete Lucene Files if clearIndex == true. While Lucene is actually
          * capable of recreating the index without deleting files, we have seen
-         * IOExceptions while Lucene was trying to recreate the index. Making sure
-         * the index files are deleted will prevent these situations from occuring.
+         * IOExceptions while Lucene was trying to recreate the index. Making
+         * sure the index files are deleted will prevent these situations from
+         * occuring.
          */
         if (clearIndex) {
           File directory = new File(path);
@@ -135,14 +135,16 @@ public class ModelSearchImpl implements IModelSearch {
         fDirectory = FSDirectory.getDirectory(path, lockFactory);
       }
 
-      if (fIndexer == null)
+      if (fIndexer == null) {
         fIndexer = new Indexer(this, fDirectory);
+      }
 
       fIndexer.initIfNecessary(clearIndex);
 
       synchronized (this) {
-        if (fSearcher == null)
+        if (fSearcher == null) {
           fSearcher = createIndexSearcher();
+        }
       }
     } catch (LockObtainFailedException e) {
       throw new ProfileLockedException(e.getMessage(), e);
@@ -161,22 +163,25 @@ public class ModelSearchImpl implements IModelSearch {
        * Close fIndexer first because it's more important (reduces the chance of
        * a corrupt index). Can be null if exception thrown during start-up
        */
-      if (fIndexer != null)
+      if (fIndexer != null) {
         fIndexer.shutdown(emergency);
+      }
 
       /*
        * We don't bother to close searchers if it's an emergency. They will be
        * released when the process exits.
        */
-      if (emergency)
+      if (emergency) {
         return;
+      }
 
       synchronized (this) {
 
         /* We first close all the searchers whose refCount is 0 */
         for (Map.Entry<IndexSearcher, AtomicInteger> mapEntry : fSearchers.entrySet()) {
-          if (mapEntry.getValue().get() == 0)
+          if (mapEntry.getValue().get() == 0) {
             dispose(mapEntry.getKey());
+          }
         }
 
         while (!fSearchers.isEmpty()) {
@@ -196,8 +201,9 @@ public class ModelSearchImpl implements IModelSearch {
 
           /* Try again for the ones that are left */
           for (Map.Entry<IndexSearcher, AtomicInteger> mapEntry : fSearchers.entrySet()) {
-            if (mapEntry.getValue().get() == 0)
+            if (mapEntry.getValue().get() == 0) {
               dispose(mapEntry.getKey());
+            }
           }
         }
 
@@ -265,13 +271,15 @@ public class ModelSearchImpl implements IModelSearch {
       for (IGuid guid : guids) {
 
         /* Return early on cancellation */
-        if (monitor.isCanceled())
+        if (monitor.isCanceled()) {
           return linkToRefs;
+        }
 
         BooleanQuery query = createGuidQuery(guid, copy);
         List<NewsReference> newsRefs = simpleSearch(currentSearcher, query);
-        if (!newsRefs.isEmpty())
+        if (!newsRefs.isEmpty()) {
           linkToRefs.put(guid, newsRefs);
+        }
       }
       return linkToRefs;
     } finally {
@@ -293,13 +301,15 @@ public class ModelSearchImpl implements IModelSearch {
       for (URI link : links) {
 
         /* Return early on cancellation */
-        if (monitor.isCanceled())
+        if (monitor.isCanceled()) {
           return linkToRefs;
+        }
 
         BooleanQuery query = createNewsByLinkBooleanQuery(link, copy);
         List<NewsReference> newsRefs = simpleSearch(currentSearcher, query);
-        if (!newsRefs.isEmpty())
+        if (!newsRefs.isEmpty()) {
           linkToRefs.put(link, newsRefs);
+        }
       }
       return linkToRefs;
     } finally {
@@ -566,9 +576,9 @@ public class ModelSearchImpl implements IModelSearch {
          */
         while (true) {
           AtomicInteger refCount = fSearchers.get(currentSearcher);
-          if (refCount == null)
+          if (refCount == null) {
             break;
-          else if (refCount.get() == 0) {
+          } else if (refCount.get() == 0) {
 
             /*
              * This may be called at the same time from disposeIfNecessary, but
@@ -634,11 +644,7 @@ public class ModelSearchImpl implements IModelSearch {
    * @see org.rssowl.core.persist.service.IModelSearch#reIndexOnNextStartup()
    */
   public void reIndexOnNextStartup() throws PersistenceException {
-    try {
-      DBManager.getDefault().getReIndexFile().createNewFile();
-    } catch (IOException e) {
-      throw new PersistenceException(e);
-    }
+    IndexHelper.reindexOnNextStartUp();
   }
 
   /*
@@ -652,8 +658,9 @@ public class ModelSearchImpl implements IModelSearch {
     Collection<INews> newsList = InternalOwl.getDefault().getPersistenceService().getDAOService().getNewsDAO().loadAll();
 
     /* User might have cancelled the operation */
-    if (monitor.isCanceled())
+    if (monitor.isCanceled()) {
       return;
+    }
 
     /* Begin Task */
     monitor.beginTask(Messages.ModelSearchImpl_PROGRESS_WAIT, newsList.size());
@@ -670,8 +677,9 @@ public class ModelSearchImpl implements IModelSearch {
     boolean isFirstRun = true;
 
     /* User might have cancelled the operation */
-    if (monitor.isCanceled())
+    if (monitor.isCanceled()) {
       return;
+    }
 
     /* Startup Modelsearch and clean the index directory */
     startup(true);
@@ -688,21 +696,27 @@ public class ModelSearchImpl implements IModelSearch {
 
         /* Obtain the next chunk of news from the List */
         List<INews> newsChunkToBeIndexed = new ArrayList<INews>(INDEX_CHUNK_SIZE);
-        for (int i = 0; i < INDEX_CHUNK_SIZE && iterator.hasNext(); i++)
+        for (int i = 0; i < INDEX_CHUNK_SIZE && iterator.hasNext(); i++) {
           newsChunkToBeIndexed.add(iterator.next());
+        }
 
         /* Return if nothing to do */
-        if (newsChunkToBeIndexed.isEmpty())
+        if (newsChunkToBeIndexed.isEmpty()) {
           break;
+        }
 
         /* Flush frequently to optimize memory usage during reindexing */
-        if (!isFirstRun)
+        if (!isFirstRun) {
           fIndexer.flushIfNecessary();
+        }
 
         /* Index News Items */
         for (INews newsitem : newsChunkToBeIndexed) {
 
-          /* User might have canceled, so give feedback that work needs to complete */
+          /*
+           * User might have canceled, so give feedback that work needs to
+           * complete
+           */
           if (!userCanceled && monitor.isCanceled()) {
             monitor.setTaskName(Messages.ModelSearchImpl_WAIT_TASK_COMPLETION);
             userCanceled = true;
@@ -724,8 +738,9 @@ public class ModelSearchImpl implements IModelSearch {
     try {
       currentSearcher = getCurrentSearcher();
     } finally {
-      if (currentSearcher != null)
+      if (currentSearcher != null) {
         disposeIfNecessary(currentSearcher);
+      }
     }
   }
 
@@ -740,8 +755,9 @@ public class ModelSearchImpl implements IModelSearch {
     List<NewsReference> results = simpleSearch(new MatchAllDocsQuery());
 
     /* User might have cancelled the operation */
-    if (monitor.isCanceled())
+    if (monitor.isCanceled()) {
       return;
+    }
 
     /* Begin Task */
     monitor.beginTask(Messages.ModelSearchImpl_PROGRESS_WAIT, results.size());
@@ -753,18 +769,18 @@ public class ModelSearchImpl implements IModelSearch {
     for (NewsReference newsRef : results) {
 
       /* User might have cancelled the operation */
-      if (monitor.isCanceled())
+      if (monitor.isCanceled()) {
         return;
+      }
 
       /* Delete if news no longer exists in DB */
-      if (!newsDao.exists(newsRef.getId()))
+      if (!newsDao.exists(newsRef.getId())) {
         newsToDelete.add(newsRef);
-
-      /* Delete if news either NULL or not visible */
-      else {
+      } else {
         INews resolvedNews = newsDao.load(newsRef.getId());
-        if (resolvedNews == null || !resolvedNews.isVisible())
+        if (resolvedNews == null || !resolvedNews.isVisible()) {
           newsToDelete.add(newsRef);
+        }
       }
 
       /* Report Progress */
@@ -788,10 +804,6 @@ public class ModelSearchImpl implements IModelSearch {
    * @see org.rssowl.core.persist.service.IModelSearch#cleanUpOnNextStartup()
    */
   public void cleanUpOnNextStartup() throws PersistenceException {
-    try {
-      DBManager.getDefault().getCleanUpIndexFile().createNewFile();
-    } catch (IOException e) {
-      throw new PersistenceException(e);
-    }
+    IndexHelper.cleanUpIndexOnNextStartUp();
   }
 }
