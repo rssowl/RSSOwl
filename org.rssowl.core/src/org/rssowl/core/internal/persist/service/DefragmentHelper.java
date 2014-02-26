@@ -549,25 +549,6 @@ public class DefragmentHelper {
 
       sourceDb.activate(feed, Integer.MAX_VALUE);
       addNewsCounterItem(newsCounter, feed);
-
-      // check feed before copying
-      List<INews> deleteNews = feed.getNewsByStates(EnumSet.of(INews.State.DELETED, INews.State.HIDDEN));
-      if (!deleteNews.isEmpty()) {
-        if (isCanceled()) {
-          return false;
-        }
-
-        for (INews news : deleteNews) {
-          // TODO correctly delete News and it's persistable fields from DB ????
-          sourceDb.delete(news);
-          feed.removeNews(news);
-        }
-        count += deleteNews.size();
-      }
-
-      // recreate fields base on news (Category, Author??
-
-      // copy feed to new db
       destinationDb.ext().set(feed, Integer.MAX_VALUE);
       ++feedCounter;
       if (feedCounter % 40 == 0) {
