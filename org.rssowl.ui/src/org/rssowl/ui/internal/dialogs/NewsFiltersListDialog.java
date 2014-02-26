@@ -197,7 +197,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
 
   private void updateTitle() {
     ISearchFilter problematicFilter = null;
-  
+
     Table table = fViewer.getTable();
     TableItem[] items = table.getItems();
     for (TableItem item : items) {
@@ -210,7 +210,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
         }
       }
     }
-  
+
     if (problematicFilter != null) {
       setMessage(NLS.bind(Messages.NewsFiltersListDialog_FILTER_MATCHES_ALL_NEWS, problematicFilter.getName()), IMessageProvider.WARNING);
     } else {
@@ -368,7 +368,8 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
         fDeleteButton.setEnabled(!selection.isEmpty());
         fEnableButton.setEnabled(!selection.isEmpty());
         fDisableButton.setEnabled(!selection.isEmpty());
-        fApplySelectedFilter.setEnabled(!selection.isEmpty() && selection.size() == 1);
+        fApplySelectedFilter.setEnabled(selection.size() > 0);
+        fApplySelectedFilter.setText((selection.isEmpty() || selection.size() == 1) ? Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER : Messages.NewsFiltersListDialog_RUN_SELECTED_FILTERS);
 
         updateMoveEnablement();
       }
@@ -555,14 +556,8 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
   }
 
   private void onMove(boolean up) {
-
-    // loading current filters
-    TableItem[] items = fViewer.getTable().getItems();
-    int totalItems = fViewer.getTable().getItemCount();
-    List<ISearchFilter> sortedFilters = new ArrayList<ISearchFilter>(items.length);
-    for (TableItem item : items) {
-      sortedFilters.add((ISearchFilter) item.getData());
-    }
+    int totalItems = getFiltersCount();
+    List<ISearchFilter> filters = getFilters();
 
     int[] selectionIndices = fViewer.getTable().getSelectionIndices();
     int[] moveResult = ListViewerUtils.moveMultipleItems(selectionIndices, totalItems, up);
@@ -576,7 +571,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
       if (moveResult[i] == i) {
         continue;
       }
-      ISearchFilter filter = sortedFilters.get(moveResult[i]);
+      ISearchFilter filter = filters.get(moveResult[i]);
       filter.setOrder(i);
       movedFilters.add(filter);
     }
@@ -587,6 +582,25 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
     updateCheckedState();
     updateMoveEnablement();
     updateTitle();
+  }
+
+  /**
+   * return count of current filters
+   */
+  private int getFiltersCount() {
+    return fViewer.getTable().getItemCount();
+  }
+
+  /**
+   * return current filters
+   */
+  private List<ISearchFilter> getFilters() {
+    TableItem[] items = fViewer.getTable().getItems();
+    List<ISearchFilter> filters = new ArrayList<ISearchFilter>(items.length);
+    for (TableItem item : items) {
+      filters.add((ISearchFilter) item.getData());
+    }
+    return filters;
   }
 
   private void onAdd() {
@@ -615,13 +629,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
   }
 
   private void onEnable(boolean enable) {
-
-    // loading news fiters
-    TableItem[] items = fViewer.getTable().getItems();
-    List<ISearchFilter> filters = new ArrayList<ISearchFilter>(items.length);
-    for (TableItem item : items) {
-      filters.add((ISearchFilter) item.getData());
-    }
+    List<ISearchFilter> filters = getFilters();
 
     // loading selection
     int[] selectionIndices = fViewer.getTable().getSelectionIndices();
@@ -688,96 +696,105 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
   }
 
   private void onApplySelectedFilter() {
-    IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
-    if (!selection.isEmpty()) {
-      ISearchFilter filter = (ISearchFilter) selection.getFirstElement();
+    int[] selectionIndices = fViewer.getTable().getSelectionIndices();
+    if (selectionIndices.length == 0) {
+      return;
+    }
+    List<ISearchFilter> filters = getFilters();
+    for (int i = 0; i < selectionIndices.length; i++) {
+      // TOODO make in progressdialog
+      applyFilter(filters.get(i));
+    }
+  }
 
-      /* Retrieve those actions that are forcable to run */
-      List<IFilterAction> actions = filter.getActions();
-      List<IFilterAction> forcableActions = new ArrayList<IFilterAction>(actions.size());
-      for (IFilterAction action : actions) {
-        NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
-        if (newsActionDescriptor != null && newsActionDescriptor.isForcable()) {
-          forcableActions.add(action);
-        }
-      }
+  private void applyFilter(ISearchFilter filter) {
 
-      /* Return early if selected Action is not forcable */
-      if (forcableActions.isEmpty()) {
-        MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_ACTIONS_TO_RUN, filter.getName()));
-        return;
-      }
-
-      IModelSearch search = Owl.getPersistenceService().getModelSearch();
-      List<SearchHit<NewsReference>> targetNews = null;
-
-      /* Search for all Visible News */
-      Set<State> visibleStates = INews.State.getVisible();
-      if (filter.getSearch() == null) {
-        ISearchField stateField = Owl.getModelFactory().createSearchField(INews.STATE, INews.class.getName());
-        ISearchCondition stateCondition = Owl.getModelFactory().createSearchCondition(stateField, SearchSpecifier.IS, EnumSet.of(State.NEW, State.UNREAD, State.UPDATED, State.READ));
-        targetNews = search.searchNews(Collections.singleton(stateCondition), true);
-      }
-
-      /* Use Search from Filter */
-      else {
-        List<SearchHit<NewsReference>> result = search.searchNews(filter.getSearch());
-        targetNews = new ArrayList<SearchHit<NewsReference>>(result.size());
-
-        /* Filter out those that are not visible */
-        for (SearchHit<NewsReference> resultItem : result) {
-          INews.State state = (State) resultItem.getData(INews.STATE);
-          if (visibleStates.contains(state)) {
-            targetNews.add(resultItem);
-          }
-        }
-      }
-
-      /* Return early if there is no matching News */
-      if (targetNews.isEmpty()) {
-        MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_FILTER_MATCH, filter.getName()));
-        return;
-      }
-
-      /* Ask for Confirmation */
-      boolean multipleActions = forcableActions.size() > 1;
-      String title = NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName());
-      StringBuilder message = new StringBuilder();
-      if (multipleActions) {
-        message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTIONS, targetNews.size())).append("\n"); //$NON-NLS-1$
-      } else {
-        message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTION, targetNews.size())).append("\n"); //$NON-NLS-1$
-      }
-
-      for (IFilterAction action : forcableActions) {
-        NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
-        String label = newsActionDescriptor.getNewsAction() != null ? newsActionDescriptor.getNewsAction().getLabel(action.getData()) : null;
-        if (StringUtils.isSet(label)) {
-          message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, label)); //$NON-NLS-1$
-        } else {
-          message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, newsActionDescriptor.getName())); //$NON-NLS-1$
-        }
-      }
-
-      message.append("\n\n").append(Messages.NewsFiltersListDialog_CONFIRM); //$NON-NLS-1$
-
-      ConfirmDialog dialog = new ConfirmDialog(getShell(), title, Messages.NewsFiltersListDialog_NO_UNDO, message.toString(), IDialogConstants.OK_LABEL, null) {
-        @Override
-        protected String getTitleImage() {
-          return "icons/wizban/filter_wiz.png"; //$NON-NLS-1$
-        }
-
-        @Override
-        public void setTitle(String newTitle) {
-          super.setTitle(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_TITLE);
-        }
-      };
-
-      /* Apply Actions in chunks of N Items to avoid Memory issues */
-      if (dialog.open() == IDialogConstants.OK_ID) {
-        applyFilter(targetNews, filter);
+    /* Retrieve those actions that are forcable to run */
+    List<IFilterAction> actions = filter.getActions();
+    List<IFilterAction> forcableActions = new ArrayList<IFilterAction>(actions.size());
+    for (IFilterAction action : actions) {
+      NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
+      if (newsActionDescriptor != null && newsActionDescriptor.isForcable()) {
+        forcableActions.add(action);
       }
     }
+
+    /* Return early if selected Action is not forcable */
+    if (forcableActions.isEmpty()) {
+      MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_ACTIONS_TO_RUN, filter.getName()));
+      return;
+    }
+
+    IModelSearch search = Owl.getPersistenceService().getModelSearch();
+    List<SearchHit<NewsReference>> targetNews = null;
+
+    /* Search for all Visible News */
+    Set<State> visibleStates = INews.State.getVisible();
+    if (filter.getSearch() == null) {
+      ISearchField stateField = Owl.getModelFactory().createSearchField(INews.STATE, INews.class.getName());
+      ISearchCondition stateCondition = Owl.getModelFactory().createSearchCondition(stateField, SearchSpecifier.IS, EnumSet.of(State.NEW, State.UNREAD, State.UPDATED, State.READ));
+      targetNews = search.searchNews(Collections.singleton(stateCondition), true);
+    }
+
+    /* Use Search from Filter */
+    else {
+      List<SearchHit<NewsReference>> result = search.searchNews(filter.getSearch());
+      targetNews = new ArrayList<SearchHit<NewsReference>>(result.size());
+
+      /* Filter out those that are not visible */
+      for (SearchHit<NewsReference> resultItem : result) {
+        INews.State state = (State) resultItem.getData(INews.STATE);
+        if (visibleStates.contains(state)) {
+          targetNews.add(resultItem);
+        }
+      }
+    }
+
+    /* Return early if there is no matching News */
+    if (targetNews.isEmpty()) {
+      MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_FILTER_MATCH, filter.getName()));
+      return;
+    }
+
+    /* Ask for Confirmation */
+    boolean multipleActions = forcableActions.size() > 1;
+    String title = NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName());
+    StringBuilder message = new StringBuilder();
+    if (multipleActions) {
+      message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTIONS, targetNews.size())).append("\n"); //$NON-NLS-1$
+    } else {
+      message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTION, targetNews.size())).append("\n"); //$NON-NLS-1$
+    }
+
+    for (IFilterAction action : forcableActions) {
+      NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
+      String label = newsActionDescriptor.getNewsAction() != null ? newsActionDescriptor.getNewsAction().getLabel(action.getData()) : null;
+      if (StringUtils.isSet(label)) {
+        message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, label)); //$NON-NLS-1$
+      } else {
+        message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, newsActionDescriptor.getName())); //$NON-NLS-1$
+      }
+    }
+
+    message.append("\n\n").append(Messages.NewsFiltersListDialog_CONFIRM); //$NON-NLS-1$
+
+    ConfirmDialog dialog = new ConfirmDialog(getShell(), title, Messages.NewsFiltersListDialog_NO_UNDO, message.toString(), IDialogConstants.OK_LABEL, null) {
+      @Override
+      protected String getTitleImage() {
+        return "icons/wizban/filter_wiz.png"; //$NON-NLS-1$
+      }
+
+      @Override
+      public void setTitle(String newTitle) {
+        super.setTitle(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_TITLE);
+      }
+    };
+
+    /* Apply Actions in chunks of N Items to avoid Memory issues */
+    if (dialog.open() == IDialogConstants.OK_ID) {
+      applyFilter(targetNews, filter);
+    }
+
   }
 
   private void applyFilter(final List<SearchHit<NewsReference>> news, final ISearchFilter filter) {
