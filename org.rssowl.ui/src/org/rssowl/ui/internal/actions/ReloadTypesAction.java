@@ -33,13 +33,10 @@ import org.eclipse.jface.viewers.StructuredSelection;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
-import org.rssowl.core.Owl;
 import org.rssowl.core.persist.IBookMark;
 import org.rssowl.core.persist.IEntity;
 import org.rssowl.core.persist.IFolder;
 import org.rssowl.core.persist.IMark;
-import org.rssowl.core.persist.INews;
-import org.rssowl.core.persist.reference.FeedLinkReference;
 import org.rssowl.ui.internal.Controller;
 import org.rssowl.ui.internal.EntityGroup;
 import org.rssowl.ui.internal.EntityGroupItem;
@@ -47,9 +44,7 @@ import org.rssowl.ui.internal.OwlUI;
 import org.rssowl.ui.internal.editors.feed.FeedView;
 import org.rssowl.ui.internal.editors.feed.FeedViewInput;
 
-import java.util.Collection;
 import java.util.Comparator;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
@@ -131,7 +126,7 @@ public class ReloadTypesAction extends Action implements IObjectActionDelegate {
 
     /* Run Update */
     List<?> list = fSelection.toList();
-    Set<FeedLinkReference> handledFeedsFromNews = new HashSet<FeedLinkReference>();
+//    Set<FeedLinkReference> handledFeedsFromNews = new HashSet<FeedLinkReference>();
     for (Object selection : list) {
       if (selection instanceof IFolder) {
         IFolder folder = (IFolder) selection;
@@ -142,16 +137,15 @@ public class ReloadTypesAction extends Action implements IObjectActionDelegate {
         IBookMark bookMark = (IBookMark) selection;
         selectedBookMarks.add(bookMark);
       }
-
-      else if (selection instanceof INews) {
-        INews news = (INews) selection;
-        if (!handledFeedsFromNews.contains(news.getFeedReference())) {
-          handledFeedsFromNews.add(news.getFeedReference());
-          Collection<IBookMark> relatedBookmarks = Owl.getPersistenceService().getDAOService().getBookMarkDAO().loadAll(news.getFeedReference());
-          if (relatedBookmarks.size() > 0)
-            selectedBookMarks.add(relatedBookmarks.iterator().next());
-        }
-      }
+//      else if (selection instanceof INews) {
+//        INews news = (INews) selection;
+//        if (!handledFeedsFromNews.contains(news.getFeedReference())) {
+//          handledFeedsFromNews.add(news.getFeedReference());
+//          Collection<IBookMark> relatedBookmarks = Owl.getPersistenceService().getDAOService().getBookMarkDAO().loadAll(news.getFeedReference());
+//          if (relatedBookmarks.size() > 0)
+//            selectedBookMarks.add(relatedBookmarks.iterator().next());
+//        }
+//      }
 
       else if (selection instanceof EntityGroup) {
         EntityGroup group = (EntityGroup) selection;
@@ -161,15 +155,16 @@ public class ReloadTypesAction extends Action implements IObjectActionDelegate {
           if (entity instanceof IBookMark) {
             IBookMark bookMark = (IBookMark) entity;
             selectedBookMarks.add(bookMark);
-          } else if (entity instanceof INews) {
-            INews news = (INews) entity;
-            if (!handledFeedsFromNews.contains(news.getFeedReference())) {
-              handledFeedsFromNews.add(news.getFeedReference());
-              Collection<IBookMark> relatedBookmarks = Owl.getPersistenceService().getDAOService().getBookMarkDAO().loadAll(news.getFeedReference());
-              if (relatedBookmarks.size() > 0)
-                selectedBookMarks.add(relatedBookmarks.iterator().next());
-            }
           }
+//          else if (entity instanceof INews) {
+//            INews news = (INews) entity;
+//            if (!handledFeedsFromNews.contains(news.getFeedReference())) {
+//              handledFeedsFromNews.add(news.getFeedReference());
+//              Collection<IBookMark> relatedBookmarks = Owl.getPersistenceService().getDAOService().getBookMarkDAO().loadAll(news.getFeedReference());
+//              if (relatedBookmarks.size() > 0)
+//                selectedBookMarks.add(relatedBookmarks.iterator().next());
+//            }
+//          }
         }
       }
     }

@@ -70,18 +70,29 @@ import java.util.concurrent.atomic.AtomicBoolean;
  *
  * @author bpasero
  */
+/**
+ * @author MuxaJIbI4
+ */
 public class SavedSearchService {
 
   /* Time in millies before updating the saved searches (long) */
-  private static final int BATCH_INTERVAL_LONG = 1000;
+  private static final int BATCH_INTERVAL_LONG = 10000;
 
   /* Time in millies before updating the saved searches (short) */
-  private static final int BATCH_INTERVAL_SHORT = 100;
+  private static final int BATCH_INTERVAL_SHORT = 1000;
 
   /* Number of updated documents before using the long batch interval */
   private static final int SHORT_THRESHOLD = 1;
 
+  // TODO make this Job shown in progress view
   private final Job fBatchJob;
+
+  // service running state
+  private final AtomicBoolean fServiceRunning = new AtomicBoolean(false);
+
+  // show if we update any saved searhes now. If we do it in 1 thread it's not work
+  private final AtomicBoolean fSearchesUpdating = new AtomicBoolean(false);
+
   private final AtomicBoolean fBatchInProcess = new AtomicBoolean(false);
   private final AtomicBoolean fUpdatedOnce = new AtomicBoolean(false);
   private final AtomicBoolean fForceQuickUpdate = new AtomicBoolean(false);
@@ -93,35 +104,36 @@ public class SavedSearchService {
   /** Creates and Starts this Service */
   public SavedSearchService() {
     fBatchJob = createBatchJob();
-    registerListeners();
+    createListeners();
+    startService();
   }
 
-  private Job createBatchJob() {
-    Job job = new Job("") { //$NON-NLS-1$
-      @Override
-      protected IStatus run(IProgressMonitor monitor) {
-        fBatchInProcess.set(false);
-        fForceQuickUpdate.set(false);
-
-        /* Update all saved searches */
-        SafeRunner.run(new LoggingSafeRunnable() {
-          public void run() throws Exception {
-            if (!Controller.getDefault().isShuttingDown())
-              updateSavedSearches(true);
-          }
-        });
-
-        return Status.OK_STATUS;
-      }
-    };
-
-    job.setSystem(true);
-    job.setUser(false);
-
-    return job;
+  /** Starts this service by adding listeners */
+  public void startService() {
+    if (!fServiceRunning.getAndSet(true)) {
+      registerListeners();
+      fBatchJob.schedule(BATCH_INTERVAL_LONG);
+    }
   }
 
-  private void registerListeners() {
+  /**
+   * Returns whether saved search service is running
+   *
+   * @return service running state
+   */
+  public boolean isRunning() {
+    return fServiceRunning.get();
+  }
+
+  /** Stops this service and unregisters any listeners added. */
+  public void stopService() {
+    if (fServiceRunning.getAndSet(false)) {
+      unregisterListeners();
+      fBatchJob.cancel();
+    }
+  }
+
+  private void createListeners() {
 
     /* Index Listener */
     fIndexListener = new IndexListener() {
@@ -129,8 +141,6 @@ public class SavedSearchService {
         updateSavedSearchesFromEvent(entitiesCount);
       }
     };
-
-    Owl.getPersistenceService().getModelSearch().addIndexListener(fIndexListener);
 
     /* Bookmark Listener: Update on Reparent */
     fBookmarkListener = new BookMarkAdapter() {
@@ -150,8 +160,6 @@ public class SavedSearchService {
       }
     };
 
-    DynamicDAO.addEntityListener(IBookMark.class, fBookmarkListener);
-
     /* News Bin Listener: Update on Reparent */
     fNewsBinListener = new NewsBinAdapter() {
       @Override
@@ -170,8 +178,6 @@ public class SavedSearchService {
       }
     };
 
-    DynamicDAO.addEntityListener(INewsBin.class, fNewsBinListener);
-
     /* Folder Listener: Update on Reparent */
     fFolderListener = new FolderAdapter() {
       @Override
@@ -189,17 +195,13 @@ public class SavedSearchService {
         }
       }
     };
-
-    DynamicDAO.addEntityListener(IFolder.class, fFolderListener);
   }
 
-  private void updateSavedSearchesFromEvent(int entitiesCount) {
-    if (!Controller.getDefault().isShuttingDown()) {
-      if (!InternalOwl.TESTING)
-        onIndexUpdated(entitiesCount);
-      else
-        updateSavedSearches(true);
-    }
+  private void registerListeners() {
+    Owl.getPersistenceService().getModelSearch().addIndexListener(fIndexListener);
+    DynamicDAO.addEntityListener(IBookMark.class, fBookmarkListener);
+    DynamicDAO.addEntityListener(INewsBin.class, fNewsBinListener);
+    DynamicDAO.addEntityListener(IFolder.class, fFolderListener);
   }
 
   private void unregisterListeners() {
@@ -209,12 +211,24 @@ public class SavedSearchService {
     DynamicDAO.removeEntityListener(IFolder.class, fFolderListener);
   }
 
-  private void onIndexUpdated(int entitiesCount) {
+  /**
+   * shutting down or SavedSearchServce is stopped
+   *
+   * @return whether to break all ongoing searches
+   */
+  private boolean stopSearching() {
+    return Controller.getDefault().isShuttingDown() || !isRunning();
+  }
 
-    /* Start a new Batch if one is not in progress */
-    if (!fBatchInProcess.getAndSet(true)) {
-      fBatchJob.schedule((entitiesCount <= SHORT_THRESHOLD || fForceQuickUpdate.get()) ? BATCH_INTERVAL_SHORT : BATCH_INTERVAL_LONG);
+  private void updateSavedSearchesFromEvent(int entitiesCount) {
+    if (!stopSearching()) {
       return;
+    }
+
+    if (!InternalOwl.TESTING) {
+      onIndexUpdated(entitiesCount);
+    } else {
+      updateSavedSearches(true);
     }
   }
 
@@ -227,6 +241,41 @@ public class SavedSearchService {
     fForceQuickUpdate.set(true);
   }
 
+  private void onIndexUpdated(int entitiesCount) {
+
+    /* Start a new Job if one is not in progress */
+    if (!fBatchInProcess.getAndSet(true)) {
+      fBatchJob.schedule((entitiesCount <= SHORT_THRESHOLD || fForceQuickUpdate.get()) ? BATCH_INTERVAL_SHORT : BATCH_INTERVAL_LONG);
+      return;
+    }
+  }
+
+  private Job createBatchJob() {
+    Job job = new Job("") { //$NON-NLS-1$
+      @Override
+      protected IStatus run(IProgressMonitor monitor) {
+        fBatchInProcess.set(false);
+        fForceQuickUpdate.set(false);
+
+        /* Update all saved searches */
+        SafeRunner.run(new LoggingSafeRunnable() {
+          public void run() throws Exception {
+            if (!stopSearching()) {
+              updateSavedSearches(true);
+            }
+          }
+        });
+
+        return Status.OK_STATUS;
+      }
+    };
+
+    job.setSystem(true);
+    job.setUser(false);
+
+    return job;
+  }
+
   /**
    * Update the results of all <code>ISearchMark</code>s stored in RSSOwl.
    *
@@ -234,8 +283,9 @@ public class SavedSearchService {
    * done before.
    */
   public void updateSavedSearches(boolean force) {
-    if (!force && fUpdatedOnce.get())
+    if (!force && fUpdatedOnce.get()) {
       return;
+    }
 
     Collection<ISearchMark> searchMarks = DynamicDAO.loadAll(ISearchMark.class);
     updateSavedSearches(searchMarks);
@@ -251,7 +301,8 @@ public class SavedSearchService {
 
   /**
    * @param searchMarks The Set of <code>ISearchMark</code> to update the
-   * results in.
+   * results in. TODO: make cancelable at any stage: make Queue similar to
+   * JobQueue for reloading Boormarks
    * @param fromUserEvent Indicates whether to update the saved searches due to
    * a user initiated event or an automatic one.
    */
@@ -264,10 +315,9 @@ public class SavedSearchService {
 
     /* For each Search Mark */
     for (ISearchMark searchMark : searchMarks) {
-
-      /* Return early if shutting down */
-      if (Controller.getDefault().isShuttingDown())
+      if (stopSearching()) {
         return;
+      }
 
       /* Execute the search */
       List<SearchHit<NewsReference>> results = modelSearch.searchNews(searchMark.getSearchConditions(), searchMark.matchAllConditions());
@@ -279,8 +329,9 @@ public class SavedSearchService {
       for (SearchHit<NewsReference> searchHit : results) {
 
         /* Return early if shutting down */
-        if (Controller.getDefault().isShuttingDown())
+        if (stopSearching()) {
           return;
+        }
 
         INews.State state = (State) searchHit.getData(INews.STATE);
         if (visibleStates.contains(state)) {
@@ -299,17 +350,14 @@ public class SavedSearchService {
       boolean newNewsAdded = result.getSecond();
 
       /* Create Event to indicate changed results if any */
-      if (changed)
+      if (changed) {
         events.add(new SearchMarkEvent(searchMark, null, true, !firstUpdate && !fromUserEvent && newNewsAdded));
+      }
     }
 
     /* Notify Listeners */
-    if (!events.isEmpty() && !Controller.getDefault().isShuttingDown())
+    if (!events.isEmpty() && !stopSearching()) {
       DynamicDAO.getDAO(ISearchMarkDAO.class).fireNewsChanged(events);
-  }
-
-  /** Stops this service and unregisters any listeners added. */
-  public void stopService() {
-    unregisterListeners();
+    }
   }
 }

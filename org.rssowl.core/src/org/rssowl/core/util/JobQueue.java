@@ -265,8 +265,10 @@ public class JobQueue {
       return true;
 
     /* Start a new Job for each free Slot */
-    for (int i = 0; i < tasksSize && !fOpenTasksQueue.isEmpty(); ++i) {
+    while (!fOpenTasksQueue.isEmpty()) {
 
+
+      // TODO: move next code to Job Pool code
       /* Never exceed max number of allowed concurrent Jobs */
       if (fScheduledJobs.incrementAndGet() > fMaxConcurrentJobs) {
         fScheduledJobs.decrementAndGet();
@@ -377,20 +379,6 @@ public class JobQueue {
     return fTotalWork.get() - fWorkDone.get() == 0;
   }
 
-  /**
-   * @param listener The Listener to add to the List of Listeners.
-   */
-  public void addJobQueueListener(JobQueueListener listener) {
-    fListeners.add(listener);
-  }
-
-  /**
-   * @param listener The Listener to remove from the List of Listeners.
-   */
-  public void removeJobQueueListener(JobQueueListener listener) {
-    fListeners.remove(listener);
-  }
-
   /* Creates the Job for displaying Progress while Tasks are processed */
   private Job createProgressJob() {
     return new Job(fName) {
@@ -470,6 +458,20 @@ public class JobQueue {
         }
       });
     }
+  }
+
+  /**
+   * @param listener The Listener to add to the List of Listeners.
+   */
+  public void addJobQueueListener(JobQueueListener listener) {
+    fListeners.add(listener);
+  }
+
+  /**
+   * @param listener The Listener to remove from the List of Listeners.
+   */
+  public void removeJobQueueListener(JobQueueListener listener) {
+    fListeners.remove(listener);
   }
 
   private String formatTask() {
