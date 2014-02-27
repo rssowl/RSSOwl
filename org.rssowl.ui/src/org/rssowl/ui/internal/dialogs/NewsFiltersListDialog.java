@@ -702,7 +702,11 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
     }
     List<ISearchFilter> filters = getFilters();
     for (int i = 0; i < selectionIndices.length; i++) {
-      // TOODO make in progressdialog
+      // TOODO make in progress dialog
+      // TODO make News Filters JobQueue which will be used in 2 cases
+      // 1) on news got after updating feed (with state NEW)
+      // 2) on all news when asked to run by user (through News Filters window)
+
       applyFilter(filters.get(i));
     }
   }

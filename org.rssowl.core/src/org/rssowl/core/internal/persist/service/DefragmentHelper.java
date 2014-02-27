@@ -380,7 +380,7 @@ public class DefragmentHelper {
     }
     int count = allLabels.size() - labels.size();
     if (count > 0) {
-      Activator.safeLogInfo(String.format("Found %1 labels with duplicate ids", count)); //$NON-NLS-1$
+      Activator.safeLogInfo(String.format("Found %1$s labels with duplicate ids", count)); //$NON-NLS-1$
     }
 
     int chunk = available / labels.size();
