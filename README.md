@@ -1,3 +1,17 @@
+RSSOwl is unmaintained and has several known vulnerabilities. See [#7](https://github.com/rssowl/RSSOwl/issues/7) and [#8](https://github.com/rssowl/RSSOwl/issues/8)
+====
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 RSSOwl
 ======
 RSS Owl is a powerful application to organize, search and read your RSS, RDF & Atom news feeds in a comfortable way.
