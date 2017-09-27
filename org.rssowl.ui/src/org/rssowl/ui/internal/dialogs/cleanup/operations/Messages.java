@@ -1,7 +1,7 @@
 /*   **********************************************************************  **
  **   Copyright notice                                                       **
  **                                                                          **
- **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   (c) 2005-2011 RSSOwl Development Team                                  **
  **   http://www.rssowl.org/                                                 **
  **                                                                          **
  **   All rights reserved                                                    **
@@ -22,40 +22,30 @@
  **                                                                          **
  **  **********************************************************************  */
 
-package org.rssowl.core.internal.persist.migration;
+package org.rssowl.ui.internal.dialogs.cleanup.operations;
 
-/**
- * Some flags to control what should happen after Migration.
- */
-public final class MigrationResult {
-  private final boolean reindex;
-  private final boolean optimizeIndex;
-  private final boolean defragmentDatabase;
+import org.eclipse.osgi.util.NLS;
 
-  public MigrationResult(boolean reindex, boolean optimizeIndex, boolean defragmentDatabase) {
-    this.reindex = reindex;
-    this.optimizeIndex = optimizeIndex;
-    this.defragmentDatabase = defragmentDatabase;
-  }
+class Messages extends NLS {
+  private static final String BUNDLE_NAME = "org.rssowl.ui.internal.dialogs.cleanup.operations.messages"; //$NON-NLS-1$
 
-  /**
-   * @return <code>true</code> if the lucene index should be reindexed.
-   */
-  public final boolean isReindex() {
-    return reindex;
-  }
+  public static String CleanUpModel_DELETE_BY_AGE;
+  public static String CleanUpModel_DELETE_BY_COUNT;
+  public static String CleanUpModel_DELETE_BY_UPDATE;
+  public static String CleanUpModel_DELETE_BY_VISIT;
+  public static String CleanUpModel_DELETE_CON_ERROR;
+  public static String CleanUpModel_DELETE_DUPLICATES;
+  public static String CleanUpModel_DELETE_UNSUBSCRIBED_FEEDS;
+  public static String CleanUpModel_DELETE_BROKEN_SEARCHES;
+  public static String CleanUpModel_READ_NEWS;
+  public static String CleanUpModel_RECOMMENDED_DEFRAGMENT;
+  public static String CleanUpModel_RECOMMENDED_SEARCH_INDEX;
 
-  /**
-   * @return <code>true</code> if the lucene index should be optimized.
-   */
-  public final boolean isOptimizeIndex() {
-    return optimizeIndex;
-  }
 
-  /**
-   * @return <code>true</code> if the database should be defragmented.
-   */
-  public final boolean isDefragmentDatabase() {
-    return defragmentDatabase;
+  private Messages() {}
+
+  static {
+    // initialize resource bundle
+    NLS.initializeMessages(BUNDLE_NAME, Messages.class);
   }
 }

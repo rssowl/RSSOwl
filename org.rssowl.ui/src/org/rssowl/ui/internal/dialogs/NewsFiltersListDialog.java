@@ -91,6 +91,7 @@ import org.rssowl.ui.internal.util.CColumnLayoutData;
 import org.rssowl.ui.internal.util.CColumnLayoutData.Size;
 import org.rssowl.ui.internal.util.CTable;
 import org.rssowl.ui.internal.util.LayoutUtils;
+import org.rssowl.ui.internal.util.ListViewerUtils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
@@ -100,7 +101,6 @@ import java.util.Collections;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -130,6 +130,8 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
   private Button fDeleteButton;
   private Button fMoveDownButton;
   private Button fMoveUpButton;
+  private Button fEnableButton;
+  private Button fDisableButton;
   private Image fFilterIcon;
   private ISearchFilterDAO fSearchFilterDao;
   private Button fApplySelectedFilter;
@@ -171,6 +173,114 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
     fgVisibleInstance = null;
     fResources.dispose();
     return res;
+  }
+
+  /**
+   * Refresh the list of displayed Filters.
+   */
+  public void refresh() {
+    if (fViewer != null) {
+      fViewer.refresh();
+      updateCheckedState();
+    }
+  }
+
+  /**
+   * @param filter the {@link ISearchFilter} to select.
+   */
+  public void setSelection(ISearchFilter filter) {
+    fSelectedFilter = filter;
+    if (fViewer != null) {
+      fViewer.setSelection(new StructuredSelection(fSelectedFilter), true);
+    }
+  }
+
+  private void updateTitle() {
+    ISearchFilter problematicFilter = null;
+
+    Table table = fViewer.getTable();
+    TableItem[] items = table.getItems();
+    for (TableItem item : items) {
+      ISearchFilter filter = (ISearchFilter) item.getData();
+      if (filter.getSearch() == null && filter.isEnabled()) {
+        int index = table.indexOf(item);
+        if (index < table.getItemCount() - 1) {
+          problematicFilter = filter;
+          break;
+        }
+      }
+    }
+
+    if (problematicFilter != null) {
+      setMessage(NLS.bind(Messages.NewsFiltersListDialog_FILTER_MATCHES_ALL_NEWS, problematicFilter.getName()), IMessageProvider.WARNING);
+    } else {
+      setMessage(Messages.NewsFiltersListDialog_ENABLED_FILTERS, IMessageProvider.INFORMATION);
+    }
+  }
+
+  private void updateCheckedState() {
+    TableItem[] items = fViewer.getTable().getItems();
+    for (TableItem item : items) {
+      ISearchFilter filter = (ISearchFilter) item.getData();
+      fViewer.setChecked(filter, filter.isEnabled());
+    }
+  }
+
+  /*
+   * @see org.eclipse.jface.window.Window#configureShell(org.eclipse.swt.widgets.Shell)
+   */
+  @Override
+  protected void configureShell(Shell shell) {
+    super.configureShell(shell);
+    shell.setText(Messages.NewsFiltersListDialog_NEWS_FILTERS);
+  }
+
+  /*
+   * @see org.eclipse.jface.dialogs.TrayDialog#createButtonBar(org.eclipse.swt.widgets.Composite)
+   */
+  @Override
+  protected Control createButtonBar(Composite parent) {
+    return null;
+  }
+
+  /*
+   * @see org.eclipse.jface.dialogs.Dialog#getDialogBoundsSettings()
+   */
+  @Override
+  protected IDialogSettings getDialogBoundsSettings() {
+    IDialogSettings settings = Activator.getDefault().getDialogSettings();
+    IDialogSettings section = settings.getSection(SETTINGS_SECTION);
+    if (section != null) {
+      return section;
+    }
+
+    return settings.addNewSection(SETTINGS_SECTION);
+  }
+
+  /*
+   * @see org.eclipse.jface.dialogs.Dialog#getDialogBoundsStrategy()
+   */
+  @Override
+  protected int getDialogBoundsStrategy() {
+    return DIALOG_PERSISTSIZE;
+  }
+
+  /*
+   * @see org.eclipse.jface.window.Window#getShellStyle()
+   */
+  @Override
+  protected int getShellStyle() {
+    int style = SWT.TITLE | SWT.BORDER | SWT.MIN | SWT.MAX | SWT.RESIZE | SWT.CLOSE | getDefaultOrientation();
+
+    return style;
+  }
+
+  /*
+   * @see org.eclipse.jface.dialogs.Dialog#isResizable()
+   */
+  @Override
+  protected boolean isResizable() {
+    return true;
   }
 
   /*
@@ -227,13 +337,15 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
       public void update(ViewerCell cell) {
         ISearchFilter filter = (ISearchFilter) cell.getElement();
         Display display = fViewer.getControl().getDisplay();
-        if (filter.isEnabled())
+        if (filter.isEnabled()) {
           cell.setText(filter.getName());
-        else
+        } else {
           cell.setText(NLS.bind(Messages.NewsFiltersListDialog_FILTER_DISABLED, filter.getName()));
+        }
         cell.setImage(fFilterIcon);
-        if (!OwlUI.isHighContrast())
+        if (!OwlUI.isHighContrast()) {
           cell.setForeground(filter.isEnabled() ? display.getSystemColor(SWT.COLOR_BLACK) : display.getSystemColor(SWT.COLOR_DARK_GRAY));
+        }
       }
     });
 
@@ -254,7 +366,10 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         fEditButton.setEnabled(!selection.isEmpty());
         fDeleteButton.setEnabled(!selection.isEmpty());
-        fApplySelectedFilter.setEnabled(!selection.isEmpty() && selection.size() == 1);
+        fEnableButton.setEnabled(!selection.isEmpty());
+        fDisableButton.setEnabled(!selection.isEmpty());
+        fApplySelectedFilter.setEnabled(selection.size() > 0);
+        fApplySelectedFilter.setText((selection.isEmpty() || selection.size() == 1) ? Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER : Messages.NewsFiltersListDialog_RUN_SELECTED_FILTERS);
 
         updateMoveEnablement();
       }
@@ -353,6 +468,34 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
       }
     });
 
+    /* Enable All Filters */
+    fEnableButton = new Button(buttonContainer, SWT.PUSH);
+    fEnableButton.setText(Messages.NewsFiltersListDialog_ENABLE);
+    fEnableButton.setEnabled(false);
+    applyDialogFont(fEnableButton);
+    setButtonLayoutData(fEnableButton);
+    fEnableButton.addSelectionListener(new SelectionAdapter() {
+      @Override
+      public void widgetSelected(SelectionEvent e) {
+        onEnable(true);
+      }
+
+    });
+
+    /* Disable All Filters */
+    fDisableButton = new Button(buttonContainer, SWT.PUSH);
+    fDisableButton.setText(Messages.NewsFiltersListDialog_DISABLE);
+    fDisableButton.setEnabled(false);
+    applyDialogFont(fDisableButton);
+    setButtonLayoutData(fDisableButton);
+    fDisableButton.addSelectionListener(new SelectionAdapter() {
+      @Override
+      public void widgetSelected(SelectionEvent e) {
+        onEnable(false);
+      }
+
+    });
+
     Composite buttonBar = new Composite(composite, SWT.NONE);
     buttonBar.setLayout(LayoutUtils.createGridLayout(2, 0, 0));
     buttonBar.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false, 2, 1));
@@ -390,101 +533,272 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
     updateTitle();
 
     /* Set Selection if provided */
-    if (fSelectedFilter != null)
+    if (fSelectedFilter != null) {
       fViewer.setSelection(new StructuredSelection(fSelectedFilter), true);
+    }
 
     applyDialogFont(composite);
 
     return composite;
   }
 
-  private void onApplySelectedFilter() {
+  private void updateMoveEnablement() {
+    int[] selectionIndices = fViewer.getTable().getSelectionIndices();
+    if (selectionIndices == null || selectionIndices.length == 0) {
+      fMoveUpButton.setEnabled(false);
+      fMoveDownButton.setEnabled(false);
+      return;
+    }
+    int totalItems = fViewer.getTable().getItemCount();
+    Arrays.sort(selectionIndices);
+    fMoveUpButton.setEnabled(ListViewerUtils.canMoveUp(selectionIndices, totalItems));
+    fMoveDownButton.setEnabled(ListViewerUtils.canMoveDown(selectionIndices, totalItems));
+  }
+
+  private void onMove(boolean up) {
+    int totalItems = getFiltersCount();
+    List<ISearchFilter> filters = getFilters();
+
+    int[] selectionIndices = fViewer.getTable().getSelectionIndices();
+    int[] moveResult = ListViewerUtils.moveMultipleItems(selectionIndices, totalItems, up);
+    if (moveResult == null) { // nohing was moved
+      return;
+    }
+
+    // changed filters order according to move result
+    List<ISearchFilter> movedFilters = new ArrayList<ISearchFilter>();
+    for (int i = 0; i < totalItems; i++) {
+      if (moveResult[i] == i) {
+        continue;
+      }
+      ISearchFilter filter = filters.get(moveResult[i]);
+      filter.setOrder(i);
+      movedFilters.add(filter);
+    }
+
+    fSearchFilterDao.saveAll(movedFilters);
+    fViewer.refresh();
+    fViewer.getTable().showSelection();
+    updateCheckedState();
+    updateMoveEnablement();
+    updateTitle();
+  }
+
+  /**
+   * return count of current filters
+   */
+  private int getFiltersCount() {
+    return fViewer.getTable().getItemCount();
+  }
+
+  /**
+   * return current filters
+   */
+  private List<ISearchFilter> getFilters() {
+    TableItem[] items = fViewer.getTable().getItems();
+    List<ISearchFilter> filters = new ArrayList<ISearchFilter>(items.length);
+    for (TableItem item : items) {
+      filters.add((ISearchFilter) item.getData());
+    }
+    return filters;
+  }
+
+  private void onAdd() {
+    NewsFilterDialog dialog = new NewsFilterDialog(getShell());
+    Table table = fViewer.getTable();
+    dialog.setFilterPosition(table.getItemCount());
+    if (dialog.open() == IDialogConstants.OK_ID) {
+      fViewer.refresh();
+      updateCheckedState();
+      fViewer.setSelection(new StructuredSelection(table.getItem(table.getItemCount() - 1).getData()));
+      fViewer.getTable().setFocus();
+      updateTitle();
+    }
+  }
+
+  private void onEdit() {
     IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
-    if (!selection.isEmpty()) {
-      ISearchFilter filter = (ISearchFilter) selection.getFirstElement();
+    ISearchFilter filter = (ISearchFilter) selection.getFirstElement();
 
-      /* Retrieve those actions that are forcable to run */
-      List<IFilterAction> actions = filter.getActions();
-      List<IFilterAction> forcableActions = new ArrayList<IFilterAction>(actions.size());
-      for (IFilterAction action : actions) {
-        NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
-        if (newsActionDescriptor != null && newsActionDescriptor.isForcable())
-          forcableActions.add(action);
+    NewsFilterDialog dialog = new NewsFilterDialog(getShell(), filter);
+    if (dialog.open() == IDialogConstants.OK_ID) {
+      fViewer.refresh(true);
+      fViewer.getTable().setFocus();
+      updateTitle();
+    }
+  }
+
+  private void onEnable(boolean enable) {
+    List<ISearchFilter> filters = getFilters();
+
+    // loading selection
+    int[] selectionIndices = fViewer.getTable().getSelectionIndices();
+    for (int selectionIndice : selectionIndices) {
+      filters.get(selectionIndice).setEnabled(enable);
+    }
+
+    // apply change of state to selected items
+    fSearchFilterDao.saveAll(filters);
+    refresh();
+    updateTitle();
+  }
+
+  private void onDelete() {
+    IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
+
+    List<?> selectedFilters = selection.toList();
+    ConfirmDialog dialog = new ConfirmDialog(getShell(), Messages.NewsFiltersListDialog_CONFIRM_DELETE, Messages.NewsFiltersListDialog_NO_UNDO, getMessage(selectedFilters), null);
+    if (dialog.open() == IDialogConstants.OK_ID) {
+      List<ISearchFilter> filtersToDelete = new ArrayList<ISearchFilter>(selectedFilters.size());
+      for (Object name : selectedFilters) {
+        ISearchFilter filter = (ISearchFilter) name;
+        filtersToDelete.add(filter);
       }
 
-      /* Return early if selected Action is not forcable */
-      if (forcableActions.isEmpty()) {
-        MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_ACTIONS_TO_RUN, filter.getName()));
-        return;
-      }
+      fSearchFilterDao.deleteAll(filtersToDelete);
+      fViewer.remove(selection.toArray());
+      fixOrderAfterDelete();
+      updateTitle();
+    }
+  }
 
-      IModelSearch search = Owl.getPersistenceService().getModelSearch();
-      List<SearchHit<NewsReference>> targetNews = null;
+  /* Ensure that after Delete, the orders are in sync again */
+  private void fixOrderAfterDelete() {
+    List<ISearchFilter> filtersToSave = new ArrayList<ISearchFilter>();
 
-      /* Search for all Visible News */
-      Set<State> visibleStates = INews.State.getVisible();
-      if (filter.getSearch() == null) {
-        ISearchField stateField = Owl.getModelFactory().createSearchField(INews.STATE, INews.class.getName());
-        ISearchCondition stateCondition = Owl.getModelFactory().createSearchCondition(stateField, SearchSpecifier.IS, EnumSet.of(State.NEW, State.UNREAD, State.UPDATED, State.READ));
-        targetNews = search.searchNews(Collections.singleton(stateCondition), true);
-      }
+    TableItem[] items = fViewer.getTable().getItems();
+    for (int i = 0; i < items.length; i++) {
+      TableItem item = items[i];
+      ISearchFilter filter = (ISearchFilter) item.getData();
+      filter.setOrder(i);
 
-      /* Use Search from Filter */
-      else {
-        List<SearchHit<NewsReference>> result = search.searchNews(filter.getSearch());
-        targetNews = new ArrayList<SearchHit<NewsReference>>(result.size());
+      filtersToSave.add(filter);
+    }
 
-        /* Filter out those that are not visible */
-        for (SearchHit<NewsReference> resultItem : result) {
-          INews.State state = (State) resultItem.getData(INews.STATE);
-          if (visibleStates.contains(state))
-            targetNews.add(resultItem);
-        }
-      }
+    DynamicDAO.saveAll(filtersToSave);
+  }
 
-      /* Return early if there is no matching News */
-      if (targetNews.isEmpty()) {
-        MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_FILTER_MATCH, filter.getName()));
-        return;
-      }
+  private String getMessage(List<?> elements) {
+    StringBuilder message = new StringBuilder();
 
-      /* Ask for Confirmation */
-      boolean multipleActions = forcableActions.size() > 1;
-      String title = NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName());
-      StringBuilder message = new StringBuilder();
-      if (multipleActions)
-        message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTIONS, targetNews.size())).append("\n"); //$NON-NLS-1$
-      else
-        message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTION, targetNews.size())).append("\n"); //$NON-NLS-1$
+    /* One Element */
+    if (elements.size() == 1) {
+      ISearchFilter filter = (ISearchFilter) elements.get(0);
+      message.append(NLS.bind(Messages.NewsFiltersListDialog_CONFIRM_DELETE_FILTER_N, filter.getName()));
+    }
 
-      for (IFilterAction action : forcableActions) {
-        NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
-        String label = newsActionDescriptor.getNewsAction() != null ? newsActionDescriptor.getNewsAction().getLabel(action.getData()) : null;
-        if (StringUtils.isSet(label))
-          message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, label)); //$NON-NLS-1$
-        else
-          message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, newsActionDescriptor.getName())); //$NON-NLS-1$
-      }
+    /* N Elements */
+    else {
+      message.append(Messages.NewsFiltersListDialog_CONFIRM_DELETE_FILTERS);
+    }
 
-      message.append("\n\n").append(Messages.NewsFiltersListDialog_CONFIRM); //$NON-NLS-1$
+    return message.toString();
+  }
 
-      ConfirmDialog dialog = new ConfirmDialog(getShell(), title, Messages.NewsFiltersListDialog_NO_UNDO, message.toString(), IDialogConstants.OK_LABEL, null) {
-        @Override
-        protected String getTitleImage() {
-          return "icons/wizban/filter_wiz.png"; //$NON-NLS-1$
-        }
+  private void onApplySelectedFilter() {
+    int[] selectionIndices = fViewer.getTable().getSelectionIndices();
+    if (selectionIndices.length == 0) {
+      return;
+    }
+    List<ISearchFilter> filters = getFilters();
+    for (int i = 0; i < selectionIndices.length; i++) {
+      // TOODO make in progress dialog
+      // TODO make News Filters JobQueue which will be used in 2 cases
+      // 1) on news got after updating feed (with state NEW)
+      // 2) on all news when asked to run by user (through News Filters window)
 
-        @Override
-        public void setTitle(String newTitle) {
-          super.setTitle(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_TITLE);
-        }
-      };
+      applyFilter(filters.get(i));
+    }
+  }
 
-      /* Apply Actions in chunks of N Items to avoid Memory issues */
-      if (dialog.open() == IDialogConstants.OK_ID) {
-        applyFilter(targetNews, filter);
+  private void applyFilter(ISearchFilter filter) {
+
+    /* Retrieve those actions that are forcable to run */
+    List<IFilterAction> actions = filter.getActions();
+    List<IFilterAction> forcableActions = new ArrayList<IFilterAction>(actions.size());
+    for (IFilterAction action : actions) {
+      NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
+      if (newsActionDescriptor != null && newsActionDescriptor.isForcable()) {
+        forcableActions.add(action);
       }
     }
+
+    /* Return early if selected Action is not forcable */
+    if (forcableActions.isEmpty()) {
+      MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_ACTIONS_TO_RUN, filter.getName()));
+      return;
+    }
+
+    IModelSearch search = Owl.getPersistenceService().getModelSearch();
+    List<SearchHit<NewsReference>> targetNews = null;
+
+    /* Search for all Visible News */
+    Set<State> visibleStates = INews.State.getVisible();
+    if (filter.getSearch() == null) {
+      ISearchField stateField = Owl.getModelFactory().createSearchField(INews.STATE, INews.class.getName());
+      ISearchCondition stateCondition = Owl.getModelFactory().createSearchCondition(stateField, SearchSpecifier.IS, EnumSet.of(State.NEW, State.UNREAD, State.UPDATED, State.READ));
+      targetNews = search.searchNews(Collections.singleton(stateCondition), true);
+    }
+
+    /* Use Search from Filter */
+    else {
+      List<SearchHit<NewsReference>> result = search.searchNews(filter.getSearch());
+      targetNews = new ArrayList<SearchHit<NewsReference>>(result.size());
+
+      /* Filter out those that are not visible */
+      for (SearchHit<NewsReference> resultItem : result) {
+        INews.State state = (State) resultItem.getData(INews.STATE);
+        if (visibleStates.contains(state)) {
+          targetNews.add(resultItem);
+        }
+      }
+    }
+
+    /* Return early if there is no matching News */
+    if (targetNews.isEmpty()) {
+      MessageDialog.openWarning(getShell(), NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName()), NLS.bind(Messages.NewsFiltersListDialog_NO_FILTER_MATCH, filter.getName()));
+      return;
+    }
+
+    /* Ask for Confirmation */
+    boolean multipleActions = forcableActions.size() > 1;
+    String title = NLS.bind(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_N, filter.getName());
+    StringBuilder message = new StringBuilder();
+    if (multipleActions) {
+      message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTIONS, targetNews.size())).append("\n"); //$NON-NLS-1$
+    } else {
+      message.append(NLS.bind(Messages.NewsFiltersListDialog_PERFORM_ACTION, targetNews.size())).append("\n"); //$NON-NLS-1$
+    }
+
+    for (IFilterAction action : forcableActions) {
+      NewsActionDescriptor newsActionDescriptor = fNewsActionPresentationManager.getNewsActionDescriptor(action.getActionId());
+      String label = newsActionDescriptor.getNewsAction() != null ? newsActionDescriptor.getNewsAction().getLabel(action.getData()) : null;
+      if (StringUtils.isSet(label)) {
+        message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, label)); //$NON-NLS-1$
+      } else {
+        message.append("\n").append(NLS.bind(Messages.NewsFiltersListDialog_FILTER_LIST_ELEMENT, newsActionDescriptor.getName())); //$NON-NLS-1$
+      }
+    }
+
+    message.append("\n\n").append(Messages.NewsFiltersListDialog_CONFIRM); //$NON-NLS-1$
+
+    ConfirmDialog dialog = new ConfirmDialog(getShell(), title, Messages.NewsFiltersListDialog_NO_UNDO, message.toString(), IDialogConstants.OK_LABEL, null) {
+      @Override
+      protected String getTitleImage() {
+        return "icons/wizban/filter_wiz.png"; //$NON-NLS-1$
+      }
+
+      @Override
+      public void setTitle(String newTitle) {
+        super.setTitle(Messages.NewsFiltersListDialog_RUN_SELECTED_FILTER_TITLE);
+      }
+    };
+
+    /* Apply Actions in chunks of N Items to avoid Memory issues */
+    if (dialog.open() == IDialogConstants.OK_ID) {
+      applyFilter(targetNews, filter);
+    }
+
   }
 
   private void applyFilter(final List<SearchHit<NewsReference>> news, final ISearchFilter filter) {
@@ -493,22 +807,25 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
         List<List<SearchHit<NewsReference>>> chunks = CoreUtils.toChunks(news, FILTER_CHUNK_SIZE);
         monitor.beginTask(NLS.bind(Messages.NewsFiltersListDialog_WAIT_FILTER_APPLIED, filter.getName()), chunks.size());
 
-        if (monitor.isCanceled())
+        if (monitor.isCanceled()) {
           return;
+        }
 
         int counter = 0;
         for (List<SearchHit<NewsReference>> chunk : chunks) {
-          if (monitor.isCanceled())
+          if (monitor.isCanceled()) {
             return;
+          }
 
           monitor.subTask(NLS.bind(Messages.NewsFiltersListDialog_FILTERED_N_OF_M_NEWS, (counter * FILTER_CHUNK_SIZE), news.size()));
           List<INews> newsItemsToFilter = new ArrayList<INews>(FILTER_CHUNK_SIZE);
           for (SearchHit<NewsReference> chunkItem : chunk) {
             INews newsItemToFilter = chunkItem.getResult().resolve();
-            if (newsItemToFilter != null && newsItemToFilter.isVisible())
+            if (newsItemToFilter != null && newsItemToFilter.isVisible()) {
               newsItemsToFilter.add(newsItemToFilter);
-            else
+            } else {
               CoreUtils.reportIndexIssue();
+            }
           }
 
           applyFilterOnChunks(newsItemsToFilter, filter);
@@ -559,240 +876,8 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
     }
 
     /* Make sure that changed entities are saved for all actions */
-    if (!entitiesToSave.isEmpty())
+    if (!entitiesToSave.isEmpty()) {
       DynamicDAO.saveAll(entitiesToSave);
-  }
-
-  private void updateTitle() {
-    ISearchFilter problematicFilter = null;
-
-    Table table = fViewer.getTable();
-    TableItem[] items = table.getItems();
-    for (TableItem item : items) {
-      ISearchFilter filter = (ISearchFilter) item.getData();
-      if (filter.getSearch() == null && filter.isEnabled()) {
-        int index = table.indexOf(item);
-        if (index < table.getItemCount() - 1) {
-          problematicFilter = filter;
-          break;
-        }
-      }
     }
-
-    if (problematicFilter != null)
-      setMessage(NLS.bind(Messages.NewsFiltersListDialog_FILTER_MATCHES_ALL_NEWS, problematicFilter.getName()), IMessageProvider.WARNING);
-    else
-      setMessage(Messages.NewsFiltersListDialog_ENABLED_FILTERS, IMessageProvider.INFORMATION);
-  }
-
-  /*
-   * @see org.eclipse.jface.dialogs.TrayDialog#createButtonBar(org.eclipse.swt.widgets.Composite)
-   */
-  @Override
-  protected Control createButtonBar(Composite parent) {
-    return null;
-  }
-
-  private void updateMoveEnablement() {
-    boolean enableMoveUp = true;
-    boolean enableMoveDown = true;
-    int[] selectionIndices = fViewer.getTable().getSelectionIndices();
-    if (selectionIndices.length == 1) {
-      enableMoveUp = selectionIndices[0] != 0;
-      enableMoveDown = selectionIndices[0] != fViewer.getTable().getItemCount() - 1;
-    } else {
-      enableMoveUp = false;
-      enableMoveDown = false;
-    }
-
-    fMoveUpButton.setEnabled(enableMoveUp);
-    fMoveDownButton.setEnabled(enableMoveDown);
-  }
-
-  private void onMove(boolean up) {
-    TableItem[] items = fViewer.getTable().getItems();
-    List<ISearchFilter> sortedFilters = new ArrayList<ISearchFilter>(items.length);
-    for (TableItem item : items) {
-      sortedFilters.add((ISearchFilter) item.getData());
-    }
-
-    IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
-    ISearchFilter selectedFilter = (ISearchFilter) selection.getFirstElement();
-    int selectedFilterOrder = selectedFilter.getOrder();
-    ISearchFilter otherFilter = null;
-    int index = sortedFilters.indexOf(selectedFilter);
-
-    /* Move Up */
-    if (up && index > 0) {
-      otherFilter = sortedFilters.get(index - 1);
-      selectedFilter.setOrder(otherFilter.getOrder());
-      otherFilter.setOrder(selectedFilterOrder);
-    }
-
-    /* Move Down */
-    else if (!up && index < sortedFilters.size() - 1) {
-      otherFilter = sortedFilters.get(index + 1);
-      selectedFilter.setOrder(otherFilter.getOrder());
-      otherFilter.setOrder(selectedFilterOrder);
-    }
-
-    fSearchFilterDao.saveAll(Arrays.asList(new ISearchFilter[] { selectedFilter, otherFilter }));
-    fViewer.refresh();
-    fViewer.getTable().showSelection();
-    updateCheckedState();
-    updateMoveEnablement();
-    updateTitle();
-  }
-
-  private void updateCheckedState() {
-    TableItem[] items = fViewer.getTable().getItems();
-    for (TableItem item : items) {
-      ISearchFilter filter = (ISearchFilter) item.getData();
-      fViewer.setChecked(filter, filter.isEnabled());
-    }
-  }
-
-  private void onAdd() {
-    NewsFilterDialog dialog = new NewsFilterDialog(getShell());
-    Table table = fViewer.getTable();
-    dialog.setFilterPosition(table.getItemCount());
-    if (dialog.open() == IDialogConstants.OK_ID) {
-      fViewer.refresh();
-      updateCheckedState();
-      fViewer.setSelection(new StructuredSelection(table.getItem(table.getItemCount() - 1).getData()));
-      fViewer.getTable().setFocus();
-      updateTitle();
-    }
-  }
-
-  private void onEdit() {
-    IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
-    ISearchFilter filter = (ISearchFilter) selection.getFirstElement();
-
-    NewsFilterDialog dialog = new NewsFilterDialog(getShell(), filter);
-    if (dialog.open() == IDialogConstants.OK_ID) {
-      fViewer.refresh(true);
-      fViewer.getTable().setFocus();
-      updateTitle();
-    }
-  }
-
-  private void onDelete() {
-    IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
-
-    List<?> selectedFilters = selection.toList();
-    ConfirmDialog dialog = new ConfirmDialog(getShell(), Messages.NewsFiltersListDialog_CONFIRM_DELETE, Messages.NewsFiltersListDialog_NO_UNDO, getMessage(selectedFilters), null);
-    if (dialog.open() == IDialogConstants.OK_ID) {
-      List<ISearchFilter> filtersToDelete = new ArrayList<ISearchFilter>(selectedFilters.size());
-      for (Iterator<?> iterator = selectedFilters.iterator(); iterator.hasNext();) {
-        ISearchFilter filter = (ISearchFilter) iterator.next();
-        filtersToDelete.add(filter);
-      }
-
-      fSearchFilterDao.deleteAll(filtersToDelete);
-      fViewer.remove(selection.toArray());
-      fixOrderAfterDelete();
-      updateTitle();
-    }
-  }
-
-  /* Ensure that after Delete, the orders are in sync again */
-  private void fixOrderAfterDelete() {
-    List<ISearchFilter> filtersToSave = new ArrayList<ISearchFilter>();
-
-    TableItem[] items = fViewer.getTable().getItems();
-    for (int i = 0; i < items.length; i++) {
-      TableItem item = items[i];
-      ISearchFilter filter = (ISearchFilter) item.getData();
-      filter.setOrder(i);
-
-      filtersToSave.add(filter);
-    }
-
-    DynamicDAO.saveAll(filtersToSave);
-  }
-
-  private String getMessage(List<?> elements) {
-    StringBuilder message = new StringBuilder();
-
-    /* One Element */
-    if (elements.size() == 1) {
-      ISearchFilter filter = (ISearchFilter) elements.get(0);
-      message.append(NLS.bind(Messages.NewsFiltersListDialog_CONFIRM_DELETE_FILTER_N, filter.getName()));
-    }
-
-    /* N Elements */
-    else {
-      message.append(Messages.NewsFiltersListDialog_CONFIRM_DELETE_FILTERS);
-    }
-
-    return message.toString();
-  }
-
-  /*
-   * @see org.eclipse.jface.window.Window#configureShell(org.eclipse.swt.widgets.Shell)
-   */
-  @Override
-  protected void configureShell(Shell shell) {
-    super.configureShell(shell);
-    shell.setText(Messages.NewsFiltersListDialog_NEWS_FILTERS);
-  }
-
-  /**
-   * @param filter the {@link ISearchFilter} to select.
-   */
-  public void setSelection(ISearchFilter filter) {
-    fSelectedFilter = filter;
-    if (fViewer != null)
-      fViewer.setSelection(new StructuredSelection(fSelectedFilter), true);
-  }
-
-  /**
-   * Refresh the list of displayed Filters.
-   */
-  public void refresh() {
-    if (fViewer != null) {
-      fViewer.refresh();
-      updateCheckedState();
-    }
-  }
-
-  /*
-   * @see org.eclipse.jface.dialogs.Dialog#isResizable()
-   */
-  @Override
-  protected boolean isResizable() {
-    return true;
-  }
-
-  /*
-   * @see org.eclipse.jface.window.Window#getShellStyle()
-   */
-  @Override
-  protected int getShellStyle() {
-    int style = SWT.TITLE | SWT.BORDER | SWT.MIN | SWT.MAX | SWT.RESIZE | SWT.CLOSE | getDefaultOrientation();
-
-    return style;
-  }
-
-  /*
-   * @see org.eclipse.jface.dialogs.Dialog#getDialogBoundsStrategy()
-   */
-  @Override
-  protected int getDialogBoundsStrategy() {
-    return DIALOG_PERSISTSIZE;
-  }
-
-  /*
-   * @see org.eclipse.jface.dialogs.Dialog#getDialogBoundsSettings()
-   */
-  @Override
-  protected IDialogSettings getDialogBoundsSettings() {
-    IDialogSettings settings = Activator.getDefault().getDialogSettings();
-    IDialogSettings section = settings.getSection(SETTINGS_SECTION);
-    if (section != null)
-      return section;
-
-    return settings.addNewSection(SETTINGS_SECTION);
   }
 }

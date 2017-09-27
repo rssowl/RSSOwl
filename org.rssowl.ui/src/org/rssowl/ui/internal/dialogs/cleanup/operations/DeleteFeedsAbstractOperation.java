@@ -1,7 +1,7 @@
 /*   **********************************************************************  **
  **   Copyright notice                                                       **
  **                                                                          **
- **   (c) 2005-2009 RSSOwl Development Team                                  **
+ **   (c) 2005-2011 RSSOwl Development Team                                  **
  **   http://www.rssowl.org/                                                 **
  **                                                                          **
  **   All rights reserved                                                    **
@@ -22,35 +22,47 @@
  **                                                                          **
  **  **********************************************************************  */
 
-package org.rssowl.core.internal.persist.service;
+package org.rssowl.ui.internal.dialogs.cleanup.operations;
 
 import org.eclipse.core.runtime.IProgressMonitor;
-import org.rssowl.core.internal.persist.migration.MigrationResult;
+import org.rssowl.core.persist.IBookMark;
+import org.rssowl.ui.internal.dialogs.cleanup.pages.SummaryModelTaskGroup;
+import org.rssowl.ui.internal.dialogs.cleanup.tasks.BookMarkDeleteTask;
 
-/**
- * Implementations of this interface are able to migrate the database data from
- * one format version to another.
- */
-public interface Migration {
-  /**
-   * @return the format version that the implementation can migrate from.
-   */
-  int getOriginFormat();
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
-  /**
-   * @return the format version that the implementation can migrate to.
-   */
-  int getDestinationFormat();
+public abstract class DeleteFeedsAbstractOperation implements ICleanUpOperation {
 
-  /**
-   * Perform the migration. Implementations are responsible for making sure that
-   * all object containers are closed at the end of the script.
-   *
-   * @param configFactory
-   * @param dbFileName
-   * @param progressMonitor
-   * @return MigrationResult indicating actions that should be performed at some
-   * point after the migration.
-   */
-  MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor);
+  private final static Set<IBookMark> bookmarksToDelete = new HashSet<IBookMark>();
+
+  public static void reset(){
+    bookmarksToDelete.clear();
+  }
+  public static boolean isScheduledToDelete(IBookMark mark) {
+    return bookmarksToDelete.contains(mark);
+  }
+
+  protected abstract Collection<IBookMark> filter(Collection<IBookMark> bookmarks, IProgressMonitor monitor);
+
+  protected abstract SummaryModelTaskGroup createGroup();
+
+  public static SummaryModelTaskGroup process(DeleteFeedsAbstractOperation op, Collection<IBookMark> bookmarks, IProgressMonitor monitor) {
+    Collection<IBookMark> validBookmarks = op.filter(bookmarks, monitor);
+    if (validBookmarks.isEmpty())
+      return null;
+    SummaryModelTaskGroup group = op.createGroup();
+
+    for (IBookMark mark : bookmarks) {
+      /* Ignore if Bookmark gets already deleted */
+      if (isScheduledToDelete(mark))
+        continue;
+
+      group.addTask(new BookMarkDeleteTask(group, mark));
+      bookmarksToDelete.add(mark);
+    }
+    return group;
+  }
+
 }

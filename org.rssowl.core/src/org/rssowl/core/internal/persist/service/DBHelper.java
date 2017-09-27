@@ -93,7 +93,7 @@ import java.util.Set;
  * Helper for DB related tasks.
  */
 public final class DBHelper {
-  static final int BUFFER = 32768;
+  public static final int BUFFER = 32768;
 
   private DBHelper() {
     super();

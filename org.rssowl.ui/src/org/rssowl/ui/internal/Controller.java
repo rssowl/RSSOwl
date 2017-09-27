@@ -95,6 +95,7 @@ import org.rssowl.core.util.DateUtils;
 import org.rssowl.core.util.ExtensionUtils;
 import org.rssowl.core.util.ITask;
 import org.rssowl.core.util.JobQueue;
+import org.rssowl.core.util.JobQueueListener;
 import org.rssowl.core.util.LoggingSafeRunnable;
 import org.rssowl.core.util.StringUtils;
 import org.rssowl.core.util.SyncUtils;
@@ -692,6 +693,9 @@ public class Controller {
    */
   public void reloadQueued(Set<IBookMark> bookmarks, Map<Object, Object> properties, final Shell shell) {
 
+    if (bookmarks == null || bookmarks.size() == 0) {
+      return;
+    }
     /* Decide wether this is a high prio Job */
     boolean highPrio = bookmarks.size() == 1;
 
@@ -705,28 +709,34 @@ public class Controller {
         tasks.add(task);
     }
 
+    if (tasks.size() == 0) {
+      return;
+    }
+
+    // stop saved search service while updating bookmarks and applying news filters
+    // TODO decide what services are run simultaneously should ServiceManager
+    fSavedSearchService.stopService();
+
     fReloadFeedQueue.schedule(tasks);
   }
 
   /**
-   * Reload the given BookMark. The BookMark is processed in a queue that stores
-   * all Tasks of this kind and guarantees that a certain amount of Jobs process
-   * the Task concurrently.
-   *
    * @param bookmark The BookMark to reload.
    * @param properties any kind of properties to use for the reload or
    * <code>null</code> if none.
    * @param shell The Shell this operation is running in, used to open Dialogs
    * if necessary.
+   * @see org.rssowl.ui.internal.Controller#reloadQueued
    */
   public void reloadQueued(IBookMark bookmark, Map<Object, Object> properties, final Shell shell) {
+    reloadQueued(Collections.singleton(bookmark), properties, shell);
+  }
 
-    /* Create a Task for the Bookmark to Reload */
-    ReloadTask task = new ReloadTask(bookmark, properties, shell, ITask.Priority.DEFAULT);
-
-    /* Check if Task is not yet Queued already */
-    if (!fReloadFeedQueue.isQueued(task))
-      fReloadFeedQueue.schedule(task);
+  /**
+   * Cancels all pending Updates to Feeds.
+   */
+  public void stopUpdate() {
+    fReloadFeedQueue.cancel(false, false);
   }
 
   /**
@@ -773,33 +783,33 @@ public class Controller {
       properties.put(IConnectionPropertyConstants.CON_TIMEOUT, fConnectionTimeout);
 
       /* Sync Specific Item Limit derived from retention settings */
-      if (SyncUtils.isSynchronized(bookmark)) {
-        IPreferenceScope defaultPreferences = Owl.getPreferenceService().getDefaultScope();
-        IPreferenceScope preferences = Owl.getPreferenceService().getEntityScope(bookmark);
-
-        /* Item Limit */
-        int itemLimit;
-        if (preferences.getBoolean(DefaultPreferences.DEL_NEWS_BY_COUNT_STATE))
-          itemLimit = preferences.getInteger(DefaultPreferences.DEL_NEWS_BY_COUNT_VALUE);
-        else
-          itemLimit = defaultPreferences.getInteger(DefaultPreferences.DEL_NEWS_BY_COUNT_VALUE);
-
-        properties.put(IConnectionPropertyConstants.ITEM_LIMIT, itemLimit);
-
-        /* Date Limit */
-        long dateLimit = 0;
-        if (preferences.getBoolean(DefaultPreferences.DEL_NEWS_BY_AGE_STATE)) {
-          int days = preferences.getInteger(DefaultPreferences.DEL_NEWS_BY_AGE_VALUE);
-          dateLimit = DateUtils.getToday().getTimeInMillis() - (days * DateUtils.DAY);
-        }
-
-        if (dateLimit != 0)
-          properties.put(IConnectionPropertyConstants.DATE_LIMIT, dateLimit);
-
-        /* Uncommitted Synchronized Items */
-        if (fSyncService != null)
-          properties.put(IConnectionPropertyConstants.UNCOMMITTED_ITEMS, fSyncService.getUncommittedItems());
-      }
+//      if (SyncUtils.isSynchronized(bookmark)) {
+//        IPreferenceScope defaultPreferences = Owl.getPreferenceService().getDefaultScope();
+//        IPreferenceScope preferences = Owl.getPreferenceService().getEntityScope(bookmark);
+//
+//        /* Item Limit */
+//        int itemLimit;
+//        if (preferences.getBoolean(DefaultPreferences.DEL_NEWS_BY_COUNT_STATE))
+//          itemLimit = preferences.getInteger(DefaultPreferences.DEL_NEWS_BY_COUNT_VALUE);
+//        else
+//          itemLimit = defaultPreferences.getInteger(DefaultPreferences.DEL_NEWS_BY_COUNT_VALUE);
+//
+//        properties.put(IConnectionPropertyConstants.ITEM_LIMIT, itemLimit);
+//
+//        /* Date Limit */
+//        long dateLimit = 0;
+//        if (preferences.getBoolean(DefaultPreferences.DEL_NEWS_BY_AGE_STATE)) {
+//          int days = preferences.getInteger(DefaultPreferences.DEL_NEWS_BY_AGE_VALUE);
+//          dateLimit = DateUtils.getToday().getTimeInMillis() - (days * DateUtils.DAY);
+//        }
+//
+//        if (dateLimit != 0)
+//          properties.put(IConnectionPropertyConstants.DATE_LIMIT, dateLimit);
+//
+//        /* Uncommitted Synchronized Items */
+//        if (fSyncService != null)
+//          properties.put(IConnectionPropertyConstants.UNCOMMITTED_ITEMS, fSyncService.getUncommittedItems());
+//      }
 
       /* Add Conditional GET Headers if present */
       if (conditionalGet != null) {
@@ -1159,6 +1169,64 @@ public class Controller {
     return null;
   }
 
+  private void normalShutdown() {
+    fShuttingDown = true;
+
+    /* Unregister Listeners */
+    unregisterListeners();
+
+    /* Cancel any pending Update Jobs */
+    if (!Application.IS_ECLIPSE && !fDisableUpdate)
+      Job.getJobManager().cancel(UpdateJob.FAMILY);
+
+    /* Stop the Download Service */
+    if (fDownloadService != null)
+      fDownloadService.stopService();
+
+    /* Stop Clean-Up Reminder Service */
+    if (!InternalOwl.TESTING && fCleanUpReminderService != null)
+      fCleanUpReminderService.stopService();
+
+    /* Stop the Feed Reload Service */
+    if (!InternalOwl.TESTING && fFeedReloadService != null)
+      fFeedReloadService.stopService();
+
+    /* Cancel/Seal the reload queue */
+    if (fReloadFeedQueue != null)
+      fReloadFeedQueue.cancel(false, true);
+
+    /* Cancel the feed-save queue (join) */
+    if (fSaveFeedQueue != null)
+      fSaveFeedQueue.cancel(true, true);
+
+    /* Stop the Notification Service */
+    if (!InternalOwl.TESTING && fNotificationService != null)
+      fNotificationService.stopService();
+
+    /* Stop the Saved Search Service */
+    if (fSavedSearchService != null)
+      fSavedSearchService.stopService();
+
+    /* Stop the Sync Service */
+    if (fSyncService != null)
+      fSyncService.stopService(false);
+
+    /* Shutdown ApplicationServer */
+    ApplicationServer.getDefault().shutdown();
+  }
+
+  private void emergencyShutdown() {
+    fShuttingDown = true;
+
+    /* Cancel/Seal the reload queue */
+    if (fReloadFeedQueue != null)
+      fReloadFeedQueue.seal();
+
+    /* Cancel the feed-save queue (join) */
+    if (fSaveFeedQueue != null)
+      fSaveFeedQueue.cancel(true, true);
+  }
+
   /**
    * Tells the Controller to start. This method is called automatically from
    * osgi as soon as the org.rssowl.ui bundle gets activated.
@@ -1205,6 +1273,16 @@ public class Controller {
 
     /* Create the Saved Search Service */
     fSavedSearchService = new SavedSearchService();
+    // adding listener to know when all reload tasks are complete
+    final JobQueueListener listener = new JobQueueListener() {
+
+      public void workDone() {
+        // start service in case it was stoppped before
+        fSavedSearchService.startService();
+        fSavedSearchService.updateSavedSearches(true);
+      }
+    };
+    fReloadFeedQueue.addJobQueueListener(listener);
 
     /* Create the Download Service */
     fDownloadService = new DownloadService();
@@ -1419,64 +1497,6 @@ public class Controller {
       normalShutdown();
   }
 
-  private void normalShutdown() {
-    fShuttingDown = true;
-
-    /* Unregister Listeners */
-    unregisterListeners();
-
-    /* Cancel any pending Update Jobs */
-    if (!Application.IS_ECLIPSE && !fDisableUpdate)
-      Job.getJobManager().cancel(UpdateJob.FAMILY);
-
-    /* Stop the Download Service */
-    if (fDownloadService != null)
-      fDownloadService.stopService();
-
-    /* Stop Clean-Up Reminder Service */
-    if (!InternalOwl.TESTING && fCleanUpReminderService != null)
-      fCleanUpReminderService.stopService();
-
-    /* Stop the Feed Reload Service */
-    if (!InternalOwl.TESTING && fFeedReloadService != null)
-      fFeedReloadService.stopService();
-
-    /* Cancel/Seal the reload queue */
-    if (fReloadFeedQueue != null)
-      fReloadFeedQueue.cancel(false, true);
-
-    /* Cancel the feed-save queue (join) */
-    if (fSaveFeedQueue != null)
-      fSaveFeedQueue.cancel(true, true);
-
-    /* Stop the Notification Service */
-    if (!InternalOwl.TESTING && fNotificationService != null)
-      fNotificationService.stopService();
-
-    /* Stop the Saved Search Service */
-    if (fSavedSearchService != null)
-      fSavedSearchService.stopService();
-
-    /* Stop the Sync Service */
-    if (fSyncService != null)
-      fSyncService.stopService(false);
-
-    /* Shutdown ApplicationServer */
-    ApplicationServer.getDefault().shutdown();
-  }
-
-  private void emergencyShutdown() {
-    fShuttingDown = true;
-
-    /* Cancel/Seal the reload queue */
-    if (fReloadFeedQueue != null)
-      fReloadFeedQueue.seal();
-
-    /* Cancel the feed-save queue (join) */
-    if (fSaveFeedQueue != null)
-      fSaveFeedQueue.cancel(true, true);
-  }
-
   /**
    * This method is called just after the Window has opened.
    */
@@ -1538,6 +1558,9 @@ public class Controller {
         MessageDialog.openError(shell, Messages.Controller_ERROR, NLS.bind(Messages.Controller_ERROR_STARTING_SERVER, server.getPort(), server.getHost()));
     }
 
+    /* MuxaJIbI4: do not update save searches on start up unless it will be
+     * converted to jobs or at least 1 feed will be asked to update
+     */
     /* Update Saved Searches if not yet done (required if feeds view hidden on startup) */
     JobRunner.runInBackgroundThread(50, new Runnable() {
       public void run() {
@@ -1825,7 +1848,7 @@ public class Controller {
     return entry;
   }
 
-  /*
+  /**
    * Registeres a command per Label to assign key-bindings. Should be called
    * when {@link ILabel} get added, updated or removed and must be called once
    * after startup.
@@ -1935,13 +1958,6 @@ public class Controller {
         }
       });
     }
-  }
-
-  /**
-   * Cancels all pending Updates to Feeds.
-   */
-  public void stopUpdate() {
-    fReloadFeedQueue.cancel(false, false);
   }
 
   /**

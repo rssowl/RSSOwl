@@ -164,6 +164,8 @@ public class Messages extends NLS {
   public static String NewsFiltersListDialog_FILTERED_N_OF_M_NEWS;
   public static String NewsFiltersListDialog_MOVE_DOWN;
   public static String NewsFiltersListDialog_MOVE_UP;
+  public static String NewsFiltersListDialog_ENABLE;
+  public static String NewsFiltersListDialog_DISABLE;
   public static String NewsFiltersListDialog_NAME;
   public static String NewsFiltersListDialog_NEW;
   public static String NewsFiltersListDialog_NEWS_FILTERS;
@@ -173,6 +175,7 @@ public class Messages extends NLS {
   public static String NewsFiltersListDialog_PERFORM_ACTION;
   public static String NewsFiltersListDialog_PERFORM_ACTIONS;
   public static String NewsFiltersListDialog_RUN_SELECTED_FILTER;
+  public static String NewsFiltersListDialog_RUN_SELECTED_FILTERS;
   public static String NewsFiltersListDialog_RUN_SELECTED_FILTER_N;
   public static String NewsFiltersListDialog_RUN_SELECTED_FILTER_TITLE;
   public static String NewsFiltersListDialog_WAIT_FILTER_APPLIED;

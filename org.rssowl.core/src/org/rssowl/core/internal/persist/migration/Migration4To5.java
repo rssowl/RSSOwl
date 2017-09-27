@@ -25,9 +25,8 @@
 package org.rssowl.core.internal.persist.migration;
 
 import org.eclipse.core.runtime.IProgressMonitor;
+import org.rssowl.core.internal.persist.service.BackupHelper;
 import org.rssowl.core.internal.persist.service.ConfigurationFactory;
-import org.rssowl.core.internal.persist.service.DBManager;
-import org.rssowl.core.internal.persist.service.Migration;
 
 import java.io.File;
 
@@ -35,18 +34,20 @@ import java.io.File;
  * Migration from version 4 (nightly of 17-Jan-2008) to version 5 (builds from
  * nightly of 03-Feb-2008 to 2.0M8).
  */
-public class Migration4To5 implements Migration {
+public class Migration4To5 implements IMigration {
 
   /*
    * @see
-   * org.rssowl.core.internal.persist.service.Migration#getDestinationFormat()
+   * org.rssowl.core.internal.persist.migration.IMigration#getDestinationFormat
+   * ()
    */
   public int getDestinationFormat() {
     return 5;
   }
 
   /*
-   * @see org.rssowl.core.internal.persist.service.Migration#getOriginFormat()
+   * @see
+   * org.rssowl.core.internal.persist.migration.IMigration#getOriginFormat()
    */
   public int getOriginFormat() {
     return 4;
@@ -54,14 +55,14 @@ public class Migration4To5 implements Migration {
 
   /*
    * @see
-   * org.rssowl.core.internal.persist.service.Migration#migrate(org.rssowl.core
-   * .internal.persist.service.ConfigurationFactory, java.lang.String,
+   * org.rssowl.core.internal.persist.migration.IMigration#migrate(org.rssowl
+   * .core.internal.persist.service.ConfigurationFactory, java.lang.String,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
-  public MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
-    File dbLastBackUpFile = DBManager.getDefault().getDBLastBackUpFile();
-    dbLastBackUpFile.delete();
+  public void migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
 
-    return new MigrationResult(true, false, true);
+    File dbLastBackUpFile = BackupHelper.getDBLastBackUpFile();
+
+    dbLastBackUpFile.delete();
   }
 }

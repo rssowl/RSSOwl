@@ -32,12 +32,20 @@ public class Messages extends NLS {
   public static String DBManager_DIRECTORY_PERMISSION_ERROR;
   public static String DBManager_DISK_FULL_ERROR;
   public static String DBManager_FILE_PERMISSION_ERROR;
-  public static String DBManager_IMPROVING_APP_PERFORMANCE;
+  public static String DEFRAGMENT_IMPROVING_APP_PERFORMANCE;
+  public static String DBManager_OPTIMIZING_DESCRIPTIONS;
+  public static String DBManager_OPTIMIZING_CONDITIONAL_GETS;
+  public static String DBManager_OPTIMIZING_FOLDERS;
+  public static String DBManager_OPTIMIZING_LABELS;
+  public static String DBManager_OPTIMIZING_NEWSBINS;
   public static String DBManager_OPTIMIZING_NEWSFEEDS;
+  public static String DBManager_OPTIMIZING_NEWSFILTERS;
+  public static String DBManager_OPTIMIZING_PREFERENCES;
   public static String DBManager_PROGRESS_WAIT;
   public static String DBManager_RSSOWL_MIGRATION;
   public static String DBManager_UNABLE_TO_OPEN_PROFILE;
   public static String DBManager_WAIT_TASK_COMPLETION;
+  public static String DBManager_UPDATING_NEWS_COUNTERS;
 
   private Messages() {}
 
