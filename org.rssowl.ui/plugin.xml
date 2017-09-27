@@ -2020,6 +2020,13 @@
             name="%shareProvider.name.27"
             url="http://www.readability.com/read?url=[L]">
       </shareProvider>
+      <shareProvider
+            enabled="false"
+            icon="icons/obj16/share_pinboard.gif"
+            id="org.rssowl.ui.PinboardShareProvider"
+            name="%shareProvider.name.28"
+            url="https://api.pinboard.in/v1/posts/add?url=[L]&amp;description=[T]">
+      </shareProvider>
    </extension>
    <extension
          point="org.rssowl.ui.FeedSearch">
