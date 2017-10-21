@@ -169,6 +169,7 @@ public abstract class UIBackgroundJob extends Job {
 
   private synchronized void synchronizedSafeRunInBackground(final IProgressMonitor monitor) {
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         runInBackground(monitor);
       }
@@ -177,6 +178,7 @@ public abstract class UIBackgroundJob extends Job {
 
   private synchronized void synchronizedSafeRunInUI(final IProgressMonitor monitor) {
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         runInUI(monitor);
       }

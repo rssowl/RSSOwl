@@ -88,6 +88,7 @@ public class MiscPreferencePage extends PreferencePage implements IWorkbenchPref
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {}
 
   /*
@@ -120,6 +121,7 @@ public class MiscPreferencePage extends PreferencePage implements IWorkbenchPref
 
     /* Enable Apply Button on Selection Changes */
     OwlUI.runOnSelection(new Runnable() {
+      @Override
       public void run() {
         updateApplyEnablement(true);
       }

@@ -110,6 +110,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * @seeorg.rssowl.core.connection.internal.http.IConditionalGetCompatible#
    * getIfModifiedSince()
    */
+  @Override
   public String getIfModifiedSince() {
     return fIfModifiedSince;
   }
@@ -118,6 +119,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * @seeorg.rssowl.core.connection.internal.http.IConditionalGetCompatible#
    * getIfNoneMatch()
    */
+  @Override
   public String getIfNoneMatch() {
     return fIfNoneMatch;
   }
@@ -126,6 +128,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * @seeorg.rssowl.core.connection.internal.http.IConditionalGetCompatible#
    * setIfModifiedSince(java.lang.String)
    */
+  @Override
   public void setIfModifiedSince(String ifModifiedSince) {
     fIfModifiedSince = ifModifiedSince;
   }
@@ -134,6 +137,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * @seeorg.rssowl.core.connection.internal.http.IConditionalGetCompatible#
    * setIfNoneMatch(java.lang.String)
    */
+  @Override
   public void setIfNoneMatch(String ifNoneMatch) {
     fIfNoneMatch = ifNoneMatch;
   }
@@ -141,6 +145,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
   /*
    * @see org.rssowl.core.connection.IAbortable#abort()
    */
+  @Override
   public void abort() {
     fMethod.abort();
     fMethod.releaseConnection();

@@ -1990,6 +1990,7 @@ public class OwlUI {
      * of the popup to match the actual size of the Text widget being used.
      */
     control.getDisplay().timerExec(100, new Runnable() {
+      @Override
       public void run() {
         if (!control.isDisposed()) {
           adapter.setPopupSize(new Point(control.getSize().x, 120));
@@ -2644,6 +2645,7 @@ public class OwlUI {
         });
 
         tree.addDragDetectListener(new DragDetectListener() {
+          @Override
           public void dragDetected(DragDetectEvent e) {
             run.run();
           }
@@ -2662,6 +2664,7 @@ public class OwlUI {
         });
 
         table.addDragDetectListener(new DragDetectListener() {
+          @Override
           public void dragDetected(DragDetectEvent e) {
             run.run();
           }
@@ -2683,6 +2686,7 @@ public class OwlUI {
       else if (c instanceof Text) {
         Text text = (Text) c;
         text.addModifyListener(new ModifyListener() {
+          @Override
           public void modifyText(ModifyEvent e) {
             run.run();
           }

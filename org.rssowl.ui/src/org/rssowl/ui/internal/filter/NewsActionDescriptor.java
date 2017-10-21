@@ -103,6 +103,7 @@ public class NewsActionDescriptor implements Comparable<NewsActionDescriptor> {
   /*
    * @see java.lang.Comparable#compareTo(java.lang.Object)
    */
+  @Override
   public int compareTo(NewsActionDescriptor otherDescriptor) {
     if (equals(otherDescriptor))
       return 0;

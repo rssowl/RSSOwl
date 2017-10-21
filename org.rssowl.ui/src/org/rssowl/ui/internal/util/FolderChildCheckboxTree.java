@@ -139,6 +139,7 @@ public class FolderChildCheckboxTree {
 
     /* ContentProvider */
     fViewer.setContentProvider(new ITreeContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         if (fFlat)
           return getNewsMarks((Collection<?>) inputElement).toArray();
@@ -146,6 +147,7 @@ public class FolderChildCheckboxTree {
         return ((Collection<?>) inputElement).toArray();
       }
 
+      @Override
       public Object[] getChildren(Object parentElement) {
         if (parentElement instanceof IFolder) {
           IFolder folder = (IFolder) parentElement;
@@ -155,6 +157,7 @@ public class FolderChildCheckboxTree {
         return new Object[0];
       }
 
+      @Override
       public Object getParent(Object element) {
         if (element instanceof IFolder) {
           IFolder folder = (IFolder) element;
@@ -164,6 +167,7 @@ public class FolderChildCheckboxTree {
         return null;
       }
 
+      @Override
       public boolean hasChildren(Object element) {
         if (element instanceof IFolder) {
           IFolder folder = (IFolder) element;
@@ -173,8 +177,10 @@ public class FolderChildCheckboxTree {
         return false;
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -184,6 +190,7 @@ public class FolderChildCheckboxTree {
 
     /* Listen on Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         onDoubleClick(event);
       }
@@ -199,10 +206,12 @@ public class FolderChildCheckboxTree {
 
     /* Update Checks on Expand */
     fViewer.addTreeListener(new ITreeViewerListener() {
+      @Override
       public void treeExpanded(TreeExpansionEvent event) {
         onExpand(event);
       }
 
+      @Override
       public void treeCollapsed(TreeExpansionEvent event) {}
     });
   }

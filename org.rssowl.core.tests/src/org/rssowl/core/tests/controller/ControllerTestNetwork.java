@@ -92,11 +92,13 @@ public class ControllerTestNetwork {
       assertEquals(0, bookmark.getNewsCount(INews.State.getVisible()));
 
       listener = new BookMarkLoadListener() {
+        @Override
         public void bookMarkDoneLoading(IBookMark bookmark) {
           if (bookmark.getFeedLinkReference().references(feed))
             bool1.set(true);
         }
 
+        @Override
         public void bookMarkAboutToLoad(IBookMark bookmark) {
           if (bookmark.getFeedLinkReference().references(feed))
             bool2.set(true);

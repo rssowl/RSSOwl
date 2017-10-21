@@ -50,6 +50,7 @@ public class ShowNotifierNewsActionPresentation implements INewsActionPresentati
   /*
    * @see org.rssowl.ui.filter.INewsActionPresentation#create(org.eclipse.swt.widgets.Composite, java.lang.Object)
    */
+  @Override
   public void create(Composite parent, Object data) {
     if (data != null && data instanceof String)
       fSelectedColor = OwlUI.getRGB((String) data);
@@ -73,6 +74,7 @@ public class ShowNotifierNewsActionPresentation implements INewsActionPresentati
   /*
    * @see org.rssowl.ui.filter.INewsActionPresentation#dispose()
    */
+  @Override
   public void dispose() {
     fContainer.dispose();
   }
@@ -80,6 +82,7 @@ public class ShowNotifierNewsActionPresentation implements INewsActionPresentati
   /*
    * @see org.rssowl.ui.filter.INewsActionPresentation#getData()
    */
+  @Override
   public Object getData() {
     return OwlUI.toString(fColorPicker.getColor());
   }

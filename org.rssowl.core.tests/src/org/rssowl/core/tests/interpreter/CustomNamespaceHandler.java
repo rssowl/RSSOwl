@@ -39,6 +39,7 @@ public class CustomNamespaceHandler implements INamespaceHandler {
    * @see org.rssowl.core.interpreter.INamespaceHandler#processElement(org.jdom.Element,
    * org.rssowl.core.model.types.IExtendableType)
    */
+  @Override
   public void processElement(Element element, IPersistable type) {
     if (type instanceof IEntity) {
       ((IEntity) type).setProperty(element.getText(), element.getText());
@@ -49,6 +50,7 @@ public class CustomNamespaceHandler implements INamespaceHandler {
    * @see org.rssowl.core.interpreter.INamespaceHandler#processAttribute(org.jdom.Attribute,
    * org.rssowl.core.model.types.IExtendableType)
    */
+  @Override
   public void processAttribute(Attribute attribute, IPersistable type) {
     if (type instanceof IEntity) {
       ((IEntity) type).setProperty(attribute.getValue(), attribute.getValue());

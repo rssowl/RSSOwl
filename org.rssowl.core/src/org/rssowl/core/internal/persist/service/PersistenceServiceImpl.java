@@ -70,6 +70,7 @@ public class PersistenceServiceImpl extends AbstractPersistenceService {
   /*
    * @see org.rssowl.core.persist.service.IPersistenceService#shutdown(boolean)
    */
+  @Override
   public void shutdown(boolean emergency) throws PersistenceException {
 
     /* Shutdown ID Generator, Search and DB */
@@ -118,6 +119,7 @@ public class PersistenceServiceImpl extends AbstractPersistenceService {
    * @throws PersistenceException in case a problem occurs while trying to
    * schedule this operation.
    */
+  @Override
   public void defragmentOnNextStartup() throws PersistenceException {
     try {
       DBManager.getDefault().getDefragmentFile().createNewFile();

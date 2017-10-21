@@ -220,6 +220,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
       fCBrowser = browser;
     }
 
+    @Override
     public IStatus run(IProgressMonitor monitor) {
 
       /* Return early if canceled or disposed */
@@ -313,10 +314,12 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
       return Status.OK_STATUS;
     }
 
+    @Override
     public String getName() {
       return null;
     }
 
+    @Override
     public Priority getPriority() {
       return Priority.INTERACTIVE;
     }
@@ -380,6 +383,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
 
     /* React on User Interaction (Mouse Scrolling, Mouse Down, Key Pressed) */
     Listener listener = new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onUserInteraction();
       }
@@ -407,6 +411,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       @SuppressWarnings("restriction")
       public void menuAboutToShow(IMenuManager manager) {
 
@@ -470,6 +475,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
           List<INewsBin> newsbins = new ArrayList<INewsBin>(DynamicDAO.loadAll(INewsBin.class));
 
           Comparator<INewsBin> comparator = new Comparator<INewsBin>() {
+            @Override
             public int compare(INewsBin o1, INewsBin o2) {
               return o1.getName().compareTo(o2.getName());
             };
@@ -560,6 +566,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         ApplicationActionBarAdvisor.fillAttachmentsMenu(manager, fCurrentSelection, new SameShellProvider(fBrowser.getControl().getShell()), true);
       }
@@ -573,6 +580,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         ApplicationActionBarAdvisor.fillLabelMenu(manager, fCurrentSelection, new SameShellProvider(fBrowser.getControl().getShell()), true);
       }
@@ -586,6 +594,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         ApplicationActionBarAdvisor.fillShareMenu(manager, fCurrentSelection, new SameShellProvider(fBrowser.getControl().getShell()), true);
       }
@@ -599,6 +608,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         if (fCurrentSelection.size() == 1) {
           Object element = fCurrentSelection.getFirstElement();
@@ -727,6 +737,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
 
       /* See Bug 747 - run asynced */
       delayInUI(new Runnable() {
+        @Override
         public void run() {
           SearchNewsDialog dialog = new SearchNewsDialog(fBrowser.getControl().getShell(), conditions, true, true);
           dialog.setUseLowScoreFilter(useLowScoreFilter);
@@ -756,6 +767,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
   /*
    * @see org.rssowl.ui.internal.ILinkHandler#handle(java.lang.String, java.net.URI)
    */
+  @Override
   public void handle(final String id, URI link) {
 
     /* Extract Query Part and Decode */
@@ -770,6 +782,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     if (queryProvided && MARK_READ_HANDLER_ID.equals(id)) {
       final List<INews> news = getNewsList(query);
       Runnable runnable = new Runnable() {
+        @Override
         public void run() {
           INews.State newState = INews.State.READ;
           boolean affectEquivalentNews = OwlUI.markReadDuplicates();
@@ -967,6 +980,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     /* Go to Next News / Go to Next Unread News / Go to Previous News / Go to Previous Unread News */
     else if (NEXT_NEWS_HANDLER_ID.equals(id) || NEXT_UNREAD_NEWS_HANDLER_ID.equals(id) || PREVIOUS_NEWS_HANDLER_ID.equals(id) || PREVIOUS_UNREAD_NEWS_HANDLER_ID.equals(id)) {
       Runnable runnable = new Runnable() {
+        @Override
         public void run() {
           handleNavigateAction(id);
         }
@@ -993,6 +1007,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
     /* Scroll Reveal Next Page */
     else if (SCROLL_NEXT_PAGE_HANDLER_ID.equals(id)) {
       Runnable runnable = new Runnable() {
+        @Override
         public void run() {
           revealNextPage(false);
         }
@@ -1025,6 +1040,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
 
     /* Forward the navigation action to the outer scope */
     delayInUI(new Runnable() {
+      @Override
       public void run() {
         NavigationActionFactory factory = new NavigationActionFactory();
         try {
@@ -1145,6 +1161,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
 
     /* Block external navigation while setting innerHTML */
     fBrowser.blockExternalNavigationWhile(new Runnable() {
+      @Override
       public void run() {
         fBrowser.execute(js.toString(), "setNewsExpanded"); //$NON-NLS-1$
       }
@@ -1403,6 +1420,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
 
     /* Block external navigation while setting innerHTML */
     fBrowser.blockExternalNavigationWhile(new Runnable() {
+      @Override
       public void run() {
         fBrowser.execute(js.toString(), "showTransformation"); //$NON-NLS-1$
       }
@@ -1503,6 +1521,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
 
       /* Block external navigation while setting innerHTML */
       fBrowser.blockExternalNavigationWhile(new Runnable() {
+        @Override
         public void run() {
           fBrowser.execute(newsJs.toString(), "revealItems#0"); //$NON-NLS-1$
         }
@@ -1518,6 +1537,7 @@ public class NewsBrowserViewer extends ContentViewer implements ILinkHandler {
 
     /* Block external navigation while setting innerHTML */
     fBrowser.blockExternalNavigationWhile(new Runnable() {
+      @Override
       public void run() {
         fBrowser.execute(js.toString(), "revealItems#1"); //$NON-NLS-1$
       }

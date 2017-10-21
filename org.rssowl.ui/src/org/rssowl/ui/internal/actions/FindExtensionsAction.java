@@ -90,6 +90,7 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
   @Override
   public void run() {
     BusyIndicator.showWhile(fShell.getDisplay(), new Runnable() {
+      @Override
       public void run() {
         UpdateJob job = new UpdateJob(Messages.FindExtensionsAction_SEARCHING_EXTENSIONS, getSearchRequest());
         job.setUser(true);
@@ -135,11 +136,13 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {}
 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {
     fShell = window.getShell();
   }
@@ -147,6 +150,7 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     run();
   }
@@ -155,6 +159,7 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction,
    * org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {}
 
   /*
@@ -205,15 +210,18 @@ public class FindExtensionsAction extends Action implements IWorkbenchWindowActi
 
           if (fJob.getStatus() != Status.OK_STATUS)
             getValidShell().getDisplay().syncExec(new Runnable() {
+              @Override
               public void run() {
                 org.eclipse.update.internal.ui.UpdateUI.log(fJob.getStatus(), true);
               }
             });
 
           validShell.getDisplay().asyncExec(new Runnable() {
+            @Override
             public void run() {
               validShell.getDisplay().beep();
               BusyIndicator.showWhile(validShell.getDisplay(), new Runnable() {
+                @Override
                 public void run() {
                   openInstallWizard2();
                 }

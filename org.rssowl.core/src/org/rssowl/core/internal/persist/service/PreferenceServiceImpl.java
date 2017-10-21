@@ -65,6 +65,7 @@ public class PreferenceServiceImpl implements IPreferenceService {
    * @see
    * org.rssowl.core.model.persist.pref.IPreferencesService#getDefaultScope()
    */
+  @Override
   public IPreferenceScope getDefaultScope() {
     return fDefaultScope;
   }
@@ -73,6 +74,7 @@ public class PreferenceServiceImpl implements IPreferenceService {
    * @see
    * org.rssowl.core.model.persist.pref.IPreferencesService#getGlobalScope()
    */
+  @Override
   public IPreferenceScope getGlobalScope() {
     return fGlobalScope;
   }
@@ -80,6 +82,7 @@ public class PreferenceServiceImpl implements IPreferenceService {
   /*
    * @see org.rssowl.core.persist.service.IPreferenceService#getEclipseScope()
    */
+  @Override
   public IPreferenceScope getEclipseScope() {
     return fEclipseScope;
   }
@@ -89,6 +92,7 @@ public class PreferenceServiceImpl implements IPreferenceService {
    * org.rssowl.core.model.persist.pref.IPreferencesService#getEntityScope(org
    * .rssowl.core.model.persist.IEntity)
    */
+  @Override
   public IPreferenceScope getEntityScope(IEntity entity) {
     return new EntityScope(entity, fGlobalScope);
   }

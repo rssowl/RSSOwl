@@ -49,6 +49,7 @@ import java.util.List;
 public class BugzillaInterpreter extends BasicInterpreter {
   private int fNewsCounter;
 
+  @Override
   public void interpret(Document document, IFeed feed) {
     Element root = document.getRootElement();
     setDefaultNamespaceUri(root.getNamespace().getURI());

@@ -40,6 +40,7 @@ public abstract class ContextMenuCreator implements IMenuCreator {
   /*
    * @see org.eclipse.jface.action.IMenuCreator#getMenu(org.eclipse.swt.widgets.Control)
    */
+  @Override
   public Menu getMenu(Control parent) {
     if (fMenu != null)
       OwlUI.safeDispose(fMenu);
@@ -58,6 +59,7 @@ public abstract class ContextMenuCreator implements IMenuCreator {
   /*
    * @see org.eclipse.jface.action.IMenuCreator#dispose()
    */
+  @Override
   public void dispose() {
     if (fMenu != null)
       OwlUI.safeDispose(fMenu);
@@ -66,6 +68,7 @@ public abstract class ContextMenuCreator implements IMenuCreator {
   /*
    * @see org.eclipse.jface.action.IMenuCreator#getMenu(org.eclipse.swt.widgets.Menu)
    */
+  @Override
   public Menu getMenu(Menu parent) {
     return null;
   }

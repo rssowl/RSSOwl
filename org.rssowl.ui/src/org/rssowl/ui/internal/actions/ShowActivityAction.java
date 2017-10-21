@@ -42,11 +42,13 @@ public class ShowActivityAction implements IWorkbenchWindowActionDelegate {
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {}
 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {
     fShellProvider = window;
   }
@@ -61,6 +63,7 @@ public class ShowActivityAction implements IWorkbenchWindowActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     ActivityDialog instance = ActivityDialog.getVisibleInstance();
     if (instance == null) {
@@ -75,5 +78,6 @@ public class ShowActivityAction implements IWorkbenchWindowActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {}
 }

@@ -49,14 +49,17 @@ public class MyCredentialsProvider extends PlatformCredentialsProvider {
   public ICredentials getAuthCredentials(URI link, String realm) throws CredentialsException {
     if (!fAuthDeleted && link.toString().equals("http://www.rssowl.org/rssowl2dg/tests/connection/authrequired/feed_rdf.xml")) {
       return new ICredentials() {
+        @Override
         public String getUsername() {
           return "bpasero";
         }
 
+        @Override
         public String getPassword() {
           return "admin";
         }
 
+        @Override
         public String getDomain() {
           return "";
         }
@@ -65,14 +68,17 @@ public class MyCredentialsProvider extends PlatformCredentialsProvider {
 
     if (SyncUtils.fromGoogle(link.toString())) {
       return new ICredentials() {
+        @Override
         public String getUsername() {
           return "rssowl@mailinator.com";
         }
 
+        @Override
         public String getPassword() {
           return "rssowl.org";
         }
 
+        @Override
         public String getDomain() {
           return "";
         }
@@ -90,22 +96,27 @@ public class MyCredentialsProvider extends PlatformCredentialsProvider {
   public IProxyCredentials getProxyCredentials(URI link) {
     if (!fProxyDeleted && link.toString().equals("http://www.rssowl.org/rssowl2dg/tests/connection/authrequired/feed_rdf.xml")) {
       return new IProxyCredentials() {
+        @Override
         public String getHost() {
           return "127.0.0.1";
         }
 
+        @Override
         public int getPort() {
           return 0;
         }
 
+        @Override
         public String getUsername() {
           return "bpasero";
         }
 
+        @Override
         public String getPassword() {
           return "admin";
         }
 
+        @Override
         public String getDomain() {
           return "";
         }

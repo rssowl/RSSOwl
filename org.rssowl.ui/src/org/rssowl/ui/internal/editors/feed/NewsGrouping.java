@@ -669,6 +669,7 @@ public class NewsGrouping {
 
   private Collection<EntityGroup> sort(List<EntityGroup> items) {
     Set<EntityGroup> sortedItems = new TreeSet<EntityGroup>(new Comparator<EntityGroup>() {
+      @Override
       public int compare(EntityGroup o1, EntityGroup o2) {
         if (o1.equals(o2))
           return 0;

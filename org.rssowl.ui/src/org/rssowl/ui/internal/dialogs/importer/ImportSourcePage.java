@@ -174,6 +174,7 @@ public class ImportSourcePage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
     boolean isWelcome = isWelcome();
 
@@ -286,6 +287,7 @@ public class ImportSourcePage extends WizardPage {
     }
 
     fResourceInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         updatePageComplete();
       }
@@ -359,6 +361,7 @@ public class ImportSourcePage extends WizardPage {
     }
 
     fKeywordInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         updatePageComplete();
       }
@@ -545,9 +548,11 @@ public class ImportSourcePage extends WizardPage {
 
     /* Load proposals in the Background */
     JobRunner.runInBackgroundThread(delay ? 100 : 0, new Runnable() {
+      @Override
       public void run() {
         if (!fKeywordInput.isDisposed()) {
           Set<String> values = new TreeSet<String>(new Comparator<String>() {
+            @Override
             public int compare(String o1, String o2) {
               return o1.compareToIgnoreCase(o2);
             }

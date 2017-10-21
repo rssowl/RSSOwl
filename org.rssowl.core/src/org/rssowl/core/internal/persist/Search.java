@@ -56,6 +56,7 @@ public class Search extends AbstractEntity implements ISearch {
    * org.rssowl.core.model.types.ISearchMark#addSearchCondition(org.rssowl.core
    * .model.reference.SearchConditionReference)
    */
+  @Override
   public synchronized void addSearchCondition(ISearchCondition searchCondition) {
     Assert.isNotNull(searchCondition, "Exception adding NULL as Search Condition into SearchMark"); //$NON-NLS-1$
     fSearchConditions.add(searchCondition);
@@ -66,6 +67,7 @@ public class Search extends AbstractEntity implements ISearch {
    * org.rssowl.core.model.types.ISearchMark#removeSearchCondition(org.rssowl
    * .core.model.search.ISearchCondition)
    */
+  @Override
   public synchronized boolean removeSearchCondition(ISearchCondition searchCondition) {
     return fSearchConditions.remove(searchCondition);
   }
@@ -75,6 +77,7 @@ public class Search extends AbstractEntity implements ISearch {
    * org.rssowl.core.persist.ISearch#containsSearchCondition(org.rssowl.core
    * .persist.ISearchCondition)
    */
+  @Override
   public synchronized boolean containsSearchCondition(ISearchCondition searchCondition) {
     return fSearchConditions.contains(searchCondition);
   }
@@ -82,6 +85,7 @@ public class Search extends AbstractEntity implements ISearch {
   /*
    * @see org.rssowl.core.model.types.ISearchMark#getSearchConditions()
    */
+  @Override
   public synchronized List<ISearchCondition> getSearchConditions() {
     return new ArrayList<ISearchCondition>(fSearchConditions);
   }
@@ -89,6 +93,7 @@ public class Search extends AbstractEntity implements ISearch {
   /*
    * @see org.rssowl.core.model.types.ISearchMark#requiresAllConditions()
    */
+  @Override
   public synchronized boolean matchAllConditions() {
     return fMatchAllConditions;
   }
@@ -97,6 +102,7 @@ public class Search extends AbstractEntity implements ISearch {
    * @see
    * org.rssowl.core.model.types.ISearchMark#setRequireAllConditions(boolean)
    */
+  @Override
   public synchronized void setMatchAllConditions(boolean requiresAllConditions) {
     fMatchAllConditions = requiresAllConditions;
   }
@@ -104,6 +110,7 @@ public class Search extends AbstractEntity implements ISearch {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public SearchReference toReference() {
     return new SearchReference(getIdAsPrimitive());
   }

@@ -67,8 +67,10 @@ public class OpenNewsAction implements INewsAction {
       fLink = link;
     }
 
+    @Override
     public IStatus run(final IProgressMonitor monitor) {
       JobRunner.runInUIThread(null, new Runnable() {
+        @Override
         public void run() {
           if (!monitor.isCanceled() && !Controller.getDefault().isShuttingDown()) {
             OpenInBrowserAction openAction = new OpenInBrowserAction();
@@ -98,6 +100,7 @@ public class OpenNewsAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#run(java.util.List, java.util.Map, java.lang.Object)
    */
+  @Override
   public List<IEntity> run(List<INews> news, Map<INews, INews> replacements, Object data) {
 
     /* Handle the case of RSSOwl shutting down */
@@ -133,6 +136,7 @@ public class OpenNewsAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#conflictsWith(org.rssowl.core.INewsAction)
    */
+  @Override
   public boolean conflictsWith(INewsAction otherAction) {
     return false;
   }
@@ -140,6 +144,7 @@ public class OpenNewsAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#getLabel(java.lang.Object)
    */
+  @Override
   public String getLabel(Object data) {
     return null;
   }

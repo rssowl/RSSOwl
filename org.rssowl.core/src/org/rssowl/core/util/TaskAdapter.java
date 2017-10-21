@@ -28,7 +28,7 @@ package org.rssowl.core.util;
 /**
  * Abstract Adapter for the <code>ITask</code>. Implementors need to
  * implement the run()-Method.
- * 
+ *
  * @author bpasero
  */
 public abstract class TaskAdapter implements ITask {
@@ -36,6 +36,7 @@ public abstract class TaskAdapter implements ITask {
   /*
    * @see org.rssowl.ui.internal.ITask#getName()
    */
+  @Override
   public String getName() {
     return null;
   }
@@ -43,6 +44,7 @@ public abstract class TaskAdapter implements ITask {
   /*
    * @see org.rssowl.ui.internal.ITask#getPriority()
    */
+  @Override
   public Priority getPriority() {
     return Priority.DEFAULT;
   }

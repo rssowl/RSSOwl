@@ -80,6 +80,7 @@ public class NewsStateOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#getName()
    */
+  @Override
   public String getName() {
     switch (fNewState) {
       case HIDDEN:
@@ -103,6 +104,7 @@ public class NewsStateOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#undo()
    */
+  @Override
   public void undo() {
     Set<Entry<State, List<NewsReference>>> entries = fOldStates.entrySet();
     for (Entry<State, List<NewsReference>> entry : entries) {
@@ -129,6 +131,7 @@ public class NewsStateOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#redo()
    */
+  @Override
   public void redo() {
     Set<Entry<State, List<NewsReference>>> entries = fOldStates.entrySet();
     for (Entry<State, List<NewsReference>> entry : entries) {
@@ -155,6 +158,7 @@ public class NewsStateOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#isLongRunning()
    */
+  @Override
   public boolean isLongRunning() {
     return fNewsCount > LONG_RUNNING_LIMIT;
   }

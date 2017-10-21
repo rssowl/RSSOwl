@@ -156,6 +156,7 @@ public class NewsComparator extends ViewerComparator implements Comparator<INews
   /*
    * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
    */
+  @Override
   public int compare(INews news1, INews news2) {
     int result = 0;
 

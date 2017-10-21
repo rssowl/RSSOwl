@@ -68,6 +68,7 @@ public class EmbeddedWebBrowser implements IWebBrowser {
   /*
    * @see org.eclipse.ui.browser.IWebBrowser#openURL(java.net.URL)
    */
+  @Override
   public void openURL(URL url) {
     openURL(url, false);
   }
@@ -129,6 +130,7 @@ public class EmbeddedWebBrowser implements IWebBrowser {
   /*
    * @see org.eclipse.ui.browser.IWebBrowser#close()
    */
+  @Override
   public boolean close() {
     return true;
   }
@@ -136,6 +138,7 @@ public class EmbeddedWebBrowser implements IWebBrowser {
   /*
    * @see org.eclipse.ui.browser.IWebBrowser#getId()
    */
+  @Override
   public String getId() {
     return fBrowserId;
   }

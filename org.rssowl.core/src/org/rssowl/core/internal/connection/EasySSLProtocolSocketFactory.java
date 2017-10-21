@@ -43,7 +43,7 @@ import javax.net.ssl.TrustManager;
 /**
  * EasySSLProtocolSocketFactory can be used to create SSL {@link Socket}s that
  * accept self-signed certificates.
- * 
+ *
  * @author <a href="mailto:oleg -at- ural.ru">Oleg Kalnichevski </a>
  */
 public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory {
@@ -51,7 +51,7 @@ public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory
 
   /**
    * Create the SSL Context.
-   * 
+   *
    * @return The SSLContext
    */
   private static SSLContext createEasySSLContext() {
@@ -68,6 +68,7 @@ public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory
    * @see org.apache.commons.httpclient.protocol.SecureProtocolSocketFactory#createSocket(java.net.Socket,
    * java.lang.String, int, boolean)
    */
+  @Override
   public Socket createSocket(Socket socket, String host, int port, boolean autoClose) throws IOException, UnknownHostException {
     return getSSLContext().getSocketFactory().createSocket(socket, host, port, autoClose);
   }
@@ -75,6 +76,7 @@ public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory
   /*
    * @see ProtocolSocketFactory#createSocket(java.lang.String,int)
    */
+  @Override
   public Socket createSocket(String host, int port) throws IOException, UnknownHostException {
     return getSSLContext().getSocketFactory().createSocket(host, port);
   }
@@ -82,6 +84,7 @@ public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory
   /*
    * @see ProtocolSocketFactory#createSocket(java.lang.String,int,java.net.InetAddress,int)
    */
+  @Override
   public Socket createSocket(String host, int port, InetAddress clientHost, int clientPort) throws IOException, UnknownHostException {
     return getSSLContext().getSocketFactory().createSocket(host, port, clientHost, clientPort);
   }
@@ -89,7 +92,7 @@ public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory
   /**
    * Attempts to get a new socket connection to the given host within the given
    * time limit.
-   * 
+   *
    * @param host the host name/IP
    * @param port the port on the host
    * @param params {@link HttpConnectionParams Http connection parameters}
@@ -98,6 +101,7 @@ public class EasySSLProtocolSocketFactory implements SecureProtocolSocketFactory
    * @throws UnknownHostException if the IP address of the host cannot be
    * determined
    */
+  @Override
   public Socket createSocket(final String host, final int port, final InetAddress localAddress, final int localPort, final HttpConnectionParams params) throws IOException, UnknownHostException, ConnectTimeoutException {
     if (params == null)
       throw new IllegalArgumentException("Parameters may not be null"); //$NON-NLS-1$

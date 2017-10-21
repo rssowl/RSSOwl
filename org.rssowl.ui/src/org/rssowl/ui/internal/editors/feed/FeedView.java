@@ -580,6 +580,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
     fPartListener = new IPartListener2() {
 
       /* Mark *new* News as *unread* or *read* */
+      @Override
       public void partHidden(IWorkbenchPartReference partRef) {
 
         /* Return early if event is too close after opening the feed */
@@ -592,6 +593,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
       }
 
       /* Hook into Global Actions for this Editor */
+      @Override
       public void partBroughtToTop(IWorkbenchPartReference partRef) {
         if (FeedView.this.equals(partRef.getPart(false))) {
           setGlobalActions();
@@ -609,6 +611,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
           fgLastVisibleFeedView = null;
       }
 
+      @Override
       public void partClosed(IWorkbenchPartReference partRef) {
         IEditorReference[] editors = partRef.getPage().getEditorReferences();
         boolean equalsThis = FeedView.this.equals(partRef.getPart(false));
@@ -622,18 +625,22 @@ public class FeedView extends EditorPart implements IReusableEditor {
         }
       }
 
+      @Override
       public void partDeactivated(IWorkbenchPartReference partRef) {}
 
+      @Override
       public void partActivated(IWorkbenchPartReference partRef) {
         if (FeedView.this.equals(partRef.getPart(false)))
           OwlUI.updateWindowTitle(fInput != null ? fInput.getMark() : null);
       }
 
+      @Override
       public void partInputChanged(IWorkbenchPartReference partRef) {
         if (FeedView.this.equals(partRef.getPart(false)))
           OwlUI.updateWindowTitle(fInput != null ? fInput.getMark() : null);
       }
 
+      @Override
       public void partOpened(IWorkbenchPartReference partRef) {
         if (FeedView.this.equals(partRef.getPart(false)) && isVisible()) {
           fOpenTime = System.currentTimeMillis();
@@ -641,6 +648,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
         }
       }
 
+      @Override
       public void partVisible(IWorkbenchPartReference partRef) {
         if (FeedView.this.equals(partRef.getPart(false)))
           OwlUI.updateWindowTitle(fInput != null ? fInput.getMark() : null);
@@ -693,14 +701,17 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
     /* Refresh on Condition Changes if SearchMark showing */
     fSearchConditionListener = new SearchConditionListener() {
+      @Override
       public void entitiesAdded(Set<SearchConditionEvent> events) {
         refreshIfRequired(events);
       }
 
+      @Override
       public void entitiesDeleted(Set<SearchConditionEvent> events) {
         /* Ignore Due to Bug 1140 (http://dev.rssowl.org/show_bug.cgi?id=1140) */
       }
 
+      @Override
       public void entitiesUpdated(Set<SearchConditionEvent> events) {
         /* Ignore Due to Bug 1140 (http://dev.rssowl.org/show_bug.cgi?id=1140) */
       }
@@ -774,6 +785,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
               fTitleImageDescriptor = imageDesc;
 
               JobRunner.runInUIThread(fParent, new Runnable() {
+                @Override
                 public void run() {
                   setTitleImage(OwlUI.getImage(fResourceManager, fTitleImageDescriptor));
                 }
@@ -789,11 +801,13 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
     /* Show Busy when Input is loaded */
     fBookMarkLoadListener = new Controller.BookMarkLoadListener() {
+      @Override
       public void bookMarkAboutToLoad(IBookMark bookmark) {
         if (!fIsDisposed && bookmark.equals(fInput.getMark()))
           showBusyLoading(true);
       }
 
+      @Override
       public void bookMarkDoneLoading(IBookMark bookmark) {
         if (!fIsDisposed && bookmark.equals(fInput.getMark()))
           showBusyLoading(false);
@@ -804,6 +818,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
   private void showBusyLoading(final boolean busy) {
     JobRunner.runInUIThread(fParent, new Runnable() {
+      @Override
       @SuppressWarnings("restriction")
       public void run() {
         if (!fIsDisposed && getSite() instanceof org.eclipse.ui.internal.PartSite)
@@ -814,6 +829,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
   private void onNewsFoldersUpdated(final Set<FolderEvent> events) {
     JobRunner.runInUIThread(fParent, new Runnable() {
+      @Override
       public void run() {
         if (!(fInput.getMark() instanceof FolderNewsMark))
           return;
@@ -844,6 +860,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
       if (folder.equals(folderNewsMark.getFolder())) {
         fInput.setDeleted();
         JobRunner.runInUIThread(fParent, new Runnable() {
+          @Override
           public void run() {
             fEditorSite.getPage().closeEditor(FeedView.this, false);
           }
@@ -855,6 +872,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
   private void onNewsMarksUpdated(final Set<? extends MarkEvent> events) {
     JobRunner.runInUIThread(fParent, new Runnable() {
+      @Override
       public void run() {
         final IEditorPart activeFeedView = fEditorSite.getPage().getActiveEditor();
         for (MarkEvent event : events) {
@@ -877,6 +895,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
       if (fInput.getMark().getId().equals(mark.getId())) {
         fInput.setDeleted();
         JobRunner.runInUIThread(fParent, new Runnable() {
+          @Override
           public void run() {
             fEditorSite.getPage().closeEditor(FeedView.this, false);
           }
@@ -1110,6 +1129,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
       /* Provide code to be executed after unfiltering is done */
       Runnable joinUIRunnable = new Runnable() {
+        @Override
         public void run() {
           internalShowSelection(selection, unfilter);
         }
@@ -1129,8 +1149,10 @@ public class FeedView extends EditorPart implements IReusableEditor {
     /* Scroll News into View from Browser if maximized */
     if (!isTableViewerVisible()) {
       JobRunner.runInUIThread(BROWSER_OPERATIONS_DELAY, fNewsBrowserControl.getViewer().getControl(), new Runnable() {
+        @Override
         public void run() { //Run delayed as the browser might still be busy loading the input
           Runnable runnable = new Runnable() {
+            @Override
             public void run() {
               fNewsBrowserControl.getViewer().showSelection(selection);
             }
@@ -1372,6 +1394,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
         delay += 100;
 
       JobRunner.runInBackgroundThread(delay, new Runnable() {
+        @Override
         public void run() {
 
           /* Application might be in process of closing */
@@ -1527,6 +1550,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
     /* DB Roundtrips done in the background */
     JobRunner.runInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         if (fInput == null)
           return;
@@ -1712,6 +1736,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
     /* Focus Browser */
     else {
       Runnable runnable = new Runnable() {
+        @Override
         public void run() {
           fNewsBrowserControl.setFocus();
         }
@@ -2094,6 +2119,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
 
   private void rememberSelection(final IMark inputMark, final IStructuredSelection selection) {
     SafeRunnable.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         IPreferenceScope inputPrefs = Owl.getPreferenceService().getEntityScope(inputMark);
         long oldSelectionValue = inputPrefs.getLong(DefaultPreferences.NM_SELECTED_NEWS);
@@ -2400,6 +2426,7 @@ public class FeedView extends EditorPart implements IReusableEditor {
       /* Delay navigation because input was just set and browser needs a little to render */
       if (onInputSet) {
         JobRunner.runInUIThread(BROWSER_OPERATIONS_DELAY, fNewsBrowserControl.getViewer().getControl(), new Runnable() {
+          @Override
           public void run() {
             fNewsBrowserControl.getViewer().navigate(next, unread, onInputSet);
           }

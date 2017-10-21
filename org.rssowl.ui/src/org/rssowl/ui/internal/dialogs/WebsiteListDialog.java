@@ -53,9 +53,9 @@ import org.rssowl.core.util.StringUtils;
 import org.rssowl.ui.internal.ApplicationWorkbenchWindowAdvisor;
 import org.rssowl.ui.internal.OwlUI;
 import org.rssowl.ui.internal.util.CColumnLayoutData;
+import org.rssowl.ui.internal.util.CColumnLayoutData.Size;
 import org.rssowl.ui.internal.util.CTable;
 import org.rssowl.ui.internal.util.LayoutUtils;
-import org.rssowl.ui.internal.util.CColumnLayoutData.Size;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -140,6 +140,7 @@ public class WebsiteListDialog extends Dialog {
     });
 
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         fRemoveSelectedButton.setEnabled(!event.getSelection().isEmpty());
       }

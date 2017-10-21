@@ -37,15 +37,18 @@ public class NewsAdapter implements NewsListener {
   /*
    * @see org.rssowl.core.model.events.NewsListener#entitiesAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<NewsEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.NewsListener#newsDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<NewsEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.NewsListener#newsUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<NewsEvent> events) { }
 }

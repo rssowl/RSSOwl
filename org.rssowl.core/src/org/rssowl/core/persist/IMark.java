@@ -92,6 +92,7 @@ public interface IMark extends IFolderChild {
    *
    * @return the name of the mark.
    */
+  @Override
   String getName();
 
   /**
@@ -107,6 +108,7 @@ public interface IMark extends IFolderChild {
    *
    * @return the parent of this child.
    */
+  @Override
   IFolder getParent();
 
   /**
@@ -122,5 +124,6 @@ public interface IMark extends IFolderChild {
    * @param folder new folder parent. This should never be null.
    * @see IFolderDAO#reparent(java.util.List)
    */
+  @Override
   void setParent(IFolder folder);
 }

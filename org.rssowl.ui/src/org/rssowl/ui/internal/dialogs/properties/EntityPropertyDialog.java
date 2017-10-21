@@ -131,6 +131,7 @@ public class EntityPropertyDialog extends Dialog implements IPropertyDialogSite 
       final EntityPropertyPageWrapper pageWrapper = iterator.next();
       if (fCreatedPages.contains(pageWrapper.getPage())) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             proceed[0] = pageWrapper.getPage().performOk(entitiesToSave);
           }
@@ -145,6 +146,7 @@ public class EntityPropertyDialog extends Dialog implements IPropertyDialogSite 
     /* Save Entities while showing Busy-Cursor */
     fEntitiesUpdated = !entitiesToSave.isEmpty();
     BusyIndicator.showWhile(getShell().getDisplay(), new Runnable() {
+      @Override
       public void run() {
         for (IEntity entity : entitiesToSave)
           DynamicDAO.save(entity);
@@ -326,6 +328,7 @@ public class EntityPropertyDialog extends Dialog implements IPropertyDialogSite 
   /*
    * @see org.rssowl.ui.dialogs.properties.IPropertyDialogSite#getHorizontalPixels(int)
    */
+  @Override
   public int getHorizontalPixels(int dlus) {
     return convertHorizontalDLUsToPixels(dlus);
   }
@@ -334,6 +337,7 @@ public class EntityPropertyDialog extends Dialog implements IPropertyDialogSite 
    * @see org.rssowl.ui.dialogs.properties.IPropertyDialogSite#setMessage(java.lang.String,
    * org.rssowl.ui.dialogs.properties.IPropertyDialogSite.MessageType)
    */
+  @Override
   public void setMessage(String message, MessageType type) {
 
     /* Mask NULL */
@@ -364,6 +368,7 @@ public class EntityPropertyDialog extends Dialog implements IPropertyDialogSite 
   /*
    * @see org.rssowl.ui.dialogs.properties.IPropertyDialogSite#select(org.rssowl.ui.dialogs.properties.IEntityPropertyPage)
    */
+  @Override
   public void select(IEntityPropertyPage page) {
     Assert.isNotNull(page);
 
@@ -384,6 +389,7 @@ public class EntityPropertyDialog extends Dialog implements IPropertyDialogSite 
   /*
    * @see org.rssowl.ui.dialogs.properties.IPropertyDialogSite#getResourceManager()
    */
+  @Override
   public ResourceManager getResourceManager() {
     return fResources;
   }
@@ -399,6 +405,7 @@ public class EntityPropertyDialog extends Dialog implements IPropertyDialogSite 
   /*
    * @see org.rssowl.ui.dialogs.properties.IPropertyDialogSite#contentsChanged()
    */
+  @Override
   public void contentsChanged() {
 
     /* Check if the Dialog size needs to be updated now */

@@ -49,14 +49,17 @@ public class MigrationsTest {
       fDestination = destination;
     }
 
+    @Override
     public int getDestinationFormat() {
       return fDestination;
     }
 
+    @Override
     public int getOriginFormat() {
       return fOrigin;
     }
 
+    @Override
     public MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
       throw new UnsupportedOperationException();
     }

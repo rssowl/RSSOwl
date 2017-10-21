@@ -295,6 +295,7 @@ public class NewsActionList extends ScrolledComposite {
     final Menu actionMenu = new Menu(buttonBar);
     createActionMenu(actionMenu, item);
     addButton.addListener(SWT.Selection, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         if (event.detail == SWT.ARROW) {
           Rectangle rect = item.getBounds();
@@ -308,6 +309,7 @@ public class NewsActionList extends ScrolledComposite {
     });
 
     buttonBar.addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(DisposeEvent e) {
         OwlUI.safeDispose(actionMenu);
       }
@@ -321,6 +323,7 @@ public class NewsActionList extends ScrolledComposite {
       @Override
       public void widgetSelected(SelectionEvent e) {
         JobRunner.runInUIThread(0, true, buttonBar, new Runnable() {
+          @Override
           public void run() {
             onDelete(item, itemContainer);
           }

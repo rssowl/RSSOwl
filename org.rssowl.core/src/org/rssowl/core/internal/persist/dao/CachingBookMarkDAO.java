@@ -74,16 +74,19 @@ public final class CachingBookMarkDAO extends CachingDAO<BookMarkDAOImpl, IBookM
   @Override
   protected BookMarkListener createEntityListener() {
     return new BookMarkListener() {
+      @Override
       public void entitiesAdded(Set<BookMarkEvent> events) {
         for (BookMarkEvent event : events)
           getCache().put(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesDeleted(Set<BookMarkEvent> events) {
         for (BookMarkEvent event : events)
           getCache().remove(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesUpdated(Set<BookMarkEvent> events) {
         /* No action needed */
       }
@@ -95,6 +98,7 @@ public final class CachingBookMarkDAO extends CachingDAO<BookMarkDAOImpl, IBookM
    * org.rssowl.core.persist.dao.IBookMarkDAO#loadAll(org.rssowl.core.persist
    * .reference.FeedLinkReference)
    */
+  @Override
   public Collection<IBookMark> loadAll(FeedLinkReference feedRef) {
     Set<IBookMark> marks = new HashSet<IBookMark>(1);
     for (IBookMark mark : getCache().values()) {
@@ -110,6 +114,7 @@ public final class CachingBookMarkDAO extends CachingDAO<BookMarkDAOImpl, IBookM
    * org.rssowl.core.persist.dao.IBookMarkDAO#exists(org.rssowl.core.persist
    * .reference.FeedLinkReference)
    */
+  @Override
   public boolean exists(FeedLinkReference feedRef) {
     for (IBookMark mark : getCache().values()) {
       if (mark.getFeedLinkReference().equals(feedRef))
@@ -124,6 +129,7 @@ public final class CachingBookMarkDAO extends CachingDAO<BookMarkDAOImpl, IBookM
    * org.rssowl.core.persist.dao.IBookMarkDAO#visited(org.rssowl.core.persist
    * .IBookMark)
    */
+  @Override
   public void visited(IBookMark mark) {
     getDAO().visited(mark);
   }

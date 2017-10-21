@@ -52,6 +52,7 @@ public final class Guid extends Persistable implements IGuid {
   /*
    * @see org.rssowl.core.model.types.IGuid#isPermaLink()
    */
+  @Override
   public boolean isPermaLink() {
     return fIsPermaLink;
   }
@@ -59,6 +60,7 @@ public final class Guid extends Persistable implements IGuid {
   /*
    * @see org.rssowl.core.model.types.IGuid#getValue()
    */
+  @Override
   public String getValue() {
     return fValue;
   }

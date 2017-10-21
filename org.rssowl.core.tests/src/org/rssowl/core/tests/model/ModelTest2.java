@@ -681,6 +681,7 @@ public class ModelTest2 extends LargeBlockSizeTest {
 
       final boolean[] newsDeleted = new boolean[1];
       newsListener = new NewsListener() {
+        @Override
         public void entitiesDeleted(Set<NewsEvent> events) {
           for (NewsEvent event : events) {
             assertFalse("Expected this Event to be no Root Event", event.isRoot());
@@ -695,10 +696,12 @@ public class ModelTest2 extends LargeBlockSizeTest {
           }
         }
 
+        @Override
         public void entitiesUpdated(Set<NewsEvent> events) {
           fail("Unexpected event");
         }
 
+        @Override
         public void entitiesAdded(Set<NewsEvent> events) {
           fail("Unexpected event");
         }

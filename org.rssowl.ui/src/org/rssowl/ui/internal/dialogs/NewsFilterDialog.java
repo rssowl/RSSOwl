@@ -371,6 +371,7 @@ public class NewsFilterDialog extends TitleAreaDialog {
     }
 
     fNameInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         setErrorMessage(null);
       }
@@ -491,6 +492,7 @@ public class NewsFilterDialog extends TitleAreaDialog {
     /* Show if conditions are present */
     if (!conditions.isEmpty()) {
       JobRunner.runInUIThread(getShell(), new Runnable() {
+        @Override
         public void run() {
           SearchNewsDialog dialog = new SearchNewsDialog(getShell(), conditions, fMatchAllRadio.getSelection(), true);
           dialog.setBlockOnOpen(false);
@@ -711,6 +713,7 @@ public class NewsFilterDialog extends TitleAreaDialog {
     conditionsContainer.setBackground(container.getDisplay().getSystemColor(SWT.COLOR_LIST_BACKGROUND));
     conditionsContainer.setBackgroundMode(SWT.INHERIT_FORCE);
     conditionsContainer.addPaintListener(new PaintListener() {
+      @Override
       public void paintControl(PaintEvent e) {
         GC gc = e.gc;
         Rectangle clArea = conditionsContainer.getClientArea();
@@ -825,6 +828,7 @@ public class NewsFilterDialog extends TitleAreaDialog {
     actionsContainer.setBackground(container.getDisplay().getSystemColor(SWT.COLOR_LIST_BACKGROUND));
     actionsContainer.setBackgroundMode(SWT.INHERIT_FORCE);
     actionsContainer.addPaintListener(new PaintListener() {
+      @Override
       public void paintControl(PaintEvent e) {
         GC gc = e.gc;
         Rectangle clArea = actionsContainer.getClientArea();

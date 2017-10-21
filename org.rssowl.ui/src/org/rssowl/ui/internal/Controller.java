@@ -331,15 +331,18 @@ public class Controller {
       fPriority = priority;
     }
 
+    @Override
     public IStatus run(IProgressMonitor monitor) {
       IStatus status = reload(fBookMark, fProperties, fShell, monitor);
       return status;
     }
 
+    @Override
     public String getName() {
       return fBookMark.getName();
     }
 
+    @Override
     public Priority getPriority() {
       return fPriority;
     }
@@ -426,6 +429,7 @@ public class Controller {
     /* Update Label conditions when Label name changes */
     fLabelListener = new LabelListener() {
 
+      @Override
       public void entitiesAdded(Set<LabelEvent> events) {
         if (fShuttingDown)
           return;
@@ -436,6 +440,7 @@ public class Controller {
           updateLabelCommands();
       }
 
+      @Override
       public void entitiesUpdated(Set<LabelEvent> events) {
         if (fShuttingDown)
           return;
@@ -455,6 +460,7 @@ public class Controller {
         }
       }
 
+      @Override
       public void entitiesDeleted(Set<LabelEvent> events) {
         if (fShuttingDown)
           return;
@@ -848,6 +854,7 @@ public class Controller {
         final IConditionalGet finalConditionalGet = conditionalGet;
         final boolean finalDeleteConditionalGet = deleteConditionalGet;
         fSaveFeedQueue.schedule(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor otherMonitor) {
 
             /* Return on Cancelation or shutdown or deletion */
@@ -890,6 +897,7 @@ public class Controller {
         /* Resolve active Shell if necessary */
         if (shellAr[0] == null || shellAr[0].isDisposed()) {
           SafeRunner.run(new LoggingSafeRunnable() {
+            @Override
             public void run() throws Exception {
               shellAr[0] = OwlUI.getActiveShell();
             }
@@ -917,6 +925,7 @@ public class Controller {
           if (openLoginDialog) {
             try {
               JobRunner.runSyncedInUIThread(shellAr[0], new Runnable() {
+                @Override
                 public void run() {
 
                   /* Return on Cancelation or shutdown or deletion */
@@ -1168,6 +1177,7 @@ public class Controller {
     /* Create Relations and Import Default Feeds if required */
     if (!InternalOwl.TESTING) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
 
           /* First check wether this action is required */
@@ -1194,6 +1204,7 @@ public class Controller {
 
     /* Set hidden News from previous Session to deleted */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         DynamicDAO.getDAO(INewsDAO.class).setState(EnumSet.of(INews.State.HIDDEN), INews.State.DELETED, false);
       }
@@ -1351,6 +1362,7 @@ public class Controller {
     transformers.addAll(fLinkTransformers.values());
 
     Collections.sort(transformers, new Comparator<LinkTransformer>() {
+      @Override
       public int compare(LinkTransformer lt1, LinkTransformer lt2) {
         return lt1.getName().compareTo(lt2.getName());
       }
@@ -1497,8 +1509,10 @@ public class Controller {
 
     /* Backup Subscriptions as OPML if no error */
     JobRunner.runDelayedInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             if (!fShuttingDown)
               backupSubscriptions();
@@ -1511,6 +1525,7 @@ public class Controller {
     if (fShowWelcome) {
       fShowWelcome = false; //Set to false to avoid another Wizard when opening new window
       JobRunner.runInUIThread(200, OwlUI.getActiveShell(), new Runnable() {
+        @Override
         public void run() {
           showWelcomeAndTutorial();
         }
@@ -1520,6 +1535,7 @@ public class Controller {
     /* Check for Updates if Set */
     else if (!Application.IS_ECLIPSE && !fDisableUpdate) {
       JobRunner.runInUIThread(5000, OwlUI.getActiveShell(), new Runnable() {
+        @Override
         public void run() {
           if (!fShuttingDown && Owl.getPreferenceService().getGlobalScope().getBoolean(DefaultPreferences.UPDATE_ON_STARTUP)) {
             FindUpdatesAction action = new FindUpdatesAction(false);
@@ -1540,6 +1556,7 @@ public class Controller {
 
     /* Update Saved Searches if not yet done (required if feeds view hidden on startup) */
     JobRunner.runInBackgroundThread(50, new Runnable() {
+      @Override
       public void run() {
         if (!fShuttingDown)
           fSavedSearchService.updateSavedSearches(false);
@@ -1919,6 +1936,7 @@ public class Controller {
     Object[] listeners = fBookMarkLoadListeners.getListeners();
     for (final Object listener : listeners) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           ((BookMarkLoadListener) listener).bookMarkAboutToLoad(bookmark);
         }
@@ -1930,6 +1948,7 @@ public class Controller {
     Object[] listeners = fBookMarkLoadListeners.getListeners();
     for (final Object listener : listeners) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           ((BookMarkLoadListener) listener).bookMarkDoneLoading(bookmark);
         }
@@ -1994,6 +2013,7 @@ public class Controller {
 
     /* Shutdown needs to run from UI Thread */
     JobRunner.runInUIThread(null, new Runnable() {
+      @Override
       public void run() {
         try {
 

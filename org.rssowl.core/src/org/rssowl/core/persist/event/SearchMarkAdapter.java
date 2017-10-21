@@ -37,20 +37,24 @@ public class SearchMarkAdapter implements SearchMarkListener {
   /*
    * @see org.rssowl.core.model.events.SearchMarkListener#searchMarkAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<SearchMarkEvent> events) {}
 
   /*
    * @see org.rssowl.core.model.events.SearchMarkListener#searchMarkDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<SearchMarkEvent> events) {}
 
   /*
    * @see org.rssowl.core.model.events.SearchMarkListener#searchMarkUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<SearchMarkEvent> events) {}
 
   /*
    * @see org.rssowl.core.persist.event.SearchMarkListener#newsChanged(java.util.Set)
    */
+  @Override
   public void newsChanged(Set<SearchMarkEvent> events) {}
 }

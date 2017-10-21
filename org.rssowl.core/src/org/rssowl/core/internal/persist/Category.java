@@ -64,6 +64,7 @@ public class Category extends AbstractEntity implements ICategory {
   /*
    * @see org.rssowl.core.model.types.ICategory#setName(java.lang.String)
    */
+  @Override
   public synchronized void setName(String name) {
     fName = name;
   }
@@ -71,6 +72,7 @@ public class Category extends AbstractEntity implements ICategory {
   /*
    * @see org.rssowl.core.model.types.ICategory#setDomain(java.lang.String)
    */
+  @Override
   public synchronized void setDomain(String domain) {
     fDomain = domain;
   }
@@ -78,6 +80,7 @@ public class Category extends AbstractEntity implements ICategory {
   /*
    * @see org.rssowl.core.model.types.ICategory#getDomain()
    */
+  @Override
   public synchronized String getDomain() {
     return fDomain;
   }
@@ -85,6 +88,7 @@ public class Category extends AbstractEntity implements ICategory {
   /*
    * @see org.rssowl.core.model.types.ICategory#getName()
    */
+  @Override
   public synchronized String getName() {
     return fName;
   }
@@ -134,6 +138,7 @@ public class Category extends AbstractEntity implements ICategory {
   /*
    * @see org.rssowl.core.persist.MergeCapable#merge(java.lang.Object)
    */
+  @Override
   public synchronized MergeResult merge(ICategory objectToMerge) {
     Assert.isNotNull(objectToMerge, "objectToMerge"); //$NON-NLS-1$
     synchronized (objectToMerge) {
@@ -154,6 +159,7 @@ public class Category extends AbstractEntity implements ICategory {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public CategoryReference toReference() {
     return new CategoryReference(getIdAsPrimitive());
   }

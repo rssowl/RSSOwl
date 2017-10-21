@@ -45,26 +45,31 @@ public class TextInputAdapter extends Persistable implements ITextInput {
   /*
    * @see org.rssowl.core.model.types.ITextInput#setTitle(java.lang.String)
    */
+  @Override
   public void setTitle(String title) {}
 
   /*
    * @see org.rssowl.core.model.types.ITextInput#setDescription(java.lang.String)
    */
+  @Override
   public void setDescription(String description) {}
 
   /*
    * @see org.rssowl.core.model.types.ITextInput#setName(java.lang.String)
    */
+  @Override
   public void setName(String name) {}
 
   /*
    * @see org.rssowl.core.model.types.ITextInput#setLink(java.lang.String)
    */
+  @Override
   public void setLink(URI link) {}
 
   /*
    * @see org.rssowl.core.model.types.ITextInput#getDescription()
    */
+  @Override
   public String getDescription() {
     return null;
   }
@@ -72,6 +77,7 @@ public class TextInputAdapter extends Persistable implements ITextInput {
   /*
    * @see org.rssowl.core.model.types.ITextInput#getLink()
    */
+  @Override
   public URI getLink() {
     return null;
   }
@@ -79,6 +85,7 @@ public class TextInputAdapter extends Persistable implements ITextInput {
   /*
    * @see org.rssowl.core.model.types.ITextInput#getName()
    */
+  @Override
   public String getName() {
     return null;
   }
@@ -86,6 +93,7 @@ public class TextInputAdapter extends Persistable implements ITextInput {
   /*
    * @see org.rssowl.core.model.types.ITextInput#getTitle()
    */
+  @Override
   public String getTitle() {
     return null;
   }
@@ -93,6 +101,7 @@ public class TextInputAdapter extends Persistable implements ITextInput {
   /*
    * @see org.rssowl.core.model.types.ITextInput#getFeed()
    */
+  @Override
   public FeedReference getFeed() {
     return null;
   }

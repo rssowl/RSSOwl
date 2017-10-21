@@ -47,16 +47,19 @@ public class CachingLabelDAO extends CachingDAO<LabelDAOImpl, ILabel, LabelListe
   protected LabelListener createEntityListener() {
     return new LabelListener() {
 
+      @Override
       public void entitiesAdded(Set<LabelEvent> events) {
         for (LabelEvent event : events)
           getCache().put(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesDeleted(Set<LabelEvent> events) {
         for (LabelEvent event : events)
           getCache().remove(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesUpdated(Set<LabelEvent> events) {
       /* No action needed */
       }

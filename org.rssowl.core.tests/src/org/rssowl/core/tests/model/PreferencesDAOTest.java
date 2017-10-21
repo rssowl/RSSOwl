@@ -499,6 +499,7 @@ public class PreferencesDAOTest extends LargeBlockSizeTest {
       final boolean deletionEvents[] = new boolean[4];
 
       prefListener = new PreferenceListener() {
+        @Override
         public void entitiesAdded(Set<PreferenceEvent> events) {
           assertEquals(1, events.size());
           PreferenceEvent event = events.iterator().next();
@@ -513,6 +514,7 @@ public class PreferencesDAOTest extends LargeBlockSizeTest {
             additionEvents[3] = Arrays.equals(event.getEntity().getStrings(), new String[] { "1", "2", "3", "4" });
         }
 
+        @Override
         public void entitiesUpdated(Set<PreferenceEvent> events) {
           assertEquals(1, events.size());
           PreferenceEvent event = events.iterator().next();
@@ -527,6 +529,7 @@ public class PreferencesDAOTest extends LargeBlockSizeTest {
             updatedEvents[3] = Arrays.equals(event.getEntity().getStrings(), new String[] { "4", "3", "2", "1" });
         }
 
+        @Override
         public void entitiesDeleted(Set<PreferenceEvent> events) {
           assertEquals(1, events.size());
           PreferenceEvent event = events.iterator().next();

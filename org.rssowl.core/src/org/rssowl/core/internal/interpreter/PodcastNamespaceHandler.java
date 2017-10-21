@@ -52,12 +52,14 @@ public class PodcastNamespaceHandler implements INamespaceHandler {
    * @see org.rssowl.core.interpreter.INamespaceHandler#processAttribute(org.jdom.Attribute,
    * org.rssowl.core.model.types.IExtendableType)
    */
+  @Override
   public void processAttribute(Attribute attribute, IPersistable type) {}
 
   /*
    * @see org.rssowl.core.interpreter.INamespaceHandler#processElement(org.jdom.Element,
    * org.rssowl.core.model.types.IExtendableType)
    */
+  @Override
   public void processElement(Element element, IPersistable type) {
     IModelFactory factory = Owl.getModelFactory();
 

@@ -420,16 +420,19 @@ public class CoolBarAdvisor {
 
     /* Update Undo / Redo */
     UndoStack.getInstance().addListener(new IUndoRedoListener() {
+      @Override
       public void undoPerformed() {
         update(CoolBarItem.UNDO, null, null, true);
         update(CoolBarItem.REDO, null, null, true);
       }
 
+      @Override
       public void redoPerformed() {
         update(CoolBarItem.UNDO, null, null, true);
         update(CoolBarItem.REDO, null, null, true);
       }
 
+      @Override
       public void operationAdded() {
         update(CoolBarItem.UNDO, null, null, true);
         update(CoolBarItem.REDO, null, null, true);
@@ -438,11 +441,13 @@ public class CoolBarAdvisor {
 
     /* Update Stop */
     Controller.getDefault().addBookMarkLoadListener(new BookMarkLoadListener() {
+      @Override
       public void bookMarkAboutToLoad(IBookMark bookmark) {
         if (fLoadCounter.incrementAndGet() > 0)
           update(CoolBarItem.STOP, null, null, true);
       }
 
+      @Override
       public void bookMarkDoneLoading(IBookMark bookmark) {
         if (fLoadCounter.decrementAndGet() == 0)
           update(CoolBarItem.STOP, null, null, true);
@@ -451,6 +456,7 @@ public class CoolBarAdvisor {
 
     /* Selection Listener across the Workbench */
     final ISelectionListener selectionListener = new ISelectionListener() {
+      @Override
       public void selectionChanged(IWorkbenchPart part, ISelection selection) {
         update(CoolBarItem.MARK_READ, selection, part, false);
         update(CoolBarItem.MOVE, selection, part, false);
@@ -466,6 +472,7 @@ public class CoolBarAdvisor {
 
     /* Part Listener across the Workbench */
     final IPartListener partListener = new IPartListener() {
+      @Override
       public void partOpened(IWorkbenchPart part) {
         if (part instanceof IEditorPart) {
           update(CoolBarItem.CLOSE, null, part, false);
@@ -483,8 +490,10 @@ public class CoolBarAdvisor {
           update(CoolBarItem.BOOKMARK_VIEW, null, part, false);
       }
 
+      @Override
       public void partDeactivated(IWorkbenchPart part) {}
 
+      @Override
       public void partClosed(IWorkbenchPart part) {
         if (part instanceof IEditorPart) {
           update(CoolBarItem.CLOSE, null, part, false);
@@ -502,6 +511,7 @@ public class CoolBarAdvisor {
           update(CoolBarItem.BOOKMARK_VIEW, null, null, false);
       }
 
+      @Override
       public void partBroughtToTop(IWorkbenchPart part) {
         update(CoolBarItem.CLOSE, null, part, false);
         update(CoolBarItem.CLOSE_OTHERS, null, part, false);
@@ -511,6 +521,7 @@ public class CoolBarAdvisor {
         update(CoolBarItem.MARK_ALL_READ, null, part, false);
       }
 
+      @Override
       public void partActivated(IWorkbenchPart part) {
         update(CoolBarItem.SAVE_AS, null, part, false);
         update(CoolBarItem.PRINT, null, part, false);
@@ -523,6 +534,7 @@ public class CoolBarAdvisor {
 
     /* Add Selection Listener to Workbench Pages */
     fWindow.addPageListener(new IPageListener() {
+      @Override
       public void pageOpened(IWorkbenchPage page) {
         page.addSelectionListener(selectionListener);
         page.addPartListener(partListener);
@@ -532,6 +544,7 @@ public class CoolBarAdvisor {
 
         /* Delay Update to Next/Previous as the Keybinding Service needs longer */
         JobRunner.runDelayedInUIThread(fWindow.getShell(), new Runnable() {
+          @Override
           public void run() {
             update(CoolBarItem.NEXT, null, null, false);
             update(CoolBarItem.PREVIOUS, null, null, false);
@@ -539,11 +552,13 @@ public class CoolBarAdvisor {
         });
       }
 
+      @Override
       public void pageClosed(IWorkbenchPage page) {
         page.removeSelectionListener(selectionListener);
         page.removePartListener(partListener);
       }
 
+      @Override
       public void pageActivated(IWorkbenchPage page) {}
     });
   }
@@ -820,6 +835,7 @@ public class CoolBarAdvisor {
       return;
 
     Runnable runnable = new Runnable() {
+      @Override
       public void run() {
         CoolBarActionContributionitem item = find(coolBarItem.getId());
         if (item != null)
@@ -1388,6 +1404,7 @@ public class CoolBarAdvisor {
         List<INewsBin> newsbins = new ArrayList<INewsBin>(DynamicDAO.loadAll(INewsBin.class));
 
         Comparator<INewsBin> comparator = new Comparator<INewsBin>() {
+          @Override
           public int compare(INewsBin o1, INewsBin o2) {
             return o1.getName().compareTo(o2.getName());
           };

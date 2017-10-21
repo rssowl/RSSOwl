@@ -215,6 +215,7 @@ public class UpdateDialog extends TitleAreaDialog {
     final AtomicBoolean canUpdate = new AtomicBoolean(true);
 
     SafeRunnable.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         Location installLocation = Platform.getInstallLocation();
         if (installLocation != null && installLocation.getURL() != null) {

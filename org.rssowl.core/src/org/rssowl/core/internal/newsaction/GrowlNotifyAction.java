@@ -76,6 +76,7 @@ public class GrowlNotifyAction implements INewsAction {
   /** Initialize a Batched Buffer for Growl Notifications */
   public GrowlNotifyAction() {
     BatchedBuffer.Receiver<INews> receiver = new BatchedBuffer.Receiver<INews>() {
+      @Override
       public IStatus receive(Collection<INews> items, Job job, IProgressMonitor monitor) {
         try {
           if (!Owl.isShuttingDown())
@@ -98,6 +99,7 @@ public class GrowlNotifyAction implements INewsAction {
    * @see org.rssowl.core.INewsAction#run(java.util.List, java.util.Map,
    * java.lang.Object)
    */
+  @Override
   public List<IEntity> run(List<INews> news, Map<INews, INews> replacements, Object data) {
 
     /* Ensure to Pickup Replaces */
@@ -127,6 +129,7 @@ public class GrowlNotifyAction implements INewsAction {
 
       /* Sort News by Date */
       Set<INews> sortedNews = new TreeSet<INews>(new Comparator<INews>() {
+        @Override
         public int compare(INews news1, INews news2) {
           Date date1 = DateUtils.getRecentDate(news1);
           Date date2 = DateUtils.getRecentDate(news2);
@@ -177,6 +180,7 @@ public class GrowlNotifyAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#conflictsWith(org.rssowl.core.INewsAction)
    */
+  @Override
   public boolean conflictsWith(INewsAction otherAction) {
     return false;
   }
@@ -184,6 +188,7 @@ public class GrowlNotifyAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#getLabel(java.lang.Object)
    */
+  @Override
   public String getLabel(Object data) {
     return null;
   }

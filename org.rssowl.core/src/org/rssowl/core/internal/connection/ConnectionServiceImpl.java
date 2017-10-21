@@ -139,6 +139,7 @@ public class ConnectionServiceImpl implements IConnectionService {
   /*
    * @see org.rssowl.core.connection.IConnectionService#shutdown()
    */
+  @Override
   public void shutdown() {
     unregisterListeners();
   }
@@ -151,6 +152,7 @@ public class ConnectionServiceImpl implements IConnectionService {
   /*
    * @see org.rssowl.core.connection.IConnectionService#getHandler(java.net.URI)
    */
+  @Override
   public IProtocolHandler getHandler(URI link) throws ConnectionException {
     String protocol = link.getScheme();
     IProtocolHandler handler = fProtocolHandler.get(protocol);
@@ -167,6 +169,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * @see org.rssowl.core.connection.IConnectionService#getLabel(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public String getLabel(URI link, IProgressMonitor monitor) throws ConnectionException {
     String protocol = link.getScheme();
     IProtocolHandler handler = fProtocolHandler.get(protocol);
@@ -183,6 +186,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * @see org.rssowl.core.connection.IConnectionService#reload(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor, java.util.Map)
    */
+  @Override
   public Triple<IFeed, IConditionalGet, URI> reload(URI link, IProgressMonitor monitor, Map<Object, Object> properties) throws CoreException {
     String protocol = link.getScheme();
     IProtocolHandler handler = fProtocolHandler.get(protocol);
@@ -204,6 +208,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * org.rssowl.core.connection.IConnectionService#getFeedIcon(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public byte[] getFeedIcon(URI link, IProgressMonitor monitor) throws ConnectionException {
     String protocol = link.getScheme();
     IProtocolHandler handler = fProtocolHandler.get(protocol);
@@ -220,6 +225,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * @see org.rssowl.core.connection.IConnectionService#getFeed(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public URI getFeed(URI link, IProgressMonitor monitor) throws ConnectionException {
     String protocol = link.getScheme();
     IProtocolHandler handler = fProtocolHandler.get(protocol);
@@ -237,6 +243,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * org.rssowl.core.connection.IConnectionService#getCredentialsProvider(java
    * .net.URI)
    */
+  @Override
   public ICredentialsProvider getCredentialsProvider(URI link) {
     return fCredentialsProvider.get(link.getScheme());
   }
@@ -246,6 +253,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * org.rssowl.core.connection.IConnectionService#getSecureProtocolSocketFactory
    * ()
    */
+  @Override
   public SecureProtocolSocketFactory getSecureProtocolSocketFactory() {
     return fSecureProtocolSocketFactory;
   }
@@ -255,6 +263,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * org.rssowl.core.connection.IConnectionService#getAuthCredentials(java.net
    * .URI, java.lang.String)
    */
+  @Override
   public ICredentials getAuthCredentials(URI link, String realm) throws CredentialsException {
 
     /* Require credentials provider */
@@ -270,6 +279,7 @@ public class ConnectionServiceImpl implements IConnectionService {
    * org.rssowl.core.connection.IConnectionService#getProxyCredentials(java.
    * net.URI)
    */
+  @Override
   public IProxyCredentials getProxyCredentials(URI link) throws CredentialsException {
 
     /* Require credentials provider */

@@ -120,6 +120,7 @@ public class SplashHandler extends AbstractSplashHandler {
       @Override
       public void beginTask(String name, final int totalWork) {
         getSplash().getDisplay().syncExec(new Runnable() {
+          @Override
           public void run() {
             fBar.setSelection(50);
           }
@@ -129,6 +130,7 @@ public class SplashHandler extends AbstractSplashHandler {
       @Override
       public void subTask(String name) {
         getSplash().getDisplay().syncExec(new Runnable() {
+          @Override
           public void run() {
             if (fBar.getSelection() < 100)
               fBar.setSelection(fBar.getSelection() + 8);

@@ -137,6 +137,7 @@ public class EntityPropertyPageWrapper implements Comparable<EntityPropertyPageW
   /*
    * @see java.lang.Comparable#compareTo(java.lang.Object)
    */
+  @Override
   public int compareTo(EntityPropertyPageWrapper other) {
     if (fOrder < other.fOrder)
       return -1;

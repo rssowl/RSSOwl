@@ -133,14 +133,17 @@ public class CredentialsPreferencesPage extends PreferencePage implements IWorkb
 
     ICredentials toCredentials() {
       return new ICredentials() {
+        @Override
         public String getDomain() {
           return ""; //$NON-NLS-1$
         }
 
+        @Override
         public String getPassword() {
           return fPassword;
         }
 
+        @Override
         public String getUsername() {
           return fUsername;
         }
@@ -192,6 +195,7 @@ public class CredentialsPreferencesPage extends PreferencePage implements IWorkb
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {}
 
   /*
@@ -289,13 +293,16 @@ public class CredentialsPreferencesPage extends PreferencePage implements IWorkb
 
     /* Content Provider */
     fViewer.setContentProvider(new IStructuredContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         Set<CredentialsModelData> credentials = loadCredentials();
         return credentials.toArray();
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -386,6 +393,7 @@ public class CredentialsPreferencesPage extends PreferencePage implements IWorkb
 
     /* Listen to Selection Changes */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         fRemoveSelected.setEnabled(!fViewer.getSelection().isEmpty());
       }
@@ -395,6 +403,7 @@ public class CredentialsPreferencesPage extends PreferencePage implements IWorkb
 
     /* Enable Apply Button on Selection Changes */
     OwlUI.runOnSelection(new Runnable() {
+      @Override
       public void run() {
         updateApplyEnablement(true);
       }
@@ -428,14 +437,17 @@ public class CredentialsPreferencesPage extends PreferencePage implements IWorkb
         ICredentialsProvider credentialsProvider = Owl.getConnectionService().getCredentialsProvider(siteUri);
         if (credentialsProvider != null) {
           credentialsProvider.setAuthCredentials(new ICredentials() {
+            @Override
             public String getUsername() {
               return username;
             }
 
+            @Override
             public String getPassword() {
               return password;
             }
 
+            @Override
             public String getDomain() {
               return null;
             }

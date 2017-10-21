@@ -84,6 +84,7 @@ public class NewsTableViewer extends TreeViewer {
   @Override
   public void remove(final Object[] elements) {
     updateSelectionAfterDelete(new Runnable() {
+      @Override
       public void run() {
         internalRemove(elements);
       }

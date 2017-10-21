@@ -107,6 +107,7 @@ public class CachingFolderDAO extends CachingDAO<FolderDAOImpl, IFolder, FolderL
   @Override
   protected FolderListener createEntityListener() {
     return new FolderListener() {
+      @Override
       public void entitiesAdded(Set<FolderEvent> events) {
         for (FolderEvent folderEvent : events) {
           IFolder folder = folderEvent.getEntity();
@@ -116,6 +117,7 @@ public class CachingFolderDAO extends CachingDAO<FolderDAOImpl, IFolder, FolderL
         }
       }
 
+      @Override
       public void entitiesDeleted(Set<FolderEvent> events) {
         for (FolderEvent folderEvent : events) {
           IFolder folder = folderEvent.getEntity();
@@ -125,6 +127,7 @@ public class CachingFolderDAO extends CachingDAO<FolderDAOImpl, IFolder, FolderL
         }
       }
 
+      @Override
       public void entitiesUpdated(Set<FolderEvent> events) {
         for (FolderEvent folderEvent : events) {
           if (folderEvent.getOldParent() != null) {
@@ -140,6 +143,7 @@ public class CachingFolderDAO extends CachingDAO<FolderDAOImpl, IFolder, FolderL
   /*
    * @see org.rssowl.core.persist.dao.IFolderDAO#loadRoots()
    */
+  @Override
   public Collection<IFolder> loadRoots() throws PersistenceException {
     return Collections.unmodifiableSet(fRootFolders.keySet());
   }
@@ -147,6 +151,7 @@ public class CachingFolderDAO extends CachingDAO<FolderDAOImpl, IFolder, FolderL
   /*
    * @see org.rssowl.core.persist.dao.IFolderDAO#reparent(java.util.List)
    */
+  @Override
   public void reparent(List<ReparentInfo<IFolderChild, IFolder>> reparentInfos) throws PersistenceException {
     getDAO().reparent(reparentInfos);
   }

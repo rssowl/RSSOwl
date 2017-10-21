@@ -68,6 +68,7 @@ public class PreferencesDAOImpl extends AbstractEntityDAO<IPreference, Preferenc
   /*
    * @see org.rssowl.core.persist.dao.IPreferenceDAO#delete(java.lang.String)
    */
+  @Override
   public boolean delete(String key) throws PersistenceException {
     List<IPreference> preferences = loadAll(key);
     if (preferences == null || preferences.isEmpty())
@@ -108,6 +109,7 @@ public class PreferencesDAOImpl extends AbstractEntityDAO<IPreference, Preferenc
   /*
    * @see org.rssowl.core.persist.dao.IPreferenceDAO#load(java.lang.String)
    */
+  @Override
   public IPreference load(String key) throws PersistenceException {
     List<IPreference> prefs = loadAll(key);
     if (!prefs.isEmpty())
@@ -130,6 +132,7 @@ public class PreferencesDAOImpl extends AbstractEntityDAO<IPreference, Preferenc
    * @see
    * org.rssowl.core.persist.dao.IPreferenceDAO#loadOrCreate(java.lang.String)
    */
+  @Override
   public IPreference loadOrCreate(String key) throws PersistenceException {
     IPreference pref = load(key);
     if (pref == null)

@@ -156,6 +156,7 @@ public class DefaultProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#reload(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor, java.util.Map)
    */
+  @Override
   public Triple<IFeed, IConditionalGet, URI> reload(URI link, IProgressMonitor monitor, Map<Object, Object> properties) throws CoreException {
     IModelFactory typesFactory = Owl.getModelFactory();
 
@@ -243,6 +244,7 @@ public class DefaultProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#getFeedIcon(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public byte[] getFeedIcon(URI link, IProgressMonitor monitor) {
 
     /* Try to load the Favicon directly from the supplied Link */
@@ -348,6 +350,7 @@ public class DefaultProtocolHandler implements IProtocolHandler {
    *
    * @see org.rssowl.core.connection.IProtocolHandler#getURLStreamHandler()
    */
+  @Override
   public URLStreamHandlerService getURLStreamHandler() {
     return null;
   }
@@ -356,6 +359,7 @@ public class DefaultProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#openStream(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor, java.util.Map)
    */
+  @Override
   public InputStream openStream(URI link, IProgressMonitor monitor, Map<Object, Object> properties) throws ConnectionException {
 
     /* Add Monitor to support early cancelation */
@@ -847,6 +851,7 @@ public class DefaultProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#getLabel(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public String getLabel(URI link, IProgressMonitor monitor) throws ConnectionException {
     String title = ""; //$NON-NLS-1$
 
@@ -1002,6 +1007,7 @@ public class DefaultProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#getFeed(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public URI getFeed(final URI website, IProgressMonitor monitor) throws ConnectionException {
 
     /* Define Properties for Connection */

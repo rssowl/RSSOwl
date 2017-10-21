@@ -62,6 +62,7 @@ public class NewTypeDropdownAction implements IWorkbenchWindowPulldownDelegate, 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowPulldownDelegate#getMenu(org.eclipse.swt.widgets.Control)
    */
+  @Override
   public Menu getMenu(Control parent) {
     if (fMenu != null)
       OwlUI.safeDispose(fMenu);
@@ -132,6 +133,7 @@ public class NewTypeDropdownAction implements IWorkbenchWindowPulldownDelegate, 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {
     fResources.dispose();
     if (fMenu != null)
@@ -141,6 +143,7 @@ public class NewTypeDropdownAction implements IWorkbenchWindowPulldownDelegate, 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {
     fShell = window.getShell();
   }
@@ -148,6 +151,7 @@ public class NewTypeDropdownAction implements IWorkbenchWindowPulldownDelegate, 
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     try {
       addBookmark();
@@ -160,6 +164,7 @@ public class NewTypeDropdownAction implements IWorkbenchWindowPulldownDelegate, 
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction,
    * org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
 
     /* Delete the old Selection */
@@ -200,6 +205,7 @@ public class NewTypeDropdownAction implements IWorkbenchWindowPulldownDelegate, 
   /*
    * @see org.eclipse.jface.action.IMenuCreator#getMenu(org.eclipse.swt.widgets.Menu)
    */
+  @Override
   public Menu getMenu(Menu parent) {
     return null;
   }

@@ -29,7 +29,7 @@ import java.util.Set;
 /**
  * Provides an empty implementation of <code>SearchMarkListener</code>.
  * Useful if the client only needs to implement a subset of the interface.
- * 
+ *
  * @author bpasero
  */
 public class FolderAdapter implements FolderListener {
@@ -37,15 +37,18 @@ public class FolderAdapter implements FolderListener {
   /*
    * @see org.rssowl.core.model.events.FolderListener#folderAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<FolderEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.FolderListener#folderDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<FolderEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.FolderListener#folderUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<FolderEvent> events) { }
 }

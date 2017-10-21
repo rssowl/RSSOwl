@@ -59,6 +59,7 @@ public class ModelTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getFirstChild()
    */
+  @Override
   public ITreeNode getFirstChild() {
 
     /* Return from Folder */
@@ -79,6 +80,7 @@ public class ModelTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getLastChild()
    */
+  @Override
   public ITreeNode getLastChild() {
 
     /* Return from Folder */
@@ -99,6 +101,7 @@ public class ModelTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getNextSibling()
    */
+  @Override
   public ITreeNode getNextSibling() {
 
     /* Get Parent */
@@ -137,6 +140,7 @@ public class ModelTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getParent()
    */
+  @Override
   public ITreeNode getParent() {
 
     /* Obtain from Folder */
@@ -153,6 +157,7 @@ public class ModelTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getNextSibling()
    */
+  @Override
   public ITreeNode getPreviousSibling() {
 
     /* Get Parent */
@@ -191,6 +196,7 @@ public class ModelTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#hasChildren()
    */
+  @Override
   public boolean hasChildren() {
 
     /* Ask Folder */
@@ -204,6 +210,7 @@ public class ModelTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getData()
    */
+  @Override
   public Object getData() {
     return fFolder != null ? fFolder : fMark;
   }

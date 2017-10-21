@@ -113,5 +113,6 @@ public interface IPerson extends IEntity, MergeCapable<IPerson> {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   PersonReference toReference();
 }

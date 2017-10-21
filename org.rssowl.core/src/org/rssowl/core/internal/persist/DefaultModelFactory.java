@@ -70,6 +70,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createNews(java.lang.Long,
    * org.rssowl.core.model.types.IFeed, java.util.Date)
    */
+  @Override
   public INews createNews(Long id, IFeed feed, Date receiveDate) {
     News news = new News(id, feed, receiveDate);
 
@@ -83,6 +84,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.persist.IModelFactory#createNews(org.rssowl.core.persist
    * .INews, org.rssowl.core.persist.INewsBin)
    */
+  @Override
   public INews createNews(INews news, INewsBin newsBin) {
     Assert.isNotNull(newsBin.getId(), "ID of the Bin must not be null!"); //$NON-NLS-1$
 
@@ -96,6 +98,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createPerson(long,
    * org.rssowl.core.model.reference.ModelReference)
    */
+  @Override
   public IPerson createPerson(Long id, IPersistable parentRef) {
     Person person = new Person(id);
 
@@ -113,6 +116,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IModelFactory#createImage(org.rssowl.core.model
    * .types.IFeed)
    */
+  @Override
   public IImage createImage(IFeed feed) {
     Image image = new Image();
 
@@ -126,6 +130,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createAttachment(long,
    * java.net.URI, org.rssowl.core.model.reference.NewsReference)
    */
+  @Override
   public IAttachment createAttachment(Long id, INews news) {
     Attachment attachment = new Attachment(id, news);
     news.addAttachment(attachment);
@@ -138,6 +143,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IModelFactory#createCategory(java.lang.Long,
    * org.rssowl.core.model.types.IEntity)
    */
+  @Override
   public ICategory createCategory(Long id, IEntity parent) {
     Category category = new Category(id);
 
@@ -155,6 +161,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IModelFactory#createSource(org.rssowl.core.
    * model.types.INews)
    */
+  @Override
   public ISource createSource(final INews news) {
     Source source = new Source();
 
@@ -169,6 +176,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IModelFactory#createGuid(org.rssowl.core.model
    * .types.INews, java.lang.String)
    */
+  @Override
   public IGuid createGuid(final INews news, String value, Boolean permaLink) {
     Guid guid = new Guid(value, permaLink);
 
@@ -183,6 +191,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IModelFactory#createCloud(org.rssowl.core.model
    * .types.IFeed)
    */
+  @Override
   public ICloud createCloud(IFeed feed) {
     CloudAdapter cloud = new CloudAdapter();
 
@@ -197,6 +206,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IModelFactory#createTextInput(org.rssowl.core
    * .model.types.IFeed)
    */
+  @Override
   public ITextInput createTextInput(IFeed feed) {
     TextInputAdapter textInput = new TextInputAdapter();
 
@@ -210,6 +220,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createFeed(java.lang.Long,
    * java.net.URI)
    */
+  @Override
   public IFeed createFeed(Long id, URI link) {
     return new Feed(id, link);
   }
@@ -218,6 +229,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createFolder(long,
    * java.lang.String, org.rssowl.core.model.reference.FolderReference)
    */
+  @Override
   public IFolder createFolder(Long id, IFolder parent, String name) {
     return createFolder(id, parent, name, null, null);
   }
@@ -227,6 +239,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.persist.IFolder, java.lang.String,
    * org.rssowl.core.persist.IFolderChild, boolean)
    */
+  @Override
   public IFolder createFolder(Long id, IFolder parent, String name, IFolderChild position, Boolean after) {
     Folder folder = new Folder(id, parent, name);
 
@@ -241,6 +254,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createLabel(long,
    * java.lang.String)
    */
+  @Override
   public ILabel createLabel(Long id, String name) {
     return new Label(id, name);
   }
@@ -249,6 +263,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createSearchMark(long,
    * java.lang.String, org.rssowl.core.model.reference.FolderReference)
    */
+  @Override
   public ISearchMark createSearchMark(Long id, IFolder folder, String name) {
     return createSearchMark(id, folder, name, null, null);
   }
@@ -258,6 +273,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.persist.IFolder, java.lang.String,
    * org.rssowl.core.persist.IFolderChild, boolean)
    */
+  @Override
   public ISearchMark createSearchMark(Long id, IFolder folder, String name, IFolderChild position, Boolean after) {
     SearchMark searchMark = new SearchMark(id, folder, name);
 
@@ -267,10 +283,12 @@ public class DefaultModelFactory implements IModelFactory {
     return searchMark;
   }
 
+  @Override
   public INewsBin createNewsBin(Long id, IFolder folder, String name) {
     return createNewsBin(id, folder, name, null, null);
   }
 
+  @Override
   public INewsBin createNewsBin(Long id, IFolder folder, String name, IFolderChild position, Boolean after) {
     NewsBin newsBin = new NewsBin(id, folder, name);
 
@@ -286,6 +304,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IFolder,
    * org.rssowl.core.model.reference.FeedLinkReference, java.lang.String)
    */
+  @Override
   public IBookMark createBookMark(Long id, IFolder folder, FeedLinkReference feedRef, String name) {
     return createBookMark(id, folder, feedRef, name, null, null);
   }
@@ -296,6 +315,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.persist.reference.FeedLinkReference, java.lang.String,
    * org.rssowl.core.persist.IFolderChild, boolean)
    */
+  @Override
   public IBookMark createBookMark(Long id, IFolder folder, FeedLinkReference feedRef, String name, IFolderChild position, Boolean after) {
     BookMark bookMark = new BookMark(id, folder, feedRef, name);
 
@@ -312,6 +332,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.search.ISearchField,
    * org.rssowl.core.model.search.SearchSpecifier, java.lang.Object)
    */
+  @Override
   public ISearchCondition createSearchCondition(Long id, ISearchMark searchMark, ISearchField field, SearchSpecifier specifier, Object value) {
     SearchCondition condition = new SearchCondition(id, field, specifier, value);
 
@@ -326,6 +347,7 @@ public class DefaultModelFactory implements IModelFactory {
    * .core.model.search.ISearchField,
    * org.rssowl.core.model.search.SearchSpecifier, java.lang.Object)
    */
+  @Override
   public ISearchCondition createSearchCondition(ISearchField field, SearchSpecifier specifier, Object value) {
     return new SearchCondition(field, specifier, value);
   }
@@ -334,6 +356,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see org.rssowl.core.model.types.IModelFactory#createSearchField(int,
    * java.lang.String)
    */
+  @Override
   public ISearchField createSearchField(int id, String entityName) {
     return new SearchField(id, entityName);
   }
@@ -343,6 +366,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.model.types.IModelFactory#createConditionalGet(java.lang
    * .String, java.net.URI, java.lang.String)
    */
+  @Override
   public IConditionalGet createConditionalGet(String ifModifiedSince, URI link, String ifNoneMatch) {
     return new ConditionalGet(ifModifiedSince, link, ifNoneMatch);
   }
@@ -351,6 +375,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see
    * org.rssowl.core.persist.IModelFactory#createPreference(java.lang.String)
    */
+  @Override
   public IPreference createPreference(String key) {
     return new Preference(key);
   }
@@ -358,6 +383,7 @@ public class DefaultModelFactory implements IModelFactory {
   /*
    * @see org.rssowl.core.persist.IModelFactory#createSearch(java.lang.Long)
    */
+  @Override
   public ISearch createSearch(Long id) {
     return new Search(id);
   }
@@ -366,6 +392,7 @@ public class DefaultModelFactory implements IModelFactory {
    * @see
    * org.rssowl.core.persist.IModelFactory#createFilterAction(java.lang.String)
    */
+  @Override
   public IFilterAction createFilterAction(String actionId) {
     return new FilterAction(actionId);
   }
@@ -375,6 +402,7 @@ public class DefaultModelFactory implements IModelFactory {
    * org.rssowl.core.persist.IModelFactory#createSearchFilter(java.lang.Long,
    * org.rssowl.core.persist.ISearch, java.lang.String)
    */
+  @Override
   public ISearchFilter createSearchFilter(Long id, ISearch search, String name) {
     return new SearchFilter(id, search, name);
   }

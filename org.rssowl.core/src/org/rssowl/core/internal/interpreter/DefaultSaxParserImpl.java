@@ -79,6 +79,7 @@ public class DefaultSaxParserImpl implements IXMLParser {
   /*
    * @see org.rssowl.core.interpreter.ISAXParser#init()
    */
+  @Override
   public void init() {
   /* Nothing to do here */
   }
@@ -87,6 +88,7 @@ public class DefaultSaxParserImpl implements IXMLParser {
    * @see org.rssowl.core.interpreter.IXMLParser#parse(java.io.InputStream,
    * java.util.Map)
    */
+  @Override
   public Document parse(InputStream inS, Map<Object, Object> properties) throws ParserException {
     Document document = null;
     Exception ex = null;
@@ -181,6 +183,7 @@ public class DefaultSaxParserImpl implements IXMLParser {
        * org.xml.sax.ext.EntityResolver2#getExternalSubset(java.lang.String,
        * java.lang.String)
        */
+      @Override
       public InputSource getExternalSubset(String name, String baseURI) {
         return new InputSource(getClass().getResourceAsStream(DEFAULT_DTD));
       }
@@ -189,6 +192,7 @@ public class DefaultSaxParserImpl implements IXMLParser {
        * @see org.xml.sax.EntityResolver#resolveEntity(java.lang.String,
        * java.lang.String)
        */
+      @Override
       public InputSource resolveEntity(String publicId, String systemId) {
         return resolveEntity(null, publicId, null, systemId);
       }
@@ -197,6 +201,7 @@ public class DefaultSaxParserImpl implements IXMLParser {
        * @see org.xml.sax.ext.EntityResolver2#resolveEntity(java.lang.String,
        * java.lang.String, java.lang.String, java.lang.String)
        */
+      @Override
       public InputSource resolveEntity(String name, String publicId, String baseURI, String systemId) {
         return new InputSource(getClass().getResourceAsStream(DEFAULT_DTD));
       }

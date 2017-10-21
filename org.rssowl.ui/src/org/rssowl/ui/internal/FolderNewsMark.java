@@ -159,6 +159,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs()
    */
+  @Override
   public List<NewsReference> getNewsRefs() {
     synchronized (this) {
       List<NewsReference> news = new ArrayList<NewsReference>(fNewsContainer.size());
@@ -173,6 +174,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs(java.util.Set)
    */
+  @Override
   public List<NewsReference> getNewsRefs(Set<State> states) {
     return getNewsRefs();
   }
@@ -180,6 +182,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsCount(java.util.Set)
    */
+  @Override
   public int getNewsCount(Set<State> states) {
     synchronized (this) {
       return fNewsContainer.size();
@@ -189,6 +192,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#containsNews(org.rssowl.core.persist.INews)
    */
+  @Override
   public boolean containsNews(INews news) {
     return news.getId() != null && containsNews(news.getId());
   }
@@ -207,6 +211,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNews()
    */
+  @Override
   public List<INews> getNews() {
     synchronized (this) {
       List<INews> news = new ArrayList<INews>(fNewsContainer.size());
@@ -223,6 +228,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNews(java.util.Set)
    */
+  @Override
   public List<INews> getNews(Set<State> states) {
     return getNews();
   }
@@ -230,6 +236,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#isGetNewsRefsEfficient()
    */
+  @Override
   public boolean isGetNewsRefsEfficient() {
     return true;
   }
@@ -237,6 +244,7 @@ public class FolderNewsMark extends Mark implements INewsMark {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public ModelReference toReference() {
     return new FolderNewsMarkReference(getId());
   }

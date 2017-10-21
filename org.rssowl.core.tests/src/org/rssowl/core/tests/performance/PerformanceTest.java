@@ -246,6 +246,7 @@ public class PerformanceTest {
     }
 
     FileFilter filter = new FileFilter() {
+      @Override
       public boolean accept(File pathname) {
        return pathname.getName().contains("zip");
       }
@@ -316,6 +317,7 @@ public class PerformanceTest {
         final IBookMark bookmark = (IBookMark) mark;
 
         tasks.add(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor monitor) {
             return fController.reload(bookmark, null, new NullProgressMonitor());
           }
@@ -365,6 +367,7 @@ public class PerformanceTest {
     final SavedSearchService smService = new SavedSearchService();
 
     tasks.add(new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         try {
           smService.updateSavedSearches(DynamicDAO.loadAll(ISearchMark.class));
@@ -605,6 +608,7 @@ public class PerformanceTest {
 
     for (final IFeed feed : feeds) {
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             DynamicDAO.save(feed);
@@ -636,6 +640,7 @@ public class PerformanceTest {
 
     /* Query 1: News is *new*, *unread*, *updated*, *read* */
     ITask task = new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         List<ISearchCondition> conditions = new ArrayList<ISearchCondition>();
 
@@ -658,6 +663,7 @@ public class PerformanceTest {
 
     /* Query 2: Entire News contains 'news' */
     task = new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         List<ISearchCondition> conditions = new ArrayList<ISearchCondition>();
 
@@ -684,6 +690,7 @@ public class PerformanceTest {
      * with 'e'
      */
     task = new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         List<ISearchCondition> conditions = new ArrayList<ISearchCondition>();
 
@@ -716,6 +723,7 @@ public class PerformanceTest {
      * begins with 'e'
      */
     task = new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         List<ISearchCondition> conditions = new ArrayList<ISearchCondition>();
 
@@ -745,6 +753,7 @@ public class PerformanceTest {
 
     /* Query 5: Publish Date before Now AND After 2000 */
     task = new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         List<ISearchCondition> conditions = new ArrayList<ISearchCondition>();
 
@@ -774,6 +783,7 @@ public class PerformanceTest {
 
     /* Query 6: News is *new*, *unread*, *updated* and Has Attachments IS TRUE */
     task = new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         List<ISearchCondition> conditions = new ArrayList<ISearchCondition>();
 
@@ -886,6 +896,7 @@ public class PerformanceTest {
         final IBookMark bookmark = (IBookMark) mark;
 
         tasks.add(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor monitor) {
             return fController.reload(bookmark, null, new NullProgressMonitor());
           }
@@ -1024,6 +1035,7 @@ public class PerformanceTest {
     final INewsDAO newsDAO = DynamicDAO.getDAO(INewsDAO.class);
     List<ITask> tasks = new ArrayList<ITask>();
     tasks.add(new TaskAdapter() {
+      @Override
       public IStatus run(IProgressMonitor monitor) {
         List<INews> news = new ArrayList<INews>();
         for (FeedLinkReference feedRef : feedRefs) {
@@ -1079,6 +1091,7 @@ public class PerformanceTest {
     for (int i = 1; i < FEEDS + 1; i++) {
       final int c = i;
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             URI feedLink = fPluginLocation.resolve("data/performance/" + c + ".xml").toURL().toURI();
@@ -1140,6 +1153,7 @@ public class PerformanceTest {
 
     for (final IFeed feed : feeds) {
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             DynamicDAO.save(feed);
@@ -1167,6 +1181,7 @@ public class PerformanceTest {
     List<FeedReference> feedRefs = saveFeedsHelper();
     for (final FeedReference feedRef : feedRefs) {
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             accessAllFields(feedRef.resolve());
@@ -1205,6 +1220,7 @@ public class PerformanceTest {
     List<FeedReference> feedRefs = saveFeedsHelper();
     for (final FeedReference feedRef : feedRefs) {
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             IFeed feed = feedRef.resolve();
@@ -1248,6 +1264,7 @@ public class PerformanceTest {
     List<FeedReference> feedRefs = saveFeedsHelper();
     for (final FeedReference feedRef : feedRefs) {
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             IFeed feed = feedRef.resolve();
@@ -1290,6 +1307,7 @@ public class PerformanceTest {
     List<FeedReference> feedRefs = saveFeedsHelper();
     for (final FeedReference feedRef : feedRefs) {
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           accessAllFields(ex, feedRef);
           return Status.OK_STATUS;
@@ -1389,6 +1407,7 @@ public class PerformanceTest {
     List<FeedReference> feedRefs = saveFeedsHelper();
     for (final FeedReference feedRef : feedRefs) {
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             DynamicDAO.delete(feedRef.resolve());
@@ -1459,6 +1478,7 @@ public class PerformanceTest {
       }
 
       tasks.add(new TaskAdapter() {
+        @Override
         public IStatus run(IProgressMonitor monitor) {
           try {
             // Uncomment this line and comment the following one to use load the
@@ -1539,6 +1559,7 @@ public class PerformanceTest {
       /* Add Task to save a Feed (88%) */
       if (a % 8 != 0) {
         tasks.add(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor monitor) {
             try {
               DynamicDAO.save(feeds.get(a + limit));
@@ -1553,6 +1574,7 @@ public class PerformanceTest {
       /* Add Task to resolve a Feed (12%) */
       if (a % 8 == 0) {
         tasks.add(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor monitor) {
             accessAllFields(ex, feedRefs.get(a));
             return Status.OK_STATUS;

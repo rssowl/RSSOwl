@@ -68,6 +68,7 @@ public class ColumnsPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#init(org.rssowl.ui.dialogs.properties.IPropertyDialogSite, java.util.List)
    */
+  @Override
   public void init(IPropertyDialogSite site, List<IEntity> entities) {
     Assert.isTrue(!entities.isEmpty());
     fEntities = entities;
@@ -108,6 +109,7 @@ public class ColumnsPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#createContents(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public Control createContents(Composite parent) {
     Composite container = new Composite(parent, SWT.NONE);
     container.setLayout(LayoutUtils.createGridLayout(2, 10, 10));
@@ -121,6 +123,7 @@ public class ColumnsPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#getImage()
    */
+  @Override
   public ImageDescriptor getImage() {
     return null;
   }
@@ -128,11 +131,13 @@ public class ColumnsPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#setFocus()
    */
+  @Override
   public void setFocus() {}
 
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#performOk(java.util.Set)
    */
+  @Override
   public boolean performOk(Set<IEntity> entitiesToSave) {
     fSettingsChanged = false;
 
@@ -208,6 +213,7 @@ public class ColumnsPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#finish()
    */
+  @Override
   public void finish() {
 
     /* Propagate change to open Editors */

@@ -149,6 +149,7 @@ public class AddCredentialsDialog extends Dialog {
     fSiteInput.setSelection(URIUtils.HTTP.length());
     fSiteInput.setFocus();
     fSiteInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         updateOkButton();
       }
@@ -159,9 +160,11 @@ public class AddCredentialsDialog extends Dialog {
 
     /* Load proposals in the Background */
     JobRunner.runInBackgroundThread(100, new Runnable() {
+      @Override
       public void run() {
         if (!fSiteInput.isDisposed()) {
           Set<String> values = new TreeSet<String>(new Comparator<String>() {
+            @Override
             public int compare(String o1, String o2) {
               return o1.compareToIgnoreCase(o2);
             }
@@ -188,6 +191,7 @@ public class AddCredentialsDialog extends Dialog {
     fUsernameInput = new Text(composite, SWT.BORDER | SWT.SINGLE);
     fUsernameInput.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
     fUsernameInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         updateOkButton();
       }
@@ -201,6 +205,7 @@ public class AddCredentialsDialog extends Dialog {
     fPasswordInput = new Text(composite, SWT.BORDER | SWT.SINGLE | SWT.PASSWORD);
     fPasswordInput.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
     fPasswordInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         updateOkButton();
       }

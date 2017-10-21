@@ -130,10 +130,12 @@ public class DownloadService {
       return internalDownload(fRequest, job, monitor);
     }
 
+    @Override
     public String getName() {
       return NLS.bind(Messages.DownloadService_DOWNLOADING_N, fRequest.getLink().toString());
     }
 
+    @Override
     public Priority getPriority() {
       return Priority.DEFAULT;
     }
@@ -382,6 +384,7 @@ public class DownloadService {
               try {
                 final AuthenticationRequiredException authEx = (AuthenticationRequiredException) e;
                 JobRunner.runSyncedInUIThread(shell, new Runnable() {
+                  @Override
                   public void run() {
 
                     /* Return on Cancelation or shutdown or deletion */

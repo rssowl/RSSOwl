@@ -55,6 +55,7 @@ public class MyTypeImporter implements ITypeImporter {
   /*
    * @see org.rssowl.core.interpreter.ITypeImporter#importFrom(org.jdom.Document)
    */
+  @Override
   @SuppressWarnings("unused")
   public List<IEntity> importFrom(Document document) throws InterpreterException {
     Element root = document.getRootElement();

@@ -88,6 +88,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.IAttachment#getLength()
    */
+  @Override
   public synchronized int getLength() {
     return fLength;
   }
@@ -95,6 +96,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.IAttachment#setLength(int)
    */
+  @Override
   public synchronized void setLength(int length) {
     fLength = length;
   }
@@ -102,6 +104,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.IAttachment#getType()
    */
+  @Override
   public synchronized String getType() {
     return fType;
   }
@@ -109,6 +112,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.IAttachment#setType(java.lang.String)
    */
+  @Override
   public synchronized void setType(String type) {
     fType = type;
   }
@@ -116,6 +120,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.IAttachment#getNews()
    */
+  @Override
   public synchronized INews getNews() {
     return fNews;
   }
@@ -123,6 +128,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.IAttachment#setLink(java.net.URI)
    */
+  @Override
   public synchronized void setLink(URI link) {
     if (link == null) {
       fLinkURI = null;
@@ -137,6 +143,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.IAttachment#getLink()
    */
+  @Override
   public synchronized URI getLink() {
     if (fLinkURI == null && fLink != null)
       fLinkURI = createURI(fLink);
@@ -171,6 +178,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.MergeCapable#merge(java.lang.Object)
    */
+  @Override
   public synchronized MergeResult merge(IAttachment objectToMerge) {
     Assert.isNotNull(objectToMerge, "objectToMerge"); //$NON-NLS-1$
     synchronized (objectToMerge) {
@@ -190,6 +198,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.model.types.Reparentable#setParent(java.lang.Object)
    */
+  @Override
   public synchronized void setParent(INews newParent) {
     Assert.isNotNull(newParent, "newParent"); //$NON-NLS-1$
     fNews = newParent;
@@ -198,6 +207,7 @@ public class Attachment extends AbstractEntity implements IAttachment {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public AttachmentReference toReference() {
     return new AttachmentReference(getIdAsPrimitive());
   }

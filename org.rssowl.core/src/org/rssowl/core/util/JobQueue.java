@@ -324,6 +324,7 @@ public class JobQueue {
         /* Perform the Operation if not yet Cancelled */
         if (!monitor.isCanceled()) {
           SafeRunner.run(new LoggingSafeRunnable() {
+            @Override
             public void run() throws Exception {
               fCurrentTask = task.getName();
               IStatus status = task.run(monitor);
@@ -465,6 +466,7 @@ public class JobQueue {
     for (Object element : listeners) {
       final JobQueueListener listener = (JobQueueListener) element;
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           listener.workDone();
         }

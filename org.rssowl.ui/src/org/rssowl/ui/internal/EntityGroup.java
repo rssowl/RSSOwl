@@ -240,6 +240,7 @@ public class EntityGroup implements IActionFilter {
    * @see org.eclipse.ui.IActionFilter#testAttribute(java.lang.Object,
    * java.lang.String, java.lang.String)
    */
+  @Override
   public boolean testAttribute(Object target, String name, String value) {
     return (this == target) && fCategoryId.equals(value);
   }

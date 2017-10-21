@@ -65,7 +65,7 @@ public class Activator extends Plugin {
   public void start(BundleContext context) throws Exception {
     super.start(context);
     fContext = context;
-    fVersion = (String) fgPlugin.getBundle().getHeaders().get("Bundle-Version"); //$NON-NLS-1$
+    fVersion = fgPlugin.getBundle().getHeaders().get("Bundle-Version"); //$NON-NLS-1$
     fNl= System.getProperty("line.separator"); //$NON-NLS-1$
     if (!StringUtils.isSet(fNl))
       fNl= "\n"; //$NON-NLS-1$
@@ -76,6 +76,7 @@ public class Activator extends Plugin {
 
     /* Load the Proxy Service */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         fProxyService = loadProxyService();
       }
@@ -85,7 +86,7 @@ public class Activator extends Plugin {
   private IProxyService loadProxyService() {
     Bundle bundle = Platform.getBundle(CORE_NET_BUNDLE);
     if (bundle != null) {
-      ServiceReference ref = bundle.getBundleContext().getServiceReference(IProxyService.class.getName());
+      ServiceReference<?> ref = bundle.getBundleContext().getServiceReference(IProxyService.class.getName());
       if (ref != null)
         return (IProxyService) bundle.getBundleContext().getService(ref);
     }
@@ -112,6 +113,7 @@ public class Activator extends Plugin {
 
     /* Stop Internal Owl */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         Owl.shutdown(false);
       }

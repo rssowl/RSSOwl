@@ -12,7 +12,7 @@ Require-Bundle: org.eclipse.ui,
  org.rssowl.core,
  org.eclipse.equinox.security;bundle-version="1.0.0"
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: org.rssowl.ui.dialogs.properties,
  org.rssowl.ui.filter,
  org.rssowl.ui.internal;x-internal:=true,

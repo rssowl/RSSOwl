@@ -170,6 +170,7 @@ public class UndoStack {
 
     final IUndoOperation undoOperation = fOperations.get(fCurrentIndex);
     Runnable undoRunnable = new Runnable() {
+      @Override
       public void run() {
         undoOperation.undo();
       }
@@ -196,6 +197,7 @@ public class UndoStack {
 
     final IUndoOperation redoOperation = fOperations.get(fCurrentIndex);
     Runnable redoRunnable = new Runnable() {
+      @Override
       public void run() {
         redoOperation.redo();
       }
@@ -212,6 +214,7 @@ public class UndoStack {
   private void notifyUndoPerformed() {
     for (final IUndoRedoListener listener : fListeners) {
       SafeRunnable.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           listener.undoPerformed();
         }
@@ -222,6 +225,7 @@ public class UndoStack {
   private void notifyRedoPerformed() {
     for (final IUndoRedoListener listener : fListeners) {
       SafeRunnable.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           listener.redoPerformed();
         }
@@ -232,6 +236,7 @@ public class UndoStack {
   private void notifyOperationAdded() {
     for (final IUndoRedoListener listener : fListeners) {
       SafeRunnable.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           listener.operationAdded();
         }

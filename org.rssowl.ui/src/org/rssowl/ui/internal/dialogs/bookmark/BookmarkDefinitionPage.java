@@ -63,6 +63,7 @@ public class BookmarkDefinitionPage extends WizardPage {
    */
   public void presetBookmarkName(final String name) {
     JobRunner.runInUIThread(fNameInput, new Runnable() {
+      @Override
       public void run() {
         if (StringUtils.isSet(name)) {
           setMessage(Messages.BookmarkDefinitionPage_CREATE_BOOKMARK);
@@ -108,6 +109,7 @@ public class BookmarkDefinitionPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
     Composite container = new Composite(parent, SWT.NONE);
     container.setLayout(new GridLayout(2, false));
@@ -120,6 +122,7 @@ public class BookmarkDefinitionPage extends WizardPage {
     OwlUI.makeAccessible(fNameInput, nameLabel);
     fNameInput.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
     fNameInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         getContainer().updateButtons();
       }

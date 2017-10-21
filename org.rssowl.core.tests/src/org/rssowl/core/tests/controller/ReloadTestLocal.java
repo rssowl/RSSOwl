@@ -63,6 +63,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
+import java.util.TimeZone;
 
 /**
  * This Test-Case tries to be very close to a real-world-example by modifying a
@@ -85,10 +86,14 @@ import java.util.Set;
  */
 public class ReloadTestLocal extends LargeBlockSizeTest {
   private Controller fController;
-  private SimpleDateFormat fDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssz"); //$NON-NLS-1$
+  private SimpleDateFormat fDateFormat;
   private Random fRand = new Random();
   private INewsDAO fNewsDao;
 
+  {
+    fDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssz"); //$NON-NLS-1$
+    fDateFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+  }
   /**
    * @throws Exception
    */

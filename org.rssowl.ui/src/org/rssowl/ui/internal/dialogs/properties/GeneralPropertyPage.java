@@ -128,6 +128,7 @@ public class GeneralPropertyPage implements IEntityPropertyPage {
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#init(org.rssowl.ui.dialogs.properties.IPropertyDialogSite,
    * java.util.List)
    */
+  @Override
   public void init(IPropertyDialogSite site, List<IEntity> entities) {
     Assert.isTrue(!entities.isEmpty());
     fSite = site;
@@ -180,6 +181,7 @@ public class GeneralPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.internal.dialogs.properties.IEntityPropertyPage#createContents(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public Control createContents(Composite parent) {
     fParent = parent;
 
@@ -342,6 +344,7 @@ public class GeneralPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#getImage()
    */
+  @Override
   public ImageDescriptor getImage() {
     return null;
   }
@@ -416,6 +419,7 @@ public class GeneralPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#setFocus()
    */
+  @Override
   public void setFocus() {
     if (fFeedInput != null && !fIsSingleSynchronizedBookMark) {
       fFeedInput.setFocus();
@@ -470,6 +474,7 @@ public class GeneralPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#performOk(java.util.Set)
    */
+  @Override
   public boolean performOk(Set<IEntity> entitiesToSave) {
 
     /* First handle single-entity Preferences */
@@ -620,6 +625,7 @@ public class GeneralPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.internal.dialogs.properties.IEntityPropertyPage#finish()
    */
+  @Override
   public void finish() {
 
     /* Reload if required */

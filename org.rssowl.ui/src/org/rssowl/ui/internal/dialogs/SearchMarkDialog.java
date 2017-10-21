@@ -284,6 +284,7 @@ public class SearchMarkDialog extends TitleAreaDialog {
     OwlUI.makeAccessible(fNameInput, nameLabel);
     fNameInput.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, true));
     fNameInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         setErrorMessage(null);
       }
@@ -447,6 +448,7 @@ public class SearchMarkDialog extends TitleAreaDialog {
         conditions.add(locationCondition);
 
       JobRunner.runInUIThread(getShell(), new Runnable() {
+        @Override
         public void run() {
           SearchNewsDialog dialog = new SearchNewsDialog(getShell(), conditions, fMatchAllRadio.getSelection(), true);
           dialog.setBlockOnOpen(false);

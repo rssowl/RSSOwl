@@ -232,6 +232,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 
     /* System Tray */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         boolean trayEnabled = false;
 
@@ -255,6 +256,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
     /* Hook into Selection Listeners to open Activiy Dialog if needed (this is a hack :-) ) */
     shell.getDisplay().addFilter(SWT.Selection, new Listener() {
       @SuppressWarnings("restriction")
+      @Override
       public void handleEvent(Event event) {
         if (event.item == null && event.widget instanceof ToolItem) {
           ToolItem item = (ToolItem) event.widget;
@@ -278,6 +280,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 
   private void asyncOpenActivityDialog(final Shell shell) {
     shell.getDisplay().asyncExec(new Runnable() {
+      @Override
       public void run() {
         ActivityDialog instance = ActivityDialog.getVisibleInstance();
         if (instance == null) {
@@ -298,6 +301,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
   public boolean preWindowShellClose() {
     final boolean[] res = new boolean[] { true };
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
 
         /* Check if Prefs tell to move to tray */
@@ -345,14 +349,17 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 
     /* Listen on Preferences Changes */
     fPrefListener = new PreferenceListener() {
+      @Override
       public void entitiesAdded(Set<PreferenceEvent> events) {
         onPreferencesChange(events, EventType.PERSIST);
       }
 
+      @Override
       public void entitiesDeleted(Set<PreferenceEvent> events) {
         onPreferencesChange(events, EventType.REMOVE);
       }
 
+      @Override
       public void entitiesUpdated(Set<PreferenceEvent> events) {
         onPreferencesChange(events, EventType.UPDATE);
       }
@@ -393,6 +400,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
       /* Enable Tray */
       if (affectsTray && useTray && !fTrayEnabled) {
         JobRunner.runInUIThread(null, new Runnable() {
+          @Override
           public void run() {
             enableTray();
           }
@@ -402,6 +410,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
       /* Disable Tray */
       else if (affectsTray && !useTray && fTrayEnabled) {
         JobRunner.runInUIThread(null, new Runnable() {
+          @Override
           public void run() {
             disableTray();
           }
@@ -493,6 +502,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 
     /* Show Menu on Selection */
     fTrayItem.addListener(SWT.MenuDetect, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         showTrayMenu(shell);
       }
@@ -502,6 +512,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
     Listener selectionListener = new Listener() {
       private long lastDoubleClickTime;
 
+      @Override
       public void handleEvent(Event event) {
         boolean restoreOnDoubleclick = fPreferences.getBoolean(DefaultPreferences.RESTORE_TRAY_DOUBLECLICK);
         boolean isDoubleClick = (event.type == SWT.DefaultSelection);
@@ -522,9 +533,11 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
           /* Notifier not showing - invoke single click action (only if not recently closed) */
           else if (!service.wasPopupRecentlyClosed()) {
             JobRunner.runInBackgroundThread(doubleClickTime, new Runnable() {
+              @Override
               public void run() {
                 if (lastDoubleClickTime < System.currentTimeMillis() - doubleClickTime) {
                   JobRunner.runInUIThread(tray, new Runnable() {
+                    @Override
                     public void run() {
                       if (!shell.isDisposed())
                         onSingleClick(shell);
@@ -562,6 +575,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
           return;
 
         JobRunner.runInUIThread(fTrayItem, new Runnable() {
+          @Override
           public void run() {
 
             /* Update Icon only when Tray is visible */
@@ -688,6 +702,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
   /* Support for focusless scrolling */
   private void hookFocuslessScrolling(final Display display) {
     display.addFilter(SWT.MouseWheel, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         Control control = display.getCursorControl();
 
@@ -806,6 +821,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
       /* Sort by Id (simulate sorting by date) */
       List<SearchHit<NewsReference>> result = Owl.getPersistenceService().getModelSearch().searchNews(fTodaysNewsSearch);
       Set<NewsReference> recentNews = new TreeSet<NewsReference>(new Comparator<NewsReference>() {
+        @Override
         public int compare(NewsReference ref1, NewsReference ref2) {
           if (ref1.equals(ref2))
             return 0;

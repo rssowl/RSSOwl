@@ -40,6 +40,7 @@ public class DescriptionDAOImpl extends AbstractPersistableDAO<Description> impl
   /*
    * @see org.rssowl.core.internal.persist.dao.IDescriptionDAO#load(long)
    */
+  @Override
   public Description load(long newsId) {
     Query query = fDb.query();
     query.constrain(Description.class);
@@ -52,6 +53,7 @@ public class DescriptionDAOImpl extends AbstractPersistableDAO<Description> impl
   /*
    * @see org.rssowl.core.internal.persist.dao.IDescriptionDAO#loadValue(long)
    */
+  @Override
   public String loadValue(long newsId) {
     Description description = load(newsId);
     return description == null ? null : description.getValue();

@@ -292,6 +292,7 @@ public class CBrowser {
 
     /* Clear all Link Handlers upon disposal */
     browser.addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(DisposeEvent e) {
         fLinkHandler.clear();
       }
@@ -366,6 +367,7 @@ public class CBrowser {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
 
         /* Back */
@@ -610,6 +612,7 @@ public class CBrowser {
   /* Special handling of opened websites on Windows (IE and Mozilla) */
   private OpenWindowListener getOpenWindowListener() {
     return new OpenWindowListener() {
+      @Override
       public void open(WindowEvent event) {
 
         /* Special handle external Browser */
@@ -621,6 +624,7 @@ public class CBrowser {
           tempBrowser.setVisible(false);
           event.browser = tempBrowser;
           tempBrowser.getDisplay().timerExec(useMozilla ? MOZILLA_BROWSER_URL_DELAY : IE_BROWSER_URL_DELAY, new Runnable() {
+            @Override
             public void run() {
               if (!tempBrowser.isDisposed() && PlatformUI.isWorkbenchRunning()) {
                 String url = tempBrowser.getUrl();
@@ -647,6 +651,7 @@ public class CBrowser {
           tempBrowser.setVisible(false);
           event.browser = tempBrowser;
           tempBrowser.getDisplay().timerExec(useMozilla ? MOZILLA_BROWSER_URL_DELAY : IE_BROWSER_URL_DELAY, new Runnable() {
+            @Override
             public void run() {
               if (!tempBrowser.isDisposed() && PlatformUI.isWorkbenchRunning()) {
                 String url = tempBrowser.getUrl();
@@ -744,6 +749,7 @@ public class CBrowser {
 
     /* Listen to Location-Changes */
     fBrowser.addLocationListener(new LocationListener() {
+      @Override
       public void changed(LocationEvent event) {
 
         /* The website is fully loaded and external navigation is supported from now on. */
@@ -760,6 +766,7 @@ public class CBrowser {
         }
       }
 
+      @Override
       public void changing(LocationEvent event) {
 
         /* Update JavaScript enabled state */

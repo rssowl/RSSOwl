@@ -62,6 +62,7 @@ public class EclipseScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.persist.pref.IPreferenceScope#getParent()
    */
+  @Override
   public IPreferenceScope getParent() {
     return fParent;
   }
@@ -69,6 +70,7 @@ public class EclipseScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.persist.pref.IPreferenceScope#flush()
    */
+  @Override
   public void flush() {
     try {
       fRootNode.flush();
@@ -80,6 +82,7 @@ public class EclipseScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.persist.pref.IPreferenceScope#hasKey(java.lang.String)
    */
+  @Override
   public boolean hasKey(String key) {
     throw new UnsupportedOperationException();
   }
@@ -87,6 +90,7 @@ public class EclipseScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.persist.pref.IPreferenceScope#delete(java.lang.String)
    */
+  @Override
   public void delete(String key) {
     throw new UnsupportedOperationException();
   }
@@ -95,6 +99,7 @@ public class EclipseScope implements IPreferenceScope {
    * @see
    * org.rssowl.core.persist.pref.IPreferenceScope#getBoolean(java.lang.String)
    */
+  @Override
   public boolean getBoolean(String key) {
     return fPrefService.getBoolean(ROOT_NAME, key, fParent.getBoolean(key), null);
   }
@@ -103,6 +108,7 @@ public class EclipseScope implements IPreferenceScope {
    * @see
    * org.rssowl.core.persist.pref.IPreferenceScope#getInteger(java.lang.String)
    */
+  @Override
   public int getInteger(String key) {
     return fPrefService.getInt(ROOT_NAME, key, fParent.getInteger(key), null);
   }
@@ -111,6 +117,7 @@ public class EclipseScope implements IPreferenceScope {
    * @see
    * org.rssowl.core.persist.pref.IPreferenceScope#getIntegers(java.lang.String)
    */
+  @Override
   public int[] getIntegers(String key) {
     throw new UnsupportedOperationException();
   }
@@ -119,6 +126,7 @@ public class EclipseScope implements IPreferenceScope {
    * @see
    * org.rssowl.core.persist.pref.IPreferenceScope#getLong(java.lang.String)
    */
+  @Override
   public long getLong(String key) {
     return fPrefService.getLong(ROOT_NAME, key, fParent.getLong(key), null);
   }
@@ -127,6 +135,7 @@ public class EclipseScope implements IPreferenceScope {
    * @see
    * org.rssowl.core.persist.pref.IPreferenceScope#getLongs(java.lang.String)
    */
+  @Override
   public long[] getLongs(String key) {
     throw new UnsupportedOperationException();
   }
@@ -135,6 +144,7 @@ public class EclipseScope implements IPreferenceScope {
    * @see
    * org.rssowl.core.persist.pref.IPreferenceScope#getString(java.lang.String)
    */
+  @Override
   public String getString(String key) {
     return fPrefService.getString(ROOT_NAME, key, fParent.getString(key), null);
   }
@@ -143,6 +153,7 @@ public class EclipseScope implements IPreferenceScope {
    * @see
    * org.rssowl.core.persist.pref.IPreferenceScope#getStrings(java.lang.String)
    */
+  @Override
   public String[] getStrings(String key) {
     throw new UnsupportedOperationException();
   }
@@ -152,6 +163,7 @@ public class EclipseScope implements IPreferenceScope {
    * org.rssowl.core.persist.pref.IPreferenceScope#putBoolean(java.lang.String,
    * boolean)
    */
+  @Override
   public void putBoolean(String key, boolean value) {
     Assert.isTrue(key.contains(NODE_SEPARATOR), "Invalid Eclipse Preferences Key!"); //$NON-NLS-1$
 
@@ -167,6 +179,7 @@ public class EclipseScope implements IPreferenceScope {
    * org.rssowl.core.persist.pref.IPreferenceScope#putInteger(java.lang.String,
    * int)
    */
+  @Override
   public void putInteger(String key, int value) {
     Assert.isTrue(key.contains(NODE_SEPARATOR), "Invalid Eclipse Preferences Key!"); //$NON-NLS-1$
 
@@ -182,6 +195,7 @@ public class EclipseScope implements IPreferenceScope {
    * org.rssowl.core.persist.pref.IPreferenceScope#putIntegers(java.lang.String,
    * int[])
    */
+  @Override
   public void putIntegers(String key, int[] values) {
     throw new UnsupportedOperationException();
   }
@@ -191,6 +205,7 @@ public class EclipseScope implements IPreferenceScope {
    * org.rssowl.core.persist.pref.IPreferenceScope#putLong(java.lang.String,
    * long)
    */
+  @Override
   public void putLong(String key, long value) {
     Assert.isTrue(key.contains(NODE_SEPARATOR), "Invalid Eclipse Preferences Key!"); //$NON-NLS-1$
 
@@ -206,6 +221,7 @@ public class EclipseScope implements IPreferenceScope {
    * org.rssowl.core.persist.pref.IPreferenceScope#putLongs(java.lang.String,
    * long[])
    */
+  @Override
   public void putLongs(String key, long[] values) {
     throw new UnsupportedOperationException();
   }
@@ -215,6 +231,7 @@ public class EclipseScope implements IPreferenceScope {
    * org.rssowl.core.persist.pref.IPreferenceScope#putString(java.lang.String,
    * java.lang.String)
    */
+  @Override
   public void putString(String key, String value) {
     Assert.isTrue(key.contains(NODE_SEPARATOR), "Invalid Eclipse Preferences Key!"); //$NON-NLS-1$
 
@@ -230,6 +247,7 @@ public class EclipseScope implements IPreferenceScope {
    * org.rssowl.core.persist.pref.IPreferenceScope#putStrings(java.lang.String,
    * java.lang.String[])
    */
+  @Override
   public void putStrings(String key, String[] values) {
     throw new UnsupportedOperationException();
   }

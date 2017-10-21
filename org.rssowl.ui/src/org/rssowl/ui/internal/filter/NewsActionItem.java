@@ -132,6 +132,7 @@ public class NewsActionItem extends Composite {
 
     /* Update Presentation on Selection Changes */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         NewsActionDescriptor descriptor = (NewsActionDescriptor) selection.getFirstElement();

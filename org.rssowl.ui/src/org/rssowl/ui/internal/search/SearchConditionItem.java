@@ -103,6 +103,7 @@ public class SearchConditionItem extends Composite {
 
   /* Content Provider: Field Combo and Specifier Combo */
   private class ComboContentProvider implements IStructuredContentProvider {
+    @Override
     public Object[] getElements(Object input) {
 
       /* Create all supported Fields */
@@ -116,8 +117,10 @@ public class SearchConditionItem extends Composite {
       return null;
     }
 
+    @Override
     public void dispose() {}
 
+    @Override
     public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
   }
 
@@ -217,6 +220,7 @@ public class SearchConditionItem extends Composite {
 
     /* Listen to Changes */
     fFieldViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         fModified = true;
       }
@@ -246,6 +250,7 @@ public class SearchConditionItem extends Composite {
 
     /* Listen to Selection Changes in the Field-Viewer */
     fFieldViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         if (!selection.isEmpty()) {
@@ -267,6 +272,7 @@ public class SearchConditionItem extends Composite {
 
     /* Listen to Changes */
     fSpecifierViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         fModified = true;
         specifierCombo.setToolTipText(getSpecifierTooltip((IStructuredSelection) event.getSelection()));
@@ -295,6 +301,7 @@ public class SearchConditionItem extends Composite {
 
     /* Listen to Selection Changes in the Field-Viewer */
     fFieldViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         if (!selection.isEmpty()) {
@@ -318,6 +325,7 @@ public class SearchConditionItem extends Composite {
     if (field.getId() == INews.STATE) {
       final StateConditionControl stateConditionControl = new StateConditionControl(inputField, SWT.NONE);
       stateConditionControl.addListener(SWT.Modify, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           fInputValue = stateConditionControl.getSelection();
 
@@ -339,6 +347,7 @@ public class SearchConditionItem extends Composite {
     else if (field.getId() == INews.LOCATION) {
       final LocationControl locationConditionControl = new LocationControl(inputField, SWT.NONE);
       locationConditionControl.addListener(SWT.Modify, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           fInputValue = locationConditionControl.getSelection();
 
@@ -372,6 +381,7 @@ public class SearchConditionItem extends Composite {
       combo.add(Messages.SearchConditionItem_MINUTES);
 
       Listener listener = new Listener() {
+        @Override
         public void handleEvent(Event event) {
           fInputValue = getAgeValue(spinner, combo);
 
@@ -426,6 +436,7 @@ public class SearchConditionItem extends Composite {
           combo.add(Messages.SearchConditionItem_TRUE);
           combo.add(Messages.SearchConditionItem_FALSE);
           combo.addListener(SWT.Modify, new Listener() {
+            @Override
             public void handleEvent(Event event) {
               fInputValue = Boolean.valueOf(combo.getItem(combo.getSelectionIndex()));
 
@@ -454,6 +465,7 @@ public class SearchConditionItem extends Composite {
           final Calendar cal = Calendar.getInstance();
           final DateTime datetime = new DateTime(inputField, SWT.DATE | SWT.BORDER);
           datetime.addListener(SWT.Selection, new Listener() {
+            @Override
             public void handleEvent(Event event) {
               cal.set(Calendar.DATE, datetime.getDay());
               cal.set(Calendar.MONTH, datetime.getMonth());
@@ -485,6 +497,7 @@ public class SearchConditionItem extends Composite {
         case ISearchValueType.ENUM: {
           final Text text = new Text(inputField, SWT.BORDER);
           text.addListener(SWT.Modify, new Listener() {
+            @Override
             public void handleEvent(Event event) {
               fInputValue = text.getText();
 
@@ -514,6 +527,7 @@ public class SearchConditionItem extends Composite {
           spinner.setMinimum(0);
           spinner.setMaximum(1000);
           spinner.addListener(SWT.Modify, new Listener() {
+            @Override
             public void handleEvent(Event event) {
               fInputValue = spinner.getSelection();
 
@@ -548,6 +562,7 @@ public class SearchConditionItem extends Composite {
           text.addListener(SWT.Modify, new Listener() {
             private boolean isShowingWarning = false;
 
+            @Override
             public void handleEvent(Event event) {
               String textValue = text.getText();
               fInputValue = textValue;
@@ -591,9 +606,11 @@ public class SearchConditionItem extends Composite {
 
             /* Load proposals in the Background */
             JobRunner.runInBackgroundThread(100, new Runnable() {
+              @Override
               public void run() {
                 if (!text.isDisposed()) {
                   Set<String> values = new TreeSet<String>(new Comparator<String>() {
+                    @Override
                     public int compare(String o1, String o2) {
                       return o1.compareToIgnoreCase(o2);
                     }

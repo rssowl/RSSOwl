@@ -92,6 +92,7 @@ public final class NewsCounterDAOImpl extends AbstractPersistableDAO<NewsCounter
   /*
    * @see org.rssowl.core.persist.dao.INewsCounterDAO#delete()
    */
+  @Override
   public final void delete() {
     super.delete(load());
   }
@@ -159,6 +160,7 @@ public final class NewsCounterDAOImpl extends AbstractPersistableDAO<NewsCounter
   /*
    * @see org.rssowl.core.persist.dao.INewsCounterDAO#load()
    */
+  @Override
   public final NewsCounter load() {
     return fNewsCounter;
   }
@@ -192,6 +194,7 @@ public final class NewsCounterDAOImpl extends AbstractPersistableDAO<NewsCounter
   /*
    * @see org.rssowl.core.persist.dao.INewsCounterDAO#save()
    */
+  @Override
   public void save() {
     Assert.isNotNull(fNewsCounter, "fNewsCounter"); //$NON-NLS-1$
     fDb.ext().set(fNewsCounter, Integer.MAX_VALUE);

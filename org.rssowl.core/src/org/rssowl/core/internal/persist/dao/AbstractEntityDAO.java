@@ -79,6 +79,7 @@ public abstract class AbstractEntityDAO<T extends IEntity, L extends EntityListe
   /*
    * @see org.rssowl.core.persist.dao.IEntityDAO#exists(long)
    */
+  @Override
   public boolean exists(long id) {
     try {
       return !(loadList(id).isEmpty());
@@ -90,6 +91,7 @@ public abstract class AbstractEntityDAO<T extends IEntity, L extends EntityListe
   /*
    * @see org.rssowl.core.model.internal.db4o.dao.PersistableDAO#load(long)
    */
+  @Override
   public T load(long id) {
     try {
       List<T> list = loadList(id);
@@ -149,10 +151,12 @@ public abstract class AbstractEntityDAO<T extends IEntity, L extends EntityListe
    * @see org.rssowl.core.persist.dao.IEntityDAO#fireEvents(java.util.Set,
    * org.rssowl.core.persist.event.runnable.EventType)
    */
+  @Override
   public final void fireEvents(final Set<E> events, final EventType eventType) {
     Assert.isNotNull(eventType, "eventType"); //$NON-NLS-1$
     for (final L listener : fEntityListeners) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           switch (eventType) {
             case PERSIST:
@@ -177,6 +181,7 @@ public abstract class AbstractEntityDAO<T extends IEntity, L extends EntityListe
    * org.rssowl.core.persist.dao.IEntityDAO#addEntityListener(org.rssowl.core
    * .persist.event.EntityListener)
    */
+  @Override
   public void addEntityListener(L listener) {
     fEntityListeners.add(listener);
   }
@@ -186,6 +191,7 @@ public abstract class AbstractEntityDAO<T extends IEntity, L extends EntityListe
    * org.rssowl.core.persist.dao.IEntityDAO#removeEntityListener(org.rssowl.
    * core.persist.event.EntityListener)
    */
+  @Override
   public void removeEntityListener(L listener) {
     fEntityListeners.remove(listener);
   }

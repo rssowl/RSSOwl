@@ -35,8 +35,8 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
+import java.util.Set;
 
 /**
  * An instance of {@link IUndoOperation} allowing to undo/redo marking news as
@@ -81,6 +81,7 @@ public class StickyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#getName()
    */
+  @Override
   public String getName() {
     return fMakeSticky ? NLS.bind(Messages.StickyOperation_MARK_N_STICKY, fNewsCount) : NLS.bind(Messages.StickyOperation_MARK_N_UNSTICKY, fNewsCount);
   }
@@ -88,6 +89,7 @@ public class StickyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#undo()
    */
+  @Override
   public void undo() {
     Set<Entry<Boolean, List<NewsReference>>> entries = fOldStickyStates.entrySet();
     for (Entry<Boolean, List<NewsReference>> entry : entries) {
@@ -114,6 +116,7 @@ public class StickyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#redo()
    */
+  @Override
   public void redo() {
 
     /* Resolve News */
@@ -139,6 +142,7 @@ public class StickyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#isLongRunning()
    */
+  @Override
   public boolean isLongRunning() {
     return fNewsCount > LONG_RUNNING_LIMIT;
   }

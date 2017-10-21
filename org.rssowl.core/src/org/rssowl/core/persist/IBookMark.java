@@ -69,6 +69,7 @@ public interface IBookMark extends INewsMark {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   BookMarkReference toReference();
 
   /**

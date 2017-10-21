@@ -90,6 +90,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.ISearchMark#setResult(java.util.List)
    */
+  @Override
   public synchronized Pair<Boolean, Boolean> setNewsRefs(Map<INews.State, List<NewsReference>> results) {
     return fNewsContainer.setNews(results);
   }
@@ -97,6 +98,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.model.types.ISearchMark#addSearchCondition(org.rssowl.core.model.reference.SearchConditionReference)
    */
+  @Override
   public synchronized void addSearchCondition(ISearchCondition searchCondition) {
     Assert.isNotNull(searchCondition, "Exception adding NULL as Search Condition into SearchMark"); //$NON-NLS-1$
     fSearchConditions.add(searchCondition);
@@ -105,6 +107,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.model.types.ISearchMark#removeSearchCondition(org.rssowl.core.model.search.ISearchCondition)
    */
+  @Override
   public synchronized boolean removeSearchCondition(ISearchCondition searchCondition) {
     return fSearchConditions.remove(searchCondition);
   }
@@ -112,6 +115,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.ISearch#containsSearchCondition(org.rssowl.core.persist.ISearchCondition)
    */
+  @Override
   public synchronized boolean containsSearchCondition(ISearchCondition searchCondition) {
     return fSearchConditions.contains(searchCondition);
   }
@@ -119,6 +123,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.model.types.ISearchMark#getSearchConditions()
    */
+  @Override
   public synchronized List<ISearchCondition> getSearchConditions() {
     return new ArrayList<ISearchCondition>(fSearchConditions);
   }
@@ -126,6 +131,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.model.types.ISearchMark#requiresAllConditions()
    */
+  @Override
   public synchronized boolean matchAllConditions() {
     return fMatchAllConditions;
   }
@@ -133,16 +139,19 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.model.types.ISearchMark#setRequireAllConditions(boolean)
    */
+  @Override
   public synchronized void setMatchAllConditions(boolean requiresAllConditions) {
     fMatchAllConditions = requiresAllConditions;
   }
 
   /* getIdAsPrimitive is synchronized so this method doesn't need to be */
+  @Override
   public SearchMarkReference toReference() {
     return new SearchMarkReference(getIdAsPrimitive());
   }
 
   /* getNews(states) takes care of synchronization, so not done here */
+  @Override
   public List<INews> getNews() {
     return getNews(EnumSet.allOf(INews.State.class));
   }
@@ -150,6 +159,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNews(java.util.Set)
    */
+  @Override
   public List<INews> getNews(Set<State> states) {
     List<NewsReference> newsRefs;
     synchronized (this) {
@@ -161,6 +171,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsCount(java.util.Set)
    */
+  @Override
   public synchronized int getNewsCount(Set<State> states) {
     Assert.isNotNull(states, "states"); //$NON-NLS-1$
     return fNewsContainer.getNewsCount(states);
@@ -169,6 +180,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs()
    */
+  @Override
   public synchronized List<NewsReference> getNewsRefs() {
     return fNewsContainer.getNews();
   }
@@ -176,6 +188,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs(java.util.Set)
    */
+  @Override
   public synchronized List<NewsReference> getNewsRefs(Set<State> states) {
     return fNewsContainer.getNews(states);
   }
@@ -183,6 +196,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#isGetNewsRefsEfficient()
    */
+  @Override
   public boolean isGetNewsRefsEfficient() {
     return true;
   }
@@ -190,6 +204,7 @@ public class SearchMark extends Mark implements ISearchMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#containsNews(org.rssowl.core.persist.INews)
    */
+  @Override
   public boolean containsNews(INews news) {
     return fNewsContainer.containsNews(news);
   }

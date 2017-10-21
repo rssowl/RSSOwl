@@ -99,6 +99,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter#getControlContents(org.eclipse.swt.widgets.Control)
    */
+  @Override
   public String getControlContents(Control control) {
     String text = getText();
     int selectionOffset = getSelection().x;
@@ -139,6 +140,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter#insertControlContents(org.eclipse.swt.widgets.Control, java.lang.String, int)
    */
+  @Override
   public void insertControlContents(Control control, String textToInsert, int cursorPosition) {
     String text = getText();
 
@@ -177,6 +179,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter#getCursorPosition(org.eclipse.swt.widgets.Control)
    */
+  @Override
   public int getCursorPosition(Control control) {
     if (control instanceof Text)
       return fTextAdapter.getCursorPosition(control);
@@ -187,6 +190,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter#getInsertionBounds(org.eclipse.swt.widgets.Control)
    */
+  @Override
   public Rectangle getInsertionBounds(Control control) {
     if (control instanceof Text)
       return fTextAdapter.getInsertionBounds(control);
@@ -197,6 +201,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter#setControlContents(org.eclipse.swt.widgets.Control, java.lang.String, int)
    */
+  @Override
   public void setControlContents(Control control, String contents, int cursorPosition) {
     if (control instanceof Text)
       fTextAdapter.setControlContents(control, contents, cursorPosition);
@@ -207,6 +212,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter#setCursorPosition(org.eclipse.swt.widgets.Control, int)
    */
+  @Override
   public void setCursorPosition(Control control, int index) {
     if (control instanceof Text)
       fTextAdapter.setCursorPosition(control, index);
@@ -217,6 +223,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter2#getSelection(org.eclipse.swt.widgets.Control)
    */
+  @Override
   public Point getSelection(Control control) {
     if (control instanceof Text)
       return fTextAdapter.getSelection(control);
@@ -227,6 +234,7 @@ public class ContentAssistAdapter implements IControlContentAdapter, IControlCon
   /*
    * @see org.eclipse.jface.fieldassist.IControlContentAdapter2#setSelection(org.eclipse.swt.widgets.Control, org.eclipse.swt.graphics.Point)
    */
+  @Override
   public void setSelection(Control control, Point range) {
     if (control instanceof Text)
       fTextAdapter.setSelection(control, range);

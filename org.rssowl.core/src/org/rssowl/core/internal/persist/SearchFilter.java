@@ -72,6 +72,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#getActions()
    */
+  @Override
   public synchronized List<IFilterAction> getActions() {
     return new ArrayList<IFilterAction>(fActions);
   }
@@ -79,6 +80,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#getName()
    */
+  @Override
   public synchronized String getName() {
     return fName;
   }
@@ -86,6 +88,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#getOrder()
    */
+  @Override
   public synchronized int getOrder() {
     return fOrder;
   }
@@ -93,6 +96,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#getSearch()
    */
+  @Override
   public synchronized ISearch getSearch() {
     return fSearch;
   }
@@ -102,6 +106,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
    * org.rssowl.core.persist.ISearchFilter#setSearch(org.rssowl.core.persist
    * .reference.SearchReference)
    */
+  @Override
   public synchronized void setSearch(ISearch search) {
     fSearch = search;
   }
@@ -109,6 +114,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#isEnabled()
    */
+  @Override
   public synchronized boolean isEnabled() {
     return fEnabled;
   }
@@ -118,6 +124,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
    * org.rssowl.core.persist.ISearchFilter#addAction(org.rssowl.core.persist
    * .IFilterAction)
    */
+  @Override
   public synchronized void addAction(IFilterAction action) {
     fActions.add(action);
   }
@@ -127,6 +134,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
    * org.rssowl.core.persist.ISearchFilter#removeAction(org.rssowl.core.persist
    * .IFilterAction)
    */
+  @Override
   public synchronized void removeAction(IFilterAction action) {
     fActions.remove(action);
   }
@@ -134,6 +142,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#setEnabled(boolean)
    */
+  @Override
   public synchronized void setEnabled(boolean enabled) {
     fEnabled = enabled;
   }
@@ -141,6 +150,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#setName(java.lang.String)
    */
+  @Override
   public synchronized void setName(String name) {
     fName = name;
   }
@@ -148,6 +158,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#setOrder(int)
    */
+  @Override
   public synchronized void setOrder(int order) {
     fOrder = order;
   }
@@ -155,6 +166,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#setMatchAllNews(boolean)
    */
+  @Override
   public synchronized void setMatchAllNews(boolean matchAllNews) {
     fMatchAllNews = matchAllNews;
   }
@@ -162,6 +174,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.ISearchFilter#matchAllNews()
    */
+  @Override
   public synchronized boolean matchAllNews() {
     return fMatchAllNews;
   }
@@ -169,6 +182,7 @@ public class SearchFilter extends AbstractEntity implements ISearchFilter {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public synchronized ModelReference toReference() {
     return new SearchFilterReference(getIdAsPrimitive());
   }

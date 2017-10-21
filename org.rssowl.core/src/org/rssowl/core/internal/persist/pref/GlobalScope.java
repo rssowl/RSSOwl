@@ -62,6 +62,7 @@ public class GlobalScope implements IPreferenceScope {
 
   private void registerListeners() {
     fPreferenceDAO.addEntityListener(new PreferenceListener() {
+      @Override
       public void entitiesAdded(Set<PreferenceEvent> events) {
         synchronized (fCache) {
           for (PreferenceEvent event : events)
@@ -69,6 +70,7 @@ public class GlobalScope implements IPreferenceScope {
         }
       }
 
+      @Override
       public void entitiesDeleted(Set<PreferenceEvent> events) {
         synchronized (fCache) {
           for (PreferenceEvent event : events)
@@ -76,6 +78,7 @@ public class GlobalScope implements IPreferenceScope {
         }
       }
 
+      @Override
       public void entitiesUpdated(Set<PreferenceEvent> events) {
         synchronized (fCache) {
           for (PreferenceEvent event : events)
@@ -88,6 +91,7 @@ public class GlobalScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesScope#getParent()
    */
+  @Override
   public IPreferenceScope getParent() {
     return fParent;
   }
@@ -95,6 +99,7 @@ public class GlobalScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesScope#flush()
    */
+  @Override
   public void flush() {
     //Nothing to do here as the preferences are already saved on each put.
   }
@@ -104,6 +109,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#delete(java.lang.String
    * )
    */
+  @Override
   public void delete(String key) {
     fPreferenceDAO.delete(key);
   }
@@ -111,6 +117,7 @@ public class GlobalScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.persist.pref.IPreferenceScope#hasKey(java.lang.String)
    */
+  @Override
   public boolean hasKey(String key) {
     return (fPreferenceDAO.load(key) != null);
   }
@@ -120,6 +127,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.core.model.preferences.IPreferencesNode#getBoolean(java.lang
    * .String)
    */
+  @Override
   public boolean getBoolean(String key) {
     synchronized (fCache) {
 
@@ -156,6 +164,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.core.model.preferences.IPreferencesNode#getInteger(java.lang
    * .String)
    */
+  @Override
   public int getInteger(String key) {
     synchronized (fCache) {
 
@@ -188,6 +197,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.core.model.preferences.IPreferencesNode#getIntegers(java.lang
    * .String)
    */
+  @Override
   public int[] getIntegers(String key) {
     synchronized (fCache) {
 
@@ -222,6 +232,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.core.model.preferences.IPreferencesNode#getLong(java.lang.String
    * )
    */
+  @Override
   public long getLong(String key) {
     synchronized (fCache) {
 
@@ -254,6 +265,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.core.model.preferences.IPreferencesNode#getLongs(java.lang.String
    * )
    */
+  @Override
   public long[] getLongs(String key) {
     synchronized (fCache) {
 
@@ -288,6 +300,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.core.model.preferences.IPreferencesNode#getString(java.lang.
    * String)
    */
+  @Override
   public String getString(String key) {
     synchronized (fCache) {
 
@@ -322,6 +335,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.core.model.preferences.IPreferencesNode#getStrings(java.lang
    * .String)
    */
+  @Override
   public String[] getStrings(String key) {
     synchronized (fCache) {
 
@@ -356,6 +370,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#putBoolean(java.lang
    * .String, boolean)
    */
+  @Override
   public void putBoolean(String key, boolean value) {
 
     /* Check if value is already up-to-date */
@@ -379,6 +394,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#putInteger(java.lang
    * .String, int)
    */
+  @Override
   public void putInteger(String key, int value) {
 
     /* Check if value is already up-to-date */
@@ -402,6 +418,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#putIntegers(java.lang
    * .String, int[])
    */
+  @Override
   public void putIntegers(String key, int[] values) {
     Assert.isNotNull(values);
 
@@ -426,6 +443,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#putLong(java.lang.String
    * , long)
    */
+  @Override
   public void putLong(String key, long value) {
     /* Check if value is already up-to-date */
     if (cached(key, value))
@@ -448,6 +466,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#putLongs(java.lang.
    * String, long[])
    */
+  @Override
   public void putLongs(String key, long[] values) {
     Assert.isNotNull(values);
 
@@ -472,6 +491,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#putString(java.lang
    * .String, java.lang.String)
    */
+  @Override
   public void putString(String key, String value) {
     Assert.isNotNull(value);
 
@@ -496,6 +516,7 @@ public class GlobalScope implements IPreferenceScope {
    * org.rssowl.ui.internal.preferences.IPreferencesNode#putStrings(java.lang
    * .String, java.lang.String[])
    */
+  @Override
   public void putStrings(String key, String[] values) {
     Assert.isNotNull(values);
 

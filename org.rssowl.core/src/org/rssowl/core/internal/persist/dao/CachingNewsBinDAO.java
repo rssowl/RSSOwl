@@ -73,16 +73,19 @@ public final class CachingNewsBinDAO extends CachingDAO<NewsBinDaoImpl, INewsBin
   @Override
   protected NewsBinListener createEntityListener() {
     return new NewsBinListener() {
+      @Override
       public void entitiesAdded(Set<NewsBinEvent> events) {
         for (NewsBinEvent event : events)
           getCache().put(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesDeleted(Set<NewsBinEvent> events) {
         for (NewsBinEvent event : events)
           getCache().remove(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesUpdated(Set<NewsBinEvent> events) {
       /* No action needed */
       }
@@ -94,6 +97,7 @@ public final class CachingNewsBinDAO extends CachingDAO<NewsBinDaoImpl, INewsBin
    * org.rssowl.core.persist.dao.INewsBinDAO#visited(org.rssowl.core.persist
    * .INewsBin)
    */
+  @Override
   public void visited(INewsBin mark) {
     getDAO().visited(mark);
   }

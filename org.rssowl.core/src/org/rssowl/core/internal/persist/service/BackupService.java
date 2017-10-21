@@ -75,6 +75,7 @@ public final class BackupService {
      * org.rssowl.core.internal.persist.service.BackupService.BackupLayoutStrategy
      * #findBackupFiles()
      */
+    @Override
     public List<File> findBackupFiles() {
       int index = 0;
       List<File> backupFiles = new ArrayList<File>(5);
@@ -91,6 +92,7 @@ public final class BackupService {
      * org.rssowl.core.internal.persist.service.BackupService.BackupLayoutStrategy
      * #rotateBackups(java.util.List)
      */
+    @Override
     public void rotateBackups(List<File> backupFiles) {
       int index;
       while (backupFiles.size() > 0) {
@@ -137,6 +139,7 @@ public final class BackupService {
 
     fLayoutStrategy = new DefaultBackupLayoutStrategy(getBackupFile());
     fBackupStrategy = new BackupStrategy() {
+      @Override
       public void backup(File originFile, File destinationFile, IProgressMonitor monitor) {
 
         /* Indicate that a long operation is starting if file is large */

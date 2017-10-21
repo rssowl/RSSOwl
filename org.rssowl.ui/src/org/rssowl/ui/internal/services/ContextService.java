@@ -35,7 +35,7 @@ import org.eclipse.ui.contexts.IContextService;
  * The <code>ContextService</code> is responsible to change the context
  * depending on certain events in the UI. Contexts control enablement of
  * key-bindings.
- * 
+ *
  * @author bpasero
  */
 public class ContextService implements FocusListener {
@@ -58,7 +58,7 @@ public class ContextService implements FocusListener {
   /**
    * Registers an Input-Field to the service. Depending on the field having
    * focus or not, the Context may change.
-   * 
+   *
    * @param control The Input-Field to register to the service.
    */
   public void registerInputField(Control control) {
@@ -68,6 +68,7 @@ public class ContextService implements FocusListener {
   /*
    * @see org.eclipse.swt.events.FocusListener#focusGained(org.eclipse.swt.events.FocusEvent)
    */
+  @Override
   public void focusGained(FocusEvent e) {
     deactivateNavigationContext();
   }
@@ -75,6 +76,7 @@ public class ContextService implements FocusListener {
   /*
    * @see org.eclipse.swt.events.FocusListener#focusLost(org.eclipse.swt.events.FocusEvent)
    */
+  @Override
   public void focusLost(FocusEvent e) {
     activateNavigationContext();
   }

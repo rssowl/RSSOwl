@@ -129,12 +129,14 @@ public class ApplicationServiceImpl implements IApplicationService {
     loadNewsActions();
 
     DBManager.getDefault().addEntityStoreListener(new DatabaseListener() {
+      @Override
       public void databaseOpened(DatabaseEvent event) {
         fDb = event.getObjectContainer();
         fLock = event.getLock();
         fWriteLock = fLock.writeLock();
       }
 
+      @Override
       public void databaseClosed(DatabaseEvent event) {
         fDb = null;
       }
@@ -163,6 +165,7 @@ public class ApplicationServiceImpl implements IApplicationService {
    * org.rssowl.core.persist.IConditionalGet, boolean, boolean,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public final void handleFeedReload(final IBookMark bookMark, IFeed interpretedFeed, IConditionalGet conditionalGet, boolean deleteConditionalGet, boolean runRetention, final IProgressMonitor monitor) {
     fWriteLock.lock();
     MergeResult mergeResult = null;
@@ -315,6 +318,7 @@ public class ApplicationServiceImpl implements IApplicationService {
 
       /* Update state of added news if equivalent news already exists */
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception { //See Bug 1216 (NPE in ModelSearchImpl.getCurrentSearcher)
           if (Owl.getPreferenceService().getGlobalScope().getBoolean(DefaultPreferences.MARK_READ_DUPLICATES))
             updateStateOfUnsavedNewNews(newNewsAdded, monitor);
@@ -363,6 +367,7 @@ public class ApplicationServiceImpl implements IApplicationService {
       /* Run News Filters */
       final AtomicBoolean someNewsFiltered = new AtomicBoolean(false);
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           newNewsAdded.removeAll(deletedNews);
           if (!newNewsAdded.isEmpty()) {
@@ -409,6 +414,7 @@ public class ApplicationServiceImpl implements IApplicationService {
 
     /* Sort filters by ID */
     Set<ISearchFilter> enabledFilters = new TreeSet<ISearchFilter>(new Comparator<ISearchFilter>() {
+      @Override
       public int compare(ISearchFilter f1, ISearchFilter f2) {
         if (f1.equals(f2))
           return 0;
@@ -575,6 +581,7 @@ public class ApplicationServiceImpl implements IApplicationService {
       final INewsAction newsAction = fNewsActions.get(action.getActionId());
       if (newsAction != null) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             newsAction.run(news, replacements, action.getData());
           }
@@ -584,6 +591,7 @@ public class ApplicationServiceImpl implements IApplicationService {
 
     /* Notify listeners */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         DynamicDAO.getDAO(ISearchFilterDAO.class).fireFilterApplied(filter, news);
       }

@@ -346,6 +346,7 @@ public class BrowserUtils {
       return;
 
     JobRunner.runInUIThread(window.getShell(), new Runnable() {
+      @Override
       public void run() {
         MessageBox box = new MessageBox(window.getShell(), SWT.ICON_WARNING | SWT.OK | SWT.CANCEL);
         box.setText(Messages.BrowserUtils_ERROR_LAUNCH_BROWSER);
@@ -396,7 +397,7 @@ public class BrowserUtils {
           /* Fallback to use default browser if custom browser is not working */
           useDefaultBrowser(link);
         } catch (InterruptedException e) {
-          Activator.safeLogError(e.getMessage(), e);          
+          Activator.safeLogError(e.getMessage(), e);
         }
       }
     };
