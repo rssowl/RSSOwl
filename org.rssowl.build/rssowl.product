@@ -42,7 +42,6 @@ http://www.rssowl.org/legal/epl-v10.html
       </win>
    </launcher>
 
-
    <vm>
    </vm>
 
@@ -73,14 +72,10 @@ RSSOwl Development Team - initial API and implementation
    </plugins>
 
    <features>
-      <feature id="org.eclipse.rcp" version="3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
+      <feature id="org.eclipse.rcp" version="4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h"/>
       <feature id="org.rssowl.dependencies" version="2.0.0"/>
       <feature id="org.rssowl" version="2.1.2.qualifier"/>
    </features>
 
-
-   <preferencesInfo>
-      <targetfile overwrite="false"/>
-   </preferencesInfo>
 
 </product>

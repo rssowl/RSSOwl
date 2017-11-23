@@ -788,8 +788,11 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
 
   @SuppressWarnings("restriction")
   private void setBusy(boolean busy) {
-    if (fCreated && getSite() instanceof org.eclipse.ui.internal.PartSite)
-      ((org.eclipse.ui.internal.PartSite) getSite()).getPane().setBusy(busy);
+//    if (fCreated && getSite() instanceof org.eclipse.ui.internal.PartSite){
+//      ((org.eclipse.ui.internal.PartSite) getSite()).getPane().setBusy(busy);
+//      //XXX FUNCTIONALITY_REDUCTION MINOR: 4.2+ getPane moved? setBusy is missing too
+//      //((WorkbenchPartReference)((org.eclipse.ui.internal.PartSite) getSite()).getPartReference()).getPane().setBusy(busy);
+//    }
   }
 
   /*

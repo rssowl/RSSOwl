@@ -13,5 +13,5 @@ Export-Package: .,
  org.jdom.output,
  org.jdom.transform,
  org.jdom.xpath
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Localization: plugin

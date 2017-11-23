@@ -587,8 +587,13 @@ public class CoolBarAdvisor {
 
     try {
 
-      /* First Remove All */
-      fManager.removeAll();
+      try {
+        /* First Remove All */
+        fManager.removeAll();
+      } catch (Exception e) {
+        e.printStackTrace();
+        //ignore
+      }
 
       /* Load Toolbar Mode */
       CoolBarMode mode = CoolBarMode.values()[fPreferences.getInteger(DefaultPreferences.TOOLBAR_MODE)];
@@ -605,7 +610,7 @@ public class CoolBarAdvisor {
 
           /* Separator: Start a new Toolbar */
           if (item == CoolBarItem.SEPARATOR) {
-            fManager.add(currentToolBar);
+            fManager.add(new ToolBarContributionItem(currentToolBar));
             currentToolBar = new ToolBarManager(mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL ? (SWT.FLAT | SWT.RIGHT) : SWT.FLAT);
           }
 
@@ -634,7 +639,7 @@ public class CoolBarAdvisor {
       }
 
       /* Add latest Toolbar Manager to Coolbar too */
-      fManager.add(currentToolBar);
+      fManager.add(new ToolBarContributionItem(currentToolBar));
 
       /* Ensure Updates are properly Propagated */
       if (fromUpdate) {

@@ -16,5 +16,5 @@ Export-Package: org.apache.lucene,
  org.apache.lucene.store,
  org.apache.lucene.util
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-Localization: plugin

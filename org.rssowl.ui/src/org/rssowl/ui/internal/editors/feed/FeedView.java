@@ -817,14 +817,17 @@ public class FeedView extends EditorPart implements IReusableEditor {
   }
 
   private void showBusyLoading(final boolean busy) {
-    JobRunner.runInUIThread(fParent, new Runnable() {
-      @Override
-      @SuppressWarnings("restriction")
-      public void run() {
-        if (!fIsDisposed && getSite() instanceof org.eclipse.ui.internal.PartSite)
-          ((org.eclipse.ui.internal.PartSite) getSite()).getPane().setBusy(busy);
-      }
-    });
+//    JobRunner.runInUIThread(fParent, new Runnable() {
+//      @Override
+//      @SuppressWarnings("restriction")
+//      public void run() {
+//        if (!fIsDisposed && getSite() instanceof org.eclipse.ui.internal.PartSite) {
+//          ((org.eclipse.ui.internal.PartSite) getSite()).getPane().setBusy(busy);
+//          //XXX FUNCTIONALITY_REDUCTION MINOR: 4.2+ getPane moved? setBusy is missing too
+//          //((WorkbenchPartReference)((org.eclipse.ui.internal.PartSite) getSite()).getPartReference()).getPane().setBusy(busy);
+//        }
+//      }
+//    });
   }
 
   private void onNewsFoldersUpdated(final Set<FolderEvent> events) {
