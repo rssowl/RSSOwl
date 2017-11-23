@@ -271,7 +271,7 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.core.net.win32.x86"
+         id="org.eclipse.core.net.win32.x86_64"
          os="win32"
          download-size="0"
          install-size="0"
@@ -317,7 +317,7 @@ litigation.
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.security.win32.x86"
+         id="org.eclipse.equinox.security.win32.x86_64"
          os="win32"
          download-size="0"
          install-size="0"
