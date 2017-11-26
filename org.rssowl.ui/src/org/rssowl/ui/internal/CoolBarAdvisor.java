@@ -591,8 +591,7 @@ public class CoolBarAdvisor {
         /* First Remove All */
         fManager.removeAll();
       } catch (Exception e) {
-        e.printStackTrace();
-        //ignore
+        //ignore: java.lang.Exception: CBTTM:removeAll
       }
 
       /* Load Toolbar Mode */

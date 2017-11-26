@@ -1760,10 +1760,14 @@ public class FeedView extends EditorPart implements IReusableEditor {
     unregisterListeners();
 
     super.dispose();
-    fContentProvider.dispose();
-    fNewsTableControl.dispose();
-    fNewsBrowserControl.dispose();
-    fResourceManager.dispose();
+    if (fContentProvider != null)
+      fContentProvider.dispose();
+    if (fNewsTableControl != null)
+      fNewsTableControl.dispose();
+    if (fNewsBrowserControl != null)
+      fNewsBrowserControl.dispose();
+    if (fResourceManager != null)
+      fResourceManager.dispose();
     fIsDisposed = true;
   }
 
