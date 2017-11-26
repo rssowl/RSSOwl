@@ -586,12 +586,16 @@ public class CoolBarAdvisor {
       barControl.getShell().setRedraw(false);
 
     try {
-
-      try {
+      {
         /* First Remove All */
-        fManager.removeAll();
-      } catch (Exception e) {
-        //ignore: java.lang.Exception: CBTTM:removeAll
+        IContributionItem[] items = fManager.getItems();
+        for (IContributionItem item: items)
+          try {
+            fManager.remove(item);
+          } catch (Exception e) {
+            //ignore
+            e.printStackTrace();
+          }
       }
 
       /* Load Toolbar Mode */
@@ -602,7 +606,9 @@ public class CoolBarAdvisor {
       if (items == null || items.length == 0)
         items = new int[] { CoolBarItem.SPACER.ordinal() };
 
+      fManager.setLockLayout(false);
       ToolBarManager currentToolBar = new ToolBarManager(mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL ? (SWT.FLAT | SWT.RIGHT) : SWT.FLAT);
+
       for (int id : items) {
         final CoolBarItem item = CoolBarItem.values()[id];
         if (item != null) {
