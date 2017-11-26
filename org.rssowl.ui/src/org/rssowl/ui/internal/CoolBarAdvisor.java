@@ -133,7 +133,7 @@ public class CoolBarAdvisor {
   private final ICoolBarManager fManager;
   private final IPreferenceScope fPreferences;
   private final AtomicInteger fLoadCounter = new AtomicInteger();
-  private final IBindingService fBindingService = (IBindingService) PlatformUI.getWorkbench().getService(IBindingService.class);
+  private final IBindingService fBindingService = PlatformUI.getWorkbench().getService(IBindingService.class);
 
   /* Subclass of ActionContributionItem to use for the CoolBar */
   private class CoolBarActionContributionitem extends ActionContributionItem {
