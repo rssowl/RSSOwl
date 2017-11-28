@@ -56,6 +56,7 @@ import org.eclipse.ui.IEditorReference;
 import org.eclipse.ui.IPageListener;
 import org.eclipse.ui.IPartListener;
 import org.eclipse.ui.ISelectionListener;
+import org.eclipse.ui.IWorkbenchActionConstants;
 import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.ui.IWorkbenchWindow;
@@ -589,17 +590,20 @@ public class CoolBarAdvisor {
       {
         /* First Remove All */
         IContributionItem[] items = fManager.getItems();
-        for (IContributionItem item: items)
-          try {
-            fManager.remove(item);
-          } catch (Exception e) {
-            //ignore
-            e.printStackTrace();
-          }
+        for (IContributionItem item : items)
+          if (!IWorkbenchActionConstants.MB_ADDITIONS.equals(item.getId()))
+            try {
+              fManager.remove(item);
+            } catch (Exception e) {
+              new RuntimeException("id=" + item.getId(), e).printStackTrace(); //$NON-NLS-1$
+            }
       }
 
       /* Load Toolbar Mode */
       CoolBarMode mode = CoolBarMode.values()[fPreferences.getInteger(DefaultPreferences.TOOLBAR_MODE)];
+      int styleSWT = SWT.FLAT;// | SWT.VERTICAL | SWT.WRAP;
+      if (mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL)
+        styleSWT |= SWT.RIGHT;
 
       /* Load and Add Items */
       int[] items = fPreferences.getIntegers(DefaultPreferences.TOOLBAR_ITEMS);
@@ -607,7 +611,7 @@ public class CoolBarAdvisor {
         items = new int[] { CoolBarItem.SPACER.ordinal() };
 
       fManager.setLockLayout(false);
-      ToolBarManager currentToolBar = new ToolBarManager(mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL ? (SWT.FLAT | SWT.RIGHT) : SWT.FLAT);
+      ToolBarManager currentToolBar = new ToolBarManager(styleSWT);
 
       for (int id : items) {
         final CoolBarItem item = CoolBarItem.values()[id];
@@ -616,7 +620,7 @@ public class CoolBarAdvisor {
           /* Separator: Start a new Toolbar */
           if (item == CoolBarItem.SEPARATOR) {
             fManager.add(new ToolBarContributionItem(currentToolBar));
-            currentToolBar = new ToolBarManager(mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL ? (SWT.FLAT | SWT.RIGHT) : SWT.FLAT);
+            currentToolBar = new ToolBarManager(styleSWT);
           }
 
           /* Spacer */
