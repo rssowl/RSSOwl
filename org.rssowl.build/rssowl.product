@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="%product.name" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" version="2.2.2" useFeatures="true" includeLaunchers="true">
+<product name="%product.name" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" version="2.3.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.rssowl.ui/icons/product/about.gif"/>
@@ -35,7 +35,6 @@ http://www.rssowl.org/legal/epl-v10.html
    <launcher name="RSSOwl">
       <linux icon="/org.rssowl.ui/icons/product/rssowl.xpm"/>
       <macosx icon="/org.rssowl.ui/icons/product/rssowl.icns"/>
-      <solaris/>
       <win useIco="true">
          <ico path="/org.rssowl.ui/icons/product/rssowl.ico"/>
          <bmp/>
@@ -72,9 +71,12 @@ RSSOwl Development Team - initial API and implementation
    </plugins>
 
    <features>
-      <feature id="org.eclipse.rcp" version="4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h"/>
-      <feature id="org.rssowl.dependencies" version="2.0.0"/>
-      <feature id="org.rssowl" version="2.1.2.qualifier"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.rssowl.dependencies"/>
+      <feature id="org.rssowl"/>
    </features>
 
 

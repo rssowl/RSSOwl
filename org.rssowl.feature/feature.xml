@@ -2,12 +2,12 @@
 <feature
       id="org.rssowl"
       label="RSSOwl"
-      version="2.2.1.qualifier"
+      version="2.3.0.qualifier"
       provider-name="RSSOwl.org"
       plugin="org.rssowl.ui">
 
    <description>
-      This is RSSOwl 2.0.
+      This is RSSOwl
    </description>
 
    <copyright>
@@ -234,8 +234,22 @@ litigation.
    </url>
 
    <requires>
-      <import feature="org.eclipse.rcp" version="3.4.200.R342_v20090122-989JESTEbig-SVaL8UJHcYBr4A63"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.update.ui"/>
+      <import plugin="org.eclipse.update.core"/>
+      <import plugin="org.eclipse.equinox.security" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.equinox.console" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.runtime" version="0.8.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.shell" version="0.8.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.command" version="0.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore.change" version="2.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.emf.ecore.xmi" version="2.8.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.e4.core.di" version="1.6.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.net"/>
       <import feature="org.rssowl.dependencies" version="2.0.0"/>
+      <import feature="org.eclipse.e4.rcp" version="1.6.1.v20170928-1359"/>
+      <import feature="org.eclipse.rcp" version="4.7.1.v20171009-0410"/>
    </requires>
 
    <plugin

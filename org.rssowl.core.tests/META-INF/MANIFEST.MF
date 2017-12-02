@@ -2,17 +2,16 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Tests Plug-in
 Bundle-SymbolicName: org.rssowl.core.tests;singleton:=true
-Bundle-Version: 2.2.1.qualifier
+Bundle-Version: 2.3.0.qualifier
 Bundle-Vendor: RSSOwl.org
-Require-Bundle: org.eclipse.core.runtime,
- org.rssowl.lib.jdom,
- org.junit;bundle-version="4.11.0",
- org.eclipse.ui,
- org.rssowl.ui,
+Require-Bundle: org.rssowl.lib.jdom,
  org.rssowl.lib.db4o,
+ org.rssowl.lib.lucene,
+ org.rssowl.ui,
  org.rssowl.core,
- org.eclipse.equinox.security,
- org.rssowl.lib.lucene
+ org.junit;bundle-version="4.12.0",
+ org.eclipse.ui;bundle-version="3.109.0",
+ org.eclipse.core.runtime;bundle-version="3.13.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Activator: org.rssowl.core.tests.Activator
