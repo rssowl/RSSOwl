@@ -24,9 +24,9 @@
 
 package org.rssowl.core.connection;
 
-import org.apache.commons.httpclient.Header;
-import org.apache.commons.httpclient.HttpMethodBase;
-import org.apache.commons.httpclient.URIException;
+import org.apache.http.Header;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpRequestBase;
 import org.eclipse.core.runtime.IProgressMonitor;
 
 import java.io.FilterInputStream;
@@ -60,7 +60,8 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
   private static final String HEADER_RESPONSE_CONTENT_DISPOSITION = "Content-Disposition"; //$NON-NLS-1$
   private static final String HEADER_RESPONSE_CONTENT_ENCODING = "Content-Encoding"; //$NON-NLS-1$
 
-  private final HttpMethodBase fMethod;
+  private final HttpRequestBase fMethod;
+  private final CloseableHttpResponse fResponse;
   private final IProgressMonitor fMonitor;
   private String fIfModifiedSince;
   private String fIfNoneMatch;
@@ -73,22 +74,24 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    *
    * @param link the {@link URI} that was used to create the Stream.
    * @param method The Method holding the connection of the given Stream.
+   * @param response the http response
    * @param monitor A ProgressMonitor to support early cancelation, or
    * <code>NULL</code> if no monitor is being used.
    * @param inS the underlying input Stream.
    */
-  public HttpConnectionInputStream(URI link, HttpMethodBase method, IProgressMonitor monitor, InputStream inS) {
+  public HttpConnectionInputStream(URI link, HttpRequestBase method, CloseableHttpResponse response, IProgressMonitor monitor, InputStream inS) {
     super(inS);
     fLink = link;
     fMethod = method;
+    fResponse = response;
     fMonitor = monitor;
 
     /* Keep some important Headers */
-    Header headerLastModified = method.getResponseHeader(HEADER_RESPONSE_LAST_MODIFIED);
+    Header headerLastModified = response.getFirstHeader(HEADER_RESPONSE_LAST_MODIFIED);
     if (headerLastModified != null)
       setIfModifiedSince(headerLastModified.getValue());
 
-    Header headerETag = method.getResponseHeader(HEADER_RESPONSE_ETAG);
+    Header headerETag = response.getFirstHeader(HEADER_RESPONSE_ETAG);
     if (headerETag != null)
       setIfNoneMatch(headerETag.getValue());
   }
@@ -99,8 +102,6 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
   public URI getLink() {
     try {
       return new URI(fMethod.getURI().toString());
-    } catch (URIException e) {
-      return fLink;
     } catch (URISyntaxException e) {
       return fLink;
     }
@@ -204,7 +205,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * not available.
    */
   public int getContentLength() {
-    Header header = fMethod.getResponseHeader(HEADER_RESPONSE_CONTENT_LENGTH);
+    Header header = fResponse.getFirstHeader(HEADER_RESPONSE_CONTENT_LENGTH);
     if (header != null) {
       String value = header.getValue();
       try {
@@ -222,7 +223,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * not available.
    */
   public String getContentType() {
-    Header header = fMethod.getResponseHeader(HEADER_RESPONSE_CONTENT_TYPE);
+    Header header = fResponse.getFirstHeader(HEADER_RESPONSE_CONTENT_TYPE);
     if (header != null)
       return header.getValue();
 
@@ -234,7 +235,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * null if not available.
    */
   public String getContentDisposition() {
-    Header header = fMethod.getResponseHeader(HEADER_RESPONSE_CONTENT_DISPOSITION);
+    Header header = fResponse.getFirstHeader(HEADER_RESPONSE_CONTENT_DISPOSITION);
     if (header != null)
       return header.getValue();
 
@@ -246,7 +247,7 @@ public class HttpConnectionInputStream extends FilterInputStream implements ICon
    * null if not available.
    */
   public String getContentEncoding() {
-    Header header = fMethod.getResponseHeader(HEADER_RESPONSE_CONTENT_ENCODING);
+    Header header = fResponse.getFirstHeader(HEADER_RESPONSE_CONTENT_ENCODING);
     if (header != null)
       return header.getValue();
 

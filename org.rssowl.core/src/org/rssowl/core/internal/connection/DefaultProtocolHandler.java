@@ -24,22 +24,35 @@
 
 package org.rssowl.core.internal.connection;
 
-import org.apache.commons.httpclient.Header;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpException;
-import org.apache.commons.httpclient.HttpMethodBase;
-import org.apache.commons.httpclient.NTCredentials;
-import org.apache.commons.httpclient.SimpleHttpConnectionManager;
-import org.apache.commons.httpclient.URIException;
-import org.apache.commons.httpclient.UsernamePasswordCredentials;
-import org.apache.commons.httpclient.auth.AuthScope;
-import org.apache.commons.httpclient.auth.AuthState;
-import org.apache.commons.httpclient.cookie.CookiePolicy;
-import org.apache.commons.httpclient.methods.GetMethod;
-import org.apache.commons.httpclient.methods.PostMethod;
-import org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory;
-import org.apache.commons.httpclient.protocol.Protocol;
-import org.apache.commons.httpclient.protocol.ProtocolSocketFactory;
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpHost;
+import org.apache.http.NameValuePair;
+import org.apache.http.auth.AuthScope;
+import org.apache.http.auth.ChallengeState;
+import org.apache.http.auth.NTCredentials;
+import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.http.client.AuthCache;
+import org.apache.http.client.CredentialsProvider;
+import org.apache.http.client.config.CookieSpecs;
+import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpRequestBase;
+import org.apache.http.client.protocol.HttpClientContext;
+import org.apache.http.config.Registry;
+import org.apache.http.config.RegistryBuilder;
+import org.apache.http.conn.socket.ConnectionSocketFactory;
+import org.apache.http.conn.socket.PlainConnectionSocketFactory;
+import org.apache.http.impl.auth.BasicScheme;
+import org.apache.http.impl.client.BasicAuthCache;
+import org.apache.http.impl.client.BasicCredentialsProvider;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
+import org.apache.http.message.BasicNameValuePair;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IProgressMonitor;
@@ -48,7 +61,6 @@ import org.osgi.service.url.URLStreamHandlerService;
 import org.rssowl.core.Owl;
 import org.rssowl.core.connection.AuthenticationRequiredException;
 import org.rssowl.core.connection.ConnectionException;
-import org.rssowl.core.connection.CredentialsException;
 import org.rssowl.core.connection.HttpConnectionInputStream;
 import org.rssowl.core.connection.IAbortable;
 import org.rssowl.core.connection.IConditionalGetCompatible;
@@ -84,8 +96,12 @@ import java.io.InputStreamReader;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -436,116 +452,269 @@ public class DefaultProtocolHandler implements IProtocolHandler {
     if (URIUtils.FILE_SCHEME.equals(link.getScheme()))
       return loadFileProtocol(link);
 
-    /* SSL Support */
-    if (URIUtils.HTTPS_SCHEME.equals(link.getScheme()))
-      initSSLProtocol();
+    RegistryBuilder<ConnectionSocketFactory> registryBuilder = RegistryBuilder.<ConnectionSocketFactory> create();
+    registryBuilder.register(URIUtils.HTTP_SCHEME, PlainConnectionSocketFactory.getSocketFactory());
+    registryBuilder.register(URIUtils.HTTPS_SCHEME, Owl.getConnectionService().ConnectionSocketFactory());
+    registryBuilder.register(URIUtils.FEED_SCHEME, PlainConnectionSocketFactory.getSocketFactory());
 
-    /* Feed Support */
-    if (URIUtils.FEED_SCHEME.equals(link.getScheme()))
-      initFeedProtocol();
+//    if (URIUtils.HTTPS_SCHEME.equals(link.getScheme())) {
+//old:      initSSLProtocol();
+//    }
 
-    /* Init Client */
-    HttpClient client = initClient(properties);
+//    if (URIUtils.FEED_SCHEME.equals(link.getScheme())) {
+//old:      initFeedProtocol();
+//    }
 
-    /* Init the connection */
-    HttpMethodBase method = null;
+    /* Retrieve Connection Timeout from Properties if set */
+    int conTimeout = DEFAULT_CON_TIMEOUT;
+    if (properties != null && properties.containsKey(IConnectionPropertyConstants.CON_TIMEOUT))
+      conTimeout = (Integer) properties.get(IConnectionPropertyConstants.CON_TIMEOUT);
+
+    CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
+
+    Collection<String> proxyPreferredAuthSchemes = Arrays.asList(URIUtils.HTTP_SCHEME, URIUtils.HTTPS_SCHEME);
+
+    HttpHost proxyHost = null;
+    IProxyCredentials proxyCredentials = Owl.getConnectionService().getProxyCredentials(link);
+    if (proxyCredentials != null) {
+//old:    /* --- Apply Proxy Config to HTTPClient */
+//old://  client.getParams().setAuthenticationPreemptive(true);
+//old:client.getHostConfiguration().setProxy(credsProxy.getHost(), credsProxy.getPort());
+
+      //TODO what about socks proxies?
+      //TOOD what how to distinguish http from https host
+      //expected to get a redirect to https when necessary and that it works
+      proxyHost = new HttpHost(proxyCredentials.getHost(), proxyCredentials.getPort(), URIUtils.HTTP_SCHEME);
+
+      if (proxyCredentials.getUsername() != null || proxyCredentials.getPassword() != null) {
+        String user = StringUtils.isSet(proxyCredentials.getUsername()) ? proxyCredentials.getUsername() : ""; //$NON-NLS-1$
+        String pw = StringUtils.isSet(proxyCredentials.getPassword()) ? proxyCredentials.getPassword() : ""; //$NON-NLS-1$
+
+        AuthScope authScopeProxy = new AuthScope(proxyCredentials.getHost(), proxyCredentials.getPort());
+
+        if (proxyCredentials.getDomain() != null) {
+//          client.getState().setProxyCredentials(authScopeProxy, //
+//              new NTCredentials(user, pw, credsProxy.getHost(), credsProxy.getDomain()));
+          credentialsProvider.setCredentials(authScopeProxy, //
+              new NTCredentials(user, pw, proxyCredentials.getHost(), proxyCredentials.getDomain()));
+        } else {
+//          client.getState().setProxyCredentials(authScopeProxy, //
+//              new UsernamePasswordCredentials(user, pw));
+          credentialsProvider.setCredentials(authScopeProxy, //
+              new UsernamePasswordCredentials(user, pw));
+        }
+      }
+    }
+
+    ICredentials authCredentials = Owl.getConnectionService().getAuthCredentials(link, authRealm);
+    if (authCredentials != null) {
+      credentialsProvider.setCredentials( //
+          new AuthScope(link.getHost(), link.getPort()), //
+          new UsernamePasswordCredentials(authCredentials.getUsername(), authCredentials.getPassword()));
+    }
+
+    Registry<ConnectionSocketFactory> socketFactoryRegistry = registryBuilder.build();
+
+    BasicHttpClientConnectionManager basicHttpClientConnectionManager = new BasicHttpClientConnectionManager(socketFactoryRegistry);
+    CloseableHttpClient client = HttpClients.custom() //
+        //.disableRedirectHandling() // does redirects by default, do not disable
+        .setConnectionManager(basicHttpClientConnectionManager) //
+        .setDefaultCredentialsProvider(credentialsProvider) //
+        .build();
+
+    HttpRequestBase method = null;
     InputStream inS = null;
+    CloseableHttpResponse response = null;
     try {
+      /* --- Create Method (GET or POST) */
 
-      /* Create Method (GET or POST) */
-      method = initConnection(link, properties);
+      /* Create the Method. Wrap any RuntimeException into an IOException */
+      boolean isPostRequest = properties != null && properties.containsKey(IConnectionPropertyConstants.POST);
+      boolean isGetRequest = !isPostRequest;
 
-      /* Proxy if required */
-      setupProxy(link, client);
+      if (isPostRequest)
+        method = new HttpPost(link.toString());
+      else
+        method = new HttpGet(link.toString());
 
-      /* Authentication if required */
-      setupAuthentication(authLink, authRealm, client, method);
+      if (isGetRequest) {
+        //method.getParams().setCookiePolicy(CookiePolicy.IGNORE_COOKIES);
+        RequestConfig config = RequestConfig.custom() //
+            .setCookieSpec(CookieSpecs.IGNORE_COOKIES) //
+            /* Socket Timeout - Max. time to wait for an answer */
+            .setConnectTimeout(conTimeout) //
+            /* Connection Timeout - Max. time to wait for a connection */
+            .setConnectionRequestTimeout(conTimeout) //
+            .setProxy(proxyHost) //
+            .setProxyPreferredAuthSchemes(proxyPreferredAuthSchemes) //
+            .build();
+        method.setConfig(config);
+      }
 
-      /* Open the connection */
-      inS = openConnection(client, method);
+      setHeaders(properties, method);
 
-      /* Try to pipe the resulting stream into a GZipInputStream */
+      if (isPostRequest && properties != null && properties.containsKey(IConnectionPropertyConstants.PARAMETERS)) {
+        List<NameValuePair> params = new ArrayList<NameValuePair>();
+        {
+          Map<?, ?> parameters = (Map<?, ?>) properties.get(IConnectionPropertyConstants.PARAMETERS);
+          Set<?> entries = parameters.entrySet();
+          for (Object obj : entries) {
+            Entry<?, ?> entry = (Entry<?, ?>) obj;
+            String key = (String) entry.getKey();
+            if (entry.getValue() instanceof String)
+              params.add(new BasicNameValuePair(key, (String) entry.getValue()));
+            else if (entry.getValue() instanceof String[]) {
+              String[] parameterValues = (String[]) entry.getValue();
+              for (String value : parameterValues) {
+                params.add(new BasicNameValuePair(key, value));
+              }
+            }
+          }
+        }
+        ((HttpPost) method).setEntity(new UrlEncodedFormEntity(params));
+      }
+
+      /* --- Authentication if required */
+
+      BasicScheme basicScheme = null;
+      if (authCredentials != null) {
+        //          client.getParams().setAuthenticationPreemptive(true);
+
+        /* Require Host */
+
+        /* Create the UsernamePasswordCredentials */
+        //old:          NTCredentials userPwCreds = new NTCredentials(authCredentials.getUsername(), authCredentials.getPassword(), host, (authCredentials.getDomain() != null) ? authCredentials.getDomain() : ""); //$NON-NLS-1$
+
+        /* Authenticate to the Server */
+        //old:          client.getState().setCredentials(AuthScope.ANY, userPwCreds);
+        //old:          method.setDoAuthentication(true);
+
+        HttpHost targetHost = new HttpHost(link.getHost(), link.getPort(), link.getScheme());
+        HttpClientContext context = HttpClientContext.create();
+        {
+          AuthCache authCache = new BasicAuthCache();
+          {
+            basicScheme = new BasicScheme();
+            authCache.put(targetHost, basicScheme);
+          }
+          context.setAuthCache(authCache);
+          context.setCredentialsProvider(credentialsProvider);
+        }
+        response = client.execute(targetHost, method, context);
+      } else {
+        response = client.execute(method);
+      }
+
+      /* --- Open the connection */
+      HttpEntity entity = response.getEntity();
+      /* Finally retrieve the InputStream from the respond body */
+      if (entity != null)
+        inS = entity.getContent();
+
+      /* --- Try to pipe the resulting stream into a GZipInputStream */
       if (inS != null)
-        inS = pipeStream(inS, method);
+        inS = pipeStream(inS, response);
+
+      /* In case authentication required */
+      int statusCode = response.getStatusLine().getStatusCode();
+      if (statusCode == HTTP_ERROR_AUTH_REQUIRED) {
+//old:        AuthState hostAuthState = method.getHostAuthState();
+//old:        String realm = hostAuthState != null ? hostAuthState.getRealm() : null;
+
+        StringBuilder sbEx = new StringBuilder();
+        if (basicScheme != null) {
+          String realm = basicScheme.getRealm();
+          ChallengeState challengeState = basicScheme.getChallengeState();
+          String schemeName = basicScheme.getSchemeName();
+          sbEx.append(realm);
+          sbEx.append("/"); //$NON-NLS-1$
+          sbEx.append(challengeState != null ? challengeState.name() : null);
+          sbEx.append("/"); //$NON-NLS-1$
+          sbEx.append(schemeName);
+        }
+        abortAndRelease(method);
+
+        //throw new AuthenticationRequiredException(realm, Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_ERROR_AUTHENTICATION_REQUIRED, null));
+        throw new AuthenticationRequiredException(sbEx.toString(), Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_ERROR_AUTHENTICATION_REQUIRED, null));
+      }
+
+      /* In case sync authentication failed (Forbidden) */
+      else if (isSyncAuthenticationIssue(response, authLink)) {
+        abortAndRelease(method);
+
+        throw new AuthenticationRequiredException("authLink=" + authLink, Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_GR_ERROR_BAD_AUTH, null)); //$NON-NLS-1$
+      }
+
+      /* In case of Forbidden Status with Error Code (Google Reader) */
+      else if (statusCode == HTTP_ERROR_FORBIDDEN && response.getFirstHeader(HEADER_RESPONSE_ERROR) != null)
+        handleForbidden(method, response);
+
+      /* In case proxy-authentication required / failed */
+      else if (statusCode == HTTP_ERROR_PROXY_AUTH_REQUIRED) {
+        abortAndRelease(method);
+
+        throw new ProxyAuthenticationRequiredException(Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_ERROR_PROXY_AUTHENTICATION_REQUIRED, null));
+      }
+
+      /* If status code is 4xx, throw an IOException with the status code included */
+      else if (statusCode >= HTTP_ERRORS) {
+        String error = getError(statusCode);
+        abortAndRelease(method);
+
+        if (error != null)
+          throw new ConnectionException(Activator.getDefault().createErrorStatus(NLS.bind(Messages.DefaultProtocolHandler_ERROR_HTTP_STATUS_MSG, String.valueOf(statusCode), error), null));
+
+        throw new ConnectionException(Activator.getDefault().createErrorStatus(NLS.bind(Messages.DefaultProtocolHandler_ERROR_HTTP_STATUS, String.valueOf(statusCode)), null));
+      }
+
+      /* In case the Feed has not been modified since */
+      else if (statusCode == HTTP_STATUS_NOT_MODIFIED) {
+        abortAndRelease(method);
+
+        throw new NotModifiedException(Activator.getDefault().createInfoStatus(Messages.DefaultProtocolHandler_INFO_NOT_MODIFIED_SINCE, null));
+      }
+
+      /* In case response body is not available */
+      if (inS == null) {
+        abortAndRelease(method);
+
+        throw new ConnectionException(Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_ERROR_STREAM_UNAVAILABLE, null));
+      }
+
+      /* Check wether a Progress Monitor is provided to support early cancelation */
+      IProgressMonitor monitor = null;
+      if (properties != null && properties.containsKey(IConnectionPropertyConstants.PROGRESS_MONITOR))
+        monitor = (IProgressMonitor) properties.get(IConnectionPropertyConstants.PROGRESS_MONITOR);
+
+      /* Return a Stream that releases the connection once closed */
+      return new HttpConnectionInputStream(link, method, response, monitor, inS);
+
     } catch (IOException e) {
       abortAndRelease(method);
       throw new ConnectionException(Activator.getDefault().createErrorStatus(e.getMessage(), e));
+    } finally {
+//      if (response != null)
+//        try {
+//          response.close();
+//        } catch (IOException e) {
+//          e.printStackTrace();
+//        }
     }
 
-    /* In case authentication required */
-    int statusCode = method.getStatusCode();
-    if (statusCode == HTTP_ERROR_AUTH_REQUIRED) {
-      AuthState hostAuthState = method.getHostAuthState();
-      String realm = hostAuthState != null ? hostAuthState.getRealm() : null;
-      abortAndRelease(method);
-
-      throw new AuthenticationRequiredException(realm, Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_ERROR_AUTHENTICATION_REQUIRED, null));
-    }
-
-    /* In case sync authentication failed (Forbidden) */
-    else if (isSyncAuthenticationIssue(method, authLink)) {
-      abortAndRelease(method);
-
-      throw new AuthenticationRequiredException(null, Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_GR_ERROR_BAD_AUTH, null));
-    }
-
-    /* In case of Forbidden Status with Error Code (Google Reader) */
-    else if (statusCode == HTTP_ERROR_FORBIDDEN && method.getResponseHeader(HEADER_RESPONSE_ERROR) != null)
-      handleForbidden(method);
-
-    /* In case proxy-authentication required / failed */
-    else if (statusCode == HTTP_ERROR_PROXY_AUTH_REQUIRED) {
-      abortAndRelease(method);
-
-      throw new ProxyAuthenticationRequiredException(Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_ERROR_PROXY_AUTHENTICATION_REQUIRED, null));
-    }
-
-    /* If status code is 4xx, throw an IOException with the status code included */
-    else if (statusCode >= HTTP_ERRORS) {
-      String error = getError(statusCode);
-      abortAndRelease(method);
-
-      if (error != null)
-        throw new ConnectionException(Activator.getDefault().createErrorStatus(NLS.bind(Messages.DefaultProtocolHandler_ERROR_HTTP_STATUS_MSG, String.valueOf(statusCode), error), null));
-
-      throw new ConnectionException(Activator.getDefault().createErrorStatus(NLS.bind(Messages.DefaultProtocolHandler_ERROR_HTTP_STATUS, String.valueOf(statusCode)), null));
-    }
-
-    /* In case the Feed has not been modified since */
-    else if (statusCode == HTTP_STATUS_NOT_MODIFIED) {
-      abortAndRelease(method);
-
-      throw new NotModifiedException(Activator.getDefault().createInfoStatus(Messages.DefaultProtocolHandler_INFO_NOT_MODIFIED_SINCE, null));
-    }
-
-    /* In case response body is not available */
-    if (inS == null) {
-      abortAndRelease(method);
-
-      throw new ConnectionException(Activator.getDefault().createErrorStatus(Messages.DefaultProtocolHandler_ERROR_STREAM_UNAVAILABLE, null));
-    }
-
-    /* Check wether a Progress Monitor is provided to support early cancelation */
-    IProgressMonitor monitor = null;
-    if (properties != null && properties.containsKey(IConnectionPropertyConstants.PROGRESS_MONITOR))
-      monitor = (IProgressMonitor) properties.get(IConnectionPropertyConstants.PROGRESS_MONITOR);
-
-    /* Return a Stream that releases the connection once closed */
-    return new HttpConnectionInputStream(link, method, monitor, inS);
   }
 
-  private void abortAndRelease(HttpMethodBase method) {
+  private void abortAndRelease(HttpRequestBase method) {
     if (method != null) {
       method.abort();
       method.releaseConnection();
     }
   }
 
-  private boolean isSyncAuthenticationIssue(HttpMethodBase method, URI link) {
+  private boolean isSyncAuthenticationIssue(CloseableHttpResponse response, URI link) {
 
     /* Handle Google Error Response "Forbidden" for synced connections */
-    if (method.getStatusCode() == HTTP_ERROR_FORBIDDEN && SyncUtils.fromGoogle(link.toString())) {
-      Header errorHeader = method.getResponseHeader(HEADER_RESPONSE_ERROR);
+    if (response.getStatusLine().getStatusCode() == HTTP_ERROR_FORBIDDEN && SyncUtils.fromGoogle(link.toString())) {
+      Header errorHeader = response.getFirstHeader(HEADER_RESPONSE_ERROR);
       if (errorHeader == null || ERROR_BAD_AUTH.equals(errorHeader.getValue()))
         return true;
     }
@@ -553,12 +722,12 @@ public class DefaultProtocolHandler implements IProtocolHandler {
     return false;
   }
 
-  protected void handleForbidden(HttpMethodBase method) throws ConnectionException {
+  protected void handleForbidden(HttpRequestBase method, CloseableHttpResponse response) throws ConnectionException {
     String errorMsg = null;
     String errorUrl = null;
 
     /* Lookup Google Error if present */
-    Header errorHeader = method.getResponseHeader(HEADER_RESPONSE_ERROR);
+    Header errorHeader = response.getFirstHeader(HEADER_RESPONSE_ERROR);
     if (errorHeader != null && StringUtils.isSet(errorHeader.getValue())) {
       String errorCode = errorHeader.getValue();
       if (ERROR_BAD_AUTH.equals(errorCode))
@@ -584,7 +753,7 @@ public class DefaultProtocolHandler implements IProtocolHandler {
 
       /* Also look up specified Error URL as necessary */
       if (errorUrl == null) {
-        Header urlHeader = method.getResponseHeader(HEADER_RESPONSE_URL);
+        Header urlHeader = response.getFirstHeader(HEADER_RESPONSE_URL);
         if (urlHeader != null && StringUtils.isSet(urlHeader.getValue()))
           errorUrl = urlHeader.getValue();
       }
@@ -633,73 +802,34 @@ public class DefaultProtocolHandler implements IProtocolHandler {
     }
   }
 
-  private void setupAuthentication(URI link, String realm, HttpClient client, HttpMethodBase method) throws URIException, CredentialsException {
-    ICredentials authCredentials = Owl.getConnectionService().getAuthCredentials(link, realm);
-    if (authCredentials != null) {
-      client.getParams().setAuthenticationPreemptive(true);
+//  /** @deprecated old */
+//  @Deprecated
+//  private synchronized void initSSLProtocol() {
+//    if (fgSSLInitialized)
+//      return;
+//
+//    /* Register Easy Protocol Socket Factory with HTTPS */
+//    Protocol easyHttpsProtocol = new Protocol(URIUtils.HTTPS_SCHEME, (ProtocolSocketFactory) Owl.getConnectionService().getSecureProtocolSocketFactory(), 443);
+//    Protocol.registerProtocol(URIUtils.HTTPS_SCHEME, easyHttpsProtocol);
+//
+//    fgSSLInitialized = true;
+//  }
 
-      /* Require Host */
-      String host = method.getURI().getHost();
+//  /** @deprecated old */
+//  @Deprecated
+//  private synchronized void initFeedProtocol() {
+//    if (fgFeedProtocolInitialized)
+//      return;
+//
+//    Protocol feed = new Protocol(URIUtils.FEED_SCHEME, new DefaultProtocolSocketFactory(), 80);
+//    Protocol.registerProtocol(URIUtils.FEED_SCHEME, feed);
+//
+//    fgFeedProtocolInitialized = true;
+//  }
 
-      /* Create the UsernamePasswordCredentials */
-      NTCredentials userPwCreds = new NTCredentials(authCredentials.getUsername(), authCredentials.getPassword(), host, (authCredentials.getDomain() != null) ? authCredentials.getDomain() : ""); //$NON-NLS-1$
-
-      /* Authenticate to the Server */
-      client.getState().setCredentials(AuthScope.ANY, userPwCreds);
-      method.setDoAuthentication(true);
-    }
-  }
-
-  private void setupProxy(URI link, HttpClient client) throws CredentialsException {
-    IProxyCredentials creds = Owl.getConnectionService().getProxyCredentials(link);
-    if (creds != null) {
-
-      /* Apply Proxy Config to HTTPClient */
-      client.getParams().setAuthenticationPreemptive(true);
-      client.getHostConfiguration().setProxy(creds.getHost(), creds.getPort());
-
-      /* Authenticate if required */
-      if (creds.getUsername() != null || creds.getPassword() != null) {
-        String user = StringUtils.isSet(creds.getUsername()) ? creds.getUsername() : ""; //$NON-NLS-1$
-        String pw = StringUtils.isSet(creds.getPassword()) ? creds.getPassword() : ""; //$NON-NLS-1$
-
-        AuthScope proxyAuthScope = new AuthScope(creds.getHost(), creds.getPort());
-
-        /* Use NTLM Credentials if Domain is set */
-        if (creds.getDomain() != null)
-          client.getState().setProxyCredentials(proxyAuthScope, new NTCredentials(user, pw, creds.getHost(), creds.getDomain()));
-
-        /* Use normal Credentials if Domain is not set */
-        else
-          client.getState().setProxyCredentials(proxyAuthScope, new UsernamePasswordCredentials(user, pw));
-      }
-    }
-  }
-
-  private synchronized void initSSLProtocol() {
-    if (fgSSLInitialized)
-      return;
-
-    /* Register Easy Protocol Socket Factory with HTTPS */
-    Protocol easyHttpsProtocol = new Protocol(URIUtils.HTTPS_SCHEME, (ProtocolSocketFactory) Owl.getConnectionService().getSecureProtocolSocketFactory(), 443);
-    Protocol.registerProtocol(URIUtils.HTTPS_SCHEME, easyHttpsProtocol);
-
-    fgSSLInitialized = true;
-  }
-
-  private synchronized void initFeedProtocol() {
-    if (fgFeedProtocolInitialized)
-      return;
-
-    Protocol feed = new Protocol(URIUtils.FEED_SCHEME, new DefaultProtocolSocketFactory(), 80);
-    Protocol.registerProtocol(URIUtils.FEED_SCHEME, feed);
-
-    fgFeedProtocolInitialized = true;
-  }
-
-  private void setHeaders(Map<Object, Object> properties, HttpMethodBase method) {
-    method.setRequestHeader(HEADER_REQUEST_ACCEPT_ENCODING, "gzip"); //$NON-NLS-1$
-    method.setRequestHeader(HEADER_REQUEST_USER_AGENT, USER_AGENT);
+  private void setHeaders(Map<Object, Object> properties, HttpRequestBase method) {
+    method.setHeader(HEADER_REQUEST_ACCEPT_ENCODING, "gzip"); //$NON-NLS-1$
+    method.setHeader(HEADER_REQUEST_USER_AGENT, USER_AGENT);
 
     /* Add Conditional GET Headers if present */
     if (properties != null) {
@@ -707,19 +837,19 @@ public class DefaultProtocolHandler implements IProtocolHandler {
       String ifNoneMatch = (String) properties.get(IConnectionPropertyConstants.IF_NONE_MATCH);
 
       if (ifModifiedSince != null)
-        method.setRequestHeader(HEADER_RESPONSE_IF_MODIFIED_SINCE, ifModifiedSince);
+        method.setHeader(HEADER_RESPONSE_IF_MODIFIED_SINCE, ifModifiedSince);
 
       if (ifNoneMatch != null)
-        method.setRequestHeader(HEADER_RESPONSE_IF_NONE_MATCH, ifNoneMatch);
+        method.setHeader(HEADER_RESPONSE_IF_NONE_MATCH, ifNoneMatch);
     }
 
     /* Add Accept-Language Header if present */
     if (properties != null && properties.containsKey(IConnectionPropertyConstants.ACCEPT_LANGUAGE))
-      method.setRequestHeader(HEADER_REQUEST_ACCEPT_LANGUAGE, (String) properties.get(IConnectionPropertyConstants.ACCEPT_LANGUAGE));
+      method.setHeader(HEADER_REQUEST_ACCEPT_LANGUAGE, (String) properties.get(IConnectionPropertyConstants.ACCEPT_LANGUAGE));
 
     /* Add Cookie Header if present */
     if (properties != null && properties.containsKey(IConnectionPropertyConstants.COOKIE))
-      method.setRequestHeader(HEADER_REQUEST_COOKIE, (String) properties.get(IConnectionPropertyConstants.COOKIE));
+      method.setHeader(HEADER_REQUEST_COOKIE, (String) properties.get(IConnectionPropertyConstants.COOKIE));
 
     /* Add more Headers */
     if (properties != null && properties.containsKey(IConnectionPropertyConstants.HEADERS)) {
@@ -727,94 +857,21 @@ public class DefaultProtocolHandler implements IProtocolHandler {
       Set<?> entries = headers.entrySet();
       for (Object obj : entries) {
         Entry<?, ?> entry = (Entry<?, ?>) obj;
-        method.setRequestHeader((String) entry.getKey(), (String) entry.getValue());
+        method.setHeader((String) entry.getKey(), (String) entry.getValue());
       }
     }
   }
 
-  private HttpClient initClient(Map<Object, Object> properties) {
-
-    /* Retrieve Connection Timeout from Properties if set */
-    int conTimeout = DEFAULT_CON_TIMEOUT;
-    if (properties != null && properties.containsKey(IConnectionPropertyConstants.CON_TIMEOUT))
-      conTimeout = (Integer) properties.get(IConnectionPropertyConstants.CON_TIMEOUT);
-
-    /* Create a new HttpClient */
-    HttpClient client = new HttpClient(new SimpleHttpConnectionManager(true));
-
-    /* Socket Timeout - Max. time to wait for an answer */
-    client.getHttpConnectionManager().getParams().setSoTimeout(conTimeout);
-
-    /* Connection Timeout - Max. time to wait for a connection */
-    client.getHttpConnectionManager().getParams().setConnectionTimeout(conTimeout);
-
-    return client;
-  }
-
-  private HttpMethodBase initConnection(URI link, Map<Object, Object> properties) throws IOException {
-
-    /* Create the Method. Wrap any RuntimeException into an IOException */
-    HttpMethodBase method = null;
-    try {
-      if (properties != null && properties.containsKey(IConnectionPropertyConstants.POST))
-        method = new PostMethod(link.toString());
-      else
-        method = new GetMethod(link.toString());
-    } catch (RuntimeException e) {
-      throw new IOException(e.getMessage());
-    }
-
-    /* Ignore Cookies */
-    if (method instanceof GetMethod)
-      method.getParams().setCookiePolicy(CookiePolicy.IGNORE_COOKIES);
-
-    /* Set Headers */
-    setHeaders(properties, method);
-
-    /* Set Parameters (POST only) */
-    if (method instanceof PostMethod && properties != null && properties.containsKey(IConnectionPropertyConstants.PARAMETERS)) {
-      Map<?, ?> parameters = (Map<?, ?>) properties.get(IConnectionPropertyConstants.PARAMETERS);
-      Set<?> entries = parameters.entrySet();
-      for (Object obj : entries) {
-        Entry<?, ?> entry = (Entry<?, ?>) obj;
-        String key = (String) entry.getKey();
-        if (entry.getValue() instanceof String)
-          ((PostMethod) method).addParameter(key, (String) entry.getValue());
-        else if (entry.getValue() instanceof String[]) {
-          String[] parameterValues = (String[]) entry.getValue();
-          for (String value : parameterValues) {
-            ((PostMethod) method).addParameter(key, value);
-          }
-        }
-      }
-    }
-
-    /* Follow Redirects */
-    if (method instanceof GetMethod)
-      method.setFollowRedirects(true);
-
-    return method;
-  }
-
-  private InputStream openConnection(HttpClient client, HttpMethodBase method) throws HttpException, IOException {
-
-    /* Execute the Method */
-    client.executeMethod(method);
-
-    /* Finally retrieve the InputStream from the respond body */
-    return method.getResponseBodyAsStream();
-  }
-
-  private InputStream pipeStream(InputStream inputStream, HttpMethodBase method) throws IOException {
+  private InputStream pipeStream(InputStream inputStream, CloseableHttpResponse response) throws IOException {
     Assert.isNotNull(inputStream);
 
     /* Retrieve the Content Encoding */
-    String contentEncoding = method.getResponseHeader(HEADER_RESPONSE_CONTENT_ENCODING) != null ? method.getResponseHeader(HEADER_RESPONSE_CONTENT_ENCODING).getValue() : null;
+    String contentEncoding = response.getFirstHeader(HEADER_RESPONSE_CONTENT_ENCODING) != null ? response.getFirstHeader(HEADER_RESPONSE_CONTENT_ENCODING).getValue() : null;
     boolean isGzipStream = false;
 
     /*
-     * Return in case the Content Encoding is not given and the InputStream does
-     * not support mark() and reset()
+     * Return in case the Content Encoding is not given and the InputStream does not
+     * support mark() and reset()
      */
     if ((contentEncoding == null || !contentEncoding.equals("gzip")) && !inputStream.markSupported()) //$NON-NLS-1$
       return inputStream;

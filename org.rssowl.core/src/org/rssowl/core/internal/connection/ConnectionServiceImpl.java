@@ -24,7 +24,7 @@
 
 package org.rssowl.core.internal.connection;
 
-import org.apache.commons.httpclient.protocol.SecureProtocolSocketFactory;
+import org.apache.http.conn.socket.ConnectionSocketFactory;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IConfigurationElement;
 import org.eclipse.core.runtime.IExtensionRegistry;
@@ -81,7 +81,7 @@ public class ConnectionServiceImpl implements IConnectionService {
 
   private final Map<String, IProtocolHandler> fProtocolHandler;
   private final Map<String, ICredentialsProvider> fCredentialsProvider;
-  private final SecureProtocolSocketFactory fSecureProtocolSocketFactory;
+  private final ConnectionSocketFactory fSecureProtocolSocketFactory;
   private final FeedListener fFeedListener;
 
   /** Default Constructor */
@@ -204,8 +204,7 @@ public class ConnectionServiceImpl implements IConnectionService {
   }
 
   /*
-   * @see
-   * org.rssowl.core.connection.IConnectionService#getFeedIcon(java.net.URI,
+   * @see org.rssowl.core.connection.IConnectionService#getFeedIcon(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
   @Override
@@ -254,7 +253,8 @@ public class ConnectionServiceImpl implements IConnectionService {
    * ()
    */
   @Override
-  public SecureProtocolSocketFactory getSecureProtocolSocketFactory() {
+  public ConnectionSocketFactory ConnectionSocketFactory()
+  {
     return fSecureProtocolSocketFactory;
   }
 
@@ -275,8 +275,7 @@ public class ConnectionServiceImpl implements IConnectionService {
   }
 
   /*
-   * @see
-   * org.rssowl.core.connection.IConnectionService#getProxyCredentials(java.
+   * @see org.rssowl.core.connection.IConnectionService#getProxyCredentials(java.
    * net.URI)
    */
   @Override
@@ -348,8 +347,8 @@ public class ConnectionServiceImpl implements IConnectionService {
   }
 
   /* Load SSLHandler Contribution */
-  private SecureProtocolSocketFactory loadSSLHandler() {
-    return (SecureProtocolSocketFactory) ExtensionUtils.loadSingletonExecutableExtension(SSL_HANDLER_EXTENSION_POINT);
+  private ConnectionSocketFactory loadSSLHandler() {
+    return (ConnectionSocketFactory) ExtensionUtils.loadSingletonExecutableExtension(SSL_HANDLER_EXTENSION_POINT);
   }
 
   private void registerURLStreamHandlers() {
