@@ -31,6 +31,7 @@ import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
 import org.eclipse.ui.application.WorkbenchAdvisor;
 import org.eclipse.ui.application.WorkbenchWindowAdvisor;
 import org.rssowl.core.util.LoggingSafeRunnable;
+import org.rssowl.core.util.SecurityUtils;
 
 /**
  * @author bpasero
@@ -51,6 +52,8 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
    */
   public ApplicationWorkbenchAdvisor(Runnable runAfterUIStartup) {
     fRunAfterUIStartup = runAfterUIStartup;
+
+    SecurityUtils.setUnlimitedSecurity();
   }
 
   /*
