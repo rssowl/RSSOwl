@@ -26,7 +26,7 @@ http://www.rssowl.org/legal/epl-v10.html
    </configIni>
 
    <launcherArgs>
-      <vmArgs>-Xms15m -Xmx192m -Dosgi.requiredJavaVersion=1.8 -Djava.util.Arrays.useLegacyMergeSort=true
+      <vmArgs>-Xms15m -Xmx192m -Dosgi.requiredJavaVersion=1.8 -Djava.util.Arrays.useLegacyMergeSort=true --add-modules=ALL-SYSTEM
       </vmArgs>
    </launcherArgs>
 
