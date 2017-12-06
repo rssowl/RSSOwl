@@ -335,7 +335,8 @@ public class ConnectionTests {
   @Test
   @SuppressWarnings("nls")
   public void testHTTPFeed() throws Exception {
-    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+//    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+    URI feedUrl = new URI("http://127.0.0.1:8080/feed/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     InputStream inS = Owl.getConnectionService().getHandler(feed.getLink()).openStream(feed.getLink(), null, null);
@@ -353,7 +354,8 @@ public class ConnectionTests {
   @Test
   @SuppressWarnings("nls")
   public void testFEEDFeed() throws Exception {
-    URI feedUrl = new URI("feed://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+//    URI feedUrl = new URI("feed://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+    URI feedUrl = new URI("feed://127.0.0.1:8080/feed/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     InputStream inS = Owl.getConnectionService().getHandler(feed.getLink()).openStream(feed.getLink(), null, null);
@@ -372,7 +374,7 @@ public class ConnectionTests {
   @SuppressWarnings("nls")
   public void testHTTPSFeed() throws Exception {
     // URI feedUrl = new URI("https://sourceforge.net/export/rss2_projnews.php?group_id=141424&rss_fulltext=1");
-    URI feedUrl = new URI("https://www.heise.de");
+    URI feedUrl = new URI("https://127.0.0.1:8443/feed/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     InputStream inS = Owl.getConnectionService().getHandler(feed.getLink()).openStream(feed.getLink(), null, null);
@@ -447,7 +449,8 @@ public class ConnectionTests {
   @Test
   public void testStoredCredentialsDeleted() throws Exception {
     IConnectionService conManager = Owl.getConnectionService();
-    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/authrequired/feed_rdf.xml");
+//    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/authrequired/feed_rdf.xml");
+    URI feedUrl = new URI("https://127.0.0.1:8443/auth/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     DynamicDAO.save(feed);
@@ -465,7 +468,7 @@ public class ConnectionTests {
 
       @Override
       public String getUsername() {
-        return "bpasero";
+        return "1234";
       }
     };
 

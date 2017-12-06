@@ -1,0 +1,10 @@
+<rss version="2.0">
+<channel><title>Some Feed Title</title>
+<link>http://127.0.0.1:8080/feed/some_feed.xml</link>
+<description>Some Feed Description</description>
+<item><author>NoCopyrightSounds</author><title>CØDE - Duck Face [NCS Release]</title><link>https://www.youtube.com/watch?v=-cWkoBJuu-k</link></item>
+<item><author>NoCopyrightSounds</author><title>Mekanism - Green Lights [NCS Release]</title><link>https://www.youtube.com/watch?v=tFfiyKUQqQg</link></item>
+</channel>
+</rss>
+
+
