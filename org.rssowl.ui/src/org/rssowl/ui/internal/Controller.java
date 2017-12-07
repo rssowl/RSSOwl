@@ -284,7 +284,7 @@ public class Controller {
   private final AtomicLong fLastGoogleLoginCancel = new AtomicLong(0);
   private BookMarkAdapter fBookMarkListener;
   private LabelListener fLabelListener;
-  private ListenerList fBookMarkLoadListeners = new ListenerList();
+  private ListenerList<BookMarkLoadListener> fBookMarkLoadListeners = new ListenerList<>();
   private final int fConnectionTimeout;
   private List<ShareProvider> fShareProviders = new ArrayList<ShareProvider>();
   private Map<String, LinkTransformer> fLinkTransformers = new HashMap<String, LinkTransformer>();
@@ -1851,7 +1851,7 @@ public class Controller {
     if (InternalOwl.TESTING)
       return;
 
-    ICommandService commandService = (ICommandService) PlatformUI.getWorkbench().getService(ICommandService.class);
+    ICommandService commandService = PlatformUI.getWorkbench().getService(ICommandService.class);
     if (commandService == null)
       return;
 
@@ -1867,7 +1867,7 @@ public class Controller {
     if (InternalOwl.TESTING)
       return;
 
-    ICommandService commandService = (ICommandService) PlatformUI.getWorkbench().getService(ICommandService.class);
+    ICommandService commandService = PlatformUI.getWorkbench().getService(ICommandService.class);
     if (commandService == null)
       return;
 
@@ -1890,7 +1890,7 @@ public class Controller {
     if (InternalOwl.TESTING)
       return;
 
-    ICommandService commandService = (ICommandService) PlatformUI.getWorkbench().getService(ICommandService.class);
+    ICommandService commandService = PlatformUI.getWorkbench().getService(ICommandService.class);
     if (commandService == null)
       return;
 

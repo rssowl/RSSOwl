@@ -8,6 +8,7 @@ import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.HttpConfiguration;
 import org.eclipse.jetty.server.HttpConnectionFactory;
+import org.eclipse.jetty.server.NCSARequestLog;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.SecureRequestCustomizer;
 import org.eclipse.jetty.server.Server;
@@ -16,6 +17,7 @@ import org.eclipse.jetty.server.SslConnectionFactory;
 import org.eclipse.jetty.server.handler.ContextHandler;
 import org.eclipse.jetty.server.handler.DefaultHandler;
 import org.eclipse.jetty.server.handler.HandlerList;
+import org.eclipse.jetty.server.handler.RequestLogHandler;
 import org.eclipse.jetty.server.handler.ResourceHandler;
 import org.eclipse.jetty.util.resource.Resource;
 import org.eclipse.jetty.util.security.Constraint;
@@ -58,10 +60,21 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * https://www.eclipse.org/jetty/documentation/9.4.x/embedded-examples.html
  */
-public class TestUtils {
+public class TestWebServer {
   public static final String someFeedName = "some_feed.xml";
 
   public static void main(String[] args) {
+
+    NCSARequestLog requestLog = new NCSARequestLog();
+//    requestLog.setFilename("/path/to/my/logs/yyyy_mm_dd.request.log");
+//    requestLog.setFilenameDateFormat("yyyy_MM_dd");
+//    requestLog.setAppend(true);
+//    requestLog.setRetainDays(1);
+    requestLog.setExtended(true);
+    requestLog.setLogCookies(false);
+    requestLog.setLogTimeZone("GMT");
+    RequestLogHandler requestLogHandler = new RequestLogHandler();
+    requestLogHandler.setRequestLog(requestLog);
 
     try {
       String jettyDistKeystore = "unimportant_weak.keystore";
@@ -187,10 +200,25 @@ public class TestUtils {
         }
       });
 
+      ContextHandler updateProgramCH = new ContextHandler("/rssowl/");
+      {
+        String updateSitePath = "file:///S:\\CODE\\ProjectsMy\\java\\rssowl\\rssowlprj\\update_site_2_3_1\\rssowl";
+        Resource updateSiteResource = Resource.newResource(updateSitePath);
+        if (updateSiteResource.isAlias())
+          updateSitePath = updateSiteResource.getAlias().toString();
+
+        ResourceHandler updateProgramRH = new ResourceHandler();
+        updateProgramRH.setDirAllowed(true);
+        updateProgramRH.setDirectoriesListed(true);
+        updateProgramRH.setResourceBase(updateSitePath);
+
+        updateProgramCH.setHandler(updateProgramRH);
+      }
+
       DefaultHandler defaultHandler = new DefaultHandler();
 
       HandlerList handlers = new HandlerList();
-      handlers.setHandlers(new Handler[] { feedContextHandler, authContextHandler, quitContextHandler, defaultHandler });
+      handlers.setHandlers(new Handler[] { requestLogHandler, updateProgramCH, feedContextHandler, authContextHandler, quitContextHandler, defaultHandler });
       server.setHandler(handlers);
 
 //    System.out.println(server.dump());

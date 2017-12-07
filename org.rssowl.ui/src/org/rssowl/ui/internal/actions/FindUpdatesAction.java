@@ -63,6 +63,10 @@ import java.net.URL;
  */
 public class FindUpdatesAction extends Action implements IWorkbenchWindowActionDelegate {
   private static final String UPDATE_SITE = "http://boreal.rssowl.org/update/program/"; //$NON-NLS-1$
+
+  /* System Property to Control Site for Updates to look for */
+  private static final String EXTENSION_SITE_PROPERTY = "updateSite"; //$NON-NLS-1$
+
   private Shell fShell;
   private final boolean fUserInitiated;
 
@@ -72,8 +76,8 @@ public class FindUpdatesAction extends Action implements IWorkbenchWindowActionD
   }
 
   /**
-   * @param userInitiated if <code>true</code> will open a dialog informing
-   * about updates, even when none exist.
+   * @param userInitiated if <code>true</code> will open a dialog informing about
+   * updates, even when none exist.
    */
   public FindUpdatesAction(boolean userInitiated) {
     fUserInitiated = userInitiated;
@@ -90,11 +94,25 @@ public class FindUpdatesAction extends Action implements IWorkbenchWindowActionD
       return;
 
     try {
-
-      /* Scope to RSSOwl Updates Only */
       UpdateSearchScope scope = new UpdateSearchScope();
-      scope.addSearchSite("RSSOwl.org", new URL(UPDATE_SITE), null); //$NON-NLS-1$
-      scope.setFeatureProvidedSitesEnabled(false);
+
+      /* Check for User Defined Sites from System Property */
+      String extensionSites = System.getProperty(EXTENSION_SITE_PROPERTY);
+      if (StringUtils.isSet(extensionSites)) {
+        try {
+          URL url = new URL(extensionSites);
+          scope.addSearchSite(url.toString(), url, null);
+        } catch (MalformedURLException e) {
+          // skip bad URLs
+        }
+      }
+
+      /* Add RSSOwl.org if user did not define any other sites */
+      if (scope.getSearchSites().length == 0) {
+        URL url = new URL(UPDATE_SITE);
+        scope.addSearchSite("RSSOwl.org", url, null); //$NON-NLS-1$
+        scope.setFeatureProvidedSitesEnabled(false);
+      }
 
       /* Run in Update Job */
       final UpdateJob job = new UpdateJob(Messages.FindUpdatesAction_UPDATE_SEARCH, true, false);
