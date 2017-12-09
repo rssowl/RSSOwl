@@ -38,7 +38,6 @@ import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.core.runtime.SafeRunner;
 import org.eclipse.core.runtime.Status;
-import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.IStructuredSelection;
@@ -50,7 +49,6 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.commands.ICommandService;
-import org.eclipse.update.ui.UpdateJob;
 import org.rssowl.core.IApplicationService;
 import org.rssowl.core.Owl;
 import org.rssowl.core.connection.AuthenticationRequiredException;
@@ -102,7 +100,6 @@ import org.rssowl.core.util.TaskAdapter;
 import org.rssowl.core.util.Triple;
 import org.rssowl.core.util.URIUtils;
 import org.rssowl.ui.internal.OwlUI.Layout;
-import org.rssowl.ui.internal.actions.FindUpdatesAction;
 import org.rssowl.ui.internal.actions.OpenInBrowserAction;
 import org.rssowl.ui.internal.actions.SendLinkAction;
 import org.rssowl.ui.internal.dialogs.FatalOutOfMemoryErrorDialog;
@@ -1437,9 +1434,10 @@ public class Controller {
     /* Unregister Listeners */
     unregisterListeners();
 
+    //XXX FUNCTION_REDUCTION part of old updater
     /* Cancel any pending Update Jobs */
-    if (!Application.IS_ECLIPSE && !fDisableUpdate)
-      Job.getJobManager().cancel(UpdateJob.FAMILY);
+//    if (!Application.IS_ECLIPSE && !fDisableUpdate)
+//      Job.getJobManager().cancel(UpdateJob.FAMILY);
 
     /* Stop the Download Service */
     if (fDownloadService != null)
@@ -1532,19 +1530,21 @@ public class Controller {
       });
     }
 
+    //TODO FUNCTION_RDUCTION support auto updating at start again using new updater
+    //old updater
     /* Check for Updates if Set */
-    else if (!Application.IS_ECLIPSE && !fDisableUpdate) {
-      JobRunner.runInUIThread(5000, OwlUI.getActiveShell(), new Runnable() {
-        @Override
-        public void run() {
-          if (!fShuttingDown && Owl.getPreferenceService().getGlobalScope().getBoolean(DefaultPreferences.UPDATE_ON_STARTUP)) {
-            FindUpdatesAction action = new FindUpdatesAction(false);
-            action.init(OwlUI.getWindow());
-            action.run();
-          }
-        }
-      });
-    }
+//    else if (!Application.IS_ECLIPSE && !fDisableUpdate) {
+//      JobRunner.runInUIThread(5000, OwlUI.getActiveShell(), new Runnable() {
+//        @Override
+//        public void run() {
+//          if (!fShuttingDown && Owl.getPreferenceService().getGlobalScope().getBoolean(DefaultPreferences.UPDATE_ON_STARTUP)) {
+//            FindUpdatesAction action = new FindUpdatesAction(false);
+//            action.init(OwlUI.getWindow());
+//            action.run();
+//          }
+//        }
+//      });
+//    }
 
     /* Inform the User if the ApplicationServer is not running */
     ApplicationServer server = ApplicationServer.getDefault();

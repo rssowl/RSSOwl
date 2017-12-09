@@ -33,6 +33,7 @@ import org.eclipse.ui.IWorkbenchWindowActionDelegate;
  * An action to download additional languages to RSSOwl.
  *
  * @author bpasero
+ * @deprecated XXX FUNCTION_REDUCTION part of old updater
  */
 public class DownloadLanguagesAction implements IWorkbenchWindowActionDelegate {
   private IWorkbenchWindow fWindow;

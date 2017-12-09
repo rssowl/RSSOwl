@@ -55,6 +55,7 @@ import java.net.URL;
 
 /**
  * @author bpasero
+ * @deprecated XXX FUNCTION_REDUCTION part of old updater
  */
 public class FindExtensionsAction extends Action implements IWorkbenchWindowActionDelegate {
 

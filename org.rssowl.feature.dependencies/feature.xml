@@ -2,7 +2,7 @@
 <feature
       id="org.rssowl.dependencies"
       label="RSSOwl Dependencies"
-      version="2.3.0.qualifier"
+      version="2.4.0.qualifier"
       provider-name="RSSOwl.org">
 
    <description>
@@ -260,20 +260,6 @@ litigation.
          download-size="0"
          install-size="0"
          version="3.7.101.v20170815-1446"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.update.core"
-         download-size="0"
-         install-size="0"
-         version="3.2.800.v20160413-0713"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.update.ui"
-         download-size="0"
-         install-size="0"
-         version="3.3.0.v20120912-142556"
          unpack="false"/>
 
    <plugin

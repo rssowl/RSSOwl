@@ -60,6 +60,7 @@ import java.net.URL;
  * installed extensions.
  *
  * @author bpasero
+ * @deprecated XXX FUNCTION_REDUCTION part of old updater
  */
 public class FindUpdatesAction extends Action implements IWorkbenchWindowActionDelegate {
   private static final String UPDATE_SITE = "http://boreal.rssowl.org/update/program/"; //$NON-NLS-1$

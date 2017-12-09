@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="%product.name" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" version="2.3.0" useFeatures="true" includeLaunchers="true">
+<product name="%product.name" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" version="2.4.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.rssowl.ui/icons/product/about.gif"/>

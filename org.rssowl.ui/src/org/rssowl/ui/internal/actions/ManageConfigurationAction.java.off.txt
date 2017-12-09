@@ -36,6 +36,7 @@ import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 
 /**
  * @author bpasero
+ * @deprecated XXX FUNCTION_REDUCTION part of old updater
  */
 public class ManageConfigurationAction extends Action implements IWorkbenchWindowActionDelegate {
   private static final String CONFIGURATION_VIEW_SHOW_NESTED_FEATURES = "ConfigurationView.showNestedFeatures"; //$NON-NLS-1$

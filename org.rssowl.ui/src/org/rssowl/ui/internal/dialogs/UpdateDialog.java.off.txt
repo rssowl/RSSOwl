@@ -69,6 +69,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * a description of the update.
  *
  * @author bpasero
+ * @deprecated XXX FUNCTION_REDUCTION part of old updater
  */
 public class UpdateDialog extends TitleAreaDialog {
   private static final String PLUGINS = "plugins"; //$NON-NLS-1$
