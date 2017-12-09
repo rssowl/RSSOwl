@@ -202,7 +202,7 @@ public class TestWebServer {
 
       ContextHandler updateProgramCH = new ContextHandler("/rssowl/");
       {
-        String updateSitePath = "file:///S:\\CODE\\ProjectsMy\\java\\rssowl\\rssowlprj\\update_site_2_3_1\\rssowl";
+        String updateSitePath = "file:///S:\\CODE\\ProjectsMy\\java\\rssowl\\export\\update_site_2_3_1\\rssowl";
         Resource updateSiteResource = Resource.newResource(updateSitePath);
         if (updateSiteResource.isAlias())
           updateSitePath = updateSiteResource.getAlias().toString();

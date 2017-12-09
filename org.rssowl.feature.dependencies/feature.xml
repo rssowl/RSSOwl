@@ -283,4 +283,11 @@ litigation.
          version="1.2.300.v20170505-1235"
          unpack="false"/>
 
+   <plugin
+         id="org.eclipse.equinox.concurrent"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>
