@@ -3,7 +3,7 @@
 
 2.3.0-beta
 - runs with java 9
-- https websites which needed JCE should work with latest jre 8u151+ and jre 9+ even without JCE
+- https websites which needed JCE should without it when jre 9+ is used
 - updated eclipse rcp to 4.7
 - updated httpclient to 4.5.3
 - fixed 2 (maybe) memory leaks
