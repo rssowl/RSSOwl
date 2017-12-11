@@ -282,6 +282,7 @@ public class ImportElementsPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
     boolean isWelcome = (getWizard() instanceof WelcomeWizard);
 
@@ -300,6 +301,7 @@ public class ImportElementsPage extends WizardPage {
 
     /* Open Preview on Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         openPreview(event.getSelection());
       }
@@ -307,6 +309,7 @@ public class ImportElementsPage extends WizardPage {
 
     /* Control Preview Button Enablement */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         ISelection selection = event.getSelection();
         fPreviewButton.setEnabled(!selection.isEmpty() && ((IStructuredSelection) selection).getFirstElement() instanceof IBookMark);
@@ -552,6 +555,7 @@ public class ImportElementsPage extends WizardPage {
 
     /* Import Runnable */
     Runnable runnable = new Runnable() {
+      @Override
       public void run() {
         try {
 
@@ -668,6 +672,7 @@ public class ImportElementsPage extends WizardPage {
       setMessage(Messages.ImportElementsPage_INVALID_OPML_WARNING, IMessageProvider.WARNING);
 
       IRunnableWithProgress runnable = new IRunnableWithProgress() {
+        @Override
         public void run(final IProgressMonitor monitor) throws InvocationTargetException {
           monitor.beginTask(Messages.ImportElementsPage_SEARCHING_FOR_FEEDS, IProgressMonitor.UNKNOWN);
           fCurrentProgressMonitor = monitor;
@@ -714,6 +719,7 @@ public class ImportElementsPage extends WizardPage {
 
   private void importFromOnlineResource(final URI link) throws InvocationTargetException, InterruptedException {
     IRunnableWithProgress runnable = new IRunnableWithProgress() {
+      @Override
       public void run(final IProgressMonitor monitor) throws InvocationTargetException {
         InputStream in = null;
         boolean canceled = false;
@@ -751,6 +757,7 @@ public class ImportElementsPage extends WizardPage {
 
             /* Show in UI */
             JobRunner.runInUIThread(getShell(), new Runnable() {
+              @Override
               public void run() {
                 setImportedElements(types);
                 updateMessage(true);
@@ -778,6 +785,7 @@ public class ImportElementsPage extends WizardPage {
                 try {
                   final AuthenticationRequiredException authEx = (AuthenticationRequiredException) e;
                   JobRunner.runSyncedInUIThread(shell, new Runnable() {
+                    @Override
                     public void run() {
                       try {
 
@@ -862,6 +870,7 @@ public class ImportElementsPage extends WizardPage {
 
   private void importFromGoogleReader() throws InvocationTargetException, InterruptedException {
     IRunnableWithProgress runnable = new IRunnableWithProgress() {
+      @Override
       public void run(final IProgressMonitor monitor) throws InvocationTargetException {
         InputStream in = null;
         boolean canceled = false;
@@ -915,6 +924,7 @@ public class ImportElementsPage extends WizardPage {
 
             /* Show in UI */
             JobRunner.runInUIThread(getShell(), new Runnable() {
+              @Override
               public void run() {
                 setImportedElements(types);
                 updateMessage(true);
@@ -1025,6 +1035,7 @@ public class ImportElementsPage extends WizardPage {
 
   private void importFromKeywordSearch(final String keywords, final boolean isLocalizedSearch) throws Exception {
     IRunnableWithProgress runnable = new IRunnableWithProgress() {
+      @Override
       public void run(IProgressMonitor monitor) throws InvocationTargetException {
         try {
           monitor.beginTask(Messages.ImportElementsPage_SEARCHING_FOR_FEEDS, IProgressMonitor.UNKNOWN);
@@ -1075,6 +1086,7 @@ public class ImportElementsPage extends WizardPage {
     /* Sort List: First process likely feeds, then others */
     final String resourceLinkValue = resourceLink.toString();
     Collections.sort(links, new Comparator<String>() {
+      @Override
       public int compare(String o1, String o2) {
 
         /* Check common feed patterns in URL */
@@ -1195,6 +1207,7 @@ public class ImportElementsPage extends WizardPage {
 
           /* Directly show in Viewer */
           JobRunner.runInUIThread(getShell(), new Runnable() {
+            @Override
             public void run() {
               addImportedElement(bookmark);
             }
@@ -1227,6 +1240,7 @@ public class ImportElementsPage extends WizardPage {
     /* Inform if no feeds have been found */
     if (counter == 0) {
       JobRunner.runInUIThread(getShell(), new Runnable() {
+        @Override
         public void run() {
           setMessage(Messages.ImportElementsPage_NO_FEEDS_FOUND, IMessageProvider.INFORMATION);
         }

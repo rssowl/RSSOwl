@@ -168,6 +168,7 @@ public interface IFolder extends IFolderChild {
    *
    * @return the name of the folder.
    */
+  @Override
   String getName();
 
   /**
@@ -194,5 +195,6 @@ public interface IFolder extends IFolderChild {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   FolderReference toReference();
 }

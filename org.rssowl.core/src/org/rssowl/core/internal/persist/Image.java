@@ -63,6 +63,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#setLink(java.net.URI)
    */
+  @Override
   public synchronized void setLink(URI link) {
     if (link != null)
       fLink = link.toString();
@@ -71,6 +72,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#setTitle(java.lang.String)
    */
+  @Override
   public synchronized void setTitle(String title) {
     fTitle = title;
   }
@@ -78,6 +80,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#setHomepage(java.net.URI)
    */
+  @Override
   public synchronized void setHomepage(URI homepage) {
     fHomepage = getURIText(homepage);
   }
@@ -85,6 +88,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#setWidth(int)
    */
+  @Override
   public synchronized void setWidth(int width) {
     fWidth = width;
   }
@@ -92,6 +96,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#setHeight(int)
    */
+  @Override
   public synchronized void setHeight(int height) {
     fHeight = height;
   }
@@ -99,6 +104,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#setDescription(java.lang.String)
    */
+  @Override
   public synchronized void setDescription(String description) {
     fDescription = description;
   }
@@ -106,6 +112,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#getDescription()
    */
+  @Override
   public synchronized String getDescription() {
     return fDescription;
   }
@@ -113,6 +120,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#getHeight()
    */
+  @Override
   public synchronized int getHeight() {
     return fHeight;
   }
@@ -120,6 +128,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#getHomepage()
    */
+  @Override
   public synchronized URI getHomepage() {
     return createURI(fHomepage);
   }
@@ -127,6 +136,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#getTitle()
    */
+  @Override
   public synchronized String getTitle() {
     return fTitle;
   }
@@ -134,6 +144,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#getLink()
    */
+  @Override
   public synchronized URI getLink() {
     return createURI(fLink);
   }
@@ -141,6 +152,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.IImage#getWidth()
    */
+  @Override
   public synchronized int getWidth() {
     return fWidth;
   }
@@ -185,6 +197,7 @@ public class Image extends Persistable implements IImage {
   /*
    * @see org.rssowl.core.model.types.MergeCapable#merge(java.lang.Object)
    */
+  @Override
   public synchronized MergeResult merge(IImage objectToMerge) {
     Assert.isNotNull(objectToMerge);
     synchronized (objectToMerge) {

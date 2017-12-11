@@ -38,6 +38,7 @@ public class CustomCDFElementHandler implements IElementHandler {
    * @see org.rssowl.core.interpreter.IElementHandler#processElement(org.jdom.Element,
    * org.rssowl.core.model.types.IExtendableType)
    */
+  @Override
   public void processElement(Element element, IPersistable type) {
     if (type instanceof IEntity) {
       ((IEntity) type).setProperty(element.getText(), element.getText());

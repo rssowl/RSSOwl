@@ -24,7 +24,7 @@
 
 package org.rssowl.core.connection;
 
-import org.apache.commons.httpclient.protocol.SecureProtocolSocketFactory;
+import org.apache.http.conn.socket.ConnectionSocketFactory;
 import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.rssowl.core.persist.IConditionalGet;
@@ -143,7 +143,7 @@ public interface IConnectionService {
    *
    * @return the contributed or default Factory for Secure Socket Connections.
    */
-  SecureProtocolSocketFactory getSecureProtocolSocketFactory();
+  ConnectionSocketFactory ConnectionSocketFactory();
 
   /**
    * Return the Authentication Credentials for the given Feed or NULL if none.

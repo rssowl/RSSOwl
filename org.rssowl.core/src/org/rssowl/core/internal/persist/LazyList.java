@@ -59,6 +59,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#toArray()
    */
+  @Override
   public Object[] toArray() {
     Object[] array = new Object[size()];
     int index = 0;
@@ -72,6 +73,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
    * @see java.util.List#toArray(T[])
    */
   @SuppressWarnings("unchecked")
+  @Override
   public <T> T[] toArray(T[] a) {
     int size = size();
     T[] array = a;
@@ -94,6 +96,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#get(int)
    */
+  @Override
   public E get(int index) {
     return getEntity(fIds.get(index));
   }
@@ -101,6 +104,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#indexOf(java.lang.Object)
    */
+  @Override
   public int indexOf(Object o) {
     if (o instanceof IEntity) {
       IEntity entity = (IEntity) o;
@@ -113,6 +117,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#lastIndexOf(java.lang.Object)
    */
+  @Override
   public int lastIndexOf(Object o) {
     if (o instanceof IEntity) {
       IEntity entity = (IEntity) o;
@@ -125,6 +130,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#listIterator()
    */
+  @Override
   public ListIterator<E> listIterator() {
     return listIterator(0);
   }
@@ -132,40 +138,48 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#listIterator(int)
    */
+  @Override
   public ListIterator<E> listIterator(int index) {
     return new ListIterator<E>() {
 
       private int cursor;
       private int lastReturned = -1;
 
+      @Override
       public boolean hasNext() {
         return cursor < fIds.size();
       }
 
+      @Override
       public boolean hasPrevious() {
         return cursor > 0;
       }
 
+      @Override
       public E next() {
         E entity = getEntity(fIds.get(cursor));
         lastReturned = cursor++;
         return entity;
       }
 
+      @Override
       public int nextIndex() {
         return cursor;
       }
 
+      @Override
       public E previous() {
         E entity = getEntity(fIds.get(--cursor));
         lastReturned = cursor;
         return entity;
       }
 
+      @Override
       public int previousIndex() {
         return cursor - 1;
       }
 
+      @Override
       public void remove() {
         if (lastReturned == -1)
           throw new IllegalStateException();
@@ -177,10 +191,12 @@ public final class LazyList<E extends IEntity> implements List<E> {
         lastReturned = -1;
       }
 
+      @Override
       public void set(E o) {
         throw new UnsupportedOperationException();
       }
 
+      @Override
       public void add(E o) {
         throw new UnsupportedOperationException();
       }
@@ -190,6 +206,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#remove(int)
    */
+  @Override
   public E remove(int index) {
     return getEntity(fIds.removeByIndex(index));
   }
@@ -197,6 +214,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#iterator()
    */
+  @Override
   public Iterator<E> iterator() {
     return listIterator();
   }
@@ -204,6 +222,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#clear()
    */
+  @Override
   public void clear() {
     fIds.clear();
   }
@@ -211,6 +230,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#contains(java.lang.Object)
    */
+  @Override
   public boolean contains(Object o) {
     if (o instanceof IEntity) {
       return fIds.contains(((IEntity) o).getId());
@@ -221,6 +241,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#containsAll(java.util.Collection)
    */
+  @Override
   public boolean containsAll(Collection<?> c) {
     for (Object o : c) {
       if (!contains(o))
@@ -232,6 +253,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#isEmpty()
    */
+  @Override
   public boolean isEmpty() {
     return fIds.isEmpty();
   }
@@ -239,6 +261,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#remove(java.lang.Object)
    */
+  @Override
   public boolean remove(Object o) {
     int index = indexOf(o);
     if (index >= 0) {
@@ -251,6 +274,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#removeAll(java.util.Collection)
    */
+  @Override
   public boolean removeAll(Collection<?> c) {
     boolean changed = false;
     for (Object o : c)
@@ -262,6 +286,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#size()
    */
+  @Override
   public int size() {
     return fIds.size();
   }
@@ -269,6 +294,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#subList(int, int)
    */
+  @Override
   public List<E> subList(int fromIndex, int toIndex) {
     throw new UnsupportedOperationException();
   }
@@ -276,6 +302,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#retainAll(java.util.Collection)
    */
+  @Override
   public boolean retainAll(Collection<?> c) {
     throw new UnsupportedOperationException();
   }
@@ -283,6 +310,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#add(int, java.lang.Object)
    */
+  @Override
   public void add(int index, E element) {
     throw new UnsupportedOperationException();
   }
@@ -290,6 +318,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#addAll(int, java.util.Collection)
    */
+  @Override
   public boolean addAll(int index, Collection<? extends E> c) {
     throw new UnsupportedOperationException();
   }
@@ -297,6 +326,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#set(int, java.lang.Object)
    */
+  @Override
   public E set(int index, E element) {
     throw new UnsupportedOperationException();
   }
@@ -304,6 +334,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#add(java.lang.Object)
    */
+  @Override
   public boolean add(E e) {
     throw new UnsupportedOperationException();
   }
@@ -311,6 +342,7 @@ public final class LazyList<E extends IEntity> implements List<E> {
   /*
    * @see java.util.List#addAll(java.util.Collection)
    */
+  @Override
   public boolean addAll(Collection<? extends E> c) {
     throw new UnsupportedOperationException();
   }

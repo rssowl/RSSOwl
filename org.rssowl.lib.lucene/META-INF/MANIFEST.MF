@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.rssowl.lib.lucene
-Bundle-Version: 2.2.1.qualifier
+Bundle-Version: 2.4.0.qualifier
 Export-Package: org.apache.lucene,
  org.apache.lucene.analysis,
  org.apache.lucene.analysis.standard,
@@ -16,5 +16,5 @@ Export-Package: org.apache.lucene,
  org.apache.lucene.store,
  org.apache.lucene.util
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Localization: plugin

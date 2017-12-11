@@ -758,5 +758,6 @@ public interface IFeed extends IEntity, MergeCapable<IFeed> {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   FeedReference toReference();
 }

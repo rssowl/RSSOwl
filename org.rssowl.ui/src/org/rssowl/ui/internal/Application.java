@@ -76,11 +76,13 @@ public class Application implements IApplication {
   /*
    * @see org.eclipse.equinox.app.IApplication#start(org.eclipse.equinox.app.IApplicationContext)
    */
+  @Override
   public Object start(IApplicationContext context) throws Exception {
 
     /* Set Handshake-Handler to Application Server */
     ApplicationServer server = ApplicationServer.getDefault();
     server.setHandshakeHandler(new ApplicationServer.HandshakeHandler() {
+      @Override
       public void handle(String token) {
         if (StringUtils.isSet(token)) {
           restoreApplication();
@@ -97,6 +99,7 @@ public class Application implements IApplication {
 
       /* Handle possible Link supplied after startup */
       Runnable runAfterUIStartup = new Runnable() {
+        @Override
         public void run() {
           String link = parseLink(Platform.getCommandLineArgs());
           if (StringUtils.isSet(link))
@@ -151,6 +154,7 @@ public class Application implements IApplication {
   /*
    * @see org.eclipse.equinox.app.IApplication#stop()
    */
+  @Override
   public void stop() {
     final IWorkbench workbench = PlatformUI.getWorkbench();
     if (workbench == null)
@@ -158,6 +162,7 @@ public class Application implements IApplication {
 
     final Display display = workbench.getDisplay();
     display.syncExec(new Runnable() {
+      @Override
       public void run() {
         if (!display.isDisposed())
           workbench.close();
@@ -180,6 +185,7 @@ public class Application implements IApplication {
     final Shell shell = OwlUI.getPrimaryShell();
     if (shell != null) {
       JobRunner.runInUIThread(shell, new Runnable() {
+        @Override
         public void run() {
 
           /* Restore from Tray */
@@ -216,6 +222,7 @@ public class Application implements IApplication {
     /* Check for existing BookMark */
     final IBookMark existingBookMark = getBookMark(normalizedLink);
     JobRunner.runInUIThread(shell, new Runnable() {
+      @Override
       public void run() {
 
         /* Open Dialog to add this new BookMark */

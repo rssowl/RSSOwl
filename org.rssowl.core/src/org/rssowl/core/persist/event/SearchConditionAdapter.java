@@ -29,7 +29,7 @@ import java.util.Set;
 /**
  * Provides an empty implementation of <code>SearchMarkListener</code>.
  * Useful if the client only needs to implement a subset of the interface.
- * 
+ *
  * @author bpasero
  */
 public class SearchConditionAdapter implements SearchConditionListener {
@@ -37,15 +37,18 @@ public class SearchConditionAdapter implements SearchConditionListener {
   /*
    * @see org.rssowl.core.model.events.SearchConditionListener#searchConditionAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<SearchConditionEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.SearchConditionListener#searchConditionDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<SearchConditionEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.SearchConditionListener#searchConditionUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<SearchConditionEvent> events) { }
 }

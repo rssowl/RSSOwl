@@ -271,6 +271,7 @@ public class CleanUpModel {
 
           /* Group of Bookmarks referencing the same Feed sorted by Creation Date */
           Set<IBookMark> sortedBookmarkGroup = new TreeSet<IBookMark>(new Comparator<IBookMark>() {
+            @Override
             public int compare(IBookMark o1, IBookMark o2) {
               if (o1.equals(o2))
                 return 0;
@@ -393,6 +394,7 @@ public class CleanUpModel {
 
           /* Sort by Date */
           Collections.sort(resolvedNews, new Comparator<INews>() {
+            @Override
             public int compare(INews news1, INews news2) {
               return DateUtils.getRecentDate(news1).compareTo(DateUtils.getRecentDate(news2));
             }

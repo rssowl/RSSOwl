@@ -79,10 +79,13 @@ public class NavigationActionFactory implements IExecutableExtensionFactory, IEx
       fType = type;
     }
 
+    @Override
     public void dispose() {}
 
+    @Override
     public void init(IWorkbenchWindow window) {}
 
+    @Override
     public void run(IAction action) {
 
       /* Tab Navigation */
@@ -252,6 +255,7 @@ public class NavigationActionFactory implements IExecutableExtensionFactory, IEx
       return targetNode != null;
     }
 
+    @Override
     public void selectionChanged(IAction action, ISelection selection) {}
   }
 
@@ -376,6 +380,7 @@ public class NavigationActionFactory implements IExecutableExtensionFactory, IEx
   /*
    * @see org.eclipse.core.runtime.IExecutableExtensionFactory#create()
    */
+  @Override
   public Object create() {
     if (NavigationActionType.NEXT_NEWS.getId().equals(fId))
       return new NavigationAction(NavigationActionType.NEXT_NEWS);
@@ -426,6 +431,7 @@ public class NavigationActionFactory implements IExecutableExtensionFactory, IEx
    * @see org.eclipse.core.runtime.IExecutableExtension#setInitializationData(org.eclipse.core.runtime.IConfigurationElement,
    * java.lang.String, java.lang.Object)
    */
+  @Override
   public void setInitializationData(IConfigurationElement config, String propertyName, Object data) throws CoreException {
     if (data instanceof String)
       fId = (String) data;

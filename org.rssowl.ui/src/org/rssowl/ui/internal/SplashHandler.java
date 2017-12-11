@@ -94,7 +94,7 @@ public class SplashHandler extends AbstractSplashHandler {
     versionLabel.setLayoutData(new GridData(SWT.END, SWT.BEGINNING, true, false));
     versionLabel.setFont(fVersionFont);
     versionLabel.setForeground(fVersionColor);
-    versionLabel.setText(NLS.bind(Messages.SplashHandler_BUILD, "2.2.1")); //$NON-NLS-1$
+    versionLabel.setText(NLS.bind(Messages.SplashHandler_BUILD, "2.4.0-beta")); //$NON-NLS-1$
 
     /* Layout All */
     shell.layout(true, true);
@@ -120,6 +120,7 @@ public class SplashHandler extends AbstractSplashHandler {
       @Override
       public void beginTask(String name, final int totalWork) {
         getSplash().getDisplay().syncExec(new Runnable() {
+          @Override
           public void run() {
             fBar.setSelection(50);
           }
@@ -129,6 +130,7 @@ public class SplashHandler extends AbstractSplashHandler {
       @Override
       public void subTask(String name) {
         getSplash().getDisplay().syncExec(new Runnable() {
+          @Override
           public void run() {
             if (fBar.getSelection() < 100)
               fBar.setSelection(fBar.getSelection() + 8);

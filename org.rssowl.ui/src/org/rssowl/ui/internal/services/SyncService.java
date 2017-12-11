@@ -203,6 +203,7 @@ public class SyncService implements Receiver<SyncItem> {
 
   private void addAllAsync(final Collection<SyncItem> items) {
     JobRunner.runInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         fSynchronizer.addAll(items);
       }
@@ -247,6 +248,7 @@ public class SyncService implements Receiver<SyncItem> {
    */
   public void synchronize() {
     JobRunner.runInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         if (!Controller.getDefault().isShuttingDown() && fSyncItemsManager.hasUncommittedItems() && !fSynchronizer.isScheduled())
           fSynchronizer.addAll(fSyncItemsManager.getUncommittedItems().values());
@@ -310,6 +312,7 @@ public class SyncService implements Receiver<SyncItem> {
   /*
    * @see org.rssowl.core.util.BatchedBuffer.Receiver#receive(java.util.Collection, org.eclipse.core.runtime.jobs.Job, org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public IStatus receive(Collection<SyncItem> items, Job job, IProgressMonitor monitor) {
 
     /* Synchronize */
@@ -338,11 +341,13 @@ public class SyncService implements Receiver<SyncItem> {
   private void handleAuthenticationRequired(final IProgressMonitor monitor) {
     if (!Controller.getDefault().isShuttingDown() && !monitor.isCanceled()) {
       JobRunner.runInBackgroundThread(new Runnable() { //Run in background thread to avoid lock contention in buffer due to UI lock
+        @Override
         public void run() {
           Lock loginLock = Controller.getDefault().getLoginDialogLock();
           if (!Controller.getDefault().isShuttingDown() && !monitor.isCanceled() && loginLock.tryLock()) { //Avoid multiple login dialogs if login dialog already showing
             try {
               JobRunner.runSyncedInUIThread(new Runnable() {
+                @Override
                 public void run() {
                   if (!Controller.getDefault().isShuttingDown() && !monitor.isCanceled())
                     OwlUI.openSyncLogin(null);

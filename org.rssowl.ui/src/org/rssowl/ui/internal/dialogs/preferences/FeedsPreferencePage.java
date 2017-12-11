@@ -148,6 +148,7 @@ public class FeedsPreferencePage extends PreferencePage implements IWorkbenchPre
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {}
 
   /*
@@ -210,6 +211,7 @@ public class FeedsPreferencePage extends PreferencePage implements IWorkbenchPre
 
     /* Enable Apply Button on Selection Changes */
     OwlUI.runOnSelection(new Runnable() {
+      @Override
       public void run() {
         updateApplyEnablement(true);
       }

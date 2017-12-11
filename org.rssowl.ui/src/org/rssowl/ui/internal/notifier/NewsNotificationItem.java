@@ -273,6 +273,7 @@ public class NewsNotificationItem extends NotificationItem {
   /*
    * @see java.lang.Comparable#compareTo(java.lang.Object)
    */
+  @Override
   public int compareTo(NotificationItem o) {
 
     /* Compare with other News Item */

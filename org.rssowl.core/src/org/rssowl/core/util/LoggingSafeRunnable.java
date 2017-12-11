@@ -48,6 +48,7 @@ public abstract class LoggingSafeRunnable implements ISafeRunnable {
    * @see
    * org.eclipse.core.runtime.ISafeRunnable#handleException(java.lang.Throwable)
    */
+  @Override
   public void handleException(Throwable e) {
 
     /* In Testing, rethrow any RuntimeException */

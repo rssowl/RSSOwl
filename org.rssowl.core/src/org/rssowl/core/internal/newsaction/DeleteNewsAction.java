@@ -47,6 +47,7 @@ public class DeleteNewsAction implements INewsAction {
    * @see org.rssowl.core.INewsAction#run(java.util.List, java.util.Map,
    * java.lang.Object)
    */
+  @Override
   public List<IEntity> run(List<INews> news, Map<INews, INews> replacements, Object data) {
 
     /* Ensure to Pickup Replaces */
@@ -67,6 +68,7 @@ public class DeleteNewsAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#isConflicting(org.rssowl.core.INewsAction)
    */
+  @Override
   public boolean conflictsWith(INewsAction otherAction) {
     return otherAction instanceof DeleteNewsAction;
   }
@@ -74,6 +76,7 @@ public class DeleteNewsAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#getLabel(java.lang.Object)
    */
+  @Override
   public String getLabel(Object data) {
     return null;
   }

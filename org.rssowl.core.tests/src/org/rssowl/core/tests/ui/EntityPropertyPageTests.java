@@ -145,21 +145,27 @@ public class EntityPropertyPageTests implements IEntityPropertyPage {
     }
   }
 
+  @Override
   public void init(IPropertyDialogSite site, List<IEntity> entities) {}
 
+  @Override
   public Control createContents(Composite parent) {
     return null;
   }
 
+  @Override
   public void finish() {}
 
+  @Override
   public boolean performOk(Set<IEntity> entitiesToSave) {
     return false;
   }
 
+  @Override
   public ImageDescriptor getImage() {
     return null;
   }
 
+  @Override
   public void setFocus() {}
 }

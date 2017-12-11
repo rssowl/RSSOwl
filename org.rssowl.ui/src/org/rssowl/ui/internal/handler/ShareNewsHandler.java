@@ -51,6 +51,7 @@ public class ShareNewsHandler extends AbstractHandler {
   /*
    * @see org.eclipse.core.commands.AbstractHandler#execute(org.eclipse.core.commands.ExecutionEvent)
    */
+  @Override
   public Object execute(ExecutionEvent event) {
     IStructuredSelection selection = OwlUI.getActiveFeedViewSelection();
     if (selection != null && !selection.isEmpty())

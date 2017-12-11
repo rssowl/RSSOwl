@@ -2,17 +2,27 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Tests Plug-in
 Bundle-SymbolicName: org.rssowl.core.tests;singleton:=true
-Bundle-Version: 2.2.1.qualifier
+Bundle-Version: 2.4.0.qualifier
 Bundle-Vendor: RSSOwl.org
-Require-Bundle: org.eclipse.core.runtime,
- org.rssowl.lib.jdom,
- org.junit4,
- org.eclipse.ui,
- org.rssowl.ui,
+Require-Bundle: org.rssowl.lib.jdom,
  org.rssowl.lib.db4o,
+ org.rssowl.lib.lucene,
+ org.rssowl.ui,
  org.rssowl.core,
- org.eclipse.equinox.security,
- org.rssowl.lib.lucene
+ org.junit;bundle-version="4.12.0",
+ org.eclipse.ui;bundle-version="3.109.0",
+ org.eclipse.core.runtime;bundle-version="3.13.0",
+ javax.servlet;bundle-version="3.1.0",
+ org.eclipse.jetty.http;bundle-version="9.4.5",
+ org.eclipse.jetty.servlet;bundle-version="9.4.5",
+ org.eclipse.jetty.server;bundle-version="9.4.5",
+ org.eclipse.jetty.io;bundle-version="9.4.5",
+ org.eclipse.jetty.util;bundle-version="9.4.5",
+ org.eclipse.jetty.continuation;bundle-version="9.4.5",
+ org.eclipse.jetty.security;bundle-version="9.4.5",
+ org.eclipse.jetty.webapp;bundle-version="9.4.5",
+ org.eclipse.jetty.xml;bundle-version="9.4.5"
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Activator: org.rssowl.core.tests.Activator
+Import-Package: org.apache.http

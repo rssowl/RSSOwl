@@ -74,20 +74,24 @@ public class CachingSearchMarkDAO extends CachingDAO<SearchMarkDAOImpl, ISearchM
   @Override
   protected SearchMarkListener createEntityListener() {
     return new SearchMarkListener() {
+      @Override
       public void entitiesAdded(Set<SearchMarkEvent> events) {
         for (SearchMarkEvent event : events)
           getCache().put(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesDeleted(Set<SearchMarkEvent> events) {
         for (SearchMarkEvent event : events)
           getCache().remove(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesUpdated(Set<SearchMarkEvent> events) {
       /* No action needed */
       }
 
+      @Override
       public void newsChanged(Set<SearchMarkEvent> events) {
       /* No action needed */
       }
@@ -97,6 +101,7 @@ public class CachingSearchMarkDAO extends CachingDAO<SearchMarkDAOImpl, ISearchM
   /*
    * @see org.rssowl.core.persist.dao.ISearchMarkDAO#fireNewsChanged(java.util.Set)
    */
+  @Override
   public void fireNewsChanged(Set<SearchMarkEvent> events) {
     getDAO().fireNewsChanged(events);
   }
@@ -106,6 +111,7 @@ public class CachingSearchMarkDAO extends CachingDAO<SearchMarkDAOImpl, ISearchM
    * org.rssowl.core.persist.dao.ISearchMarkDAO#load(org.rssowl.core.persist
    * .ISearchCondition)
    */
+  @Override
   public ISearchMark load(ISearchCondition searchCondition) {
     for (ISearchMark mark : getCache().values()) {
       if (mark.containsSearchCondition(searchCondition))
@@ -119,6 +125,7 @@ public class CachingSearchMarkDAO extends CachingDAO<SearchMarkDAOImpl, ISearchM
    * org.rssowl.core.persist.dao.ISearchMarkDAO#visited(org.rssowl.core.persist
    * .ISearchMark)
    */
+  @Override
   public void visited(ISearchMark mark) {
     getDAO().visited(mark);
   }

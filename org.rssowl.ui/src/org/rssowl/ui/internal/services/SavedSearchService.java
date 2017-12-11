@@ -105,6 +105,7 @@ public class SavedSearchService {
 
         /* Update all saved searches */
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             if (!Controller.getDefault().isShuttingDown())
               updateSavedSearches(true);
@@ -125,6 +126,7 @@ public class SavedSearchService {
 
     /* Index Listener */
     fIndexListener = new IndexListener() {
+      @Override
       public void indexUpdated(int entitiesCount) {
         updateSavedSearchesFromEvent(entitiesCount);
       }

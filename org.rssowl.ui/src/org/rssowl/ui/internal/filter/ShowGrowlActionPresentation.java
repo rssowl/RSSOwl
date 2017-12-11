@@ -52,6 +52,7 @@ public class ShowGrowlActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.filter.INewsActionPresentation#create(org.eclipse.swt.widgets.Composite, java.lang.Object)
    */
+  @Override
   public void create(Composite parent, Object data) {
     fContainer = new Composite(parent, SWT.NONE);
     fContainer.setLayout(LayoutUtils.createGridLayout(1, 0, 0, 0, 0, false));
@@ -118,6 +119,7 @@ public class ShowGrowlActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.filter.INewsActionPresentation#dispose()
    */
+  @Override
   public void dispose() {
     fContainer.dispose();
   }
@@ -125,6 +127,7 @@ public class ShowGrowlActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.filter.INewsActionPresentation#getData()
    */
+  @Override
   public Object getData() {
     return fGrowlPathLink.getData();
   }

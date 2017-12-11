@@ -176,6 +176,7 @@ public class NotificationPopup extends PopupDialog {
         if (shouldFadeIn() && alpha < 255) {
           if (proceed(monitor)) {
             getShell().getDisplay().syncExec(new Runnable() {
+              @Override
               public void run() {
                 if (proceed(monitor)) {
                   int newAlpha = Math.min(alpha + FADE_IN_INCREMENT, 255);
@@ -582,6 +583,7 @@ public class NotificationPopup extends PopupDialog {
       descriptionContainer.addMouseTrackListener(fMouseTrackListner);
       descriptionContainer.setBackground(fInnerContentCircle.getBackground());
       descriptionContainer.addPaintListener(new PaintListener() {
+        @Override
         public void paintControl(PaintEvent e) {
           GC gc = e.gc;
           Rectangle clArea = descriptionContainer.getClientArea();
@@ -895,6 +897,7 @@ public class NotificationPopup extends PopupDialog {
 
     /* Allow to navigate with Mouse Wheel Too */
     fShell.addMouseWheelListener(new MouseWheelListener() {
+      @Override
       public void mouseScrolled(MouseEvent e) {
         handleUserAction();
 
@@ -907,6 +910,7 @@ public class NotificationPopup extends PopupDialog {
 
     /* Close Shell once deactivated and not incoming automatic */
     fShell.addListener(SWT.Deactivate, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         if (fMode != Mode.INCOMING_AUTOMATIC && fGlobalScope.getBoolean(DefaultPreferences.CLOSE_NOTIFIER_ON_OPEN))
           doClose();

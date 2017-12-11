@@ -68,6 +68,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.model.types.IPerson#setName(java.lang.String)
    */
+  @Override
   public synchronized void setName(String name) {
     fName = name;
   }
@@ -75,6 +76,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.model.types.IPerson#setUri(java.lang.String)
    */
+  @Override
   public synchronized void setUri(URI uri) {
     fUri = getURIText(uri);
   }
@@ -82,6 +84,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.model.types.IPerson#setEmail(java.lang.String)
    */
+  @Override
   public synchronized void setEmail(URI email) {
     fEmail = getURIText(email);
   }
@@ -89,6 +92,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.model.types.IPerson#getName()
    */
+  @Override
   public synchronized String getName() {
     return fName;
   }
@@ -96,6 +100,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.model.types.IPerson#getUri()
    */
+  @Override
   public synchronized URI getUri() {
     return createURI(fUri);
   }
@@ -103,6 +108,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.model.types.IPerson#getEmail()
    */
+  @Override
   public synchronized URI getEmail() {
     return createURI(fEmail);
   }
@@ -110,6 +116,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.persist.MergeCapable#merge(java.lang.Object)
    */
+  @Override
   public synchronized MergeResult merge(IPerson objectToMerge) {
     Assert.isNotNull(objectToMerge);
     synchronized (objectToMerge) {
@@ -134,6 +141,7 @@ public class Person extends AbstractEntity implements IPerson {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public PersonReference toReference() {
     return new PersonReference(getIdAsPrimitive());
   }

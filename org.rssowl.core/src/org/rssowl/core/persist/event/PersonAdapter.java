@@ -29,7 +29,7 @@ import java.util.Set;
 /**
  * Provides an empty implementation of <code>PersonListener</code>. Useful if
  * the client only needs to implement a subset of the interface.
- * 
+ *
  * @author bpasero
  */
 public class PersonAdapter implements PersonListener {
@@ -37,15 +37,18 @@ public class PersonAdapter implements PersonListener {
   /*
    * @see org.rssowl.core.model.events.PersonListener#personAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<PersonEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.PersonListener#personDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<PersonEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.PersonListener#personUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<PersonEvent> events) { }
 }

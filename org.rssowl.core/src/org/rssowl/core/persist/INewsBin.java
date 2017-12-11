@@ -107,5 +107,6 @@ public interface INewsBin extends INewsMark {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   NewsBinReference toReference();
 }

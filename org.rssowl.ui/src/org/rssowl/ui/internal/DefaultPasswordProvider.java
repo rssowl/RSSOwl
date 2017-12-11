@@ -60,6 +60,7 @@ public class DefaultPasswordProvider extends PasswordProvider {
     final Shell activeShell = OwlUI.getActiveShell();
 
     JobRunner.runSyncedInUIThread(activeShell, new Runnable() {
+      @Override
       public void run() {
         MasterPasswordDialog dialog = new MasterPasswordDialog(activeShell, passwordType);
         if (dialog.open() == IDialogConstants.OK_ID) {

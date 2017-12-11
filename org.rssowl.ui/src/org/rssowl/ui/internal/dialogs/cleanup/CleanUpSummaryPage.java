@@ -115,6 +115,7 @@ public class CleanUpSummaryPage extends WizardPage {
       return OwlUI.getImage(fResources, ((CleanUpTask) element).getImage());
     }
 
+    @Override
     public Font getFont(Object element) {
       if (element instanceof CleanUpGroup)
         return OwlUI.getBold(JFaceResources.DEFAULT_FONT);
@@ -122,10 +123,12 @@ public class CleanUpSummaryPage extends WizardPage {
       return null;
     }
 
+    @Override
     public Color getBackground(Object element) {
       return null;
     }
 
+    @Override
     public Color getForeground(Object element) {
       if (element instanceof CleanUpGroup && !OwlUI.isHighContrast())
         return fGroupFgColor;
@@ -187,6 +190,7 @@ public class CleanUpSummaryPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
     Composite container = new Composite(parent, SWT.NONE);
     container.setLayout(new GridLayout(1, false));
@@ -198,6 +202,7 @@ public class CleanUpSummaryPage extends WizardPage {
 
     /* ContentProvider */
     fViewer.setContentProvider(new ITreeContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         if (inputElement instanceof List<?>)
           return ((List<?>) inputElement).toArray();
@@ -205,6 +210,7 @@ public class CleanUpSummaryPage extends WizardPage {
         return new Object[0];
       }
 
+      @Override
       public Object[] getChildren(Object parentElement) {
         if (parentElement instanceof CleanUpGroup) {
           CleanUpGroup group = (CleanUpGroup) parentElement;
@@ -214,6 +220,7 @@ public class CleanUpSummaryPage extends WizardPage {
         return new Object[0];
       }
 
+      @Override
       public Object getParent(Object element) {
         if (element instanceof CleanUpTask)
           return ((CleanUpTask) element).getGroup();
@@ -221,12 +228,15 @@ public class CleanUpSummaryPage extends WizardPage {
         return null;
       }
 
+      @Override
       public boolean hasChildren(Object element) {
         return element instanceof CleanUpGroup;
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -237,6 +247,7 @@ public class CleanUpSummaryPage extends WizardPage {
     /* Custom Owner Drawn Category */
     if (!OwlUI.isHighContrast()) {
       fViewer.getControl().addListener(SWT.EraseItem, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           Object element = event.item.getData();
           if (element instanceof CleanUpGroup)
@@ -247,6 +258,7 @@ public class CleanUpSummaryPage extends WizardPage {
 
     /* Listen on Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         onDoubleClick(event);
       }
@@ -262,6 +274,7 @@ public class CleanUpSummaryPage extends WizardPage {
 
     /* Update Display Button on Selection */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         fDisplayFeedButton.setEnabled(((IStructuredSelection) event.getSelection()).getFirstElement() instanceof BookMarkTask);
       }
@@ -269,10 +282,12 @@ public class CleanUpSummaryPage extends WizardPage {
 
     /* Update Checks on Expand */
     fViewer.addTreeListener(new ITreeViewerListener() {
+      @Override
       public void treeExpanded(TreeExpansionEvent event) {
         onExpand(event);
       }
 
+      @Override
       public void treeCollapsed(TreeExpansionEvent event) {}
     });
 
@@ -343,6 +358,7 @@ public class CleanUpSummaryPage extends WizardPage {
       final CleanUpOperations operations = cleanUpOptionsPage.getOperations();
 
       IRunnableWithProgress runnable = new IRunnableWithProgress() {
+        @Override
         public void run(IProgressMonitor monitor) {
           monitor.beginTask(Messages.CleanUpSummaryPage_WAIT_GENERATE_PREVIEW, IProgressMonitor.UNKNOWN);
           onGenerateSummary(operations, selection, monitor);
@@ -365,6 +381,7 @@ public class CleanUpSummaryPage extends WizardPage {
 
     /* Show in Viewer */
     JobRunner.runInUIThread(fViewer.getTree(), new Runnable() {
+      @Override
       public void run() {
         fViewer.setInput(model.getTasks());
         fViewer.expandAll();

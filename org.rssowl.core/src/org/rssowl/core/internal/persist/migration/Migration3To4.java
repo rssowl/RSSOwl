@@ -48,6 +48,7 @@ public class Migration3To4 implements Migration {
    * @see
    * org.rssowl.core.internal.persist.service.Migration#getDestinationFormat()
    */
+  @Override
   public int getDestinationFormat() {
     return 4;
   }
@@ -55,6 +56,7 @@ public class Migration3To4 implements Migration {
   /*
    * @see org.rssowl.core.internal.persist.service.Migration#getOriginFormat()
    */
+  @Override
   public int getOriginFormat() {
     return 3;
   }
@@ -65,6 +67,7 @@ public class Migration3To4 implements Migration {
    * .internal.persist.service.ConfigurationFactory, java.lang.String,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
     final int totalProgress = 100;
     int totalProgressIncremented = 0;

@@ -74,6 +74,7 @@ public class NewsBinWizard extends Wizard implements INewWizard {
       setMessage(Messages.NewsBinWizard_BIN_WIZ_TITLE);
     }
 
+    @Override
     public void createControl(Composite parent) {
       Composite control = new Composite(parent, SWT.NONE);
       control.setLayout(LayoutUtils.createGridLayout(2, 5, 5));
@@ -85,6 +86,7 @@ public class NewsBinWizard extends Wizard implements INewWizard {
       fNameInput = new Text(control, SWT.SINGLE | SWT.BORDER);
       fNameInput.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
       fNameInput.addModifyListener(new ModifyListener() {
+        @Override
         public void modifyText(ModifyEvent e) {
           setErrorMessage(null);
         }
@@ -124,6 +126,7 @@ public class NewsBinWizard extends Wizard implements INewWizard {
   /*
    * @see org.eclipse.ui.IWorkbenchWizard#init(org.eclipse.ui.IWorkbench, org.eclipse.jface.viewers.IStructuredSelection)
    */
+  @Override
   public void init(IWorkbench workbench, IStructuredSelection selection) {
     Pair<IFolder, IFolderChild> pair = ModelUtils.getLocationAndPosition(selection);
     fFolder = pair.getFirst();

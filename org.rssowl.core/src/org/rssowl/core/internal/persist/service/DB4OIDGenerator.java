@@ -53,6 +53,7 @@ public class DB4OIDGenerator implements IDGenerator, DatabaseListener {
    * org.rssowl.core.internal.persist.service.DatabaseListener#databaseClosed
    * (org.rssowl.core.internal.persist.service.DatabaseEvent)
    */
+  @Override
   public void databaseClosed(DatabaseEvent event) {
     setObjectContainer(null);
   }
@@ -62,6 +63,7 @@ public class DB4OIDGenerator implements IDGenerator, DatabaseListener {
    * org.rssowl.core.internal.persist.service.DatabaseListener#databaseOpened
    * (org.rssowl.core.internal.persist.service.DatabaseEvent)
    */
+  @Override
   public void databaseOpened(DatabaseEvent event) {
     setObjectContainer(event.getObjectContainer());
   }
@@ -82,6 +84,7 @@ public class DB4OIDGenerator implements IDGenerator, DatabaseListener {
   /*
    * @see org.rssowl.core.persist.service.IDGenerator#getNext()
    */
+  @Override
   public long getNext() {
     return getNext(true);
   }
@@ -120,6 +123,7 @@ public class DB4OIDGenerator implements IDGenerator, DatabaseListener {
     return fCounter.getValue();
   }
 
+  @Override
   public synchronized void shutdown() {
     if (fCounter != null) { //Could be NULL if DB never opened
       fMax = fCurrent;

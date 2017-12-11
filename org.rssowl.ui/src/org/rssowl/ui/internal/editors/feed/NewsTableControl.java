@@ -236,6 +236,7 @@ public class NewsTableControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#init(org.rssowl.ui.internal.editors.feed.IFeedViewSite)
    */
+  @Override
   public void init(IFeedViewSite feedViewSite) {
     fFeedViewSite = feedViewSite;
     fGlobalPreferences = Owl.getPreferenceService().getGlobalScope();
@@ -246,6 +247,7 @@ public class NewsTableControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#onInputChanged(org.rssowl.ui.internal.editors.feed.FeedViewInput)
    */
+  @Override
   public void onInputChanged(FeedViewInput input) {
     fEditorInput = input;
     fInputPreferences = Owl.getPreferenceService().getEntityScope(input.getMark());
@@ -262,11 +264,13 @@ public class NewsTableControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#onLayoutChanged(org.rssowl.ui.internal.OwlUI.Layout)
    */
+  @Override
   public void onLayoutChanged(Layout newLayout) {}
 
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#createPart(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createPart(Composite parent) {
     int style = SWT.MULTI | SWT.FULL_SELECTION;
 
@@ -311,8 +315,10 @@ public class NewsTableControl implements IFeedViewPart {
 
     /* Drag Support */
     fViewer.addDragSupport(ops, transfers, new DragSourceListener() {
+      @Override
       public void dragStart(final DragSourceEvent event) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             LocalSelectionTransfer.getTransfer().setSelection(fViewer.getSelection());
             LocalSelectionTransfer.getTransfer().setSelectionSetTime(event.time & 0xFFFFFFFFL);
@@ -321,8 +327,10 @@ public class NewsTableControl implements IFeedViewPart {
         });
       }
 
+      @Override
       public void dragSetData(final DragSourceEvent event) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
 
             /* Set Selection using LocalSelectionTransfer */
@@ -336,8 +344,10 @@ public class NewsTableControl implements IFeedViewPart {
         });
       }
 
+      @Override
       public void dragFinished(DragSourceEvent event) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             LocalSelectionTransfer.getTransfer().setSelection(null);
             LocalSelectionTransfer.getTransfer().setSelectionSetTime(0);
@@ -372,6 +382,7 @@ public class NewsTableControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#getViewer()
    */
+  @Override
   public NewsTableViewer getViewer() {
     return fViewer;
   }
@@ -380,6 +391,7 @@ public class NewsTableControl implements IFeedViewPart {
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#initViewer(org.eclipse.jface.viewers.IStructuredContentProvider,
    * org.eclipse.jface.viewers.ViewerFilter)
    */
+  @Override
   public void initViewer(IStructuredContentProvider contentProvider, ViewerFilter filter) {
 
     /* Apply ContentProvider */
@@ -390,6 +402,7 @@ public class NewsTableControl implements IFeedViewPart {
     fNewsTableLabelProvider = new NewsTableLabelProvider(columnModel);
     if (!OwlUI.isHighContrast()) {
       fViewer.getControl().addListener(SWT.EraseItem, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           Object element = event.item.getData();
           fNewsTableLabelProvider.erase(event, element);
@@ -559,6 +572,7 @@ public class NewsTableControl implements IFeedViewPart {
 
       /* Listen to moved columns */
       column.addListener(SWT.Move, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           if (fCustomTree.getControl().isDisposed() || fBlockColumMoveEvent)
             return;
@@ -589,6 +603,7 @@ public class NewsTableControl implements IFeedViewPart {
 
     /* Open selected News Links in Browser on doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         onMouseDoubleClick(event);
       }
@@ -599,6 +614,7 @@ public class NewsTableControl implements IFeedViewPart {
 
     /* Track Selections in the Viewer */
     fSelectionChangeListener = new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         onSelectionChanged(event);
       }
@@ -607,6 +623,7 @@ public class NewsTableControl implements IFeedViewPart {
 
     /* Perform Action on Mouse-Down */
     fCustomTree.getControl().addListener(SWT.MouseDown, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onMouseDown(event);
       }
@@ -614,6 +631,7 @@ public class NewsTableControl implements IFeedViewPart {
 
     /* Perform Action on Mouse-Up */
     fCustomTree.getControl().addListener(SWT.MouseUp, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onMouseUp(event);
       }
@@ -621,6 +639,7 @@ public class NewsTableControl implements IFeedViewPart {
 
     /* Update Cursor on Mouse-Move */
     fCustomTree.getControl().addListener(SWT.MouseMove, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onMouseMove(event);
       }
@@ -631,6 +650,7 @@ public class NewsTableControl implements IFeedViewPart {
       @Override
       public void entitiesUpdated(Set<LabelEvent> events) {
         JobRunner.runInUIThread(fViewer.getTree(), new Runnable() {
+          @Override
           public void run() {
             fViewer.refresh(true);
           }
@@ -641,6 +661,7 @@ public class NewsTableControl implements IFeedViewPart {
 
     /* Refresh Viewer when Sticky Color Changes */
     fPropertyChangeListener = new IPropertyChangeListener() {
+      @Override
       public void propertyChange(PropertyChangeEvent event) {
         if (fViewer.getControl().isDisposed())
           return;
@@ -709,6 +730,7 @@ public class NewsTableControl implements IFeedViewPart {
       /* Instantly mark as *unread* if required */
       if ((!markRead || delay > 0) && selectedNews.getState() != INews.State.UNREAD) {
         fInstantMarkUnreadTracker.run(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor monitor) {
             setNewsState(selectedNews, INews.State.UNREAD, true);
             return Status.OK_STATUS;
@@ -723,6 +745,7 @@ public class NewsTableControl implements IFeedViewPart {
       /* Mark Read after Delay */
       else if (markRead) {
         fNewsStateTracker.run(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor monitor) {
             setNewsState(selectedNews, INews.State.READ, true);
             return Status.OK_STATUS;
@@ -800,6 +823,7 @@ public class NewsTableControl implements IFeedViewPart {
       /* Toggle State between Sticky / Not Sticky */
       if (data instanceof INews) {
         Runnable runnable = new Runnable() {
+          @Override
           public void run() {
             new MakeNewsStickyAction(new StructuredSelection(data)).run();
           }
@@ -870,6 +894,7 @@ public class NewsTableControl implements IFeedViewPart {
    */
   private IElementComparer getComparer() {
     return new IElementComparer() {
+      @Override
       public boolean equals(Object a, Object b) {
 
         /* Quickyly check this common case */
@@ -885,6 +910,7 @@ public class NewsTableControl implements IFeedViewPart {
         return a.equals(b);
       }
 
+      @Override
       public int hashCode(Object element) {
         return element.hashCode();
       }
@@ -895,6 +921,7 @@ public class NewsTableControl implements IFeedViewPart {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         final IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
         boolean isEntityGroupSelected = ModelUtils.isEntityGroupSelected(selection);
@@ -948,6 +975,7 @@ public class NewsTableControl implements IFeedViewPart {
           List<INewsBin> newsbins = new ArrayList<INewsBin>(DynamicDAO.loadAll(INewsBin.class));
 
           Comparator<INewsBin> comparator = new Comparator<INewsBin>() {
+            @Override
             public int compare(INewsBin o1, INewsBin o2) {
               return o1.getName().compareTo(o2.getName());
             };
@@ -1035,6 +1063,7 @@ public class NewsTableControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#setInput(java.lang.Object)
    */
+  @Override
   public void setPartInput(Object input) {
 
     /* Update Columns for Input */
@@ -1068,6 +1097,7 @@ public class NewsTableControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#setFocus()
    */
+  @Override
   public void setFocus() {
     fViewer.getControl().setFocus();
   }
@@ -1075,6 +1105,7 @@ public class NewsTableControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#dispose()
    */
+  @Override
   public void dispose() {
     if (fAttachmentsMenu != null)
       OwlUI.safeDispose(fAttachmentsMenu);
@@ -1097,6 +1128,7 @@ public class NewsTableControl implements IFeedViewPart {
 
   private void setNewsState(final INews news, final INews.State state, boolean async) {
     Runnable runnable = new Runnable() {
+      @Override
       public void run() {
 
         /* The news might have been marked as hidden/deleted meanwhile, so return */
@@ -1156,6 +1188,7 @@ public class NewsTableControl implements IFeedViewPart {
 
     final NewsColumnViewModel modelCopy = new NewsColumnViewModel(fColumnModel);
     JobRunner.runInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         modelCopy.saveTo(scope[0]);
         if (saveMark[0]) {

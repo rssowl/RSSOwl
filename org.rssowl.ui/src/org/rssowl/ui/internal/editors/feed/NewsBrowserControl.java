@@ -93,6 +93,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#init(org.rssowl.ui.internal.editors.feed.IFeedViewSite)
    */
+  @Override
   public void init(IFeedViewSite feedViewSite) {
     fFeedViewSite = feedViewSite;
   }
@@ -100,6 +101,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#onInputChanged(org.rssowl.ui.internal.editors.feed.FeedViewInput)
    */
+  @Override
   public void onInputChanged(FeedViewInput input) {
     fEditorInput = input;
     fInputPreferences = Owl.getPreferenceService().getEntityScope(input.getMark());
@@ -115,6 +117,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#onLayoutChanged(org.rssowl.ui.internal.OwlUI.Layout)
    */
+  @Override
   public void onLayoutChanged(Layout newLayout) {
     fHeadlinesOnly = (newLayout == Layout.HEADLINES);
     if (fViewer != null) {
@@ -131,6 +134,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#createPart(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createPart(Composite parent) {
     Composite container = new Composite(parent, SWT.None);
     container.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
@@ -242,6 +246,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#getViewer()
    */
+  @Override
   public NewsBrowserViewer getViewer() {
     return fViewer;
   }
@@ -250,6 +255,7 @@ public class NewsBrowserControl implements IFeedViewPart {
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#initViewer(org.eclipse.jface.viewers.IStructuredContentProvider,
    * org.eclipse.jface.viewers.ViewerFilter)
    */
+  @Override
   public void initViewer(IStructuredContentProvider contentProvider, ViewerFilter filter) {
 
     /* Apply ContentProvider */
@@ -299,6 +305,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#setInput(java.lang.Object)
    */
+  @Override
   public void setPartInput(Object input) {
 
     /* Update Columns for Input */
@@ -370,6 +377,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#dispose()
    */
+  @Override
   public void dispose() {
     unregisterListeners();
     fEditorInput = null;
@@ -379,6 +387,7 @@ public class NewsBrowserControl implements IFeedViewPart {
 
     /* Listen on selection-changes */
     fSelectionListener = new ISelectionListener() {
+      @Override
       public void selectionChanged(IWorkbenchPart part, ISelection sel) {
 
         /* Only Track selections from the HeadlineControl */
@@ -405,6 +414,7 @@ public class NewsBrowserControl implements IFeedViewPart {
 
     /* Send Browser-Status to Workbench-Status */
     ((Browser) fViewer.getControl()).addStatusTextListener(new StatusTextListener() {
+      @Override
       public void changed(StatusTextEvent event) {
 
         /* Don't show Status for the Handler Protocol */
@@ -441,6 +451,7 @@ public class NewsBrowserControl implements IFeedViewPart {
 
     /* Refresh Browser when Font Changes */
     fPropertyChangeListener = new IPropertyChangeListener() {
+      @Override
       public void propertyChange(PropertyChangeEvent event) {
         if (fViewer.getControl().isDisposed())
           return;
@@ -461,6 +472,7 @@ public class NewsBrowserControl implements IFeedViewPart {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewPart#setFocus()
    */
+  @Override
   public void setFocus() {
     fViewer.getControl().setFocus();
   }

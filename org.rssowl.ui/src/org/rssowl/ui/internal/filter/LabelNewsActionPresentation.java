@@ -66,6 +66,7 @@ public class LabelNewsActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.IFilterActionPresentation#create(org.eclipse.swt.widgets.Composite, java.lang.Object)
    */
+  @Override
   public void create(Composite parent, Object data) {
     fContainer = new Composite(parent, SWT.NONE);
     fContainer.setLayout(LayoutUtils.createGridLayout(2, 0, 0, 0, 0, false));
@@ -88,6 +89,7 @@ public class LabelNewsActionPresentation implements INewsActionPresentation {
     });
 
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         if (NEW_LABEL_MARKER == selection.getFirstElement())
@@ -142,6 +144,7 @@ public class LabelNewsActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.IFilterActionPresentation#dispose()
    */
+  @Override
   public void dispose() {
     fContainer.dispose();
   }
@@ -149,6 +152,7 @@ public class LabelNewsActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.IFilterActionPresentation#getData()
    */
+  @Override
   public Long getData() {
     IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
     Object object = selection.getFirstElement();

@@ -91,6 +91,7 @@ public class OpenInNewTabAction extends Action {
 
     /* Open in Feedview */
     BusyIndicator.showWhile(PlatformUI.getWorkbench().getDisplay(), new Runnable() {
+      @Override
       public void run() {
         OwlUI.openInFeedView(fPage, selection, EnumSet.of(OwlUI.FeedViewOpenMode.IGNORE_REUSE));
       }

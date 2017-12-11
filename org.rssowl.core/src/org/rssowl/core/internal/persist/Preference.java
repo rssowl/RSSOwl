@@ -56,6 +56,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getKey()
    */
+  @Override
   public synchronized final String getKey() {
     return fKey;
   }
@@ -63,6 +64,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.persist.IPreference#getType()
    */
+  @Override
   public synchronized final Type getType() {
     return fType;
   }
@@ -70,6 +72,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getBoolean()
    */
+  @Override
   public synchronized final Boolean getBoolean() {
     boolean[] values = getBooleans();
     if (values != null && values.length > 0)
@@ -81,6 +84,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getBooleans()
    */
+  @Override
   public synchronized final boolean[] getBooleans() {
     if (fValues == null)
       return null;
@@ -131,6 +135,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getInteger()
    */
+  @Override
   public synchronized final Integer getInteger() {
     int[] values = getIntegers();
     if (values != null && values.length > 0)
@@ -142,6 +147,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getIntegers()
    */
+  @Override
   public synchronized final int[] getIntegers() {
     if (fValues == null)
       return null;
@@ -163,6 +169,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getLong()
    */
+  @Override
   public synchronized final Long getLong() {
     long[] values = getLongs();
     if (values != null && values.length > 0)
@@ -174,6 +181,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getLongs()
    */
+  @Override
   public synchronized final long[] getLongs() {
     if (fValues == null)
       return null;
@@ -195,6 +203,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getString()
    */
+  @Override
   public synchronized final String getString() {
     String[] values = getStrings();
     if (values != null && values.length > 0)
@@ -206,6 +215,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.internal.persist.pref.T#getStrings()
    */
+  @Override
   public synchronized final String[] getStrings() {
     if (fValues == null)
       return null;
@@ -217,6 +227,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.persist.IPreference#putStrings(java.lang.String[])
    */
+  @Override
   public synchronized final void putStrings(String... strings) {
     if (strings == null) {
       clear();
@@ -231,6 +242,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.persist.IPreference#putLongs(long[])
    */
+  @Override
   public synchronized final void putLongs(long... longs) {
     if (longs == null) {
       clear();
@@ -249,6 +261,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.persist.IPreference#putIntegers(int[])
    */
+  @Override
   public synchronized final void putIntegers(int... integers) {
     if (integers == null) {
       clear();
@@ -267,6 +280,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.persist.IPreference#putBooleans(boolean[])
    */
+  @Override
   public synchronized final void putBooleans(boolean... booleans) {
     if (booleans == null) {
       clear();
@@ -285,6 +299,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.persist.IPreference#clear()
    */
+  @Override
   public synchronized final void clear() {
     fValues = null;
     fType = null;
@@ -294,6 +309,7 @@ public final class Preference extends AbstractEntity implements IPreference {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public ModelReference toReference() {
     //TODO We don't have PreferenceReference atm, should probably add them
     //for consistency

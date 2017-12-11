@@ -137,6 +137,7 @@ public class ManageSetsDialog extends TitleAreaDialog {
       @Override
       public void entitiesAdded(final Set<FolderEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
             for (FolderEvent folderEvent : events) {
               IFolder folder = folderEvent.getEntity();
@@ -211,12 +212,15 @@ public class ManageSetsDialog extends TitleAreaDialog {
 
     /* ContentProvider returns Root-Folders */
     fViewer.setContentProvider(new IStructuredContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         return CoreUtils.loadRootFolders().toArray();
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -247,6 +251,7 @@ public class ManageSetsDialog extends TitleAreaDialog {
 
     /* Edit on Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         onEdit();
       }
@@ -310,6 +315,7 @@ public class ManageSetsDialog extends TitleAreaDialog {
 
     /* Update Status Label when selection changes */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         onSelectionChange();
       }
@@ -342,6 +348,7 @@ public class ManageSetsDialog extends TitleAreaDialog {
         if (LocalSelectionTransfer.getTransfer().isSupportedType(transferType)) {
           final boolean[] result = new boolean[] { false };
           SafeRunner.run(new LoggingSafeRunnable() {
+            @Override
             public void run() throws Exception {
               ISelection selection = LocalSelectionTransfer.getTransfer().getSelection();
               if (selection instanceof IStructuredSelection) {
@@ -361,6 +368,7 @@ public class ManageSetsDialog extends TitleAreaDialog {
       public boolean performDrop(final Object data) {
         if (data instanceof IStructuredSelection) {
           SafeRunner.run(new LoggingSafeRunnable() {
+            @Override
             public void run() throws Exception {
               IStructuredSelection selection = (IStructuredSelection) data;
               List<?> draggedObjects = selection.toList();

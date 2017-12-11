@@ -41,17 +41,17 @@ public interface IFolderChild extends IEntity, Reparentable<IFolder> {
    * @return the name of this child.
    */
   String getName();
-  
+
   /**
    * Returns the parent folder of this child or <code>null</code> if the child
    * has no parent. Some implementations of this interface may be stricter and
    * never return <code>null</code>. If that's the case, they should specify
    * that in their documentation.
-   * 
+   *
    * @return the parent of this child or <code>null</code>.
    */
   IFolder getParent();
-  
+
   /**
    * Sets the parent folder to <code>folder</code>. Some implementations of
    * this interface may be stricter and not accept <code>null</code>. If
@@ -61,9 +61,10 @@ public interface IFolderChild extends IEntity, Reparentable<IFolder> {
    * Instead call {@link IFolderDAO#reparent(java.util.List)} to ensure that the
    * event is correctly populated with the old parent.
    * </p>
-   * 
+   *
    * @param folder new folder parent.
    * @see IFolderDAO#reparent(java.util.List)
    */
+  @Override
   void setParent(IFolder folder);
 }

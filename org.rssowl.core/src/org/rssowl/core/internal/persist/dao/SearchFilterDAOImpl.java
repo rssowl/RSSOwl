@@ -69,6 +69,7 @@ public class SearchFilterDAOImpl extends AbstractEntityDAO<ISearchFilter, Search
    * org.rssowl.core.persist.dao.ISearchFilterDAO#fireFilterApplied(java.util
    * .Collection)
    */
+  @Override
   public void fireFilterApplied(ISearchFilter filter, Collection<INews> news) {
     for (SearchFilterListener listener : fEntityListeners) {
       listener.filterApplied(filter, news);

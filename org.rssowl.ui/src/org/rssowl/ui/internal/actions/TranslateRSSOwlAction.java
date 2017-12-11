@@ -40,11 +40,13 @@ public class TranslateRSSOwlAction implements IWorkbenchWindowActionDelegate {
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {}
 
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     BrowserUtils.openLinkExternal("http://wiki.rssowl.org/index.php/Translation"); //$NON-NLS-1$
   }
@@ -52,10 +54,12 @@ public class TranslateRSSOwlAction implements IWorkbenchWindowActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {}
 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {}
 }

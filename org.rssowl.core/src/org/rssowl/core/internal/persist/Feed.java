@@ -122,6 +122,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#addNews(org.rssowl.core.model.types.INews)
    */
+  @Override
   public synchronized void addNews(INews news) {
     Assert.isNotNull(news, "Exception adding NULL as News into Feed"); //$NON-NLS-1$
 
@@ -143,6 +144,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getNews()
    */
+  @Override
   public synchronized List<INews> getNews() {
     return new ArrayList<INews>(fNews);
   }
@@ -181,6 +183,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getLink()
    */
+  @Override
   public synchronized URI getLink() {
     if (fLink == null && fLinkText != null)
       fLink = createURI(fLinkText);
@@ -191,6 +194,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getCopyright()
    */
+  @Override
   public synchronized String getCopyright() {
     return fCopyright;
   }
@@ -198,6 +202,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setCopyright(java.lang.String)
    */
+  @Override
   public synchronized void setCopyright(String copyright) {
     fCopyright = copyright;
   }
@@ -205,6 +210,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getDescription()
    */
+  @Override
   public synchronized String getDescription() {
     return fDescription;
   }
@@ -212,6 +218,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setDescription(java.lang.String)
    */
+  @Override
   public synchronized void setDescription(String description) {
     fDescription = description;
   }
@@ -219,6 +226,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getDocs()
    */
+  @Override
   public synchronized URI getDocs() {
     return createURI(fDocs);
   }
@@ -226,6 +234,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setDocs(java.lang.String)
    */
+  @Override
   public synchronized void setDocs(URI docs) {
     fDocs = getURIText(docs);
   }
@@ -233,6 +242,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getFormat()
    */
+  @Override
   public synchronized String getFormat() {
     return fFormat;
   }
@@ -240,6 +250,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setFormat(java.lang.String)
    */
+  @Override
   public synchronized void setFormat(String format) {
     fFormat = format;
   }
@@ -247,6 +258,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getGenerator()
    */
+  @Override
   public synchronized String getGenerator() {
     return fGenerator;
   }
@@ -254,6 +266,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setGenerator(java.lang.String)
    */
+  @Override
   public synchronized void setGenerator(String generator) {
     fGenerator = generator;
   }
@@ -261,6 +274,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getHomepage()
    */
+  @Override
   public synchronized URI getHomepage() {
     return createURI(fHomepage);
   }
@@ -268,6 +282,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setHomepage(java.lang.String)
    */
+  @Override
   public synchronized void setHomepage(URI homepage) {
     fHomepage = getURIText(homepage);
   }
@@ -275,6 +290,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getLanguage()
    */
+  @Override
   public synchronized String getLanguage() {
     return fLanguage;
   }
@@ -282,6 +298,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setLanguage(java.lang.String)
    */
+  @Override
   public synchronized void setLanguage(String language) {
     fLanguage = language;
   }
@@ -289,6 +306,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getLastBuildDate()
    */
+  @Override
   public synchronized Date getLastBuildDate() {
     return fLastBuildDate;
   }
@@ -296,6 +314,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setLastBuildDate(java.util.Date)
    */
+  @Override
   public synchronized void setLastBuildDate(Date lastBuildDate) {
     fLastBuildDate = lastBuildDate;
   }
@@ -303,6 +322,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getAuthor()
    */
+  @Override
   public synchronized IPerson getAuthor() {
     return fAuthor;
   }
@@ -310,6 +330,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setAuthor(org.rssowl.core.model.types.IPerson)
    */
+  @Override
   public synchronized void setAuthor(IPerson author) {
     fAuthor = author;
   }
@@ -317,6 +338,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getPublishDate()
    */
+  @Override
   public synchronized Date getPublishDate() {
     return fPublishDate;
   }
@@ -324,6 +346,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setPublishDate(java.util.Date)
    */
+  @Override
   public synchronized void setPublishDate(Date publishDate) {
     fPublishDate = publishDate;
   }
@@ -331,6 +354,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getTitle()
    */
+  @Override
   public synchronized String getTitle() {
     return fTitle;
   }
@@ -338,6 +362,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setTitle(java.lang.String)
    */
+  @Override
   public synchronized void setTitle(String title) {
     fTitle = title;
   }
@@ -345,6 +370,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getVisibleNews()
    */
+  @Override
   public synchronized List<INews> getVisibleNews() {
     return getNewsByStates(INews.State.getVisible());
   }
@@ -352,6 +378,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getNewsByStates(java.util.Set)
    */
+  @Override
   public synchronized List<INews> getNewsByStates(Set<INews.State> states) {
     List<INews> newsList = new ArrayList<INews>();
     for (INews news : fNews) {
@@ -364,6 +391,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getTTL()
    */
+  @Override
   public synchronized int getTTL() {
     return fTTL;
   }
@@ -371,6 +399,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setTTL(int)
    */
+  @Override
   public synchronized void setTTL(int ttl) {
     fTTL = ttl;
   }
@@ -378,6 +407,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getWebmaster()
    */
+  @Override
   public synchronized String getWebmaster() {
     return fWebmaster;
   }
@@ -385,6 +415,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setWebmaster(java.lang.String)
    */
+  @Override
   public synchronized void setWebmaster(String webmaster) {
     fWebmaster = webmaster;
   }
@@ -392,6 +423,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setImage(org.rssowl.core.model.types.IImage)
    */
+  @Override
   public synchronized void setImage(IImage image) {
     fImage = image;
   }
@@ -399,6 +431,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#addCategory(org.rssowl.core.model.types.ICategory)
    */
+  @Override
   public synchronized void addCategory(ICategory category) {
     if (fCategories == null)
       fCategories = new ArrayList<ICategory>();
@@ -409,6 +442,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setLastModifiedDate(java.util.Date)
    */
+  @Override
   public synchronized void setLastModifiedDate(Date lastModifiedDate) {
     fLastModifiedDate = lastModifiedDate;
   }
@@ -416,6 +450,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getLastModificationDate()
    */
+  @Override
   public synchronized Date getLastModifiedDate() {
     return fLastModifiedDate;
   }
@@ -423,6 +458,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#setBase(java.net.URI)
    */
+  @Override
   public synchronized void setBase(URI baseUri) {
     fBaseUri = getURIText(baseUri);
   }
@@ -430,6 +466,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getBase()
    */
+  @Override
   public synchronized URI getBase() {
     return createURI(fBaseUri);
   }
@@ -483,6 +520,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void setRating(String rating) {}
 
   /**
@@ -493,6 +531,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void setTextInput(ITextInput input) {}
 
   /**
@@ -503,6 +542,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void addHourToSkip(int hour) {}
 
   /**
@@ -513,6 +553,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void addDayToSkip(int day) {}
 
   /**
@@ -523,6 +564,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void setCloud(ICloud cloud) {}
 
   /**
@@ -533,6 +575,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public ICloud getCloud() {
     return null;
   }
@@ -540,6 +583,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getImage()
    */
+  @Override
   public synchronized IImage getImage() {
     return fImage;
   }
@@ -552,6 +596,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public String getRating() {
     return null;
   }
@@ -564,6 +609,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public int[] getDaysToSkip() {
     return null;
   }
@@ -576,6 +622,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public int[] getHoursToSkip() {
     return null;
   }
@@ -583,6 +630,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.model.types.IFeed#getCategories()
    */
+  @Override
   public synchronized List<ICategory> getCategories() {
     if (fCategories == null)
       return new ArrayList<ICategory>(0);
@@ -598,6 +646,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public ITextInput getTextInput() {
     return null;
   }
@@ -610,6 +659,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void setUpdateBase(Date updateBase) {}
 
   /**
@@ -620,6 +670,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public Date getUpdateBase() {
     return null;
   }
@@ -632,6 +683,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public int getUpdateFrequency() {
     return 0;
   }
@@ -644,6 +696,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void setUpdateFrequency(int updateFrequency) {}
 
   /**
@@ -654,6 +707,7 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public int getUpdatePeriod() {
     return 0;
   }
@@ -666,11 +720,13 @@ public class Feed extends AbstractEntity implements IFeed {
    * model.
    * </p>
    */
+  @Override
   public void setUpdatePeriod(int updatePeriod) {}
 
   /*
    * @see org.rssowl.core.persist.IFeed#mergeAndCleanUp(org.rssowl.core.persist.IFeed)
    */
+  @Override
   public synchronized MergeResult mergeAndCleanUp(IFeed objectToMerge) {
     Assert.isNotNull(objectToMerge);
     if (this == objectToMerge)
@@ -733,6 +789,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.persist.MergeCapable#merge(java.lang.Object)
    */
+  @Override
   public synchronized MergeResult merge(IFeed objectToMerge) {
     Assert.isNotNull(objectToMerge);
     synchronized (objectToMerge) {
@@ -748,6 +805,7 @@ public class Feed extends AbstractEntity implements IFeed {
 
   private ComplexMergeResult<List<ICategory>> mergeCategories(List<ICategory> categories) {
     Comparator<ICategory> comparator = new Comparator<ICategory>() {
+      @Override
       public int compare(ICategory o1, ICategory o2) {
         if (o1.getName() == null ? o2.getName() == null : o1.getName().equals(o2.getName())) {
           return 0;
@@ -919,6 +977,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.persist.IFeed#removeNews(org.rssowl.core.persist.INews)
    */
+  @Override
   public synchronized boolean removeNews(INews news) {
     return fNews.remove(news);
   }
@@ -926,6 +985,7 @@ public class Feed extends AbstractEntity implements IFeed {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public FeedReference toReference() {
     return new FeedReference(getIdAsPrimitive());
   }

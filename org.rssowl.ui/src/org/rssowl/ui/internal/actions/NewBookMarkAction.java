@@ -80,11 +80,13 @@ public class NewBookMarkAction implements IWorkbenchWindowActionDelegate, IObjec
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {}
 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {
     fShell = window.getShell();
   }
@@ -92,6 +94,7 @@ public class NewBookMarkAction implements IWorkbenchWindowActionDelegate, IObjec
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
 
     /* Get the parent Folder */
@@ -106,6 +109,7 @@ public class NewBookMarkAction implements IWorkbenchWindowActionDelegate, IObjec
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction,
    * org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
 
     /* Delete the old Selection */
@@ -131,6 +135,7 @@ public class NewBookMarkAction implements IWorkbenchWindowActionDelegate, IObjec
    * @see org.eclipse.ui.IObjectActionDelegate#setActivePart(org.eclipse.jface.action.IAction,
    * org.eclipse.ui.IWorkbenchPart)
    */
+  @Override
   public void setActivePart(IAction action, IWorkbenchPart targetPart) {
     fShell = targetPart.getSite().getShell();
   }

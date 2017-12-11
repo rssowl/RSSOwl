@@ -42,6 +42,7 @@ public class ToggleReadStateHandler extends AbstractHandler {
   /*
    * @see org.eclipse.core.commands.AbstractHandler#execute(org.eclipse.core.commands.ExecutionEvent)
    */
+  @Override
   public Object execute(ExecutionEvent arg0) {
     IStructuredSelection selection = OwlUI.getActiveFeedViewSelection();
 

@@ -339,6 +339,7 @@ public class BookMarkExplorer extends ViewPart {
 
     /* Enable "Link to FeedView" */
     fViewer.addPostSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         onSelectionChanged(event);
       }
@@ -346,6 +347,7 @@ public class BookMarkExplorer extends ViewPart {
 
     /* Hook Open Support */
     fViewer.addOpenListener(new IOpenListener() {
+      @Override
       public void open(OpenEvent event) {
         OwlUI.openInFeedView(fViewSite.getPage(), (IStructuredSelection) fViewer.getSelection());
       }
@@ -354,6 +356,7 @@ public class BookMarkExplorer extends ViewPart {
     /* Custom Owner Drawn for Groups */
     if (!OwlUI.isHighContrast()) {
       fViewer.getControl().addListener(SWT.EraseItem, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           Object element = event.item.getData();
           fLabelProvider.erase(event, element);
@@ -363,10 +366,12 @@ public class BookMarkExplorer extends ViewPart {
 
     /* Update List of Expanded Nodes */
     fViewer.addTreeListener(new ITreeViewerListener() {
+      @Override
       public void treeExpanded(TreeExpansionEvent event) {
         onTreeEvent(event.getElement(), true);
       }
 
+      @Override
       public void treeCollapsed(TreeExpansionEvent event) {
         onTreeEvent(event.getElement(), false);
       }
@@ -428,6 +433,7 @@ public class BookMarkExplorer extends ViewPart {
    */
   private IElementComparer getComparer() {
     return new IElementComparer() {
+      @Override
       public boolean equals(Object a, Object b) {
 
         /* Quickyly check this common case */
@@ -476,6 +482,7 @@ public class BookMarkExplorer extends ViewPart {
         return id1 == id2;
       }
 
+      @Override
       public int hashCode(Object element) {
         return element.hashCode();
       }
@@ -631,6 +638,7 @@ public class BookMarkExplorer extends ViewPart {
 
     /* Hide SearchBar if search is done */
     fSearchBar.getControl().addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
 
         /* Feature not Used, return */
@@ -662,6 +670,7 @@ public class BookMarkExplorer extends ViewPart {
     IMenuManager menuManager = fViewSite.getActionBars().getMenuManager();
     menuManager.setRemoveAllWhenShown(true);
     menuManager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
 
         /* Manage Bookmark Sets */
@@ -1132,6 +1141,7 @@ public class BookMarkExplorer extends ViewPart {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
 
         /* New Menu */
@@ -1353,6 +1363,7 @@ public class BookMarkExplorer extends ViewPart {
       @Override
       public void entitiesAdded(final Set<FolderEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
             for (FolderEvent event : events) {
               if (event.getEntity().getParent() == null) {
@@ -1369,6 +1380,7 @@ public class BookMarkExplorer extends ViewPart {
       @Override
       public void entitiesDeleted(final Set<FolderEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
             for (FolderEvent event : events) {
               IFolder deletedFolder = event.getEntity();
@@ -1400,11 +1412,13 @@ public class BookMarkExplorer extends ViewPart {
 
     /* Listen for Editors activated for the linking Feature */
     fPartListener = new IPartListener2() {
+      @Override
       public void partActivated(IWorkbenchPartReference ref) {
         if (ref.getPart(true) instanceof IEditorPart) {
 
           /* Workaround for Bug 573 */
           JobRunner.runInUIThread(50, fViewer.getTree(), new Runnable() {
+            @Override
             public void run() {
               editorActivated(fViewSite.getPage().getActiveEditor());
             }
@@ -1412,32 +1426,40 @@ public class BookMarkExplorer extends ViewPart {
         }
       }
 
+      @Override
       public void partBroughtToTop(IWorkbenchPartReference ref) {
         if (ref.getPart(true) == BookMarkExplorer.this)
           editorActivated(fViewSite.getPage().getActiveEditor());
       }
 
+      @Override
       public void partOpened(IWorkbenchPartReference ref) {
         if (ref.getPart(true) == BookMarkExplorer.this)
           editorActivated(fViewSite.getPage().getActiveEditor());
       }
 
+      @Override
       public void partVisible(IWorkbenchPartReference ref) {
         if (ref.getPart(true) == BookMarkExplorer.this)
           editorActivated(fViewSite.getPage().getActiveEditor());
       }
 
+      @Override
       public void partClosed(IWorkbenchPartReference ref) {}
 
+      @Override
       public void partDeactivated(IWorkbenchPartReference ref) {}
 
+      @Override
       public void partHidden(IWorkbenchPartReference ref) {}
 
+      @Override
       public void partInputChanged(IWorkbenchPartReference ref) {
         if (ref.getPart(true) instanceof IEditorPart) {
 
           /* Workaround for Bug 1126 */
           JobRunner.runInUIThread(50, fViewer.getTree(), new Runnable() {
+            @Override
             public void run() {
               editorActivated(fViewSite.getPage().getActiveEditor());
             }
@@ -1450,6 +1472,7 @@ public class BookMarkExplorer extends ViewPart {
 
     /* Refresh Viewer when Sticky Color Changes */
     fPropertyChangeListener = new IPropertyChangeListener() {
+      @Override
       public void propertyChange(PropertyChangeEvent event) {
         if (fViewer.getControl().isDisposed())
           return;

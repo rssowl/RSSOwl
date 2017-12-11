@@ -89,7 +89,7 @@ public class Activator extends AbstractUIPlugin {
   @Override
   public void start(BundleContext context) throws Exception {
     super.start(context);
-    fVersion = (String) fgPlugin.getBundle().getHeaders().get("Bundle-Version"); //$NON-NLS-1$
+    fVersion = fgPlugin.getBundle().getHeaders().get("Bundle-Version"); //$NON-NLS-1$
     fNl = System.getProperty("line.separator"); //$NON-NLS-1$
     if (fNl == null)
       fNl = "\n"; //$NON-NLS-1$
@@ -107,10 +107,12 @@ public class Activator extends AbstractUIPlugin {
      * that is launching, starts up the core for a second time.
      */
     SafeRunner.run(new ISafeRunnable() {
+      @Override
       public void run() throws Exception {
         startServer();
       }
 
+      @Override
       public void handleException(Throwable e) {
         if (e instanceof CoreException)
           Activator.getDefault().getLog().log(((CoreException) e).getStatus());
@@ -124,6 +126,7 @@ public class Activator extends AbstractUIPlugin {
 
         /* Shutdown UI */
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             if (Owl.isStarted() || Controller.isInitialized())
               Controller.getDefault().shutdown(true);
@@ -132,6 +135,7 @@ public class Activator extends AbstractUIPlugin {
 
         /* Shutdown Core */
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             Owl.shutdown(true);
           }
@@ -151,6 +155,7 @@ public class Activator extends AbstractUIPlugin {
 
     /* Activate the Core Bundle */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         startCore();
       }
@@ -158,6 +163,7 @@ public class Activator extends AbstractUIPlugin {
 
     /* Propagate startup to Controller */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
 
         /* Startup Controller */
@@ -169,8 +175,10 @@ public class Activator extends AbstractUIPlugin {
     /* Propagate post-ui startup to Controller (Eclipse Integration) */
     if (Application.IS_ECLIPSE) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           Display.getDefault().asyncExec(new Runnable() {
+            @Override
             public void run() {
               if (Owl.isStarted())
                 Controller.getDefault().postWindowOpen();
@@ -191,6 +199,7 @@ public class Activator extends AbstractUIPlugin {
 
     /* Runnable to start core */
     IRunnableWithProgress runnable = new IRunnableWithProgress() {
+      @Override
       public void run(IProgressMonitor monitor) {
         LongOperationMonitor callbackMonitor = new LongOperationMonitor(monitor) {
           private boolean updateUi = true;
@@ -330,8 +339,7 @@ public class Activator extends AbstractUIPlugin {
 
   /* Server already running. Pass a message to the running Server and exit. */
   private void doHandshake(String message) {
-    try {
-      Socket socket = new Socket(InetAddress.getByName(ApplicationServer.LOCALHOST), ApplicationServer.DEFAULT_SOCKET_PORT);
+    try (Socket socket = new Socket(InetAddress.getByName(ApplicationServer.LOCALHOST), ApplicationServer.DEFAULT_SOCKET_PORT)) {
       PrintWriter writer = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()));
       writer.println(isSet(message) ? message : ApplicationServer.STARTUP_HANDSHAKE);
       writer.flush();
@@ -368,6 +376,7 @@ public class Activator extends AbstractUIPlugin {
 
     /* Propagate shutdown to Controller */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         if (Owl.isStarted() || Controller.isInitialized())
           Controller.getDefault().shutdown(false);

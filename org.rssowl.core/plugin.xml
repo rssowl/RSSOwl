@@ -155,7 +155,7 @@
    <extension
          point="org.rssowl.core.SSLHandler">
       <sslhandler
-            class="org.rssowl.core.internal.connection.EasySSLProtocolSocketFactory">
+            class="org.rssowl.core.internal.connection.EasySSLConnectionSocketFactory">
       </sslhandler>
    </extension>
    <extension

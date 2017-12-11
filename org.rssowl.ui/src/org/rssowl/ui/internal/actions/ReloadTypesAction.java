@@ -93,6 +93,7 @@ public class ReloadTypesAction extends Action implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     run();
   }
@@ -101,6 +102,7 @@ public class ReloadTypesAction extends Action implements IObjectActionDelegate {
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction,
    * org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     if (selection instanceof IStructuredSelection)
       fSelection = (IStructuredSelection) selection;
@@ -112,6 +114,7 @@ public class ReloadTypesAction extends Action implements IObjectActionDelegate {
   @Override
   public void run() {
     Set<IBookMark> selectedBookMarks = new TreeSet<IBookMark>(new Comparator<IBookMark>() {
+      @Override
       public int compare(IBookMark o1, IBookMark o2) {
         if (o1.equals(o2))
           return 0;
@@ -200,6 +203,7 @@ public class ReloadTypesAction extends Action implements IObjectActionDelegate {
    * @see org.eclipse.ui.IObjectActionDelegate#setActivePart(org.eclipse.jface.action.IAction,
    * org.eclipse.ui.IWorkbenchPart)
    */
+  @Override
   public void setActivePart(IAction action, IWorkbenchPart targetPart) {
     fShell = targetPart.getSite().getShell();
   }

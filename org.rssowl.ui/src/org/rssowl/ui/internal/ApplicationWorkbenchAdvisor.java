@@ -31,6 +31,7 @@ import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
 import org.eclipse.ui.application.WorkbenchAdvisor;
 import org.eclipse.ui.application.WorkbenchWindowAdvisor;
 import org.rssowl.core.util.LoggingSafeRunnable;
+import org.rssowl.core.util.SecurityUtils;
 
 /**
  * @author bpasero
@@ -51,6 +52,8 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
    */
   public ApplicationWorkbenchAdvisor(Runnable runAfterUIStartup) {
     fRunAfterUIStartup = runAfterUIStartup;
+
+    SecurityUtils.setUnlimitedSecurity();
   }
 
   /*
@@ -138,6 +141,7 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
     /* Run Runnable if provided */
     if (fRunAfterUIStartup != null) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           fRunAfterUIStartup.run();
         }
@@ -164,6 +168,7 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
 
     /* Pre-Shutdown Controller */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         res[0] = Controller.getDefault().preUIShutdown();
       }

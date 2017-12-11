@@ -163,9 +163,11 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
   private void registerListeners() {
     fPartListener = new IPartListener2() {
 
+      @Override
       public void partHidden(IWorkbenchPartReference partRef) {}
 
       /* Hook into Global Actions for this Editor */
+      @Override
       public void partBroughtToTop(IWorkbenchPartReference partRef) {
         if (WebBrowserView.this.equals(partRef.getPart(false))) {
           setGlobalActions();
@@ -173,6 +175,7 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
         }
       }
 
+      @Override
       public void partClosed(IWorkbenchPartReference partRef) {
         IEditorReference[] editors = partRef.getPage().getEditorReferences();
         boolean equalsThis = WebBrowserView.this.equals(partRef.getPart(false));
@@ -180,23 +183,28 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
           OwlUI.updateWindowTitle(getPartName());
       }
 
+      @Override
       public void partDeactivated(IWorkbenchPartReference partRef) {}
 
+      @Override
       public void partActivated(IWorkbenchPartReference partRef) {
         if (WebBrowserView.this.equals(partRef.getPart(false)))
           OwlUI.updateWindowTitle(getPartName());
       }
 
+      @Override
       public void partInputChanged(IWorkbenchPartReference partRef) {
         if (WebBrowserView.this.equals(partRef.getPart(false)))
           OwlUI.updateWindowTitle(getPartName());
       }
 
+      @Override
       public void partOpened(IWorkbenchPartReference partRef) {
         if (WebBrowserView.this.equals(partRef.getPart(false)))
           OwlUI.updateWindowTitle(getPartName());
       }
 
+      @Override
       public void partVisible(IWorkbenchPartReference partRef) {
         if (WebBrowserView.this.equals(partRef.getPart(false)))
           OwlUI.updateWindowTitle(getPartName());
@@ -676,12 +684,14 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
     Controller.getDefault().getContextService().registerInputField(fLocationInput);
 
     fLocationInput.addFocusListener(new FocusListener() {
+      @Override
       public void focusGained(FocusEvent e) {
         fEditorSite.getActionBars().getGlobalActionHandler(ActionFactory.CUT.getId()).setEnabled(true);
         fEditorSite.getActionBars().getGlobalActionHandler(ActionFactory.COPY.getId()).setEnabled(true);
         fEditorSite.getActionBars().getGlobalActionHandler(ActionFactory.PASTE.getId()).setEnabled(true);
       }
 
+      @Override
       public void focusLost(FocusEvent e) {
         fEditorSite.getActionBars().getGlobalActionHandler(ActionFactory.CUT.getId()).setEnabled(false);
         fEditorSite.getActionBars().getGlobalActionHandler(ActionFactory.COPY.getId()).setEnabled(false);
@@ -704,6 +714,7 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
 
     /* Title Listener */
     fBrowser.getControl().addTitleListener(new TitleListener() {
+      @Override
       public void changed(TitleEvent event) {
         if (URIUtils.ABOUT_BLANK.equals(event.title))
           setPartName(Messages.WebBrowserView_BLANK_PAGE);
@@ -719,6 +730,7 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
 
     /* Status Listener */
     fBrowser.getControl().addStatusTextListener(new StatusTextListener() {
+      @Override
       public void changed(StatusTextEvent event) {
 
         /* Don't show Status for the Handler Protocol */
@@ -744,6 +756,7 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
 
     /* Progress Listener */
     fBrowser.getControl().addProgressListener(new ProgressListener() {
+      @Override
       public void changed(ProgressEvent event) {
         if (!fLocationInput.isDisposed()) {
           String url = ((Browser) event.widget).getUrl();
@@ -753,6 +766,7 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
       }
 
       /* Reset progress bar on completion */
+      @Override
       public void completed(ProgressEvent event) {
         if (!fLocationInput.isDisposed()) {
           String url = ((Browser) event.widget).getUrl();
@@ -774,8 +788,11 @@ public class WebBrowserView extends EditorPart implements IReusableEditor {
 
   @SuppressWarnings("restriction")
   private void setBusy(boolean busy) {
-    if (fCreated && getSite() instanceof org.eclipse.ui.internal.PartSite)
-      ((org.eclipse.ui.internal.PartSite) getSite()).getPane().setBusy(busy);
+//    if (fCreated && getSite() instanceof org.eclipse.ui.internal.PartSite){
+//      ((org.eclipse.ui.internal.PartSite) getSite()).getPane().setBusy(busy);
+//      //XXX FUNCTIONALITY_REDUCTION MINOR: 4.2+ getPane moved? setBusy is missing too
+//      //((WorkbenchPartReference)((org.eclipse.ui.internal.PartSite) getSite()).getPartReference()).getPane().setBusy(busy);
+//    }
   }
 
   /*

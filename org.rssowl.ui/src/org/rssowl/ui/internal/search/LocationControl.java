@@ -258,6 +258,7 @@ public class LocationControl extends Composite {
 
       /* Handle some UI changes based on filter enabled or not */
       fFilteredTree.getFilterControl().addModifyListener(new ModifyListener() {
+        @Override
         public void modifyText(ModifyEvent e) {
           boolean isFiltered = StringUtils.isSet(fFilteredTree.getFilterControl().getText());
 
@@ -284,11 +285,13 @@ public class LocationControl extends Composite {
       }
 
       fViewer.setContentProvider(new ITreeContentProvider() {
+        @Override
         public Object[] getElements(Object inputElement) {
           Collection<IFolder> rootFolders = CoreUtils.loadRootFolders();
           return rootFolders.toArray();
         }
 
+        @Override
         public Object[] getChildren(Object parentElement) {
           if (parentElement instanceof IFolder) {
             IFolder folder = (IFolder) parentElement;
@@ -298,6 +301,7 @@ public class LocationControl extends Composite {
           return new Object[0];
         }
 
+        @Override
         public Object getParent(Object element) {
           if (element instanceof IFolder) {
             IFolder folder = (IFolder) element;
@@ -307,6 +311,7 @@ public class LocationControl extends Composite {
           return null;
         }
 
+        @Override
         public boolean hasChildren(Object element) {
           if (element instanceof IFolder) {
             IFolder folder = (IFolder) element;
@@ -316,8 +321,10 @@ public class LocationControl extends Composite {
           return false;
         }
 
+        @Override
         public void dispose() {}
 
+        @Override
         public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
       });
 
@@ -364,6 +371,7 @@ public class LocationControl extends Composite {
       });
 
       fViewer.addDoubleClickListener(new IDoubleClickListener() {
+        @Override
         public void doubleClick(DoubleClickEvent event) {
           IStructuredSelection selection = (IStructuredSelection) event.getSelection();
           IFolder folder = selection.getFirstElement() instanceof IFolder ? (IFolder) selection.getFirstElement() : null;
@@ -420,12 +428,14 @@ public class LocationControl extends Composite {
 
       /* Update Checks on Expand */
       fViewer.addTreeListener(new ITreeViewerListener() {
+        @Override
         public void treeExpanded(TreeExpansionEvent event) {
           boolean isChecked = fViewer.getChecked(event.getElement());
           if (isChecked)
             setChildsChecked((IFolderChild) event.getElement(), isChecked, false, false);
         }
 
+        @Override
         public void treeCollapsed(TreeExpansionEvent event) {}
       });
 

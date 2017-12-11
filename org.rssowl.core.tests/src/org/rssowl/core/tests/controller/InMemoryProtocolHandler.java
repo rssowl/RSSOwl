@@ -58,6 +58,7 @@ public class InMemoryProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#reload(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor, java.util.Map)
    */
+  @Override
   public Triple<IFeed, IConditionalGet, URI> reload(URI link, IProgressMonitor monitor, Map<Object, Object> properties) throws CoreException {
     IModelFactory typesFactory = Owl.getModelFactory();
 
@@ -93,6 +94,7 @@ public class InMemoryProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#getFeedIcon(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public byte[] getFeedIcon(URI link, IProgressMonitor monitor) {
     return null;
   }
@@ -114,6 +116,7 @@ public class InMemoryProtocolHandler implements IProtocolHandler {
   /*
    * @see org.rssowl.core.connection.IProtocolHandler#getURLStreamHandler()
    */
+  @Override
   @SuppressWarnings("unused")
   public URLStreamHandlerService getURLStreamHandler() throws ConnectionException {
     return new AbstractURLStreamHandlerService() {
@@ -130,6 +133,7 @@ public class InMemoryProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#getLabel(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public String getLabel(URI link, IProgressMonitor monitor) {
     throw new UnsupportedOperationException();
   }
@@ -138,6 +142,7 @@ public class InMemoryProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#getFeed(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public URI getFeed(URI website, IProgressMonitor monitor) {
     return website;
   }
@@ -146,6 +151,7 @@ public class InMemoryProtocolHandler implements IProtocolHandler {
    * @see org.rssowl.core.connection.IProtocolHandler#openStream(java.net.URI,
    * org.eclipse.core.runtime.IProgressMonitor, java.util.Map)
    */
+  @Override
   public InputStream openStream(URI link, IProgressMonitor monitor, Map<Object, Object> properties) {
     throw new UnsupportedOperationException();
   }

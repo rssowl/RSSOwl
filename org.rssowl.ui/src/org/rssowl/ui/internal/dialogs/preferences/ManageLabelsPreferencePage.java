@@ -115,6 +115,7 @@ public class ManageLabelsPreferencePage extends PreferencePage implements IWorkb
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {
     noDefaultAndApplyButton();
   }
@@ -238,6 +239,7 @@ public class ManageLabelsPreferencePage extends PreferencePage implements IWorkb
     });
 
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         editButton.setEnabled(!event.getSelection().isEmpty());
         deleteButton.setEnabled(!event.getSelection().isEmpty());
@@ -369,6 +371,7 @@ public class ManageLabelsPreferencePage extends PreferencePage implements IWorkb
 
   private void onLabelNameChanged(final ILabel label, final String oldName, final String newName) {
     IRunnableWithProgress runnableWithProgress = new IRunnableWithProgress() {
+      @Override
       public void run(IProgressMonitor monitor) {
         monitor.beginTask(Messages.ManageLabelsPreferencePage_WAIT_UPDATE, IProgressMonitor.UNKNOWN);
         try {
@@ -442,6 +445,7 @@ public class ManageLabelsPreferencePage extends PreferencePage implements IWorkb
 
   private void deleteInBackground(final List<ILabel> labelsToDelete) {
     IRunnableWithProgress runnableWithProgress = new IRunnableWithProgress() {
+      @Override
       public void run(IProgressMonitor monitor) {
         monitor.beginTask(Messages.ManageLabelsPreferencePage_WAIT_DELETE, IProgressMonitor.UNKNOWN);
         try {
@@ -491,6 +495,7 @@ public class ManageLabelsPreferencePage extends PreferencePage implements IWorkb
 
           /* Update UI */
           JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+            @Override
             public void run() {
               fViewer.refresh();
               fixOrderAfterDelete();
@@ -567,24 +572,30 @@ public class ManageLabelsPreferencePage extends PreferencePage implements IWorkb
 
     /* Content Provider */
     fViewer.setContentProvider(new ITreeContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         return CoreUtils.loadSortedLabels().toArray();
       }
 
+      @Override
       public Object[] getChildren(Object parentElement) {
         return null;
       }
 
+      @Override
       public Object getParent(Object element) {
         return null;
       }
 
+      @Override
       public boolean hasChildren(Object element) {
         return false;
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -615,6 +626,7 @@ public class ManageLabelsPreferencePage extends PreferencePage implements IWorkb
 
     /* Edit on Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         onEdit();
       }

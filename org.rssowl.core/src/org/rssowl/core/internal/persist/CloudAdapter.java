@@ -43,31 +43,37 @@ public class CloudAdapter extends Persistable implements ICloud {
   /*
    * @see org.rssowl.core.model.types.ICloud#setDomain(java.lang.String)
    */
+  @Override
   public void setDomain(String domain) {}
 
   /*
    * @see org.rssowl.core.model.types.ICloud#setPort(int)
    */
+  @Override
   public void setPort(int port) {}
 
   /*
    * @see org.rssowl.core.model.types.ICloud#setPath(java.lang.String)
    */
+  @Override
   public void setPath(String path) {}
 
   /*
    * @see org.rssowl.core.model.types.ICloud#setRegisterProcedure(java.lang.String)
    */
+  @Override
   public void setRegisterProcedure(String registerProcedure) {}
 
   /*
    * @see org.rssowl.core.model.types.ICloud#setProtocol(java.lang.String)
    */
+  @Override
   public void setProtocol(String protocol) {}
 
   /*
    * @see org.rssowl.core.model.types.ICloud#getDomain()
    */
+  @Override
   public String getDomain() {
     return null;
   }
@@ -75,6 +81,7 @@ public class CloudAdapter extends Persistable implements ICloud {
   /*
    * @see org.rssowl.core.model.types.ICloud#getPath()
    */
+  @Override
   public String getPath() {
     return null;
   }
@@ -82,6 +89,7 @@ public class CloudAdapter extends Persistable implements ICloud {
   /*
    * @see org.rssowl.core.model.types.ICloud#getPort()
    */
+  @Override
   public int getPort() {
     return 0;
   }
@@ -89,6 +97,7 @@ public class CloudAdapter extends Persistable implements ICloud {
   /*
    * @see org.rssowl.core.model.types.ICloud#getProtocol()
    */
+  @Override
   public String getProtocol() {
     return null;
   }
@@ -96,6 +105,7 @@ public class CloudAdapter extends Persistable implements ICloud {
   /*
    * @see org.rssowl.core.interpreter.types.ICloud#getRegisterProcedure()
    */
+  @Override
   public String getRegisterProcedure() {
     return null;
   }
@@ -103,6 +113,7 @@ public class CloudAdapter extends Persistable implements ICloud {
   /*
    * @see org.rssowl.core.model.types.ICloud#getFeed()
    */
+  @Override
   public FeedReference getFeed() {
     return null;
   }

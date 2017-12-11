@@ -71,6 +71,7 @@ public class PersonDAOImpl extends AbstractEntityDAO<IPerson, PersonListener, Pe
   /*
    * @see org.rssowl.core.persist.dao.IPersonDAO#loadAllNames()
    */
+  @Override
   public Set<String> loadAllNames() {
     try {
       Set<String> strings = new TreeSet<String>();

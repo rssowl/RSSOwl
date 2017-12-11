@@ -107,6 +107,7 @@ public final class IndexingTask implements ITask {
   /*
    * @see org.rssowl.core.util.ITask#getName()
    */
+  @Override
   public final String getName() {
     return Messages.IndexingTask_INDEXING_FEED;
   }
@@ -114,6 +115,7 @@ public final class IndexingTask implements ITask {
   /*
    * @see org.rssowl.core.util.ITask#getPriority()
    */
+  @Override
   public final Priority getPriority() {
     return Priority.DEFAULT;
   }
@@ -122,6 +124,7 @@ public final class IndexingTask implements ITask {
    * @see
    * org.rssowl.core.util.ITask#run(org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public final IStatus run(IProgressMonitor monitor) {
     switch (fTaskType) {
 

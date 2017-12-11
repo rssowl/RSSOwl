@@ -73,5 +73,6 @@ public interface ISearchMark extends INewsMark, ISearch {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   SearchMarkReference toReference();
 }

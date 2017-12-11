@@ -50,6 +50,7 @@ public final class ConditionalGetDAOImpl extends AbstractPersistableDAO<IConditi
   /*
    * @see org.rssowl.core.persist.dao.IConditionalGetDAO#load(java.net.URI)
    */
+  @Override
   public IConditionalGet load(URI link) {
     Assert.isNotNull(link, "link cannot be null"); //$NON-NLS-1$
     try {

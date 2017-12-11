@@ -69,6 +69,7 @@ public class NewsBinDaoImpl extends AbstractEntityDAO<INewsBin, NewsBinListener,
    * org.rssowl.core.persist.dao.INewsBinDAO#visited(org.rssowl.core.persist
    * .INewsBin)
    */
+  @Override
   public void visited(INewsBin mark) {
     fWriteLock.lock();
     try {

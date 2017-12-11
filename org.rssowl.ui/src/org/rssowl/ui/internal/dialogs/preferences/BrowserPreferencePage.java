@@ -91,6 +91,7 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {}
 
   /*
@@ -317,6 +318,7 @@ public class BrowserPreferencePage extends PreferencePage implements IWorkbenchP
 
     /* Enable Apply Button on Selection Changes */
     OwlUI.runOnSelection(new Runnable() {
+      @Override
       public void run() {
         updateApplyEnablement(true);
       }

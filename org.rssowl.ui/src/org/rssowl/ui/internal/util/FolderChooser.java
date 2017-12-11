@@ -174,6 +174,7 @@ public class FolderChooser extends Composite implements DisposeListener {
   /*
    * @see org.eclipse.swt.events.DisposeListener#widgetDisposed(org.eclipse.swt.events.DisposeEvent)
    */
+  @Override
   public void widgetDisposed(DisposeEvent e) {
     unregisterListeners();
   }
@@ -187,6 +188,7 @@ public class FolderChooser extends Composite implements DisposeListener {
 
         /* Refresh and show added Folder */
         JobRunner.runInUIThread(fFolderViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
             fFolderViewer.refresh();
             FolderEvent event = events.iterator().next();
@@ -202,6 +204,7 @@ public class FolderChooser extends Composite implements DisposeListener {
 
         /* Select added Folder */
         JobRunner.runInUIThread(SELECTION_DELAY, fFolderViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
             FolderEvent event = events.iterator().next();
             fFolderViewer.setSelection(new StructuredSelection(event.getEntity()));
@@ -356,11 +359,13 @@ public class FolderChooser extends Composite implements DisposeListener {
     });
 
     fFolderViewer.setContentProvider(new ITreeContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         Collection<IFolder> rootFolders = CoreUtils.loadRootFolders();
         return rootFolders.toArray();
       }
 
+      @Override
       public Object[] getChildren(Object parentElement) {
         if (parentElement instanceof IFolder) {
           IFolder folder = (IFolder) parentElement;
@@ -370,6 +375,7 @@ public class FolderChooser extends Composite implements DisposeListener {
         return new Object[0];
       }
 
+      @Override
       public Object getParent(Object element) {
         if (element instanceof IFolder) {
           IFolder folder = (IFolder) element;
@@ -379,6 +385,7 @@ public class FolderChooser extends Composite implements DisposeListener {
         return null;
       }
 
+      @Override
       public boolean hasChildren(Object element) {
         if (element instanceof IFolder) {
           IFolder folder = (IFolder) element;
@@ -388,8 +395,10 @@ public class FolderChooser extends Composite implements DisposeListener {
         return false;
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -398,6 +407,7 @@ public class FolderChooser extends Composite implements DisposeListener {
     fFolderViewer.setInput(new Object());
 
     fFolderViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         if (!selection.isEmpty())
@@ -407,6 +417,7 @@ public class FolderChooser extends Composite implements DisposeListener {
     });
 
     fFolderViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         IFolder folder = (IFolder) selection.getFirstElement();

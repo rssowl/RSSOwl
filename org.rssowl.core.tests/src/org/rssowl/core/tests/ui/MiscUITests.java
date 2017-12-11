@@ -94,7 +94,11 @@ public class MiscUITests {
     for (int i = 0; i < 5; i++)
       OwlUI.deleteImage(i);
 
-    IFeed feed = new Feed(new URI("http://www.rssowl.org/node/feed"));
+    // URI feedUrl = new URI("http://www.rssowl.org/node/feed");
+    URI feedUrl = new URI("https://www.heise.de");
+
+    IFeed feed = new Feed(feedUrl);
+
     IFolder root = new Folder(null, null, "Root");
     IBookMark bookmark = new BookMark(null, root, new FeedLinkReference(feed.getLink()), "Bookmark");
     root.addMark(bookmark, null, false);
@@ -415,10 +419,10 @@ public class MiscUITests {
     comp.sort(null, elements);
 
     /*
-     * News 3: Label_1, Label_2 News 1: Label_1, Label_2 News 2: Label_1
+     * News 1: Label_1, Label_2 News 3: Label_1, Label_2 News 2: Label_1
      */
-    assertEquals("C News", ((INews) elements[0]).getTitle());
-    assertEquals("A News", ((INews) elements[1]).getTitle());
+    assertEquals("A News", ((INews) elements[0]).getTitle());
+    assertEquals("C News", ((INews) elements[1]).getTitle());
     assertEquals("B News", ((INews) elements[2]).getTitle());
 
     news3.addLabel(label3);

@@ -181,6 +181,7 @@ public class TutorialPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
 
     /* Title Image */
@@ -193,10 +194,12 @@ public class TutorialPage extends WizardPage {
 
     /* Contents */
     SafeRunnable.run(new ISafeRunnable() {
+      @Override
       public void run() throws Exception {
         createContents(container);
       }
 
+      @Override
       public void handleException(Throwable th) {
         Activator.safeLogError(th.getMessage(), th);
       }

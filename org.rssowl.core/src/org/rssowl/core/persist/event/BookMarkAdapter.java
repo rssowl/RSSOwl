@@ -29,7 +29,7 @@ import java.util.Set;
 /**
  * Provides an empty implementation of <code>SearchMarkListener</code>.
  * Useful if the client only needs to implement a subset of the interface.
- * 
+ *
  * @author bpasero
  */
 public class BookMarkAdapter implements BookMarkListener {
@@ -37,15 +37,18 @@ public class BookMarkAdapter implements BookMarkListener {
   /*
    * @see org.rssowl.core.model.events.BookMarkListener#bookMarkAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<BookMarkEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.BookMarkListener#bookMarkDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<BookMarkEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.BookMarkListener#bookMarkUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<BookMarkEvent> events) { }
 }

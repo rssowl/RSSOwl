@@ -324,6 +324,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
 
     editMenu.setRemoveAllWhenShown(true);
     editMenu.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager editMenu) {
         editMenu.add(new GroupMarker(IWorkbenchActionConstants.EDIT_START));
         editMenu.add(new Separator());
@@ -376,6 +377,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
 
     /* Build Menu dynamically */
     viewMenu.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         final FeedView activeFeedView = OwlUI.getActiveFeedView();
         final IPreferenceScope entityPreferences = OwlUI.getActiveFeedViewPreferences();
@@ -777,6 +779,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
         final MenuManager toolbarsMenu = new MenuManager(Messages.ApplicationActionBarAdvisor_TOOLBARS);
         toolbarsMenu.setRemoveAllWhenShown(true);
         toolbarsMenu.addMenuListener(new IMenuListener() {
+          @Override
           public void menuAboutToShow(IMenuManager manager) {
             boolean useExternalBrowser = OwlUI.useExternalBrowser();
 
@@ -1119,6 +1122,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
     bmMenu.setRemoveAllWhenShown(true);
     bmMenu.add(new Action("") {}); //Dummy Action //$NON-NLS-1$
     bmMenu.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         fillBookMarksMenu(manager, getActionBarConfigurer().getWindowConfigurer().getWindow());
         manager.add(new GroupMarker(IWorkbenchActionConstants.MB_ADDITIONS));
@@ -1135,6 +1139,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
     newsMenu.setRemoveAllWhenShown(true);
 
     newsMenu.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         final IStructuredSelection selection;
 
@@ -1208,6 +1213,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
           List<INewsBin> newsbins = new ArrayList<INewsBin>(DynamicDAO.loadAll(INewsBin.class));
 
           Comparator<INewsBin> comparator = new Comparator<INewsBin>() {
+            @Override
             public int compare(INewsBin o1, INewsBin o2) {
               return o1.getName().compareTo(o2.getName());
             };
@@ -2175,6 +2181,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
         folderMenu.add(new Action("") {}); //Dummy Action //$NON-NLS-1$
         folderMenu.setRemoveAllWhenShown(true);
         folderMenu.addMenuListener(new IMenuListener() {
+          @Override
           public void menuAboutToShow(IMenuManager manager) {
 
             /* Open Folder */

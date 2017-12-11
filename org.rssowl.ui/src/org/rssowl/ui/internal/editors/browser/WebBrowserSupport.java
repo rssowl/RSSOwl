@@ -42,6 +42,7 @@ public class WebBrowserSupport extends AbstractWorkbenchBrowserSupport {
   /*
    * @see org.eclipse.ui.browser.IWorkbenchBrowserSupport#createBrowser(java.lang.String)
    */
+  @Override
   public IWebBrowser createBrowser(final String browserId) {
     Assert.isNotNull(browserId);
 
@@ -53,6 +54,7 @@ public class WebBrowserSupport extends AbstractWorkbenchBrowserSupport {
    * @see org.eclipse.ui.browser.IWorkbenchBrowserSupport#createBrowser(int,
    * java.lang.String, java.lang.String, java.lang.String)
    */
+  @Override
   public IWebBrowser createBrowser(int style, String browserId, String name, String tooltip) {
     return createBrowser(browserId);
   }

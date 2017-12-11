@@ -57,6 +57,7 @@ public class OpenAction extends Action {
   public void run() {
     final IStructuredSelection selection = (IStructuredSelection) fSelectionProvider.getSelection();
     BusyIndicator.showWhile(PlatformUI.getWorkbench().getDisplay(), new Runnable() {
+      @Override
       public void run() {
 
         /* Open in Feedview */

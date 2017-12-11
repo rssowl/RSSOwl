@@ -336,6 +336,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#isEquivalent(org.rssowl.core.persist.INews)
    */
+  @Override
   public boolean isEquivalent(INews o) {
     News other = (News) o;
     fLock.acquireReadLock();
@@ -386,6 +387,7 @@ public class News extends AbstractEntity implements INews {
    * org.rssowl.core.model.types.INews#addAttachment(org.rssowl.core.model.types
    * .IAttachment)
    */
+  @Override
   public void addAttachment(IAttachment attachment) {
     Assert.isNotNull(attachment, "Exception adding NULL as Attachment into News"); //$NON-NLS-1$
     fLock.acquireWriteLock();
@@ -404,6 +406,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#getLabels()
    */
+  @Override
   public Set<ILabel> getLabels() {
     fLock.acquireReadLock();
     try {
@@ -428,6 +431,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#addLabel(org.rssowl.core.persist.ILabel)
    */
+  @Override
   public boolean addLabel(ILabel label) {
     Assert.isNotNull(label, "label"); //$NON-NLS-1$
     fLock.acquireWriteLock();
@@ -456,6 +460,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#removeLabel(org.rssowl.core.persist.ILabel)
    */
+  @Override
   public boolean removeLabel(ILabel label) {
     Assert.isNotNull(label, "label"); //$NON-NLS-1$
     fLock.acquireWriteLock();
@@ -472,6 +477,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getAttachments()
    */
+  @Override
   public List<IAttachment> getAttachments() {
     fLock.acquireReadLock();
     try {
@@ -486,6 +492,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getAuthor()
    */
+  @Override
   public IPerson getAuthor() {
     fLock.acquireReadLock();
     try {
@@ -498,6 +505,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setAuthor(org.rssowl.core.model.types.IPerson)
    */
+  @Override
   public void setAuthor(IPerson author) {
     fLock.acquireWriteLock();
     try {
@@ -510,6 +518,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getDescription()
    */
+  @Override
   public String getDescription() {
     fLock.acquireReadLock();
     try {
@@ -529,6 +538,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#setDescription(java.lang.String)
    */
+  @Override
   public void setDescription(String description) {
     fLock.acquireWriteLock();
     try {
@@ -542,6 +552,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getLink()
    */
+  @Override
   public URI getLink() {
     fLock.acquireReadLock();
     try {
@@ -554,6 +565,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setLink(java.lang.String)
    */
+  @Override
   public void setLink(URI link) {
     fLock.acquireWriteLock();
     try {
@@ -566,6 +578,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getPublishDate()
    */
+  @Override
   public Date getPublishDate() {
     fLock.acquireReadLock();
     try {
@@ -578,6 +591,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setPublishDate(java.util.Date)
    */
+  @Override
   public void setPublishDate(Date publishDate) {
     fLock.acquireWriteLock();
     try {
@@ -590,6 +604,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getTitle()
    */
+  @Override
   public String getTitle() {
     fLock.acquireReadLock();
     try {
@@ -602,6 +617,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setTitle(java.lang.String)
    */
+  @Override
   public void setTitle(String title) {
     fLock.acquireWriteLock();
     try {
@@ -614,6 +630,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getFeed()
    */
+  @Override
   public FeedLinkReference getFeedReference() {
     fLock.acquireReadLock();
     try {
@@ -626,6 +643,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setReceiveDate(java.util.Date)
    */
+  @Override
   public void setReceiveDate(Date receiveDate) {
     fLock.acquireWriteLock();
     try {
@@ -638,6 +656,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getReceiveDate()
    */
+  @Override
   public Date getReceiveDate() {
     fLock.acquireReadLock();
     try {
@@ -650,6 +669,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setComments(java.lang.String)
    */
+  @Override
   public void setComments(String comments) {
     fLock.acquireWriteLock();
     try {
@@ -662,6 +682,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setGuid(org.rssowl.core.model.types.IGuid)
    */
+  @Override
   public void setGuid(IGuid guid) {
     fLock.acquireWriteLock();
     try {
@@ -676,6 +697,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setSource(org.rssowl.core.model.types.ISource)
    */
+  @Override
   public void setSource(ISource source) {
     fLock.acquireWriteLock();
     try {
@@ -688,6 +710,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setInReplyTo(java.lang.String)
    */
+  @Override
   public void setInReplyTo(String guid) {
     fLock.acquireWriteLock();
     try {
@@ -700,6 +723,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setModifiedDate(java.util.Date)
    */
+  @Override
   public void setModifiedDate(Date modifiedDate) {
     fLock.acquireWriteLock();
     try {
@@ -712,6 +736,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getModifiedDate()
    */
+  @Override
   public Date getModifiedDate() {
     fLock.acquireReadLock();
     try {
@@ -741,6 +766,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#addCategory(org.rssowl.core.model.types.ICategory)
    */
+  @Override
   public void addCategory(ICategory category) {
     fLock.acquireWriteLock();
     try {
@@ -755,6 +781,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getComments()
    */
+  @Override
   public String getComments() {
     fLock.acquireReadLock();
     try {
@@ -767,6 +794,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#isFlagged()
    */
+  @Override
   public boolean isFlagged() {
     fLock.acquireReadLock();
     try {
@@ -779,6 +807,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setFlagged(boolean)
    */
+  @Override
   public void setFlagged(boolean isFlagged) {
     fLock.acquireWriteLock();
     try {
@@ -791,6 +820,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getGuid()
    */
+  @Override
   public IGuid getGuid() {
     fLock.acquireReadLock();
     try {
@@ -803,6 +833,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setBase(java.net.URI)
    */
+  @Override
   public void setBase(URI baseUri) {
     fLock.acquireWriteLock();
     try {
@@ -815,6 +846,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getBase()
    */
+  @Override
   public URI getBase() {
     fLock.acquireReadLock();
     try {
@@ -827,6 +859,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getCategories()
    */
+  @Override
   public List<ICategory> getCategories() {
     fLock.acquireReadLock();
     try {
@@ -841,6 +874,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setState(org.rssowl.core.model.types.INews.State)
    */
+  @Override
   public void setState(State state) {
     Assert.isNotNull(state, "state cannot be null"); //$NON-NLS-1$
     fLock.acquireWriteLock();
@@ -854,6 +888,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getState()
    */
+  @Override
   public State getState() {
     fLock.acquireReadLock();
     try {
@@ -866,6 +901,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#setRating(int)
    */
+  @Override
   public void setRating(int rating) {
     fLock.acquireWriteLock();
     try {
@@ -878,6 +914,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getRating()
    */
+  @Override
   public int getRating() {
     fLock.acquireReadLock();
     try {
@@ -890,6 +927,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getSource()
    */
+  @Override
   public ISource getSource() {
     fLock.acquireReadLock();
     try {
@@ -902,6 +940,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#getInReplyTo()
    */
+  @Override
   public String getInReplyTo() {
     fLock.acquireReadLock();
     try {
@@ -914,6 +953,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.model.types.INews#isVisible()
    */
+  @Override
   public boolean isVisible() {
     INews.State state = getState();
     return State.getVisible().contains(state);
@@ -922,6 +962,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.Reparentable#setParent(java.lang.Object)
    */
+  @Override
   public void setParent(IFeed feed) {
     Assert.isNotNull(feed, "feed"); //$NON-NLS-1$
     fLock.acquireWriteLock();
@@ -935,6 +976,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#removeAttachment(org.rssowl.core.persist.IAttachment)
    */
+  @Override
   public void removeAttachment(IAttachment attachment) {
     fLock.acquireWriteLock();
     try {
@@ -948,6 +990,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#getParentId()
    */
+  @Override
   public long getParentId() {
     fLock.acquireReadLock();
     try {
@@ -1001,6 +1044,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#getFeedLinkAsText()
    */
+  @Override
   public String getFeedLinkAsText() {
     return fFeedLink;
   }
@@ -1008,6 +1052,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.INews#getLinkAsText()
    */
+  @Override
   public String getLinkAsText() {
     return fLinkText;
   }
@@ -1060,6 +1105,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.MergeCapable#merge(java.lang.Object)
    */
+  @Override
   public MergeResult merge(INews news) {
     Assert.isNotNull(news, "news cannot be null"); //$NON-NLS-1$
     if (this == news)
@@ -1238,7 +1284,7 @@ public class News extends AbstractEntity implements INews {
       categories = Collections.emptyList();
 
     Comparator<ICategory> comparator = new Comparator<ICategory>() {
-
+      @Override
       public int compare(ICategory o1, ICategory o2) {
         if (o1.getName() == null ? o2.getName() == null : o1.getName().equals(o2.getName())) {
           return 0;
@@ -1258,6 +1304,7 @@ public class News extends AbstractEntity implements INews {
       attachments = Collections.emptyList();
 
     Comparator<IAttachment> comparator = new Comparator<IAttachment>() {
+      @Override
       public int compare(IAttachment o1, IAttachment o2) {
         if (o1.getLink() == null ? o2.getLink() == null : o1.getLink().equals(o2.getLink())) {
           return 0;
@@ -1305,6 +1352,7 @@ public class News extends AbstractEntity implements INews {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public NewsReference toReference() {
     return new NewsReference(getIdAsPrimitive());
   }

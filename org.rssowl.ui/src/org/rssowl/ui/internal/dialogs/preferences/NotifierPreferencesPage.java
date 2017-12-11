@@ -114,6 +114,7 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {}
 
   /*
@@ -176,6 +177,7 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
 
     /* Enable Apply Button on Selection Changes */
     OwlUI.runOnSelection(new Runnable() {
+      @Override
       public void run() {
         updateApplyEnablement(true);
       }
@@ -213,11 +215,13 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
 
     /* ContentProvider */
     fViewer.setContentProvider(new ITreeContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         Collection<IFolder> rootFolders = CoreUtils.loadRootFolders();
         return rootFolders.toArray();
       }
 
+      @Override
       public Object[] getChildren(Object parentElement) {
         if (parentElement instanceof IFolder) {
           IFolder folder = (IFolder) parentElement;
@@ -227,6 +231,7 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
         return new Object[0];
       }
 
+      @Override
       public Object getParent(Object element) {
         if (element instanceof IFolder) {
           IFolder folder = (IFolder) element;
@@ -236,6 +241,7 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
         return null;
       }
 
+      @Override
       public boolean hasChildren(Object element) {
         if (element instanceof IFolder) {
           IFolder folder = (IFolder) element;
@@ -245,8 +251,10 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
         return false;
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -263,6 +271,7 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
 
     /* Listen on Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         IFolder folder = selection.getFirstElement() instanceof IFolder ? (IFolder) selection.getFirstElement() : null;
@@ -303,12 +312,14 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
 
     /* Update Checks on Expand */
     fViewer.addTreeListener(new ITreeViewerListener() {
+      @Override
       public void treeExpanded(TreeExpansionEvent event) {
         boolean isChecked = fViewer.getChecked(event.getElement());
         if (isChecked)
           setChildsChecked((IFolderChild) event.getElement(), isChecked, false);
       }
 
+      @Override
       public void treeCollapsed(TreeExpansionEvent event) {}
     });
 
@@ -560,6 +571,7 @@ public class NotifierPreferencesPage extends PreferencePage implements IWorkbenc
 
       /* Save */
       BusyIndicator.showWhile(getShell().getDisplay(), new Runnable() {
+        @Override
         public void run() {
 
           /* Save Entities */

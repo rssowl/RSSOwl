@@ -72,6 +72,7 @@ public class ConditionalGet extends Persistable implements IConditionalGet {
   /*
    * @see org.rssowl.core.model.internal.db4o.IConditionalGet#getFeedLink()
    */
+  @Override
   public synchronized URI getLink() {
     try {
       return new URI(fLink);
@@ -83,6 +84,7 @@ public class ConditionalGet extends Persistable implements IConditionalGet {
   /*
    * @see org.rssowl.core.model.internal.db4o.IConditionalGet#getIfModifiedSince()
    */
+  @Override
   public synchronized String getIfModifiedSince() {
     return fIfModifiedSince;
   }
@@ -90,6 +92,7 @@ public class ConditionalGet extends Persistable implements IConditionalGet {
   /*
    * @see org.rssowl.core.model.internal.db4o.IConditionalGet#getIfNoneMatch()
    */
+  @Override
   public synchronized String getIfNoneMatch() {
     return fIfNoneMatch;
   }
@@ -97,6 +100,7 @@ public class ConditionalGet extends Persistable implements IConditionalGet {
   /*
    * @see org.rssowl.core.persist.IConditionalGet#setHeaders(java.lang.String, java.lang.String)
    */
+  @Override
   public synchronized void setHeaders(String ifModifiedSince, String ifNoneMatch) {
     internalSetHeaders(ifModifiedSince, ifNoneMatch);
   }

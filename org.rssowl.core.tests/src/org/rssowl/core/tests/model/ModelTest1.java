@@ -682,14 +682,17 @@ public class ModelTest1 extends LargeBlockSizeTest {
 
     final boolean[] folderUpdatedCalled = new boolean[1];
     FolderListener folderListener = new FolderListener() {
+      @Override
       public void entitiesAdded(Set<FolderEvent> events) {
         fail("folderAdded should not be called");
       }
 
+      @Override
       public void entitiesDeleted(Set<FolderEvent> events) {
         fail("folderDeleted should not be called");
       }
 
+      @Override
       public void entitiesUpdated(Set<FolderEvent> events) {
         assertEquals(1, events.size());
         assertEquals(true, events.iterator().next().getEntity().equals(savedFolder));

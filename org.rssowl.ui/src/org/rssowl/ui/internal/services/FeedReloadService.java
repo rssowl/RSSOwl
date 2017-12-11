@@ -152,6 +152,7 @@ public class FeedReloadService {
 
     /* Init from a Background Thread */
     JobRunner.runInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         init();
       }
@@ -204,6 +205,7 @@ public class FeedReloadService {
     /* Reload the ones that reload on startup */
     if (!bookmarksToReloadOnStartup.isEmpty()) {
       JobRunner.runInUIThread(null, new Runnable() {
+        @Override
         public void run() {
           Controller.getDefault().reloadQueued(bookmarksToReloadOnStartup, null, null);
         }
@@ -220,6 +222,7 @@ public class FeedReloadService {
     /* Open BookMarks which are to open on startup */
     if (!newsmarksToOpenOnStartup.isEmpty()) {
       JobRunner.runInUIThread(null, new Runnable() {
+        @Override
         public void run() {
           IWorkbenchWindow window = PlatformUI.getWorkbench().getActiveWorkbenchWindow();
           IWorkbenchPage page = (window != null) ? window.getActivePage() : null;

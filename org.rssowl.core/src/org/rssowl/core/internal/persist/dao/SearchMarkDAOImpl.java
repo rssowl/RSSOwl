@@ -73,6 +73,7 @@ public final class SearchMarkDAOImpl extends AbstractEntityDAO<ISearchMark, Sear
   /*
    * @see org.rssowl.core.persist.dao.ISearchMarkDAO#fireNewsChanged(java.util.Set)
    */
+  @Override
   public void fireNewsChanged(Set<SearchMarkEvent> events) {
     for (SearchMarkListener listener : fEntityListeners) {
       listener.newsChanged(events);
@@ -84,6 +85,7 @@ public final class SearchMarkDAOImpl extends AbstractEntityDAO<ISearchMark, Sear
    * org.rssowl.core.persist.dao.ISearchMarkDAO#load(org.rssowl.core.persist
    * .ISearchCondition)
    */
+  @Override
   public ISearchMark load(ISearchCondition searchCondition) {
     Query query = fDb.query();
     query.constrain(fEntityClass);
@@ -96,6 +98,7 @@ public final class SearchMarkDAOImpl extends AbstractEntityDAO<ISearchMark, Sear
    * org.rssowl.core.persist.dao.ISearchMarkDAO#visited(org.rssowl.core.persist
    * .ISearchMark)
    */
+  @Override
   public void visited(ISearchMark mark) {
     fWriteLock.lock();
     try {

@@ -128,6 +128,7 @@ public class ActivityDialog extends TitleAreaDialog {
     super.configureShell(shell);
     shell.setText(Messages.ActivityDialog_DOWNLOADS_ACTIVITY);
     shell.addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(DisposeEvent e) {
         fgVisibleInstance = null;
       }
@@ -248,6 +249,7 @@ public class ActivityDialog extends TitleAreaDialog {
         final boolean hideCompleted = fHideCompletedCheck.getSelection();
         refreshProgressViewer(hideCompleted);
         JobRunner.runInBackgroundThread(new Runnable() {
+          @Override
           public void run() {
             fPreferences.putBoolean(DefaultPreferences.HIDE_COMPLETED_DOWNLOADS, hideCompleted);
           }

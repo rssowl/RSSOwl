@@ -330,6 +330,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
     /*
      * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
      */
+    @Override
     public int compare(ScoredNews news1, ScoredNews news2) {
 
       /* Not sorting by Score */
@@ -704,6 +705,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
     /* Perform the search slightly delayed if requested */
     if (fRunSearch) {
       JobRunner.runInUIThread(200, getShell(), new Runnable() {
+        @Override
         public void run() {
           onSearch();
         }
@@ -806,6 +808,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
     /* Create Content Provider */
     fBrowserViewer.setContentProvider(new IStructuredContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         if (inputElement instanceof Object[] && ((Object[]) inputElement).length > 0)
           inputElement = ((Object[]) inputElement)[0];
@@ -816,8 +819,10 @@ public class SearchNewsDialog extends TitleAreaDialog {
         return new Object[] { inputElement };
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -830,6 +835,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
     /* Set input when selection in result viewer changes */
     fResultViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         if (!selection.isEmpty() && fIsPreviewVisible) {
@@ -1065,6 +1071,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
     conditionsContainer.setBackground(container.getDisplay().getSystemColor(SWT.COLOR_LIST_BACKGROUND));
     conditionsContainer.setBackgroundMode(SWT.INHERIT_FORCE);
     conditionsContainer.addPaintListener(new PaintListener() {
+      @Override
       public void paintControl(PaintEvent e) {
         GC gc = e.gc;
         Rectangle clArea = conditionsContainer.getClientArea();
@@ -1425,6 +1432,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
     fNewsTableLabelProvider = new ScoredNewsLabelProvider(model);
     if (!OwlUI.isHighContrast()) {
       fResultViewer.getControl().addListener(SWT.EraseItem, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           Object element = event.item.getData();
           fNewsTableLabelProvider.erase(event, element);
@@ -1537,8 +1545,10 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
     /* Drag Support */
     fResultViewer.addDragSupport(ops, transfers, new DragSourceListener() {
+      @Override
       public void dragStart(final DragSourceEvent event) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             LocalSelectionTransfer.getTransfer().setSelection(fResultViewer.getSelection());
             LocalSelectionTransfer.getTransfer().setSelectionSetTime(event.time & 0xFFFFFFFFL);
@@ -1547,8 +1557,10 @@ public class SearchNewsDialog extends TitleAreaDialog {
         });
       }
 
+      @Override
       public void dragSetData(final DragSourceEvent event) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
 
             /* Set Selection using LocalSelectionTransfer */
@@ -1562,8 +1574,10 @@ public class SearchNewsDialog extends TitleAreaDialog {
         });
       }
 
+      @Override
       public void dragFinished(DragSourceEvent event) {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             LocalSelectionTransfer.getTransfer().setSelection(null);
             LocalSelectionTransfer.getTransfer().setSelectionSetTime(0);
@@ -1611,6 +1625,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
     /* Open selected News Links in Browser on doubleclick */
     fResultViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         onMouseDoubleClick(event);
       }
@@ -1618,6 +1633,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
     /* Perform Action on Mouse-Down */
     fResultViewer.getControl().addListener(SWT.MouseDown, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onMouseDown(event);
       }
@@ -1625,6 +1641,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
     /* Update Cursor on Mouse-Move */
     fResultViewer.getControl().addListener(SWT.MouseMove, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onMouseMove(event);
       }
@@ -1632,14 +1649,17 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
     /* Listen to News-Events */
     fNewsListener = new NewsListener() {
+      @Override
       public void entitiesAdded(Set<NewsEvent> events) {
       /* Ignore */
       }
 
+      @Override
       public void entitiesUpdated(Set<NewsEvent> events) {
         onNewsEvent(events);
       }
 
+      @Override
       public void entitiesDeleted(Set<NewsEvent> events) {
       /* Ignore */
       }
@@ -1651,6 +1671,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
       @Override
       public void entitiesUpdated(Set<LabelEvent> events) {
         JobRunner.runInUIThread(fResultViewer.getTable(), new Runnable() {
+          @Override
           public void run() {
             fResultViewer.refresh(true);
           }
@@ -1870,6 +1891,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
     MenuManager manager = new MenuManager();
     manager.setRemoveAllWhenShown(true);
     manager.addMenuListener(new IMenuListener() {
+      @Override
       public void menuAboutToShow(IMenuManager manager) {
         final IStructuredSelection selection = (IStructuredSelection) fResultViewer.getSelection();
 
@@ -1924,6 +1946,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
           List<INewsBin> newsbins = new ArrayList<INewsBin>(DynamicDAO.loadAll(INewsBin.class));
 
           Comparator<INewsBin> comparator = new Comparator<INewsBin>() {
+            @Override
             public int compare(INewsBin o1, INewsBin o2) {
               return o1.getName().compareTo(o2.getName());
             };
@@ -1986,6 +2009,7 @@ public class SearchNewsDialog extends TitleAreaDialog {
 
   private IStructuredContentProvider getContentProvider() {
     return new IStructuredContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         if (inputElement instanceof List<?>)
           return getVisibleNews((List<?>) inputElement);
@@ -1993,8 +2017,10 @@ public class SearchNewsDialog extends TitleAreaDialog {
         return new Object[0];
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     };
   }

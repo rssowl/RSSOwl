@@ -144,6 +144,7 @@ public class CleanUpWizard extends Wizard {
 
     /* Runnable that performs the tasks */
     IRunnableWithProgress runnable = new IRunnableWithProgress() {
+      @Override
       public void run(IProgressMonitor monitor) {
         IPreferenceScope preferences = Owl.getPreferenceService().getGlobalScope();
         boolean optimizeSearch = false;

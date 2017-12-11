@@ -92,8 +92,10 @@ public class MarkTypesReadAction extends Action implements IWorkbenchWindowActio
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     JobRunner.runInBackgroundWithBusyIndicator(new Runnable() {
+      @Override
       public void run() {
         MarkTypesReadAction.this.internalRun();
       }
@@ -106,6 +108,7 @@ public class MarkTypesReadAction extends Action implements IWorkbenchWindowActio
   @Override
   public void run() {
     JobRunner.runInBackgroundWithBusyIndicator(new Runnable() {
+      @Override
       public void run() {
         MarkTypesReadAction.this.internalRun();
       }
@@ -313,6 +316,7 @@ public class MarkTypesReadAction extends Action implements IWorkbenchWindowActio
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction,
    * org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     if (selection instanceof IStructuredSelection)
       fSelection = (IStructuredSelection) selection;
@@ -321,10 +325,12 @@ public class MarkTypesReadAction extends Action implements IWorkbenchWindowActio
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {}
 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {}
 }

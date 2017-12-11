@@ -86,6 +86,7 @@ public class SearchMarkPropertyPage implements IEntityPropertyPage {
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#init(org.rssowl.ui.dialogs.properties.IPropertyDialogSite,
    * java.util.List)
    */
+  @Override
   public void init(IPropertyDialogSite site, List<IEntity> entities) {
     fSite = site;
     fEntities = entities;
@@ -94,6 +95,7 @@ public class SearchMarkPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#createContents(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public Control createContents(Composite parent) {
 
     /* Create contents for single selection */
@@ -107,6 +109,7 @@ public class SearchMarkPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#getImage()
    */
+  @Override
   public ImageDescriptor getImage() {
     return null;
   }
@@ -313,6 +316,7 @@ public class SearchMarkPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#setFocus()
    */
+  @Override
   public void setFocus() {
     if (fNameInput != null) {
       fNameInput.setFocus();
@@ -323,6 +327,7 @@ public class SearchMarkPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#performOk(java.util.Set)
    */
+  @Override
   public boolean performOk(Set<IEntity> entitiesToSave) {
 
     /* Perform OK for single selection */
@@ -418,6 +423,7 @@ public class SearchMarkPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#finish()
    */
+  @Override
   public void finish() {
 
     /* Reparent if necessary */

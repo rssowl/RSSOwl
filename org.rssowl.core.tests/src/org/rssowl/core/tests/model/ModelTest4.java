@@ -552,6 +552,7 @@ public class ModelTest4 extends LargeBlockSizeTest {
     fFactory.createNews(null, feed, new Date());
 
     NewsListener listener = new NewsListener() {
+      @Override
       public void entitiesAdded(Set<NewsEvent> events) {
         listenerHit.set(true);
 
@@ -561,8 +562,10 @@ public class ModelTest4 extends LargeBlockSizeTest {
         }
       }
 
+      @Override
       public void entitiesUpdated(Set<NewsEvent> events) {}
 
+      @Override
       public void entitiesDeleted(Set<NewsEvent> events) {}
     };
     DynamicDAO.addEntityListener(INews.class, listener);
@@ -591,6 +594,7 @@ public class ModelTest4 extends LargeBlockSizeTest {
     DynamicDAO.save(feed);
 
     NewsListener listener = new NewsListener() {
+      @Override
       public void entitiesUpdated(Set<NewsEvent> events) {
         listenerHit.set(true);
 
@@ -600,8 +604,10 @@ public class ModelTest4 extends LargeBlockSizeTest {
         }
       }
 
+      @Override
       public void entitiesDeleted(Set<NewsEvent> events) {}
 
+      @Override
       public void entitiesAdded(Set<NewsEvent> events) {}
     };
     DynamicDAO.addEntityListener(INews.class, listener);
@@ -629,6 +635,7 @@ public class ModelTest4 extends LargeBlockSizeTest {
     DynamicDAO.save(feed);
 
     NewsListener listener = new NewsListener() {
+      @Override
       public void entitiesDeleted(Set<NewsEvent> events) {
         listenerHit.set(true);
 
@@ -638,8 +645,10 @@ public class ModelTest4 extends LargeBlockSizeTest {
         }
       }
 
+      @Override
       public void entitiesUpdated(Set<NewsEvent> events) {}
 
+      @Override
       public void entitiesAdded(Set<NewsEvent> events) {}
     };
     DynamicDAO.addEntityListener(INews.class, listener);

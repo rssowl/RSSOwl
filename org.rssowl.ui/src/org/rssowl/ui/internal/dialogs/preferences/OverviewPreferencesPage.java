@@ -66,6 +66,7 @@ public class OverviewPreferencesPage extends PreferencePage implements IWorkbenc
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {
     noDefaultAndApplyButton();
   }

@@ -476,6 +476,7 @@ public class ApplicationServer {
     final boolean isResourceOperation = !isDisplayOperation && isResourceOperation(message);
 
     LoggingSafeRunnable runnable = new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
 
         /* This is a Display-Operation */

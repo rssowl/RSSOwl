@@ -68,11 +68,13 @@ public class UnsubscribeGoogleReaderAction implements IWorkbenchWindowActionDele
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {}
 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {
     fWindow = window;
   }
@@ -80,6 +82,7 @@ public class UnsubscribeGoogleReaderAction implements IWorkbenchWindowActionDele
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     ConfirmDialog dialog = new ConfirmDialog(fWindow.getShell(), Messages.UnsubscribeGoogleReaderAction_0, Messages.UnsubscribeGoogleReaderAction_1, Messages.UnsubscribeGoogleReaderAction_2, Messages.UnsubscribeGoogleReaderAction_3, null) {
 
@@ -191,5 +194,6 @@ public class UnsubscribeGoogleReaderAction implements IWorkbenchWindowActionDele
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {}
 }

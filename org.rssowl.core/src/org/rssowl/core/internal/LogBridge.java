@@ -80,6 +80,7 @@ public class LogBridge implements Log {
    * @see org.apache.commons.logging.impl.NoOpLog#error(java.lang.Object,
    * java.lang.Throwable)
    */
+  @Override
   public void error(Object message, Throwable t) {
     logError(message, t);
   }
@@ -87,6 +88,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.impl.NoOpLog#error(java.lang.Object)
    */
+  @Override
   public void error(Object message) {
     logError(message, null);
   }
@@ -95,6 +97,7 @@ public class LogBridge implements Log {
    * @see org.apache.commons.logging.impl.NoOpLog#fatal(java.lang.Object,
    * java.lang.Throwable)
    */
+  @Override
   public void fatal(Object message, Throwable t) {
     logError(message, t);
   }
@@ -102,6 +105,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.impl.NoOpLog#fatal(java.lang.Object)
    */
+  @Override
   public void fatal(Object message) {
     logError(message, null);
   }
@@ -153,6 +157,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#debug(java.lang.Object)
    */
+  @Override
   public void debug(Object message) {
     if (isDebugEnabled())
       logInfo(message, null);
@@ -162,6 +167,7 @@ public class LogBridge implements Log {
    * @see org.apache.commons.logging.Log#debug(java.lang.Object,
    * java.lang.Throwable)
    */
+  @Override
   public void debug(Object message, Throwable t) {
     if (isDebugEnabled())
       logInfo(message, t);
@@ -170,6 +176,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#info(java.lang.Object)
    */
+  @Override
   public void info(Object message) {
     if (isInfoEnabled())
       logInfo(message, null);
@@ -179,6 +186,7 @@ public class LogBridge implements Log {
    * @see org.apache.commons.logging.Log#info(java.lang.Object,
    * java.lang.Throwable)
    */
+  @Override
   public void info(Object message, Throwable t) {
     if (isInfoEnabled())
       logInfo(message, t);
@@ -187,6 +195,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#warn(java.lang.Object)
    */
+  @Override
   public void warn(Object message) {
     if (isWarnEnabled())
       logWarning(message, null);
@@ -196,6 +205,7 @@ public class LogBridge implements Log {
    * @see org.apache.commons.logging.Log#warn(java.lang.Object,
    * java.lang.Throwable)
    */
+  @Override
   public void warn(Object message, Throwable t) {
     if (isWarnEnabled())
       logWarning(message, t);
@@ -204,6 +214,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#trace(java.lang.Object)
    */
+  @Override
   public void trace(Object message) {
     if (isTraceEnabled())
       logInfo(message, null);
@@ -213,6 +224,7 @@ public class LogBridge implements Log {
    * @see org.apache.commons.logging.Log#trace(java.lang.Object,
    * java.lang.Throwable)
    */
+  @Override
   public void trace(Object message, Throwable t) {
     if (isTraceEnabled())
       logInfo(message, t);
@@ -221,6 +233,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#isDebugEnabled()
    */
+  @Override
   public boolean isDebugEnabled() {
     return fDebug;
   }
@@ -228,6 +241,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#isErrorEnabled()
    */
+  @Override
   public boolean isErrorEnabled() {
     return true;
   }
@@ -235,6 +249,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#isFatalEnabled()
    */
+  @Override
   public boolean isFatalEnabled() {
     return true;
   }
@@ -242,6 +257,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#isInfoEnabled()
    */
+  @Override
   public boolean isInfoEnabled() {
     return fInfo;
   }
@@ -249,6 +265,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#isTraceEnabled()
    */
+  @Override
   public boolean isTraceEnabled() {
     return fTrace;
   }
@@ -256,6 +273,7 @@ public class LogBridge implements Log {
   /*
    * @see org.apache.commons.logging.Log#isWarnEnabled()
    */
+  @Override
   public boolean isWarnEnabled() {
     return fWarn;
   }

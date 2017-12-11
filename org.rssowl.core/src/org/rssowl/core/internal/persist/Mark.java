@@ -75,6 +75,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IFeed#getLastVisitDate()
    */
+  @Override
   public synchronized Date getLastVisitDate() {
     return fLastVisitDate;
   }
@@ -82,6 +83,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IFeed#setLastVisitDate(java.util.Date)
    */
+  @Override
   public synchronized void setLastVisitDate(Date lastVisitDate) {
     fLastVisitDate = lastVisitDate;
   }
@@ -89,6 +91,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IFeed#getPopularity()
    */
+  @Override
   public synchronized int getPopularity() {
     return fPopularity;
   }
@@ -96,6 +99,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IFeed#setPopularity(int)
    */
+  @Override
   public synchronized void setPopularity(int popularity) {
     fPopularity = popularity;
   }
@@ -103,6 +107,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IMark#getCreationDate()
    */
+  @Override
   public synchronized Date getCreationDate() {
     return fCreationDate;
   }
@@ -110,6 +115,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IMark#setCreationDate(java.util.Date)
    */
+  @Override
   public synchronized void setCreationDate(Date creationDate) {
     fCreationDate = creationDate;
   }
@@ -117,6 +123,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IMark#getName()
    */
+  @Override
   public synchronized String getName() {
     return fName;
   }
@@ -124,6 +131,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.model.types.IMark#setName(java.lang.String)
    */
+  @Override
   public synchronized void setName(String name) {
     Assert.isNotNull(name, "The type Mark requires a Name that is not NULL"); //$NON-NLS-1$
     fName = name;
@@ -132,6 +140,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.persist.IMark#getParent()
    */
+  @Override
   public synchronized IFolder getParent() {
     return fParent;
   }
@@ -139,6 +148,7 @@ public abstract class Mark extends AbstractEntity implements IMark {
   /*
    * @see org.rssowl.core.persist.IMark#setParent(org.rssowl.core.persist.IFolder)
    */
+  @Override
   public synchronized void setParent(IFolder parent) {
     Assert.isNotNull(parent, "parent"); //$NON-NLS-1$
     fParent = parent;

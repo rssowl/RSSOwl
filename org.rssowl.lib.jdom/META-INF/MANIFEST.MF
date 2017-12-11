@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.rssowl.lib.jdom
-Bundle-Version: 2.2.1.qualifier
+Bundle-Version: 2.4.0.qualifier
 Eclipse-BuddyPolicy: registered
 Bundle-Vendor: %Bundle-Vendor
 Export-Package: .,
@@ -13,5 +13,5 @@ Export-Package: .,
  org.jdom.output,
  org.jdom.transform,
  org.jdom.xpath
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Localization: plugin

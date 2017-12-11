@@ -54,11 +54,13 @@ public class SendLinkAction implements IObjectActionDelegate {
    * @see org.eclipse.ui.IObjectActionDelegate#setActivePart(org.eclipse.jface.action.IAction,
    * org.eclipse.ui.IWorkbenchPart)
    */
+  @Override
   public void setActivePart(IAction action, IWorkbenchPart targetPart) {}
 
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     StringBuilder str = new StringBuilder();
 
@@ -103,6 +105,7 @@ public class SendLinkAction implements IObjectActionDelegate {
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction,
    * org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     if (selection instanceof IStructuredSelection)
       fSelection = (IStructuredSelection) selection;

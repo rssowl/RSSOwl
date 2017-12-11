@@ -106,6 +106,7 @@ public class ImportTargetPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
     boolean isWelcome = (getWizard() instanceof WelcomeWizard);
 
@@ -147,6 +148,7 @@ public class ImportTargetPage extends WizardPage {
     fFolderChooser.setLayout(LayoutUtils.createGridLayout(1, 0, 0, 2, 5, false));
     fFolderChooser.setBackground(container.getDisplay().getSystemColor(SWT.COLOR_LIST_BACKGROUND));
     fFolderChooser.addListener(SWT.Selection, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         if (!fChooseExistingRadio.getSelection()) {
           fChooseExistingRadio.setSelection(true);
@@ -189,6 +191,7 @@ public class ImportTargetPage extends WizardPage {
     fSetNameInput.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
     fSetNameInput.setEnabled(false);
     fSetNameInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         updatePageComplete();
       }

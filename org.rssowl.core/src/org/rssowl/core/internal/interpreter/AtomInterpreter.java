@@ -64,6 +64,7 @@ public class AtomInterpreter extends BasicInterpreter {
    * org.rssowl.core.interpreter.IFormatInterpreter#interpret(org.jdom.Document,
    * org.rssowl.core.interpreter.types.IFeed)
    */
+  @Override
   public void interpret(Document document, IFeed feed) {
     Element root = document.getRootElement();
     setDefaultNamespaceUri(root.getNamespace().getURI());

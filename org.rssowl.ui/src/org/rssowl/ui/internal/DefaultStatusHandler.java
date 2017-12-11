@@ -70,6 +70,7 @@ public class DefaultStatusHandler extends WorkbenchErrorHandler {
 
   private void handlePersistenceException(final PersistenceException ex) {
     JobRunner.runInUIThread(null, new Runnable() {
+      @Override
       public void run() {
         Throwable cause = ex.getCause();
         if (cause != null && cause instanceof IOException) {

@@ -56,6 +56,7 @@ public class DublinCoreNamespaceHandler implements INamespaceHandler {
    * org.rssowl.core.interpreter.INamespaceHandler#processElement(org.jdom.Element
    * , org.rssowl.core.interpreter.types.IExtendableType)
    */
+  @Override
   public void processElement(Element element, IPersistable type) {
     String name = element.getName().toLowerCase();
 
@@ -150,5 +151,6 @@ public class DublinCoreNamespaceHandler implements INamespaceHandler {
    * org.rssowl.core.interpreter.INamespaceHandler#processAttribute(org.jdom
    * .Attribute, org.rssowl.core.interpreter.types.IExtendableType)
    */
+  @Override
   public void processAttribute(Attribute attribute, IPersistable type) {}
 }

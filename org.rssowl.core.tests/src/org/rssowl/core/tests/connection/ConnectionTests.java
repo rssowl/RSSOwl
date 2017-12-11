@@ -121,7 +121,8 @@ public class ConnectionTests {
   @SuppressWarnings("nls")
   public void testGetLabel() throws Exception {
     IConnectionService conManager = Owl.getConnectionService();
-    URI feedUrl = new URI("http://www.rssowl.org/node/feed");
+    // URI feedUrl = new URI("http://www.rssowl.org/node/feed");
+    URI feedUrl = new URI("http://www.heise.de");
     String label = conManager.getLabel(feedUrl, new NullProgressMonitor());
     assertEquals("RSSOwl News", label);
   }
@@ -133,7 +134,8 @@ public class ConnectionTests {
   @SuppressWarnings("nls")
   public void testGetFavicon() throws Exception {
     IConnectionService conManager = Owl.getConnectionService();
-    URI feedUrl = new URI("http://www.rssowl.org/node/feed");
+    // URI feedUrl = new URI("http://www.rssowl.org/node/feed");
+    URI feedUrl = new URI("http://www.heise.de");
     byte[] feedIcon = conManager.getFeedIcon(feedUrl, new NullProgressMonitor());
     assertNotNull(feedIcon);
     assertTrue(feedIcon.length != 0);
@@ -186,14 +188,17 @@ public class ConnectionTests {
     e = null;
 
     ICredentials credentials = new ICredentials() {
+      @Override
       public String getDomain() {
         return null;
       }
 
+      @Override
       public String getPassword() {
         return "admin";
       }
 
+      @Override
       public String getUsername() {
         return "bpasero";
       }
@@ -266,14 +271,17 @@ public class ConnectionTests {
     e = null;
 
     ICredentials credentials = new ICredentials() {
+      @Override
       public String getDomain() {
         return null;
       }
 
+      @Override
       public String getPassword() {
         return "admin";
       }
 
+      @Override
       public String getUsername() {
         return "bpasero";
       }
@@ -327,7 +335,8 @@ public class ConnectionTests {
   @Test
   @SuppressWarnings("nls")
   public void testHTTPFeed() throws Exception {
-    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+//    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+    URI feedUrl = new URI("http://127.0.0.1:8080/feed/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     InputStream inS = Owl.getConnectionService().getHandler(feed.getLink()).openStream(feed.getLink(), null, null);
@@ -345,7 +354,8 @@ public class ConnectionTests {
   @Test
   @SuppressWarnings("nls")
   public void testFEEDFeed() throws Exception {
-    URI feedUrl = new URI("feed://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+//    URI feedUrl = new URI("feed://www.rssowl.org/rssowl2dg/tests/connection/rss_2_0.xml");
+    URI feedUrl = new URI("feed://127.0.0.1:8080/feed/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     InputStream inS = Owl.getConnectionService().getHandler(feed.getLink()).openStream(feed.getLink(), null, null);
@@ -363,7 +373,8 @@ public class ConnectionTests {
   @Test
   @SuppressWarnings("nls")
   public void testHTTPSFeed() throws Exception {
-    URI feedUrl = new URI("https://sourceforge.net/export/rss2_projnews.php?group_id=141424&rss_fulltext=1");
+    // URI feedUrl = new URI("https://sourceforge.net/export/rss2_projnews.php?group_id=141424&rss_fulltext=1");
+    URI feedUrl = new URI("https://127.0.0.1:8443/feed/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     InputStream inS = Owl.getConnectionService().getHandler(feed.getLink()).openStream(feed.getLink(), null, null);
@@ -438,22 +449,26 @@ public class ConnectionTests {
   @Test
   public void testStoredCredentialsDeleted() throws Exception {
     IConnectionService conManager = Owl.getConnectionService();
-    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/authrequired/feed_rdf.xml");
+//    URI feedUrl = new URI("http://www.rssowl.org/rssowl2dg/tests/connection/authrequired/feed_rdf.xml");
+    URI feedUrl = new URI("https://127.0.0.1:8443/auth/some_feed.xml");
     IFeed feed = new Feed(feedUrl);
 
     DynamicDAO.save(feed);
 
     ICredentials authCreds = new ICredentials() {
+      @Override
       public String getDomain() {
         return null;
       }
 
+      @Override
       public String getPassword() {
         return "admin";
       }
 
+      @Override
       public String getUsername() {
-        return "bpasero";
+        return "1234";
       }
     };
 
@@ -481,14 +496,17 @@ public class ConnectionTests {
     DynamicDAO.save(feed);
 
     ICredentials authCreds = new ICredentials() {
+      @Override
       public String getDomain() {
         return null;
       }
 
+      @Override
       public String getPassword() {
         return "admin";
       }
 
+      @Override
       public String getUsername() {
         return "bpasero";
       }
@@ -528,7 +546,7 @@ public class ConnectionTests {
     IConnectionService conManager = Owl.getConnectionService();
     URI feedUrl = new URI("http://www.heise.de");
 
-    assertEquals("http://www.heise.de/newsticker/heise-atom.xml", conManager.getFeed(feedUrl, new NullProgressMonitor()).toString());
+    assertEquals("https://www.heise.de/newsticker/heise-atom.xml", conManager.getFeed(feedUrl, new NullProgressMonitor()).toString());
   }
 
   /**
@@ -580,6 +598,7 @@ public class ConnectionTests {
         }
         assertNotNull(id, feed.getFormat());
       } catch (Exception e) {
+        e.printStackTrace();
         fail(feedUrlStr);
       }
     }

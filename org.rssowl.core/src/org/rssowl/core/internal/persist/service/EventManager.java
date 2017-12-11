@@ -107,18 +107,22 @@ public class EventManager implements DatabaseListener {
       index = list.size() - 1;
     }
 
+    @Override
     public final Iterator<T> iterator() {
       return this;
     }
 
+    @Override
     public final boolean hasNext() {
       return index > -1;
     }
 
+    @Override
     public final T next() {
       return fList.get(index--);
     }
 
+    @Override
     public final void remove() {
       throw new UnsupportedOperationException();
     }
@@ -162,36 +166,42 @@ public class EventManager implements DatabaseListener {
     EventRegistry eventRegistry = EventRegistryFactory.forObjectContainer(fDb);
 
     EventListener4 updatedListener = new EventListener4() {
+      @Override
       public void onEvent(Event4 e, EventArgs args) {
         processUpdatedEvent(args);
       }
     };
 
     EventListener4 creatingListener = new EventListener4() {
+      @Override
       public void onEvent(Event4 e, EventArgs args) {
         processCreatingEvent(args);
       }
     };
 
     EventListener4 createdListener = new EventListener4() {
+      @Override
       public void onEvent(Event4 e, EventArgs args) {
         processCreatedEvent(args);
       }
     };
 
     EventListener4 deletingListener = new EventListener4() {
+      @Override
       public void onEvent(Event4 e, EventArgs args) {
         processDeletingEvent(args);
       }
     };
 
     EventListener4 deletedListener = new EventListener4() {
+      @Override
       public void onEvent(Event4 e, EventArgs args) {
         processDeletedEvent(args);
       }
     };
 
     EventListener4 activatedListener = new EventListener4() {
+      @Override
       public void onEvent(Event4 e, EventArgs args) {
         processActivated(args);
       }
@@ -624,6 +634,7 @@ public class EventManager implements DatabaseListener {
    * org.rssowl.core.internal.persist.service.DatabaseListener#databaseOpened
    * (org.rssowl.core.internal.persist.service.DatabaseEvent)
    */
+  @Override
   public void databaseOpened(DatabaseEvent event) {
     fDb = event.getObjectContainer();
     initEventRegistry();
@@ -634,6 +645,7 @@ public class EventManager implements DatabaseListener {
    * org.rssowl.core.internal.persist.service.DatabaseListener#databaseClosed
    * (org.rssowl.core.internal.persist.service.DatabaseEvent)
    */
+  @Override
   public void databaseClosed(DatabaseEvent event) {
     fDb = null;
   }

@@ -75,6 +75,7 @@ public class RestoreBackupPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
 
     /* Title Image and Message */
@@ -138,6 +139,7 @@ public class RestoreBackupPage extends WizardPage {
       });
 
       fBackupsViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+        @Override
         public void selectionChanged(SelectionChangedEvent event) {
           getContainer().updateButtons();
           fConfirmRestoreCheck.setEnabled(!event.getSelection().isEmpty());

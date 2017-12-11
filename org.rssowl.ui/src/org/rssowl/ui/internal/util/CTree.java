@@ -60,6 +60,7 @@ public class CTree {
   public CTree(Composite parent, int style) {
     fTree = new Tree(parent, style);
     parent.addListener(SWT.Resize, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onTreeResize();
       }

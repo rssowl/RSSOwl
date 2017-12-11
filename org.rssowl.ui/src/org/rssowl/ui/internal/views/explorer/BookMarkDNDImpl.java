@@ -89,11 +89,13 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
   /*
    * @see org.eclipse.swt.dnd.DragSourceListener#dragStart(org.eclipse.swt.dnd.DragSourceEvent)
    */
+  @Override
   public void dragStart(final DragSourceEvent event) {
 
     /* Set normalized selection into Transfer if not in grouping mode */
     if (!fExplorer.isGroupingEnabled()) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           LocalSelectionTransfer.getTransfer().setSelection(getNormalizedSelection());
           LocalSelectionTransfer.getTransfer().setSelectionSetTime(event.time & 0xFFFFFFFFL);
@@ -133,8 +135,10 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
   /*
    * @see org.eclipse.swt.dnd.DragSourceListener#dragSetData(org.eclipse.swt.dnd.DragSourceEvent)
    */
+  @Override
   public void dragSetData(final DragSourceEvent event) {
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
 
         /* Set Selection using LocalSelectionTransfer */
@@ -202,8 +206,10 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
   /*
    * @see org.eclipse.swt.dnd.DragSourceListener#dragFinished(org.eclipse.swt.dnd.DragSourceEvent)
    */
+  @Override
   public void dragFinished(DragSourceEvent event) {
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         LocalSelectionTransfer.getTransfer().setSelection(null);
         LocalSelectionTransfer.getTransfer().setSelectionSetTime(0);
@@ -284,6 +290,7 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
     if (LocalSelectionTransfer.getTransfer().isSupportedType(transferType)) {
       final boolean[] result = new boolean[] { false };
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           ISelection selection = LocalSelectionTransfer.getTransfer().getSelection();
           if (selection instanceof IStructuredSelection) {
@@ -439,6 +446,7 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
     /* Selection-Transfer */
     if (data instanceof IStructuredSelection) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           IStructuredSelection selection = (IStructuredSelection) data;
           List<?> draggedObjects = selection.toList();
@@ -456,6 +464,7 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
     /* Text-Transfer (check for URLs) */
     else if (data instanceof String) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           final List<String> urls = RegExUtils.extractLinksFromText((String) data, false);
           if (urls.size() > 0) {
@@ -469,6 +478,7 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
 
             /* Open Dialog to add new BookMark (asyncly!) */
             JobRunner.runInUIThread(0, true, getViewer().getControl(), new Runnable() {
+              @Override
               public void run() {
                 new NewBookMarkAction(getViewer().getControl().getShell(), parent, position, urls.get(0)).run(null);
               }
@@ -483,6 +493,7 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
     /* File-Transfer (check for file to import feeds from) */
     else if (data instanceof String[]) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           String[] strArray = (String[]) data;
           if (strArray.length != 0) {
@@ -495,6 +506,7 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
 
               /* Open Dialog to import Feeds (asyncly!) */
               JobRunner.runInUIThread(0, true, getViewer().getControl(), new Runnable() {
+                @Override
                 public void run() {
                   ImportAction action = new ImportAction();
                   action.openWizardForFileImport(getViewer().getControl().getShell(), parent, strVal);
@@ -607,6 +619,7 @@ public class BookMarkDNDImpl extends ViewerDropAdapter implements DragSourceList
     if (reparenting != null) {
       final List<ReparentInfo<IFolderChild, IFolder>> finalReparenting = reparenting;
       BusyIndicator.showWhile(getViewer().getControl().getDisplay(), new Runnable() {
+        @Override
         public void run() {
           CoreUtils.reparentWithProperties(finalReparenting);
         }

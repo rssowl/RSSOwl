@@ -71,6 +71,7 @@ public abstract class AbstractEntity extends Persistable implements IEntity {
   /*
    * @see org.rssowl.core.model.types.IEntity#getId()
    */
+  @Override
   public final Long getId() {
     return fId;
   }
@@ -88,6 +89,7 @@ public abstract class AbstractEntity extends Persistable implements IEntity {
   /*
    * @see org.rssowl.core.model.types.IEntity#setId(java.lang.Long)
    */
+  @Override
   public void setId(Long id) {
     Assert.isNotNull(id, "id cannot be null"); //$NON-NLS-1$
     if (id.equals(fId))
@@ -117,6 +119,7 @@ public abstract class AbstractEntity extends Persistable implements IEntity {
    * @param value The value of the Property.
    * @see org.rssowl.core.persist.IEntity#setProperty(String, Serializable)
    */
+  @Override
   public synchronized void setProperty(String key, Serializable value) {
     Assert.isNotNull(key, "Using NULL as Key is not permitted!"); //$NON-NLS-1$
     if (fProperties == null)
@@ -128,6 +131,7 @@ public abstract class AbstractEntity extends Persistable implements IEntity {
   /*
    * @see org.rssowl.core.persist.IEntity#getProperty(java.lang.String)
    */
+  @Override
   public synchronized Object getProperty(String key) {
     Assert.isNotNull(key, "Using NULL as Key is not permitted!"); //$NON-NLS-1$
     if (fProperties == null)
@@ -139,6 +143,7 @@ public abstract class AbstractEntity extends Persistable implements IEntity {
   /*
    * @see org.rssowl.core.persist.IEntity#removeProperty(java.lang.String)
    */
+  @Override
   public synchronized Object removeProperty(String key) {
     Assert.isNotNull(key, "Using NULL as Key is not permitted!"); //$NON-NLS-1$
     if (fProperties == null)
@@ -150,6 +155,7 @@ public abstract class AbstractEntity extends Persistable implements IEntity {
   /*
    * @see org.rssowl.core.persist.IEntity#getProperties()
    */
+  @Override
   public synchronized Map<String, Serializable> getProperties() {
     if (fProperties == null)
       return Collections.emptyMap();

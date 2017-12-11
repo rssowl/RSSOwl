@@ -52,6 +52,7 @@ public class MoveNewsAction implements INewsAction {
    * @see org.rssowl.core.INewsAction#run(java.util.List, java.util.Map,
    * java.lang.Object)
    */
+  @Override
   public List<IEntity> run(List<INews> news, Map<INews, INews> replacements, Object data) {
 
     /* Ensure to Pickup Replaces */
@@ -103,6 +104,7 @@ public class MoveNewsAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#isConflicting(org.rssowl.core.INewsAction)
    */
+  @Override
   public boolean conflictsWith(INewsAction otherAction) {
     return otherAction instanceof DeleteNewsAction || otherAction instanceof MoveNewsAction || otherAction instanceof CopyNewsAction;
   }
@@ -110,6 +112,7 @@ public class MoveNewsAction implements INewsAction {
   /*
    * @see org.rssowl.core.INewsAction#getLabel(java.lang.Object)
    */
+  @Override
   public String getLabel(Object data) {
     if (data != null && data instanceof Long[]) {
       Long[] binIds = (Long[]) data;

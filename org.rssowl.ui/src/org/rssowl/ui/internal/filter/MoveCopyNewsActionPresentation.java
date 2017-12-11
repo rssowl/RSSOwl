@@ -48,6 +48,7 @@ public class MoveCopyNewsActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.IFilterActionPresentation#create(org.eclipse.swt.widgets.Composite, java.lang.Object)
    */
+  @Override
   public void create(Composite parent, Object data) {
     fContainer = new Composite(parent, SWT.NONE);
     fContainer.setLayout(LayoutUtils.createGridLayout(2, 0, 0, 0, 5, false));
@@ -72,6 +73,7 @@ public class MoveCopyNewsActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.IFilterActionPresentation#dispose()
    */
+  @Override
   public void dispose() {
     fContainer.dispose();
   }
@@ -79,6 +81,7 @@ public class MoveCopyNewsActionPresentation implements INewsActionPresentation {
   /*
    * @see org.rssowl.ui.IFilterActionPresentation#getData()
    */
+  @Override
   public Long[] getData() {
     Long[][] selection = fLocationControl.getSelection();
     if (selection != null) {

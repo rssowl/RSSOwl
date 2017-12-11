@@ -70,6 +70,7 @@ public class ErrorInfoPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
 
     /* Title Image and Message */

@@ -2,7 +2,7 @@
 <feature
       id="org.rssowl.tests"
       label="RSSOwl Tests Feature"
-      version="2.2.1.qualifier"
+      version="2.4.0.qualifier"
       provider-name="RSSOwl.org">
 
    <description url="http://www.example.com/description">
@@ -20,11 +20,11 @@
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.rssowl.lib.jdom"/>
-      <import plugin="org.junit4"/>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.rssowl.ui"/>
       <import plugin="org.rssowl.lib.db4o"/>
       <import plugin="org.rssowl.core"/>
+      <import plugin="org.junit"/>
    </requires>
 
    <plugin

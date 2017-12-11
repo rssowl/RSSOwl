@@ -55,6 +55,7 @@ public class MediaNamespaceHandler implements INamespaceHandler {
    * org.rssowl.core.interpreter.INamespaceHandler#processAttribute(org.jdom
    * .Attribute, org.rssowl.core.persist.IPersistable)
    */
+  @Override
   public void processAttribute(Attribute attribute, IPersistable type) {}
 
   /*
@@ -62,6 +63,7 @@ public class MediaNamespaceHandler implements INamespaceHandler {
    * org.rssowl.core.interpreter.INamespaceHandler#processElement(org.jdom.Element
    * , org.rssowl.core.persist.IPersistable)
    */
+  @Override
   public void processElement(Element element, IPersistable type) {
 
     /* Contribution only valid for news */

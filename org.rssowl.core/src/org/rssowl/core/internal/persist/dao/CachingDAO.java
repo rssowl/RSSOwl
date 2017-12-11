@@ -63,10 +63,12 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
 
     /* Update the Cache based on Database Events */
     DBManager.getDefault().addEntityStoreListener(new DatabaseListener() {
+      @Override
       public void databaseClosed(DatabaseEvent event) {
         onDatabaseClosed(event);
       }
 
+      @Override
       public void databaseOpened(DatabaseEvent event) {
         onDatabaseOpened(event);
       }
@@ -122,6 +124,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
   /*
    * @see org.rssowl.core.persist.dao.IEntityDAO#exists(long)
    */
+  @Override
   public final boolean exists(long id) throws PersistenceException {
     return fCache.containsKey(id);
   }
@@ -129,6 +132,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
   /*
    * @see org.rssowl.core.persist.dao.IEntityDAO#load(long)
    */
+  @Override
   public final T load(long id) throws PersistenceException {
     return fCache.get(id);
   }
@@ -136,6 +140,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
   /*
    * @see org.rssowl.core.persist.dao.IPersistableDAO#loadAll()
    */
+  @Override
   public final Collection<T> loadAll() throws PersistenceException {
     return Collections.unmodifiableCollection(fCache.values());
   }
@@ -144,6 +149,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
    * @see org.rssowl.core.persist.dao.IEntityDAO#fireEvents(java.util.Set,
    * org.rssowl.core.persist.event.runnable.EventType)
    */
+  @Override
   public final void fireEvents(Set<E> events, EventType eventType) {
     fDAO.fireEvents(events, eventType);
   }
@@ -151,6 +157,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
   /*
    * @see org.rssowl.core.persist.dao.IPersistableDAO#countAll()
    */
+  @Override
   public final long countAll() throws PersistenceException {
     return fCache.size();
   }
@@ -160,6 +167,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
    * org.rssowl.core.persist.dao.IEntityDAO#addEntityListener(org.rssowl.core
    * .persist.event.EntityListener)
    */
+  @Override
   public final void addEntityListener(L listener) {
     fDAO.addEntityListener(listener);
   }
@@ -169,6 +177,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
    * org.rssowl.core.persist.dao.IEntityDAO#removeEntityListener(org.rssowl.
    * core.persist.event.EntityListener)
    */
+  @Override
   public final void removeEntityListener(L listener) {
     fDAO.removeEntityListener(listener);
   }
@@ -178,6 +187,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
    * org.rssowl.core.persist.dao.IPersistableDAO#delete(org.rssowl.core.persist
    * .IPersistable)
    */
+  @Override
   public final void delete(T persistable) throws PersistenceException {
     fDAO.delete(persistable);
   }
@@ -186,6 +196,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
    * @see
    * org.rssowl.core.persist.dao.IPersistableDAO#deleteAll(java.util.Collection)
    */
+  @Override
   public final void deleteAll(Collection<T> persistables) throws PersistenceException {
     fDAO.deleteAll(persistables);
   }
@@ -193,6 +204,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
   /*
    * @see org.rssowl.core.persist.dao.IPersistableDAO#getEntityClass()
    */
+  @Override
   public final Class<? extends T> getEntityClass() {
     return fDAO.getEntityClass();
   }
@@ -202,6 +214,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
    * org.rssowl.core.persist.dao.IPersistableDAO#save(org.rssowl.core.persist
    * .IPersistable)
    */
+  @Override
   public final T save(T persistable) throws PersistenceException {
     return fDAO.save(persistable);
   }
@@ -210,6 +223,7 @@ public abstract class CachingDAO<D extends AbstractEntityDAO<T, L, E>, T extends
    * @see
    * org.rssowl.core.persist.dao.IPersistableDAO#saveAll(java.util.Collection)
    */
+  @Override
   public final void saveAll(Collection<T> persistables) throws PersistenceException {
     fDAO.saveAll(persistables);
   }

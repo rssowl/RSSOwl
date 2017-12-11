@@ -62,6 +62,7 @@ public abstract class AbstractPersistenceService implements IPersistenceService 
    * org.rssowl.core.persist.service.IPersistenceService#startup(org.rssowl.
    * core.util.LongOperationMonitor, boolean, boolean)
    */
+  @Override
   public void startup(LongOperationMonitor monitor, boolean emergency, boolean forRestore) throws PersistenceException {
     getModelSearch();
     getIDGenerator();
@@ -71,6 +72,7 @@ public abstract class AbstractPersistenceService implements IPersistenceService 
   /*
    * @see org.rssowl.core.model.dao.IPersistenceService#getDAOService()
    */
+  @Override
   public DAOService getDAOService() {
     if (fDAOService == null)
       fDAOService = (DAOService) ExtensionUtils.loadSingletonExecutableExtension(MODEL_DAO_FACTORY_EXTENSION_POINT);
@@ -81,6 +83,7 @@ public abstract class AbstractPersistenceService implements IPersistenceService 
   /*
    * @see org.rssowl.core.model.dao.IPersistenceService#getIDGenerator()
    */
+  @Override
   public IDGenerator getIDGenerator() {
     if (fIDGenerator == null)
       fIDGenerator = (IDGenerator) ExtensionUtils.loadSingletonExecutableExtension(MODEL_ID_GENERATOR_EXTENSION_POINT);
@@ -91,6 +94,7 @@ public abstract class AbstractPersistenceService implements IPersistenceService 
   /*
    * @see org.rssowl.core.model.dao.IPersistenceService#getModelSearch()
    */
+  @Override
   public IModelSearch getModelSearch() {
     if (fModelSearch == null)
       fModelSearch = new ModelSearchImpl();

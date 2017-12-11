@@ -117,14 +117,17 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
       fDomain = domain;
     }
 
+    @Override
     public String getUsername() {
       return fUsername;
     }
 
+    @Override
     public String getPassword() {
       return fPassword;
     }
 
+    @Override
     public String getDomain() {
       return fDomain;
     }
@@ -135,6 +138,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.ICredentialsProvider#getPersistedAuthCredentials
    * (java.net.URI, java.lang.String)
    */
+  @Override
   public ICredentials getPersistedAuthCredentials(URI link, String realm) throws CredentialsException {
     return internalGetAuthCredentials(link, realm, true);
   }
@@ -144,6 +148,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.ICredentialsProvider#getAuthCredentials(java
    * .net.URI, java.lang.String)
    */
+  @Override
   public synchronized ICredentials getAuthCredentials(URI link, String realm) throws CredentialsException {
     return internalGetAuthCredentials(link, realm, false);
   }
@@ -266,6 +271,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.auth.ICredentialsProvider#getProxyCredentials
    * (java.net.URI)
    */
+  @Override
   public IProxyCredentials getProxyCredentials(URI link) {
     Activator activator = Activator.getDefault();
 
@@ -294,22 +300,27 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
 
       /* Return as IProxyCredentials Object */
       return new IProxyCredentials() {
+        @Override
         public String getHost() {
           return proxyHost;
         }
 
+        @Override
         public int getPort() {
           return proxyPort;
         }
 
+        @Override
         public String getUsername() {
           return proxyUserAndDomain.getFirst();
         }
 
+        @Override
         public String getPassword() {
           return proxyPassword;
         }
 
+        @Override
         public String getDomain() {
           return proxyUserAndDomain.getSecond();
         }
@@ -348,6 +359,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.ICredentialsProvider#setAuthCredentials(org.
    * rssowl.core.connection.ICredentials, java.net.URI, java.lang.String)
    */
+  @Override
   public void setAuthCredentials(ICredentials credentials, URI link, String realm) throws CredentialsException {
     internalSetAuthCredentials(credentials, link, realm, true);
   }
@@ -357,6 +369,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.ICredentialsProvider#setInMemoryAuthCredentials
    * (org.rssowl.core.connection.ICredentials, java.net.URI, java.lang.String)
    */
+  @Override
   public void setInMemoryAuthCredentials(ICredentials credentials, URI link, String realm) throws CredentialsException {
     internalSetAuthCredentials(credentials, link, realm, false);
   }
@@ -416,6 +429,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.auth.ICredentialsProvider#setProxyCredentials
    * (org.rssowl.core.connection.auth.IProxyCredentials, java.net.URI)
    */
+  @Override
   public void setProxyCredentials(IProxyCredentials credentials, URI link) {
     IProxyService proxyService = Activator.getDefault().getProxyService();
     proxyService.setProxiesEnabled(true);
@@ -436,6 +450,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.ICredentialsProvider#deleteAuthCredentials(java
    * .net.URI, java.lang.String)
    */
+  @Override
   public synchronized void deleteAuthCredentials(URI link, String realm) throws CredentialsException {
 
     /* Delete from In-Memory Store if present */
@@ -473,6 +488,7 @@ public class PlatformCredentialsProvider implements ICredentialsProvider {
    * org.rssowl.core.connection.auth.ICredentialsProvider#deleteProxyCredentials
    * (java.net.URI)
    */
+  @Override
   public void deleteProxyCredentials(URI link) {
     IProxyService proxyService = Activator.getDefault().getProxyService();
     proxyService.setProxiesEnabled(false);

@@ -98,6 +98,7 @@ public class CreateFilterAction implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IObjectActionDelegate#setActivePart(org.eclipse.jface.action.IAction, org.eclipse.ui.IWorkbenchPart)
    */
+  @Override
   public void setActivePart(IAction action, IWorkbenchPart targetPart) {}
 
   /**
@@ -111,6 +112,7 @@ public class CreateFilterAction implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     Shell shell = OwlUI.getActiveShell();
     if (shell != null && !fSelection.isEmpty()) {
@@ -239,6 +241,7 @@ public class CreateFilterAction implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     if (selection instanceof IStructuredSelection)
       fSelection = (IStructuredSelection) selection;

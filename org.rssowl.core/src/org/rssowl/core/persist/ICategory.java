@@ -90,5 +90,6 @@ public interface ICategory extends IEntity, MergeCapable<ICategory> {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   CategoryReference toReference();
 }

@@ -42,18 +42,21 @@ public class SearchFilterAdapter implements SearchFilterListener {
    * @see
    * org.rssowl.core.persist.event.EntityListener#entitiesAdded(java.util.Set)
    */
+  @Override
   public void entitiesAdded(Set<SearchFilterEvent> events) {}
 
   /*
    * @see
    * org.rssowl.core.persist.event.EntityListener#entitiesDeleted(java.util.Set)
    */
+  @Override
   public void entitiesDeleted(Set<SearchFilterEvent> events) {}
 
   /*
    * @see
    * org.rssowl.core.persist.event.EntityListener#entitiesUpdated(java.util.Set)
    */
+  @Override
   public void entitiesUpdated(Set<SearchFilterEvent> events) {}
 
   /*
@@ -61,5 +64,6 @@ public class SearchFilterAdapter implements SearchFilterListener {
    * org.rssowl.core.persist.event.SearchFilterListener#filterApplied(org.rssowl
    * .core.persist.ISearchFilter, java.util.Collection)
    */
+  @Override
   public void filterApplied(ISearchFilter filter, Collection<INews> news) {}
 }

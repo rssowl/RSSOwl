@@ -167,6 +167,7 @@ public class CoreUtils {
    */
   public static Collection<IFilterAction> getActions(ISearchFilter filter) {
     Set<IFilterAction> actions = new TreeSet<IFilterAction>(new Comparator<IFilterAction>() {
+      @Override
       public int compare(IFilterAction o1, IFilterAction o2) {
         if (o1.equals(o2))
           return 0;
@@ -1210,6 +1211,7 @@ public class CoreUtils {
 
     /* Sort by ID to respect order */
     Set<IFolder> rootFolders = new TreeSet<IFolder>(new Comparator<IFolder>() {
+      @Override
       public int compare(IFolder f1, IFolder f2) {
         if (f1.equals(f2))
           return 0;
@@ -1231,6 +1233,7 @@ public class CoreUtils {
 
     /* Sort by Sort Key to respect order */
     Set<ISearchMark> searchmarks = new TreeSet<ISearchMark>(new Comparator<ISearchMark>() {
+      @Override
       public int compare(ISearchMark s1, ISearchMark s2) {
         if (s1.equals(s2))
           return 0;
@@ -1255,6 +1258,7 @@ public class CoreUtils {
 
     /* Sort by Sort Key to respect order */
     Set<ISearchFilter> filters = new TreeSet<ISearchFilter>(new Comparator<ISearchFilter>() {
+      @Override
       public int compare(ISearchFilter f1, ISearchFilter f2) {
         if (f1.equals(f2))
           return 0;
@@ -1296,6 +1300,7 @@ public class CoreUtils {
 
     /* Sort by Sort Key to respect order */
     Set<ILabel> sortedLabels = new TreeSet<ILabel>(new Comparator<ILabel>() {
+      @Override
       public int compare(ILabel l1, ILabel l2) {
         if (l1.equals(l2))
           return 0;

@@ -377,6 +377,7 @@ public class Indexer {
     List<IndexingTask> indexingTasks = new ArrayList<IndexingTask>(3);
     if (dao != null) {
       RemovedNewsRefsListener removedNewsRefsListener = new IndexingTask.RemovedNewsRefsListener() {
+        @Override
         public void event(Collection<NewsReference> newsRefs) {
           LongArrayList list = new LongArrayList(newsRefs.size());
           for (NewsReference newsRef : newsRefs)
@@ -426,10 +427,12 @@ public class Indexer {
 
     /* Listen to News-Events */
     fNewsListener = new NewsListener() {
+      @Override
       public void entitiesAdded(Set<NewsEvent> events) {
         handleEntitiesAdded(DBHelper.filterPersistedNewsForIndexing(events));
       }
 
+      @Override
       public void entitiesUpdated(Set<NewsEvent> events) {
 
         /* An Updated News may involve Restore, Removal or actual Update */
@@ -449,6 +452,7 @@ public class Indexer {
           handleEntitiesDeleted(newsToDelete);
       }
 
+      @Override
       public void entitiesDeleted(Set<NewsEvent> events) {
         handleEntitiesDeleted(events);
       }

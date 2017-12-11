@@ -37,15 +37,18 @@ public class CategoryAdapter implements CategoryListener {
   /*
    * @see org.rssowl.core.model.events.CategoryListener#categoryAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<CategoryEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.CategoryListener#categoryDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<CategoryEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.CategoryListener#categoryUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<CategoryEvent> events) { }
 }

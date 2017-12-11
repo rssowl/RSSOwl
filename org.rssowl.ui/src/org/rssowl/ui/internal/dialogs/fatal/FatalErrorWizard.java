@@ -166,6 +166,7 @@ public class FatalErrorWizard extends Wizard {
     /* Finish */
     try {
       BusyIndicator.showWhile(getShell().getDisplay(), new Runnable() {
+        @Override
         public void run() {
           internalPerformFinish();
         }

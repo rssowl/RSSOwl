@@ -108,9 +108,11 @@ public class DeleteTypesAction extends Action implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     if (!fSelection.isEmpty() && confirmed()) {
       BusyIndicator.showWhile(PlatformUI.getWorkbench().getDisplay(), new Runnable() {
+        @Override
         public void run() {
           internalRun();
         }
@@ -125,6 +127,7 @@ public class DeleteTypesAction extends Action implements IObjectActionDelegate {
   public void run() {
     if (!fSelection.isEmpty() && confirmed()) {
       BusyIndicator.showWhile(PlatformUI.getWorkbench().getDisplay(), new Runnable() {
+        @Override
         public void run() {
           internalRun();
         }
@@ -229,6 +232,7 @@ public class DeleteTypesAction extends Action implements IObjectActionDelegate {
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction,
    * org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     if (selection instanceof IStructuredSelection)
       fSelection = (IStructuredSelection) selection;
@@ -238,6 +242,7 @@ public class DeleteTypesAction extends Action implements IObjectActionDelegate {
    * @see org.eclipse.ui.IObjectActionDelegate#setActivePart(org.eclipse.jface.action.IAction,
    * org.eclipse.ui.IWorkbenchPart)
    */
+  @Override
   public void setActivePart(IAction action, IWorkbenchPart targetPart) {
     fShell = targetPart.getSite().getShell();
   }
@@ -270,6 +275,7 @@ public class DeleteTypesAction extends Action implements IObjectActionDelegate {
 
     /* Wrap into Runnable */
     Runnable deleteRunnable = new Runnable() {
+      @Override
       public void run() {
 
         /* Mark Saved Search Service as in need for a quick Update */
@@ -384,6 +390,7 @@ public class DeleteTypesAction extends Action implements IObjectActionDelegate {
 
     /* Runnable with Progress */
     IRunnableWithProgress runnableWithProgress = new IRunnableWithProgress() {
+      @Override
       public void run(IProgressMonitor monitor) {
         monitor.beginTask(Messages.DeleteTypesAction_WAIT_DELETE, IProgressMonitor.UNKNOWN);
         try {

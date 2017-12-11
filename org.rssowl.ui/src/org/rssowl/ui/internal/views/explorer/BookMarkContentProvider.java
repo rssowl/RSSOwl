@@ -68,8 +68,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
+import java.util.Set;
 
 /**
  * @author bpasero
@@ -98,6 +98,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.IStructuredContentProvider#getElements(java.lang.Object)
    */
+  @Override
   public Object[] getElements(Object inputElement) {
     if (inputElement instanceof IFolder) {
       IFolder rootFolder = (IFolder) inputElement;
@@ -123,6 +124,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.ITreeContentProvider#getChildren(java.lang.Object)
    */
+  @Override
   public Object[] getChildren(Object parentElement) {
 
     /* Return Children of Folder */
@@ -145,6 +147,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.ITreeContentProvider#getParent(java.lang.Object)
    */
+  @Override
   public Object getParent(Object element) {
 
     /* Handle Grouping specially */
@@ -177,6 +180,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.ITreeContentProvider#hasChildren(java.lang.Object)
    */
+  @Override
   public boolean hasChildren(Object element) {
     if (element instanceof IFolder) {
       IFolder folder = (IFolder) element;
@@ -192,6 +196,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.IContentProvider#dispose()
    */
+  @Override
   public void dispose() {
     unregisterListeners();
   }
@@ -200,6 +205,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
    * @see org.eclipse.jface.viewers.IContentProvider#inputChanged(org.eclipse.jface.viewers.Viewer,
    * java.lang.Object, java.lang.Object)
    */
+  @Override
   public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {
     Assert.isTrue(newInput instanceof IFolder || newInput == null);
     fViewer = (TreeViewer) viewer;
@@ -230,8 +236,10 @@ public class BookMarkContentProvider implements ITreeContentProvider {
     fFolderListener = new FolderListener() {
 
       /* Folders got updated */
+      @Override
       public void entitiesUpdated(final Set<FolderEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
             Set<IFolder> updatedFolders = null;
             Map<IFolder, IFolder> reparentedFolders = null;
@@ -316,8 +324,10 @@ public class BookMarkContentProvider implements ITreeContentProvider {
       }
 
       /* Folders got deleted */
+      @Override
       public void entitiesDeleted(final Set<FolderEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
 
             /* Retrieve Removed Folders */
@@ -359,8 +369,10 @@ public class BookMarkContentProvider implements ITreeContentProvider {
       }
 
       /* Folders got added */
+      @Override
       public void entitiesAdded(final Set<FolderEvent> events) {
         JobRunner.runInUIThread(SELECTION_DELAY, fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
 
             /* Reveal and Select added Folders */
@@ -382,16 +394,19 @@ public class BookMarkContentProvider implements ITreeContentProvider {
     fBookMarkListener = new BookMarkListener() {
 
       /* BookMarks got Updated */
+      @Override
       public void entitiesUpdated(final Set<BookMarkEvent> events) {
         onMarksUpdated(events);
       }
 
       /* BookMarks got Deleted */
+      @Override
       public void entitiesDeleted(final Set<BookMarkEvent> events) {
         onMarksRemoved(events);
       }
 
       /* BookMarks got Added */
+      @Override
       public void entitiesAdded(Set<BookMarkEvent> events) {
         onMarksAdded(events);
       }
@@ -401,23 +416,28 @@ public class BookMarkContentProvider implements ITreeContentProvider {
     fSearchMarkListener = new SearchMarkListener() {
 
       /* SearchMarks got Updated */
+      @Override
       public void entitiesUpdated(final Set<SearchMarkEvent> events) {
         onMarksUpdated(events);
       }
 
       /* SearchMarks got Deleted */
+      @Override
       public void entitiesDeleted(final Set<SearchMarkEvent> events) {
         onMarksRemoved(events);
       }
 
       /* SearchMarks got Added */
+      @Override
       public void entitiesAdded(Set<SearchMarkEvent> events) {
         onMarksAdded(events);
       }
 
       /* SearchMark result changed */
+      @Override
       public void newsChanged(final Set<SearchMarkEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
 
             /* Ask Filter for a refresh */
@@ -446,16 +466,19 @@ public class BookMarkContentProvider implements ITreeContentProvider {
     fNewsBinListener = new NewsBinListener() {
 
       /* NewsBins got Updated */
+      @Override
       public void entitiesUpdated(final Set<NewsBinEvent> events) {
         onMarksUpdated(events);
       }
 
       /* NewsBins got Deleted */
+      @Override
       public void entitiesDeleted(final Set<NewsBinEvent> events) {
         onMarksRemoved(events);
       }
 
       /* Newsbins got Added */
+      @Override
       public void entitiesAdded(Set<NewsBinEvent> events) {
         onMarksAdded(events);
       }
@@ -467,6 +490,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
       @Override
       public void entitiesAdded(final Set<NewsEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
 
             /* Return on Shutdown */
@@ -491,6 +515,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
       @Override
       public void entitiesUpdated(final Set<NewsEvent> events) {
         JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+          @Override
           public void run() {
 
             /* Return on Shutdown */
@@ -527,6 +552,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
     if (events.size() == 1) {
       final MarkEvent event = events.iterator().next();
       JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+        @Override
         public void run() {
           expand(event.getEntity().getParent());
         }
@@ -539,6 +565,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
       return;
 
     JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+      @Override
       public void run() {
 
         /* Retrieve Removed Marks */
@@ -588,6 +615,7 @@ public class BookMarkContentProvider implements ITreeContentProvider {
       return;
 
     JobRunner.runInUIThread(fViewer.getControl(), new Runnable() {
+      @Override
       public void run() {
         Class<? extends IMark> clazz = null;
         Set<IMark> updatedMarks = null;

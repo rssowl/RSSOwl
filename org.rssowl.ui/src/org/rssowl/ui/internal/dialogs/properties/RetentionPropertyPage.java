@@ -96,6 +96,7 @@ public class RetentionPropertyPage implements IEntityPropertyPage {
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#init(org.rssowl.ui.dialogs.properties.IPropertyDialogSite,
    * java.util.List)
    */
+  @Override
   public void init(IPropertyDialogSite site, List<IEntity> entities) {
     Assert.isTrue(!entities.isEmpty());
     fSite = site;
@@ -153,6 +154,7 @@ public class RetentionPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.internal.dialogs.properties.IEntityPropertyPage#createContents(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public Control createContents(Composite parent) {
     boolean isSynchronized = isSynchronized(fEntities);
 
@@ -290,6 +292,7 @@ public class RetentionPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#getImage()
    */
+  @Override
   public ImageDescriptor getImage() {
     return null;
   }
@@ -297,11 +300,13 @@ public class RetentionPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#setFocus()
    */
+  @Override
   public void setFocus() {}
 
   /*
    * @see org.rssowl.ui.dialogs.properties.IEntityPropertyPage#performOk(java.util.Set)
    */
+  @Override
   public boolean performOk(Set<IEntity> entitiesToSave) {
 
     /* Update this Entity */
@@ -400,6 +405,7 @@ public class RetentionPropertyPage implements IEntityPropertyPage {
   /*
    * @see org.rssowl.ui.internal.dialogs.properties.IEntityPropertyPage#finish()
    */
+  @Override
   public void finish() {
 
     /* Run Retention since settings changed */

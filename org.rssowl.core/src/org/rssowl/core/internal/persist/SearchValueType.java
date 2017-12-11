@@ -92,6 +92,7 @@ public class SearchValueType implements ISearchValueType {
   /*
    * @see org.rssowl.core.model.search.ISearchValueType#getSearchValueType()
    */
+  @Override
   public synchronized int getId() {
     return fType;
   }
@@ -99,6 +100,7 @@ public class SearchValueType implements ISearchValueType {
   /*
    * @see org.rssowl.core.model.search.ISearchValueType#getEnumValues()
    */
+  @Override
   public synchronized List<String> getEnumValues() {
     return Collections.unmodifiableList(fEnumValues);
   }
@@ -120,6 +122,7 @@ public class SearchValueType implements ISearchValueType {
    * @see IAdaptable#getAdapter(Class)
    * @see Platform#getAdapterManager()
    */
+  @Override
   @SuppressWarnings("unchecked")
   public Object getAdapter(Class adapter) {
     return Platform.getAdapterManager().getAdapter(this, adapter);
