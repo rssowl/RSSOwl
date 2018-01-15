@@ -156,14 +156,17 @@ public class LoginDialog extends TitleAreaDialog {
       final String password = fPassword.getText();
 
       ICredentials credentials = new ICredentials() {
+        @Override
         public String getDomain() {
           return null;
         }
 
+        @Override
         public String getPassword() {
           return password;
         }
 
+        @Override
         public String getUsername() {
           return username;
         }

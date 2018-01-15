@@ -56,6 +56,7 @@ import org.eclipse.ui.IEditorReference;
 import org.eclipse.ui.IPageListener;
 import org.eclipse.ui.IPartListener;
 import org.eclipse.ui.ISelectionListener;
+import org.eclipse.ui.IWorkbenchActionConstants;
 import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.ui.IWorkbenchWindow;
@@ -133,7 +134,7 @@ public class CoolBarAdvisor {
   private final ICoolBarManager fManager;
   private final IPreferenceScope fPreferences;
   private final AtomicInteger fLoadCounter = new AtomicInteger();
-  private final IBindingService fBindingService = (IBindingService) PlatformUI.getWorkbench().getService(IBindingService.class);
+  private final IBindingService fBindingService = PlatformUI.getWorkbench().getService(IBindingService.class);
 
   /* Subclass of ActionContributionItem to use for the CoolBar */
   private class CoolBarActionContributionitem extends ActionContributionItem {
@@ -420,16 +421,19 @@ public class CoolBarAdvisor {
 
     /* Update Undo / Redo */
     UndoStack.getInstance().addListener(new IUndoRedoListener() {
+      @Override
       public void undoPerformed() {
         update(CoolBarItem.UNDO, null, null, true);
         update(CoolBarItem.REDO, null, null, true);
       }
 
+      @Override
       public void redoPerformed() {
         update(CoolBarItem.UNDO, null, null, true);
         update(CoolBarItem.REDO, null, null, true);
       }
 
+      @Override
       public void operationAdded() {
         update(CoolBarItem.UNDO, null, null, true);
         update(CoolBarItem.REDO, null, null, true);
@@ -438,11 +442,13 @@ public class CoolBarAdvisor {
 
     /* Update Stop */
     Controller.getDefault().addBookMarkLoadListener(new BookMarkLoadListener() {
+      @Override
       public void bookMarkAboutToLoad(IBookMark bookmark) {
         if (fLoadCounter.incrementAndGet() > 0)
           update(CoolBarItem.STOP, null, null, true);
       }
 
+      @Override
       public void bookMarkDoneLoading(IBookMark bookmark) {
         if (fLoadCounter.decrementAndGet() == 0)
           update(CoolBarItem.STOP, null, null, true);
@@ -451,6 +457,7 @@ public class CoolBarAdvisor {
 
     /* Selection Listener across the Workbench */
     final ISelectionListener selectionListener = new ISelectionListener() {
+      @Override
       public void selectionChanged(IWorkbenchPart part, ISelection selection) {
         update(CoolBarItem.MARK_READ, selection, part, false);
         update(CoolBarItem.MOVE, selection, part, false);
@@ -466,6 +473,7 @@ public class CoolBarAdvisor {
 
     /* Part Listener across the Workbench */
     final IPartListener partListener = new IPartListener() {
+      @Override
       public void partOpened(IWorkbenchPart part) {
         if (part instanceof IEditorPart) {
           update(CoolBarItem.CLOSE, null, part, false);
@@ -483,8 +491,10 @@ public class CoolBarAdvisor {
           update(CoolBarItem.BOOKMARK_VIEW, null, part, false);
       }
 
+      @Override
       public void partDeactivated(IWorkbenchPart part) {}
 
+      @Override
       public void partClosed(IWorkbenchPart part) {
         if (part instanceof IEditorPart) {
           update(CoolBarItem.CLOSE, null, part, false);
@@ -502,6 +512,7 @@ public class CoolBarAdvisor {
           update(CoolBarItem.BOOKMARK_VIEW, null, null, false);
       }
 
+      @Override
       public void partBroughtToTop(IWorkbenchPart part) {
         update(CoolBarItem.CLOSE, null, part, false);
         update(CoolBarItem.CLOSE_OTHERS, null, part, false);
@@ -511,6 +522,7 @@ public class CoolBarAdvisor {
         update(CoolBarItem.MARK_ALL_READ, null, part, false);
       }
 
+      @Override
       public void partActivated(IWorkbenchPart part) {
         update(CoolBarItem.SAVE_AS, null, part, false);
         update(CoolBarItem.PRINT, null, part, false);
@@ -523,6 +535,7 @@ public class CoolBarAdvisor {
 
     /* Add Selection Listener to Workbench Pages */
     fWindow.addPageListener(new IPageListener() {
+      @Override
       public void pageOpened(IWorkbenchPage page) {
         page.addSelectionListener(selectionListener);
         page.addPartListener(partListener);
@@ -532,6 +545,7 @@ public class CoolBarAdvisor {
 
         /* Delay Update to Next/Previous as the Keybinding Service needs longer */
         JobRunner.runDelayedInUIThread(fWindow.getShell(), new Runnable() {
+          @Override
           public void run() {
             update(CoolBarItem.NEXT, null, null, false);
             update(CoolBarItem.PREVIOUS, null, null, false);
@@ -539,11 +553,13 @@ public class CoolBarAdvisor {
         });
       }
 
+      @Override
       public void pageClosed(IWorkbenchPage page) {
         page.removeSelectionListener(selectionListener);
         page.removePartListener(partListener);
       }
 
+      @Override
       public void pageActivated(IWorkbenchPage page) {}
     });
   }
@@ -571,27 +587,40 @@ public class CoolBarAdvisor {
       barControl.getShell().setRedraw(false);
 
     try {
-
-      /* First Remove All */
-      fManager.removeAll();
+      {
+        /* First Remove All */
+        IContributionItem[] items = fManager.getItems();
+        for (IContributionItem item : items)
+          if (!IWorkbenchActionConstants.MB_ADDITIONS.equals(item.getId()))
+            try {
+              fManager.remove(item);
+            } catch (Exception e) {
+              new RuntimeException("id=" + item.getId(), e).printStackTrace(); //$NON-NLS-1$
+            }
+      }
 
       /* Load Toolbar Mode */
       CoolBarMode mode = CoolBarMode.values()[fPreferences.getInteger(DefaultPreferences.TOOLBAR_MODE)];
+      int styleSWT = SWT.FLAT;// | SWT.VERTICAL | SWT.WRAP;
+      if (mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL)
+        styleSWT |= SWT.RIGHT;
 
       /* Load and Add Items */
       int[] items = fPreferences.getIntegers(DefaultPreferences.TOOLBAR_ITEMS);
       if (items == null || items.length == 0)
         items = new int[] { CoolBarItem.SPACER.ordinal() };
 
-      ToolBarManager currentToolBar = new ToolBarManager(mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL ? (SWT.FLAT | SWT.RIGHT) : SWT.FLAT);
+      fManager.setLockLayout(false);
+      ToolBarManager currentToolBar = new ToolBarManager(styleSWT);
+
       for (int id : items) {
         final CoolBarItem item = CoolBarItem.values()[id];
         if (item != null) {
 
           /* Separator: Start a new Toolbar */
           if (item == CoolBarItem.SEPARATOR) {
-            fManager.add(currentToolBar);
-            currentToolBar = new ToolBarManager(mode == CoolBarMode.IMAGE_TEXT_HORIZONTAL ? (SWT.FLAT | SWT.RIGHT) : SWT.FLAT);
+            fManager.add(new ToolBarContributionItem(currentToolBar));
+            currentToolBar = new ToolBarManager(styleSWT);
           }
 
           /* Spacer */
@@ -619,7 +648,7 @@ public class CoolBarAdvisor {
       }
 
       /* Add latest Toolbar Manager to Coolbar too */
-      fManager.add(currentToolBar);
+      fManager.add(new ToolBarContributionItem(currentToolBar));
 
       /* Ensure Updates are properly Propagated */
       if (fromUpdate) {
@@ -820,6 +849,7 @@ public class CoolBarAdvisor {
       return;
 
     Runnable runnable = new Runnable() {
+      @Override
       public void run() {
         CoolBarActionContributionitem item = find(coolBarItem.getId());
         if (item != null)
@@ -1388,6 +1418,7 @@ public class CoolBarAdvisor {
         List<INewsBin> newsbins = new ArrayList<INewsBin>(DynamicDAO.loadAll(INewsBin.class));
 
         Comparator<INewsBin> comparator = new Comparator<INewsBin>() {
+          @Override
           public int compare(INewsBin o1, INewsBin o2) {
             return o1.getName().compareTo(o2.getName());
           };

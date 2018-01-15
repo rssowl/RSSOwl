@@ -105,6 +105,7 @@ public class CreateBookmarkWizard extends Wizard implements INewWizard {
   /*
    * @see org.eclipse.ui.IWorkbenchWizard#init(org.eclipse.ui.IWorkbench, org.eclipse.jface.viewers.IStructuredSelection)
    */
+  @Override
   public void init(IWorkbench workbench, IStructuredSelection selection) {
     Pair<IFolder, IFolderChild> pair = ModelUtils.getLocationAndPosition(selection);
     fParent = pair.getFirst();
@@ -161,6 +162,7 @@ public class CreateBookmarkWizard extends Wizard implements INewWizard {
     else if (fFeedDefinitionPage.loadTitleFromFeed()) {
       final String linkText = URIUtils.ensureProtocol(fFeedDefinitionPage.getLink());
       IRunnableWithProgress runnable = new IRunnableWithProgress() {
+        @Override
         public void run(IProgressMonitor monitor) {
           monitor.beginTask(Messages.CreateBookmarkWizard_LOADING_TITLE, IProgressMonitor.UNKNOWN);
 
@@ -207,6 +209,7 @@ public class CreateBookmarkWizard extends Wizard implements INewWizard {
           /* Update Link */
           if (link[0] != null) {
             JobRunner.runInUIThread(100, getShell(), new Runnable() {
+              @Override
               public void run() {
                 fFeedDefinitionPage.setLink(link[0].toString());
               }
@@ -231,6 +234,7 @@ public class CreateBookmarkWizard extends Wizard implements INewWizard {
     final boolean[] result = new boolean[1];
 
     JobRunner.runSyncedInUIThread(getShell(), new Runnable() {
+      @Override
       public void run() {
 
         /* Show Login Dialog */
@@ -307,6 +311,7 @@ public class CreateBookmarkWizard extends Wizard implements INewWizard {
       /* Load Title from Feed if not provided */
       if (!fFeedDefinitionPage.isKeywordSubscription()) {
         IRunnableWithProgress runnable = new IRunnableWithProgress() {
+          @Override
           public void run(IProgressMonitor monitor) {
             monitor.beginTask(Messages.CreateBookmarkWizard_LOADING_TITLE, IProgressMonitor.UNKNOWN);
             try {

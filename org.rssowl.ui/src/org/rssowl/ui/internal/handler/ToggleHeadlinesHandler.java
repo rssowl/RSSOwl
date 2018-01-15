@@ -41,6 +41,7 @@ public class ToggleHeadlinesHandler extends AbstractHandler implements IHandler 
   /*
    * @see org.eclipse.core.commands.IHandler#execute(org.eclipse.core.commands.ExecutionEvent)
    */
+  @Override
   public Object execute(ExecutionEvent event) {
     FeedView activeFeedView = OwlUI.getActiveFeedView();
     if (activeFeedView != null)

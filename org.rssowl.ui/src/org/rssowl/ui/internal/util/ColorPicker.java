@@ -134,6 +134,7 @@ public class ColorPicker {
     fBar = new ToolBar(fParent, style);
     OwlUI.makeAccessible(fBar, Messages.ColorPicker_COLOR_LABEL);
     fBar.addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(DisposeEvent e) {
         OwlUI.safeDispose(fColorMenu);
 
@@ -148,6 +149,7 @@ public class ColorPicker {
     fColorItem = new ToolItem(fBar, SWT.DROP_DOWN);
     fColorItem.setImage(createColorImage(fSelectedColor));
     fColorItem.addListener(SWT.Selection, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         Rectangle rect = fColorItem.getBounds();
         Point pt = new Point(rect.x, rect.y + rect.height);

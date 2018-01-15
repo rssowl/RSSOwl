@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="RSSOwl" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" useFeatures="true" includeLaunchers="true">
+<product name="%product.name" id="org.rssowl.ui.product" application="org.rssowl.ui.rssowl" version="2.4.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.rssowl.ui/icons/product/about.gif"/>
@@ -26,7 +26,8 @@ http://www.rssowl.org/legal/epl-v10.html
    </configIni>
 
    <launcherArgs>
-      <vmArgs>-Xms15m -Xmx192m -Dosgi.requiredJavaVersion=1.5</vmArgs>
+      <vmArgs>-Xms15m -Xmx192m -Dosgi.requiredJavaVersion=1.8
+      </vmArgs>
    </launcherArgs>
 
    <windowImages i16="/org.rssowl.ui/icons/product/16x16.png" i32="/org.rssowl.ui/icons/product/32x32.png" i48="/org.rssowl.ui/icons/product/48x48.png" i64="/org.rssowl.ui/icons/product/64x64.png" i128="/org.rssowl.ui/icons/product/128x128.png"/>
@@ -34,7 +35,6 @@ http://www.rssowl.org/legal/epl-v10.html
    <launcher name="RSSOwl">
       <linux icon="/org.rssowl.ui/icons/product/rssowl.xpm"/>
       <macosx icon="/org.rssowl.ui/icons/product/rssowl.icns"/>
-      <solaris/>
       <win useIco="true">
          <ico path="/org.rssowl.ui/icons/product/rssowl.ico"/>
          <bmp/>
@@ -71,9 +71,12 @@ RSSOwl Development Team - initial API and implementation
    </plugins>
 
    <features>
-      <feature id="org.eclipse.rcp" version="3.4.200.R342_v20090122-989JESTEbig-SVaL8UJHcYBr4A63"/>
-      <feature id="org.rssowl.dependencies" version="2.0.0"/>
-      <feature id="org.rssowl" version="2.1.2.qualifier"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.rssowl.dependencies"/>
+      <feature id="org.rssowl"/>
    </features>
 
 

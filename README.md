@@ -1,16 +1,18 @@
+2.4.0-beta
+- removed old update site and added new p2 one (addons work so far)
+
+2.3.0-beta
+- runs with java 9
+- https websites which needed JCE should work without it when jre 9+ is used
+- updated eclipse rcp to 4.7
+- updated httpclient to 4.5.3
+- fixed 2 (maybe) memory leaks
+
+based on 2.2.1
+
 RSSOwl is unmaintained and has several known vulnerabilities. Please do not use it any more.
 ====
 See [#7](https://github.com/rssowl/RSSOwl/issues/7) and [#8](https://github.com/rssowl/RSSOwl/issues/8) for details about maintenance. Furthermore, RSSOwl does not work with Java 9, but it may still work with Java 8.
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 &nbsp;
 
 RSSOwl

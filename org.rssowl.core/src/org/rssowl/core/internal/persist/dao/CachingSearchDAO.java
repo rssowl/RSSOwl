@@ -47,16 +47,19 @@ public class CachingSearchDAO extends CachingDAO<SearchDAOImpl, ISearch, SearchL
   protected SearchListener createEntityListener() {
     return new SearchListener() {
 
+      @Override
       public void entitiesAdded(Set<SearchEvent> events) {
         for (SearchEvent event : events)
           getCache().put(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesDeleted(Set<SearchEvent> events) {
         for (SearchEvent event : events)
           getCache().remove(event.getEntity().getId(), event.getEntity());
       }
 
+      @Override
       public void entitiesUpdated(Set<SearchEvent> events) {
       /* No action needed */
       }

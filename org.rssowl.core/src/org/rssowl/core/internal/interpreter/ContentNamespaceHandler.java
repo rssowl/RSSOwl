@@ -36,7 +36,7 @@ import org.rssowl.core.persist.IPersistable;
  * Namespace Prefix: content<br>
  * Namespace URI: http://purl.org/rss/1.0/modules/content/
  * </p>
- * 
+ *
  * @author bpasero
  */
 public class ContentNamespaceHandler implements INamespaceHandler {
@@ -45,6 +45,7 @@ public class ContentNamespaceHandler implements INamespaceHandler {
    * @see org.rssowl.core.interpreter.INamespaceHandler#processElement(org.jdom.Element,
    * org.rssowl.core.interpreter.types.IExtendableType)
    */
+  @Override
   public void processElement(Element element, IPersistable type) {
 
     /* Encoded */
@@ -56,5 +57,6 @@ public class ContentNamespaceHandler implements INamespaceHandler {
    * @see org.rssowl.core.interpreter.INamespaceHandler#processAttribute(org.jdom.Attribute,
    * org.rssowl.core.interpreter.types.IExtendableType)
    */
+  @Override
   public void processAttribute(Attribute attribute, IPersistable type) {}
 }

@@ -58,6 +58,7 @@ public class FilterAction extends Persistable implements IFilterAction {
   /*
    * @see org.rssowl.core.persist.IFilterAction#getData()
    */
+  @Override
   public synchronized Object getData() {
     return fData;
   }
@@ -65,6 +66,7 @@ public class FilterAction extends Persistable implements IFilterAction {
   /*
    * @see org.rssowl.core.persist.IFilterAction#setData(java.lang.Object)
    */
+  @Override
   public synchronized void setData(Object data) {
     fData = data;
   }
@@ -72,6 +74,7 @@ public class FilterAction extends Persistable implements IFilterAction {
   /*
    * @see org.rssowl.core.persist.IFilterAction#getActionId()
    */
+  @Override
   public synchronized String getActionId() {
     return fActionId;
   }

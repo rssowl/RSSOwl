@@ -150,6 +150,7 @@ public class BrowserBar {
     };
 
     ProgressListener progressListener = new ProgressListener() {
+      @Override
       public void changed(ProgressEvent event) {
         if (!fLocationInput.isDisposed()) {
           String url = ((Browser) event.widget).getUrl();
@@ -162,6 +163,7 @@ public class BrowserBar {
       }
 
       /* Reset progress bar on completion */
+      @Override
       public void completed(ProgressEvent event) {
         if (!fLocationInput.isDisposed()) {
           String url = ((Browser) event.widget).getUrl();
@@ -455,12 +457,14 @@ public class BrowserBar {
     Controller.getDefault().getContextService().registerInputField(fLocationInput);
 
     fLocationInput.addFocusListener(new FocusListener() {
+      @Override
       public void focusGained(FocusEvent e) {
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.CUT.getId()).setEnabled(true);
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.COPY.getId()).setEnabled(true);
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.PASTE.getId()).setEnabled(true);
       }
 
+      @Override
       public void focusLost(FocusEvent e) {
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.CUT.getId()).setEnabled(false);
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.COPY.getId()).setEnabled(false);

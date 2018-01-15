@@ -77,6 +77,7 @@ public class AggregateFolderAction implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IObjectActionDelegate#setActivePart(org.eclipse.jface.action.IAction, org.eclipse.ui.IWorkbenchPart)
    */
+  @Override
   public void setActivePart(IAction action, IWorkbenchPart targetPart) {
     fTargetPart = targetPart;
   }
@@ -84,6 +85,7 @@ public class AggregateFolderAction implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     if (!fSelection.isEmpty() && fSelection instanceof IStructuredSelection) {
       Object firstElem = ((IStructuredSelection) fSelection).getFirstElement();
@@ -208,6 +210,7 @@ public class AggregateFolderAction implements IObjectActionDelegate {
   /* Create in-memory Newsmark */
   private void aggregateFolder(final IFolder folder) {
     BusyIndicator.showWhile(PlatformUI.getWorkbench().getDisplay(), new Runnable() {
+      @Override
       public void run() {
         FolderNewsMark folderNewsMark = new FolderNewsMark(folder);
         StructuredSelection newSelection = new StructuredSelection(folderNewsMark);
@@ -221,6 +224,7 @@ public class AggregateFolderAction implements IObjectActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     fSelection = selection;
   }

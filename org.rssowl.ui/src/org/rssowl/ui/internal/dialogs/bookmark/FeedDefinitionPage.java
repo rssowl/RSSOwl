@@ -165,6 +165,7 @@ public class FeedDefinitionPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
     Composite container = new Composite(parent, SWT.NONE);
     container.setLayout(new GridLayout(1, false));
@@ -218,6 +219,7 @@ public class FeedDefinitionPage extends WizardPage {
     }
 
     fFeedLinkInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         getContainer().updateButtons();
         onLinkChange();
@@ -261,6 +263,7 @@ public class FeedDefinitionPage extends WizardPage {
     fKeywordInput.setLayoutData(new GridData(SWT.FILL, SWT.BEGINNING, true, false));
     fKeywordInput.setEnabled(false);
     fKeywordInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         getContainer().updateButtons();
       }
@@ -310,9 +313,11 @@ public class FeedDefinitionPage extends WizardPage {
 
     /* Load proposals in the Background */
     JobRunner.runInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         if (!fKeywordInput.isDisposed()) {
           Set<String> values = new TreeSet<String>(new Comparator<String>() {
+            @Override
             public int compare(String o1, String o2) {
               return o1.compareToIgnoreCase(o2);
             }

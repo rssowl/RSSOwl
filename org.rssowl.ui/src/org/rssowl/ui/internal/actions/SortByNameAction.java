@@ -47,6 +47,7 @@ public class SortByNameAction implements IActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     List<?> list = fSelection.toList();
     for (Object obj : list) {
@@ -61,6 +62,7 @@ public class SortByNameAction implements IActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     if (selection instanceof IStructuredSelection)
       fSelection = (IStructuredSelection) selection;

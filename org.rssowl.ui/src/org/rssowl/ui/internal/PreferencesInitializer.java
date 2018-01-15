@@ -48,6 +48,7 @@ public class PreferencesInitializer implements IPreferencesInitializer {
    * org.rssowl.core.model.preferences.IPreferencesInitializer#initialize(org
    * .rssowl.core.model.preferences.IPreferencesScope)
    */
+  @Override
   public void initialize(IPreferenceScope defaultScope) {
 
     /* Default Globals */

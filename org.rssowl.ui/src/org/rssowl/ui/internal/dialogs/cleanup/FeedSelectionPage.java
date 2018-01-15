@@ -113,6 +113,7 @@ public class FeedSelectionPage extends WizardPage {
   /*
    * @see org.eclipse.jface.dialogs.IDialogPage#createControl(org.eclipse.swt.widgets.Composite)
    */
+  @Override
   public void createControl(Composite parent) {
     Composite container = new Composite(parent, SWT.NONE);
     container.setLayout(new GridLayout(1, false));
@@ -134,6 +135,7 @@ public class FeedSelectionPage extends WizardPage {
 
     /* Update Display Button on Selection */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         fDisplayFeedButton.setEnabled(((IStructuredSelection) event.getSelection()).getFirstElement() instanceof IBookMark);
       }
@@ -141,6 +143,7 @@ public class FeedSelectionPage extends WizardPage {
 
     /* Show Feed on Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         showFeeds((IStructuredSelection) event.getSelection());
       }

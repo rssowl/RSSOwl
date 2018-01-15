@@ -148,6 +148,7 @@ public class LabelDialog extends Dialog {
       }
 
       fNameInput.addModifyListener(new ModifyListener() {
+        @Override
         public void modifyText(ModifyEvent e) {
           onModifyName();
         }
@@ -158,9 +159,11 @@ public class LabelDialog extends Dialog {
 
       /* Load proposals in the Background */
       JobRunner.runInBackgroundThread(100, new Runnable() {
+        @Override
         public void run() {
           if (!fNameInput.isDisposed()) {
             Set<String> values = new TreeSet<String>(new Comparator<String>() {
+              @Override
               public int compare(String o1, String o2) {
                 return o1.compareToIgnoreCase(o2);
               }

@@ -68,6 +68,7 @@ public final class CategoryDAOImpl extends AbstractEntityDAO<ICategory, Category
   /*
    * @see org.rssowl.core.persist.dao.ICategoryDAO#loadAllNames()
    */
+  @Override
   public final Set<String> loadAllNames() {
     Set<String> names = new TreeSet<String>();
     for (ICategory category : loadAll()) {

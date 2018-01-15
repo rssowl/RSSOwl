@@ -46,6 +46,7 @@ public class FeedViewSite implements IFeedViewSite {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewSite#getEditorSite()
    */
+  @Override
   public IEditorSite getEditorSite() {
     return fSite;
   }
@@ -53,6 +54,7 @@ public class FeedViewSite implements IFeedViewSite {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewSite#isTableViewerVisible()
    */
+  @Override
   public boolean isTableViewerVisible() {
     return fFeedView.isTableViewerVisible();
   }
@@ -60,6 +62,7 @@ public class FeedViewSite implements IFeedViewSite {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewSite#isBrowserViewerVisible()
    */
+  @Override
   public boolean isBrowserViewerVisible() {
     return fFeedView.isBrowserViewerVisible();
   }
@@ -67,6 +70,7 @@ public class FeedViewSite implements IFeedViewSite {
   /*
    * @see org.rssowl.ui.internal.editors.feed.IFeedViewSite#getInputPreferences()
    */
+  @Override
   public IPreferenceScope getInputPreferences() {
     FeedViewInput input = (FeedViewInput) fFeedView.getEditorInput();
     if (input != null) {

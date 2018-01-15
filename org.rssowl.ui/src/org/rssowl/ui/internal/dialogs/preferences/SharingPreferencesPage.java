@@ -104,6 +104,7 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
   /*
    * @see org.eclipse.ui.IWorkbenchPreferencePage#init(org.eclipse.ui.IWorkbench)
    */
+  @Override
   public void init(IWorkbench workbench) {
     fInitialShareProviderState = fPreferences.getIntegers(DefaultPreferences.SHARE_PROVIDER_STATE);
   }
@@ -149,12 +150,15 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
 
     /* ContentProvider returns all providers */
     fViewer.setContentProvider(new IStructuredContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         return Controller.getDefault().getShareProviders().toArray();
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -171,6 +175,7 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
 
     /* Selection */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         updateMoveEnablement();
       }
@@ -181,6 +186,7 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
       @Override
       public void dragStart(final DragSourceEvent event) {
         SafeRunnable.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             IStructuredSelection selection = (IStructuredSelection) fViewer.getSelection();
             event.doit = (selection.size() < fViewer.getTable().getItemCount());
@@ -196,6 +202,7 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
       @Override
       public void dragSetData(final DragSourceEvent event) {
         SafeRunnable.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             if (LocalSelectionTransfer.getTransfer().isSupportedType(event.dataType))
               event.data = LocalSelectionTransfer.getTransfer().getSelection();
@@ -206,6 +213,7 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
       @Override
       public void dragFinished(DragSourceEvent event) {
         SafeRunnable.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             LocalSelectionTransfer.getTransfer().setSelection(null);
             LocalSelectionTransfer.getTransfer().setSelectionSetTime(0);
@@ -253,6 +261,7 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
 
     /* Listen on Check State Changes */
     fViewer.addCheckStateListener(new ICheckStateListener() {
+      @Override
       public void checkStateChanged(CheckStateChangedEvent event) {
         ShareProvider provider = (ShareProvider) event.getElement();
         provider.setEnabled(event.getChecked());
@@ -334,6 +343,7 @@ public class SharingPreferencesPage extends PreferencePage implements IWorkbench
 
     /* Enable Apply Button on Selection Changes */
     OwlUI.runOnSelection(new Runnable() {
+      @Override
       public void run() {
         updateApplyEnablement(true);
       }

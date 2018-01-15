@@ -29,7 +29,7 @@ import java.util.Set;
 /**
  * Provides an empty implementation of <code>PreferenceListener</code>.
  * Useful if the client only needs to implement a subset of the interface.
- * 
+ *
  * @author bpasero
  */
 public class PreferencesAdapter implements PreferenceListener {
@@ -37,15 +37,18 @@ public class PreferencesAdapter implements PreferenceListener {
   /*
    * @see org.rssowl.core.model.preferences.PreferencesListener#entitiesAdded(org.rssowl.core.model.preferences.PreferencesEvent)
    */
+  @Override
   public void entitiesAdded(Set<PreferenceEvent> event) {}
 
   /*
    * @see org.rssowl.core.model.preferences.PreferencesListener#entitiesUpdated(org.rssowl.core.model.preferences.PreferencesEvent)
    */
+  @Override
   public void entitiesUpdated(Set<PreferenceEvent> event) {}
 
   /*
    * @see org.rssowl.core.model.preferences.PreferencesListener#entitiesDeleted(org.rssowl.core.model.preferences.PreferencesEvent)
    */
+  @Override
   public void entitiesDeleted(Set<PreferenceEvent> event) {}
 }

@@ -24,7 +24,7 @@
 
 package org.rssowl.core.util;
 
-import org.apache.commons.httpclient.URIException;
+import org.apache.http.HttpHost;
 import org.rssowl.core.internal.Activator;
 
 import java.io.UnsupportedEncodingException;
@@ -584,13 +584,10 @@ public class URIUtils {
     if (host != null)
       return host;
 
-    /* Fallback to Apache Commons URI */
-    try {
-      org.apache.commons.httpclient.URI altUri = new org.apache.commons.httpclient.URI(uri.toString(), false);
-      return altUri.getHost();
-    } catch (URIException e) {
-      /* Ignore */
-    }
+    /* Fallback to Apache */
+    HttpHost httpHost = org.apache.http.client.utils.URIUtils.extractHost(uri);
+    if (httpHost != null)
+      return httpHost.getHostName();
 
     return null;
   }

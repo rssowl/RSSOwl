@@ -212,12 +212,15 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
 
     /* ContentProvider returns all filters */
     fViewer.setContentProvider(new IStructuredContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         return fSearchFilterDao.loadAll().toArray();
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -250,6 +253,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
 
     /* Selection */
     fViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         fEditButton.setEnabled(!selection.isEmpty());
@@ -262,6 +266,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
 
     /* Doubleclick */
     fViewer.addDoubleClickListener(new IDoubleClickListener() {
+      @Override
       public void doubleClick(DoubleClickEvent event) {
         onEdit();
       }
@@ -273,6 +278,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
 
     /* Listen on Check State Changes */
     fViewer.addCheckStateListener(new ICheckStateListener() {
+      @Override
       public void checkStateChanged(CheckStateChangedEvent event) {
         ISearchFilter filter = (ISearchFilter) event.getElement();
         filter.setEnabled(event.getChecked());
@@ -489,6 +495,7 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
 
   private void applyFilter(final List<SearchHit<NewsReference>> news, final ISearchFilter filter) {
     IRunnableWithProgress runnable = new IRunnableWithProgress() {
+      @Override
       public void run(IProgressMonitor monitor) {
         List<List<SearchHit<NewsReference>>> chunks = CoreUtils.toChunks(news, FILTER_CHUNK_SIZE);
         monitor.beginTask(NLS.bind(Messages.NewsFiltersListDialog_WAIT_FILTER_APPLIED, filter.getName()), chunks.size());
@@ -545,10 +552,12 @@ public class NewsFiltersListDialog extends TitleAreaDialog {
         final INewsAction newsAction = newsActionDescriptor.getNewsAction();
         if (newsAction != null) {
           SafeRunnable.run(new ISafeRunnable() {
+            @Override
             public void handleException(Throwable e) {
               Activator.getDefault().logError(e.getMessage(), e);
             }
 
+            @Override
             public void run() throws Exception {
               List<IEntity> changedEntities = newsAction.run(news, replacements, action.getData());
               entitiesToSave.addAll(changedEntities);

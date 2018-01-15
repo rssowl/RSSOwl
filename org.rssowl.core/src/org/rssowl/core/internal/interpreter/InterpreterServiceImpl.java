@@ -117,6 +117,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * org.rssowl.core.interpreter.IInterpreterService#interpret(java.io.InputStream
    * , org.rssowl.core.persist.IFeed, java.util.Map)
    */
+  @Override
   public void interpret(InputStream inS, IFeed feed, Map<Object, Object> properties) throws ParserException, InterpreterException {
     Document document = fXMLParserImpl.parse(inS, properties);
 
@@ -129,6 +130,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * org.rssowl.core.interpreter.IInterpreterService#interpretW3CDocument(org
    * .w3c.dom.Document, org.rssowl.core.model.persist.IFeed)
    */
+  @Override
   public void interpretW3CDocument(org.w3c.dom.Document w3cDocument, IFeed feed) throws InterpreterException {
     DOMBuilder domBuilder = new DOMBuilder();
     Document jDomDocument = domBuilder.build(w3cDocument);
@@ -142,6 +144,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * org.rssowl.core.interpreter.IInterpreterService#interpretJDomDocument(org
    * .jdom.Document, org.rssowl.core.model.persist.IFeed)
    */
+  @Override
   public void interpretJDomDocument(Document document, IFeed feed) throws InterpreterException {
 
     /* A Root Element is required */
@@ -165,6 +168,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * .rssowl.core.internal.interpreter.json.JSONObject,
    * org.rssowl.core.persist.IFeed)
    */
+  @Override
   public void interpretJSONObject(JSONObject json, IFeed feed) throws InterpreterException {
     new JSONInterpreter().interpret(json, feed);
   }
@@ -174,6 +178,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * org.rssowl.core.interpreter.IInterpreterService#importFrom(java.io.InputStream
    * )
    */
+  @Override
   public List<IEntity> importFrom(InputStream inS) throws InterpreterException, ParserException {
     Document document = fXMLParserImpl.parse(inS, null);
 
@@ -196,6 +201,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * @see org.rssowl.core.interpreter.IInterpreterService#exportTo(java.io.File,
    * java.util.Collection, java.util.Set)
    */
+  @Override
   public void exportTo(File destination, Collection<? extends IFolderChild> elements, Set<Options> options) throws InterpreterException {
     ITypeExporter exporter = null;
     String fileName = destination.getName();
@@ -215,6 +221,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
   /*
    * @see org.rssowl.core.interpreter.IInterpreterService#getExportFormats()
    */
+  @Override
   public Collection<String> getExportFormats() {
     return fTypeExporters.keySet();
   }
@@ -224,6 +231,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * org.rssowl.core.interpreter.IInterpreterService#getNamespaceHandler(java
    * .lang.String)
    */
+  @Override
   public INamespaceHandler getNamespaceHandler(String namespaceUri) {
     return fNamespaceHandlers.get(namespaceUri);
   }
@@ -233,6 +241,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
    * org.rssowl.core.interpreter.IInterpreterService#getElementHandler(java.
    * lang.String, java.lang.String)
    */
+  @Override
   public IElementHandler getElementHandler(String elementName, String rootName) {
     if (fElementHandlers != null)
       return fElementHandlers.get(elementName.toLowerCase() + rootName.toLowerCase());
@@ -247,6 +256,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
     SafeRunner.run(new ISafeRunnable() {
 
       /* Use Default XML Parser Impl */
+      @Override
       public void handleException(Throwable exception) {
         fXMLParserImpl = new DefaultSaxParserImpl();
         try {
@@ -257,6 +267,7 @@ public class InterpreterServiceImpl implements IInterpreterService {
       }
 
       /* Try Contribution */
+      @Override
       public void run() throws Exception {
         fXMLParserImpl.init();
       }

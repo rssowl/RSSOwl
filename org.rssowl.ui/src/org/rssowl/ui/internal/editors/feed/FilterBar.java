@@ -394,6 +394,7 @@ public class FilterBar {
 
     /* Handle the CR Key Pressed */
     fSearchInput.addTraverseListener(new TraverseListener() {
+      @Override
       public void keyTraversed(TraverseEvent e) {
         if (e.detail == SWT.TRAVERSE_RETURN || e.detail == SWT.TRAVERSE_PAGE_NEXT || e.detail == SWT.TRAVERSE_PAGE_PREVIOUS) {
           e.doit = false;
@@ -406,6 +407,7 @@ public class FilterBar {
     fSearchInput.addModifyListener(new ModifyListener() {
       private boolean highlightChanged = false;
 
+      @Override
       public void modifyText(ModifyEvent e) {
 
         /* Clear Search immediately */
@@ -413,6 +415,7 @@ public class FilterBar {
           fFeedView.getFilter().setPattern(fSearchInput.getText());
           if (!fBlockRefresh) {
             BusyIndicator.showWhile(Display.getDefault(), new Runnable() {
+              @Override
               public void run() {
                 if (highlightChanged) {
                   setHighlight(false);
@@ -431,8 +434,10 @@ public class FilterBar {
         /* Run Search in JobTracker */
         else if (fSearchInput.getText().length() > 0) {
           fQuickSearchTracker.run(new TaskAdapter() {
+            @Override
             public IStatus run(IProgressMonitor monitor) {
               BusyIndicator.showWhile(Display.getDefault(), new Runnable() {
+                @Override
                 public void run() {
                   if (setHighlight(true))
                     highlightChanged = true;
@@ -452,12 +457,14 @@ public class FilterBar {
     });
 
     fSearchInput.addFocusListener(new FocusListener() {
+      @Override
       public void focusGained(FocusEvent e) {
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.CUT.getId()).setEnabled(true);
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.COPY.getId()).setEnabled(true);
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.PASTE.getId()).setEnabled(true);
       }
 
+      @Override
       public void focusLost(FocusEvent e) {
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.CUT.getId()).setEnabled(false);
         fFeedView.getEditorSite().getActionBars().getGlobalActionHandler(ActionFactory.COPY.getId()).setEnabled(false);
@@ -869,6 +876,7 @@ public class FilterBar {
     /* Refresh if set */
     if (refresh) {
       final Runnable uiRunnable = new Runnable() {
+        @Override
         public void run() {
           if (browserRefreshRunnable != null) //If runnable is passed in, it will take care of refreshing
             fFeedView.getNewsBrowserControl().getViewer().setBlockRefresh(true);
@@ -900,6 +908,7 @@ public class FilterBar {
       /* Filter has changed - ask Feedview to revalidate caches in Background Thread */
       if (oldType != type) {
         JobRunner.runInBackgroundWithBusyIndicator(new Runnable() {
+          @Override
           public void run() {
 
             /* Potential Long-op running in Background */
@@ -940,6 +949,7 @@ public class FilterBar {
 
     /* Update Settings */
     JobRunner.runInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         fGlobalPreferences.putInteger(DefaultPreferences.FV_SEARCH_TARGET, target.ordinal());
       }

@@ -59,6 +59,7 @@ public class CTable {
   public CTable(Composite parent, int style) {
     fTable = new Table(parent, style);
     parent.addListener(SWT.Resize, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         onTableResize();
       }

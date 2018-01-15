@@ -29,7 +29,7 @@ import java.util.Set;
 /**
  * Provides an empty implementation of <code>LabelListener</code>. Useful if
  * the client only needs to implement a subset of the interface.
- * 
+ *
  * @author bpasero
  */
 public class LabelAdapter implements LabelListener {
@@ -37,15 +37,18 @@ public class LabelAdapter implements LabelListener {
   /*
    * @see org.rssowl.core.model.events.LabelListener#labelAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<LabelEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.LabelListener#labelDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<LabelEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.LabelListener#labelUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<LabelEvent> events) { }
 }

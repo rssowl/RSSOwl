@@ -65,6 +65,7 @@ public class Source extends Persistable implements ISource {
   /*
    * @see org.rssowl.core.model.types.ISource#setName(java.lang.String)
    */
+  @Override
   public synchronized void setName(String name) {
     fName = name;
   }
@@ -72,6 +73,7 @@ public class Source extends Persistable implements ISource {
   /*
    * @see org.rssowl.core.model.types.ISource#setLink(java.net.URI)
    */
+  @Override
   public synchronized void setLink(URI link) {
     if (link != null)
       fLink = link.toString();
@@ -80,6 +82,7 @@ public class Source extends Persistable implements ISource {
   /*
    * @see org.rssowl.core.model.types.ISource#getName()
    */
+  @Override
   public synchronized String getName() {
     return fName;
   }
@@ -87,6 +90,7 @@ public class Source extends Persistable implements ISource {
   /*
    * @see org.rssowl.core.model.types.ISource#getLink()
    */
+  @Override
   public synchronized URI getLink() {
     return createURI(fLink);
   }
@@ -132,6 +136,7 @@ public class Source extends Persistable implements ISource {
   /*
    * @see org.rssowl.core.persist.MergeCapable#merge(java.lang.Object)
    */
+  @Override
   public synchronized MergeResult merge(ISource objectToMerge) {
     Assert.isNotNull(objectToMerge);
     synchronized (objectToMerge) {

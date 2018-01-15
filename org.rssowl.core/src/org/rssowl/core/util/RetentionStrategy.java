@@ -221,6 +221,7 @@ public class RetentionStrategy {
 
     /* Sort by Date */
     Arrays.sort(newsArray, new Comparator<INews>() {
+      @Override
       public int compare(INews news1, INews news2) {
         return DateUtils.getRecentDate(news1).compareTo(DateUtils.getRecentDate(news2));
       }

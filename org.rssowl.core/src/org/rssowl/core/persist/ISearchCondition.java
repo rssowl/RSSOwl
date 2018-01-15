@@ -136,5 +136,6 @@ public interface ISearchCondition extends IEntity {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   SearchConditionReference toReference();
 }

@@ -55,6 +55,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesScope#getParent()
    */
+  @Override
   public IPreferenceScope getParent() {
     return fParent;
   }
@@ -62,6 +63,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesScope#flush()
    */
+  @Override
   public void flush() {
     DynamicDAO.save(fEntity);
   }
@@ -69,6 +71,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#delete(java.lang.String)
    */
+  @Override
   public void delete(String key) {
     fEntity.removeProperty(key);
   }
@@ -76,6 +79,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.persist.pref.IPreferenceScope#hasKey(java.lang.String)
    */
+  @Override
   public boolean hasKey(String key) {
     return fEntity.getProperty(key) != null;
   }
@@ -83,6 +87,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getBoolean(java.lang.String)
    */
+  @Override
   public boolean getBoolean(String key) {
 
     /* Ask Entity */
@@ -97,6 +102,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getInteger(java.lang.String)
    */
+  @Override
   public int getInteger(String key) {
 
     /* Ask Entity */
@@ -111,6 +117,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getIntegers(java.lang.String)
    */
+  @Override
   public int[] getIntegers(String key) {
 
     /* Ask Entity */
@@ -125,6 +132,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getLong(java.lang.String)
    */
+  @Override
   public long getLong(String key) {
 
     /* Ask Entity */
@@ -139,6 +147,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getLongs(java.lang.String)
    */
+  @Override
   public long[] getLongs(String key) {
 
     /* Ask Entity */
@@ -153,6 +162,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getString(java.lang.String)
    */
+  @Override
   public String getString(String key) {
 
     /* Ask Entity */
@@ -167,6 +177,7 @@ public class EntityScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getStrings(java.lang.String)
    */
+  @Override
   public String[] getStrings(String key) {
 
     /* Ask Entity */
@@ -182,6 +193,7 @@ public class EntityScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putBoolean(java.lang.String,
    * boolean)
    */
+  @Override
   public void putBoolean(String key, boolean value) {
     if (value != fParent.getBoolean(key))
       fEntity.setProperty(key, value);
@@ -193,6 +205,7 @@ public class EntityScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putInteger(java.lang.String,
    * int)
    */
+  @Override
   public void putInteger(String key, int value) {
     if (value != fParent.getInteger(key))
       fEntity.setProperty(key, value);
@@ -204,6 +217,7 @@ public class EntityScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putIntegers(java.lang.String,
    * int[])
    */
+  @Override
   public void putIntegers(String key, int[] values) {
     Assert.isNotNull(values);
 
@@ -217,6 +231,7 @@ public class EntityScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putLong(java.lang.String,
    * long)
    */
+  @Override
   public void putLong(String key, long value) {
     if (value != fParent.getLong(key))
       fEntity.setProperty(key, value);
@@ -228,6 +243,7 @@ public class EntityScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putLongs(java.lang.String,
    * long[])
    */
+  @Override
   public void putLongs(String key, long[] values) {
     Assert.isNotNull(values);
 
@@ -241,6 +257,7 @@ public class EntityScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putString(java.lang.String,
    * java.lang.String)
    */
+  @Override
   public void putString(String key, String value) {
     Assert.isNotNull(value);
 
@@ -254,6 +271,7 @@ public class EntityScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putStrings(java.lang.String,
    * java.lang.String[])
    */
+  @Override
   public void putStrings(String key, String[] values) {
     Assert.isNotNull(values);
 

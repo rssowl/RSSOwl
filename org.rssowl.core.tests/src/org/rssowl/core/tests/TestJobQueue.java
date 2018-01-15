@@ -57,7 +57,7 @@ public class TestJobQueue {
    * Creates an instance of <code>JobQueue</code> that allows to add
    * <code>Runnables</code> into a Queue to process them in Jobs up to a
    * certain amount of allowed parallel Jobs.
-   * 
+   *
    * @param maxConcurrentJobs The maximum number of concurrent running Tasks.
    */
   public TestJobQueue(int maxConcurrentJobs) {
@@ -69,7 +69,7 @@ public class TestJobQueue {
    * Adds the given List of Tasks into the Queue. Each Runnable is processed in
    * a <code>Job</code> once the number of parallel processed Tasks is below
    * <code>MAX_SCHEDULED_JOBS</code>.
-   * 
+   *
    * @param tasks The Tasks to add into this Queue.
    */
   public void schedule(List<ITask> tasks) {
@@ -150,6 +150,7 @@ public class TestJobQueue {
         /* Perform the Operation if not yet Cancelled */
         if (!monitor.isCanceled()) {
           SafeRunner.run(new LoggingSafeRunnable() {
+            @Override
             public void run() throws Exception {
               IStatus status = task.run(monitor);
 

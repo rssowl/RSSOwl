@@ -281,17 +281,20 @@ public class NewsBrowserLabelProvider extends LabelProvider {
         String preHighlight = "<span style=\"background-color:rgb(" + OwlUI.toString(searchRGB) + ");\">"; //$NON-NLS-1$ //$NON-NLS-2$
         String postHighlight = "</span>"; //$NON-NLS-1$
 
-        ExpandingReader resultHighlightReader = new ExpandingReader(new StringReader(str), wordsToHighlight, preHighlight, postHighlight, true);
+        try (ExpandingReader resultHighlightReader = new ExpandingReader(new StringReader(str), wordsToHighlight, preHighlight, postHighlight, true)) {
 
-        int len = 0;
-        char[] buf = new char[1000];
-        try {
-          while ((len = resultHighlightReader.read(buf)) != -1)
-            highlightedResult.append(buf, 0, len);
+          int len = 0;
+          char[] buf = new char[1000];
+          try {
+            while ((len = resultHighlightReader.read(buf)) != -1)
+              highlightedResult.append(buf, 0, len);
 
-          return highlightedResult.toString();
+            return highlightedResult.toString();
+          } catch (IOException e) {
+            Activator.getDefault().logError(e.getMessage(), e);
+          }
         } catch (IOException e) {
-          Activator.getDefault().logError(e.getMessage(), e);
+          //ignore IOException on .close()
         }
       }
     }
@@ -342,6 +345,7 @@ public class NewsBrowserLabelProvider extends LabelProvider {
 
     /* Create Property Listener */
     fPropertyChangeListener = new IPropertyChangeListener() {
+      @Override
       public void propertyChange(PropertyChangeEvent event) {
         String property = event.getProperty();
         if (OwlUI.NEWS_TEXT_FONT_ID.equals(property))

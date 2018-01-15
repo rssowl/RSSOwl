@@ -75,6 +75,7 @@ public final class BookMarkDAOImpl extends AbstractEntityDAO<IBookMark, BookMark
    * org.rssowl.core.persist.dao.IBookMarkDAO#loadAll(org.rssowl.core.persist
    * .reference.FeedLinkReference)
    */
+  @Override
   public final Collection<IBookMark> loadAll(FeedLinkReference feedRef) {
     try {
       Collection<IBookMark> marks = DBHelper.loadAllBookMarks(fDb, feedRef);
@@ -90,6 +91,7 @@ public final class BookMarkDAOImpl extends AbstractEntityDAO<IBookMark, BookMark
    * org.rssowl.core.persist.dao.IBookMarkDAO#exists(org.rssowl.core.persist
    * .reference.FeedLinkReference)
    */
+  @Override
   public boolean exists(FeedLinkReference feedRef) {
     try {
       Collection<IBookMark> marks = DBHelper.loadAllBookMarks(fDb, feedRef);
@@ -102,6 +104,7 @@ public final class BookMarkDAOImpl extends AbstractEntityDAO<IBookMark, BookMark
   /*
    * @see org.rssowl.core.persist.dao.IBookMarkDAO#visited(org.rssowl.core.persist.IBookMark)
    */
+  @Override
   public void visited(IBookMark mark) {
     mark.setPopularity(mark.getPopularity() + 1);
     mark.setLastVisitDate(new Date());

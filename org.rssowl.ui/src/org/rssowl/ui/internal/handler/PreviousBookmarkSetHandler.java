@@ -43,6 +43,7 @@ public class PreviousBookmarkSetHandler extends AbstractHandler implements IHand
   /*
    * @see org.eclipse.core.commands.IHandler#execute(org.eclipse.core.commands.ExecutionEvent)
    */
+  @Override
   public Object execute(ExecutionEvent event) {
     BookMarkExplorer bookMarkExplorer = OwlUI.getOpenedBookMarkExplorer();
     if (bookMarkExplorer != null) {

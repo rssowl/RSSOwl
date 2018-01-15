@@ -103,6 +103,7 @@ public class CleanUpReminderService {
             final AtomicBoolean needShortReschedule = new AtomicBoolean(false);
 
             JobRunner.runSyncedInUIThread(shell, new Runnable() {
+              @Override
               public void run() {
                 if (monitor.isCanceled() || Controller.getDefault().isShuttingDown())
                   return;

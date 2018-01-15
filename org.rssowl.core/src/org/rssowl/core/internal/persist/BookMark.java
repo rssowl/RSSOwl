@@ -84,6 +84,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.IBookMark#getMostRecentNewsDate()
    */
+  @Override
   public synchronized Date getMostRecentNewsDate() {
     if (fMostRecentNewsDate < 0)
       return null;
@@ -95,6 +96,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.IBookMark#setMostRecentNewsDate(java.util.Date)
    */
+  @Override
   public synchronized void setMostRecentNewsDate(Date date) {
     Assert.isNotNull(date, "date"); //$NON-NLS-1$
     fMostRecentNewsDate = date.getTime();
@@ -111,6 +113,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.model.types.IFeed#isErrorLoading()
    */
+  @Override
   public synchronized boolean isErrorLoading() {
     return fIsErrorLoading;
   }
@@ -118,6 +121,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.model.types.IFeed#setErrorLoading(boolean)
    */
+  @Override
   public synchronized void setErrorLoading(boolean isErrorLoading) {
     fIsErrorLoading = isErrorLoading;
   }
@@ -125,6 +129,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.model.types.IBookMark#getFeedLinkReference()
    */
+  @Override
   public synchronized FeedLinkReference getFeedLinkReference() {
     if (fFeedLinkReference == null)
       fFeedLinkReference = new FeedLinkReference(createURI(fFeedLink));
@@ -135,6 +140,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.model.types.IBookMark#setFeedLinkReference(org.rssowl.core.model.reference.FeedLinkReference)
    */
+  @Override
   public synchronized void setFeedLinkReference(FeedLinkReference feedLinkRef) {
     Assert.isNotNull(feedLinkRef, "link cannot be null"); //$NON-NLS-1$
     fFeedLinkReference = feedLinkRef;
@@ -172,6 +178,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public BookMarkReference toReference() {
     return new BookMarkReference(getIdAsPrimitive());
   }
@@ -179,6 +186,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNews()
    */
+  @Override
   public synchronized List<INews> getNews() {
     return getFeedLinkReference().resolve().getNews();
   }
@@ -186,6 +194,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNews(java.util.Set)
    */
+  @Override
   public List<INews> getNews(Set<State> states) {
     if (states.equals(EnumSet.of(INews.State.NEW)))
       return (List<INews>) DynamicDAO.getDAO(INewsDAO.class).loadAll(getFeedLinkReference(), states);
@@ -199,6 +208,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsCount(java.util.Set)
    */
+  @Override
   public synchronized int getNewsCount(Set<State> states) {
     if (fNewsCounter != null) {
       if (states.equals(EnumSet.of(INews.State.NEW)))
@@ -214,6 +224,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs()
    */
+  @Override
   public List<NewsReference> getNewsRefs() {
     return getNewsRefs(EnumSet.allOf(INews.State.class));
   }
@@ -221,6 +232,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs(java.util.Set)
    */
+  @Override
   public List<NewsReference> getNewsRefs(Set<State> states) {
     List<INews> news = getNews(states);
     List<NewsReference> newsRefs = new ArrayList<NewsReference>();
@@ -234,6 +246,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#isGetNewsRefsEfficient()
    */
+  @Override
   public boolean isGetNewsRefsEfficient() {
     return false;
   }
@@ -241,6 +254,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.INewsMark#containsNews(org.rssowl.core.persist.INews)
    */
+  @Override
   public boolean containsNews(INews news) {
     return news.getParentId() == 0 && news.getFeedLinkAsText().equals(fFeedLink);
   }
@@ -248,6 +262,7 @@ public class BookMark extends Mark implements IBookMark {
   /*
    * @see org.rssowl.core.persist.IBookMark#getStickyNewsCount()
    */
+  @Override
   public synchronized int getStickyNewsCount() {
     if (fNewsCounter != null)
       return fNewsCounter.getStickyCount(fFeedLink);

@@ -223,6 +223,7 @@ public class CustomizeToolbarDialog extends Dialog {
     /* Custom Owner Drawn Category */
     if (!OwlUI.isHighContrast()) {
       fItemViewer.getControl().addListener(SWT.EraseItem, new Listener() {
+        @Override
         public void handleEvent(Event event) {
           ToolBarItem item = (ToolBarItem) event.item.getData();
           if (item.item == CoolBarItem.SEPARATOR) {
@@ -265,6 +266,7 @@ public class CustomizeToolbarDialog extends Dialog {
 
     /* ContentProvider returns all selected Items */
     fItemViewer.setContentProvider(new IStructuredContentProvider() {
+      @Override
       public Object[] getElements(Object inputElement) {
         int[] itemIds = fPreferences.getIntegers(DefaultPreferences.TOOLBAR_ITEMS);
         ToolBarItem[] items = new ToolBarItem[itemIds.length];
@@ -274,8 +276,10 @@ public class CustomizeToolbarDialog extends Dialog {
         return items;
       }
 
+      @Override
       public void dispose() {}
 
+      @Override
       public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {}
     });
 
@@ -296,6 +300,7 @@ public class CustomizeToolbarDialog extends Dialog {
 
     /* Selection */
     fItemViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         updateButtonEnablement();
       }
@@ -315,6 +320,7 @@ public class CustomizeToolbarDialog extends Dialog {
       @Override
       public void dragStart(final DragSourceEvent event) {
         SafeRunnable.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             IStructuredSelection selection = (IStructuredSelection) fItemViewer.getSelection();
             event.doit = (selection.size() < fItemViewer.getTable().getItemCount());
@@ -330,6 +336,7 @@ public class CustomizeToolbarDialog extends Dialog {
       @Override
       public void dragSetData(final DragSourceEvent event) {
         SafeRunnable.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             if (LocalSelectionTransfer.getTransfer().isSupportedType(event.dataType))
               event.data = LocalSelectionTransfer.getTransfer().getSelection();
@@ -340,6 +347,7 @@ public class CustomizeToolbarDialog extends Dialog {
       @Override
       public void dragFinished(DragSourceEvent event) {
         SafeRunnable.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             LocalSelectionTransfer.getTransfer().setSelection(null);
             LocalSelectionTransfer.getTransfer().setSelectionSetTime(0);
@@ -383,6 +391,7 @@ public class CustomizeToolbarDialog extends Dialog {
     /* Add */
     fAddMenu = new Menu(getShell(), SWT.POP_UP);
     fAddMenu.addMenuListener(new MenuListener() {
+      @Override
       public void menuShown(MenuEvent e) {
         MenuItem[] items = fAddMenu.getItems();
         for (MenuItem item : items) {
@@ -423,6 +432,7 @@ public class CustomizeToolbarDialog extends Dialog {
 
                 /* Re-Open Menu for More */
                 JobRunner.runInUIThread(fAddMenu, new Runnable() {
+                  @Override
                   public void run() {
                     fAddMenu.setVisible(true);
                   };
@@ -435,6 +445,7 @@ public class CustomizeToolbarDialog extends Dialog {
         }
       }
 
+      @Override
       public void menuHidden(MenuEvent e) {}
     });
 
@@ -538,6 +549,7 @@ public class CustomizeToolbarDialog extends Dialog {
     });
 
     fModeViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         Object selection = ((IStructuredSelection) event.getSelection()).getFirstElement();
         CoolBarMode mode = (CoolBarMode) selection;

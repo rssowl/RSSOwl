@@ -71,6 +71,9 @@ import com.db4o.config.Configuration;
 import com.db4o.config.ObjectClass;
 import com.db4o.config.ObjectField;
 import com.db4o.config.QueryEvaluationMode;
+import com.db4o.diagnostic.Diagnostic;
+import com.db4o.diagnostic.DiagnosticListener;
+import com.db4o.diagnostic.NativeQueryNotOptimized;
 import com.db4o.ext.DatabaseFileLockedException;
 import com.db4o.query.Query;
 
@@ -454,6 +457,16 @@ public class DBManager {
 
       /* Keep date of last successfull profile opened */
       storeProfileLastUsed();
+
+      // #xyrio for debug, show when query optimizations failed
+      fObjectContainer.ext().configure().diagnostic().addListener(new DiagnosticListener() {
+        @Override
+        public void onDiagnostic(Diagnostic d) {
+          if (d instanceof NativeQueryNotOptimized) {
+            System.out.println("Native query failed optimization!"); //$NON-NLS-1$
+          }
+        }
+      });
     }
 
     /* Error opening the DB */
@@ -519,6 +532,7 @@ public class DBManager {
 
     final BackupService onlineBackupService = new BackupService(file, ONLINE_BACKUP_NAME, MAX_ONLINE_BACKUPS_COUNT);
     onlineBackupService.setBackupStrategy(new BackupService.BackupStrategy() {
+      @Override
       public void backup(File originFile, File backupFile, IProgressMonitor monitor) {
         File marker = getOnlineBackupMarkerFile();
         File tmpBackupFile = null;
@@ -716,6 +730,7 @@ public class DBManager {
     Activator.safeLogInfo(NLS.bind("Migrating RSSOwl (from version {0} to version {1}", workspaceFormat, currentFormat)); //$NON-NLS-1$
 
     ConfigurationFactory configFactory = new ConfigurationFactory() {
+      @Override
       public Configuration createConfiguration() {
         return DBManager.createConfiguration(false);
       }
@@ -735,6 +750,7 @@ public class DBManager {
      */
     final BackupService backupService = new BackupService(dbFile, backupFileSuffix + workspaceFormat, 1);
     backupService.setLayoutStrategy(new BackupService.BackupLayoutStrategy() {
+      @Override
       public List<File> findBackupFiles() {
         List<File> backupFiles = new ArrayList<File>(3);
         for (int i = workspaceFormat; i >= 0; --i) {
@@ -745,6 +761,7 @@ public class DBManager {
         return backupFiles;
       }
 
+      @Override
       public void rotateBackups(List<File> backupFiles) {
         throw new UnsupportedOperationException("No rotation supported because maxBackupCount is 1"); //$NON-NLS-1$
       }
@@ -1480,6 +1497,7 @@ public class DBManager {
       backups.add(offlineBackupOlder);
 
     Collections.sort(backups, new Comparator<File>() {
+      @Override
       public int compare(File f1, File f2) {
         return f1.lastModified() > f2.lastModified() ? -1 : 1;
       };
@@ -1539,6 +1557,7 @@ public class DBManager {
 
   void dropDatabaseForTests() throws PersistenceException {
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
 
         /* Shutdown DB */

@@ -69,6 +69,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
    * @see org.eclipse.core.runtime.IProgressMonitor#beginTask(java.lang.String,
    * int)
    */
+  @Override
   public void beginTask(String name, int totalWork) {
     fMonitor.beginTask(name, totalWork);
   }
@@ -76,6 +77,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
   /*
    * @see org.eclipse.core.runtime.IProgressMonitor#done()
    */
+  @Override
   public void done() {
     fMonitor.done();
   }
@@ -83,6 +85,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
   /*
    * @see org.eclipse.core.runtime.IProgressMonitor#internalWorked(double)
    */
+  @Override
   public void internalWorked(double work) {
     fMonitor.internalWorked(work);
   }
@@ -90,6 +93,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
   /*
    * @see org.eclipse.core.runtime.IProgressMonitor#isCanceled()
    */
+  @Override
   public boolean isCanceled() {
     return fMonitor.isCanceled();
   }
@@ -97,6 +101,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
   /*
    * @see org.eclipse.core.runtime.IProgressMonitor#setCanceled(boolean)
    */
+  @Override
   public void setCanceled(boolean value) {
     fMonitor.setCanceled(value);
   }
@@ -105,6 +110,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
    * @see
    * org.eclipse.core.runtime.IProgressMonitor#setTaskName(java.lang.String)
    */
+  @Override
   public void setTaskName(String name) {
     fMonitor.setTaskName(name);
   }
@@ -112,6 +118,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
   /*
    * @see org.eclipse.core.runtime.IProgressMonitor#subTask(java.lang.String)
    */
+  @Override
   public void subTask(String name) {
     fMonitor.subTask(name);
   }
@@ -119,6 +126,7 @@ public abstract class LongOperationMonitor implements IProgressMonitor {
   /*
    * @see org.eclipse.core.runtime.IProgressMonitor#worked(int)
    */
+  @Override
   public void worked(int work) {
     fMonitor.worked(work);
   }

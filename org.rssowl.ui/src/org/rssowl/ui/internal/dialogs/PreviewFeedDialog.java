@@ -291,6 +291,7 @@ public class PreviewFeedDialog extends Dialog {
     if (feed != null && !fBrowser.getControl().isDisposed()) {
       List<INews> news = feed.getNewsByStates(INews.State.getVisible());
       Collections.sort(news, new Comparator<INews>() {
+        @Override
         public int compare(INews news1, INews news2) {
           Date date1 = DateUtils.getRecentDate(news1);
           Date date2 = DateUtils.getRecentDate(news2);

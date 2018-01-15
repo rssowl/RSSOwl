@@ -81,6 +81,7 @@ public final class FeedDAOImpl extends AbstractEntityDAO<IFeed, FeedListener, Fe
   /*
    * @see org.rssowl.core.persist.dao.IFeedDAO#load(java.net.URI)
    */
+  @Override
   public final Feed load(URI link) {
     return DBHelper.loadFeed(fDb, link, Integer.MAX_VALUE);
   }
@@ -100,6 +101,7 @@ public final class FeedDAOImpl extends AbstractEntityDAO<IFeed, FeedListener, Fe
   /*
    * @see org.rssowl.core.persist.dao.IFeedDAO#exists(java.net.URI)
    */
+  @Override
   public boolean exists(URI link) {
     return DBHelper.existsFeed(fDb, link);
   }

@@ -50,6 +50,7 @@ public class MyFeedInterpreter implements IFormatInterpreter {
    * @see org.rssowl.core.interpreter.IFormatInterpreter#interpret(org.jdom.Document,
    * org.rssowl.core.model.types.IFeed)
    */
+  @Override
   @SuppressWarnings("unused")
   public void interpret(Document document, IFeed feed) throws InterpreterException {
     Element root = document.getRootElement();

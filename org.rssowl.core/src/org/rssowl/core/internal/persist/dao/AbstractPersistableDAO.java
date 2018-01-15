@@ -65,10 +65,12 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
     fEntityClass = entityClass;
     fSaveFully = saveFully;
     DBManager.getDefault().addEntityStoreListener(new DatabaseListener() {
+      @Override
       public void databaseOpened(DatabaseEvent event) {
         onDatabaseOpened(event);
       }
 
+      @Override
       public void databaseClosed(DatabaseEvent event) {
         onDatabaseClosed(event);
       }
@@ -100,6 +102,7 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
   /*
    * @see org.rssowl.core.persist.dao.IPersistableDAO#getEntityClass()
    */
+  @Override
   public final Class<? extends T> getEntityClass() {
     return fEntityClass;
   }
@@ -124,6 +127,7 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
   /*
    * @see org.rssowl.core.model.internal.db4o.dao.PersistableDAO#loadAll()
    */
+  @Override
   public Collection<T> loadAll() {
     try {
       List<? extends T> entities = fDb.query(fEntityClass);
@@ -145,6 +149,7 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
   /*
    * @see org.rssowl.core.model.internal.db4o.dao.PersistableDAO#save(T)
    */
+  @Override
   public T save(T object) {
     saveAll(Collections.singletonList(object));
     return object;
@@ -153,6 +158,7 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
   /*
    * @see org.rssowl.core.model.internal.db4o.dao.PersistableDAO#saveAll(C)
    */
+  @Override
   public void saveAll(Collection<T> objects) {
     if (objects.isEmpty())
       return;
@@ -208,6 +214,7 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
   /*
    * @see org.rssowl.core.model.internal.db4o.dao.PersistableDAO#delete(T)
    */
+  @Override
   public void delete(T object) {
     deleteAll(Collections.singletonList(object));
   }
@@ -221,6 +228,7 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
    * org.rssowl.core.model.internal.db4o.dao.PersistableDAO#deleteAll(java.util
    * .Collection)
    */
+  @Override
   public void deleteAll(Collection<T> objects) {
     if (objects.isEmpty())
       return;
@@ -258,6 +266,7 @@ public abstract class AbstractPersistableDAO<T extends IPersistable> implements 
   /*
    * @see org.rssowl.core.model.internal.db4o.dao.PersistableDAO#countAll()
    */
+  @Override
   public long countAll() {
     try {
       List<? extends T> entities = fDb.query(fEntityClass);

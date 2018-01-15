@@ -156,18 +156,21 @@ public class CCLabel extends Canvas {
       align = SWT.LEFT;
 
     addPaintListener(new PaintListener() {
+      @Override
       public void paintControl(PaintEvent event) {
         onPaint(event);
       }
     });
 
     addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(DisposeEvent event) {
         onDispose();
       }
     });
 
     addTraverseListener(new TraverseListener() {
+      @Override
       public void keyTraversed(TraverseEvent event) {
         if (event.detail == SWT.TRAVERSE_MNEMONIC) {
           onMnemonic(event);

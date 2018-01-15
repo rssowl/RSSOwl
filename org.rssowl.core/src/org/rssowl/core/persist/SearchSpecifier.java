@@ -143,6 +143,7 @@ public enum SearchSpecifier implements IPersistable {
    * @see IAdaptable#getAdapter(Class)
    * @see Platform#getAdapterManager()
    */
+  @Override
   @SuppressWarnings("unchecked")
   public Object getAdapter(Class adapter) {
     return Platform.getAdapterManager().getAdapter(this, adapter);

@@ -100,6 +100,7 @@ public class SearchMarkWizard extends Wizard implements INewWizard {
       setMessage(Messages.SearchMarkWizard_SEARCH_WIZ_TITLE);
     }
 
+    @Override
     public void createControl(Composite parent) {
       Composite control = new Composite(parent, SWT.NONE);
       control.setLayout(new GridLayout(2, false));
@@ -116,6 +117,7 @@ public class SearchMarkWizard extends Wizard implements INewWizard {
       OwlUI.makeAccessible(fNameInput, nameLabel);
       fNameInput.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, true));
       fNameInput.addModifyListener(new ModifyListener() {
+        @Override
         public void modifyText(ModifyEvent e) {
           setErrorMessage(null);
         }
@@ -239,6 +241,7 @@ public class SearchMarkWizard extends Wizard implements INewWizard {
   /*
    * @see org.eclipse.ui.IWorkbenchWizard#init(org.eclipse.ui.IWorkbench, org.eclipse.jface.viewers.IStructuredSelection)
    */
+  @Override
   public void init(IWorkbench workbench, IStructuredSelection selection) {
     Pair<IFolder, IFolderChild> pair = ModelUtils.getLocationAndPosition(selection);
     fFolder = pair.getFirst();

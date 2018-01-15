@@ -127,6 +127,7 @@ public class NewsColumnSelectionControl extends Composite {
     });
 
     fNewsColumnViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         updateMoveEnablement();
         updateRemoveEnablement();
@@ -141,6 +142,7 @@ public class NewsColumnSelectionControl extends Composite {
     /* Add */
     final Menu menu = new Menu(getShell(), SWT.POP_UP);
     menu.addMenuListener(new MenuListener() {
+      @Override
       public void menuShown(MenuEvent e) {
         MenuItem[] items = menu.getItems();
         for (MenuItem item : items) {
@@ -165,6 +167,7 @@ public class NewsColumnSelectionControl extends Composite {
         }
       }
 
+      @Override
       public void menuHidden(MenuEvent e) {}
     });
 
@@ -183,6 +186,7 @@ public class NewsColumnSelectionControl extends Composite {
     });
 
     addButton.addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(DisposeEvent e) {
         OwlUI.safeDispose(menu);
       }
@@ -253,6 +257,7 @@ public class NewsColumnSelectionControl extends Composite {
     });
 
     fSortByViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         NewsColumn column = (NewsColumn) selection.getFirstElement();
@@ -271,6 +276,7 @@ public class NewsColumnSelectionControl extends Composite {
     });
 
     fSortAscendingViewer.addSelectionChangedListener(new ISelectionChangedListener() {
+      @Override
       public void selectionChanged(SelectionChangedEvent event) {
         IStructuredSelection selection = (IStructuredSelection) event.getSelection();
         Order order = (Order) selection.getFirstElement();

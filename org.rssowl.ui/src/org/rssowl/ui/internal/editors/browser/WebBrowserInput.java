@@ -91,6 +91,7 @@ public class WebBrowserInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#exists()
    */
+  @Override
   public boolean exists() {
     return true;
   }
@@ -98,6 +99,7 @@ public class WebBrowserInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getImageDescriptor()
    */
+  @Override
   public ImageDescriptor getImageDescriptor() {
     return OwlUI.getImageDescriptor("icons/eview16/webbrowser.gif"); //$NON-NLS-1$
   }
@@ -105,6 +107,7 @@ public class WebBrowserInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getName()
    */
+  @Override
   public String getName() {
     return fUrl != null ? fUrl : Messages.WebBrowserInput_LOADING;
   }
@@ -112,6 +115,7 @@ public class WebBrowserInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getPersistable()
    */
+  @Override
   public IPersistableElement getPersistable() {
     IPreferenceScope preferences = Owl.getPreferenceService().getGlobalScope();
 
@@ -123,10 +127,12 @@ public class WebBrowserInput implements IEditorInput {
       return null;
 
     return new IPersistableElement() {
+      @Override
       public String getFactoryId() {
         return FACTORY_ID;
       }
 
+      @Override
       public void saveState(IMemento memento) {
         memento.putString(URL, fCurrentUrl != null ? fCurrentUrl : fUrl);
       }
@@ -136,6 +142,7 @@ public class WebBrowserInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getToolTipText()
    */
+  @Override
   public String getToolTipText() {
     return ""; //$NON-NLS-1$
   }
@@ -143,6 +150,7 @@ public class WebBrowserInput implements IEditorInput {
   /*
    * @see org.eclipse.core.runtime.IAdaptable#getAdapter(java.lang.Class)
    */
+  @Override
   @SuppressWarnings("unchecked")
   public Object getAdapter(Class adapter) {
     return Platform.getAdapterManager().getAdapter(this, adapter);

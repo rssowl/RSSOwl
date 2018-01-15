@@ -38,7 +38,6 @@ import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.core.runtime.SafeRunner;
 import org.eclipse.core.runtime.Status;
-import org.eclipse.core.runtime.jobs.Job;
 import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.jface.viewers.IStructuredSelection;
@@ -50,7 +49,6 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.commands.ICommandService;
-import org.eclipse.update.ui.UpdateJob;
 import org.rssowl.core.IApplicationService;
 import org.rssowl.core.Owl;
 import org.rssowl.core.connection.AuthenticationRequiredException;
@@ -102,7 +100,6 @@ import org.rssowl.core.util.TaskAdapter;
 import org.rssowl.core.util.Triple;
 import org.rssowl.core.util.URIUtils;
 import org.rssowl.ui.internal.OwlUI.Layout;
-import org.rssowl.ui.internal.actions.FindUpdatesAction;
 import org.rssowl.ui.internal.actions.OpenInBrowserAction;
 import org.rssowl.ui.internal.actions.SendLinkAction;
 import org.rssowl.ui.internal.dialogs.FatalOutOfMemoryErrorDialog;
@@ -284,7 +281,7 @@ public class Controller {
   private final AtomicLong fLastGoogleLoginCancel = new AtomicLong(0);
   private BookMarkAdapter fBookMarkListener;
   private LabelListener fLabelListener;
-  private ListenerList fBookMarkLoadListeners = new ListenerList();
+  private ListenerList<BookMarkLoadListener> fBookMarkLoadListeners = new ListenerList<>();
   private final int fConnectionTimeout;
   private List<ShareProvider> fShareProviders = new ArrayList<ShareProvider>();
   private Map<String, LinkTransformer> fLinkTransformers = new HashMap<String, LinkTransformer>();
@@ -331,15 +328,18 @@ public class Controller {
       fPriority = priority;
     }
 
+    @Override
     public IStatus run(IProgressMonitor monitor) {
       IStatus status = reload(fBookMark, fProperties, fShell, monitor);
       return status;
     }
 
+    @Override
     public String getName() {
       return fBookMark.getName();
     }
 
+    @Override
     public Priority getPriority() {
       return fPriority;
     }
@@ -426,6 +426,7 @@ public class Controller {
     /* Update Label conditions when Label name changes */
     fLabelListener = new LabelListener() {
 
+      @Override
       public void entitiesAdded(Set<LabelEvent> events) {
         if (fShuttingDown)
           return;
@@ -436,6 +437,7 @@ public class Controller {
           updateLabelCommands();
       }
 
+      @Override
       public void entitiesUpdated(Set<LabelEvent> events) {
         if (fShuttingDown)
           return;
@@ -455,6 +457,7 @@ public class Controller {
         }
       }
 
+      @Override
       public void entitiesDeleted(Set<LabelEvent> events) {
         if (fShuttingDown)
           return;
@@ -848,6 +851,7 @@ public class Controller {
         final IConditionalGet finalConditionalGet = conditionalGet;
         final boolean finalDeleteConditionalGet = deleteConditionalGet;
         fSaveFeedQueue.schedule(new TaskAdapter() {
+          @Override
           public IStatus run(IProgressMonitor otherMonitor) {
 
             /* Return on Cancelation or shutdown or deletion */
@@ -890,6 +894,7 @@ public class Controller {
         /* Resolve active Shell if necessary */
         if (shellAr[0] == null || shellAr[0].isDisposed()) {
           SafeRunner.run(new LoggingSafeRunnable() {
+            @Override
             public void run() throws Exception {
               shellAr[0] = OwlUI.getActiveShell();
             }
@@ -917,6 +922,7 @@ public class Controller {
           if (openLoginDialog) {
             try {
               JobRunner.runSyncedInUIThread(shellAr[0], new Runnable() {
+                @Override
                 public void run() {
 
                   /* Return on Cancelation or shutdown or deletion */
@@ -1168,6 +1174,7 @@ public class Controller {
     /* Create Relations and Import Default Feeds if required */
     if (!InternalOwl.TESTING) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
 
           /* First check wether this action is required */
@@ -1194,6 +1201,7 @@ public class Controller {
 
     /* Set hidden News from previous Session to deleted */
     SafeRunner.run(new LoggingSafeRunnable() {
+      @Override
       public void run() throws Exception {
         DynamicDAO.getDAO(INewsDAO.class).setState(EnumSet.of(INews.State.HIDDEN), INews.State.DELETED, false);
       }
@@ -1351,6 +1359,7 @@ public class Controller {
     transformers.addAll(fLinkTransformers.values());
 
     Collections.sort(transformers, new Comparator<LinkTransformer>() {
+      @Override
       public int compare(LinkTransformer lt1, LinkTransformer lt2) {
         return lt1.getName().compareTo(lt2.getName());
       }
@@ -1425,9 +1434,10 @@ public class Controller {
     /* Unregister Listeners */
     unregisterListeners();
 
+    //XXX FUNCTION_REDUCTION part of old updater
     /* Cancel any pending Update Jobs */
-    if (!Application.IS_ECLIPSE && !fDisableUpdate)
-      Job.getJobManager().cancel(UpdateJob.FAMILY);
+//    if (!Application.IS_ECLIPSE && !fDisableUpdate)
+//      Job.getJobManager().cancel(UpdateJob.FAMILY);
 
     /* Stop the Download Service */
     if (fDownloadService != null)
@@ -1497,8 +1507,10 @@ public class Controller {
 
     /* Backup Subscriptions as OPML if no error */
     JobRunner.runDelayedInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         SafeRunner.run(new LoggingSafeRunnable() {
+          @Override
           public void run() throws Exception {
             if (!fShuttingDown)
               backupSubscriptions();
@@ -1511,24 +1523,28 @@ public class Controller {
     if (fShowWelcome) {
       fShowWelcome = false; //Set to false to avoid another Wizard when opening new window
       JobRunner.runInUIThread(200, OwlUI.getActiveShell(), new Runnable() {
+        @Override
         public void run() {
           showWelcomeAndTutorial();
         }
       });
     }
 
+    //TODO FUNCTION_RDUCTION support auto updating at start again using new updater
+    //old updater
     /* Check for Updates if Set */
-    else if (!Application.IS_ECLIPSE && !fDisableUpdate) {
-      JobRunner.runInUIThread(5000, OwlUI.getActiveShell(), new Runnable() {
-        public void run() {
-          if (!fShuttingDown && Owl.getPreferenceService().getGlobalScope().getBoolean(DefaultPreferences.UPDATE_ON_STARTUP)) {
-            FindUpdatesAction action = new FindUpdatesAction(false);
-            action.init(OwlUI.getWindow());
-            action.run();
-          }
-        }
-      });
-    }
+//    else if (!Application.IS_ECLIPSE && !fDisableUpdate) {
+//      JobRunner.runInUIThread(5000, OwlUI.getActiveShell(), new Runnable() {
+//        @Override
+//        public void run() {
+//          if (!fShuttingDown && Owl.getPreferenceService().getGlobalScope().getBoolean(DefaultPreferences.UPDATE_ON_STARTUP)) {
+//            FindUpdatesAction action = new FindUpdatesAction(false);
+//            action.init(OwlUI.getWindow());
+//            action.run();
+//          }
+//        }
+//      });
+//    }
 
     /* Inform the User if the ApplicationServer is not running */
     ApplicationServer server = ApplicationServer.getDefault();
@@ -1540,6 +1556,7 @@ public class Controller {
 
     /* Update Saved Searches if not yet done (required if feeds view hidden on startup) */
     JobRunner.runInBackgroundThread(50, new Runnable() {
+      @Override
       public void run() {
         if (!fShuttingDown)
           fSavedSearchService.updateSavedSearches(false);
@@ -1834,7 +1851,7 @@ public class Controller {
     if (InternalOwl.TESTING)
       return;
 
-    ICommandService commandService = (ICommandService) PlatformUI.getWorkbench().getService(ICommandService.class);
+    ICommandService commandService = PlatformUI.getWorkbench().getService(ICommandService.class);
     if (commandService == null)
       return;
 
@@ -1850,7 +1867,7 @@ public class Controller {
     if (InternalOwl.TESTING)
       return;
 
-    ICommandService commandService = (ICommandService) PlatformUI.getWorkbench().getService(ICommandService.class);
+    ICommandService commandService = PlatformUI.getWorkbench().getService(ICommandService.class);
     if (commandService == null)
       return;
 
@@ -1873,7 +1890,7 @@ public class Controller {
     if (InternalOwl.TESTING)
       return;
 
-    ICommandService commandService = (ICommandService) PlatformUI.getWorkbench().getService(ICommandService.class);
+    ICommandService commandService = PlatformUI.getWorkbench().getService(ICommandService.class);
     if (commandService == null)
       return;
 
@@ -1919,6 +1936,7 @@ public class Controller {
     Object[] listeners = fBookMarkLoadListeners.getListeners();
     for (final Object listener : listeners) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           ((BookMarkLoadListener) listener).bookMarkAboutToLoad(bookmark);
         }
@@ -1930,6 +1948,7 @@ public class Controller {
     Object[] listeners = fBookMarkLoadListeners.getListeners();
     for (final Object listener : listeners) {
       SafeRunner.run(new LoggingSafeRunnable() {
+        @Override
         public void run() throws Exception {
           ((BookMarkLoadListener) listener).bookMarkDoneLoading(bookmark);
         }
@@ -1994,6 +2013,7 @@ public class Controller {
 
     /* Shutdown needs to run from UI Thread */
     JobRunner.runInUIThread(null, new Runnable() {
+      @Override
       public void run() {
         try {
 

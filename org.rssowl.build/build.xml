@@ -10,7 +10,7 @@
 	<property file="build_local.properties" />
 	<property name="eclipse.installation.dir" value="${eclipseDir}"/>
 	<import file="build-files/build_shared.xml"/>
-	
+		
 	<target name="-properties">		
 		
 		<!-- versioning -->
@@ -112,6 +112,16 @@
 	<target name="-build.internal">
 		<property name="buildResultsDirectory" value="${buildDirectory}/results" />
 		
+		<exec executable="cmd">
+		    <arg value="/c"/>
+		    <arg value="echo "/>
+		    <arg value="path: %path%"/>
+		  </exec>
+		<exec executable="java">
+		    <arg value="-version"/>
+		  </exec>
+		<echo>version.full=${version.full}</echo>
+
 		<java classname="org.eclipse.equinox.launcher.Main" fork="true" 
 			failonerror="true" errorproperty="build.stderr">
 			<arg value="-ws" />

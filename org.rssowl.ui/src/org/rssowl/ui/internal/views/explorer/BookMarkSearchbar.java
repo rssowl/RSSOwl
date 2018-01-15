@@ -289,6 +289,7 @@ class BookMarkSearchbar extends Composite {
       @Override
       public void focusGained(FocusEvent e) {
         JobRunner.runInUIThread(0, true, fFilterText, new Runnable() {
+          @Override
           public void run() {
             if (fInitialText.equals(fFilterText.getText().trim()))
               fFilterText.selectAll();
@@ -334,6 +335,7 @@ class BookMarkSearchbar extends Composite {
 
     /* Handle the CR Key Pressed */
     fFilterText.addTraverseListener(new TraverseListener() {
+      @Override
       public void keyTraversed(TraverseEvent e) {
         if (e.detail == SWT.TRAVERSE_RETURN) {
           e.doit = false;
@@ -359,6 +361,7 @@ class BookMarkSearchbar extends Composite {
 
     /* Update Filter on Modified Input */
     fFilterText.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         textChanged();
       }
@@ -401,6 +404,7 @@ class BookMarkSearchbar extends Composite {
 
           /* Refresh Tree */
           BusyIndicator.showWhile(getDisplay(), new Runnable() {
+            @Override
             public void run() {
               fViewer.refresh(false);
             }
@@ -467,6 +471,7 @@ class BookMarkSearchbar extends Composite {
 
     /* Cancel the Job once the Tree got disposed */
     fViewer.getControl().addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(org.eclipse.swt.events.DisposeEvent e) {
         fRefreshJob.cancel();
       };

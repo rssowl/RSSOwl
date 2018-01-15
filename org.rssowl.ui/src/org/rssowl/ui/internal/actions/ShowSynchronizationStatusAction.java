@@ -43,11 +43,13 @@ public class ShowSynchronizationStatusAction implements IWorkbenchWindowActionDe
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#dispose()
    */
+  @Override
   public void dispose() {}
 
   /*
    * @see org.eclipse.ui.IWorkbenchWindowActionDelegate#init(org.eclipse.ui.IWorkbenchWindow)
    */
+  @Override
   public void init(IWorkbenchWindow window) {
     fShellProvider = window;
   }
@@ -62,6 +64,7 @@ public class ShowSynchronizationStatusAction implements IWorkbenchWindowActionDe
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     SynchronizationStatusDialog dialog = new SynchronizationStatusDialog(fShellProvider.getShell(), Controller.getDefault().getSyncService().getStatus());
     dialog.open();
@@ -70,5 +73,6 @@ public class ShowSynchronizationStatusAction implements IWorkbenchWindowActionDe
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {}
 }

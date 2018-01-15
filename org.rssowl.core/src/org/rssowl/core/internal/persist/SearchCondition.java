@@ -124,6 +124,7 @@ public class SearchCondition extends AbstractEntity implements ISearchCondition 
   /*
    * @see org.rssowl.core.model.search.ISearchCondition#getField()
    */
+  @Override
   public synchronized ISearchField getField() {
     return fField;
   }
@@ -131,6 +132,7 @@ public class SearchCondition extends AbstractEntity implements ISearchCondition 
   /*
    * @see org.rssowl.core.model.search.ISearchCondition#getSpecifier()
    */
+  @Override
   public synchronized SearchSpecifier getSpecifier() {
     return fSpecifier;
   }
@@ -138,6 +140,7 @@ public class SearchCondition extends AbstractEntity implements ISearchCondition 
   /*
    * @see org.rssowl.core.model.search.ISearchCondition#getValue()
    */
+  @Override
   public synchronized Object getValue() {
     return fValue;
   }
@@ -145,6 +148,7 @@ public class SearchCondition extends AbstractEntity implements ISearchCondition 
   /*
    * @see org.rssowl.core.model.search.ISearchCondition#setField(org.rssowl.core.model.internal.search.SearchField)
    */
+  @Override
   public synchronized void setField(ISearchField field) {
     fField = field;
   }
@@ -152,6 +156,7 @@ public class SearchCondition extends AbstractEntity implements ISearchCondition 
   /*
    * @see org.rssowl.core.model.search.ISearchCondition#setSpecifier(org.rssowl.core.model.search.SearchSpecifier)
    */
+  @Override
   public synchronized void setSpecifier(SearchSpecifier specifier) {
     fSpecifier = specifier;
   }
@@ -159,6 +164,7 @@ public class SearchCondition extends AbstractEntity implements ISearchCondition 
   /*
    * @see org.rssowl.core.persist.ISearchCondition#setValue(java.lang.Object)
    */
+  @Override
   public synchronized void setValue(Object value) {
     fValue = value;
   }
@@ -197,6 +203,7 @@ public class SearchCondition extends AbstractEntity implements ISearchCondition 
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public SearchConditionReference toReference() {
     return new SearchConditionReference(getIdAsPrimitive());
   }

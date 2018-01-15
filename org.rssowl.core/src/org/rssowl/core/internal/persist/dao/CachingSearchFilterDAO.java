@@ -48,18 +48,22 @@ public class CachingSearchFilterDAO extends CachingDAO<SearchFilterDAOImpl, ISea
   @Override
   protected SearchFilterListener createEntityListener() {
     return new SearchFilterListener() {
+      @Override
       public void entitiesAdded(Set<SearchFilterEvent> events) {
         putAll(events);
       }
 
+      @Override
       public void entitiesDeleted(Set<SearchFilterEvent> events) {
         removeAll(events);
       }
 
+      @Override
       public void entitiesUpdated(Set<SearchFilterEvent> events) {
         putAll(events);
       }
 
+      @Override
       public void filterApplied(ISearchFilter filter, Collection<INews> news) {
         /* No action needed */
       }
@@ -71,6 +75,7 @@ public class CachingSearchFilterDAO extends CachingDAO<SearchFilterDAOImpl, ISea
    * org.rssowl.core.persist.dao.ISearchFilterDAO#fireFilterApplied(org.rssowl
    * .core.persist.ISearchFilter, java.util.Collection)
    */
+  @Override
   public void fireFilterApplied(ISearchFilter filter, Collection<INews> news) {
     getDAO().fireFilterApplied(filter, news);
   }

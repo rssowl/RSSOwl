@@ -90,6 +90,7 @@ public class SearchField implements ISearchField {
   /*
    * @see org.rssowl.core.model.search.ISearchField#getField()
    */
+  @Override
   public synchronized int getId() {
     return fField;
   }
@@ -97,6 +98,7 @@ public class SearchField implements ISearchField {
   /*
    * @see org.rssowl.core.model.search.ISearchField#getEntityName()
    */
+  @Override
   public synchronized String getEntityName() {
     return fEntityName;
   }
@@ -104,6 +106,7 @@ public class SearchField implements ISearchField {
   /*
    * @see org.rssowl.core.model.search.ISearchField#getName()
    */
+  @Override
   public synchronized String getName() {
 
     /* Field from the Type IAttachment */
@@ -309,6 +312,7 @@ public class SearchField implements ISearchField {
   /*
    * @see org.rssowl.core.model.search.ISearchField#getAllowedSearchTerm()
    */
+  @Override
   public synchronized ISearchValueType getSearchValueType() {
 
     /* Field from the Type IAttachment */
@@ -462,6 +466,7 @@ public class SearchField implements ISearchField {
    * @see IAdaptable#getAdapter(Class)
    * @see Platform#getAdapterManager()
    */
+  @Override
   @SuppressWarnings("unchecked")
   public Object getAdapter(Class adapter) {
     return Platform.getAdapterManager().getAdapter(this, adapter);

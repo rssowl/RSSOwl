@@ -63,6 +63,7 @@ public class Label extends AbstractEntity implements ILabel {
   /*
    * @see org.rssowl.core.model.types.impl.ILabel#getColor()
    */
+  @Override
   public synchronized String getColor() {
     return fColor;
   }
@@ -70,6 +71,7 @@ public class Label extends AbstractEntity implements ILabel {
   /*
    * @see org.rssowl.core.model.types.ILabel#setColor(java.lang.String)
    */
+  @Override
   public synchronized void setColor(String color) {
     Assert.isLegal(StringUtils.isValidRGB(color), "Color must be using the format \"R,G,B\", for example \"255,255,127\""); //$NON-NLS-1$
     fColor = color;
@@ -78,6 +80,7 @@ public class Label extends AbstractEntity implements ILabel {
   /*
    * @see org.rssowl.core.model.types.impl.ILabel#getName()
    */
+  @Override
   public synchronized String getName() {
     return fName;
   }
@@ -85,6 +88,7 @@ public class Label extends AbstractEntity implements ILabel {
   /*
    * @see org.rssowl.core.model.types.ILabel#setName(java.lang.String)
    */
+  @Override
   public synchronized void setName(String name) {
     Assert.isNotNull(name, "The type Label requires a Name that is not NULL"); //$NON-NLS-1$
     fName = name;
@@ -93,6 +97,7 @@ public class Label extends AbstractEntity implements ILabel {
   /*
    * @see org.rssowl.core.persist.ILabel#getOrder()
    */
+  @Override
   public synchronized int getOrder() {
     return fOrder;
   }
@@ -100,6 +105,7 @@ public class Label extends AbstractEntity implements ILabel {
   /*
    * @see org.rssowl.core.persist.ILabel#setOrder(int)
    */
+  @Override
   public synchronized void setOrder(int order) {
     fOrder = order;
   }
@@ -140,6 +146,7 @@ public class Label extends AbstractEntity implements ILabel {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public LabelReference toReference() {
     return new LabelReference(getIdAsPrimitive());
   }

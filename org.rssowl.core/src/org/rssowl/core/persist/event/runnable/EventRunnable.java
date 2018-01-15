@@ -87,6 +87,7 @@ public abstract class EventRunnable<T extends ModelEvent> implements Runnable {
   /**
    * Fires the event type defined by the eventType property appropriate to T.
    */
+  @Override
   public final void run() {
     if (shouldFirePersistEvents())
       fireEvents(fPersistEvents, EventType.PERSIST);

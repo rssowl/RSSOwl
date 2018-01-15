@@ -120,5 +120,6 @@ public interface IAttachment extends IEntity, MergeCapable<IAttachment>, Reparen
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   AttachmentReference toReference();
 }

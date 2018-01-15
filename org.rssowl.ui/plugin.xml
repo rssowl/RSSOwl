@@ -237,7 +237,7 @@
             </separator>
          </menu>
       </actionSet>
-      <actionSet
+      <!--<actionSet
             id="org.rssowl.ui.ManageExtensions"
             label="%actionSet.label.2"
             visible="true">
@@ -286,7 +286,7 @@
             <separator name="extensionsEnd"/>
             <groupMarker name="manageConfiguration"/>
          </menu>
-      </actionSet>
+      </actionSet>-->
       <actionSet
             id="org.rssowl.ui.NewsSet"
             label="%actionSet.label.3"
@@ -414,7 +414,7 @@
                style="push">
          </action>
       </actionSet>
-      <actionSet
+      <!--<actionSet
             id="org.rssowl.ui.LanguageActionSet"
             label="%actionSet.label.8"
             visible="true">
@@ -450,7 +450,7 @@
                   name="languagesEnd">
             </groupMarker>
          </menu>
-      </actionSet>
+      </actionSet>-->
    </extension>
    <extension
          point="org.eclipse.ui.views">
@@ -959,7 +959,7 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.rssowl.ui.rssowl"
-            name="%product.name">
+            name="RSSOwl">
          <property
                name="aboutImage"
                value="icons/product/about.gif"/>
@@ -968,10 +968,7 @@
                value="icons/product/16x16.png,icons/product/32x32.png,icons/product/48x48.png,icons/product/64x64.png,icons/product/128x128.png"/>
          <property
                name="aboutText"
-               value="RSSOwl&#x0D;&#x0A;&#x0D;&#x0A;Version: 2.2.1&#x0D;&#x0A;Build Id: 2013-12-30&#x0D;&#x0A;&#x0D;&#x0A;RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.&#x0D;&#x0A;http://www.rssowl.org/legal/epl-v10.html&#x0D;&#x0A;&#x0D;&#x0A;(c) Copyright RSSOwl contributors and others 2005, 2011.  All rights reserved."/>
-         <property
-               name="preferenceCustomization"
-               value="preferences.ini"/>
+               value="RSSOwl&#x0A;&#x0A;RSSOwl is licensed under the terms of the Eclipse Public License version 1.0.&#x0A;http://www.rssowl.org/legal/epl-v10.html&#x0A;&#x0A;(c) Copyright RSSOwl contributors and others 2005, 2011.  All rights reserved."/>
          <property
                name="appName"
                value="RSSOwl">

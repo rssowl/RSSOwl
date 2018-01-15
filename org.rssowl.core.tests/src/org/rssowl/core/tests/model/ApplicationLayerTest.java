@@ -698,14 +698,17 @@ public class ApplicationLayerTest extends LargeBlockSizeTest {
 
       final boolean[] folderUpdateEventOccurred = new boolean[1];
       folderListener = new FolderListener() {
+        @Override
         public void entitiesAdded(Set<FolderEvent> events) {
           fail("Unexpected event");
         }
 
+        @Override
         public void entitiesDeleted(Set<FolderEvent> events) {
           fail("Unexpected event");
         }
 
+        @Override
         public void entitiesUpdated(Set<FolderEvent> events) {
           folderUpdateEventOccurred[0] = true;
           assertEquals(7, events.size());
@@ -724,14 +727,17 @@ public class ApplicationLayerTest extends LargeBlockSizeTest {
       };
       final boolean[] bookMarkUpdateEventOccurred = new boolean[1];
       bookMarkListener = new BookMarkListener() {
+        @Override
         public void entitiesAdded(Set<BookMarkEvent> events) {
           fail("Unexpected event");
         }
 
+        @Override
         public void entitiesDeleted(Set<BookMarkEvent> events) {
           fail("Unexpected event");
         }
 
+        @Override
         public void entitiesUpdated(Set<BookMarkEvent> events) {
           bookMarkUpdateEventOccurred[0] = true;
           assertEquals(1, events.size());
@@ -745,14 +751,17 @@ public class ApplicationLayerTest extends LargeBlockSizeTest {
 
       final boolean[] searchMarkUpdateEventOccurred = new boolean[1];
       searchMarkListener = new SearchMarkListener() {
+        @Override
         public void entitiesAdded(Set<SearchMarkEvent> events) {
           fail("Unexpected event");
         }
 
+        @Override
         public void entitiesDeleted(Set<SearchMarkEvent> events) {
           fail("Unexpected event");
         }
 
+        @Override
         public void entitiesUpdated(Set<SearchMarkEvent> events) {
           searchMarkUpdateEventOccurred[0] = true;
           assertEquals(1, events.size());
@@ -763,6 +772,7 @@ public class ApplicationLayerTest extends LargeBlockSizeTest {
           assertEquals(newMarkParent, event.getEntity().getParent());
         }
 
+        @Override
         public void newsChanged(Set<SearchMarkEvent> events) {
           fail("Unexpected event");
         }
@@ -1088,14 +1098,17 @@ public class ApplicationLayerTest extends LargeBlockSizeTest {
       assertEquals(news3.getState(), INews.State.NEW);
 
       newsListener = new NewsListener() {
+        @Override
         public void entitiesAdded(Set<NewsEvent> events) {
           fail("Unexpected Event");
         }
 
+        @Override
         public void entitiesDeleted(Set<NewsEvent> events) {
           fail("Unexpected Event");
         }
 
+        @Override
         public void entitiesUpdated(Set<NewsEvent> events) {
           assertEquals(2, events.size());
           for (NewsEvent event : events)
@@ -1293,14 +1306,17 @@ public class ApplicationLayerTest extends LargeBlockSizeTest {
       final long news2ID = feed2.getNews().get(0).getId();
 
       newsListener = new NewsListener() {
+        @Override
         public void entitiesAdded(Set<NewsEvent> events) {
           fail("Unexpected Event!");
         }
 
+        @Override
         public void entitiesDeleted(Set<NewsEvent> events) {
           fail("Unexpected Event!");
         }
 
+        @Override
         public void entitiesUpdated(Set<NewsEvent> events) {
           assertEquals(2, events.size());
           for (NewsEvent event : events) {

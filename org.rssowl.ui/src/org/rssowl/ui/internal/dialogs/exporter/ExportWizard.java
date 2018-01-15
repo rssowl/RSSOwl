@@ -33,8 +33,8 @@ import org.eclipse.ui.IWorkbench;
 import org.rssowl.core.Owl;
 import org.rssowl.core.internal.newsaction.CopyNewsAction;
 import org.rssowl.core.internal.newsaction.MoveNewsAction;
-import org.rssowl.core.interpreter.InterpreterException;
 import org.rssowl.core.interpreter.ITypeExporter.Options;
+import org.rssowl.core.interpreter.InterpreterException;
 import org.rssowl.core.persist.IFilterAction;
 import org.rssowl.core.persist.IFolder;
 import org.rssowl.core.persist.IFolderChild;
@@ -96,6 +96,7 @@ public class ExportWizard extends Wizard implements IExportWizard {
   /*
    * @see org.eclipse.ui.IWorkbenchWizard#init(org.eclipse.ui.IWorkbench, org.eclipse.jface.viewers.IStructuredSelection)
    */
+  @Override
   public void init(IWorkbench workbench, IStructuredSelection selection) {}
 
   /*

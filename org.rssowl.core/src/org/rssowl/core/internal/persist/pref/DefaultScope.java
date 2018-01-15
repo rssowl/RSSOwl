@@ -48,6 +48,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesScope#getParent()
    */
+  @Override
   public IPreferenceScope getParent() {
     throw new RuntimeException("There can be no parent of the DefaultScope"); //$NON-NLS-1$
   }
@@ -55,6 +56,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesScope#flush()
    */
+  @Override
   public void flush() {
   /* Nothing to do here (DefaultScope only kept in Memory) */
   }
@@ -62,6 +64,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#delete(java.lang.String)
    */
+  @Override
   public void delete(String key) {
     fDefaults.remove(key);
   }
@@ -69,6 +72,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.persist.pref.IPreferenceScope#hasKey(java.lang.String)
    */
+  @Override
   public boolean hasKey(String key) {
     return fDefaults.containsKey(key);
   }
@@ -76,6 +80,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getBoolean(java.lang.String)
    */
+  @Override
   public boolean getBoolean(String key) {
     Object res = fDefaults.get(key);
     if (res != null)
@@ -87,6 +92,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getInteger(java.lang.String)
    */
+  @Override
   public int getInteger(String key) {
     Object res = fDefaults.get(key);
     if (res != null)
@@ -98,6 +104,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getIntegers(java.lang.String)
    */
+  @Override
   public int[] getIntegers(String key) {
     Object res = fDefaults.get(key);
     if (res != null)
@@ -109,6 +116,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getLong(java.lang.String)
    */
+  @Override
   public long getLong(String key) {
     Object res = fDefaults.get(key);
     if (res != null)
@@ -120,6 +128,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getLongs(java.lang.String)
    */
+  @Override
   public long[] getLongs(String key) {
     Object res = fDefaults.get(key);
     if (res != null)
@@ -131,6 +140,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getString(java.lang.String)
    */
+  @Override
   public String getString(String key) {
     Object res = fDefaults.get(key);
     if (res != null)
@@ -142,6 +152,7 @@ public class DefaultScope implements IPreferenceScope {
   /*
    * @see org.rssowl.core.model.preferences.IPreferencesNode#getStrings(java.lang.String)
    */
+  @Override
   public String[] getStrings(String key) {
     Object res = fDefaults.get(key);
     if (res != null)
@@ -154,6 +165,7 @@ public class DefaultScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putBoolean(java.lang.String,
    * boolean)
    */
+  @Override
   public void putBoolean(String key, boolean value) {
     if (value == BOOLEAN_DEFAULT)
       delete(key);
@@ -165,6 +177,7 @@ public class DefaultScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putInteger(java.lang.String,
    * int)
    */
+  @Override
   public void putInteger(String key, int value) {
     if (value == INT_DEFAULT)
       delete(key);
@@ -176,6 +189,7 @@ public class DefaultScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putIntegers(java.lang.String,
    * int[])
    */
+  @Override
   public void putIntegers(String key, int[] values) {
     if (values == null)
       delete(key);
@@ -187,6 +201,7 @@ public class DefaultScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putLong(java.lang.String,
    * long)
    */
+  @Override
   public void putLong(String key, long value) {
     if (value == LONG_DEFAULT)
       delete(key);
@@ -198,6 +213,7 @@ public class DefaultScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putLongs(java.lang.String,
    * long[])
    */
+  @Override
   public void putLongs(String key, long[] values) {
     if (values == null)
       delete(key);
@@ -209,6 +225,7 @@ public class DefaultScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putString(java.lang.String,
    * java.lang.String)
    */
+  @Override
   public void putString(String key, String value) {
     if (value == null)
       delete(key);
@@ -220,6 +237,7 @@ public class DefaultScope implements IPreferenceScope {
    * @see org.rssowl.ui.internal.preferences.IPreferencesNode#putStrings(java.lang.String,
    * java.lang.String[])
    */
+  @Override
   public void putStrings(String key, String[] values) {
     if (values == null)
       delete(key);

@@ -92,6 +92,7 @@ public class ImportWizard extends Wizard implements IImportWizard {
   /*
    * @see org.eclipse.ui.IWorkbenchWizard#init(org.eclipse.ui.IWorkbench, org.eclipse.jface.viewers.IStructuredSelection)
    */
+  @Override
   public void init(IWorkbench workbench, IStructuredSelection selection) {}
 
   /**
@@ -271,6 +272,7 @@ public class ImportWizard extends Wizard implements IImportWizard {
 
     /* Force to rerun saved searches */
     JobRunner.runDelayedInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         Controller.getDefault().getSavedSearchService().updateSavedSearches(true);
       }

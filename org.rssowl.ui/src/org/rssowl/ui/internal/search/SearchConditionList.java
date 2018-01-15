@@ -348,6 +348,7 @@ public class SearchConditionList extends ScrolledComposite {
     final Menu conditionMenu = new Menu(buttonBar);
     createConditionMenu(conditionMenu, item);
     addButton.addListener(SWT.Selection, new Listener() {
+      @Override
       public void handleEvent(Event event) {
         if (event.detail == SWT.ARROW) {
           Rectangle rect = item.getBounds();
@@ -361,6 +362,7 @@ public class SearchConditionList extends ScrolledComposite {
     });
 
     buttonBar.addDisposeListener(new DisposeListener() {
+      @Override
       public void widgetDisposed(DisposeEvent e) {
         OwlUI.safeDispose(conditionMenu);
       }
@@ -375,6 +377,7 @@ public class SearchConditionList extends ScrolledComposite {
       @Override
       public void widgetSelected(SelectionEvent e) {
         JobRunner.runInUIThread(0, true, buttonBar, new Runnable() {
+          @Override
           public void run() {
             onDelete(item, itemContainer);
           }

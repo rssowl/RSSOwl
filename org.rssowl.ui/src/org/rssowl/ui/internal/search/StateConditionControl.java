@@ -260,6 +260,7 @@ public class StateConditionControl extends Composite {
       });
 
       addDisposeListener(new DisposeListener() {
+        @Override
         public void widgetDisposed(DisposeEvent e) {
           unreadStateToolTip.dispose();
           newStateToolTip.dispose();

@@ -119,6 +119,7 @@ public class BookMarkViewer extends TreeViewer {
   @Override
   public void remove(final Object[] elements) {
     updateSelectionAfterDelete(new Runnable() {
+      @Override
       public void run() {
         internalRemove(elements);
       }
@@ -188,6 +189,7 @@ public class BookMarkViewer extends TreeViewer {
     /* Add a ViewerOpenStrategy */
     fViewerOpenStrategy = new ViewerOpenStrategy(control);
     fViewerOpenStrategy.addOpenListener(new IOpenEventListener() {
+      @Override
       public void handleOpen(SelectionEvent e) {
         internalHandleOpen();
       }
@@ -217,6 +219,7 @@ public class BookMarkViewer extends TreeViewer {
     for (int i = 0; i < listeners.length; ++i) {
       final IOpenListener listener = (IOpenListener) listeners[i];
       SafeRunnable.run(new SafeRunnable() {
+        @Override
         public void run() {
           listener.open(event);
         }

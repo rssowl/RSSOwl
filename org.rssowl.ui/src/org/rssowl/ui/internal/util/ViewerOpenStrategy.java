@@ -48,7 +48,7 @@ import org.eclipse.swt.widgets.Widget;
  * TODO Remove me once Bug "[OpenModes] OpenStrategy not working properly for
  * the Expand-Event" is fixed (164372).
  * </p>
- * 
+ *
  * @author bpasero
  */
 public class ViewerOpenStrategy implements Listener {
@@ -95,7 +95,7 @@ public class ViewerOpenStrategy implements Listener {
 
   /**
    * Adds an IOpenEventListener to the collection of openEventListeners
-   * 
+   *
    * @param listener the listener to add
    */
   public void addOpenListener(IOpenEventListener listener) {
@@ -104,7 +104,7 @@ public class ViewerOpenStrategy implements Listener {
 
   /**
    * Removes an IOpenEventListener to the collection of openEventListeners
-   * 
+   *
    * @param listener the listener to remove
    */
   public void removeOpenListener(IOpenEventListener listener) {
@@ -150,6 +150,7 @@ public class ViewerOpenStrategy implements Listener {
   /*
    * @see org.eclipse.swt.widgets.Listener#handleEvent(org.eclipse.swt.widgets.Event)
    */
+  @Override
   public void handleEvent(final Event e) {
 
     /* Default Selection */
@@ -193,6 +194,7 @@ public class ViewerOpenStrategy implements Listener {
         fMouseMoveEvent = e;
         final Runnable runnable[] = new Runnable[1];
         runnable[0] = new Runnable() {
+          @Override
           public void run() {
             long time = System.currentTimeMillis();
             int diff = (int) (time - fStartTime);

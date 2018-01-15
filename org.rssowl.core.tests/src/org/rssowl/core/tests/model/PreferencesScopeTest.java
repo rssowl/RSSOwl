@@ -364,6 +364,7 @@ public class PreferencesScopeTest extends LargeBlockSizeTest implements IPrefere
    * org.rssowl.core.model.preferences.IPreferencesInitializer#initialize(org
    * .rssowl.core.model.preferences.IPreferencesScope)
    */
+  @Override
   public void initialize(IPreferenceScope defaultScope) {
     doInitialize(defaultScope);
   }

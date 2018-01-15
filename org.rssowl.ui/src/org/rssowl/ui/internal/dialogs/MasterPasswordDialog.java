@@ -164,6 +164,7 @@ public class MasterPasswordDialog extends TitleAreaDialog {
 
     if ((fStyle & PasswordProvider.CREATE_NEW_PASSWORD) != 0) {
       fPassword.addModifyListener(new ModifyListener() {
+        @Override
         public void modifyText(ModifyEvent e) {
           boolean enabled = fPassword.getText().equals(fPasswordConfirmed.getText()) && fPassword.getText().length() > 0;
           getButton(IDialogConstants.OK_ID).setEnabled(enabled);
@@ -182,6 +183,7 @@ public class MasterPasswordDialog extends TitleAreaDialog {
       fPasswordConfirmed = new Text(composite, SWT.SINGLE | SWT.BORDER | SWT.PASSWORD);
       fPasswordConfirmed.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, true));
       fPasswordConfirmed.addModifyListener(new ModifyListener() {
+        @Override
         public void modifyText(ModifyEvent e) {
           boolean enabled = fPassword.getText().equals(fPasswordConfirmed.getText()) && fPassword.getText().length() > 0;
           getButton(IDialogConstants.OK_ID).setEnabled(enabled);

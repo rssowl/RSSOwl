@@ -113,6 +113,7 @@ public class NotificationService {
 
     /* Process Events batched */
     BatchedBuffer.Receiver<NotificationItem> receiver = new BatchedBuffer.Receiver<NotificationItem>() {
+      @Override
       public IStatus receive(Collection<NotificationItem> items, Job job, IProgressMonitor monitor) {
         if (!monitor.isCanceled())
           showItems(items, Mode.INCOMING_AUTOMATIC, monitor);
@@ -335,6 +336,7 @@ public class NotificationService {
 
     /* Use a runnable for this piece of code as it might be executed from an async call or not */
     final Runnable runnable = new Runnable() {
+      @Override
       public void run() {
         Set<NewsEvent> eventsToShow = events;
 
@@ -377,6 +379,7 @@ public class NotificationService {
       Shell primaryShell = OwlUI.getPrimaryShell();
       if (primaryShell != null) {
         JobRunner.runInUIThread(primaryShell, new Runnable() { //MUST NOT RUN SYNCED IN UI THREAD FROM EVENT - DEADLOCK ALERT !!!
+          @Override
           public void run() {
             if (Controller.getDefault().isShuttingDown())
               return;
@@ -454,6 +457,7 @@ public class NotificationService {
 
     /* Make sure to run in UI Thread */
     JobRunner.runInUIThread(OwlUI.getPrimaryShell(), new Runnable() {
+      @Override
       public void run() {
 
         /* Return early if shutting down */

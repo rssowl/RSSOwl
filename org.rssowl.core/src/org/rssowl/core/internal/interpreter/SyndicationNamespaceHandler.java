@@ -46,6 +46,7 @@ public class SyndicationNamespaceHandler implements INamespaceHandler {
    * @see org.rssowl.core.interpreter.INamespaceHandler#processElement(org.jdom.Element,
    * org.rssowl.core.interpreter.types.IExtendableType)
    */
+  @Override
   public void processElement(Element element, IPersistable type) {
     String name = element.getName().toLowerCase();
 
@@ -76,5 +77,6 @@ public class SyndicationNamespaceHandler implements INamespaceHandler {
    * @see org.rssowl.core.interpreter.INamespaceHandler#processAttribute(org.jdom.Attribute,
    * org.rssowl.core.interpreter.types.IExtendableType)
    */
+  @Override
   public void processAttribute(Attribute attribute, IPersistable type) {}
 }

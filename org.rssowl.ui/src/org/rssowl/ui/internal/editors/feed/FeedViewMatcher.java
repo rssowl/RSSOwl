@@ -33,7 +33,7 @@ import org.rssowl.ui.internal.Activator;
 /**
  * An instance of <code>IEditorMatchingStrategy</code> that checks wether a
  * given Editor-Input is already showing in the Editor.
- * 
+ *
  * @author bpasero
  */
 public class FeedViewMatcher implements IEditorMatchingStrategy {
@@ -42,6 +42,7 @@ public class FeedViewMatcher implements IEditorMatchingStrategy {
    * @see org.eclipse.ui.IEditorMatchingStrategy#matches(org.eclipse.ui.IEditorReference,
    * org.eclipse.ui.IEditorInput)
    */
+  @Override
   public boolean matches(IEditorReference editorRef, IEditorInput input) {
 
     /* Require FeedViewInput */

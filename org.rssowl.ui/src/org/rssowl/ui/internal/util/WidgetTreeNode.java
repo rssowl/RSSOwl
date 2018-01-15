@@ -34,7 +34,7 @@ import org.rssowl.ui.internal.views.explorer.BookMarkViewer;
 /**
  * A concrete implementation of <code>ITreeNode</code> working on SWT-Tree and
  * TreeItem.
- * 
+ *
  * @author bpasero
  */
 public class WidgetTreeNode implements ITreeNode {
@@ -44,7 +44,7 @@ public class WidgetTreeNode implements ITreeNode {
 
   /**
    * Create a new ITreeNode wrapping a Tree.
-   * 
+   *
    * @param tree The Tree to wrap inside this helper.
    * @param viewer The Viewer that manages the given Tree.
    */
@@ -55,7 +55,7 @@ public class WidgetTreeNode implements ITreeNode {
 
   /**
    * Create a new ITreeNode wrapping a TreeItem.
-   * 
+   *
    * @param item The Item to wrap inside this helper.
    * @param viewer The Viewer that manages the given TreeItem.
    */
@@ -67,6 +67,7 @@ public class WidgetTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getFirstChild()
    */
+  @Override
   public ITreeNode getFirstChild() {
 
     /* Retrieve from Tree */
@@ -83,6 +84,7 @@ public class WidgetTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getLastChild()
    */
+  @Override
   public ITreeNode getLastChild() {
 
     /* Retrieve from Tree */
@@ -105,6 +107,7 @@ public class WidgetTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getNextSibling()
    */
+  @Override
   public ITreeNode getNextSibling() {
 
     /* Require a Tree-Item here */
@@ -136,6 +139,7 @@ public class WidgetTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getParent()
    */
+  @Override
   public ITreeNode getParent() {
     if (isSet(fTree) || !isSet(fItem))
       return null;
@@ -146,6 +150,7 @@ public class WidgetTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getPreviousSibling()
    */
+  @Override
   public ITreeNode getPreviousSibling() {
 
     /* Require a Tree-Item here */
@@ -177,6 +182,7 @@ public class WidgetTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#hasChildren()
    */
+  @Override
   public boolean hasChildren() {
 
     /* Ask Tree */
@@ -199,6 +205,7 @@ public class WidgetTreeNode implements ITreeNode {
   /*
    * @see org.rssowl.ui.internal.util.ITreeNode#getData()
    */
+  @Override
   public Object getData() {
 
     /* Ask Tree */

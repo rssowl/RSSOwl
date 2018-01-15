@@ -41,6 +41,7 @@ public class ZoomResetHandler extends AbstractHandler {
   /*
    * @see org.eclipse.core.commands.AbstractHandler#execute(org.eclipse.core.commands.ExecutionEvent)
    */
+  @Override
   public Object execute(ExecutionEvent event) {
     FeedView activeFeedView = OwlUI.getActiveFeedView();
     if (activeFeedView != null && activeFeedView.isBrowserShowingNews())

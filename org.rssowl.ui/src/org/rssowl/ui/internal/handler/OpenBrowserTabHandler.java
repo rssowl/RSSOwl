@@ -45,6 +45,7 @@ public class OpenBrowserTabHandler extends AbstractHandler implements IHandler {
   /*
    * @see org.eclipse.core.commands.AbstractHandler#execute(org.eclipse.core.commands.ExecutionEvent)
    */
+  @Override
   public Object execute(ExecutionEvent event) {
     if (!OwlUI.useExternalBrowser())
       BrowserUtils.openLinkInternal(URIUtils.ABOUT_BLANK, null);

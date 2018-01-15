@@ -103,6 +103,7 @@ public class ModelSearchImpl implements IModelSearch {
   /*
    * @see org.rssowl.core.model.search.IModelSearch#startup()
    */
+  @Override
   public void startup() throws PersistenceException {
     startup(false);
   }
@@ -154,6 +155,7 @@ public class ModelSearchImpl implements IModelSearch {
   /*
    * @see org.rssowl.core.model.search.IModelSearch#shutdown()
    */
+  @Override
   public void shutdown(boolean emergency) throws PersistenceException {
     try {
 
@@ -388,6 +390,7 @@ public class ModelSearchImpl implements IModelSearch {
    * org.rssowl.core.persist.service.IModelSearch#searchNews(org.rssowl.core
    * .persist.ISearch)
    */
+  @Override
   public List<SearchHit<NewsReference>> searchNews(ISearch search) throws PersistenceException {
     return searchNews(search.getSearchConditions(), search.matchAllConditions());
   }
@@ -396,6 +399,7 @@ public class ModelSearchImpl implements IModelSearch {
    * @see org.rssowl.core.model.search.IModelSearch#searchNews(java.util.List,
    * boolean)
    */
+  @Override
   public List<SearchHit<NewsReference>> searchNews(Collection<ISearchCondition> conditions, boolean matchAllConditions) throws PersistenceException {
     return searchNews(conditions, null, matchAllConditions);
   }
@@ -405,6 +409,7 @@ public class ModelSearchImpl implements IModelSearch {
    * org.rssowl.core.persist.service.IModelSearch#searchNews(java.util.Collection
    * , org.rssowl.core.persist.ISearchCondition, boolean)
    */
+  @Override
   public List<SearchHit<NewsReference>> searchNews(Collection<ISearchCondition> conditions, ISearchCondition scope, boolean matchAllConditions) throws PersistenceException {
     try {
       return doSearchNews(conditions, scope, matchAllConditions);
@@ -553,6 +558,7 @@ public class ModelSearchImpl implements IModelSearch {
   /*
    * @see org.rssowl.core.model.search.IModelSearch#clearIndex()
    */
+  @Override
   public void clearIndex() throws PersistenceException {
     try {
       synchronized (this) {
@@ -600,6 +606,7 @@ public class ModelSearchImpl implements IModelSearch {
    * org.rssowl.core.persist.service.IModelSearch#addIndexListener(org.rssowl
    * .core.persist.service.IndexListener)
    */
+  @Override
   public void addIndexListener(IndexListener listener) {
     fIndexListeners.add(listener);
   }
@@ -609,6 +616,7 @@ public class ModelSearchImpl implements IModelSearch {
    * org.rssowl.core.persist.service.IModelSearch#removeIndexListener(org.rssowl
    * .core.persist.service.IndexListener)
    */
+  @Override
   public void removeIndexListener(IndexListener listener) {
     fIndexListeners.remove(listener);
   }
@@ -616,6 +624,7 @@ public class ModelSearchImpl implements IModelSearch {
   /*
    * @see org.rssowl.core.persist.service.IModelSearch#optimize()
    */
+  @Override
   public void optimize() {
     try {
       fIndexer.optimize();
@@ -633,6 +642,7 @@ public class ModelSearchImpl implements IModelSearch {
   /*
    * @see org.rssowl.core.persist.service.IModelSearch#reIndexOnNextStartup()
    */
+  @Override
   public void reIndexOnNextStartup() throws PersistenceException {
     try {
       DBManager.getDefault().getReIndexFile().createNewFile();
@@ -646,6 +656,7 @@ public class ModelSearchImpl implements IModelSearch {
    * org.rssowl.core.persist.service.IModelSearch#reindexAll(org.eclipse.core
    * .runtime.IProgressMonitor)
    */
+  @Override
   public void reindexAll(IProgressMonitor monitor) throws PersistenceException {
 
     /* May be used before Owl is completely set-up */
@@ -734,6 +745,7 @@ public class ModelSearchImpl implements IModelSearch {
    * org.rssowl.core.persist.service.IModelSearch#cleanUp(org.eclipse.core.runtime
    * .IProgressMonitor)
    */
+  @Override
   public void cleanUp(IProgressMonitor monitor) throws PersistenceException {
 
     /* Retrieve all News from the Index */
@@ -787,6 +799,7 @@ public class ModelSearchImpl implements IModelSearch {
   /*
    * @see org.rssowl.core.persist.service.IModelSearch#cleanUpOnNextStartup()
    */
+  @Override
   public void cleanUpOnNextStartup() throws PersistenceException {
     try {
       DBManager.getDefault().getCleanUpIndexFile().createNewFile();

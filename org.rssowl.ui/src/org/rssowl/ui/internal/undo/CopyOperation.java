@@ -36,8 +36,8 @@ import org.rssowl.ui.internal.Controller;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
+import java.util.Set;
 
 /**
  * An instance of {@link IUndoOperation} allowing to undo/redo copying of News
@@ -65,6 +65,7 @@ public class CopyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#getName()
    */
+  @Override
   public String getName() {
     return NLS.bind(Messages.CopyOperation_COPY_N, fNewsCount);
   }
@@ -72,6 +73,7 @@ public class CopyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#undo()
    */
+  @Override
   public void undo() {
 
     /* Force quick update of saved searches */
@@ -84,6 +86,7 @@ public class CopyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#redo()
    */
+  @Override
   public void redo() {
     Set<Entry<State, List<NewsReference>>> entries = fCopiedNews.entrySet();
     for (Entry<State, List<NewsReference>> entry : entries) {
@@ -109,6 +112,7 @@ public class CopyOperation implements IUndoOperation {
   /*
    * @see org.rssowl.ui.internal.undo.IUndoOperation#isLongRunning()
    */
+  @Override
   public boolean isLongRunning() {
     return fNewsCount > LONG_RUNNING_LIMIT;
   }

@@ -159,6 +159,7 @@ public class NewsContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.IStructuredContentProvider#getElements(java.lang.Object)
    */
+  @Override
   public Object[] getElements(Object inputElement) {
     List<Object> elements = new ArrayList<Object>();
 
@@ -230,6 +231,7 @@ public class NewsContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.ITreeContentProvider#getChildren(java.lang.Object)
    */
+  @Override
   public Object[] getChildren(Object parentElement) {
     List<Object> children = new ArrayList<Object>();
 
@@ -246,6 +248,7 @@ public class NewsContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.ITreeContentProvider#getParent(java.lang.Object)
    */
+  @Override
   public Object getParent(Object element) {
 
     /* Handle Grouping specially */
@@ -261,6 +264,7 @@ public class NewsContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.ITreeContentProvider#hasChildren(java.lang.Object)
    */
+  @Override
   public boolean hasChildren(Object element) {
     return element instanceof EntityGroup;
   }
@@ -268,6 +272,7 @@ public class NewsContentProvider implements ITreeContentProvider {
   /*
    * @see org.eclipse.jface.viewers.IContentProvider#dispose()
    */
+  @Override
   public synchronized void dispose() {
     fDisposed.set(true);
     unregisterListeners();
@@ -278,6 +283,7 @@ public class NewsContentProvider implements ITreeContentProvider {
    * @see org.eclipse.jface.viewers.IContentProvider#inputChanged(org.eclipse.jface.viewers.Viewer,
    * java.lang.Object, java.lang.Object)
    */
+  @Override
   public void inputChanged(Viewer viewer, Object oldInput, Object newInput) {
     /* Ignore - Input changes are handled via refreshCache(Object input) */
   }
@@ -556,6 +562,7 @@ public class NewsContentProvider implements ITreeContentProvider {
 
   private void sortDescendingById(List<NewsReference> references) {
     Collections.sort(references, new Comparator<NewsReference>() {
+      @Override
       public int compare(NewsReference o1, NewsReference o2) {
         return o1.getId() > o2.getId() ? -1 : 1;
       }
@@ -876,6 +883,7 @@ public class NewsContentProvider implements ITreeContentProvider {
         /* Properly update given searches are related to input */
         if (!eventsRelatedToInput.isEmpty()) {
           JobRunner.runInUIThread(fFeedView.getEditorControl(), new Runnable() {
+            @Override
             public void run() {
               final boolean onlyHandleAddedNews = fFeedView.isVisible();
 
@@ -933,6 +941,7 @@ public class NewsContentProvider implements ITreeContentProvider {
       @Override
       public void entitiesAdded(final Set<NewsEvent> events) {
         JobRunner.runInUIThread(fFeedView.getEditorControl(), new Runnable() {
+          @Override
           public void run() {
             Set<NewsEvent> addedNews = null;
 
@@ -974,6 +983,7 @@ public class NewsContentProvider implements ITreeContentProvider {
       @Override
       public void entitiesUpdated(final Set<NewsEvent> events) {
         JobRunner.runInUIThread(fFeedView.getEditorControl(), new Runnable() {
+          @Override
           public void run() {
             Set<NewsEvent> restoredNews = null;
             Set<NewsEvent> updatedNews = null;
@@ -1049,6 +1059,7 @@ public class NewsContentProvider implements ITreeContentProvider {
             /* Refresh and update selection due to deletion */
             if (updateSelectionFromDelete) {
               fTableViewer.updateSelectionAfterDelete(new Runnable() {
+                @Override
                 public void run() {
                   refreshViewers(events, NewsEventType.REMOVED);
                 }
@@ -1066,6 +1077,7 @@ public class NewsContentProvider implements ITreeContentProvider {
       @Override
       public void entitiesDeleted(final Set<NewsEvent> events) {
         JobRunner.runInUIThread(fFeedView.getEditorControl(), new Runnable() {
+          @Override
           public void run() {
             Set<NewsEvent> deletedNews = null;
 

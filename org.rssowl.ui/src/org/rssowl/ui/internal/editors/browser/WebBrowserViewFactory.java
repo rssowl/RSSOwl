@@ -37,6 +37,7 @@ public class WebBrowserViewFactory implements IElementFactory {
   /*
    * @see org.eclipse.ui.IElementFactory#createElement(org.eclipse.ui.IMemento)
    */
+  @Override
   public IAdaptable createElement(IMemento memento) {
     String url = memento.getString(WebBrowserInput.URL);
     if (StringUtils.isSet(url)) {

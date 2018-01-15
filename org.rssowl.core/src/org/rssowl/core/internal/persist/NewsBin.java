@@ -75,6 +75,7 @@ public class NewsBin extends Mark implements INewsBin {
    * @see
    * org.rssowl.core.persist.INewsBin#addNews(org.rssowl.core.persist.INews)
    */
+  @Override
   public synchronized void addNews(INews news) {
     fNewsContainer.addNews(news);
   }
@@ -84,6 +85,7 @@ public class NewsBin extends Mark implements INewsBin {
    * org.rssowl.core.persist.INewsMark#containsNews(org.rssowl.core.persist.
    * INews)
    */
+  @Override
   public synchronized boolean containsNews(INews news) {
     return fNewsContainer.containsNews(news);
   }
@@ -91,6 +93,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs()
    */
+  @Override
   public synchronized List<NewsReference> getNewsRefs() {
     return fNewsContainer.getNews();
   }
@@ -98,6 +101,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsCount(java.util.Set)
    */
+  @Override
   public synchronized int getNewsCount(Set<State> states) {
     return fNewsContainer.getNewsCount(states);
   }
@@ -106,6 +110,7 @@ public class NewsBin extends Mark implements INewsBin {
    * @see
    * org.rssowl.core.persist.INewsBin#removeNews(org.rssowl.core.persist.INews)
    */
+  @Override
   public synchronized void removeNews(INews news) {
     fNewsContainer.removeNews(news);
   }
@@ -124,6 +129,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNews()
    */
+  @Override
   public synchronized List<INews> getNews() {
     return getNews(EnumSet.allOf(INews.State.class));
   }
@@ -131,6 +137,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNews(java.util.Set)
    */
+  @Override
   public List<INews> getNews(Set<State> states) {
     List<NewsReference> newsRefs;
     synchronized (this) {
@@ -143,6 +150,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.INewsMark#getNewsRefs(java.util.Set)
    */
+  @Override
   public synchronized List<NewsReference> getNewsRefs(Set<State> states) {
     return fNewsContainer.getNews(states);
   }
@@ -150,6 +158,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.IEntity#toReference()
    */
+  @Override
   public NewsBinReference toReference() {
     return new NewsBinReference(getIdAsPrimitive());
   }
@@ -157,6 +166,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.INewsMark#isGetNewsRefsEfficient()
    */
+  @Override
   public boolean isGetNewsRefsEfficient() {
     return true;
   }
@@ -165,6 +175,7 @@ public class NewsBin extends Mark implements INewsBin {
    * @see
    * org.rssowl.core.persist.INewsBin#updateNewsStates(java.util.Collection)
    */
+  @Override
   public synchronized boolean updateNewsStates(Collection<StatesUpdateInfo> statesUpdateInfos) {
     return fNewsContainer.updateNewsStates(statesUpdateInfos);
   }
@@ -172,6 +183,7 @@ public class NewsBin extends Mark implements INewsBin {
   /*
    * @see org.rssowl.core.persist.INewsBin#removeNews(java.util.Set)
    */
+  @Override
   public synchronized Collection<NewsReference> removeNews(Set<State> states) {
     return fNewsContainer.removeNews(states);
   }

@@ -56,6 +56,7 @@ public final class Migrations {
      * @see
      * org.rssowl.core.internal.persist.service.Migration#getDestinationFormat()
      */
+    @Override
     public int getDestinationFormat() {
       return fDestinationFormat;
     }
@@ -63,6 +64,7 @@ public final class Migrations {
     /*
      * @see org.rssowl.core.internal.persist.service.Migration#getOriginFormat()
      */
+    @Override
     public int getOriginFormat() {
       return fOriginFormat;
     }
@@ -77,6 +79,7 @@ public final class Migrations {
      * .core.internal.persist.service.ConfigurationFactory, java.lang.String,
      * org.eclipse.core.runtime.IProgressMonitor)
      */
+    @Override
     public MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
       boolean reindex = false;
       boolean optimize = false;

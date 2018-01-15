@@ -53,7 +53,7 @@ public class JSONException extends Exception {
    * @see java.lang.Throwable#getCause()
    */
   @Override
-  public Throwable getCause() {
+  public synchronized Throwable getCause() {
     return this.cause;
   }
 }

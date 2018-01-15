@@ -85,6 +85,7 @@ public final class FolderDAOImpl extends AbstractEntityDAO<IFolder, FolderListen
   /*
    * @see org.rssowl.core.persist.dao.IFolderDAO#loadRoots()
    */
+  @Override
   public Collection<IFolder> loadRoots() {
     try {
       Query query = fDb.query();
@@ -101,6 +102,7 @@ public final class FolderDAOImpl extends AbstractEntityDAO<IFolder, FolderListen
   /*
    * @see org.rssowl.core.persist.dao.IFolderDAO#reparent(java.util.List)
    */
+  @Override
   public final void reparent(List<ReparentInfo<IFolderChild, IFolder>> reparentInfos) {
     Assert.isNotNull(reparentInfos, "reparentInfos"); //$NON-NLS-1$
     if (reparentInfos.isEmpty())

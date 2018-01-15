@@ -37,15 +37,18 @@ public class NewsBinAdapter implements NewsBinListener {
   /*
    * @see org.rssowl.core.persist.event.EntityListener#entitiesAdded(java.util.Set)
    */
+  @Override
   public void entitiesAdded(Set<NewsBinEvent> events) {}
 
   /*
    * @see org.rssowl.core.persist.event.EntityListener#entitiesDeleted(java.util.Set)
    */
+  @Override
   public void entitiesDeleted(Set<NewsBinEvent> events) {}
 
   /*
    * @see org.rssowl.core.persist.event.EntityListener#entitiesUpdated(java.util.Set)
    */
+  @Override
   public void entitiesUpdated(Set<NewsBinEvent> events) {}
 }

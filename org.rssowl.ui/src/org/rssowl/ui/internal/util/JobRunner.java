@@ -115,6 +115,7 @@ public class JobRunner {
 
     if (!widget.isDisposed()) {
       widget.getDisplay().syncExec(new Runnable() {
+        @Override
         public void run() {
           if (!widget.isDisposed())
             runnable.run();
@@ -130,6 +131,7 @@ public class JobRunner {
     Assert.isNotNull(runnable);
 
     Display.getDefault().syncExec(new Runnable() {
+      @Override
       public void run() {
         runnable.run();
       }
@@ -243,6 +245,7 @@ public class JobRunner {
   public static void runDelayedFlagInversion(int delay, final AtomicBoolean flag) {
     flag.set(!flag.get());
     runInBackgroundThread(delay, new Runnable() {
+      @Override
       public void run() {
         flag.set(!flag.get());
       }

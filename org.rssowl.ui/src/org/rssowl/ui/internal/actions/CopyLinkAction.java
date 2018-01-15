@@ -156,6 +156,7 @@ public class CopyLinkAction extends Action implements IActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#run(org.eclipse.jface.action.IAction)
    */
+  @Override
   public void run(IAction action) {
     run();
   }
@@ -163,6 +164,7 @@ public class CopyLinkAction extends Action implements IActionDelegate {
   /*
    * @see org.eclipse.ui.IActionDelegate#selectionChanged(org.eclipse.jface.action.IAction, org.eclipse.jface.viewers.ISelection)
    */
+  @Override
   public void selectionChanged(IAction action, ISelection selection) {
     fSelection = selection;
   }

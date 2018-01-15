@@ -179,6 +179,7 @@ public class AssignLabelsDialog extends Dialog {
     fLabelsInput.setText(getLabelsValue());
     fLabelsInput.setSelection(fLabelsInput.getText().length());
     fLabelsInput.addModifyListener(new ModifyListener() {
+      @Override
       public void modifyText(ModifyEvent e) {
         onModifyName();
       }
@@ -198,9 +199,11 @@ public class AssignLabelsDialog extends Dialog {
 
     /* Load proposals in the Background */
     JobRunner.runDelayedInBackgroundThread(new Runnable() {
+      @Override
       public void run() {
         if (!fLabelsInput.isDisposed()) {
           Set<String> values = new TreeSet<String>(new Comparator<String>() {
+            @Override
             public int compare(String o1, String o2) {
               return o1.compareToIgnoreCase(o2);
             }
@@ -244,6 +247,7 @@ public class AssignLabelsDialog extends Dialog {
 
     /* Sort by Sort Key to respect order */
     Set<ILabel> labels = new TreeSet<ILabel>(new Comparator<ILabel>() {
+      @Override
       public int compare(ILabel l1, ILabel l2) {
         if (l1.equals(l2))
           return 0;

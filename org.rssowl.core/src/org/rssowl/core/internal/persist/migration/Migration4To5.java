@@ -41,6 +41,7 @@ public class Migration4To5 implements Migration {
    * @see
    * org.rssowl.core.internal.persist.service.Migration#getDestinationFormat()
    */
+  @Override
   public int getDestinationFormat() {
     return 5;
   }
@@ -48,6 +49,7 @@ public class Migration4To5 implements Migration {
   /*
    * @see org.rssowl.core.internal.persist.service.Migration#getOriginFormat()
    */
+  @Override
   public int getOriginFormat() {
     return 4;
   }
@@ -58,6 +60,7 @@ public class Migration4To5 implements Migration {
    * .internal.persist.service.ConfigurationFactory, java.lang.String,
    * org.eclipse.core.runtime.IProgressMonitor)
    */
+  @Override
   public MigrationResult migrate(ConfigurationFactory configFactory, String dbFileName, IProgressMonitor progressMonitor) {
     File dbLastBackUpFile = DBManager.getDefault().getDBLastBackUpFile();
     dbLastBackUpFile.delete();

@@ -134,6 +134,7 @@ public final class NewsDAOImpl extends AbstractEntityDAO<INews, NewsListener, Ne
    * @see org.rssowl.core.persist.dao.INewsDAO#setState(java.util.Collection,
    * org.rssowl.core.persist.INews.State, boolean, boolean)
    */
+  @Override
   public void setState(Collection<INews> news, State state, boolean affectEquivalentNews, boolean force) throws PersistenceException {
     if (news.isEmpty())
       return;
@@ -315,6 +316,7 @@ public final class NewsDAOImpl extends AbstractEntityDAO<INews, NewsListener, Ne
    * org.rssowl.core.persist.dao.INewsDAO#loadAll(org.rssowl.core.persist.reference
    * .FeedLinkReference, java.util.Set)
    */
+  @Override
   public Collection<INews> loadAll(FeedLinkReference feedRef, Set<State> states) {
     Assert.isNotNull(feedRef, "feedRef"); //$NON-NLS-1$
     Assert.isNotNull(states, "states"); //$NON-NLS-1$
@@ -349,6 +351,7 @@ public final class NewsDAOImpl extends AbstractEntityDAO<INews, NewsListener, Ne
    * @see org.rssowl.core.persist.dao.INewsDAO#setState(java.util.Set,
    * org.rssowl.core.persist.INews.State, boolean)
    */
+  @Override
   public void setState(Set<State> originalStates, State state, boolean affectEquivalentNews) throws PersistenceException {
     Assert.isNotNull(originalStates, "states"); //$NON-NLS-1$
     Assert.isNotNull(state, "state"); //$NON-NLS-1$

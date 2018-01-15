@@ -62,6 +62,7 @@ public class DownloadJobQueue {
     /*
      * @see org.rssowl.core.util.ITask#run(org.eclipse.core.runtime.IProgressMonitor)
      */
+    @Override
     public IStatus run(IProgressMonitor monitor) {
       return run(null, monitor);
     }
@@ -214,6 +215,7 @@ public class DownloadJobQueue {
         /* Perform the Operation if not yet Cancelled */
         if (!monitor.isCanceled()) {
           SafeRunner.run(new LoggingSafeRunnable() {
+            @Override
             public void run() throws Exception {
               status[0] = task.run(job, monitor);
 

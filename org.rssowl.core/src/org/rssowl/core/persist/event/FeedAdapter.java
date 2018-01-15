@@ -37,15 +37,18 @@ public class FeedAdapter implements FeedListener {
   /*
    * @see org.rssowl.core.model.events.FeedListener#entitiesAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<FeedEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.FeedListener#entitiesDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<FeedEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.FeedListener#entitiesUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<FeedEvent> events) { }
 }

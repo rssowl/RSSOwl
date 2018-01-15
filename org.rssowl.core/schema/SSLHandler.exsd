@@ -54,10 +54,10 @@ By default, RSSOwl will not validate SSL connections. Use this extension point t
          <attribute name="class" type="string" use="required">
             <annotation>
                <documentation>
-                  A class that extends &lt;samp&gt;org.apache.commons.httpclient.protocol.SecureProtocolSocketFactory&lt;/samp&gt;.
+                  A class that extends &lt;samp&gt;org.apache.http.conn.socket.ConnectionSocketFactory&lt;/samp&gt;.
                </documentation>
                <appinfo>
-                  <meta.attribute kind="java" basedOn="org.apache.commons.httpclient.protocol.SecureProtocolSocketFactory"/>
+                  <meta.attribute kind="java" basedOn="org.apache.http.conn.socket.ConnectionSocketFactory:"/>
                </appinfo>
             </annotation>
          </attribute>
@@ -82,7 +82,7 @@ By default, RSSOwl will not validate SSL connections. Use this extension point t
 The following is an example for using the extension point:
 &lt;pre&gt;&lt;extension point=&quot;org.rssowl.core.SSLHandler&quot;&gt;
       &lt;sslhandler
-            class=&quot;org.rssowl.core.internal.connection.EasySSLProtocolSocketFactory&quot;&gt;
+            class=&quot;org.rssowl.core.internal.connection.EasySSLConnectionSocketFactory&quot;&gt;
       &lt;/sslhandler&gt;
 &lt;/extension&gt;&lt;/pre&gt;
       </documentation>

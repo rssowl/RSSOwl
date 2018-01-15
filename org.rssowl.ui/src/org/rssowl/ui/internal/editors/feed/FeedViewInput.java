@@ -74,6 +74,7 @@ public class FeedViewInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#exists()
    */
+  @Override
   public boolean exists() {
     return !fIsDeleted;
   }
@@ -94,6 +95,7 @@ public class FeedViewInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getImageDescriptor()
    */
+  @Override
   public ImageDescriptor getImageDescriptor() {
 
     /* Book Mark */
@@ -128,6 +130,7 @@ public class FeedViewInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getName()
    */
+  @Override
   public String getName() {
     return fMark.getName();
   }
@@ -135,16 +138,19 @@ public class FeedViewInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getPersistable()
    */
+  @Override
   public IPersistableElement getPersistable() {
     boolean restore = Platform.getPreferencesService().getBoolean(RESTORE_QUALIFIER, RESTORE_KEY, true, null);
     if (!restore)
       return null;
 
     return new IPersistableElement() {
+      @Override
       public String getFactoryId() {
         return FACTORY_ID;
       }
 
+      @Override
       public void saveState(IMemento memento) {
         memento.putString(MARK_INPUT_CLASS, fMark.getClass().getName());
         memento.putString(MARK_INPUT_ID, String.valueOf(fMark.getId()));
@@ -155,6 +161,7 @@ public class FeedViewInput implements IEditorInput {
   /*
    * @see org.eclipse.ui.IEditorInput#getToolTipText()
    */
+  @Override
   public String getToolTipText() {
     return fMark.getName();
   }
@@ -162,6 +169,7 @@ public class FeedViewInput implements IEditorInput {
   /*
    * @see org.eclipse.core.runtime.IAdaptable#getAdapter(java.lang.Class)
    */
+  @Override
   @SuppressWarnings("unchecked")
   public Object getAdapter(Class adapter) {
     return Platform.getAdapterManager().getAdapter(this, adapter);

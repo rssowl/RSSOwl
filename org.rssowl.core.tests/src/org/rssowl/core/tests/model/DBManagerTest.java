@@ -221,14 +221,17 @@ public class DBManagerTest extends LargeBlockSizeTest {
 
     final Set<NewsEvent> newsEvents = new HashSet<NewsEvent>();
     NewsListener newsListener = new NewsListener() {
+      @Override
       public void entitiesAdded(Set<NewsEvent> events) {
         fail("Only update events expected");
       }
 
+      @Override
       public void entitiesDeleted(Set<NewsEvent> events) {
         fail("Only update events expected");
       }
 
+      @Override
       public void entitiesUpdated(Set<NewsEvent> events) {
         newsEvents.addAll(events);
       }
@@ -2021,14 +2024,17 @@ public class DBManagerTest extends LargeBlockSizeTest {
     NewsListener newsListener = null;
     try {
       newsListener = new NewsListener() {
+        @Override
         public void entitiesAdded(Set<NewsEvent> events) {
           fail("No events should have been fired, but NewsListener#entitiesAdded() was called");
         }
 
+        @Override
         public void entitiesDeleted(Set<NewsEvent> events) {
           fail("No events should have been fired, but NewsListener#newsDeleted() was called.");
         }
 
+        @Override
         public void entitiesUpdated(Set<NewsEvent> events) {
           fail("No events should have been fired, but NewsListener#newsUpdated() was called.");
         }

@@ -37,15 +37,18 @@ public class AttachmentAdapter implements AttachmentListener {
   /*
    * @see org.rssowl.core.model.events.AttachmentListener#attachmentAdded(java.util.List)
    */
+  @Override
   public void entitiesAdded(Set<AttachmentEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.AttachmentListener#attachmentDeleted(java.util.List)
    */
+  @Override
   public void entitiesDeleted(Set<AttachmentEvent> events) { }
 
   /*
    * @see org.rssowl.core.model.events.AttachmentListener#attachmentUpdated(java.util.List)
    */
+  @Override
   public void entitiesUpdated(Set<AttachmentEvent> event) { }
 }
