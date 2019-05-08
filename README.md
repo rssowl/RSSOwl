@@ -1,3 +1,7 @@
+Note:
+====
+Please use [Xyrio/RSSOwlnix](https://github.com/Xyrio/RSSOwlnix) which is the new place for RSSOwl.
+
 RSSOwl is unmaintained and has several known vulnerabilities. Please do not use it any more.
 ====
 See [#7](https://github.com/rssowl/RSSOwl/issues/7) and [#8](https://github.com/rssowl/RSSOwl/issues/8) for details about maintenance. Furthermore, RSSOwl does not work with Java 9, but it may still work with Java 8.
